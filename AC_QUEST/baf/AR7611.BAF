@@ -1,0 +1,99 @@
+IF
+	PartyHasItem("ACQ18003")
+	Global("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",1)
+		CreateCreature("ACQ18611",[641.451],0)
+		CreateCreature("ACQ18611",[641.451],0)
+		CreateCreature("ACQ18611",[641.451],0)
+		CreateCreature("ACQ18611",[641.451],0)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER1)
+	HasItem("ACQ18003",PLAYER1)
+	NumDeadLT("ACQ18611",4)
+	Global("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%BaldursGateDocks_IronThrone_Cellar%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER2)
+	HasItem("ACQ18003",PLAYER2)
+	NumDeadLT("ACQ18611",4)
+	Global("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%BaldursGateDocks_IronThrone_Cellar%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER3)
+	HasItem("ACQ18003",PLAYER3)
+	NumDeadLT("ACQ18611",4)
+	Global("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%BaldursGateDocks_IronThrone_Cellar%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER4)
+	HasItem("ACQ18003",PLAYER4)
+	NumDeadLT("ACQ18611",4)
+	Global("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%BaldursGateDocks_IronThrone_Cellar%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER5)
+	HasItem("ACQ18003",PLAYER5)
+	NumDeadLT("ACQ18611",4)
+	Global("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%BaldursGateDocks_IronThrone_Cellar%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER6)
+	HasItem("ACQ18003",PLAYER6)
+	NumDeadLT("ACQ18611",4)
+	Global("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%BaldursGateDocks_IronThrone_Cellar%",10)
+		Continue()
+END
+
+IF
+	RealGlobalTimerExpired("ACELMINSTERTIMER","%BaldursGateDocks_IronThrone_Cellar%")
+	Global("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",2)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%BaldursGateDocks_IronThrone_Cellar%",1)
+		Continue()
+END

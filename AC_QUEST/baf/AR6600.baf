@@ -1,0 +1,11 @@
+IF
+	Dead("ACQ17003")
+	Global("ACGotKBookJournal","%LionsWay%",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACGotKBookJournal","%LionsWay%",1)
+		EraseJournalEntry(@2000001)
+		EraseJournalEntry(@2000002)
+		EraseJournalEntry(@2000003)
+		AddJournalEntry(@2000006,QUEST_DONE)
+END

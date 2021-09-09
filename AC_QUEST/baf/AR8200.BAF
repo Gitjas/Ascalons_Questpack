@@ -1,0 +1,18 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		TriggerActivation("ACDOOR01",TRUE)
+		TriggerActivation("%SEBaldursGate_Door1301%",FALSE)
+		Continue()
+END
+
+IF
+	Global("ACQ1NASHKELL","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ1NASHKELL","GLOBAL",2)
+		TriggerActivation("ACDOOR01",FALSE)
+		TriggerActivation("%SEBaldursGate_Door1301%",TRUE)
+		Continue()
+END

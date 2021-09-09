@@ -1,0 +1,8 @@
+IF
+	PartyHasItem("ACQLET01")
+	Global("ACDIARY","AR4405",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACDIARY","AR4405",1)
+		AddJournalEntry(@10021,QUEST)
+END

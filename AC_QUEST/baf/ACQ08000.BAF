@@ -1,0 +1,72 @@
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		UseItem("potn10",Myself)
+		Wait(1)
+		DropItem("ACQLET03",[-1.-1])
+		DestroySelf()
+END
+
+IF
+	GlobalGT("ACSNAKEPLOT","GLOBAL",3)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	%BGT_VAR%
+	See(player1)
+	Race(player1,DWARF)
+THEN
+	RESPONSE #100
+		Dialogue(player1)
+END
+
+IF
+	%BGT_VAR%
+	See(player2)
+	Race(player2,DWARF)
+	Global("ACQLEAFLET","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQLEAFLET","GLOBAL",1)
+		Dialogue(player2)
+END
+
+IF
+	%BGT_VAR%
+	See(player3)
+	Race(player3,DWARF)
+THEN
+	RESPONSE #100
+		Dialogue(player3)
+END
+
+IF
+	%BGT_VAR%
+	See(player4)
+	Race(player4,DWARF)
+THEN
+	RESPONSE #100
+		Dialogue(player4)
+END
+
+IF
+	%BGT_VAR%
+	See(player5)
+	Race(player5,DWARF)
+THEN
+	RESPONSE #100
+		Dialogue(player5)
+END
+
+IF
+	%BGT_VAR%
+	See(player6)
+	Race(player6,DWARF)
+THEN
+	RESPONSE #100
+		Dialogue(player6)
+END

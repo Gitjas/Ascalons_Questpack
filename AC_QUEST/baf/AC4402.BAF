@@ -1,0 +1,9 @@
+IF
+	Dead("ACQ10120")
+	Global("ACCRAZYMOFO","AR4401",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACCRAZYMOFO","AR4401",1)
+		EraseJournalEntry(@10014)
+		AddJournalEntry(@10019,QUEST)
+END

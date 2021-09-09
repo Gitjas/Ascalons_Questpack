@@ -1,0 +1,10 @@
+IF
+	Global("ACQ2SNAKESTART","GLOBAL",2)
+	InMyArea(PLAYER1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ2SNAKESTART","GLOBAL",3)
+		ClearAllActions()
+		StartCutSceneMode()
+		Dialog(PLAYER1)
+END

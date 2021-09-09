@@ -1,0 +1,103 @@
+IF
+	PartyHasItem("ACQ18003")
+	Global("ACQGIB","%CentralSewers%",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%CentralSewers%",1)
+		CreateCreature("ACQ18325",[3847.2830],0)
+		CreateCreature("ACQ18325",[3847.2830],0)
+		CreateCreature("ACQ18325",[305.1236],0)
+		CreateCreature("ACQ18325",[305.1236],0)
+		CreateCreature("ACQ18325",[3847.2830],0)
+		CreateCreature("ACQ18325",[3847.2830],0)
+		CreateCreature("ACQ18325",[305.1236],0)
+		CreateCreature("ACQ18325",[305.1236],0)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER1)
+	HasItem("ACQ18003",PLAYER1)
+	NumDeadLT("ACQ18325",8)
+	Global("ACQGIB","%CentralSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%CentralSewers%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%CentralSewers%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER2)
+	HasItem("ACQ18003",PLAYER2)
+	NumDeadLT("ACQ18325",8)
+	Global("ACQGIB","%CentralSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%CentralSewers%",2)
+		DisplayStringHead(PLAYER2,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%CentralSewers%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER3)
+	HasItem("ACQ18003",PLAYER3)
+	NumDeadLT("ACQ18325",8)
+	Global("ACQGIB","%CentralSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%CentralSewers%",2)
+		DisplayStringHead(PLAYER3,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%CentralSewers%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER4)
+	HasItem("ACQ18003",PLAYER4)
+	NumDeadLT("ACQ18325",8)
+	Global("ACQGIB","%CentralSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%CentralSewers%",2)
+		DisplayStringHead(PLAYER4,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%CentralSewers%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER5)
+	HasItem("ACQ18003",PLAYER5)
+	NumDeadLT("ACQ18325",8)
+	Global("ACQGIB","%CentralSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%CentralSewers%",2)
+		DisplayStringHead(PLAYER5,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%CentralSewers%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER6)
+	HasItem("ACQ18003",PLAYER6)
+	NumDeadLT("ACQ18325",8)
+	Global("ACQGIB","%CentralSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%CentralSewers%",2)
+		DisplayStringHead(PLAYER6,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%CentralSewers%",10)
+		Continue()
+END
+
+IF
+	RealGlobalTimerExpired("ACELMINSTERTIMER","%CentralSewers%")
+	Global("ACQGIB","%CentralSewers%",2)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%CentralSewers%",1)
+		Continue()
+END

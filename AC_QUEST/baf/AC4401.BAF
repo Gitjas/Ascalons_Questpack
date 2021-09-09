@@ -1,0 +1,9 @@
+IF
+	PartyHasItem("ACQBOOK4")
+	Global("ACEMERSONNOTES","AR4401",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACEMERSONNOTES","AR4401",1)
+		EraseJournalEntry(@10016)
+		AddJournalEntry(@10018,QUEST)
+END

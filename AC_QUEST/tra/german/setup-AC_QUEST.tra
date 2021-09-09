@@ -1,0 +1,733 @@
+/* @0    = */
+@1    = ~Ascalons Questpack~
+@2    = ~Ascalons Questpack findet keine gültige BG-Installation. Die Mod-Installation wird abgebrochen.~
+@3    = ~Bringe Virginie, dem unsichtbaren Wunderbunny, ein paar neue Tricks bei~
+@4    = ~Installiere Virginie, das unsichtbare Wunderbunny~
+
+@6    = ~Agnus~
+@7    = ~Agnus der Weiße~
+@8    = ~Teliel~
+@9    = ~Teliel Weidensänger~
+@10   = ~Udolf~
+@11   = ~Udolf Raukner~
+@12   = ~Frau Brunnstein~
+@13   = ~Aaron~
+@14   = ~Aaron Brunnstein~
+@15   = ~Gespenst~
+@16   = ~Barin~
+@17   = ~Waldläufer Barin~
+@18   = ~Gnoll-Boss~
+@19   = ~Gnoll Leibwache~
+@20   = ~Aarons Schutzring~
+@21   = ~Aarons Schutzring
+
+Dieser einfache Ring ist mit einem leichten Zauber versehen, um den Träger zu schützen. Die Gravur im Inneren besagt: "Für M. in Liebe von A."
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+RW-Bonus: -1~
+@22   = ~Kessy~
+@23   = ~Ugh~
+@24   = ~Hase~
+@25   = ~Kaninchenzüchter~
+@26   = ~Kaninchen~
+@27   = ~Ein kleines, weißes Kaninchen. Vielleicht das flauschigste das Ihr je gesehen habt.~
+@28   = ~Ein kleines, weißes Kaninchen. Es ist zwar nicht so flauschig wie Hopsi, aber welches Kaninchen ist das schon?~
+@29   = ~Perwell~
+@30   = ~Dies ist die Leiche von Perwell.~
+@31   = ~Elfenbogen~
+@32   = ~Aphriels Elfenbogen
+
+Schon in jungen Jahren zog die Elfe Aphriel durch die Wälder Faerûns und wurde zu einer der größten Waldläuferinnen der Gegenwart. Keine Fährte, der sie nicht folgen konnte und kein Übeltäter, der vor ihrem Bogen sicher war. Erst als sie bei einem Besuch in der Stadt Baldurs Tor einen ansässigen Menschenhändler traf und sich Hals über Kopf verliebte, hatten ihre Tage im Wald ein Ende. Aus der Liaison wurde der junge Halbelf Perwell geboren, und als dieser von den Räubern der Schwertküste entführt wurde brach Aphriel ein letztes Mal in die Wälder auf. Auf dieser Reise gelangte ihr Bogen in die Hände von <CHARNAME>.
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +2 (Geschoß)
+ETW0-Bonus: -3
+Gewicht: 2
+Initiativefaktor: 5
+Mindeststärke: 6
+Fertigkeit: Langbogen
+Typ: 2-händig
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Klerikern
+- Magiern
+- Mönchen~
+@33   = ~Aphriel~
+@34   = ~Aiwell~
+@35   = ~Werwolf~
+@36   = ~Tonder~
+@37   = ~Tonders Leiche~
+@38   = ~Nach dem Tod hat sich der Werwolf wieder in einen Menschen zurückverwandelt.~
+@39   = ~Gurilbeeren~
+@40   = ~Gurilbeeren sind klassische Heilmittel auf Faerûn und werden für die verschiedensten Anwendungen benutzt. Gerade um Leiden der "besonderen" Art zu lindern sind sie sehr beliebt, weswegen viele Läden im Umkreis von leichten Damen diese Beeren im Angebot haben.~
+@41   = ~Aiwells Blut~
+@42   = ~Aiwell hat Euch einen großen Teil ihres Blutes gegeben, um ihren Mann Tonder zu retten.~
+@43   = ~Heiltrank für Werwölfe~
+@44   = ~Dieser Heiltrank enthält hauptsächlich Tollkirschenblüten.~
+@45   = ~Dieser Heiltrank enthält hauptsächlich Gurilbeeren.~
+@46   = ~Dieser Heiltrank enthält hauptsächlich Aiwells Blut.~
+@47   = ~Spiegelschild +1~
+@48   = ~Dieser Schild ist auf Hochglanz poliert und offensichtlich magisch. Kratzer verschwinden und Blut und Schmutz perlt einfach von seiner spiegelnden Oberfläche ab. Es steht zu vermuten, dass er sogar dem Blick eines Basilisken standhalten kann.
+
+EIGENSCHAFTEN:
+
+Der Träger ist vor allen Arten der Versteinerung geschützt, auch vor Blickangriffen.
+
+RK-Bonus: -1
+Gewicht: 7
+Mindeststärke: 12
+
+Kann nicht verwendet werden von:
+- Barden
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~
+@49   = ~Karlinis Zauberbuch~
+@50   = ~In diesem Buch hat der große Karlini, eine der schillerndsten Gestalten der Gnomenheit, seine Experimente und Zaubersprüche aufgeschrieben. Die Schrift ist wirr und krakelig, wahrscheinlich könnte nur jemand, der genauso wahnsinnig ist wie Karlini, dieses Gekritzel entziffern.~
+@51   = ~Ygnatz~
+@52   = ~Ygnatius Bombastus~
+@53   = ~Karlini~
+@54   = ~Geraldos Schlüssel~
+@55   = ~Der Schlüssel öffnet die Tür von Geraldos Haus im Zemtrum von Baldurs Tor.~
+@56   = ~Kreischlingsfell~
+@57   = ~Die ist das Fell eines mutierten Kreischlings.~
+@58   = ~Rüstung aus Kreischlingsleder
+
+Eines der Nebenprodukte von Geraldos Arbeit mit Kreischlingen war eine hohe Lederproduktion. Da der Maler für seine Farben nur das Fell benötigte, suchte er für die dicke Haut der Monster eine andere Verwendung... und fand sie. Leider hatte das Kreischlingsleder einige nicht erwartete Nebenwirkungen und so wartete Geraldo ungeduldig darauf, dass er sein Experiment einer leichtgläubigen Seele andrehen konnte.
+
+Die Chronisten gehen davon aus, dass sich der große Geraldo ins Fäustchen lacht bei der Vorstellung, irgendein Idiot könnte seine Rüstung tatsächlich nützlich finden.
+
+EIGENSCHAFTEN:
+
+Der Charakter verfärbt sich blau.
+
+Kann nur durch Fluch brechen wieder abgenommen werden.
+
+Rüstungsklasse: 4
+Charisma: -3
+Widerstand gg. Geschosswaffen: +10%
+Gewicht: 7
+Mindeststärke: 6
+
+Kann nicht verwendet werden von:
+- Magiern
+- Mönchen~
+@59   = ~Elminster der Vogel~
+@60   = ~Elminster ist Geraldos zahmer Vogel, obwohl selbst dieser nicht so genau weiß welcher Gattung er angehört. Der Vogel hat einen klugen Blick und eine gehörige Abneigung gegen Kreischlinge. Sobald er einen wittert äußert er sich in einem lauten "Kiwitt".
+
+Ohne den Vogel dürfte es unmöglich sein in den Kellern und Kanälen die Kreischlinge aufzuspüren, achtet also sorgsam auf ihn.~
+@61   = ~Geraldo~
+@62   = ~Geraldo der Prächtige~
+@63   = ~Mandy~
+@64   = ~Ashley~
+@65   = ~Cindy~
+@66   = ~Schlüssel~
+@67   = ~Ein kleiner Schlüssel, der so etwas wie ein Fach in der Wand öffnet.~
+@68   = ~Lagerhausschlüssel~
+@69   = ~Dieser Schlüssel öffnet das Lagerhaus im Süden der Stadt. Die Schlangen Abbathors haben dort ihren Unterschlupf.~
+@70   = ~Brief~
+@71   = ~Mulahey,
+
+wir beobachten Eure Anstrengungen nun schon eine ganze Weile und sind äußerst beeindruckt. Eine Zusammenarbeit zwischen Euch und unserer Organisation würde sich auf lange Sicht als profitabel herausstellen. Wenn Ihr mit uns Kontakt aufnehmen wollt, dann trefft unseren Kontaktman Tarasch Schwarzhelm nachts in Beregost. Er wird an der Steinsäule im Zentrum der Stadt auf Euch warten.
+
+Dem Gott den Ruhm und der Schlange die Juwelen!~
+@72   = ~Tarash,
+
+Nun ist es amtlich. Bashrik Funkenhammer ist an die Schwertküste gereist! Dieser verdammte Wohltäter wird uns alles vermiesen. Nach unseren Informationen reist er mit dieser Elfenschlampe von Baldurs Tor aus nach Süden... wenn er an der Kreuzung vom Weg des Löwen ankommt werden wir ihm mal eine gehörige Überraschung bereiten!
+
+Dem Gott den Ruhm und der Schlange die Juwelen!~
+@73   = ~Flugblatt~
+@74   = ~Zwerge der Oberwelt!
+
+Wir wissen wie ihr euch fühlt! Die Langhachsen haben nichts besseres zu tun als euch am Bart über den Tisch zu ziehen, die Spitzohren lachen über euch und die Tiefen haben sich von euch abgewandt!
+
+Aber ihr seid nicht allein. Vater Abbathor kümmert sich um seine Kinder. Auch dann, wenn Moradin euch die Fackel ausbläst. Wollt Ihr auch zu Abbathors Familie gehören? Dann kommt in die Unterkeller und fragt nach Draglon!
+
+Dem Gott den Ruhm und der Schlange die Juwelen!~
+@75   = ~Notizen~
+@76   = ~Dieses zusammengerollte Bündel loser Blätter scheint das Vorgehen der Schlangen Abbathors weitgehend zusammen zu fassen. Anscheinend war es von Anfang an Ihr Plan, ein altes zwergisches Gerät namens Gundmagtor zu erobern, was in der Gemeinsprache so viel bedeutet wie "Rufer der schwarzen Seelen". Der Hauptschlag des Kultes scheint sich auf Nashkell zu konzentrieren und die Notiz "<CHARNAME> hat Mulahey getötet, Minen sind frei" verheißt nichts gutes.~
+@77   = ~Dieser <PRO_RACE> <CHARNAME>, der für Wostok arbeitet, ist auf dem Weg. Nehmt Euch einen der Wüter und einen Boten mit. Der Bote soll das Gundmagtor bergen und zu uns bringen, Ihr beide wartet auf <CHARNAME> und macht <PRO_HIMHER> ein Ende. Kommt danach zu uns, damit wir die nächsten Schritte besprechen können.
+
+L~
+@78   = ~Lugosch, treuer Diener!
+
+Wir begrüßen Eure Bemühung, die Eisenmine in Nashkell unter Eure Kontrolle zu bringen. Allerdings haben wir noch ein weiteres Anliegen: Behaltet <CHARNAME> von Kerzenburg im Auge. Der Befehl kommt von ganz unten und Ihr wisst, was das heißt.
+
+Dem Gott den Ruhm und der Schlange die Juwelen!~
+@79   = ~Lugoschs Tagebuch~
+@80   = ~Lugosch Grauhemd hat seinen Weg vom kleinen Kultisten bis zum Abbathorpriester mit fein säuberlicher Handschrift festgehalten. Jede Zeile strotzt vor Selbstvertrauen und Arroganz. Er bescheibt, wie der Kult in Amn Fuß fasste und er selbst als Handlanger der Lurraxols in Handelstreff angeworben wurde. Der Kult entwickelte sich und unterwanderte schon bald die größeren Städte, nur um sich an Athkalta und den dort residierenden Schattendieben die Zähne auszubeißen. Lugosch, der mittlerweile zum Priester aufgestiegen war, wurde von den Kultführern abgerufen, sich in Richtung Norden zu orientieren und in Baldurs Tor weiter zu arbeiten.
+
+Die letzten Einträge des Buches handeln von den Bemühungen, mit Mulahey in der Nashkelmine in Kontakt zu treten, von der rüden Abfuhr die der Halbork den Zwergen erteilte und von der hämischen Schadenfreude, als <CHARNAME> die Mine befreite. Lugosch witterte seine Chance und führte einen schnellen Schlag, um dem Kult eine gut laufende Eisenmine einzuverleiben.~
+@81   = ~Emersons Notizen~
+@82   = ~Emerson, der Vorarbeiter der Nashkellmine, hat in diesem wirren Haufen von Blättern und Zetteln seine Berechnungen und Erfahrungen aufgeschrieben. Für jemanden, der im Bergbau arbeitet, ist dieser Wust an Informationen sicherlich eine Goldgrube. Für Euch jedoch sind die Notizen nutzlos.~
+@83   = ~Tagebuch~
+@84   = ~Das Buch sieht schon sehr alt aus und hat einiges durchgemacht. Einige Seiten sind zerrissen und andere durchstochen, manche angesengt und ein großer Teil des Buches ist mit Blut verschmiert. Auch wenn Ihr den Namen des Priesters nicht entziffern könnt, so scheint der alte Wanderer einiges durchgemacht zu haben - Reisen mit einer Abenteurergruppe, Gewissenkonflikte um das "wahre" Zwergendasein und schließlich die Verbannung aus seinem Clan. Dieser Verlust brachte den Zwerg, dem seine Familie über alles ging, erst um den Verstand und dann direkt in die Arme der Schlangen.~
+@85   = ~Bashriks Hammer +2~
+@86   = ~Der Moradinpriester Bashrik Funkenhammer galt in den Kreisen liberal einsteller Zwerge als weise und wahrhaftig. Er setzte sich engagiert gegen die Abspaltung der Oberweltzwerge ein und genoss allgemein ein hohes Ansehen. Dieser Hammer, geladen mit den Blitzen Moradins, war seine größte Waffe im Kampf gegen das Böse.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (Wucht)
+Schadensbonus: +1 (Elektrizität)
+ETW0-Bonus: -2
+Gewicht: 5
+Initiativefaktor: 2
+Mindeststärke: 9
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Dieben
+- Druiden
+- Magiern
+- Mönchen~
+@87   = ~Bashriks Tagebuch~
+@88   = ~Das Buch ist mit säuberlicher Handschrift geführt und berichtet von Bashrik Funkenhammers letzter Reise. Bashrik war einem Kult auf den Fersen, der sich selbst "Die Schlangen Abbathors" nennt. Abbathor, der einzige böse Gott unter den Morndinsamman, gilt bei ihnen als Befreier des Zwergenvolkes und als Schutzpatron der Oberweltzwerge.
+
+Viel mehr könnt Ihr nicht aus dem Buch erfahren, denn Bashrik hat die Aufzeichnungen augenscheinlich in erster Linie für Eingeweihte verfasst. Einzig der letzte Eintrag bietet einen Anhaltspunkt, wenn Ihr der Sache nachgehen wollt:
+
+"Habe mich heute von Wostok getrennt. Während Mirjala und ich unser Glück im Süden versuchen werden, nimmt Wostok die große Stadt in Augenschein. Wir werden uns im Tempel des Helm wiedertreffen, sobald ich nähere Informationen habe.
+
+Nachtrag: Nachdem ich den Attentäter, der im Freundlichen Arm auf uns gewartet hat, einmal gehörig durch die Mangel gedreht habe, kenne ich jetzt wenigstens einen Namen. Ein gewisser Draglon scheint in den Unterkellern die Geschäfte des Kultes zu regeln. Nun, das hat Zeit bis ich wieder da bin."
+
+(Wenn Ihr der Geschichte um den Kult nachgehen wollt, dann ist es von Vorteil das Buch zu behalten)~
+@89   = ~Artefakt~
+@90   = ~Zwergisches Artefakt~
+@91   = ~Was genau dieses Artefakt macht ist Euch unbekannt. Die Schlangen Abbathors wollen es, das ist wohl genug Information.~
+@92   = ~Gundmagtor~
+@93   = ~Die Geschichte dieses Artefaktes liegt im Dunkeln. Was Ihr Euch aus den paar Fetzen zusammenreimen könnt, die Ihr bisher erfahren habt, und wenn Ihr die paar uralten Zwergenrunen, die das Gerät überziehen, richtig deutet, dann dient das Artefakt auf irgendeine Art und Weise dazu, die Vorväter der Zwerge zu kontaktieren und ihre Energie in Schattenhafte Wesen umzuleiten.
+
+Nach allem, was Ihr über die alten Zwerge wisst, kommt so eine Tat dem größten Sakrileg gleich zu dem ein Zwerg fähig sein mag. Die Ruhe der Toten ist heilig und nur äußerst verdorbene Seelen würden es wagen sie zu brechen.~
+@94   = ~Tarash~
+@95   = ~Assasine~
+@96   = ~Bashrik~
+@97   = ~Mirjala~
+@98   = ~Draglon~
+@99   = ~Zwerg~
+@100  = ~Kultist~
+@101  = ~Abbathor Fanatiker~
+@102  = ~Abbathor Kleriker~
+@103  = ~Lugosch~
+@104  = ~Galder~
+@105  = ~Therk~
+@106  = ~Jarger~
+@107  = ~Jarger Goldbart~
+@108  = ~Wostok~
+@109  = ~Wostok Hammerkopf~
+@110  = ~Jassir~
+@111  = ~Jenna~
+@112  = ~Schatten~
+@113  = ~Verrückter Dumathoinpriester~
+@114  = ~Larn~
+@115  = ~Bob~
+@116  = ~Ron~
+@117  = ~Hank~
+@118  = ~Die Schlangen Abbathors~
+@119  = ~Lugosch und seine Mannen sind tot und die Nashkellmine von ihrem Übel befreit. Dennoch hat dieser Sieg mehr Fragen als Antworten aufgeworfen. Sind die Zwerge, die sich dem Kult angeschlossen haben, tatsächlich nichts anderes als Verstoßene, die eine neue Heimat suchen? Wenn ja, warum fordern die Hintermänner der Schlangen dann so nachdrücklich und vehement Euren Tod? Fragen, auf die es keine Antwort gibt, denn die Spur läuft hier ins Leere. Alles, was Euch nun zu tun bleibt, ist, mit Emerson zu sprechen und ihm davon zu berichten, dass die Minen wieder frei sind - und darauf zu hoffen, dass sich irgenwann alles finden wird.~
+@120  = ~Jasr~
+@121  = ~Jas~
+@122  = ~Jen~
+@123  = ~Emmi Wiesner~
+@124  = ~Bunger~
+
+
+
+@5000 = ~Heda! Auf ein Wort, wenn's beliebt!~
+@5001 = ~Hilfe! Ich brauche Hilfe!~
+@5002 = ~Bei den Göttern, helft mir!~
+@5003 = ~Wieso hilft mir denn keiner!~
+@5004 = ~Wuuuuuuuäääääähähähähähähääääääääh!~
+@5005 = ~Hooooopsiiiiiiiii! Wuuuääääähähääääääääh!~
+@5006 = ~Uuuuääääääääääääh!~
+@5007 = ~Kommt schon raus!~
+@5008 = ~Ich weiß, dass Ihr zu Hause seid!~
+@5009 = ~Verdammter Mistkerl!~
+@5010 = ~So, das war's. Und wenn Ihr mich jetzt entschuldigt, ich habe zu tun.~
+@5011 = ~Ein Hinterhalt!~
+@5012 = ~Bande von Ignoranten...~
+@5013 = ~... unfähiger Sauhaufen...~
+@5014 = ~Sowas schimpft sich Abenteurer...~
+@5015 = ~Birrabollos ko valla allamatillo!~
+@5016 = ~Was zum...~
+@5017 = ~Mama!~
+@5018 = ~Abenteurer! Hallo!~
+@5019 = ~Kommt doch mal her!~
+@5020 = ~Ich muss mit Euch reden!~
+@5021 = ~KIWITT!~
+@6000 = ~Lasst mich doch nicht einfach stehen!~
+
+@6001 = ~Eingang zur Mine~ /* new for v2.01 - AC4400.bcs */
+@6002 = ~Lagerhaus~ /* new for v2.01 - AC4400.bcs */
+
+
+@10001 = ~Raukners Raufende Rabauken
+
+Ich habe in Beregost eine streitbare Abenteurergruppe aufgemischt.~
+@10002 = ~Raukners Raufende Rabauken
+
+Leider konnte ich der Gruppe in Beregost nicht helfen.~
+@10003 = ~Raukners Raufende Rabauken
+
+Ich konnte das Problem für die Abenteurergruppe lösen.~
+@10004 = ~Die Suche nach Hopsi
+
+Und siehe, es begab sich dass meine Recken und ich aufbrachen, zu finden den flauschigsten Hasen Faerûns welcher genannt wird Hopsi. Unsere Auftraggeberin wies uns zu Reisen gen Westen und wer weiß was für Gefahren dort lauern mögen.
+
+Was tut man nicht alles für tausendmillionen Goldstücke. Ich bin einfach für's Abenteurerleben wie geschaffen.~
+@10005 = ~Ein neuer bester Freund für Ugh
+
+Der Oger Ugh hat uns Hopsi zurückgegeben, so dass wir das Mädchen Kessy glücklich machen konnten. Jetzt ist es an mir, mein Versprechen einzulösen und ein Ersatzkaninchen zu finden - Kessy hat ihren Vater auf dem Jahrmarkt erwähnt.~
+@10006 = ~Die Suche nach Hopsi
+
+Wir konnten Kessy ihr Lieblingskaninchen wiederbringen. Jetzt weiß ich wieder warum ich gerne ein Abenteurer bin.~
+@10007 = ~Ein neuer bester Freund für Ugh
+
+Ugh ist mit seinem Kaninchen Klein-Klein-Ugh in die große weite Welt marschiert. Ein nobles Unterfangen, meiner Meinung nach kann es nicht genug große Burschen mit Nagetieren auf dieser Welt geben.~
+@10008 = ~Frau Brunnstein in Nashkell vermisst ihren Sohn
+
+Ich habe zugestimmt, Aaron Brunnstein zu suchen. Der Junge ist mit seiner Verlobten in die Berge gewandert und wurde nicht wieder gesehen. Der Waldläufer Barin im Tempel in Nashkell kann uns vielleicht weiterhelfen.~
+@10009 = ~Ein Geist in den Wolkenspitzen?
+
+Einige Bauern wollen in der Nacht eine merkwürdige Gestalt in der Nacht am Wasserfall gesehen haben.~
+@10010 = ~Die Suche nach Perwell
+
+Ich konnte Perwell in den Minen nicht finden... hoffentlich hat er es zusammen mit den anderen Sklaven nach draußen geschafft, bevor das Wasser einbrach.~
+@10011 = ~Die Schlangen Abbathors in Nashkell?
+
+Im Hauptquartier der Schlangen habe ich ein paar schlechte Neuigkeiten erfahren:  Anscheinend war es von Anfang an Ihr Plan, ein altes zwergisches Gerät namens Gundmagtor zu erobern, was in der Gemeinsprache so viel bedeutet wie "Rufer der schwarzen Seelen". Der Hauptschlag des Kultes scheint sich auf Nashkell zu konzentrieren.~
+@10012 = ~Die Schlangen Abbathors in Nashkell - Lugosch
+
+Lugosch, der Anführer der Schlangen Abbathors aus Baldurs Tor, ist persönlich in den Minen Nashkells. Dieses Mal wird es kein Entkommen für ihn geben.~
+@10013 = ~Die Schlangen Abbathors in Nashkell - Schattenhafte Zwerge
+
+Anscheinend wissen wir jetzt, wozu das Gundmagtor dient. Es ruft eine Art Schattenkämpfer hervor die unter dem Willen des Anwenders stehen. Ich muss dieses Gerät erobern oder zerstören.~
+@10014 = ~Die Schlangen Abbathors in Nashkell - Vermisste Arbeiter
+
+Offenbar sind noch ein paar Minenarbeiter in der Grube.~
+@10015 = ~Die Schlangen Abbathors in Nashkell - Monster
+
+Die Schlangen scheinen ein paar riesenhafte Monster in die Mine gebracht zu haben. Das dürfte die Bergarbeiten ziemlich behindern.~
+@10016 = ~Die Schlangen Abbathors in Nashkell - Emersons Aufzeichnungen
+
+Emerson vermisst seine Notizen seit dem Angriff der Schlangen Abbathors.~
+@10017 = ~Die Schlangen Abbathors in Nashkell - Monster
+
+Ich habe die beiden Erdkolosse getötet, die die Schlangen in die Mine geschafft haben.~
+@10018 = ~Die Schlangen Abbathors in Nashkell - Emersons Aufzeichnungen
+
+Ich konnte Emersons Aufzeichnungen finden. Er wird sich sicherlich freuen, sie wieder zu bekommen.~
+
+@10019 = ~Die Schlangen Abbathors in Nashkell - Vermisste Arbeiter
+
+Ich konnte die vermissten Arbeiter aus den Klauen eines verrückten Klerikers befreien. Emerson wird sich sicherlich über diese Nachricht freuen.~
+@10020 = ~Die Schlangen Abbathors
+
+Ich konnte den Vormarsch der Schlangen im Gebiet von Baldurs Tor stoppen, zumindest hoffe ich das. Lugosch Grauhemd ist tot und über andere Führer des Kultes liegen mir keine Informationen vor. Warum allerdings mein Name so explizit genannt wurde vermag ich nicht zu sagen. Vielleicht erfahre ich dieses Geheimnis eines Tages - ob ich mir das wünschen soll, weiß ich allerdings nicht.~
+@10021 = ~Ein toter Zwerg und eine Nachricht
+
+In Mulaheys Keller fand ich einen toten Zwerg, der eine Nachricht für Mulahey dabei hatte - offenbar war der Empfänger nicht sonderlich interessiert daran, was der Bote zu sagen hatte. Die Nachricht spricht von einem Treffen in Beregost. vielleicht sollte ich der Sache mal auf den Grund gehen.~
+@10022 = ~Ein mysteriöser Zwerg in Beregost
+
+Tarash Schwarzhelm war äußerst misstrauisch und agressiv - ich musste ihn töten. Unter seinen Sachen war auch ein Brief, der darauf hinwies, dass sich wohl nördlich der Stadt ein Attentat anbahnt...~
+@10023 = ~Ein mysteriöser Zwerg in Beregost
+
+Tarash Schwarzhelm sprach von den "Schlangen Abbathors" - wer auch immer das sein mag. Und er sagte, dass sich im Norden von Beregost etwas anbahnt... vielleicht sollte ich ein Auge auf die Sache haben und die Kreuzung beobachten.~
+@10024 = ~Der verlorene Sohn
+
+Wir haben Frau Brunnstein mitgeteilt, dass ihr Sohn tot ist.~
+@10025 = ~Der verlorene Sohn
+
+Ich habe Aaron in der Gnollfeste gefunden. Er erwartet uns auf der anderen Seite der Brücke.~
+@10026 = ~Der Geist in den Wolkenspitzen
+
+Aaron hat die Lösung für uns. Marina hat damals versprochen, nicht schlafen zu gehen, bevor sie seinen Verlobungsring erhalten würde. Ich soll ihr nun den Ring bringen.~
+@10027 = ~Der Geist in den Wolkenspitzen
+
+Es scheint als hätte sich alles in Wohlgefallen aufgelöst. Marina hat den Ring erhalten und kann nun endlich in Ruhe schlafen.~
+@10028 = ~Die Suche nach Perwell
+
+Die Elfe Aphriel sucht im Mantelwald nach ihrem Sohn Perwell. Die Räuber haben ihn entführt und anscheinend an einen geheimen Ort gebracht.~
+@10029 = ~Die Suche nach Perwell
+
+Ich habe Perwell tatsächlich in der Mine gefunden und nach draußen geschickt. Auf der einen Seite könnte ich ihn bestimmt durch den Wald bringen... aber auf der anderen Seite könnte Aphriel mir auch ein gutes Lösegeld für den Kleinen zahlen...~
+@10030 = ~Die Suche nach Perwell
+
+Ich habe Perwell tatsächlich in der Mine gefunden und nach draußen geschickt. Ich habe keine Zeit, mich mit Kindern herumzuplagen.~
+@10031 = ~Die Suche nach Perwell
+
+Aphriel sucht nun selbst nach ihrem Sohn. Immerhin habe ich ihn aus der Mine gerettet.~
+@10032 = ~Die Suche nach Perwell
+
+Aphriel und ihr Sohn sind wieder glücklich vereint.~
+@10033 = ~Von Wölfen und Männern
+
+Der Mann der Zauberin Aiwell hat sich wohl mit Lycanthropie angesteckt. Ich habe wohl verschiedene Möglichkeiten, das Problem zu lösen: Entweder mit einem Trank, den ich von Thalantyr bekommen kann, oder auf die althergebrachte Tour mit dem Schwert.~
+@10034 = ~Von Wölfen und Männern
+
+Thalantyr hat uns verschiedene Möglichkeiten aufgezählt. Er kann den Trank mit Aiwells Blut mixen, was äußerst fragwürdig ist. Oder er benutzt Gurilbeeren, die nicht immer wirken. Am besten wäre ein Trank aus Tollkirschen. Er sagte auch, dass er uns nur einen der drei Tränke brauen kann.
+
+Ich kann ihm allerdings auch den Leichnam Thonders bringen, damit er die Werwolfskrankheit besser erforschen kann.~
+@10035 = ~Von Wölfen und Männern
+
+Thalantyr hat den Leichnam von Thonder mit einem Flammenschwert erkauft. Auch nicht schlecht.~
+@10036 = ~Von Wölfen und Männern
+
+Aiwell und Thonder waren überglücklich, dass der Mann von seinem Fluch erlöst wurde.~
+@20001 = ~Der Kult der Augenlosen - Bunger Wiesner
+
+Die Halblingsdame Emmi Wiesner hat uns regelrecht angefleht, nach ihrem Sohn zu sehen, den es in die Fänge ges Kultes gezogen hat.~
+@20002 = ~Der Kult der Augenlosen - Bunger Wiesner
+
+Ich habe Bunger gefunden und konnte ihn überreden, mit mir zu kommen. Er wird sich ruhig verhalten, bis ich die Gefahr, die vom Kult ausgeht, gebannt habe.~
+@20003 = ~Der Kult der Augenlosen - Bunger Wiesner
+
+Ich habe Bunger gefunden und konnte ihn überreden zu fliehen. Allerdings wurde dadurch der Kult alarmiert.~
+@20004 = ~Der Kult der Augenlosen - Bunger Wiesner
+
+Ich habe Bunger gefunden. Er zeigte sich leider uneinsichtig und alarmierte den Rest des Kultes. Ich musste ihn töten.~
+@20005 = ~Der Kult der Augenlosen - Bunger Wiesner
+
+Bei dem Versuch, sich zu retten, starb Bunger Wiesner tief unter der Stadt.~
+@20006 = ~Der Kult der Augenlosen - Bunger Wiesner
+
+Bunger Wiesner ist zu seiner Mutter zurückgekehrt. Die alte Dame wird uns bestimmt danken wollen.~
+@20023 = ~Ein geheimnisvolles Angebot
+
+Ein Bote hat mir eine Einladung seines Herrn überbracht. Auch wenn dieser seinen Namen geheimhalten will, so hat er doch aus irgendeinem Grund Interesse an mir. Wenn ich mich auf ein Treffen einlassen will dann finde ich den Boten in der Kupferkrone.~
+
+
+//BG:EE Compatibility
+
+//Strings from BG2
+@80001 = ~Hilfe! So helft mir doch!~ [PEASF09] //#61667
+@80002 = ~~ [PEASF07] //#61665
+@80003 = ~~ [PEASF08] //#61666
+@80004 = ~Ich danke den Göttern jeden Tag für all die guten Dinge in meinem Leben.~ [PEASF02] //##61660
+@80005 = ~Aaah! Lauft!~ [PEASM09] //#61823
+@80006 = ~~ [PEASM07] //#61821
+@80007 = ~~ [PEASM08] //#61822
+@80008 = ~Klar, ich rede gerne ein paar Worte mit Euch.~ [PEASM03] //#61817
+@80009 = ~~ [WWOLF07] //#11393
+@80010 = ~Ich grüße Euch. Eure Macht ist beeindruckend.~ [EPRIM01] //#61614
+@80011 = ~~ [EPRIM06] //#61619
+@80012 = ~~ [EPRIM07] //#61620
+@80013 = ~Die Götter vergeben niemals!~ [EPRIM04] //#61617
+@80014 = ~Verneigt Euch vor den Göttern und bettelt um Gnade!~ [EPRIM03] //#61616
+@80015 = ~Was wollt Ihr bei den wahren Gläubigen?~ [EPRIM02] //#61615
+@80016 = ~Ich... darf nicht mit Fremden reden.~ [CHILF04] //#61556
+@80017 = ~~ [CHILF06] //#61558
+@80018 = ~Ähm... Hallo.~ [CHILF03] //#61555
+@80019 = ~Nun, nun, Ihr seht mir wie Leute aus, in deren Geldbörsen nicht nur zwei einsame Goldmünzen traurig klimpern.~ [MALMER03] //#38784
+@80020 = ~~ [MALMER06] //#38847
+@80021 = ~~ [MALMER05] //#38786
+@80022 = ~Seht Euch nur um und begutachtet die Waren. Ich bin mir sicher, dass sie Euren hohen Ansprüchen gerecht werden.~ [MALMER02] //#38783
+@80023 = ~Tut mir bitte nicht weh!~ [CHILM07] //#61567
+@80024 = ~~ [CHILM05] //#61565
+@80025 = ~~ [CHILM06] //#61566
+@80026 = ~Boah! Abenteurer!~ [CHILM03] //#61563
+@80027 = ~Ich seid nicht von hier, das wüsste ich nämlich.~ [CHILM02] //#61562
+@80028 = ~Mir gefällt überhaupt nicht, wie Ihr ausseht!~ [PEASF306] //#61683
+@80029 = ~~ [PEASF307] //#61684
+@80030 = ~~ [PEASF308] //#61685
+@80031 = ~Sprecht.~ [ACFEM4H] //#16255
+@80032 = ~Hmmm, ja?~ [GNOMEM03] //#61703
+@80033 = ~~ [GNOMEM06] //#61706
+@80034 = ~~ [GNOMEM07] //#61707
+@80035 = ~Balor~ //#8449
+@80036 = ~Ich mag Leute wie Euch eigentlich nicht, aber... guten Tag trotzdem.~ [NOBFE03] //#61643
+@80037 = ~~ [NOBFE07] //#61647
+@80038 = ~~ [NOBFE08] //#61648
+@80039 = ~Beschlagenes Lederwams +3~ //#6365
+@80040 = ~Mutierter Kreischling~ //#2286
+@80041 = ~Skelett-Bogenschütze~ //#73272
+@80042 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Mindeststärke: 6
+Fertigkeit: Langschwert
+Typ: 1-händig~ //#6742
+@80043 = ~Die Klinge brennt mit einem magischen Feuer und bei jedem Schlag wird versengende Hitze freigesetzt. Die Worte "Meta Infernum" sind in den Griff geritzt. Die Inschrift wirkt jedoch leicht verwischt und wurde vielleicht erst später von einem der Besitzer angebracht.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +1 (Klinge)
+Schadensbonus: +1 (Feuer)
+ETW0-Bonus: -1
+Gewicht: 4
+Initiativefaktor: 4
+Mindeststärke: 6
+Fertigkeit: Langschwert
+Typ: 1-händig~ //#4421
+@80044 = ~Langschwert~ //#2893
+@80045 = ~Flammenschwert +1~ //#4422
+@80046 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Mindeststärke: 6
+Fertigkeit: Langschwert
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~ //#6742
+@80047 = ~Die Klinge brennt mit einem magischen Feuer und bei jedem Schlag wird versengende Hitze freigesetzt. Die Worte "Meta Infernum" sind in den Griff geritzt. Die Inschrift wirkt jedoch leicht verwischt und wurde vielleicht erst später von einem der Besitzer angebracht.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +1 (Klinge)
+Schadensbonus: +1 (Feuer)
+ETW0-Bonus: -1
+Gewicht: 4
+Initiativefaktor: 4
+Mindeststärke: 6
+Fertigkeit: Langschwert
+Typ: 1-händig
+
+Kann nicht verwendet werden von:
+- Druiden
+- Klerikern
+- Magiern~ //#4421
+@80048 = ~Magische Schleudern sind die typische Waffe des stämmigen Halblingkriegers. Normalerweise wird die Waffe von der Mutter oder einer begabten Tante des jungen Halblings angefertigt, bevor er auf sein zweites großes Abenteuer auszieht. Der Grund, warum die Schleuder erst angefertigt wird, nachdem der junge Halbling bereits sein erstes Abenteuer bestanden hat, liegt darin, dass so mancher Halbling nach diesem ersten Abenteuer beschließt, dass das Leben eines Abenteurers doch nichts für ihn ist.
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +2 (Geschoss)
+ETW0-Bonus: -2
+Gewicht: 0
+Initiativefaktor: 4
+Mindeststärke: 3
+Fertigkeit: Schleuder
+Typ: 1-händig~ //#619
+@80049 = ~Dunkelkettenhemd
+
+Die Kettenglieder dieser Rüstung sind schwarz verkohlt. Ob sie absichtlich so gefertigt wurde oder ob sie im Kampf extremer Hitze ausgesetzt war, kann man nicht sagen. In Legenden wird ja normalerweise von Rittern in glänzender Rüstung erzählt, die gegen riesige, feuerspeiende Untiere kämpfen. Die Rüstung eignet sich wohl mindestens ebenso gut für derartige Kämpfe, fand aber dank ihres eher nicht so heroischen Aussehens noch in keiner Legende Erwähnung.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Feuerwiderstand: +20%
+Gewicht: 9
+Mindeststärke: 8~ //#39557
+@80050 = ~Robe der Zauberlehrlinge~//#37573	
+@80051 = ~Diese Robe wurde von Euren Zauberlehrlingen erschaffen, die fleißig in der Sphäre der Ebenen an neuen magischen Gegenständen arbeiten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 3~//#39649
+@80052 = ~Kriegshammer +3~//#7781
+@80053 = ~Hammer der Blitze
+
+Ein Zwergenschmied namens Silberklinge fertigte sowohl diesen Hammer, als auch zwei andere mächtige magische Gegenstände – einen Gürtel der Riesenstärke und Ogerkrafthandschuhe. Er wollte sie seinem Sohn zum Geschenk machen, der zu diesem Zeitpunkt ein wichtiger Offizier in der Zwergenarmee war und gegen die Riesen- und Ogerstämme in der Gegend kämpfte. Dummerweise starb Silberklinges Sohn kurz nachdem die Gegenstände fertig gestellt waren. Der Vater kam nicht mehr dazu, sie seinem Sohn zu überreichen. In tiefer Trauer legte er die Handschuhe und den Gürtel an, schnappte sich den Hammer und zog gegen die Riesen in den Kampf. Er starb den Tod eines Helden.
+
+Für sich allein ist der Hammer der Blitze schon ein mächtiger magischer Gegenstand. Wird er jedoch mit den Ogerkrafthandschuhen und dem Gürtel der Riesenstärke vereint, durchläuft er eine Verwandlung. Diese Verwandlung muss durch ein entsprechendes magisches Ritual unterstützt werden. Nachdem die Verwandlung abgeschlossen ist, verursacht der Hammer zusätzlich +8 Schadenspunkte und ist in der Lage, Riesen und Oger mit einem Schlag niederzustrecken.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +3 (Wucht)
+ETW0-Bonus: -3
+Gewicht: 4
+Initiativefaktor: 1
+Mindeststärke: 18
+Fertigkeit: Kriegshammer
+Typ: 1-händig~//#39444
+@80054 = ~Gildenschlüssel~ //#54030
+@80055 = ~Das ist der Schlüssel zu den unteren Ebenen von Lady Galvenas Freudenhaus, der Gilde der Kurtisanen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~ //#1091
+@80056 = ~Lederrüstung +5~ //#6363
+@80057 = ~Geschenk der Nacht
+
+Die Rüstung wurde einst von Shar gesegnet und hat eine lange und interessante Geschichte. Nur die besten aller Diebe waren je im Besitz dieser extrem stark verzauberten Rüstung. Die Essenz der Nacht wurde in die dunkle Rüstung verwoben. Sie fühlt sich wie eine normale Rüstung an, hüllt den Träger aber in einen schützenden Mantel aus sich windenden Schatten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Im Schatten verstecken: +20%
+Gewicht: 5~ //#39548
+@80058 = ~Prunkharnisch +3~ //#65033
+@80059 = ~Enkidus Prunkharnisch
+
+Die Rüstung wurde für Enkidu, einen berühmten Krieger aus Kara-Tur, hergestellt. Niemand wagte es, ihn in einem fairen Kampf herauszufordern, aber zahlreiche Meuchelmörder, Ninjas und Wu-Jen versuchten Enkidu hinterrücks und feige zu ermorden.
+
+EIGENSCHAFTEN:
+
+Der Träger ist immun gegen hinterhältige Angriffe.
+
+Rüstungsklasse: -2
+Magiewiderstand: +5%
+Gewicht: 45
+Mindeststärke: 15~ //#66422
+@80060 = ~Erdkoloss~
+
+//Journal Titles
+@90001 = ~Raukners Raufende Rabauken~
+//@90002 = ~Der verlorene Sohn~
+//@90003 = ~Der Geist in den Wolkenspitzen~
+@90004 = ~Die Suche nach Hopsi~
+@90005 = ~Ein neuer bester Freund für Ugh~
+@90006 = ~Die Suche nach Perwell~
+@90007 = ~Von Wölfen und Männern~
+@90008 = ~Die Schlangen Abbathors~
+@90009 = ~Der Kult der Augenlosen - Bunger Wiesner~
+@90010 = ~Ein geheimnisvolles Angebot~
+@90011 = ~Ein missglücktes Picknick~
+
+//EE Descriptions
+@100032   = ~Aphriels Elfenbogen
+
+Schon in jungen Jahren zog die Elfe Aphriel durch die Wälder Faerûns und wurde zu einer der größten Waldläuferinnen der Gegenwart. Keine Fährte, der sie nicht folgen konnte und kein Übeltäter, der vor ihrem Bogen sicher war. Erst als sie bei einem Besuch in der Stadt Baldurs Tor einen ansässigen Menschenhändler traf und sich Hals über Kopf verliebte, hatten ihre Tage im Wald ein Ende. Aus der Liaison wurde der junge Halbelf Perwell geboren, und als dieser von den Räubern der Schwertküste entführt wurde brach Aphriel ein letztes Mal in die Wälder auf. Auf dieser Reise gelangte ihr Bogen in die Hände von <CHARNAME>.
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +2 (Geschoß)
+ETW0-Bonus: -3
+Gewicht: 2
+Initiativefaktor: 5
+Mindeststärke: 6
+Fertigkeit: Langbogen
+Typ: 2-händig~ //@32 without "Not useable by"
+@100048   = ~Dieser Schild ist auf Hochglanz poliert und offensichtlich magisch. Kratzer verschwinden und Blut und Schmutz perlt einfach von seiner spiegelnden Oberfläche ab. Es steht zu vermuten, dass er sogar dem Blick eines Basilisken standhalten kann.
+
+EIGENSCHAFTEN:
+
+Der Träger ist vor allen Arten der Versteinerung geschützt, auch vor Blickangriffen.
+
+RK-Bonus: -1
+Gewicht: 7
+Mindeststärke: 12~ //@48 without "Not useable by"
+@100058   = ~Rüstung aus Kreischlingsleder
+
+Eines der Nebenprodukte von Geraldos Arbeit mit Kreischlingen war eine hohe Lederproduktion. Da der Maler für seine Farben nur das Fell benötigte, suchte er für die dicke Haut der Monster eine andere Verwendung... und fand sie. Leider hatte das Kreischlingsleder einige nicht erwartete Nebenwirkungen und so wartete Geraldo ungeduldig darauf, dass er sein Experiment einer leichtgläubigen Seele andrehen konnte.
+
+Die Chronisten gehen davon aus, dass sich der große Geraldo ins Fäustchen lacht bei der Vorstellung, irgendein Idiot könnte seine Rüstung tatsächlich nützlich finden.
+
+EIGENSCHAFTEN:
+
+Der Charakter verfärbt sich blau.
+
+Kann nur durch Fluch brechen wieder abgenommen werden.
+
+Rüstungsklasse: 4
+Charisma: -3
+Widerstand gg. Geschosswaffen: +10%
+Gewicht: 7
+Mindeststärke: 6~ //@58 without "Not useable by"
+@100086   = ~Der Moradinpriester Bashrik Funkenhammer galt in den Kreisen liberal einsteller Zwerge als weise und wahrhaftig. Er setzte sich engagiert gegen die Abspaltung der Oberweltzwerge ein und genoss allgemein ein hohes Ansehen. Dieser Hammer, geladen mit den Blitzen Moradins, war seine größte Waffe im Kampf gegen das Böse.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (Wucht)
+Schadensbonus: +1 (Elektrizität)
+ETW0-Bonus: -2
+Gewicht: 5
+Initiativefaktor: 2
+Mindeststärke: 9
+Fertigkeit: Kriegshammer
+Typ: 1-händig~ //@86 for EE without "Not useable by"
+
+//Karlini Journals
+@2000001   = ~Der große Karlini - Das Buch des großen Karlinis
+
+Im Freundlichen Arm trafen wir auf einen Gnom Namens Ygnatius Bombastus III. Er versprach uns 300 Goldmünzen dafür, ein Buch des großen Karlinis ausfindig zu machen, welches sich in den Ruinen von Ulcaster befinden soll.~
+
+
+@2000002   = ~Der große Karlini - Das Buch des großen Karlinis
+
+Wir haben das Buch des großen Karlini in den Ruinen von Ulcaster gefunden.~
+
+
+@2000003   = ~Der große Karlini - Die große Formel
+
+Wir haben Ygnatz das Buch des großen Karlinis übergeben und er hat darin die große Formel entdeckt. Wir haben angeboten beim Sprechen der großen Formel anwesend zu sein und sollen uns mit Ygnatz bei den Steinkreisen am Löwenweg, westlich vom Freundlichen Arm treffen.~
+
+
+@2000004   = ~Der große Karlini
+
+Wir haben Ygnatz gesagt dass wir nicht mehr für Ihn arbeiten wollen.~
+
+
+@2000005   = ~Der große Karlini
+
+Wir haben Ygnatz das Buch des großen Karlinis übergeben und wir haben unsere Belohnung kassiert.~
+
+
+@2000006   = ~Der große Karlini
+
+Wir haben Ygnatz dabei beobachtet wie er die große Formel gesprochen hat, dabei erschien ein Balor und Ygnatz verschwand. Der Balor war ein harter Brocken, wir konnten ihn letztendlich doch besiegen, Ygnatz bleibt leider verschwunden.~
+
+
+@2000007   = ~Der große Karlini
+
+Wir haben Ygnatz dabei beobachtet wie er die große Formel gesprochen hat, dabei erschien ein Balor und Ygnatz verschwand. Der Balor bot an die Gnome freizulassen, im Austausch gegen meine Seele. Ich schlug das Angebot aus und der Balor verschwand.~
+
+
+@2000008   = ~Der große Karlini
+
+Wir haben Ygnatz dabei beobachtet wie er die große Formel gesprochen hat, dabei erschien ein Balor und Ygnatz verschwand. Der Balor bot an die Gnome freizulassen, wenn ich ihm einige Fragen über die Schwertküste richtig beantworten könnte. Sollte ich versagen, würde meine Seele dem Dämon gehören. Ich schaffte es, alle seine Fragen richtig zu beantworten, woraufhin der Balor verschwand. Ygnaz und Karlini kehrten wohlbehalten zurück und zeigten sich mehr oder weniger dankbar für ihre Rettung - na ja, gnomische Gelehrte eben ... Die Belohnung der beiden machte die ganzen Strapazen jedenfalls mehr als wett.~
+
+@2000009   = ~Der große Karlini~
+
+//Geraldos Journal entries
+
+@3000001   = ~Kreischlingszucht in Baldurs Tor
+
+Wir haben auf den Straßen von Baldurs Tor einen Mann namens "Geraldo der Prächtige" getroffen. Er erzählte uns,dass er vorhatte aus dem Fell gefangener Kreischlinge blaue Farbe zu gewinnen, diese pflanzten sich aber innerhalb kürzester Zeit fort und er musste sie in seinem Haus einsperren. Er hat uns gebeten in sein Haus zu gehen, um uns um die Kreischlinge zu kümmern und erwähnte, dass es um die 20 Kreischlinge sein müssten.~
+@3000002   = ~Kreischlingszucht in Baldurs Tor
+
+Wir konnten im Haus leider nur zwei Kreischlinge antreffen, wir sollten mit den Fellen zu Geraldo zurückkehren.~
+@3000003   = ~Kreischlingszucht in Baldurs Tor
+
+Geraldo hat uns gebeten die geflüchteten Kreischlinge zu suchen, um uns die Aufgabe zu erleichten gab er uns seinen Vogel mit dem Namen Elminster, der uns bei der Suche helfen kann, sobald Kreischlinge in der Nähe sind. Er bot uns ausserdem 50 Goldmünzen für jedes weitere Fell an und einen magischen Gegenstand, wenn wir alle gefunden hätten.~
+@3000004   = ~Kreischlingszucht in Baldurs Tor
+
+Wir haben alle Kreischlinge ausfindig machen können. Geraldo verschwand und murmelte etwas von Glück in der Fremde finden.~
+@3000005   = ~Kreischlingszucht in Baldurs Tor
+
+Wir haben Geraldo gesagt, dass wir nicht mehr für ihn arbeiten wollen. Geraldo verschwand und murmelte etwas von Glück in der Fremde finden.~
+@3000006   = ~Kreischlingszucht in Baldurs Tor~
+
+@3000007  = ~Die Schlangen Abbathors
+
+Ich bin Zeuge eines Überfalls auf der Küstenstraße geworden. Bei der Leiche befand sich ein Tagebuch eines zwergen namens Bashrik. Ich sollte es in den Tempel des Helm in Baldurs Tor bringen.~
+ 
+@3000008  = ~Die Schlangen Abbathors
+
+Ich habe zugestimmt, diesem Draglon entgegenzutreten, der in Bashriks Tagebuch erwähnt wurde. Soviel ich weiß, müsste er in den Unterkellern zu finden sein.~
+
+@3000009  = ~Die Schlangen Abbathors
+
+Ich habe Draglon zur Rede stellen wollen, aber er ist geflohen. Ich sollte zum Tempel zurückkehren und mit den Zwergen reden.~
+
+@3000010  = ~Die Schlangen Abbathors
+
+Eine Magierin Jenna bewacht ein Zwergenartefakt. Sie und ihr Begleiter Jassir warten in einer Taverne im nordwestlichen Distrikt von Baldurs Tor. Wenn ich sie aufsuche, lautet das Passwort "Grüße von Mirjala".~
+
+@3000011  = ~Die Schlangen Abbathors
+
+Ich habe beschlossen, den Zwergen nicht weiter zu helfen.~
+
+@3000012  = ~Die Schlangen Abbathors
+
+Jenna wurde von den Schergen der Schlangen getötet, und sie haben das Artefakt mitgenommen! Ich sollte zu Wostock zurückkehren und es ihm mitteilen!~
+
+@3000013  = ~Die Schlangen Abbathors
+
+Ich habe mich bereiterklärt, ein Warenhaus im südöstlichen Distrikt von Baldurs Tor zu untersuchen. Dort befindet sich wohl der Unterschlupf der Schlangen des Abbathors. Um hineinzukommen, brauche ich einen Schlüssel.~

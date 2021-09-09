@@ -1,0 +1,13 @@
+IF
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@5004)
+		Wait(6)
+	RESPONSE #100
+		DisplayStringHead(Myself,@5005)
+		Wait(6)
+	RESPONSE #100
+		DisplayStringHead(Myself,@5006)
+		Wait(6)
+END

@@ -1,0 +1,8 @@
+IF
+	Global("ACGotKBookJournal","%UlcasterRuins%",0)
+	PartyHasItem("ACQBOOK2")
+THEN
+	RESPONSE #100
+		SetGlobal("ACGotKBookJournal","%UlcasterRuins%",1)
+		AddJournalEntry(@2000002,QUEST)
+END

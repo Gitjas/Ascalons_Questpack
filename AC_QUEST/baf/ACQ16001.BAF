@@ -1,0 +1,29 @@
+IF
+	NumTimesTalkedTo(0)
+	Detect([PC])
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@5007)
+		Wait(6)
+	RESPONSE #100
+		DisplayStringHead(Myself,@5008)
+		Wait(6)
+	RESPONSE #100
+		DisplayStringHead(Myself,@5009)
+		Wait(6)
+END
+
+IF
+	Global("ACQ16","GLOBAL",6)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
+	Detect([PC])
+	Detect("ACQ16003")
+THEN
+	RESPONSE #100
+		StartDialogNoSet([PC])
+END

@@ -1,0 +1,14 @@
+IF
+	See([PC])
+	See("ACQ15002")
+THEN
+	RESPONSE #100
+		StartDialogNoSet([PC])
+END
+
+IF
+	Global("ACQ15","GLOBAL",9)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END

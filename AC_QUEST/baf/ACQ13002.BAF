@@ -1,0 +1,15 @@
+IF
+	NumTimesTalkedTo(0)
+	Detect([PC])
+THEN
+	RESPONSE #100
+		StartDialogNoSet([PC])
+END	
+
+IF
+	Dead("AC13003")
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END	

@@ -1,0 +1,6 @@
+IF
+	Global("ACQMINERSFREE","GLOBAL",1)
+THEN
+	RESPONSE #100
+		EscapeAreaDestroy(10)
+END

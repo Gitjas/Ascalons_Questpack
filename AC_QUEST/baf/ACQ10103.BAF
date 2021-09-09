@@ -1,0 +1,40 @@
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("ACQSNAKEENEMY","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ENEMY()
+		Continue()
+END
+
+IF
+	Dead("ACQ10104")
+	Dead("ACQ10105")
+	GlobalLT("ACSNAKEPLOT","GLOBAL",4)
+	AreaCheck("%CoastWay%")
+THEN
+	RESPONSE #100
+		UseItem("potn10",Myself)
+		Wait(1)
+		DestroySelf()
+END
+
+IF
+	!Dead("ACQ10104")
+	See("ACQ10104")
+	GlobalLT("ACSNAKEPLOT","GLOBAL",4)
+THEN
+	RESPONSE #100
+		Attack("ACQ10104")
+		Continue()
+END
+
+IF
+	!Dead("ACQ10105")
+	See("ACQ10105")
+	GlobalLT("ACSNAKEPLOT","GLOBAL",4)
+THEN
+	RESPONSE #100
+		Attack("ACQ10105")
+		Continue()
+END	

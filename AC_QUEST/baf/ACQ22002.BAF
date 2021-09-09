@@ -1,0 +1,29 @@
+IF
+	Die()
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ22","GLOBAL",3)
+		EraseJournalEntry(@20001)
+		EraseJournalEntry(@20002)
+		EraseJournalEntry(@20003)
+		EraseJournalEntry(@20004)
+		AddJournalEntry(@20005,QUEST_DONE)
+END
+
+IF
+	Global("UnseeingEye","GLOBAL",1)
+	!Global("ACQ22","GLOBAL",2)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Global("UnseeingEye","GLOBAL",2)
+	!Global("ACQ22","GLOBAL",2)
+	See([PC])
+THEN
+	RESPONSE #100
+		EscapeArea()
+END

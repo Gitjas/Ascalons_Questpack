@@ -1,0 +1,55 @@
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+
+OUTER_SPRINT ~BGT2_VAR~ ~~
+OUTER_SPRINT ~Feldeposts_Store~ ~Inn3351~
+OUTER_SPRINT ~Thalantyr_Dialog~ ~THALAN~
+OUTER_SPRINT ~Prihel_Dialog~ ~PRIHEL~
+OUTER_SPRINT ~CentralBaldursGate_House1_L1_EXIT~ ~Exit0711~ // tocheck
+OUTER_SPRINT ~AUTOGRAPH~ ~SCRLAUTO~
+OUTER_SPRINT ~Prihel_Store~ ~tem0002~
+OUTER_SPRINT ~SEBaldursGate_Door1301~ ~DOOR1301~ //tocheck
+OUTER_SPRINT ~SEBaldursGate_EXIT~ ~Exit1301~ //tocheck
+
+END
+
+ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+
+OUTER_SPRINT ~BGT2_VAR~ ~Global("ENDOFBG1","GLOBAL",2)~
+OUTER_SPRINT ~Feldeposts_Store~ ~Inn3351~
+OUTER_SPRINT ~Thalantyr_Dialog~ ~THALAN~
+OUTER_SPRINT ~Prihel_Dialog~ ~PRIHEL~
+OUTER_SPRINT ~CentralBaldursGate_House1_L1_EXIT~ ~Exit7711~
+OUTER_SPRINT ~AUTOGRAPH~ ~SCRLAUTO~
+OUTER_SPRINT ~Prihel_Store~ ~tem0002~
+OUTER_SPRINT ~SEBaldursGate_Door1301~ ~DOOR8201~
+OUTER_SPRINT ~SEBaldursGate_EXIT~ ~Exit8201~
+
+END
+
+ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+
+OUTER_SPRINT ~BGT2_VAR~ ~~
+OUTER_SPRINT ~Feldeposts_Store~ ~_INN3351~
+OUTER_SPRINT ~Thalantyr_Dialog~ ~_THALAN~
+OUTER_SPRINT ~Prihel_Dialog~ ~_PRIHEL~
+OUTER_SPRINT ~CentralBaldursGate_House1_L1_EXIT~ ~Exit0711~
+OUTER_SPRINT ~AUTOGRAPH~ ~_CRLAUTO~
+OUTER_SPRINT ~Prihel_Store~ ~_tem0002~
+OUTER_SPRINT ~SEBaldursGate_Door1301~ ~DOOR1301~
+OUTER_SPRINT ~SEBaldursGate_EXIT~ ~Exit1301~
+
+END
+
+ACTION_IF GAME_IS "eet" BEGIN
+
+OUTER_SPRINT ~BGT2_VAR~ ~Global("ENDOFBG1","GLOBAL",2)~
+OUTER_SPRINT ~Feldeposts_Store~ ~Inn3351~
+OUTER_SPRINT ~Thalantyr_Dialog~ ~THALAN~
+OUTER_SPRINT ~Prihel_Dialog~ ~PRIHEL~
+OUTER_SPRINT ~CentralBaldursGate_House1_L1_EXIT~ ~Exit0711~ //tocheck
+OUTER_SPRINT ~AUTOGRAPH~ ~SCRLAUTO~
+OUTER_SPRINT ~Prihel_Store~ ~tem0002~
+OUTER_SPRINT ~SEBaldursGate_Door1301~ ~DOOR1301~ //tocheck
+OUTER_SPRINT ~SEBaldursGate_EXIT~ ~Exit1301~//tocheck
+
+END

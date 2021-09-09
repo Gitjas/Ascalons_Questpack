@@ -1,0 +1,52 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Global("prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(Myself,CLERIC_DRAW_UPON_HOLY_MIGHT) // SPPR214.SPL (Heilige Macht entlehnen)
+		SetGlobal("prep","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_ANIMATE_DEAD) // SPPR301.SPL (Tote beleben)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_ANIMATE_DEAD) // SPPR301.SPL (Tote beleben)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CALL_LIGHTNING) // SPPR302.SPL (Blitz herbeirufen)
+	AreaType(OUTDOOR)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_CALL_LIGHTNING) // SPPR302.SPL (Blitz herbeirufen)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_UNHOLY_BLIGHT) // SPPR314.SPL (Unheiliges Verderben)
+	!AreaType(OUTDOOR)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_UNHOLY_BLIGHT) // SPPR314.SPL (Unheiliges Verderben)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_SPIRITUAL_HAMMER) // SPPR213.SPL (Geisterhammer)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_SPIRITUAL_HAMMER) // SPPR213.SPL (Geisterhammer)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+

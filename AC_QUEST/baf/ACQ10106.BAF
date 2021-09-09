@@ -1,0 +1,34 @@
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQSNAKEENEMY","GLOBAL",1)
+		StartDialogNoSet([PC])
+END
+
+IF
+	Dead("ACQ10116")
+	!IsActive(MYSELF)
+	Global("ACQSNAKEWORK","GLOBAL",1)
+THEN
+	RESPONSE #100
+		Activate(MYSELF)
+END
+
+IF
+	PartyHasItem("ACQ10101")
+	!IsActive(MYSELF)
+	Global("ACQSNAKEWORK","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Activate(MYSELF)
+END
+
+IF
+	!Dead("ACQ10116")
+	!IsActive(MYSELF)
+	Global("ACQWOSTOK","GLOBAL",2)
+THEN
+	RESPONSE #100
+		Activate(MYSELF)
+END

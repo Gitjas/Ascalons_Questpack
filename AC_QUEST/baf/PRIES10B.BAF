@@ -1,0 +1,127 @@
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	Global("prep","LOCALS",0)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(LastSeenBy(Myself),CLERIC_DEFENSIVE_HARMONY) // SPPR406.SPL (Koordinierte Verteidigung)
+		ReallyForceSpell(LastSeenBy(Myself),CLERIC_STRENGTH_OF_ONE) // SPPR312.SPL (Vereinte Stärke)
+		SetGlobal("prep","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CHAOTIC_COMMANDS) // SPPR508.SPL (Chaotische Befehle)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CHAOTIC_COMMANDS) // SPPR508.SPL (Chaotische Befehle)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_FLAME_STRIKE) // SPPR503.SPL (Flammenschlag)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_FLAME_STRIKE) // SPPR503.SPL (Flammenschlag)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_CAUSE_SERIOUS_WOUNDS) // SPPR414.SPL (Schwere Wunden verursachen)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CAUSE_SERIOUS_WOUNDS) // SPPR414.SPL (Schwere Wunden verursachen)
+		AttackOneRound(LastSeenBy(Myself))
+		AttackOneRound(LastSeenBy(Myself))
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HOLY_SMITE) // SPPR313.SPL (Heiliges Zerschmettern)
+	Alignment(Myself,MASK_GOOD)
+	Global("blightsmite","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLY_SMITE) // SPPR313.SPL (Heiliges Zerschmettern)
+		SetGlobal("blightsmite","LOCALS",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_UNHOLY_BLIGHT) // SPPR314.SPL (Unheiliges Verderben)
+	Alignment(Myself,MASK_EVIL)
+	Global("blightsmite","LOCALS",0)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_UNHOLY_BLIGHT) // SPPR314.SPL (Unheiliges Verderben)
+		SetGlobal("blightsmite","LOCALS",1)
+END
+
+IF
+	HaveSpell(CLERIC_SILENCE_15_FOOT) // SPPR211.SPL (Stille: 5 m Radius)
+	OR(2)
+		See(NearestEnemyOfType([0.0.0.LONG_BOW]))
+		See(NearestEnemyOfType([0.0.0.CLERIC_ALL]))
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_SILENCE_15_FOOT) // SPPR211.SPL (Stille: 5 m Radius)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(CLERIC_HOLD_PERSON) // SPPR208.SPL (Personen festhalten)
+	StateCheck(LastSeenBy(Myself),STATE_HELPLESS)
+THEN
+	RESPONSE #100
+		Spell(NearestEnemyOf(Myself),CLERIC_HOLD_PERSON) // SPPR208.SPL (Personen festhalten)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	HPPercentLT(LastSeenBy(Myself),60)
+	HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Schwere Wunden heilen)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Schwere Wunden heilen)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	See(NearestMyGroupOfType)
+	HPPercentLT(LastSeenBy(Myself),60)
+	HaveSpell(CLERIC_CURE_MEDIUM_WOUNDS) // SPPR315.SPL (Mittelschwere Wunden heilen)
+THEN
+	RESPONSE #100
+		Spell(LastSeenBy(Myself),CLERIC_CURE_MEDIUM_WOUNDS) // SPPR315.SPL (Mittelschwere Wunden heilen)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),4)
+	HPPercentLT(Myself,60)
+	HaveSpell(CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Schwere Wunden heilen)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_SERIOUS_WOUNDS) // SPPR401.SPL (Schwere Wunden heilen)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(LastSeenBy(Myself),4)
+	HPPercentLT(Myself,60)
+	HaveSpell(CLERIC_CURE_MEDIUM_WOUNDS) // SPPR315.SPL (Mittelschwere Wunden heilen)
+THEN
+	RESPONSE #100
+		Spell(Myself,CLERIC_CURE_MEDIUM_WOUNDS) // SPPR315.SPL (Mittelschwere Wunden heilen)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+

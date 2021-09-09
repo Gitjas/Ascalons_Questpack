@@ -1,0 +1,76 @@
+IF
+	Global("ACQ16","GLOBAL",10)
+THEN
+	RESPONSE #100
+		Unlock("Container 1")
+		ActionOverride("Container 1",CreateItem("SW1H53",0,0,0))
+		DestroySelf()
+END
+
+IF
+	DETECT(PLAYER1)
+	Global("ACQ16VIRGI","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("%HighHedge%","",[1732.1583],4))
+		Continue()
+END
+
+IF
+	DETECT(PLAYER2)
+	Global("ACQ16VIRGI","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player2,LeaveAreaLUA("%HighHedge%","",[1732.1583],4))
+		Continue()
+END
+		
+IF
+	DETECT(PLAYER3)
+	Global("ACQ16VIRGI","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player3,LeaveAreaLUA("%HighHedge%","",[1732.1583],4))
+		Continue()
+END
+		
+IF
+	DETECT(PLAYER4)
+	Global("ACQ16VIRGI","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player4,LeaveAreaLUA("%HighHedge%","",[1732.1583],4))
+		Continue()
+END
+
+IF
+	DETECT(PLAYER5)
+	Global("ACQ16VIRGI","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player5,LeaveAreaLUA("%HighHedge%","",[1732.1583],4))
+		Continue()
+END
+
+IF
+	DETECT(PLAYER6)
+	Global("ACQ16VIRGI","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player6,LeaveAreaLUA("%HighHedge%","",[1732.1583],4))
+		Continue()
+END
+
+IF
+	OR(6)
+	!DETECT(PLAYER1)
+	!DETECT(PLAYER2)
+	!DETECT(PLAYER3)
+	!DETECT(PLAYER4)
+	!DETECT(PLAYER5)
+	!DETECT(PLAYER6)
+	Global("ACQ16VIRGI","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ16VIRGI","GLOBAL",0)
+END

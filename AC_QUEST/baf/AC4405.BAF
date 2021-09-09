@@ -1,0 +1,11 @@
+IF
+	Dead("ACQ10111")
+	CombatCounter(0)
+	Global("ACQ1SNAKESDEFEATED","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ1SNAKESDEFEATED","GLOBAL",1)
+		IncrementGlobal("Chapter","GLOBAL",-2)
+		IncrementChapter("ACHP01")
+		IncrementGlobal("Chapter","GLOBAL",1)
+END

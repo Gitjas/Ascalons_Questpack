@@ -1,0 +1,15 @@
+IF
+	GlobalGT("ACQ1NASHKELL","GLOBAL",1)
+	Global("ACQ1SNAKESDEFEATED","GLOBAL",0)
+	InMyArea(Player1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUAPanic("AC4400","",[1727.73],12))
+		ActionOverride(Player1,LeaveAreaLUA("AC4400","",[1727.73],12))
+		ActionOverride(Player2,LeaveAreaLUA("AC4400","",[1727.73],12))
+		ActionOverride(Player3,LeaveAreaLUA("AC4400","",[1727.73],12))
+		ActionOverride(Player4,LeaveAreaLUA("AC4400","",[1727.73],12))
+		ActionOverride(Player5,LeaveAreaLUA("AC4400","",[1727.73],12))
+		ActionOverride(Player6,LeaveAreaLUA("AC4400","",[1727.73],12))
+END
+	

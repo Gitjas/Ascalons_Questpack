@@ -1,0 +1,9 @@
+IF
+	Global("ACDeadGibJ","AC7711",0)
+	!Exists("ACQ18001")
+	!Exists("ACQ18004")
+THEN
+	RESPONSE #100
+		SetGlobal("ACDeadGibJ","AC7711",1)
+		AddJournalEntry(@3000002,QUEST)
+END

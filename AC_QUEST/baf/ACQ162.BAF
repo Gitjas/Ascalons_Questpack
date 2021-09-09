@@ -1,0 +1,14 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("ACVIRGI")
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(2)
+		ActionOverride("ACQ16002",CreateCreature("ACQ16003",[-1.-1],0))
+		ActionOverride("ACQ16002",DestroySelf())
+		FadeFromColor([20.0],0)
+		Wait(2)
+		ActionOverride("ACQ16003",StartDialogNoSet([PC])
+END

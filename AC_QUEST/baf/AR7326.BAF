@@ -1,0 +1,12 @@
+IF
+	!Global("ACQ1NASHKELL","GLOBAL",1)
+	Global("ACQSNAKEENEMY","GLOBAL",1)
+	Global("ACQSNAKEAMBUSH","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQSNAKEAMBUSH","GLOBAL",1)
+		CreateCreature("ACQ10103",[488.1424],3)
+		CreateCreature("ACQ10103",[520.1494],3)
+		CreateCreature("ACQ10103",[471.1481],3)
+		CreateCreature("ACQ10103",[600.1446],3)
+END

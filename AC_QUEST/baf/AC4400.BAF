@@ -1,0 +1,17 @@
+IF
+	Global("ACQWOSTOK","GLOBAL",6)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQWOSTOK","GLOBAL",7)
+		CreateCreature("ACQ10127",[2048.372],13)
+		Continue()
+END
+
+IF
+	Global("ACQUEST_AddMapnotes","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQUEST_AddMapnotes","MYAREA",1)
+		AddMapNote([1202.717],@6001) //mine entrance
+		AddMapNote([2796.430],@6002) //cabin
+END

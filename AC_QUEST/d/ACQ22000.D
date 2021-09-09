@@ -1,0 +1,387 @@
+BEGIN ACQ22001
+IF ~Global("ACQ22","GLOBAL",1)~ THEN BEGIN 0
+SAY @0
+++ @1 + 1
+++ @2 + 2
+++ @3 + 3
+++ @4 + 4
+++ @5 + 5
+END
+
+IF ~Global("ACQ22","GLOBAL",3)~ THEN BEGIN 0a
+SAY @6
+IF ~~ THEN EXIT
+END
+
+IF ~~ THEN BEGIN 2
+SAY @7
+IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 3
+SAY @8
+IF ~~ THEN GOTO 6
+END
+
+IF ~~ THEN BEGIN 6
+SAY @9
+IF ~Global("BeholderPlot","GLOBAL",0)~ THEN REPLY @10 + 7
+IF ~Global("BeholderPlot","GLOBAL",1)~ THEN REPLY @11 + 7
+++ @12 + 7
+++ @13 + 7
+END
+
+IF ~~ THEN BEGIN 7
+SAY @14
+++ @15 + 8
+++ @16 + 9
+++ @17 + 10
+++ @18 + 11
+++ @19 + 5
+END
+
+IF ~~ THEN BEGIN 8
+SAY @20
+++ @21 + 12
+++ @16 + 9
+++ @17 + 10
+++ @18 + 11
+++ @19 + 5
+END
+
+IF ~~ THEN BEGIN 9
+SAY @22
+++ @21 + 12
+++ @15 + 8
+++ @17 + 10
+++ @18 + 11
+++ @19 + 5
+END
+
+IF ~~ THEN BEGIN 10
+SAY @23
+++ @21 + 12
+++ @15 + 8
+++ @16 + 9
+++ @18 + 11
+++ @19 + 5
+END
+
+IF ~~ THEN BEGIN 11
+SAY @24
+++ @21 + 12
+++ @15 + 8
+++ @16 + 9
+++ @17 + 10
+++ @19 + 5
+END
+
+CHAIN
+IF ~~ THEN ACQ22001 4
+@25
+== BMAZZY IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN @26
+EXIT
+
+CHAIN
+IF ~~ THEN ACQ22001 5
+@27 DO ~EscapeAreaDestroy(10)~
+== BMAZZY IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN @28
+== BKORGAN IF ~InParty("KORGAN")InMyArea("KORGAN")!StateCheck("KORGAN",CD_STATE_NOTVALID)~ THEN @29
+EXIT
+
+CHAIN
+IF ~~ THEN ACQ22001 1
+@30
+== BMAZZY IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN @31
+== ACQ22001 IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN @32
+END
+IF ~~ THEN GOTO 6
+
+
+CHAIN
+IF ~~ THEN ACQ22001 12
+@33 DO ~SetGlobal("ACQ22","GLOBAL",2)~
+== BMAZZY IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN @34
+== BANOMEN IF ~InParty("ANOMEN")InMyArea("ANOMEN")!StateCheck("ANOMEN",CD_STATE_NOTVALID)~ THEN @35
+== BJAHEIR IF ~InParty("JAHEIRA")InMyArea("JAHEIRA")!StateCheck("JAHEIRA",CD_STATE_NOTVALID)~ THEN @36
+== BNALIA IF ~InParty("NALIA")InMyArea("NALIA")!StateCheck("NALIA",CD_STATE_NOTVALID)~ THEN @37
+== BVICONI IF ~InParty("VICONIA")InMyArea("VICONIA")!StateCheck("VICONIA",CD_STATE_NOTVALID)~ THEN @38
+== BYOSHIM IF ~InParty("YOSHIMO")InMyArea("YOSHIMO")!StateCheck("YOSHIMO",CD_STATE_NOTVALID)~ THEN @39
+END
+IF ~~ THEN DO ~AddJournalEntry(@20001,QUEST)~ EXIT
+
+INTERJECT_COPY_TRANS CSGAAL 10 ACQ22
+== ACQ22001 @40
+== CSGAAL @41
+END
+
+
+INTERJECT_COPY_TRANS CSGAAL 11 ACQ22
+== ACQ22001 @40
+== CSGAAL @41
+END
+
+BEGIN ACQ22002
+IF ~GlobalLT("ACQ22","GLOBAL",4)!Dead("BHEYE")NumTimesTalkedTo(1)Global("UnseeingEye","GLOBAL",0)~ THEN BEGIN 0
+SAY @42
+++ @43 + 2
+++ @44 + 3
+IF ~Global("ACQ22","GLOBAL",2)~ THEN REPLY @45 + 4
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @47 + 6
+END
+
+IF ~~ THEN BEGIN 1
+SAY @48
+++ @43 + 2
+++ @44 + 3
+IF ~Global("ACQ22","GLOBAL",2)~ THEN REPLY @45 + 4
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @49 + 6
+END
+
+IF ~~ THEN BEGIN 2
+SAY @50
+++ @51 + 1
+++ @44 + 3
+IF ~Global("ACQ22","GLOBAL",2)~ THEN REPLY @45 + 4
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @49 + 6
+END
+
+IF ~~ THEN BEGIN 3
+SAY @52
+++ @51 + 1
+++ @43 + 2
+IF ~Global("ACQ22","GLOBAL",2)~ THEN REPLY @45 + 4
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @49 + 6
+END
+
+IF ~~ THEN BEGIN 4
+SAY @53
+++ @54 + 7
+++ @55 + 10
+IF ~CheckStatGT(LastTalkedToBy(),13,CHR)~ THEN REPLY @56 + 8
+IF ~CheckStatGT(LastTalkedToBy(),13,WIS)~ THEN REPLY @57 + 9
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @58 + 6
+END
+
+IF ~~ THEN BEGIN 6
+SAY @59
+IF ~~ THEN DO ~SetNumTimesTalkedTo(1)~ EXIT
+END
+
+IF ~~ THEN BEGIN 7
+SAY @60
+++ @55 + 10
+IF ~CheckStatGT(LastTalkedToBy(),13,CHR)~ THEN REPLY @56 + 8
+IF ~CheckStatGT(LastTalkedToBy(),13,WIS)~ THEN REPLY @57 + 9
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @58 + 6
+END
+
+IF ~~ THEN BEGIN 10
+SAY @61
+IF ~~ THEN DO ~EraseJournalEntry(@20001)AddJournalEntry(@20004,QUEST)SetGlobal("UnseeingEye","GLOBAL",1)Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 11
+SAY @62
+IF ~~ THEN DO ~EraseJournalEntry(@20001)AddJournalEntry(@20004,QUEST)SetGlobal("UnseeingEye","GLOBAL",1)Enemy()~ EXIT
+END
+
+IF ~~ THEN BEGIN 12
+SAY @63
+++ @64 + 16
+++ @65 + 14
+++ @66 + 17
+END
+
+IF ~~ THEN BEGIN 13
+SAY @67
+++ @64 + 16
+++ @65 + 14
+++ @68 + 17
+END
+
+IF ~~ THEN BEGIN 14
+SAY @69
+IF ~CheckStatGT(LastTalkedToBy(),15,CHR)~ THEN REPLY @70 + 15
+IF ~CheckStatGT(LastTalkedToBy(),15,WIS)~ THEN REPLY @71 + 15
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @72 + 6
+END
+
+IF ~~ THEN BEGIN 15
+SAY @73 = @74 = @75
+++ @76 + 18
+++ @77 + 19
+++ @78 + 20
+END
+
+IF ~~ THEN BEGIN 16
+SAY @79
+IF ~CheckStatGT(LastTalkedToBy(),15,CHR)~ THEN REPLY @70 + 15
+IF ~CheckStatGT(LastTalkedToBy(),15,WIS)~ THEN REPLY @71 + 15
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @72 + 6
+END
+
+IF ~~ THEN BEGIN 17
+SAY @80
+IF ~CheckStatGT(LastTalkedToBy(),15,CHR)~ THEN REPLY @70 + 15
+IF ~CheckStatGT(LastTalkedToBy(),15,WIS)~ THEN REPLY @71 + 15
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @72 + 6
+END
+
+IF ~~ THEN BEGIN 18
+SAY @81
+++ @82 + 21
+++ @83 + 22
+++ @84 + 23
+END
+
+IF ~~ THEN BEGIN 19
+SAY @85
+++ @82 + 21
+++ @83 + 22
+++ @84 + 23
+END
+
+IF ~~ THEN BEGIN 20
+SAY @86
+++ @87 + 21
+++ @88 + 22
+++ @89 + 23
+END
+
+IF ~~ THEN BEGIN 21
+SAY @90
+IF ~~ THEN DO ~EraseJournalEntry(@20001)AddJournalEntry(@20002,QUEST)SetNumTimesTalkedTo(2)~ EXIT
+END
+
+IF ~~ THEN BEGIN 22
+SAY @91
+IF ~~ THEN DO ~EraseJournalEntry(@20001)AddJournalEntry(@20003,QUEST)SetGlobal("UnseeingEye","GLOBAL",1)SetNumTimesTalkedTo(3)ChangeEnemyAlly(MYSELF,GOODBUTBLUE)MoveToPointNoInterrupt([3363.180])~ EXIT
+END
+
+IF ~~ THEN BEGIN 22a
+SAY @91
+IF ~~ THEN DO ~EraseJournalEntry(@20001)AddJournalEntry(@20003,QUEST)SetNumTimesTalkedTo(3)ChangeEnemyAlly(MYSELF,GOODBUTBLUE)MoveToPointNoInterrupt([3363.180])~ EXIT
+END
+
+IF ~~ THEN BEGIN 23
+SAY @92
+IF ~~ THEN DO ~EraseJournalEntry(@20001)AddJournalEntry(@20004,QUEST)SetGlobal("UnseeingEye","GLOBAL",1)Enemy()~ EXIT
+END
+
+IF ~GlobalLT("ACQ22","GLOBAL",4)Dead("UnseeingEye")NumTimesTalkedToLT(3)~ THEN BEGIN 24
+SAY @93
+IF ~NumTimesTalkedTo(0)~ THEN REPLY @94 + 25
+IF ~NumTimesTalkedTo(1)~ THEN REPLY @94 + 26
+IF ~NumTimesTalkedTo(2)~ THEN REPLY @94 + 27
+END
+
+IF ~GlobalLT("ACQ22","GLOBAL",4)NumTimesTalkedTo(3)~ THEN BEGIN 25a
+SAY @95
+IF ~~ THEN DO ~SetGlobal("ACQ22","GLOBAL",4)AddexperienceParty(12000)EraseJournalEntry(@20001)EraseJournalEntry(@20002)EraseJournalEntry(@20003)EraseJournalEntry(@20004)AddJournalEntry(@20006,QUEST_DONE)EscapeAreaDestroy(10)~ EXIT
+END
+
+IF ~~ THEN BEGIN 25
+SAY @96
+++ @97 + 22a
+++ @98 + 28
+IF ~Global("ACQ22","GLOBAL",2)~ THEN REPLY @99 + 22a
+END
+
+IF ~~ THEN BEGIN 26
+SAY @100
+++ @101 + 21
+++ @83 + 22a
+IF ~Global("ACQ22","GLOBAL",2)~ THEN REPLY @99 + 22a
+END
+
+IF ~~ THEN BEGIN 27
+SAY @100
+++ @101 + 21
+++ @83 + 22a
+END
+
+IF ~~ THEN BEGIN 28
+SAY @102
+++ @103 + 22a
+++ @104 + 29
+END
+
+IF ~~ THEN BEGIN 29
+SAY @105
+IF ~~ THEN DO ~Enemy()~ EXIT
+END
+
+CHAIN
+IF ~GlobalLT("ACQ22","GLOBAL",4)!Dead("BHEYE")NumTimesTalkedTo(0)Global("UnseeingEye","GLOBAL",0)~ THEN ACQ22002 0
+@106
+== BKELDOR IF ~InParty("KELDORN")InMyArea("KELDORN")!StateCheck("KELDORN",CD_STATE_NOTVALID)~ THEN @107
+== BAERIE IF ~InParty("AERIE")InMyArea("AERIE")!StateCheck("AERIE",CD_STATE_NOTVALID)~ THEN @108
+== BVICONI IF ~InParty("VICONIA")InMyArea("VICONIA")!StateCheck("VICONIA",CD_STATE_NOTVALID)~ THEN @109
+== BKORGAN IF ~InParty("KORGAN")InMyArea("KORGAN")!StateCheck("KORGAN",CD_STATE_NOTVALID)~ THEN @110
+== BMAZZY IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN @111
+END
+++ @51 + 1
+++ @43 + 2
+++ @44 + 3
+IF ~Global("ACQ22","GLOBAL",2)~ THEN REPLY @45 + 4
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @49 + 6
+
+CHAIN
+IF ~~ THEN ACQ22002 8
+@112 = @113
+==ACQ22002 IF ~!Global("ACQ11","GLOBAL",2)~ THEN @114
+== BMAZZY IF ~!Global("ACQ11","GLOBAL",2)InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN @115
+END
+++ @55 + 10
+++ @116 + 14
+IF ~CheckStatGT(LastTalkedToBy(),15,CHR)~ THEN REPLY @70 + 15
+IF ~Global("ACQ11","GLOBAL",2)~ THEN REPLY @117 + 11
+IF ~Global("ACQ11","GLOBAL",3)~ THEN REPLY @118 + 12
+IF ~Global("ACQ11","GLOBAL",4)~ THEN REPLY @119 + 13
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @72 + 6
+
+CHAIN
+IF ~~ THEN ACQ22002 9
+@120 = @113
+==ACQ22002 IF ~!Global("ACQ11","GLOBAL",2)~ THEN @114
+== BMAZZY IF ~!Global("ACQ11","GLOBAL",2)InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN @115
+END
+++ @55 + 10
+++ @116 + 14
+IF ~CheckStatGT(LastTalkedToBy(),15,WIS)~ THEN REPLY @71 + 15
+IF ~Global("ACQ11","GLOBAL",2)~ THEN REPLY @117 + 11
+IF ~Global("ACQ11","GLOBAL",3)~ THEN REPLY @118 + 12
+IF ~Global("ACQ11","GLOBAL",4)~ THEN REPLY @119 + 13
+IF ~InParty("MAZZY")InMyArea("MAZZY")!StateCheck("MAZZY",CD_STATE_NOTVALID)~ THEN REPLY @46 EXTERN BMAZZY AC5
+++ @72 + 6
+
+CHAIN
+IF ~~ THEN BMAZZY AC5
+@121
+==ACQ22002 @122
+==BMAZZY @123
+==ACQ22002 @124
+==BMAZZY @125
+==ACQ22002 @126
+==BMAZZY @127
+END
+IF ~~ THEN EXTERN ACQ22002 15
+
+CHAIN
+IF ~Global("ACQ22","GLOBAL",5)~ THEN ACQ22001 20
+@128 DO ~SetGlobal("ACQ22","GLOBAL",6)AddexperienceParty(6000)ReputationInc(1)~
+==ACQ22002 @129 DO ~EscapeAreaDestroy(10)~
+==ACQ22001 @130 DO ~EscapeAreaDestroy(10)~
+EXIT

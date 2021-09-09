@@ -1,0 +1,1647 @@
+BACKUP ~AC_QUEST/backup~
+AUTHOR ~whiteagnus@baldursgatemods.de~ //This is Ascalon's Questpack, 
+//but any bugreports about version 2.01 should go to jastey 
+
+VERSION ~2.02~ //180219 packed by jastey
+
+AUTO_TRA "AC_QUEST/TRA/autotra/%s"//%"
+
+ALWAYS
+
+INCLUDE ~AC_QUEST/lib/g3_tutu_cpmvars.tpa~
+INCLUDE ~AC_QUEST/lib/g3_bgt_cpmvars.tpa~
+INCLUDE ~AC_QUEST/lib/liam_bgee_vars.tpa~
+
+/* Declaration of EET Platform Variables */
+ACTION_IF GAME_IS "eet" BEGIN
+  INCLUDE ~EET/other/cpmvars/eet_cpmvars.tpa~
+END
+
+INCLUDE ~AC_QUEST/lib/ac_quest_cpmvars.tpa~
+
+
+/* Handling of correctly formatted tra-files!! ---------------------- */
+
+/*
+* Copies tra files into the autotra-folder (to leave the originals untouched)
+*/
+	DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
+		COPY ~AC_QUEST/tra/german~ ~AC_QUEST/tra/autotra/%LANGUAGE%~
+		COPY ~AC_QUEST/tra/%LANGUAGE%~ ~AC_QUEST/tra/autotra/%LANGUAGE%~
+	END
+
+	LAF autotra_workaround END
+
+	ACTION_DEFINE_ARRAY tra#reload BEGIN setup-AC_QUEST END
+	ACTION_DEFINE_ARRAY tra#noconvert BEGIN END
+
+	LAF HANDLE_CHARSETS
+		INT_VAR
+			infer_charset = 1
+		STR_VAR
+			tra_path = EVAL ~AC_QUEST/tra/autotra~
+			noconvert_array = tra#noconvert
+			reload_array = tra#reload
+			iconv_path = ~AC_QUEST/tools/iconv~
+	END
+		
+//		LOAD_TRA ~AC_QUEST/tra/autotra/german/setup-AC_QUEST.tra~	
+		LOAD_TRA ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
+
+//CamDawgs CD_STATE_NOTVALID zum Checken der Dialogfähigkeit eines Char
+//Thank you very much, CamDawg!
+APPEND ~STATE.IDS~ // adds custom IsValidForPartyDialogue state
+ ~0x80101FEF CD_STATE_NOTVALID~
+ UNLESS ~CD_STATE_NOTVALID~
+
+APPEND ~shoutids.ids~ ~99 HELPME~ UNLESS ~^99~
+
+//Fix for ToB Shoutaction (appears on Tutu)
+COPY_EXISTING ~action.ids~ ~override~
+ REPLACE_TEXTUALLY ~^106 Shout(.*$~ ~106 Shout(I:ID*SHOUTIDS)~
+ BUT_ONLY_IF_IT_CHANGES
+
+APPEND ~STATE.IDS~ ~0x00000FC0 STATE_REALLY_DEAD~ UNLESS ~STATE_REALLY_DEAD~
+END
+
+
+
+
+LANGUAGE ~Deutsch (German)~ ~german~ ~AC_QUEST/TRA/german/setup-AC_QUEST.tra~
+
+LANGUAGE ~English~ ~english~ ~AC_QUEST/TRA/english/setup-AC_QUEST.tra~
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////									BEGIN PART 1							////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+         
+BEGIN @1
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tob bg2ee tutu_totsc eet~ @2
+
+ACTION_IF GAME_IS ~bgt eet~ THEN BEGIN
+PRINT @3
+EXTEND_TOP ~ACVIRGI.bcs~ ~AC_QUEST/Virgi/ACVIRGI.BAF~
+EVAL
+	END
+	
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~ACVIRGI.CRE~ THEN BEGIN
+PRINT @4
+COPY ~AC_QUEST/cre/ACVIRGI.CRE~ ~OVERRIDE/ACVIRGI.CRE~
+SAY NAME1 ~~
+SAY NAME2 ~~
+WRITE_ASCII 0x280 ~ACVIRGI~
+PATCH_IF FILE_EXISTS_IN_GAME ~ACVIRGI.dlg~ THEN BEGIN
+WRITE_ASCII 0x2cc ~ACVIRGI~
+END
+PATCH_IF FILE_EXISTS_IN_GAME ~ACVIRGI.bcs~ THEN BEGIN
+WRITE_ASCII 0x248 ~ACVIRGI~
+	END
+END
+
+ACTION_IF GAME_IS ~bgt eet~
+THEN BEGIN
+EXTEND_BOTTOM ~AR0602.bcs~ ~AC_QUEST/BAF/AC0602.BAF~
+END
+
+ACTION_IF GAME_IS ~bgt bgee tutu_totsc eet~ THEN BEGIN
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~AC_QUEST/TRA/%LANGUAGE%/sounds~ ~override~
+END
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~AC_QUEST/cre/observe.cre~ ~override~
+
+
+COPY ~AC_QUEST/itm/B1-12M4.ITM~ ~override~
+SAY NAME2 #7019
+
+COPY ~AC_QUEST/itm/CHAN09.ITM~ ~override~
+SAY NAME2 #21308
+SAY DESC @80049
+
+COPY ~AC_QUEST/itm/CLCK29.ITM~ ~override~
+SAY NAME2 @80050
+SAY DESC @80051
+
+COPY ~AC_QUEST/itm/HAMM07.ITM~ ~override~
+SAY NAME2 @80052
+SAY DESC @80053
+
+COPY ~AC_QUEST/itm/KEY27.ITM~ ~override~
+SAY NAME1 @80054
+SAY NAME2 @80054
+SAY UNIDENTIFIED_DESC @80055
+SAY DESC @80055
+
+COPY ~AC_QUEST/itm/LEAT14.ITM~ ~override~
+SAY NAME2 @80056
+SAY DESC @80057
+
+COPY ~AC_QUEST/itm/PLAT21.ITM~ ~override~
+SAY NAME2 @80058
+SAY DESC @80059
+
+COPY ~AC_QUEST/itm/SPECTR.ITM~ ~override~
+
+COMPILE ~AC_QUEST/baf/DEMBAL01.BAF~
+		~AC_QUEST/baf/PRIES6C.BAF~
+		~AC_QUEST/baf/PRIES10B.BAF~
+		~AC_QUEST/baf/INPAIVSG.BAF~
+
+END
+
+COMPILE ~AC_QUEST/baf/ACUITM.baf~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////						1.	Der Lohn für die Mühe							////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ADD_JOURNAL TITLE (@90001) @10001 @10002 @10003
+
+COPY ~AC_QUEST/cre/ACQ11001.CRE~ ~override~
+SAY NAME1 @6
+SAY NAME2 @7
+
+COPY ~AC_QUEST/cre/ACQ11002.CRE~ ~override~
+SAY NAME1 @8
+SAY NAME2 @9
+
+COPY ~AC_QUEST/cre/ACQ11003.CRE~ ~override~
+SAY NAME1 @10
+SAY NAME2 @11
+
+COPY_EXISTING ~%Beregost%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 2608
+    fj_loc_y          = 830
+    fj_dest_x         = 2608
+    fj_dest_y         = 830
+    fj_orientation    = 12
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Agnus
+    fj_cre_resref     = ACQ11001
+  END
+
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 2657
+    fj_loc_y          = 812
+    fj_dest_x         = 2657
+    fj_dest_y         = 812
+    fj_orientation    = 0
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Theliel
+    fj_cre_resref     = ACQ11002
+  END
+  
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 2682
+    fj_loc_y          = 865
+    fj_dest_x         = 2682
+    fj_dest_y         = 865
+    fj_orientation    = 7
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Udolf
+    fj_cre_resref     = ACQ11003
+  END
+  
+COMPILE ~AC_QUEST/D/ACQ11000.D~
+EVAL
+COMPILE ~AC_QUEST/BAF/ACQ11002.BAF~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////							2.	EIN FRESSEN FÜR DIE GNOLLE					////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ADD_JOURNAL TITLE (@90011) @10008 @10024 @10025 @10009 @10026 @10027
+
+
+
+COPY ~AC_QUEST/cre/ACQ12001.CRE~ ~override~
+SAY NAME1 @12
+SAY NAME2 @12
+SAY INITIAL_MEETING @80001
+SAY DAMAGE @80002
+SAY DYING @80003
+SAY SELECT_COMMON1 @80004
+
+COPY ~AC_QUEST/cre/ACQ12002.CRE~ ~override~
+SAY NAME1 @13
+SAY NAME2 @14
+SAY INITIAL_MEETING @80005
+SAY DAMAGE @80006
+SAY DYING @80007
+SAY SELECT_COMMON1 @80008
+
+COPY ~AC_QUEST/cre/ACQ12003.CRE~ ~override~
+SAY NAME1 @15
+SAY NAME2 @15
+SAY INITIAL_MEETING @80009
+SAY SELECT_COMMON1 @80009
+
+COPY ~AC_QUEST/cre/ACQ12004.CRE~ ~override~
+SAY NAME1 @16
+SAY NAME2 @17
+SAY INITIAL_MEETING @80010
+SAY DAMAGE @80011
+SAY DYING @80012
+SAY SELECT_COMMON1 @80013
+SAY SELECT_COMMON2 @80014
+SAY SELECT_COMMON3 @80015
+
+COPY ~AC_QUEST/cre/ACGNOLL1.CRE~ ~override~
+SAY NAME1 @18
+SAY NAME2 @18
+PATCH_IF GAME_IS ~bgt~ THEN BEGIN
+ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
+ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
+ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
+END
+PATCH_IF GAME_IS ~bgee eet tutu_totsc~ THEN BEGIN
+ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
+ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
+ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
+END
+
+COPY ~AC_QUEST/cre/ACGNOLL2.CRE~ ~override~
+SAY NAME1 @19
+SAY NAME2 @19
+PATCH_IF GAME_IS ~bgt~ THEN BEGIN
+ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
+ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
+ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
+END
+PATCH_IF GAME_IS ~bgee eet tutu_totsc~ THEN BEGIN
+ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
+ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
+ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
+END
+
+COPY_EXISTING ~%Nashkel_TempleofHelm%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 324
+    fj_loc_y          = 312
+    fj_dest_x         = 324
+    fj_dest_y         = 312
+    fj_orientation    = 0
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Barin
+    fj_cre_resref     = ACQ12004
+  END
+  
+COPY_EXISTING ~%DryadFalls%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 1749
+    fj_loc_y          = 3386
+    fj_dest_x         = 1749
+    fj_dest_y         = 3386
+    fj_orientation    = 15
+    fj_schedule		  = 0xfff0003f
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Marina
+    fj_cre_resref     = ACQ12003
+  END
+  
+COPY_EXISTING ~%Nashkel%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 2609
+    fj_loc_y          = 2340
+    fj_dest_x         = 2609
+    fj_dest_y         = 2340
+    fj_orientation    = 2
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Frau B
+    fj_cre_resref     = ACQ12001
+  END
+
+COMPILE ~AC_QUEST/D/ACQ12000.D~
+EVAL
+COMPILE ~AC_QUEST/BAF/ACQ12001.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ12002.BAF~
+EVAL
+COMPILE ~AC_QUEST/BAF/ACQ12004.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ12CUT.BAF~
+EVAL
+COMPILE ~AC_QUEST/BAF/ACQ12CU2.BAF~
+EVAL
+
+EXTEND_TOP ~%GnollStronghold_BCS%.bcs~ ~AC_QUEST/baf/AC4100.baf~
+EVAL
+
+COPY ~AC_QUEST/ITM/ACQ12000.ITM~ ~override~
+SAY NAME1 #6348
+SAY NAME2 @20
+SAY UNIDENTIFIED_DESC #17054
+SAY DESC @21
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////								3.	Hopsi									////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ADD_JOURNAL TITLE (@90004) @10004 @10006
+ADD_JOURNAL TITLE (@90005) @10005 @10007
+
+COPY ~AC_QUEST/cre/ACQ13001.CRE~ ~override~
+SAY NAME1 @22
+SAY NAME2 @22
+SAY INITIAL_MEETING @80016
+SAY DAMAGE @80017
+SAY DYING @80017
+SAY SELECT_COMMON1 @80018
+
+COPY ~AC_QUEST/cre/ACQ13002.CRE~ ~override~
+SAY NAME1 @23
+SAY NAME2 @23
+PATCH_IF GAME_IS ~bgt~ THEN BEGIN
+ADD_CRE_ITEM ~RNDTRE08~ #0 #0 #0 ~NONE~ ~INV~
+END
+PATCH_IF GAME_IS ~bgee eet tutu_totsc~ THEN BEGIN
+ADD_CRE_ITEM ~RNDTRE04~ #0 #0 #0 ~NONE~ ~INV~
+END
+
+
+COPY ~AC_QUEST/cre/ACQ13003.CRE~ ~override~
+SAY NAME1 @24
+SAY NAME2 @24
+
+COPY ~AC_QUEST/cre/ACQ13004.CRE~ ~override~
+SAY NAME1 @25
+SAY NAME2 @25
+SAY INITIAL_MEETING @80019
+SAY DAMAGE @80020
+SAY DYING @80021
+SAY SELECT_COMMON1 @80022
+
+COPY_EXISTING ~%SouthBeregostRoad%.are~ ~OVERRIDE~
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 3676
+	fj_loc_y          = 2217
+	fj_dest_x         = 3676
+	fj_dest_y         = 2217
+	fj_orientation    = 13
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Kessy
+	fj_cre_resref     = ACQ13001
+END
+
+COPY_EXISTING ~%SouthBeregostRoad_Cave%.are~ ~OVERRIDE~
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 484
+	fj_loc_y          = 294
+	fj_dest_x         = 484
+	fj_dest_y         = 294
+	fj_orientation    = 4
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Ugh
+	fj_cre_resref     = ACQ13002
+END
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 444
+	fj_loc_y          = 293
+	fj_dest_x         = 444
+	fj_dest_y         = 293
+	fj_orientation    = 11
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Hopsi
+	fj_cre_resref     = ACQ13003
+END
+
+COPY_EXISTING ~%NashkelCarnival%.are~ ~OVERRIDE~
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 1352
+	fj_loc_y          = 3642
+	fj_dest_x         = 1352
+	fj_dest_y         = 3642
+	fj_orientation    = 13
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Rabbitdealer
+	fj_cre_resref     = ACQ13004
+END
+
+COPY ~AC_QUEST/BAM/ACQ13003.BAM~ ~OVERRIDE~
+COPY ~AC_QUEST/BAM/ACQ13004.BAM~ ~OVERRIDE~
+COPY ~AC_QUEST/ITM/ACQ13003.ITM~ ~OVERRIDE~
+SAY NAME1 @26
+SAY NAME2 @26
+SAY DESC @27
+COPY ~AC_QUEST/ITM/ACQ13003.ITM~ ~OVERRIDE/ACQ13004.ITM~
+SAY NAME1 @26
+SAY NAME2 @26
+SAY DESC @28
+
+COMPILE ~AC_QUEST/D/ACQ13000.D~
+COMPILE ~AC_QUEST/BAF/ACQ13001.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ13002.BAF~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////							4.	Schmuggelnde Halblinge						////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////							5.	Der verlorene Sohn							////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ADD_JOURNAL TITLE (@90006) @10010 @10028 @10029 @10030 @10031 @10032
+
+COMPILE ~AC_QUEST/D/ACQ15000.D~
+EVAL
+COMPILE ~AC_QUEST/BAF/ACQ15001.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ15002.BAF~
+EVAL
+EXTEND_BOTTOM ~%CloakwoodMines_BCS%.bcs~ ~AC_QUEST/BAF/AC8600.BAF~
+EXTEND_TOP ~BALDUR.bcs~ ~AC_QUEST/BAF/ACBALDUR.BAF~
+
+COPY_EXISTING ~MISC54.ITM~ ~Override/ACQ15002.ITM~
+SAY NAME1 @29
+SAY NAME2 @29
+SAY UNIDENTIFIED_DESC @30
+SAY DESC @30
+
+COPY_EXISTING ~BOW07.ITM~ ~Override/ACQ15001.ITM~
+SAY NAME1 #6860
+SAY NAME2 @31
+SAY UNIDENTIFIED_DESC #6862
+PATCH_IF GAME_IS ~tutu_totsc bgt~ BEGIN
+SAY DESC @32
+END
+PATCH_IF GAME_IS ~bgee eet~ BEGIN
+SAY DESC @100032
+END
+
+COPY ~AC_QUEST/cre/ACQ15001.CRE~ ~override~
+SAY NAME1 @33
+SAY NAME2 @33
+
+COPY ~AC_QUEST/cre/ACQ15002.cre~ ~override~
+SAY NAME1 @29
+SAY NAME2 @29
+SAY INITIAL_MEETING @80023
+SAY DAMAGE @80024
+SAY DYING @80025
+SAY SELECT_COMMON1 @80026
+SAY SELECT_COMMON2 @80027
+
+COPY_EXISTING ~%CloakwoodMines_L2%.are~ ~OVERRIDE~
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 628
+	fj_loc_y          = 400
+	fj_dest_x         = 628
+	fj_dest_y         = 400
+	fj_orientation    = 10
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Perwell
+	fj_cre_resref     = ACQ15002
+END
+
+COPY_EXISTING ~%CloakwoodLodge%.are~ ~OVERRIDE~
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 4810
+	fj_loc_y          = 2067
+	fj_dest_x         = 4810
+	fj_dest_y         = 2067
+	fj_orientation    = 14
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Aphriel
+	fj_cre_resref     = ACQ15001
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////							6.	Von Wölfen und Männern						////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ADD_JOURNAL TITLE (@90007) @10033 @10034 @10035 @10036
+
+COPY ~AC_QUEST/cre/ACQ16001.CRE~ ~override~
+SAY NAME1 @34
+SAY NAME2 @34
+SAY INITIAL_MEETING @80028
+SAY DAMAGE @80029
+SAY DYING @80030
+SAY SELECT_COMMON1 @80031
+PATCH_IF GAME_IS ~bgt~ THEN BEGIN
+ADD_CRE_ITEM ~RNDTRE08~ #0 #0 #0 ~NONE~ ~INV~
+ADD_CRE_ITEM ~RNDTRE08~ #0 #0 #0 ~NONE~ ~INV~
+END
+PATCH_IF GAME_IS ~bgee eet tutu_totsc~ THEN BEGIN
+ADD_CRE_ITEM ~RNDTRE04~ #0 #0 #0 ~NONE~ ~INV~
+ADD_CRE_ITEM ~RNDTRE04~ #0 #0 #0 ~NONE~ ~INV~
+END
+
+
+COPY ~AC_QUEST/cre/ACQ16002.CRE~ ~override~
+SAY NAME1 @35
+SAY NAME2 @35
+
+COPY ~AC_QUEST/cre/ACQ16003.CRE~ ~override~
+SAY NAME1 @36
+SAY NAME2 @36
+
+COPY_EXISTING ~%HighHedge%.are~ ~OVERRIDE~
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 2881
+	fj_loc_y          = 2677
+	fj_dest_x         = 2881
+	fj_dest_y         = 2677
+	fj_orientation    = 10
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Aiwell
+	fj_cre_resref     = ACQ16001
+END
+
+COPY_EXISTING ~%HighHedge_House%.are~ ~OVERRIDE~
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 283
+	fj_loc_y          = 197
+	fj_dest_x         = 283
+	fj_dest_y         = 197
+	fj_orientation    = 15
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Tonder
+	fj_cre_resref     = ACQ16002
+END
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 280
+	fj_loc_y          = 197
+	fj_dest_x         = 280
+	fj_dest_y         = 197
+	fj_orientation    = 0
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Wonderbunny Virginie
+	fj_cre_resref     = ACVIRGI
+	fj_bcs_override   = ACQ7101
+END
+
+ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+COMPILE ~AC_QUEST/D/ACQ16000.D~
+		~AC_QUEST/D/ACQ16000BGT.D~
+EVAL
+USING ~AC_QUEST/tra/autotra/%LANGUAGE%/ACQ16000.TRA~
+END ELSE BEGIN
+COMPILE ~AC_QUEST/D/ACQ16000.D~
+EVAL
+END
+COMPILE ~AC_QUEST/BAF/ACQ161.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ162.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ163.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ164.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ16001.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ16002.BAF~
+COMPILE ~AC_QUEST/VIRGI/ACQ7101.BAF~
+EVAL
+
+COPY_EXISTING ~MISC65.ITM~ ~Override/ACQ16002.ITM~
+SAY NAME1 @37
+SAY NAME2 @37
+SAY UNIDENTIFIED_DESC @38
+SAY DESC @38
+
+COPY_EXISTING ~%Feldeposts_Store%.sto~ ~override~
+ADD_STORE_ITEM ~ACQ16001~ #10 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
+
+COPY ~AC_QUEST/ITM/ACQ16001.ITM~ ~override~
+SAY NAME1 @39
+SAY NAME2 @39
+SAY DESC @40
+
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+COPY ~AC_QUEST/ITM/AC1H53.ITM~ ~override~
+SAY NAME1 @80044
+SAY NAME2 @80045
+SAY UNIDENTIFIED_DESC @80042
+SAY DESC @80043
+END
+
+ACTION_IF GAME_IS ~bgt tutu_totsc~ THEN BEGIN
+COPY ~AC_QUEST/ITM/AC1H53.ITM~ ~override~
+SAY NAME1 @80044
+SAY NAME2 @80045
+SAY UNIDENTIFIED_DESC @80046
+SAY DESC @80047
+END
+
+COPY ~AC_QUEST/ITM/MISCAS.ITM~ ~Override/ACQ16003.ITM~
+SAY NAME1 @41
+SAY NAME2 @41
+SAY UNIDENTIFIED_DESC @42
+SAY DESC @42
+
+COPY ~AC_QUEST/ITM/MISCAS.ITM~ ~Override/ACQ16004.ITM~
+SAY NAME1 @43
+SAY NAME2 @43
+SAY UNIDENTIFIED_DESC @44
+SAY DESC @44
+
+COPY ~AC_QUEST/ITM/MISCAS.ITM~ ~Override/ACQ16005.ITM~
+SAY NAME1 @43
+SAY NAME2 @43
+SAY UNIDENTIFIED_DESC @45
+SAY DESC @45
+
+COPY ~AC_QUEST/ITM/MISC5Q.ITM~ ~Override/ACQ16006.ITM~
+SAY NAME1 @43
+SAY NAME2 @43
+SAY UNIDENTIFIED_DESC @46
+SAY DESC @46
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////							7.	Der große Karlini							////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ADD_JOURNAL TITLE (@2000009) @2000001 @2000002 @2000003 @2000004 @2000005 @2000006 @2000007 @2000008
+
+COPY ~AC_QUEST/ITM/ACQ17003.ITM~ ~override~
+SAY NAME1 #215
+SAY NAME2 @47
+SAY UNIDENTIFIED_DESC #6819
+PATCH_IF GAME_IS ~tutu_totsc bgt~ BEGIN
+SAY DESC @48
+END
+PATCH_IF GAME_IS ~bgee eet~ BEGIN
+SAY DESC @100048
+END
+
+
+COMPILE ~AC_QUEST/D/ACQ17000.D~
+EVAL
+COMPILE ~AC_QUEST/BAF/ACQ17001.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ17002.BAF~
+COMPILE ~AC_QUEST/BAF/ACQCUT03.BAF~
+
+EXTEND_BOTTOM ~%UlcasterRuins_BCS%.bcs~ ~AC_QUEST/BAF/AR9798.baf~
+EVAL
+EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~AC_QUEST/BAF/AR6600.baf~
+EVAL
+
+COPY ~AC_QUEST/ITM/BOOK90.ITM~ ~OVERRIDE/ACQBOOK2.ITM~ 
+SAY NAME1 @49
+SAY NAME2 @49
+SAY DESC @50
+
+COPY ~AC_QUEST/cre/ACQ17001.CRE~ ~override~
+SAY NAME1 @51
+SAY NAME2 @52
+SAY INITIAL_MEETING @80032
+SAY DAMAGE @80033
+SAY DYING @80034
+SAY SELECT_COMMON1 @80032
+
+COPY ~AC_QUEST/cre/ACQ17002.CRE~ ~override~
+SAY NAME1 @53
+SAY NAME2 @53
+SAY INITIAL_MEETING @80032
+SAY DAMAGE @80033
+SAY DYING @80034
+SAY SELECT_COMMON1 @80032
+
+COPY ~AC_QUEST/cre/ACQ17003.CRE~ ~override~
+SAY NAME1 @80035
+SAY NAME2 @80035
+
+COPY_EXISTING ~%FriendlyArmInn_L1%.are~ ~OVERRIDE~
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 917
+	fj_loc_y          = 682
+	fj_dest_x         = 917
+	fj_dest_y         = 682
+	fj_orientation    = 4
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Ygnatz
+	fj_cre_resref     = ACQ17001
+END
+
+COPY_EXISTING ~%UlcasterRuins%.are~ ~OVERRIDE~
+LPF fj_are_structure
+INT_VAR
+	fj_con_itm_idx    = 0
+	fj_flags          = 1
+STR_VAR
+	fj_name           = ACQBOOK2
+	fj_structure_type = itm
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////							8.	Die Kreischlingszucht						////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+ADD_JOURNAL TITLE (@3000006) @3000001 @3000002 @3000003 @3000004 @3000005
+
+COMPILE ~AC_QUEST/BAF/ACQ18002.BAF~
+COMPILE ~AC_QUEST/D/ACQ18000.D~
+
+ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
+COPY_EXISTING ~%CentralBaldursGate_House1_L1%.are~ ~override~
+  READ_ASCII 0x94 area_script
+  PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
+  	WRITE_EVALUATED_ASCII 0x94 ~%CentralBaldursGate_House1_L1_BCS%~ (8)
+  END
+BUT_ONLY
+END
+
+EXTEND_TOP ~%CentralBaldursGate_House1_L1_BCS%.bcs~ ~AC_QUEST/baf/AR7711.baf~
+EXTEND_TOP ~%WSewers_BCS%.bcs~ ~AC_QUEST/baf/AR7324.baf~
+EVAL
+EXTEND_TOP ~%CentralSewers_BCS%.bcs~ ~AC_QUEST/baf/AR7325.baf~
+EVAL
+
+ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
+COPY_EXISTING ~%BaldursGateDocks_IronThrone_Cellar%.are~ ~override~
+  READ_ASCII 0x94 area_script
+  PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
+  	WRITE_EVALUATED_ASCII 0x94 ~%BaldursGateDocks_IronThrone_Cellar_BCS%~ (8)
+  END
+BUT_ONLY
+END
+
+EXTEND_TOP ~%BaldursGateDocks_IronThrone_Cellar_BCS%.bcs~ ~AC_QUEST/baf/AR7611.baf~
+EVAL
+COMPILE ~AC_QUEST/baf/AC7711.baf~
+
+COPY ~AC_QUEST/ARE/AC7711.ARE~ ~override~
+WRITE_EVALUATED_ASCII 0x8 ~%NWBaldursGate_House2_L1%~ #6
+WRITE_EVALUATED_ASCII 0x374 ~%CentralBaldursGate%~ #6
+WRITE_EVALUATED_ASCII 0x37c ~%CentralBaldursGate_House1_L1_EXIT%~ #8
+COPY ~AC_QUEST/ARE/AC7712.ARE~ ~override~
+WRITE_EVALUATED_ASCII 0x8 ~%NWBaldursGate_House2_L2%~ #6
+
+COPY ~AC_QUEST/ITM/KEY09.ITM~ ~OVERRIDE/ACQKEY03.ITM~ 
+SAY NAME1 @54
+SAY NAME2 @54
+SAY DESC @55
+
+COPY ~AC_QUEST/ITM/ACQ18001.ITM~ ~override~
+SAY NAME1 @56
+SAY NAME2 @56
+SAY UNIDENTIFIED_DESC @57
+SAY DESC @57
+
+COPY ~AC_QUEST/ITM/ACQ18002.ITM~ ~override~
+SAY NAME1 #6664
+SAY NAME2 @80039
+SAY UNIDENTIFIED_DESC #6667
+PATCH_IF GAME_IS ~tutu_totsc bgt~ BEGIN
+SAY DESC @58
+END
+PATCH_IF GAME_IS ~bgee eet~ BEGIN
+SAY DESC @100058
+END
+
+
+COPY ~AC_QUEST/ITM/MISC5D.ITM~ ~OVERRIDE/ACQ18003.ITM~ 
+SAY NAME1 @59
+SAY NAME2 @59
+SAY DESC @60
+
+COPY ~AC_QUEST/cre/ACQ18001.CRE~ ~override~
+	 ~AC_QUEST/cre/ACQ18004.CRE~ ~override~
+	 ~AC_QUEST/cre/ACQ18324.CRE~ ~override~
+	 ~AC_QUEST/cre/ACQ18325.CRE~ ~override~
+	 ~AC_QUEST/cre/ACQ18611.CRE~ ~override~
+SAY NAME1 @80040
+SAY NAME2 @80040
+
+COPY ~AC_QUEST/cre/ACQ18002.CRE~ ~override~
+SAY NAME1 @61
+SAY NAME2 @62
+
+COPY_EXISTING ~%CentralBaldursGate%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 1354
+    fj_loc_y          = 3081
+    fj_dest_x         = 1354
+    fj_dest_y         = 3081
+    fj_orientation    = 1
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Geraldo
+    fj_cre_resref     = ACQ18002
+END
+READ_LONG  0xa4  "doors_num"
+READ_LONG  0xa8  "doors_offset"
+    FOR( cnt=0; cnt<"%doors_num%"; cnt=cnt+1 ) BEGIN
+        READ_ASCII ("%doors_offset%"+0xc8*cnt)       "door_name"
+            PATCH_IF (("%door_name%" STRING_COMPARE_CASE "Door0711")=0) BEGIN
+                SET offset = ("%doors_offset%"+0xc8*cnt)
+                WRITE_LONG (offset+0x28) 0x00000442
+                WRITE_ASCII (offset+0x78) ~ACQKEY03~ (8)
+                WRITE_BYTE (offset+0x8c) 100
+            END
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////							9.	Echte Fans									////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+COMPILE ~AC_QUEST/D/ACQ19000.D~
+EVAL
+
+COPY ~AC_QUEST/cre/ACQ19001.cre~ ~override~
+SAY NAME1 @63
+SAY NAME2 @63
+
+COPY ~AC_QUEST/cre/ACQ19002.cre~ ~override~
+SAY NAME1 @64
+SAY NAME2 @64
+
+COPY ~AC_QUEST/cre/ACQ19003.cre~ ~override~
+SAY NAME1 @65
+SAY NAME2 @65
+
+COPY_EXISTING ~%NWBaldursGate%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 2834
+    fj_loc_y          = 2768
+    fj_dest_x         = 2834
+    fj_dest_y         = 2768
+    fj_orientation    = 0
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Mandy
+    fj_cre_resref     = ACQ19001
+  END
+
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 2792
+    fj_loc_y          = 2795
+    fj_dest_x         = 2792
+    fj_dest_y         = 2795
+    fj_orientation    = 10
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Ashley
+    fj_cre_resref     = ACQ19002
+  END
+  
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 2841
+    fj_loc_y          = 2813
+    fj_dest_x         = 2841
+    fj_dest_y         = 2813
+    fj_orientation    = 7
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Cindy
+    fj_cre_resref     = ACQ19003
+  END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////							10.	Die Schlangen Abbathors Teil I				////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+ADD_JOURNAL TITLE (@90008) @10011 @10012 @10013 @10014 @10019 @10015 @10017 @10016 @10018 @10020 @10022 @10023 @10021 @3000007 @3000008 @3000009 @3000010 @3000011 @3000012 @3000013
+
+COMPILE ~AC_QUEST/D/ACQ10100.D~
+EVAL
+COMPILE ~AC_QUEST/BAF/ACQ6900.BAF~
+COMPILE ~AC_QUEST/BAF/ACQCUT01.BAF~
+COMPILE ~AC_QUEST/BAF/ACQCUT02.BAF~
+COMPILE ~AC_QUEST/BAF/AC8201.BAF~
+COMPILE ~AC_QUEST/BAF/AC4400.BAF~
+COMPILE ~AC_QUEST/BAF/AC4401.BAF~
+EXTEND_TOP ~%SEBaldursGate_BCS%.bcs~ ~AC_QUEST/baf/AR8200.baf~
+EVAL
+EXTEND_TOP ~%NashkelMines_BCS%.bcs~ ~AC_QUEST/baf/AR4400.baf~
+
+EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.bcs~ ~AC_QUEST/baf/AR4405.baf~
+EXTEND_TOP ~%NEBaldursGate_BCS%.bcs~ ~AC_QUEST/baf/AR7400.baf~
+EXTEND_TOP ~%ESewers_BCS%.bcs~ ~AC_QUEST/baf/AR7326.baf~
+EXTEND_BOTTOM ~%CoastWay_BCS%.bcs~ ~AC_QUEST/baf/AR6900.baf~ 
+
+EXTEND_BOTTOM ~%BaldursGate_Undercellars%.bcs~ ~AC_QUEST/baf/AR7212.baf~ 
+
+ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
+COPY_EXISTING ~%NWBaldursGate_Tavern_L2%.are~ ~override~
+  READ_ASCII 0x94 area_script
+  PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
+  	WRITE_EVALUATED_ASCII 0x94 ~%NWBaldursGate_Tavern_L2_BCS%~ (8)
+  END
+BUT_ONLY
+END
+
+EXTEND_TOP ~%NWBaldursGate_Tavern_L2_BCS%.bcs~ ~AC_QUEST/baf/AR7266.baf~
+EVAL
+
+ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
+COPY_EXISTING ~%NWBaldursGate%.are~ ~override~
+  READ_ASCII 0x94 area_script
+  PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
+  	WRITE_EVALUATED_ASCII 0x94 ~%NWBaldursGate_BCS%~ (8)
+  END
+BUT_ONLY
+END
+
+EXTEND_TOP ~%NWBaldursGate_BCS%.bcs~ ~AC_QUEST/baf/AR7200.baf~
+
+ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
+COPY_EXISTING ~%NBaldursGate_TempleofHelm%.are~ ~override~
+  READ_ASCII 0x94 area_script
+  PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
+  	WRITE_EVALUATED_ASCII 0x94 ~%NBaldursGate_TempleofHelm_BCS%~ (8)
+  END
+BUT_ONLY
+END
+
+EXTEND_TOP ~%NBaldursGate_TempleofHelm_BCS%.bcs~ ~AC_QUEST/baf/ARA002.baf~
+COMPILE ~AC_QUEST/BAF/ACQ10102.BAF~
+EVAL
+COMPILE ~AC_QUEST/BAF/ACQ10103.BAF~
+EVAL
+COMPILE ~AC_QUEST/BAF/ACQ10106.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ10116.BAF~
+EVAL
+COMPILE ~AC_QUEST/BAF/ACQ10117.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ10100.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ10118.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ10119.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ10120.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ4400Q.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ44001.BAF~
+COMPILE ~AC_QUEST/BAF/AC4402.BAF~
+COMPILE ~AC_QUEST/BAF/ACQMINER.BAF~
+COMPILE ~AC_QUEST/BAF/AC4403.BAF~
+COMPILE ~AC_QUEST/BAF/AC4405.BAF~
+COMPILE ~AC_QUEST/BAF/ACUMBHUL.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ4405.BAF~
+
+COPY ~AC_QUEST/ITM/KEY07.ITM~ ~OVERRIDE/ACQKEY01.ITM~ 
+SAY NAME1 @66
+SAY NAME2 @66
+SAY DESC @67
+
+COPY ~AC_QUEST/ITM/KEY09.ITM~ ~OVERRIDE/ACQKEY02.ITM~ 
+SAY NAME1 @68
+SAY NAME2 @68
+SAY DESC @69
+
+COPY_EXISTING ~SCRL2J.ITM~ ~OVERRIDE/ACQLET01.ITM~ 
+SAY NAME1 @70
+SAY NAME2 @70
+SAY DESC @71
+
+COPY_EXISTING ~SCRL2J.ITM~ ~OVERRIDE/ACQLET02.ITM~ 
+SAY NAME1 @70
+SAY NAME2 @70
+SAY DESC @72
+
+COPY_EXISTING ~SCRL2J.ITM~ ~OVERRIDE/ACQLET03.ITM~ 
+SAY NAME1 @73
+SAY NAME2 @73
+SAY DESC @74
+
+COPY ~AC_QUEST/ITM/MISC4T.ITM~ ~OVERRIDE/ACQLET05.ITM~ 
+SAY NAME1 @75
+SAY NAME2 @75
+SAY DESC @76
+
+COPY ~AC_QUEST/ITM/MISC4T.ITM~ ~OVERRIDE/ACQLET06.ITM~ 
+SAY NAME1 @75
+SAY NAME2 @75
+SAY DESC @77
+
+COPY_EXISTING ~SCRL2J.ITM~ ~OVERRIDE/ACQLET04.ITM~ 
+SAY NAME1 @70
+SAY NAME2 @70
+SAY DESC @78
+
+COPY ~AC_QUEST/ITM/BOOK92.ITM~ ~OVERRIDE/ACQBOOK3.ITM~ 
+SAY NAME1 @79
+SAY NAME2 @79
+SAY DESC @80
+
+COPY ~AC_QUEST/ITM/MISC4W.ITM~ ~OVERRIDE/ACQBOOK4.ITM~ 
+SAY NAME1 @81
+SAY NAME2 @81
+SAY DESC @82
+
+COPY ~AC_QUEST/ITM/PLOT18B.ITM~ ~OVERRIDE/ACQBOOK5.ITM~ 
+SAY NAME1 @83
+SAY NAME2 @83
+SAY DESC @84
+
+COPY ~AC_QUEST/ITM/HAMM05.ITM~ ~Override/ACQHAMM1.ITM~
+SAY NAME1 #6345
+SAY NAME2 @85
+SAY UNIDENTIFIED_DESC #6716
+PATCH_IF GAME_IS ~tutu_totsc bgt~ BEGIN
+SAY DESC @86
+END
+PATCH_IF GAME_IS ~bgee eet~ BEGIN
+SAY DESC @100086
+END
+
+
+COPY ~AC_QUEST/ITM/BOOK92.ITM~ ~OVERRIDE/ACQBOOK1.ITM~ 
+SAY NAME1 @87
+SAY NAME2 @87
+SAY DESC @88
+
+COPY ~AC_QUEST/ITM/MISC6L.ITM~ ~OVERRIDE/ACQ10101.ITM~ 
+SAY NAME1 @89
+SAY NAME2 @90
+SAY DESC @91
+
+COPY ~AC_QUEST/ITM/ACQ1011A.ITM~ ~override~
+SAY NAME1 @92
+SAY NAME2 @92
+SAY DESC @93
+
+COPY ~AC_QUEST/cre/ACQ10101.CRE~ ~override~
+SAY NAME1 ~~
+SAY NAME2 ~~
+
+COPY_EXISTING ~%NashkelMines_MulaheysCave%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 583
+    fj_loc_y          = 831
+    fj_dest_x         = 583
+    fj_dest_y         = 831
+    fj_orientation    = 12
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Dead Dwarf
+    fj_cre_resref     = ACQ10101
+  END
+  LPF fj_are_structure
+    INT_VAR
+    fj_type        = 10
+    fj_loc_x       = 568
+    fj_loc_y       = 857
+    fj_box_left    = 573
+    fj_box_top     = 821
+    fj_box_right   = 583
+    fj_box_bottom  = 831
+    fj_trap_loc_x  = 587
+    fj_trap_loc_y  = 831
+    fj_vertex_0    = 573 + (821 << 16)
+    fj_vertex_1    = 573 + (831 << 16)
+    fj_vertex_2    = 583 + (831 << 16)
+    fj_vertex_3    = 583 + (821 << 16)
+    STR_VAR
+    fj_structure_type = container
+    fj_name           = ~Dwarf~
+  END
+  LPF fj_are_structure
+    INT_VAR
+    fj_con_itm_idx    = SHORT_AT 0x74 - 1
+    fj_flags          = 1
+    STR_VAR
+    fj_name           = ACQLET01
+    fj_structure_type = itm
+END
+
+COPY ~AC_QUEST/cre/ACQ10102.CRE~ ~override~
+SAY NAME1 @94
+SAY NAME2 @94
+
+COPY_EXISTING ~%Beregost%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 2124
+    fj_loc_y          = 2503
+    fj_dest_x         = 2124
+    fj_dest_y         = 2503
+    fj_orientation    = 15
+    fj_schedule		  = 0xfff0003f
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Tarash
+    fj_cre_resref     = ACQ10102
+END
+
+COPY ~AC_QUEST/cre/ACQ10103.CRE~ ~override~
+SAY NAME1 @95
+SAY NAME2 @95
+
+COPY_EXISTING ~%CoastWay%.are~ ~OVERRIDE~
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 0
+	fj_loc_y          = 0
+	fj_dest_x         = 0
+	fj_dest_y         = 0
+	fj_orientation    = 0
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Wonderbunny Virginie
+	fj_cre_resref     = ACVIRGI
+	fj_bcs_override   = ACQ6900
+END
+
+COPY ~AC_QUEST/cre/ACQ10104.CRE~ ~override~
+SAY NAME1 @96
+SAY NAME2 @96
+
+COPY ~AC_QUEST/cre/ACQ10105.CRE~ ~override~
+SAY NAME1 @97
+SAY NAME2 @97
+
+COPY ~AC_QUEST/cre/ACQ10106.CRE~ ~override~
+SAY NAME1 @98
+SAY NAME2 @98
+
+COPY ~AC_QUEST/cre/ACQ10112.CRE~ ~override~
+SAY NAME1 @99
+SAY NAME2 @99
+
+COPY_EXISTING ~%SWBaldursGate%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x         	= 1298
+    fj_loc_y         	= 1499
+    fj_dest_x        	= 1298
+    fj_dest_y        	= 1499
+    fj_orientation   	= 12
+    STR_VAR
+    fj_dlg_resref		= ACQ08000
+    fj_structure_type	= actor
+    fj_name          	= Abbathorian
+    fj_cre_resref    	= ACQ10112
+  END
+
+COPY_EXISTING ~%BaldursGate_Undercellars%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x         	= 1132
+    fj_loc_y         	= 926
+    fj_dest_x        	= 1132
+    fj_dest_y        	= 926
+    fj_orientation   	= 14
+    STR_VAR
+    fj_structure_type	= actor
+    fj_name          	= Draglon
+    fj_cre_resref    	= ACQ10106
+  END
+  
+COPY ~AC_QUEST/cre/ACQ10107.CRE~ ~override~
+SAY NAME1 @100
+SAY NAME2 @100
+
+COPY ~AC_QUEST/cre/ACQ10108.CRE~ ~override~
+SAY NAME1 @100
+SAY NAME2 @100
+
+COPY ~AC_QUEST/cre/ACQ10109.CRE~ ~override~
+SAY NAME1 @101
+SAY NAME2 @101
+
+COPY ~AC_QUEST/cre/ACQ10110.CRE~ ~override~
+SAY NAME1 @102
+SAY NAME2 @102
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~AC_QUEST/itm/SLNG04.ITM~ ~override~
+SAY NAME1 #6348
+SAY NAME2 #29076
+SAY UNIDENTIFIED_DESC #6650
+SAY DESC @80048
+END
+
+COPY ~AC_QUEST/cre/ACQ10111.CRE~ ~override~
+SAY NAME1 @103
+SAY NAME2 @103
+
+COPY ~AC_QUEST/cre/ACQ10113.CRE~ ~override~
+SAY NAME1 @104
+SAY NAME2 @104
+
+COPY ~AC_QUEST/cre/ACQ10114.CRE~ ~override~
+SAY NAME1 @105
+SAY NAME2 @105
+
+COPY ~AC_QUEST/cre/ACQ10115.CRE~ ~override~
+SAY NAME1 @106
+SAY NAME2 @107
+
+COPY ~AC_QUEST/cre/ACQ10116.CRE~ ~override~
+SAY NAME1 @108
+SAY NAME2 @109
+
+COPY_EXISTING ~%CentralSewers%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 3657
+    fj_loc_y          = 2265
+    fj_dest_x         = 3657
+    fj_dest_y         = 2265
+    fj_orientation    = 12
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Galder
+    fj_cre_resref     = ACQ10113
+  END
+
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 3677
+    fj_loc_y          = 2285
+    fj_dest_x         = 3677
+    fj_dest_y         = 2285
+    fj_orientation    = 0
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Therk
+    fj_cre_resref     = ACQ10114
+  END
+  
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 3677
+    fj_loc_y          = 2265
+    fj_dest_x         = 3677
+    fj_dest_y         = 2265
+    fj_orientation    = 7
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Jarger
+	fj_cre_resref     = ACQ10115
+END
+
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 3657
+    fj_loc_y          = 2285
+    fj_dest_x         = 3657
+    fj_dest_y         = 2285
+    fj_orientation    = 7
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Wostok
+	fj_cre_resref     = ACQ10116
+END
+
+COPY ~AC_QUEST/cre/ACQ10117.CRE~ ~override~
+SAY NAME1 @110
+SAY NAME2 @110
+
+COPY ~AC_QUEST/cre/ACQ10118.CRE~ ~override~
+SAY NAME1 @111
+SAY NAME2 @111
+SAY INITIAL_MEETING @80036
+SAY DAMAGE @80037
+SAY DYING @80038
+SAY SELECT_COMMON1 @80036
+
+COPY_EXISTING ~%NWBaldursGate_Tavern_L2%.are~ ~OVERRIDE~
+  LPF fj_are_structure
+    INT_VAR
+    fj_type        		= 6
+    fj_flags	   		= 1
+    fj_lock_diff   		= 80
+    fj_trap_active 		= 1
+    fj_trap_status 		= 0
+    fj_trap_detect 		= 50
+    fj_trap_remove_diff = 60
+    fj_loc_x       		= 456
+    fj_loc_y   		    = 462
+    fj_box_left  		= 492
+    fj_box_top     		= 396
+    fj_box_right   		= 515
+    fj_box_bottom  		= 445
+    fj_trap_loc_x  		= 470
+    fj_trap_loc_y  		= 450
+    fj_vertex_0    		= 515 + (445 << 16)
+    fj_vertex_1    		= 515 + (412 << 16)
+    fj_vertex_2    		= 493 + (396 << 16)
+    fj_vertex_3    		= 493 + (431 << 16)
+    STR_VAR
+    fj_key_resref		= ~ACQKEY01~
+    fj_trap_script		= ~CTMM~
+    fj_structure_type 	= container
+    fj_name           	= ~ACSecret~
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_con_itm_idx    = SHORT_AT 0x74 - 1
+    fj_flags          = 1
+    STR_VAR
+    fj_name           = ACQ10101
+    fj_structure_type = itm
+END
+
+COPY_EXISTING ~%SEBaldursGate%.are~ ~override~
+ READ_LONG  0xa4  "doors_num"
+ READ_LONG  0xa8  "doors_offset"
+    FOR( cnt=0; cnt<"%doors_num%"; cnt=cnt+1 ) BEGIN
+        READ_ASCII ("%doors_offset%"+0xc8*cnt)       "door_name"
+            PATCH_IF (("%door_name%" STRING_COMPARE_CASE "Door1301")=0) BEGIN
+                SET offset = ("%doors_offset%"+0xc8*cnt)
+                WRITE_LONG (offset+0x28) 0x00000442
+                WRITE_ASCII (offset+0x78) ~ACQKEY02~ (8)
+                WRITE_BYTE (offset+0x8c) 100
+            END
+END
+LPF fj_are_structure
+    INT_VAR
+    fj_type         = 2    //travel
+    fj_box_left     = 915
+    fj_box_top      = 2828
+    fj_box_right    = 957
+    fj_box_bottom   = 2918
+    fj_cursor_idx   = 30   //door
+    fj_vertex_0     = 915 + (2876 << 16)
+    fj_vertex_1     = 957 + (2918 << 16)
+    fj_vertex_2     = 957 + (2867 << 16)
+    fj_vertex_3     = 915 + (2828 << 16)
+    fj_flags		= 4
+    STR_VAR
+    fj_structure_type   = region
+    fj_name             = ACDOOR01
+    fj_destination_area = AC8201
+    fj_destination_name = Exit8200
+  END
+
+COPY ~AC_QUEST/ARE/AC8201.ARE~ ~override~
+WRITE_EVALUATED_ASCII  0x8 ~%BaldursGateDocks_BasiliskWarehouse%~ #6
+WRITE_EVALUATED_ASCII  0xd04 ~%SEBaldursGate%~ #6
+WRITE_EVALUATED_ASCII  0xd0c ~%SEBaldursGate_EXIT%~ #8
+COPY ~AC_QUEST/ARE/AC4400.ARE~ ~override~
+WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines%~ #6
+WRITE_EVALUATED_ASCII  0x18 ~%NashkelCarnival%~ #6
+WRITE_EVALUATED_ASCII  0x24 ~%GibberlingMountains%~ #6
+WRITE_EVALUATED_ASCII  0x3c ~%FireLeafForest%~ #6
+WRITE_EVALUATED_ASCII  0x19c ~%tutu_var%DEAD~ #5
+WRITE_EVALUATED_ASCII  0x2ac ~%tutu_var%DEAD1~ #6
+WRITE_EVALUATED_ASCII  0x3bc ~%tutu_var%DEAD2~ #6
+WRITE_EVALUATED_ASCII  0x4cc ~%tutu_var%DEAD1~ #6
+WRITE_EVALUATED_ASCII  0x5dc ~%tutu_var%DEAD1~ #6
+WRITE_EVALUATED_ASCII  0x6ec ~%tutu_var%DEAD1~ #6
+WRITE_EVALUATED_ASCII  0x7fc ~%tutu_var%DEAD1~ #6
+WRITE_EVALUATED_ASCII  0x4cc ~%tutu_var%DEAD1~ #6
+WRITE_EVALUATED_ASCII  0x90c ~%tutu_var%DEAD1~ #6
+WRITE_EVALUATED_ASCII  0x4cc ~%tutu_var%DEAD1~ #6
+WRITE_EVALUATED_ASCII  0xa1c ~%tutu_var%DEAD1~ #6
+WRITE_EVALUATED_ASCII  0xb2c ~%tutu_var%DEAD1~ #6
+COPY ~AC_QUEST/ARE/AC4401.ARE~ ~override~
+WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_L1%~ #6
+COPY ~AC_QUEST/ARE/AC4402.ARE~ ~override~
+WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_L2%~ #6
+ACTION_IF GAME_IS ~bgt tutu_totsc~ THEN BEGIN
+COPY ~AC_QUEST/ARE/AC4403.ARE~ ~override~
+WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_L3%~ #6
+END
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+COPY ~AC_QUEST/ARE/ee/AC4403.ARE~ ~override~
+WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_L3%~ #6
+END
+COPY ~AC_QUEST/ARE/AC4404.ARE~ ~override~
+WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_L4%~ #6
+WRITE_EVALUATED_ASCII  0x94 ~%NashkelMines_L4%~ #6
+COPY ~AC_QUEST/ARE/AC4405.ARE~ ~override~
+WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_MulaheysCave%~ #6
+COPY ~AC_QUEST/ARE/AC4406.ARE~ ~override~
+WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_Cabin%~ #6
+WRITE_EVALUATED_ASCII  0x2ac ~%tutu_var%AMNIS4~ #7
+WRITE_EVALUATED_ASCII  0x3bc ~%tutu_var%AMNIS4~ #7
+WRITE_EVALUATED_ASCII  0x19c ~%tutu_var%EMERSO~ #7
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~AC_QUEST/cre/SKELAR02.cre~ ~override~
+SAY NAME1 @80041
+SAY NAME2 @80041
+END
+
+COPY ~AC_QUEST/cre/ACQ10119.CRE~ ~override~
+SAY NAME1 @112
+SAY NAME2 @112
+
+COPY ~AC_QUEST/cre/ACQ10120.CRE~ ~override~
+SAY NAME1 @113
+SAY NAME2 @113
+
+COPY ~AC_QUEST/cre/ACQ10121.CRE~ ~override~
+SAY NAME1 @114
+SAY NAME2 @114
+
+COPY ~AC_QUEST/cre/ACQ10122.CRE~ ~override~
+SAY NAME1 @115
+SAY NAME2 @115
+
+COPY ~AC_QUEST/cre/ACQ10123.CRE~ ~override~
+SAY NAME1 @116
+SAY NAME2 @116
+
+COPY ~AC_QUEST/cre/ACQ10124.CRE~ ~override~
+SAY NAME1 @117
+SAY NAME2 @117
+
+COPY_EXISTING ~AC_QUEST/cre/ACUMBHUL.cre~ ~override~
+SAY NAME1 @80060
+SAY NAME2 @80060
+
+COPY ~AC_QUEST/2da/ACHP01.2da~ ~override~
+REPLACE 99998 @118
+REPLACE 99999 @119
+
+COPY_EXISTING ~%NBaldursGate_TempleofHelm%.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 448
+    fj_loc_y          = 437
+    fj_dest_x         = 448
+    fj_dest_y         = 437
+    fj_orientation    = 3
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Wostok
+    fj_cre_resref     = ACQ10116
+  END
+
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 497
+    fj_loc_y          = 460
+    fj_dest_x         = 497
+    fj_dest_y         = 460
+    fj_orientation    = 0
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = DWARF
+    fj_cre_resref     = ACQ10113
+  END
+  
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 543
+    fj_loc_y          = 442
+    fj_dest_x         = 543
+    fj_dest_y         = 442
+    fj_orientation    = 3
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = DWARF
+    fj_cre_resref     = ACQ10114
+  END
+
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 488
+    fj_loc_y          = 405
+    fj_dest_x         = 488
+    fj_dest_y         = 405
+    fj_orientation    = 3
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = DWARF
+    fj_cre_resref     = ACQ10115
+  END
+  
+COPY ~AC_QUEST/cre/ACQ10125.CRE~ ~override~
+SAY NAME1 @120
+SAY NAME2 @121
+
+COPY ~AC_QUEST/cre/ACQ10126.CRE~ ~override~
+SAY NAME1 @122
+SAY NAME2 @122
+
+COPY ~AC_QUEST/cre/ACQ10127.CRE~ ~override~
+SAY NAME1 @108
+SAY NAME2 @109
+
+
+END
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////									BEGIN PART 2							////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+         
+// BEGIN ~Ascalons Questpack: Inhalte fuer BG 2~
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////																			////////////
+////////////						2. Ein Halbling auf Abwegen							////////////
+////////////																			////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+ACTION_IF GAME_IS ~tob bg2ee eet~ THEN BEGIN
+
+ADD_JOURNAL TITLE (@90009) @20001 @20002 @20003 @20004 @20005 @20006
+//ADD_JOURNAL TITLE (@90010) @20023
+
+COPY ~AC_QUEST/cre/ACQ22001.CRE~ ~override~
+SAY NAME1 @123
+SAY NAME2 @123
+
+COPY ~AC_QUEST/cre/ACQ22002.CRE~ ~override~
+SAY NAME1 @124
+SAY NAME2 @124
+
+
+COPY_EXISTING ~AR0900.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 3165
+    fj_loc_y          = 1769
+    fj_dest_x         = 3165
+    fj_dest_y         = 1769
+    fj_orientation    = 13
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Halfling
+    fj_cre_resref     = ACQ22001
+  END
+  
+COPY_EXISTING ~AR0202.are~ ~OVERRIDE~
+LPF fj_are_structure
+    INT_VAR
+    fj_loc_x          = 1799
+    fj_loc_y          = 1409
+    fj_dest_x         = 1799
+    fj_dest_y         = 1409
+    fj_orientation    = 14
+    STR_VAR
+    fj_structure_type = actor
+    fj_name           = Bunger
+    fj_cre_resref     = ACQ22002
+  END
+
+COMPILE ~AC_QUEST/BAF/ACQ22001.BAF~
+COMPILE ~AC_QUEST/D/ACQ22000.D~
+
+END

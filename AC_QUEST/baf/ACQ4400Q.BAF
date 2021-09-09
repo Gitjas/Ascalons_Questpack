@@ -1,0 +1,15 @@
+IF
+	AreaCheck("AC4401")
+	Global("ACQ01","MYAREA",0)
+THEN
+	RESPONSE #100
+		CreateItem("ACQBOOK4",0,0,0)
+		SetGlobal("ACQ01","MYAREA",1)
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END

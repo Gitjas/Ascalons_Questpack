@@ -1,0 +1,8 @@
+IF
+	Global("ACQWOSTOK","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQWOSTOK","GLOBAL",5)
+		CreateCreature("ACQ10115",[2723.1694],13)
+		Continue()
+END

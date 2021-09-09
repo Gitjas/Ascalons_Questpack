@@ -1,0 +1,44 @@
+IF
+	AttackedBy([ANYONE],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	OR(4)
+	Allegiance("ACQ10113",ENEMY)
+	Allegiance("ACQ10114",ENEMY)
+	Allegiance("ACQ10115",ENEMY)
+	Allegiance("ACQ10116",ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Global("ACQWOSTOK","GLOBAL",0)
+	IsActive(MYSELF)
+THEN
+	RESPONSE #100
+		Deactivate(MYSELF)
+END
+
+IF
+	Global("ACQWOSTOK","GLOBAL",1)
+	!AreaCheck("%NBaldursGate_TempleofHelm%")
+	!IsActive(MYSELF)
+THEN
+	RESPONSE #100
+		Activate(MYSELF)
+END
+
+IF
+	Global("ACQWOSTOK","GLOBAL",5)
+	See([PC])
+THEN
+	RESPONSE #100
+		StartDialogNoSet([PC])
+END

@@ -1,0 +1,10 @@
+IF
+	NumDead("ACUMBHUL",2)
+	GlobalLT("ACUMBWAKE","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("ACUMBWAKE","GLOBAL",2)
+		EraseJournalEntry(@10015)
+		AddJournalEntry(@10017,QUEST)
+END
+	

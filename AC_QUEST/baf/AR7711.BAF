@@ -1,0 +1,53 @@
+IF
+	!Global("ACQ18","GLOBAL",9)
+	InMyArea(Player1)
+THEN
+	RESPONSE #100
+		ActionOverride(Player1,LeaveAreaLUA("AC7711","",[440.330],12))
+		Continue()
+END
+
+IF
+	!Global("ACQ18","GLOBAL",9)
+	InMyArea(Player2)
+THEN
+	RESPONSE #100
+		ActionOverride(Player2,LeaveAreaLUA("AC7711","",[440.330],12))
+		Continue()
+END
+
+IF
+	!Global("ACQ18","GLOBAL",9)
+	InMyArea(Player3)
+THEN
+	RESPONSE #100
+		ActionOverride(Player3,LeaveAreaLUA("AC7711","",[440.330],12))
+		Continue()
+END
+
+IF
+	!Global("ACQ18","GLOBAL",9)
+	InMyArea(Player4)
+THEN
+	RESPONSE #100
+		ActionOverride(Player4,LeaveAreaLUA("AC7711","",[440.330],12))
+		Continue()
+END
+
+IF
+	!Global("ACQ18","GLOBAL",9)
+	InMyArea(Player5)
+THEN
+	RESPONSE #100
+		ActionOverride(Player5,LeaveAreaLUA("AC7711","",[440.330],12))
+		Continue()
+END
+
+IF
+	!Global("ACQ18","GLOBAL",9)
+	InMyArea(Player6)
+THEN
+	RESPONSE #100
+		ActionOverride(Player6,LeaveAreaLUA("AC7711","",[440.330],12))
+		Continue()
+END

@@ -1,0 +1,15 @@
+IF
+	Allegiance("ACQ10118",ENEMY)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	PickPocketFailed([ANYONE])
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END

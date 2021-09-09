@@ -1,0 +1,11 @@
+IF
+	Exists("ACQ15002")
+	GlobalGT("CHAPTER","GLOBAL",0)
+	!InActiveArea("ACQ15002")
+	!Dead("ACQ15002")
+ 	Global("ACQ15","GLOBAL",4)
+THEN
+  	RESPONSE #100
+    	MoveGlobalObject("ACQ15002",player1)
+    	Continue()
+END

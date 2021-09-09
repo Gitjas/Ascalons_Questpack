@@ -1,0 +1,22 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("ACVIRGI")
+		SetGlobal("ACSNAKEPLOT","GLOBAL",2)
+		Wait(1)
+		FadeToColor([20.0],0)
+		Wait(2)
+		MoveViewPoint([1180.1997],INSTANT)
+		CreateCreature("OBSERVE",[1180.1997],0)
+		CreateCreature("ACQ10104",[1710.1891],0)
+		CreateCreature("ACQ10105",[1711.1972],0)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		ActionOverride("ACQ10104",MoveToPoint([1046.2072]))
+		ActionOverride("ACQ10105",MoveToPoint([1113.2077]))
+		Wait(10)
+		ActionOverride("ACQ10105",StartDialogNoSet("ACQ10104"))
+END
+  

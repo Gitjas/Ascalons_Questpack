@@ -1,0 +1,28 @@
+IF
+	Detect([PC])
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPoNSE #100
+		StartDialogNoSet([PC])
+END
+
+IF
+	Detect([PC])
+	!Allegiance(Myself,NEUTRAL)
+	OR(3)
+	PartyHasItem("ACQ16004")
+	PartyHasItem("ACQ16005")
+	PartyHasItem("ACQ16006")
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartDialogNoSet([PC])
+END
+
+IF
+	Die()
+THEN
+	RESPONSE #100
+		DropInventory()
+		DestroySelf()
+END

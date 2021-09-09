@@ -1,0 +1,71 @@
+IF
+	See([PC])
+	Global("ACQ22","GLOBAL",1)
+	Global("AC22SHOUT","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("AC22SHOUT","LOCALS",1)
+		DisplayStringHead(Myself,@5001)
+	RESPONSE #100
+		SetGlobal("AC22SHOUT","LOCALS",1)
+		DisplayStringHead(Myself,@5002)
+	RESPONSE #100
+		SetGlobal("AC22SHOUT","LOCALS",1)
+		DisplayStringHead(Myself,@6000)
+END
+
+IF
+	Global("AC22SHOUT","LOCALS",1)
+THEN
+	RESPONSE #100
+		Wait(5)
+		SetGlobal("AC22SHOUT","LOCALS",0)
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		RunAwayFrom(NearestEnemyOf(Myself),150)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		RunAwayFrom(LastAttackerOf(Myself),150)
+END
+
+IF
+	Global("ACQ22","GLOBAL",3)
+THEN
+	RESPONSE #100
+	Wait(3)
+	RandomWalk()
+	Wait(5)
+	RandomWalk()
+END
+
+IF
+	Global("ACQ22","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ22","GLOBAL",5)
+		CreateCreature("ACQ22002",[-1.-1],0)
+END
+
+IF
+	Global("ACQ22","GLOBAL",5)
+	See([PC])
+THEN
+	RESPONSE #100
+		StartDialogNoSet([PC])
+END

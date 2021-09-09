@@ -1,0 +1,6 @@
+IF
+	%BGT2_VAR%
+THEN
+	RESPONSE #100
+		Continue()
+END	

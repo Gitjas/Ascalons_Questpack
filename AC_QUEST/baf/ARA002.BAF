@@ -1,0 +1,66 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		Deactivate("ACQ10113")
+		Deactivate("ACQ10114")
+		Deactivate("ACQ10115")
+		Deactivate("ACQ10116")
+		Continue()
+END
+
+IF
+	Global("ACQSNAKEENEMY","GLOBAL",1)
+	OR(2)
+	Global("ACQWOSTOK","GLOBAL",2)
+	Global("ACQWOSTOK","GLOBAL",4)
+	!IsActive("ACQ10113")
+	!IsActive("ACQ10114")
+	!IsActive("ACQ10115")
+	!IsActive("ACQ10116")
+THEN
+	RESPONSE #100
+		Activate("ACQ10113")
+		Activate("ACQ10114")
+		Activate("ACQ10115")
+		Activate("ACQ10116")
+		Continue()
+END
+
+IF
+	Global("ACQWOSTOK","GLOBAL",3)
+	IsActive("ACQ10113")
+	IsActive("ACQ10114")
+	IsActive("ACQ10115")
+	IsActive("ACQ10116")
+THEN
+	RESPONSE #100
+		PlaySound("GULP")
+		Deactivate("ACQ10113")
+		PlaySound("GULP")
+		Deactivate("ACQ10114")
+		PlaySound("GULP")
+		Deactivate("ACQ10115")
+		PlaySound("GULP")
+		Deactivate("ACQ10116")
+		Continue()
+END
+
+IF
+	Global("ACQWOSTOK","GLOBAL",9)
+	IsActive("ACQ10113")
+	IsActive("ACQ10114")
+	IsActive("ACQ10115")
+	IsActive("ACQ10116")
+THEN
+	RESPONSE #100
+		PlaySound("GULP")
+		ActionOverride("ACQ10113",DestroySelf())
+		PlaySound("GULP")
+		ActionOverride("ACQ10114",DestroySelf())
+		PlaySound("GULP")
+		ActionOverride("ACQ10115",DestroySelf())
+		PlaySound("GULP")
+		ActionOverride("ACQ10116",DestroySelf())
+		Continue()
+END

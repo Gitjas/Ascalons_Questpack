@@ -1,0 +1,209 @@
+IF
+	HPPercentLT(Myself,50)
+	HasItem("potn55",Myself) // Extrastarker Heiltrank
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@0) // trinkt einen Trank
+		UseItem("potn55",Myself) // Extrastarker Heiltrank
+		Continue()
+END
+
+IF
+	HPPercentLT(Myself,50)
+	HasItem("potn52",Myself) // Konzentrierter Heiltrank
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@0) // trinkt einen Trank
+		UseItem("potn52",Myself) // Konzentrierter Heiltrank
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(Myself,STATE_HASTED)
+	HasItem("potn14",Myself) // Schnelligkeitsöl
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@0) // trinkt einen Trank
+		UseItem("potn14",Myself) // Schnelligkeitsöl
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	HasItem("potn10",Myself) // Unsichtbarkeitstrank
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@0) // trinkt einen Trank
+		UseItem("potn10",Myself) // Unsichtbarkeitstrank
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	CheckStatLT(Myself,18,STR)
+	HasItem("potn03",Myself) // Trank der Hügelriesenstärke
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@0) // trinkt einen Trank
+		UseItem("potn03",Myself) // Trank der Hügelriesenstärke
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	CheckStatLT(Myself,18,STR)
+	HasItem("potn04",Myself) // Trank der Frostriesenstärke
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@0) // trinkt einen Trank
+		UseItem("potn04",Myself) // Trank der Frostriesenstärke
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	CheckStatLT(Myself,18,STR)
+	HasItem("potn04",Myself) // Trank der Frostriesenstärke
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@0) // trinkt einen Trank
+		UseItem("potn03",Myself) // Trank der Hügelriesenstärke
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	CheckStatLT(Myself,18,STR)
+	HasItem("potn12",Myself) // Trank der Steinriesenstärke
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@0) // trinkt einen Trank
+		UseItem("potn12",Myself) // Trank der Steinriesenstärke
+		Continue()
+END
+
+IF
+	OR(2)
+		Class(Myself,LONG_BOW)
+		Class(Myself,BARD_ALL)
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
+	!StateCheck(LastSeenBy(Myself),STATE_PANIC)
+	!HasBounceEffects(LastSeenBy(Myself))
+	!LevelGT(LastSeenBy(Myself),10)
+	HasItem("wand02",Myself) // Stab der Furcht
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@1) // verwendet einen Stab
+		UseItem("wand02",NearestEnemyOf(Myself)) // Stab der Furcht
+		Continue()
+END
+
+IF
+	OR(2)
+		Class(Myself,LONG_BOW)
+		Class(Myself,BARD_ALL)
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
+	!HasBounceEffects(LastSeenBy(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_STUNNED)
+	HasItem("wand04",Myself) // Lähmungsstab
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@1) // verwendet einen Stab
+		UseItem("wand04",NearestEnemyOf(Myself)) // Lähmungsstab
+		Continue()
+END
+
+IF
+	OR(2)
+		Class(Myself,LONG_BOW)
+		Class(Myself,BARD_ALL)
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
+	!HasBounceEffects(LastSeenBy(Myself))
+	HasItem("wand06",Myself) // Stab des Frostes
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@1) // verwendet einen Stab
+		UseItem("wand06",NearestEnemyOf(Myself)) // Stab des Frostes
+		Continue()
+END
+
+IF
+	OR(2)
+		Class(Myself,LONG_BOW)
+		Class(Myself,BARD_ALL)
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
+	!StateCheck(LastSeenBy(Myself),STATE_SLEEPING)
+	!HasBounceEffects(LastSeenBy(Myself))
+	!LevelGT(LastSeenBy(Myself),10)
+	HasItem("wand08",Myself) // Stab des Schlafes
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@1) // verwendet einen Stab
+		UseItem("wand08",NearestEnemyOf(Myself)) // Stab des Schlafes
+		Continue()
+END
+
+IF
+	OR(2)
+		Class(Myself,LONG_BOW)
+		Class(Myself,BARD_ALL)
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
+	!LevelGT(LastSeenBy(Myself),10)
+	!HasBounceEffects(LastSeenBy(Myself))
+	HasItem("wand09",Myself) // Verwandlungsstab
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@1) // verwendet einen Stab
+		UseItem("wand09",NearestEnemyOf(Myself)) // Verwandlungsstab
+		Continue()
+END
+
+IF
+	OR(2)
+		Class(Myself,LONG_BOW)
+		Class(Myself,BARD_ALL)
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
+	HasItem("wand10",Myself) // Stab der Monsterherbeirufung
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@1) // verwendet einen Stab
+		UseItem("wand10",Myself) // Stab der Monsterherbeirufung
+		Continue()
+END
+
+IF
+	Class(Myself,CLERIC_ALL)
+	See(NearestEnemyOf(Myself))
+	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
+	OR(2)
+		!CheckStatGT(LastSeenBy(Myself),50,RESISTMAGICFIRE)
+		!HasImmunityEffects(LastSeenBy(Myself))
+	HasItem("wand11",Myself) // Stab der Himmel
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,@1) // verwendet einen Stab
+		UseItem("wand11",NearestEnemyOf(Myself)) // Stab der Himmel
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!StateCheck(Myself,STATE_IMPROVEDINVISIBILITY)
+	!StateCheck(Myself,STATE_INVISIBLE)
+	HasItem("ring05",Myself) // Unsichtbarkeitsring
+THEN
+	RESPONSE #100
+		UseItem("ring05",Myself) // Unsichtbarkeitsring
+		Continue()
+END
+
+

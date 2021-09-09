@@ -1,0 +1,26 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("ACVIRGI")
+		Wait(1)
+		ActionOverride("ACQ10104",ForceSpell(MYSELF,CLERIC_TRUE_SIGHT))
+		Wait(6)
+		CreateVisualEffect("SPHEALIN",[1240.2130])
+		CreateCreature("ACQ10103",[1240.2130],0)
+		Wait(1)
+		CreateVisualEffect("SPHEALIN",[1064.2201])
+		CreateCreature("ACQ10103",[1064.2201],0)
+		ActionOverride("ACQ10104",DisplayStringHead(Myself,@5011))
+		Wait(1)
+		CreateVisualEffect("SPHEALIN",[840.2022])
+		CreateCreature("ACQ10106",[840.2022],0)
+		ActionOverride("ACQ10106",ChangeAIScript("ACQ10103",OVERRIDE))
+		Wait(1)
+		CreateVisualEffect("SPHEALIN",[1000.2190])
+		CreateCreature("ACQ10103",[1000.2190],0)
+		Wait(1)
+		MoveViewObject(PLAYER1,INSTANT)
+		ActionOverride("OBSERVE",DestroySelf())
+		EndCutSceneMode()
+END

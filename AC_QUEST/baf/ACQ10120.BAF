@@ -1,0 +1,7 @@
+IF
+	Detect([PC])
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		StartDialogNoSet([PC])
+END

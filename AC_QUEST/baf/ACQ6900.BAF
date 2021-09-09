@@ -1,0 +1,26 @@
+IF
+	InMyArea(PLAYER1)
+	Global("ACSNAKEPLOT","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("ACQCUT01")
+END
+
+IF
+	Global("ACSNAKEPLOT","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("ACSNAKEPLOT","GLOBAL",3)
+		Wait(2)
+		ActionOverride("ACQ10104",Kill(MYSELF))
+		ActionOverride("ACQ10105",Kill(MYSELF))		
+END
+
+IF
+	Global("ACSNAKEPLOT","GLOBAL",3)
+THEN
+	RESPONSE #100
+		DestroySelf()
+END

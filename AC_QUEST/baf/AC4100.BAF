@@ -1,0 +1,14 @@
+IF
+	Global("ACQ12","GLOBAL",1)
+	Global("ACQ12","%GnollStronghold%",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ12","%GnollStronghold%",1)
+		CreateCreature("ACQ12002",[380.1462],0)
+		CreateCreature("ACGNOLL1",[1272.594],0)
+		CreateCreature("ACGNOLL2",[1383.570],0)
+		CreateCreature("ACGNOLL2",[1256.522],0)
+		CreateCreature("ACGNOLL2",[1272.498],0)
+		CreateCreature("ACGNOLL2",[1383.534],0)
+		Continue()
+END

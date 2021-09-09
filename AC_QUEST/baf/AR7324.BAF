@@ -1,0 +1,101 @@
+IF
+	PartyHasItem("ACQ18003")
+	Global("ACQGIB","%WSewers%",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%WSewers%",1)
+		CreateCreature("ACQ18324",[521.2196],0)
+		CreateCreature("ACQ18324",[521.2196],0)
+		CreateCreature("ACQ18324",[521.2196],0)
+		CreateCreature("ACQ18324",[521.2196],0)
+		CreateCreature("ACQ18324",[521.2196],0)
+		CreateCreature("ACQ18324",[521.2196],0)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER1)
+	HasItem("ACQ18003",PLAYER1)
+	NumDeadLT("ACQ18324",6)
+	Global("ACQGIB","%WSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%WSewers%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%WSewers%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER2)
+	HasItem("ACQ18003",PLAYER2)
+	NumDeadLT("ACQ18324",6)
+	Global("ACQGIB","%WSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%WSewers%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%WSewers%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER3)
+	HasItem("ACQ18003",PLAYER3)
+	NumDeadLT("ACQ18324",6)
+	Global("ACQGIB","%WSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%WSewers%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%WSewers%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER4)
+	HasItem("ACQ18003",PLAYER4)
+	NumDeadLT("ACQ18324",6)
+	Global("ACQGIB","%WSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%WSewers%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%WSewers%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER5)
+	HasItem("ACQ18003",PLAYER5)
+	NumDeadLT("ACQ18324",6)
+	Global("ACQGIB","%WSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%WSewers%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%WSewers%",10)
+		Continue()
+END
+
+IF
+	InMyArea(PLAYER6)
+	HasItem("ACQ18003",PLAYER6)
+	NumDeadLT("ACQ18324",6)
+	Global("ACQGIB","%WSewers%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%WSewers%",2)
+		DisplayStringHead(PLAYER1,@5021)
+		RealSetGlobalTimer("ACELMINSTERTIMER","%WSewers%",10)
+		Continue()
+END
+
+IF
+	RealGlobalTimerExpired("ACELMINSTERTIMER","%WSewers%")
+	Global("ACQGIB","%WSewers%",2)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQGIB","%WSewers%",1)
+		Continue()
+END

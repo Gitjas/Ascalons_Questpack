@@ -1,0 +1,18 @@
+IF
+	OR(2)
+	GlobalLT("CHAPTER","GLOBAL",%tutu_chapter_3%)
+	GlobalGT("CHAPTER","GLOBAL",%tutu_chapter_4%)
+	IsActive(MYSELF)
+THEN
+	RESPONSE #100
+		Deactivate(MYSELF)
+END
+
+IF
+	GlobalGT("CHAPTER","GLOBAL",%tutu_chapter_2%)
+	GlobalLT("CHAPTER","GLOBAL",%tutu_chapter_5%)
+	!IsActive(MYSELF)
+THEN
+	RESPONSE #100
+		Activate(MYSELF)
+END

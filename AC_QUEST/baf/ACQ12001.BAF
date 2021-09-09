@@ -1,0 +1,23 @@
+IF
+	See([PC])
+	Global("ACQ12","GLOBAL",0)
+	Global("AC12SHOUT","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("AC12SHOUT","LOCALS",1)
+		DisplayStringHead(Myself,@5001)
+	RESPONSE #100
+		SetGlobal("AC12SHOUT","LOCALS",1)
+		DisplayStringHead(Myself,@5002)
+	RESPONSE #100
+		SetGlobal("AC12SHOUT","LOCALS",1)
+		DisplayStringHead(Myself,@5003)
+END
+
+IF
+	Global("AC12SHOUT","LOCALS",1)
+THEN
+	RESPONSE #100
+		Wait(5)
+		SetGlobal("AC12SHOUT","LOCALS",0)
+END

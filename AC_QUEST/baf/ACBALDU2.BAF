@@ -1,0 +1,18 @@
+IF
+	%BGT2_VAR%
+	Global("ACQ2SNAKESTART","GLOBAL",1)
+	GlobalTimerExpired("ACQSNAKESTARTER","GLOBAL")
+OR(8)
+	AreaCheck("AR0020")
+	AreaCheck("AR0300")
+	AreaCheck("AR0400")
+	AreaCheck("AR0500")
+	AreaCheck("AR0700")
+	AreaCheck("AR0800")
+	AreaCheck("AR0900")
+	AreaCheck("AR1000")
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ2SNAKESTART","GLOBAL",2)
+		ActionOverride(PLAYER1,CreateCreatureOffScreen("ACQ21001",0))
+END

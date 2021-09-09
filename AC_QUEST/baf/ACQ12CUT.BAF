@@ -1,0 +1,25 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SetGlobal("ACQ12","GLOBAL",3)
+		Wait(1)
+		FadeToColor([40.0],0)
+		Wait(2)
+		ActionOverride("ACQ12002",DestroySelf())
+		LeaveAreaLUAPanic("%Nashkel%","",[2591.2401],10)
+		LeaveAreaLUA("%Nashkel%","",[2591.2401],10)
+		ActionOverride(Player2,LeaveAreaLUA("%Nashkel%","",[2585.2451],10))
+		ActionOverride(Player3,LeaveAreaLUA("%Nashkel%","",[2672.2456],10))
+		ActionOverride(Player4,LeaveAreaLUA("%Nashkel%","",[2642.2493],10))
+		ActionOverride(Player5,LeaveAreaLUA("%Nashkel%","",[2743.2471],10))
+		ActionOverride(Player6,LeaveAreaLUA("%Nashkel%","",[2657.2508],10))
+		Wait(1)
+		CreateCreature("ACQ12002",[2554.2327],0)
+		ActionOverride("ACQ12002",CreateItem("ACQ12000",0,0,0))
+		MultiPlayerSync()
+		FadeFromColor([40.0],0)
+		Wait(2)
+		ActionOverride("ACQ12001",StartDialogNoSet(PLAYER1))
+END

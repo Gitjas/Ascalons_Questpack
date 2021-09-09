@@ -1,0 +1,30 @@
+IF
+	OnCreation()
+THEN
+	RESPONSE #100
+		ChangeEnemyAlly(Myself,NEUTRAL)
+END
+
+IF
+	Range(LastSeenBy(),10)
+THEN
+	RESPONSE #100
+		SetGlobal("ACUMBWAKE","GLOBAL",1)
+		Enemy()
+END
+
+IF
+	Global("ACUMBWAKE","GLOBAL",0)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		SetGlobal("ACUMBWAKE","GLOBAL",1)
+END
+
+IF
+	Global("ACUMBWAKE","GLOBAL",1)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END

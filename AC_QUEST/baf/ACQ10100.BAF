@@ -1,0 +1,44 @@
+IF
+	Name("ACQ10111",MYSELF)
+	Global("ACQSNAKEENEMY","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,DRYAD_TELEPORT)
+		Wait(1)
+		DestroySelf()
+END
+
+IF
+	HasItem("MINHP1",MYSELF)
+	Global("ACQSNAKEENEMY","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DestroyItem("MINHP1")
+		Continue()
+END
+
+IF
+	!See([PC])
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		MoveToObject(NearestEnemyOf())
+		Continue()
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	Global("ACQSNAKEENEMY","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ENEMY()
+		Continue()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+	Global("ACQSNAKEENEMY","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQSNAKEENEMY","GLOBAL",1)
+END

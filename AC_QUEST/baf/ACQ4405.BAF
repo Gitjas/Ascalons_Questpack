@@ -1,0 +1,9 @@
+IF
+	Name("ACQ10111",MYSELF)
+	Detect([PC])
+	NumTimesTalkedTo(0)
+THEN
+	RESPONSE #100
+		CreateItem("ACQ10101",0,0,0)
+		StartDialogNoSet([PC])
+END
