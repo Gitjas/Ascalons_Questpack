@@ -1,0 +1,9 @@
+IF
+	Global("ACQ16_ResetQuest","GLOBAL",1)
+	Global("ACQ16_ResetAiwell","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ16_ResetAiwell","MYAREA",1)
+		CreateCreature("ACQ16001",[2881.2677],10)
+		Continue()
+END

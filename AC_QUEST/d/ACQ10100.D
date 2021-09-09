@@ -242,7 +242,7 @@ END
 
 IF ~~ THEN BEGIN 4c
 SAY @75
-IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself)Wait(1)DestroySelf()~ EXIT
+IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) AddJournalEntry(@3000009,QUEST) Wait(1)DestroySelf()~ EXIT
 END
 
 IF ~~ THEN BEGIN 5
@@ -267,7 +267,7 @@ END
 
 IF ~~ THEN BEGIN 8a
 SAY @80
-IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself)Wait(1)DestroySelf()~ EXIT
+IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) AddJournalEntry(@3000009,QUEST) Wait(1)DestroySelf()~ EXIT
 END
 
 IF ~~ THEN BEGIN 9
@@ -380,7 +380,7 @@ END
 
 IF ~~ THEN BEGIN 14
 SAY @101
-IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself)Wait(1)DestroySelf()~ EXIT
+IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) AddJournalEntry(@3000009,QUEST) Wait(1)DestroySelf()~ EXIT
 END
 
 IF ~~ THEN BEGIN 15
@@ -392,7 +392,7 @@ END
 
 IF ~~ THEN BEGIN 16
 SAY @104
-IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself)Wait(1)DestroySelf()~ EXIT
+IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) AddJournalEntry(@3000009,QUEST) Wait(1)DestroySelf()~ EXIT
 END
 
 IF ~~ THEN BEGIN 17
@@ -424,7 +424,7 @@ END
 
 IF ~~ THEN BEGIN 24
 SAY @115
-IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself)Wait(1)DestroySelf()~ EXIT
+IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) AddJournalEntry(@3000009,QUEST) Wait(1)DestroySelf()~ EXIT
 END
 
 IF ~~ THEN BEGIN 25
@@ -1100,7 +1100,8 @@ IF ~~ THEN ACQEMERS 14
 ==ACQEMERS IF ~PartyHasItem("ACQBOOK4")~ THEN @352 DO ~AddexperienceParty(1200)TakePartyItem("ACQBOOK4")~
 ==ACQEMERS IF ~Dead("ACQ10120")~ THEN @353 DO ~AddexperienceParty(1200)ReputationInc(1)~
 ==ACQEMERS IF ~Global("ACUMBWAKE","GLOBAL",2)~ THEN @354 DO ~AddexperienceParty(1200)~
-==ACQEMERS @355 DO ~EraseJournalEntry(@10011)EraseJournalEntry(@10012)EraseJournalEntry(@10013)EraseJournalEntry(@10014)EraseJournalEntry(@10015)EraseJournalEntry(@10016)EraseJournalEntry(@10017)EraseJournalEntry(@10018)EraseJournalEntry(@10021)EraseJournalEntry(@10022)EscapeAreaDestroy(10)~
+==ACQEMERS @355 DO ~EraseJournalEntry(@10011)EraseJournalEntry(@10012)EraseJournalEntry(@10013)EraseJournalEntry(@10014)EraseJournalEntry(@10015)EraseJournalEntry(@10016)EraseJournalEntry(@10017)EraseJournalEntry(@10018)EraseJournalEntry(@10021)EraseJournalEntry(@10022)
+AddJournalEntry(@10020,QUEST_DONE) EscapeAreaDestroy(10)~
 EXIT
 
 BEGIN ACQ10120

@@ -1,3 +1,24 @@
+
+IF
+	NumTimesTalkedTo(0)
+	Detect([PC])
+	Range([PC],10)
+THEN
+	RESPONSE #100
+		StartDialogNoSet([PC])
+END
+
+IF
+	Dead("ACQ16002")
+	Detect([PC])
+	Range([PC],10)
+	Global("ACQ16_HeIsDead","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ16_HeIsDead","LOCALS",1)
+		StartDialogNoSet([PC])
+END
+
 IF
 	NumTimesTalkedTo(0)
 	Detect([PC])
@@ -12,6 +33,7 @@ THEN
 		DisplayStringHead(Myself,@5009)
 		Wait(6)
 END
+
 
 IF
 	Global("ACQ16","GLOBAL",6)

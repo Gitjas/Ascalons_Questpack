@@ -1,0 +1,9 @@
+IF
+	Global("ACQ16_ResetQuest","GLOBAL",1)
+	Global("ACQ16_ResetTonder","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ16_ResetTonder","MYAREA",1)
+		CreateCreature("ACQ16002",[283.197],15)
+		Continue()
+END

@@ -1,8 +1,10 @@
 IF
 	!Global("ACQ1NASHKELL","GLOBAL",1)
+	Global("ACQ1NASHKELL_Journal","MYAREA",0)
 	PartyHasItem("ACQLET05")
 THEN
-	RESPONSE #100
+	RESPONSE #100		
+		SetGlobal("ACQ1NASHKELL_Journal","MYAREA",1)
 		SetGlobal("ACQ1NASHKELL","GLOBAL",1)
 		EraseJournalEntry(@3000013)
 		AddJournalEntry(@10011,QUEST)

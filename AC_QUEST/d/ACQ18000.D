@@ -143,7 +143,7 @@ END
 
 IF ~~ THEN BEGIN 20
 SAY @54
-IF ~~ THEN DO ~EraseJournalEntry(@3000001)EraseJournalEntry(@3000002)EraseJournalEntry(@3000003)AddJournalEntry(@3000005,QUEST_DONE)SetGlobal("ACQ18","GLOBAL",9)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@3000001)EraseJournalEntry(@3000002)EraseJournalEntry(@3000003)AddJournalEntry(@3000005,QUEST_DONE)SetGlobal("ACQ18","GLOBAL",9) TakePartyItem("ACQ18003") EscapeAreaDestroy(10)~ EXIT
 END
 
 IF ~~ THEN BEGIN 21
@@ -209,5 +209,5 @@ END
 
 IF ~~ THEN BEGIN 27
 SAY @77 = @78
-IF ~~ THEN DO ~EraseJournalEntry(@3000001)EraseJournalEntry(@3000002)EraseJournalEntry(@3000003)AddJournalEntry(@3000004,QUEST_DONE)GiveItemCreate("ACQ18002",LastTalkedToBy(),0,0,0)SetGlobal("ACQ18","GLOBAL",9)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@3000001)EraseJournalEntry(@3000002)EraseJournalEntry(@3000003)AddJournalEntry(@3000004,QUEST_DONE)GiveItemCreate("ACQ18002",LastTalkedToBy(),0,0,0) TakePartyItem("ACQ18003") SetGlobal("ACQ18","GLOBAL",9)EscapeAreaDestroy(10)~ EXIT
 END

@@ -1,3 +1,16 @@
+/* no more pamphlets if cult is already destroyed! */
+
+IF
+	OR(2)
+		Global("ACQWOSTOK","GLOBAL",9) // PC won't help any more
+		Global("ACQ1SNAKESDEFEATED","GLOBAL",1) // quest solved
+	IsActive(Myself)
+THEN
+	RESPONSE #100
+		PlaySound("GULP")
+		DestroySelf()
+END
+
 IF
 	AttackedBy([ANYONE],DEFAULT)
 THEN

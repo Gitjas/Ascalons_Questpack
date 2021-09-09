@@ -1,7 +1,7 @@
 IF
 	Global("ACDeadGibJ","AC7711",0)
-	!Exists("ACQ18001")
-	!Exists("ACQ18004")
+	PartyHasItem("ACQ18001") //!Exists("ACQ18001")
+	PartyHasItem("ACQ18004")
 THEN
 	RESPONSE #100
 		SetGlobal("ACDeadGibJ","AC7711",1)

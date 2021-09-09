@@ -97,7 +97,7 @@
 @96   = ~Well, that's the question.~
 @97   = ~Sure, I believe you. But that's not that easy.~
 @98   = ~This is not as easy as you think.~
-@99   = ~You see, I'm in a dilemma. On one hand I would most certainly like to help Aiwell. On the other hand I am missing some ingredients for a cure. To be honest, I am missing the most important ingredients for a cure. And even if I could create a medicine, a success could not be guaranteed. For I do not know a lot about werewolves.~ //"obviously" war mir hier nicht die pasende Übersetzung zu "natürlich", da sich Thalantyr bisher nicht gerade so verhalten hat, dass seine Hilfsbereitschaft sichtbar wäre
+@99   = ~You see, I'm in a dilemma. On one hand I would most certainly like to help Aiwell. On the other hand I am missing some ingredients for a cure. To be honest, I am missing the most important ingredients for a cure. And even if I could create a medicine, a success could not be guaranteed. For I do not know a lot about werewolves.~ 
 @100  = ~If I would get my hands on a dead werewolf, of course, I could continue my research...~
 @101  = ~What are the ingredients you are missing?~
 @102  = ~So you want me to kill the werewolf for you?~
@@ -107,7 +107,7 @@
 @106  = ~And if all else fails then we could still improvise. Maybe some pure blood of a loved one, so that the infected body rebels against the disease. But that would be little more than romantic nonsense.~
 @107  = ~Belladonna is a well-known agent to free people from the curse of the werewolf. Nine out of ten people will be healthy again. However, it does not grow in this area and I have no idea where it can be found.~
 @108  = ~Guril berries are an old remedy. Mostly for certain... intimate sufferings. I do not know if they also help against Lycanthropy, the chances should be about half-half. You should ask around in Beregost. Especially in the taverns. Some innkeeper may have a supply in stock.~
-@109  = ~As I said, this is pure speculation. In some romantic tales werewolves transform back into the original shape when they realize that they have drunk the blood of their kin, or a loved one. But the chances that this is true are one of ten at best.~ //"associate" klang mir zu sehr nach Geschäftsbeziehung
+@109  = ~As I said, this is pure speculation. In some romantic tales werewolves transform back into the original shape when they realize that they have drunk the blood of their kin, or a loved one. But the chances that this is true are one of ten at best.~ 
 @110  = ~The body of a man who's been infected with Lycanthropy would be of some value to me. But I doubt that he will come voluntarily.~
 @111  = ~But could you also produce a cure?~
 @112  = ~Good. Come back with either the ingredients or the corpse, however, keep in mind that I can only brew one of the three potions for you due to the other substances that are required for the potion. Good luck!~
@@ -147,3 +147,28 @@
 
 @146  = ~There you are! Were you able to help my husband?~
 @147  = ~No, unfortunately not.~
+
+/* new for v 2.5 */
+
+@148   = ~Who was the woman in front of your door?~
+@149   = ~No worries, she is gone now. What did she want?~
+@150   = ~Ah, so *now* I get what she was referring to. Well, the werewolf is dead.~
+@151   = ~Maybe that's no longer a problem. The werewolf is dead.~ 
+@152   = ~Well, I guess giving the corpse to you is the best thing to do now. I don't think there is anything else that could be done.~
+@153   = ~Considering the werewolf is dead already, I guess bringing it to you would be the best thing to do. I don't have it with me currently, though.~
+@154   = ~Hm, in that case the problem might be done with, indeed.~
+@155   = ~It is unfortunate I already killed the werewolf... But this won't stop me from helping. I will search for the missing ingredients, and I will raise the husband to transform him back!~
+@156   = ~Hmph. Seeing so much generosity I guess I should add my share to it, as well. Very well. If you bring the werewolf to me, I will raise him and wait for the missing ingredients. Do you have the corpse?~
+@157   = ~Yes, here it is.~
+@158   = ~No, not at the moment.~
+@159   = ~Now go and get the missing ingredient before I change my mind! Keep in mind that I can only brew one of the three potions for you due to the other substances that are required for the potion.~
+@160   = ~I have brought you the werewolf's corpse, but I changed my mind. It's for your research.~
+@161   = ~I have brought you the werewolf's corpse. You will restore him to life?~
+@162   = ~Yes, I did promise that.~
+@163   = ~Very well, everything is as it was. Aiwell is outside again, with great hopes.~
+@164   = ~Alright, then let me take it...~
+@165   = ~You... you will help us? Oh, and Thalantyr even put my poor Tonder back to life...~
+@166   = ~Are you trying to be funny, after all you already did for us?~
+@167   = ~I can't seem to find the werewolf's corpse any more... I will not be able to bring it to you.~
+@168   = ~Please, help us!~
+@169   = ~Hmph. Guess that's it, then. (Thalantyr grumbles something about the carelessness of nowadays' adventurers.)~

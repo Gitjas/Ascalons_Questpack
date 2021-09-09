@@ -367,13 +367,43 @@ The husband of the mage Aiwell seems to have been infected with Lycanthropy. I p
 
 Thalantyr has enumerated several ways. He can mix the potion with Aiwell's blood, which is highly questionable. Or he can use Guril berries that do not always work. The best would be an elixir of belladonna. He also told us that he'll only be able to brew one of the potions.
 
-I could also bring him the corpse of Thonder so that he can better understand the werewolf disease.~
+I could also bring him the corpse of Tonder so that he can better understand the werewolf disease.~
 @10035 = ~Of Wolves and Men
 
-Thalantyr has dearly bought the dead body of Thonder in exchange of a Flaming Sword. Not bad either.~
+Thalantyr has dearly bought the dead body of Tonder in exchange of a Flaming Sword. Not bad either.~
 @10036 = ~Of Wolves and Men
 
-Aiwell and Thonder were overjoyed that the man was freed from his curse.~
+Aiwell and Tonder were overjoyed that the man was freed from his curse.~
+
+/* new for v2.05 */
+@10037 = ~Of Wolves and Men
+
+A woman shouted at me in front of Thalantyr's abode, but I am not sure what she was referring to. Maybe it had something to do with the werewolf I killed inside the house nearby?~
+
+@10038 = ~Of Wolves and Men
+
+I decided for the healing potion out of Guril berries. Now all that is left to do is to give it to the werewolf somehow.~
+
+@10039 = ~Of Wolves and Men
+
+I decided for the healing potion out of Aiwell's blood. Now all that is left to do is to give it to the werewolf somehow.~
+
+@10040 = ~Of Wolves and Men
+
+I decided for the healing potion out of belladonna. Now all that is left to do is to give it to the werewolf somehow.~
+
+@10041 = ~Of Wolves and Men
+
+Dang, the healing potion did not work, and I had to kill the werewolf. I guess I should tell Aiwell the sad news...~
+
+@10042 = ~Of Wolves and Men
+
+Aiwell was sad indeed when she heard about her husband's death. She went away without leaving a trace...~
+
+@10043 = ~Of Wolves and Men
+
+What a fruitless day. Aiwell lost her husband, the husband is... well, dead, Thalantyr didn't get a werewolf corpse for his research, and I didn't get a reward for my efforts. Next time, I really need to watch where I put my trophies!~
+
 @20001 = ~The Cult of the Unseeing Eye - Bunger Wiesner
 
 The halfling lady Emmi Wiesner has downright begged us to look for her son, who was drawn into the clutches of the Cult.~ //"to look after" kenne ich als "sich kümmern um"
@@ -582,6 +612,8 @@ Requires:
 
 Weight: 45~ //#66422
 @80060 = ~Umber Hulk~
+
+@80061 = ~Sling +2~
 
 //Journal Titles
 @90001 = ~Raukner's Ruffian Roughnecks~

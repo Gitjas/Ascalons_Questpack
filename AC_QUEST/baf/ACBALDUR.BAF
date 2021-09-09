@@ -6,6 +6,6 @@ IF
  	Global("ACQ15","GLOBAL",4)
 THEN
   	RESPONSE #100
-    	MoveGlobalObject("ACQ15002",player1)
+    	MoveGlobalObject("ACQ15002",Player1)
     	Continue()
 END

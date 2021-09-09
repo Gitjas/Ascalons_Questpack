@@ -3,7 +3,7 @@ IF
 THEN
 	RESPONSE #100
 		Unlock("Container 1")
-		ActionOverride("Container 1",CreateItem("SW1H53",0,0,0))
+		ActionOverride("Container 1",CreateItem("AC1H53",0,0,0))
 		DestroySelf()
 END
 

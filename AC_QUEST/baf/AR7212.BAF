@@ -1,8 +1,0 @@
-IF
-	Dead("ACQ10106")
-	Global("ACQUEST_JournalEntries","MYAREA",0)
-THEN
-	RESPONSE #100
-		AddJournalEntry(@3000009,QUEST)
-		SetGlobal("ACQUEST_JournalEntries","MYAREA",1)
-END

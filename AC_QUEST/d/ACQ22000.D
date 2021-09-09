@@ -265,12 +265,14 @@ END
 
 IF ~~ THEN BEGIN 22
 SAY @91
-IF ~~ THEN DO ~EraseJournalEntry(@20001)AddJournalEntry(@20003,QUEST)SetGlobal("UnseeingEye","GLOBAL",1)SetNumTimesTalkedTo(3)ChangeEnemyAlly(MYSELF,GOODBUTBLUE)MoveToPointNoInterrupt([3363.180])~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@20001)AddJournalEntry(@20003,QUEST)SetGlobal("UnseeingEye","GLOBAL",1)SetNumTimesTalkedTo(3)ChangeEnemyAlly(MYSELF,GOODBUTBLUE)
+SetGlobal("ACQ_BungarRuns","MYAREA",1) EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 22a
 SAY @91
-IF ~~ THEN DO ~EraseJournalEntry(@20001)AddJournalEntry(@20003,QUEST)SetNumTimesTalkedTo(3)ChangeEnemyAlly(MYSELF,GOODBUTBLUE)MoveToPointNoInterrupt([3363.180])~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@20001)AddJournalEntry(@20003,QUEST)SetNumTimesTalkedTo(3)ChangeEnemyAlly(MYSELF,GOODBUTBLUE)
+SetGlobal("ACQ_BungarRuns","MYAREA",1) EscapeArea()~ EXIT
 END
 
 IF ~~ THEN BEGIN 23

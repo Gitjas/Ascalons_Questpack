@@ -1,5 +1,5 @@
 @0    = ~Da seid Ihr ja!~
-@1    = ~Und was wollt Ihr? Seht Ihr nicht dass ich beschäftigt bin?~
+@1    = ~Und was wollt Ihr? Seht Ihr nicht, dass ich beschäftigt bin?~
 @2    = ~Ihr macht einen sehr aufgeregten Eindruck.~
 @3    = ~Ihr seid beschäftigt damit, die Tür anzubrüllen?~
 @4    = ~Wir wollen nur hinein, wenn's beliebt.~
@@ -147,3 +147,28 @@
 
 @146  = ~Da seid Ihr ja! Konntet Ihr meinem Mann helfen?~
 @147  = ~Nein, leider noch nicht.~
+
+/* new for v 2.5 */
+
+@148   = ~Wer war denn die Frau vor Eurem Tor?~
+@149   = ~Keine Sorge, sie ist jetzt weg. Was wollte sie denn eigentlich?~
+@150   = ~Ach, *jetzt* verstehe ich, was sie von mir wollte. Nun, ihr Werwolf ist tot.~
+@151   = ~Das könnte sich erledigt haben. Der Werwolf ist tot.~ 
+@152   = ~Nun, dann ist es wohl das Einfachste, Euch den Körper des Werwolfes zu geben. Da kann man wohl nichts mehr weiter machen.~
+@153   = ~Da der Werwolf bereits tot ist, macht es wohl am meisten Sinn, wenn ich Euch den Körper bringe. Ich habe ihn allerdings nicht bei mir.~
+@154   = ~Hm, dann hat sich das wohl tatsächlich erledigt...~
+@155   = ~Leider habe ich den Werwolf bereits erschlagen... Aber ich möchte ihm trotzdem helfen. Ich suche die Zutaten für den Heiltrank, und werde ihn zur Heilung wieder zum Leben erwecken!~
+@156   = ~Hmpf. Bei so viel Edelmut kann ich mich schlecht aus der Verantwortung stehlen. Nun gut. Wenn Ihr mir den Leichnam bringt, werde ich ihn zum Leben erwecken und zurück in sein Haus bringen und auf die Zutaten warten. Habt Ihr ihn dabei?~
+@157   = ~Ja, hier ist er.~
+@158   = ~Nein, jetzt gerade nicht.~
+@159   = ~Jetzt zieht aber von dannen und sucht die Zutaten für den Heiltrank, bevor ich meine Meinung ändere und ihn doch für meine Forschungszwecke verwende! Bedenkt aber, dass ich Aufgrund der anderen Substanzen, die ich für den Trank benötige, nur einen der drei Tränke für Euch brauen kann.~
+@160   = ~Ich habe hier den Leichnam des Werwolfs, aber ich habe meine Meinung geändert. Ich gebe ihn Euch für Eure Forschungszwecke.~
+@161   = ~Ich habe hier den Leichnam des Werwolfs. Ihr werdet ihn zum Leben erwecken?~
+@162   = ~Ja, das hatte ich ja versprochen.~
+@163   = ~So, nun ist wieder alles beim Alten. Aiwell steht nun wieder draußen und macht sich große Hoffnung.~
+@164   = ~Nun, dann gebt mal her.~
+@165   = ~Ihr... Ihr wollt uns helfen? Oh, und Thalantyr hat sogar meinen guten Tonder wiederbelebt.~
+@166   = ~Soll... soll das ein Witz sein, nach allem, was Ihr schon erreicht habt?~
+@167   = ~Ich finde den Leichnam des Werwolfs nicht mehr... das wird leider nichts mehr.~
+@168   = ~Bitte, helft uns!~
+@169   = ~Hmpf. Da kann man wohl nichts machen. (Grummelt noch etwas über die Sorglosigkeit heutiger Abenteurer.)~

@@ -1,9 +1,9 @@
-            *  Ascalon's Quest Pack: The Serpents of Abbathor Part 1 and other stories  *
-	     A modification for BG:EE, BGT-WeiDU, Tutu (w TotSC), BGII:EE, BGII, and EET
+        *  Ascalon's Quest Pack: The Serpents of Abbathor Part 1 and other stories  *
+	  A modification for BG:EE, BGT-WeiDU, Tutu (w TotSC), BGII:EE, BGII, and EET
                             Ascalon (geheimer.herrscher@gmx.de)
 
-	Currently supported by: White Agnus and jastey (whiteagnus@baldursgatemods.de; jastey@web.de)
-                                      Version: 2.02
+	Currently supported by: jastey 
+                                      Version: 2.05
 
 ***************************************************************************************************************
 
@@ -152,6 +152,26 @@ VII. Version history:
 -updated readme so description matches the compatible games
 -update to weiDU v244
 
+2.03 - 2018-05-04
+-"Snakes of Abbathor": journal entry if quest is solved; dwarf giving out pamphlets will be gone after the cult is destroyed
+-"Breeding of Gibberlings" Geraldo takes his bird Elminster back when quest is finished
+-journal entry "The Snakes of Abbathor in Nashkel?" will only be out once into the journal upon entering the area
+-"An Erring Halfling": activated additional script: mother will react to the death of her son, too.
+-added legal notice with regards to Wizards of the Coast's Fan Content Policy
+
+2.04 - 2018-06-12
+-"A Halfling among the Eyeless" Bunger should walk to exit without being interrupted (moved the action into the areascript)
+
+2.05 - 2019-02-09
+-"The Serpents of Abbathor": journal entry should not be set upon entering the Undercellar if quest is finished; shadows in the mines now give XP;
+-"The Lost Son": in case the son was saved before talking to the mother the first time, she will recognise his presence and the quest will not be given first; the son should leave with the mother and not remain at the Friendly Arm Inn 
+-"Of Wolves and Men": quest should now be solvable regardless of whom the PC meets first; quest can still have happy end if werewolf was killed before talking to Aiwell; corrected misspelled name "Tonder" in Setup-AC_QUEST.tra; more journal entries added; PC can offer the werewolf's corpse to Thalantyr regardless of quest status; sword in the chest will have the correct description text.
+-description for SLNG04.ITM corrected, 
+-items will only be installed if not present (instead of checking for BG:EE)
+-adding ac_quest.ini
+-renaming setup-ac_quest.ini to ac_quest.ini
+-update to weiDU v246
+
 
 ***************************************************************************************************************
 
@@ -197,3 +217,7 @@ Good gaming! Buzzurk!
 Moers, september 2009
 
 Ascalon
+
+=================================================================================Ascalon's Questpack is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.
+This mod is also not developed, supported, or endorsed by BioWare, Black Isle Studios, Interplay Entertainment Corp., Overhaul Games or Beamdog. All other trademarks and copyrights are property of their respective owners.
+=================================================================================

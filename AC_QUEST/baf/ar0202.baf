@@ -1,0 +1,10 @@
+IF
+	Global("ACQ_BungarRuns","MYAREA",1)
+	!Exists("ACQ22002")
+THEN
+	RESPONSE #100
+		CreateCreature("ACQ22002",[3363.180],0)
+		ActionOverride("ACQ22002",SetNumTimesTalkedTo(3))
+		ActionOverride("ACQ22002",ChangeEnemyAlly(MYSELF,GOODBUTBLUE))
+		SetGlobal("ACQ_BungarRuns","MYAREA",2)
+END
