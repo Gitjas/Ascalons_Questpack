@@ -11,7 +11,7 @@ The mod adds quests to both BG1 and BGII. It can be installed dierectly to BG:EE
 For compatibility with Glam's NPC Pack, install the "Beregost" install choice for the component "From Wolves and Men".
 Ascalon's Questpack should be installed before NPC mods, especially Ascalon's Breagar, Brage's Redemption, and Brandock the Mage.
 
-## Komponenten:
+## Description of Components:
 
 ### Baldur's Gate I:
 
