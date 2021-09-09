@@ -1,4 +1,4 @@
-# Ascalons_Questpack: The Serpents of Abbathor Part 1 and other stories
+# Ascalon's Questpack: The Serpents of Abbathor Part 1 and other stories
 
 A modification for BG:EE, BGT-WeiDU, Tutu (w TotSC), BGII:EE, BGII, and EET
                             
