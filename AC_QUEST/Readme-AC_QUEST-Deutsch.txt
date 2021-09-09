@@ -4,7 +4,7 @@
 
 Derzeitiger Support: jastey 
 
-                                      Version: 2.05
+
 
 ***************************************************************************************************************
 
@@ -85,7 +85,7 @@ Echte Fans halten ihren Idolen die Treue, so wie Cindy, Mandy und Ashley im Nord
 Was macht ein Künstler, dem die Ideen ausgehen? Probleme, jede Menge Probleme, wie Geraldo der Prächtige im Zentrumsviertel von Baldur's Tor beweist.
 
 - Der verschwundene Sohn
-Die Halbelfe Aphriel wollte eigentlich ihren Bogen für immer an die Wand hängen - doch dann kam alles ganz anders. Ihr trefft sie im Banditenlager nachdem das Chefzelt ausgeräumt wurde.
+Die Halbelfe Aphriel wollte eigentlich ihren Bogen für immer an die Wand hängen - doch dann kam alles ganz anders. Ihr trefft sie im Gebiet der Mantelwald Lodge.
 
 - Ein haariges Problem
 Aivell, die junge Magierin, hält die Tür zu ihrem Haus verschlossen - von außen. Warum nur? Besucht sie an ihrem Haus in der Nähe der hohen Hecke und findet es heraus.
@@ -178,6 +178,21 @@ VII. Versions-History:
 -adding ac_quest.ini
 -renaming setup-ac_quest.ini to ac_quest.ini
 -update to weiDU v246
+
+3.0 - 2020-07-29
+-Russian version added, by Arkie
+-Gnolls should not spawn BGII loot.
+-corrected class checks in ACUITM.baf
+-Torben should go to Aiwell after he is cured (changed EscapeAreaMove() to SetGlobal+EscapeAreaDestroy(5) und CreateCreature im Areascript)
+-typo corrections
+-"A Home for the Gibberlings": journal entry gives better info about where Geraldo's house is
+-"A Lost Son": corrected readme (Aphriel is in CloakwoodLodge area, not Bandit Camp)
+-"A Halfling among the Eyeless": Bunger should not loop his dialogue at the exit of the Unseeing Eye Area but go to his mother if talked to.
+-"The Serpents of Abbathor": journal entry in Mulahey's Cave when taking the letter should be set for all games.
+-added folder libiconv-1.9.2-1-src.7z with iconv licence info
+-infer_charset corrected to infer_charsets
+-corrected download link in ac_quest.ini
+-removed empty file ACQCUT04.baf
 
 
 ***************************************************************************************************************

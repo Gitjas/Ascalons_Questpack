@@ -461,19 +461,22 @@ IF ~Global("ACQ122","GLOBAL",3)~ THEN REPLY @162 EXTERN ACQ12002 23
 CHAIN
 IF ~~ THEN ACQ12001 22
 @164 DO ~SetGlobal("ACQ12","GLOBAL",4)AddexperienceParty(1200)ReputationInc(1)EscapeAreaDestroy(10)~
-==ACQ12002 @165 DO ~MoveBetweenAreas("%Nashkel%",[4490.2344],10)~ //MoveToPointNoInterrupt([4490.2344])~
+==ACQ12002 @165 DO ~EscapeAreaMove("%Nashkel%",4490,2344,10)
+//MoveBetweenAreas("%Nashkel%",[4490.2344],10)~ //MoveToPointNoInterrupt([4490.2344])~
 EXIT
 
 CHAIN
 IF ~~ THEN ACQ12001 23
 @166 DO ~SetGlobal("ACQ12","GLOBAL",4)AddexperienceParty(1200)GiveItemCreate("AMUL09",PLAYER1,0,0,0)EscapeAreaDestroy(10)~
-==ACQ12002 @165 DO ~MoveBetweenAreas("%Nashkel%",[4490.2344],10)~ //MoveToPointNoInterrupt([4490.2344])~
+==ACQ12002 @165 DO ~EscapeAreaMove("%Nashkel%",4490,2344,10)
+//MoveBetweenAreas("%Nashkel%",[4490.2344],10)~ //MoveToPointNoInterrupt([4490.2344])~
 EXIT
 
 CHAIN
 IF ~~ THEN ACQ12001 24
 @167 DO ~SetGlobal("ACQ12","GLOBAL",4)AddexperienceParty(1200)GiveItemCreate("AMUL09",PLAYER1,0,0,0)EscapeAreaDestroy(10)~
-==ACQ12002 @168 DO ~MoveBetweenAreas("%Nashkel%",[4490.2344],10)~ //MoveToPointNoInterrupt([4490.2344])~
+==ACQ12002 @168 DO ~EscapeAreaMove("%Nashkel%",4490,2344,10)
+//MoveBetweenAreas("%Nashkel%",[4490.2344],10)~ //MoveToPointNoInterrupt([4490.2344])~
 EXIT
 
 CHAIN

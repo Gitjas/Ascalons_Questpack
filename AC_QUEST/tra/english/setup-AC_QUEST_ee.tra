@@ -1,0 +1,81 @@
+//#6742 BGII
+@80042 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
+
+STATISTICS:
+
+Damage: 1d8 (slashing)
+Speed Factor: 5
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+//#4421 BGII
+@80043 = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored. "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 1d8+1, +1 fire damage
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4
+~ 
+//#6742 BGII same as @80042
+//@80046 = only needed for BGT+Tutu
+
+//#4421 BGII same as @80043
+//@80047 = only needed for BGT+Tutu
+
+//#39444 BGII
+@80053 = ~A dwarven smith, Silverblade, forged this hammer and two other items: a girdle of frost giant strength and a pair of gauntlets of ogre power. His intention was to gift them to his son, who was then a high officer in the dwarven armies, fighting the giant and ogre tribes of the area. Unfortunately, Silverblade's son died just after the completion of the three items and before they could be gifted to him. In grief, Silverblade himself donned the girdle and the gauntlets. Taking up the Hammer of Thunderbolts, he went to battle against the giant folk. He died valiantly.
+
+Alone, the Hammer of Thunderbolts is a powerful magical weapon, but when merged with the gauntlets of ogre power and the girdle of frost giant strength, the hammer is transformed. This transformation requires magical assistance. The Hammer of Thunderbolts is then capable of doing an additional +8 damage as well as instantly killing any giant or ogre that it strikes.
+
+STATISTICS:
+
+THAC0: +3
+Damage: 2d4+3 (crushing)
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type: One-handed
+Requires:
+ 18 Strength
+
+Weight: 4
+~
+//#39548 BGII
+@80057 = ~Originally blessed by Shar, this armor has a long and interesting history. Only the greatest of thieves have ever owned this heavily enchanted armor. The essence of night has been woven into the dark set of armor so that it feels like normal armor but encloses the wearer in a mass of twisting shadows.
+
+STATISTICS:
+
+Equipped abilities:
+– Hide In Shadows: +20%
+
+Armor Class: 3 (5 vs. piercing and missile)
+Requires:
+ 3 Strength
+
+Weight: 5
+~
+//#66422 BGII
+@80059 = ~This armor was created for Enkidu, a famed warrior from Kara-Tur. While none dared challenge him in fair combat, Enkidu was often subject to cowardly sneak attacks from assassins, ninjas and Wu-Jen.
+
+STATISTICS:
+
+Equipped abilities:
+– Magic Resistance: +5%
+– Immunity to backstab
+
+Armor Class: -2 (-6 vs. slashing, -5 vs. piercing and missile)
+Requires:
+ 15 Strength
+
+Weight: 45
+~

@@ -3,7 +3,7 @@
                             Ascalon (geheimer.herrscher@gmx.de)
 
 	Currently supported by: jastey 
-                                      Version: 2.05
+
 
 ***************************************************************************************************************
 
@@ -80,7 +80,7 @@ True fangirls stay true to their idols, just like Cindy, Mandy and Ashley in the
 What does an artist create when out of ideas? Trouble, lots of trouble, considering what Gerlado the Splendiferous in the central part of Baldur's Gate has been up to recently.
 
 - The Lost Son
-All the half-elf Aphriel wanted was to lay down her bow in favour of a simple life. But then everything changed. Meet her in the bandit camp after dealing with the guards.
+All the half-elf Aphriel wanted was to lay down her bow in favour of a simple life. But then everything changed. Meet her in the Cloakwood Lodge area.
 
 - Of Wolves and Men
 Aiwell the mage has barred her doors - from the outside. Find out why near High Hedge.
@@ -171,6 +171,21 @@ VII. Version history:
 -adding ac_quest.ini
 -renaming setup-ac_quest.ini to ac_quest.ini
 -update to weiDU v246
+
+3.0 - 2020-07-29
+-Russian version added, by Arkie
+-Gnolls should not spawn BGII loot.
+-corrected class checks in ACUITM.baf
+-Torben should go to Aiwell after he is cured (changed EscapeAreaMove() to SetGlobal+EscapeAreaDestroy(5) und CreateCreature im Areascript)
+-typo corrections
+-"A Home for the Gibberlings": journal entry gives better info about where Geraldo's house is
+-"A Lost Son": corrected readme (Aphriel is in CloakwoodLodge area, not Bandit Camp)
+-"A Halfling among the Eyeless": Bunger should not loop his dialogue at the exit of the Unseeing Eye Area but go to his mother if talked to.
+-"The Serpents of Abbathor": journal entry in Mulahey's Cave when taking the letter should be set for all games.
+-added folder libiconv-1.9.2-1-src.7z with iconv licence info
+-infer_charset corrected to infer_charsets
+-corrected download link in ac_quest.ini
+-removed empty file ACQCUT04.baf
 
 
 ***************************************************************************************************************

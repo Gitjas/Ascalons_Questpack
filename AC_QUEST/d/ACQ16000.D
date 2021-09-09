@@ -565,7 +565,7 @@ END
 
 IF ~~ THEN BEGIN 6
 SAY @140
-IF ~~ THEN DO ~EscapeAreaMove("%HighHedge%",2881,2677,0)~ EXIT
+IF ~~ THEN DO ~SetGlobal("ACQ16_TorbenWithAiwell","GLOBAL",1) EscapeAreaDestroy(5)~ EXIT
 END
 
 CHAIN

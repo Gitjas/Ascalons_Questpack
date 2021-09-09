@@ -26,16 +26,34 @@ This simple ring is provided with a spell to protect the wearer. The engraving w
 STATISTICS:
 
 Armor Class: +1 bonus
-Saving Throws: +1 bonus~ //"light spell" fand ich missverständlich (Licht- / leicht)
+Saving Throws: +1 bonus //"light spell" fand ich missverständlich (Licht- / leicht)
+
+Weight: 0~
+
 @22   = ~Kessy~
 @23   = ~Ugh~
 @24   = ~Rabbit~
 @25   = ~Rabbit Breeder~
 @26   = ~Rabbit~
 @27   = ~A little, white rabbit. Maybe the fluffiest you have ever seen.~
+
+
+
+
+
 @28   = ~A little, white rabbit. It is not as fluffy as Jumper, but which rabbit ever could be?~
+
+
+
+
+
 @29   = ~Perwell~
-@30   = ~This is the body of Perwell.~
+@30   = ~This is the body of Perwell.
+
+STATISTICS:
+
+Weight: 110~
+
 @31   = ~Elven Longbow~
 @32   = ~Aphriel's Elven Longbow
 
@@ -62,7 +80,12 @@ Not Usable By:
 @35   = ~Werewolf~
 @36   = ~Tonder~
 @37   = ~Tonder's body~
-@38   = ~After death the werewolf has turned back into a human.~
+@38   = ~After death the werewolf has turned back into a human.
+
+STATISTICS:
+
+Weight: 105
+~
 @39   = ~Guril berries~
 @40   = ~Guril berries are traditional remedies in Faerûn, and are used for various applications. They are especially popular to alleviate sufferings of the 'special' type, which is why these berries are often offered by stores in vicinity to courtesans.~ //"floozy" ist sehr umgangssprachlich
 @41   = ~Aiwell's blood~
@@ -471,29 +494,9 @@ A messenger has brought me an invitation from his master. Although he will keep 
 @80039 = ~Orc Leather +3~ //#6365
 @80040 = ~Mutated Gibberling~ //#2286
 @80041 = ~Skeleton Archer~ //#73272
-@80042 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting. 
 
-STATISTICS:
-
-Damage:  1D8
-Damage type:  slashing
-Weight: 4
-Speed Factor: 5
-Proficiency Type: Long Sword
-Type:  1-handed
-Requires: 6 Strength~ //#6742
-@80043 = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored.  "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
-
-STATISTICS:
-
-THAC0: +1 bonus
-Damage:  1D8 +1, +1 fire damage
-Damage type:  slashing
-Weight: 4
-Speed Factor: 5
-Proficiency Type: Long Sword
-Type:  1-handed
-Requires: 6 Strength~ //#4421
+//@80042 = /* description for EE */
+//@80043 = /* description for EE */
 @80044 = ~Long Sword~ //#2893
 @80045 = ~Sword of Flame +1~ //#4422
 @80046 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords.  In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era.  Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting. 
@@ -511,6 +514,7 @@ Not Usable By:
  Druid
  Cleric
  Mage~ //#6742
+/* description for BGT */
 @80047 = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored.  "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
 
 STATISTICS:
@@ -628,29 +632,36 @@ Weight: 45~ //#66422
 @90010 = ~A Mysterious Offer~
 @90011 = ~A failed Picnic~
 
-//EE Descriptions
+//EE Descriptions: the following item descriptions should be in EE style!
 @100032   = ~Aphriel's Elven Longbow
 
 At an early age the elf Aphriel roamed the forests of Faerûn and became one of the greatest Rangers of our time. There was no scent she could not follow, and not one criminal was safe from her bow. It was only when she met a local merchant on a visit to the city of Baldur's Gate and fell passionately in love with him, that her days in the forest had come to an end. Their relationship was blessed with the young half-elf Perwell, and when he was kidnapped by bandits of the Sword Coast, Aphriel set out for one last time into the forests. During this trip the bow came into the hands of <CHARNAME>.
 
 STATISTICS:
 
-Damage: +2 bonus (missile)
-THAC0: +3 bonus
-Weight: 2
+THAC0: +3
+Damage: +2 (missile)
 Speed Factor: 5
-Proficiency Type: Long Bow
-Type: 2-handed
-Requires: 6 Strength~
+Proficiency Type: Longbow
+Type: Two-handed
+Requires: 
+ 6 Strength
+
+Weight: 2
+~
 @100048   = ~This shield is polished to a high gloss and obviously magical. Scratches disappear and blood and dirt simply run off of its reflective surface. It can be presumed that it can even withstand the look of a basilisk.
 
 STATISTICS:
 
-The wearer is protected against all types of petrification and forms of gaze attacks.
+Equipped abilities:
+- Armor Class: +2
+- The wearer is protected against all types of petrification and forms of gaze attacks.
 
-Armor Class: +1 bonus
+Requires: 
+ 12 Strength
+
 Weight: 7
-Requires: 12 Strength~
+~
 @100058   = ~Armor from Gibberling Leather
 
 One of the byproducts of Geraldo's work with gibberlings was a high leather production. Since the painter only needed the fur for his colors, he sought a different use for the thick skin of the monsters... and found it. Unfortunately, the leather of gibberlings had some unexpected side effects and so Geraldo impatiently waited for a credulous soul to foist his experiment on.
@@ -659,15 +670,19 @@ The chroniclers are assuming that the great Geraldo laughs in his sleeve at the 
 
 STATISTICS:
 
-The character turns blue.
-
-Can only be removed by a 'Remove Curse' spell.
+Equipped abilities:
+– Missile Resistance: +10%
+– The character turns blue
+– Charisma: -3
+– Can only be removed by a Remove Curse spell
 
 Armor Class: 4
-Charisma: -3
-Resistance vs. projectile weapons: +10%
+
+Requires: 
+ 6 Strength
+
 Weight: 7
-Requires: 6 Strength~
+~
 @100086   = ~The priest of Moradin, Bashrik Sparklehammer, was considered as wise and true and within the community of liberal dwarves. He continued to fight against the secession of the surface dwarves and generally relished a high reputation. This hammer, charged with the thunderbolts of Moradin, was his greatest weapon in the fight against evil.
 
 STATISTICS:
@@ -678,10 +693,11 @@ Damage type: Crushing
 Speed Factor: 2
 Proficiency Type: War Hammer
 Type: One-handed
-Requires:
+Requires: 
  9 Strength
-
-Weight: 5~
+ 
+Weight: 5
+~
 
 //Karlini Journals
 @2000001   = ~The magnificent Karlini - The spellbook of the magnificent Karlini
@@ -695,15 +711,15 @@ Luckily we found the spellbook of the magnificent Karlini in the Ulcaster Ruins.
 
 @2000003   = ~The magnificent Karlini - The spellbook of the magnificent Karlini
 
-We gave Ygnatius the spellbook of the magnificent Karlini as promissed. After some research he found the fitting spell to track down Karlini and we agreed to oversee his task of casting the spell. For that we will meet with Ygnatius at the stone cirlce at Lion's Way.~
+We gave Ygnatius the spellbook of the magnificent Karlini. After some research he found the last spell used by Karlini before he disappeared. For a profitable endeavour, we suggested him we could be watching him while he will be casting the spell. Ygnatius agreed and told us he will be waiting our arrival at the stone circle in Lion's way.~
 
 @2000004   = ~The magnificent Karlini
 
-We told Ygnatius to not continue working for him.~
+We told Ynatius we will not work anymore for him.~
 
 @2000005   = ~The magnificent Karlini
 
-We gave Ygnatius the spellbook of the magnificent Karlini and received our reward as promissed.~
+We gave Ygnatius the spellbook of the magnificent Karlini and received our reward as promised.~
 
 @2000006   = ~The magnificent Karlini
 
@@ -723,7 +739,7 @@ We oversaw the casting of the spell but surprisingly a balor appeared and Ygnati
 
 @3000001   = ~Breeding Gibberlings in Baldur's Gate
 
-Travelling through the streets of Baldur's Gate we met a man who referred to himself as 'Geraldo the Magnificent'. He told us he had planned to create blue colour from the fur of gibberlings but when they started to breed uncontrollably he was forced to imprison them in his own house. He asked us to go to his house and deal with the monsters inside. By now there should be around 20 of the little beasts there.~
+Travelling through the streets of Baldur's Gate we met a man who referred to himself as 'Geraldo the Magnificent'. He told us he had planned to create blue colour from the fur of gibberlings but when they started to breed uncontrollably he was forced to imprison them in his own house. He asked us to go to his house and deal with the monsters inside. By now there should be around 20 of the little beasts there. His house is the big blue-grey one with the white fence east of Central Baldur's Gate.~
 @3000002   = ~Breeding Gibberlings in Baldur's Gate
 
 There were only two gibberlings in Geraldo’s house. We should return to him and give him the furs anyway.~

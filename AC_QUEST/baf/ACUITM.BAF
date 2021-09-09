@@ -87,7 +87,7 @@ END
 
 IF
 	OR(2)
-		Class(Myself,LONG_BOW)
+		Class(Myself,MAGE_ALL)
 		Class(Myself,BARD_ALL)
 	See(NearestEnemyOf(Myself))
 	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
@@ -104,7 +104,7 @@ END
 
 IF
 	OR(2)
-		Class(Myself,LONG_BOW)
+		Class(Myself,MAGE_ALL)
 		Class(Myself,BARD_ALL)
 	See(NearestEnemyOf(Myself))
 	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
@@ -120,7 +120,7 @@ END
 
 IF
 	OR(2)
-		Class(Myself,LONG_BOW)
+		Class(Myself,MAGE_ALL)
 		Class(Myself,BARD_ALL)
 	See(NearestEnemyOf(Myself))
 	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
@@ -135,7 +135,7 @@ END
 
 IF
 	OR(2)
-		Class(Myself,LONG_BOW)
+		Class(Myself,MAGE_ALL)
 		Class(Myself,BARD_ALL)
 	See(NearestEnemyOf(Myself))
 	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
@@ -152,7 +152,7 @@ END
 
 IF
 	OR(2)
-		Class(Myself,LONG_BOW)
+		Class(Myself,MAGE_ALL)
 		Class(Myself,BARD_ALL)
 	See(NearestEnemyOf(Myself))
 	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)
@@ -168,7 +168,7 @@ END
 
 IF
 	OR(2)
-		Class(Myself,LONG_BOW)
+		Class(Myself,MAGE_ALL)
 		Class(Myself,BARD_ALL)
 	See(NearestEnemyOf(Myself))
 	!StateCheck(LastSeenBy(Myself),STATE_REALLY_DEAD)

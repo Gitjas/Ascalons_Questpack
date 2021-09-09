@@ -340,12 +340,12 @@ CHAIN
 IF ~~ THEN ACQ15001 33
 @124
 ==ACQ15002 @125 
-==ACQ15001 @126 DO ~AddexperienceParty(1200) ActionOverride("ACQ15002",EscapeAreaDestroy(10)) EscapeAreaDestroy(10)~
+==ACQ15001 @126 DO ~AddexperienceParty(1200) ActionOverride("ACQ15002",EscapeAreaDestroy(3)) EscapeAreaDestroy(10)~
 EXIT
 
 CHAIN
 IF ~~ THEN ACQ15001 34
 @127
 ==ACQ15002 @125 
-==ACQ15001 @126 DO ~AddexperienceParty(1200)ReputationInc(1) ActionOverride("ACQ15002",EscapeAreaDestroy(10)) EscapeAreaDestroy(10)~
+==ACQ15001 @126 DO ~AddexperienceParty(1200)ReputationInc(1) ActionOverride("ACQ15002",EscapeAreaDestroy(3)) EscapeAreaDestroy(10)~
 EXIT

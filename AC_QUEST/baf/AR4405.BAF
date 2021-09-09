@@ -1,8 +1,8 @@
 IF
 	PartyHasItem("ACQLET01")
-	Global("ACDIARY","AR4405",0)
+	Global("ACDIARY","%NashkelMines_MulaheysCave%",0)
 THEN
 	RESPONSE #100
-		SetGlobal("ACDIARY","AR4405",1)
+		SetGlobal("ACDIARY","%NashkelMines_MulaheysCave%",1)
 		AddJournalEntry(@10021,QUEST)
 END

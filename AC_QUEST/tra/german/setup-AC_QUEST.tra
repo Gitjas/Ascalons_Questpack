@@ -94,7 +94,7 @@ Kann nicht verwendet werden von:
 @52   = ~Ygnatius Bombastus~
 @53   = ~Karlini~
 @54   = ~Geraldos Schlüssel~
-@55   = ~Der Schlüssel öffnet die Tür von Geraldos Haus im Zemtrum von Baldurs Tor.~
+@55   = ~Der Schlüssel öffnet die Tür von Geraldos Haus im Zentrum von Baldurs Tor.~
 @56   = ~Kreischlingsfell~
 @57   = ~Die ist das Fell eines mutierten Kreischlings.~
 @58   = ~Rüstung aus Kreischlingsleder
@@ -445,7 +445,7 @@ Ein Bote hat mir eine Einladung seines Herrn überbracht. Auch wenn dieser seinen
 @80002 = ~~ [PEASF07] //#61665
 @80003 = ~~ [PEASF08] //#61666
 @80004 = ~Ich danke den Göttern jeden Tag für all die guten Dinge in meinem Leben.~ [PEASF02] //##61660
-@80005 = ~Aaah! Lauft!~ [PEASM09] //#61823
+//@80005 = ~Aaah! Lauft!~ [PEASM09] //#61823
 @80006 = ~~ [PEASM07] //#61821
 @80007 = ~~ [PEASM08] //#61822
 @80008 = ~Klar, ich rede gerne ein paar Worte mit Euch.~ [PEASM03] //#61817
@@ -727,7 +727,7 @@ Wir haben Ygnatz dabei beobachtet wie er die große Formel gesprochen hat, dabei 
 
 @3000001   = ~Kreischlingszucht in Baldurs Tor
 
-Wir haben auf den Straßen von Baldurs Tor einen Mann namens "Geraldo der Prächtige" getroffen. Er erzählte uns,dass er vorhatte aus dem Fell gefangener Kreischlinge blaue Farbe zu gewinnen, diese pflanzten sich aber innerhalb kürzester Zeit fort und er musste sie in seinem Haus einsperren. Er hat uns gebeten in sein Haus zu gehen, um uns um die Kreischlinge zu kümmern und erwähnte, dass es um die 20 Kreischlinge sein müssten.~
+Wir haben auf den Straßen von Baldurs Tor einen Mann namens "Geraldo der Prächtige" getroffen. Er erzählte uns,dass er vorhatte aus dem Fell gefangener Kreischlinge blaue Farbe zu gewinnen, diese pflanzten sich aber innerhalb kürzester Zeit fort und er musste sie in seinem Haus einsperren. Er hat uns gebeten in sein Haus zu gehen, um uns um die Kreischlinge zu kümmern und erwähnte, dass es um die 20 Kreischlinge sein müssten. Das Haus ist das große blau-graue mit dem weißen Zaun im östlichen Bereich des Zentrums von Baldurs Tor.~
 @3000002   = ~Kreischlingszucht in Baldurs Tor
 
 Wir konnten im Haus leider nur zwei Kreischlinge antreffen, wir sollten mit den Fellen zu Geraldo zurückkehren.~
@@ -744,7 +744,7 @@ Wir haben Geraldo gesagt, dass wir nicht mehr für ihn arbeiten wollen. Geraldo v
 
 @3000007  = ~Die Schlangen Abbathors
 
-Ich bin Zeuge eines Überfalls auf der Küstenstraße geworden. Bei der Leiche befand sich ein Tagebuch eines zwergen namens Bashrik. Ich sollte es in den Tempel des Helm in Baldurs Tor bringen.~
+Ich bin Zeuge eines Überfalls auf der Küstenstraße geworden. Bei der Leiche befand sich ein Tagebuch eines Zwergen namens Bashrik. Ich sollte es in den Tempel des Helm in Baldurs Tor bringen.~
  
 @3000008  = ~Die Schlangen Abbathors
 

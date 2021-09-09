@@ -1,8 +1,16 @@
+/*
+
+überprüfen:
+-Und Perwell ist bei mir nach der Rückkehr einfach auf der Karte stehen geblieben und nicht mit seiner Mutter weiter. 
+-Kreischlingszucht:  did anyone actually solve this? Because I see 18 pelts, 18 instances of IncrementGlobal if they are handed over, but a trigger that distinguishes between lower than 20 and 20 skins to finish the quest.
+
+*/
+
 BACKUP ~AC_QUEST/backup~
 //AUTHOR ~whiteagnus@baldursgatemods.de~ 
-SUPPORT ~jastey@web.de~
+SUPPORT ~https://baldurs-gate.de/index.php?threads/ascalons-questpack.39286/~
 
-VERSION ~2.05~ 
+VERSION ~3.0~  
 
 AUTO_TRA "AC_QUEST/TRA/autotra/%s"//%"
 
@@ -33,20 +41,20 @@ INCLUDE ~AC_QUEST/lib/ac_quest_cpmvars.tpa~
 	LAF autotra_workaround END
 
 	ACTION_DEFINE_ARRAY tra#reload BEGIN setup-AC_QUEST END
-	ACTION_DEFINE_ARRAY tra#noconvert BEGIN END
+//	ACTION_DEFINE_ARRAY tra#noconvert BEGIN END
 
 	LAF HANDLE_CHARSETS
 		INT_VAR
-			infer_charset = 1
+			infer_charsets = 1
 		STR_VAR
 			tra_path = EVAL ~AC_QUEST/tra/autotra~
-			noconvert_array = tra#noconvert
+//			noconvert_array = tra#noconvert
 			reload_array = tra#reload
 			iconv_path = ~AC_QUEST/tools/iconv~
 	END
 		
-//		LOAD_TRA ~AC_QUEST/tra/autotra/german/setup-AC_QUEST.tra~	
 		LOAD_TRA ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
+		LOAD_TRA ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST_ee.tra~
 
 
 //CamDawgs CD_STATE_NOTVALID zum Checken der Dialogfähigkeit eines Char
@@ -71,6 +79,7 @@ END
 LANGUAGE ~Deutsch (German)~ ~german~ ~AC_QUEST/TRA/german/setup-AC_QUEST.tra~
 
 LANGUAGE ~English~ ~english~ ~AC_QUEST/TRA/english/setup-AC_QUEST.tra~
+LANGUAGE ~Russian~ ~russian~ ~AC_QUEST/TRA/russian/setup-AC_QUEST.tra~
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -114,6 +123,7 @@ END
 ACTION_IF GAME_IS ~bgt bgee tutu_totsc eet~ THEN BEGIN
 
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~AC_QUEST/TRA/english/sounds~ ~override~
 COPY ~AC_QUEST/TRA/%LANGUAGE%/sounds~ ~override~
 END
 
@@ -276,7 +286,7 @@ SAY SELECT_COMMON1 @80004
 COPY ~AC_QUEST/cre/ACQ12002.CRE~ ~override~
 SAY NAME1 @13
 SAY NAME2 @14
-SAY INITIAL_MEETING @80005
+//SAY INITIAL_MEETING @80005
 SAY DAMAGE @80006
 SAY DYING @80007
 SAY SELECT_COMMON1 @80008
@@ -300,30 +310,32 @@ SAY SELECT_COMMON3 @80015
 COPY ~AC_QUEST/cre/ACGNOLL1.CRE~ ~override~
 SAY NAME1 @18
 SAY NAME2 @18
-PATCH_IF GAME_IS ~bgt~ THEN BEGIN
+/*PATCH_IF GAME_IS ~bgt~ THEN BEGIN
 ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
 ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
 ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
 END
-PATCH_IF GAME_IS ~bgee eet tutu_totsc~ THEN BEGIN
+*/
+//PATCH_IF GAME_IS ~bgee eet tutu_totsc~ THEN BEGIN
 ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
 ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
 ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
-END
+//END
 
 COPY ~AC_QUEST/cre/ACGNOLL2.CRE~ ~override~
 SAY NAME1 @19
 SAY NAME2 @19
-PATCH_IF GAME_IS ~bgt~ THEN BEGIN
+/*PATCH_IF GAME_IS ~bgt~ THEN BEGIN
 ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
 ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
 ADD_CRE_ITEM ~RNDTRE08~ #1 #0 #0 ~NONE~ ~INV~
 END
-PATCH_IF GAME_IS ~bgee eet tutu_totsc~ THEN BEGIN
+*/
+//PATCH_IF GAME_IS ~bgee eet tutu_totsc~ THEN BEGIN
 ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
 ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
 ADD_CRE_ITEM ~RNDTRE04~ #1 #0 #0 ~NONE~ ~INV~
-END
+//END
 
 COPY_EXISTING ~%Nashkel_TempleofHelm%.are~ ~OVERRIDE~
 LPF fj_are_structure
@@ -996,6 +1008,7 @@ LPF fj_are_structure
     fj_cre_resref     = ACQ19003
   END
 
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////																			////////////
@@ -1019,7 +1032,7 @@ EXTEND_TOP ~%SEBaldursGate_BCS%.bcs~ ~AC_QUEST/baf/AR8200.baf~
 EVAL
 EXTEND_TOP ~%NashkelMines_BCS%.bcs~ ~AC_QUEST/baf/AR4400.baf~
 
-EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.bcs~ ~AC_QUEST/baf/AR4405.baf~
+EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.bcs~ ~AC_QUEST/baf/AR4405.baf~ EVALUATE_BUFFER
 EXTEND_TOP ~%NEBaldursGate_BCS%.bcs~ ~AC_QUEST/baf/AR7400.baf~
 EXTEND_TOP ~%ESewers_BCS%.bcs~ ~AC_QUEST/baf/AR7326.baf~
 EXTEND_BOTTOM ~%CoastWay_BCS%.bcs~ ~AC_QUEST/baf/AR6900.baf~ 
@@ -1612,6 +1625,8 @@ SAY NAME2 @122
 COPY ~AC_QUEST/cre/ACQ10127.CRE~ ~override~
 SAY NAME1 @108
 SAY NAME2 @109
+
+
 
 
 END
