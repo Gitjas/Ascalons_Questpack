@@ -14,9 +14,9 @@ IF
 	Global("ACQ15","GLOBAL",4)
 THEN
 	RESPONSE #100
-		SetGlobal("ACQ15","GLOBAL",6)
 		ChangeEnemyAlly(Myself,NEUTRAL)
 		DisplayStringHead(Myself,@5017)
+		SetGlobal("ACQ15","GLOBAL",6)
 		MoveToObject("ACQ15001")
 END
 
@@ -58,20 +58,10 @@ IF
 	CombatCounter(0)
 	!See([ENEMY])
 	!StateCheck([PC],CD_STATE_NOTVALID)
+	GlobalTimerExpired("ACQ15_TalkTimer","GLOBAL")
 THEN
 	RESPONSE #100
 		MakeGlobal()
 		StartDialogNoSet([PC])
 END
 
-/* Fix from Roxanne: "Perwell did not follow me out of the Cloakwood to FAA when I freed him and triggered the respective dialogue." */
-IF
-	Global("ACQ15","GLOBAL",4)
-	Global("Make","Locals",0)
-THEN
-	RESPONSE #100
-		SetGlobal("Make","Locals",1)
-		MakeGlobal()
-		ChangeEnemyAlly(Myself,GOODBUTBLUE)
-		MoveGlobalObject("acq15002",Player1)
-END

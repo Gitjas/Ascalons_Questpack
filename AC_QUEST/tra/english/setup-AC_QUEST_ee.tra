@@ -1,16 +1,196 @@
+@21   = ~Aaron's Ring of Protection
+
+This simple ring is provided with a faint spell to protect the wearer. The engraving within says: "In love for M., from A."
+
+STATISTICS:
+
+Armor Class: +1 bonus
+Saving Throws: +1 bonus 
+
+Weight: 0~
+
+
+@27   = ~A little, white rabbit. Maybe the fluffiest you have ever seen.
+
+STATISTICS:
+
+Weight: 3
+~
+@28   = ~A little, white rabbit. It is not as fluffy as Jumper, but which rabbit ever could be?
+
+STATISTICS:
+
+Weight: 3
+~
+
+@30   = ~This is the body of Perwell.
+
+STATISTICS:
+
+Weight: 110
+~
+//@32 not needed in EE!
+
+@38   = ~After death the werewolf has turned back into a human.
+
+STATISTICS:
+
+Weight: 105
+~
+
+@40   = ~Guril berries are traditional remedies in Faerûn, and are used for various applications. They are especially popular to alleviate sufferings of the "special" type, which is why these berries are often offered by stores in vicinity to courtesans.
+
+STATISTICS:
+
+Weight: 1
+~
+
+
+@44   = ~This potion contains mainly belladonna flowers.
+
+STATISTICS:
+
+Weight: 0
+~
+@45   = ~This potion contains mainly Guril berries.
+
+STATISTICS:
+
+Weight: 0
+~
+@46   = ~This potion contains mainly Aiwell's blood.
+
+STATISTICS:
+
+Weight: 0
+~
+
+//@48 not needed in EE!
+
+@50   = ~In this book the great Karlini, one of the most colorful figures of gnomish wisdom, wrote down his experiences and spells. The handwriting is confusing and scrawly, probably only someone who is as mad as Karlini could decipher this scribble.
+
+STATISTICS:
+
+Weight: 2
+~
+
+@55   = ~The key opens the door of Geraldo's house in the center of Baldur's Gate.
+
+STATISTICS:
+
+Weight: 0
+~
+
+@57   = ~This is the fur of a mutant gibberling.
+
+STATISTICS:
+
+Weight: 0
+~
+//@58 not needed for EE!
+
+@60   = ~Elminster is Geraldo's tame bird, although even he does not know the exact species. The bird has a wise look and an exceptional aversion to gibberlings. As soon as he senses one he will call a loud "Kiwitt".
+
+Without the bird, it would be nearly impossible to track down the gibberlings in the cellars and sewers, so take good care of him.
+
+STATISTICS:
+
+Weight: 1
+~
+
+@67   = ~A small key, opening some sort of panel in the wall.
+
+STATISTICS:
+
+Weight: 0
+~
+
+@69   = ~This key opens a warehouse in the Southern District of the city. The Serpents of Abbathor have their hideout there.
+
+STATISTICS:
+
+Weight: 0
+~
+
+
+
+@76   = ~This bundle of wrapped loose pages seems to summarize the approach of the Serpents of Abbathor to a large extent. Apparently, it was their plan from the beginning to capture an ancient dwarfish device, called Gundmagtor, which in common language means something like "Caller of Black Souls". The main strike of the cult seems to focus on Nashkel, and the note "<CHARNAME> has killed Mulahey, mines are free" bodes ill indeed.
+
+STATISTICS:
+
+Weight: 0
+~
+
+@80   = ~Lugosch Grayshirt has written down his journey from a small cultist to priest of Abbathor with neat handwriting. Every line is full of confidence and arrogance. He describes how the cult took root in Amn and he himself was hired as a henchman to the Lurraxol family in Trademeet. The cult grew and soon migrated to larger cities, only to find itself kept down by the Shadow Thieves in Athkatla. Lugosch, who now had ascended to priesthood, was called away by the cult leaders to descend northwards and continue his work in Baldur's Gate.
+
+The last entries of the book deal with his efforts to get in touch with Mulahey in the mines of Nashkel, describe the rude denial given by the Halforc to the dwarves and his malicious glee when <CHARNAME> freed the mine. Lugosch saw his chance and led a fast strike to incorporate a smoothly running iron mine into the cult.
+
+STATISTICS:
+
+Weight: 2
+~
+
+@82   = ~Emerson, the foreman of the Nashkel Mines, has written down his calculations and experience in this messed up cluster of papers. For someone who works in the mining industry, this jumble of information is surely a gold mine. For you, however, the notes are useless.
+
+STATISTICS:
+
+Weight: 3
+~
+
+@84   = ~This book looks very old and has been through a lot. Some pages are torn and others pierced, some singed, and a large part of the book is smeared with blood. Even if you cannot decipher the name of the priest, it seems the old wanderer has gone through a lot - traveling with a group of adventurers, certain conflicts over the "true" dwarf existence and finally the banishment from his clan. To the dwarf, to whom his family was above all, this loss made him first lose his mind and then drove him straight into the arms of the Serpents.
+
+STATISTICS:
+
+Weight: 0
+~
+
+//@86 not needed in EE!
+
+@88   = ~The book is written with neat handwriting and reports the last trip of Bashrik Sparklehammer. Bashrik was on the tail of a cult that calls itself "The Serpents of Abbathor". For them, Abbathor, the only evil god among the Morndinsamman, is considered the liberator and saint patron of the dwarfkind of the surface.
+
+You cannot learn much more from the book because apparently, the notes of Bashrik were written primarily for the initiated. Only the last entry could offer a clue, should you want to look into the matter:
+
+'I have departed from Wostok today. Mirjala and I will try our luck south, Wostok will take a look in the big city. We will meet again in the temple of Helm when I have more information.
+
+Addendum: After racking the assassin who awaited us at the Friendly Arm Inn I have learned a name, at least. A certain Draglon appears in the Undercellars to regulate the affairs of the cult. Well, I will delay that until my return.'
+
+(If you want to investigate the cult and what it's about, it will be of advantage to keep this book.)
+
+STATISTICS:
+
+Weight: 2
+~
+
+@91   = ~What this artifact exactly does is unknown to you. The Serpents of Abbathor want it, that's probably sufficient information.
+
+STATISTICS:
+
+Weight: 30
+~
+
+@93   = ~The history of this artifact lies in darkness. From what you can conjecture from the few scraps that you have learned so far, and if you have interpreted the few ancient dwarven runes that cover the device correctly, this artifact in some way allows you to contact the forefathers of the dwarves and redirect their energy into shadowy beings.
+
+From what you know about the old dwarves, such an act is the greatest sacrilege a dwarf might be capable of. The peace of the dead is sacred and only very corrupted souls would dare to break it.
+
+STATISTICS:
+
+Weight: 30
+~
+
 //#6742 BGII
 @80042 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
 
 STATISTICS:
 
 Damage: 1d8 (slashing)
-Speed Factor: 5
+Speed Factor: 4
 Proficiency Type: Long Sword
 Type: One-handed
 Requires:
  6 Strength
 
 Weight: 4~
+
 //#4421 BGII
 @80043 = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored. "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
 
@@ -26,8 +206,10 @@ Requires:
  6 Strength
 
 Weight: 4
-~ 
+~
 //#6742 BGII same as @80042
+
+
 //@80046 = only needed for BGT+Tutu
 
 //#4421 BGII same as @80043
@@ -78,4 +260,74 @@ Requires:
  15 Strength
 
 Weight: 45
+~
+
+// is @32 in "setup-AC_QUEST.tra".
+@100032   = ~Aphriel's Elven Longbow
+
+At an early age the elf Aphriel roamed the forests of Faerûn and became one of the greatest Rangers of our time. There was no scent she could not follow, and not one criminal was safe from her bow. It was only when she met a local merchant on a visit to the city of Baldur's Gate and fell passionately in love with him, that her days in the forest had come to an end. Their relationship was blessed with the young half-elf Perwell, and when he was kidnapped by bandits of the Sword Coast, Aphriel set out for one last time into the forests. During this trip the bow came into the hands of <CHARNAME>.
+
+STATISTICS:
+
+THAC0: +3
+Damage: +2 (missile)
+Speed Factor: 5
+Proficiency Type: Longbow
+Type: Two-handed
+Requires: 
+ 6 Strength
+
+Weight: 2
+~
+// is @48 in "setup-AC_QUEST.tra".
+@100048   = ~This shield is polished to a high gloss and obviously magical. Scratches disappear and blood and dirt simply run off of its reflective surface. It can be presumed that it can even withstand the look of a basilisk.
+
+STATISTICS:
+
+Equipped abilities:
+- Armor Class: +2
+- The wearer is protected against all types of petrification and forms of gaze attacks.
+
+Requires: 
+ 12 Strength
+
+Weight: 7
+~
+// is @58 in "setup-AC_QUEST.tra".
+@100058   = ~Armor from Gibberling Leather
+
+One of the byproducts of Geraldo's work with gibberlings was a high leather production. Since the painter only needed the fur for his colors, he sought a different use for the thick skin of the monsters... and found it. Unfortunately, the leather of gibberlings had some unexpected side effects and so Geraldo impatiently waited for a credulous soul to foist his experiment on.
+
+The chroniclers are assuming that the great Geraldo laughs in his sleeve at the idea that some idiot would find this armor actually useful.
+
+STATISTICS:
+
+Equipped abilities:
+– Missile Resistance: +10%
+– The character turns blue
+– Charisma: -3
+– Can only be removed by a Remove Curse spell
+
+Armor Class: 4
+
+Requires: 
+ 6 Strength
+
+Weight: 7
+~
+// is @86 in "setup-AC_QUEST.tra".
+@100086   = ~The priest of Moradin, Bashrik Sparklehammer, was considered as wise and true and within the community of liberal dwarves. He continued to fight against the secession of the surface dwarves and generally relished a high reputation. This hammer, charged with the thunderbolts of Moradin, was his greatest weapon in the fight against evil.
+
+STATISTICS:
+
+THAC0: +2
+Damage: 1d4+3, +1 electrical
+Damage type: Crushing
+Speed Factor: 2
+Proficiency Type: War Hammer
+Type: One-handed
+Requires: 
+ 9 Strength
+ 
+Weight: 5
 ~

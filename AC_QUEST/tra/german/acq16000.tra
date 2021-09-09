@@ -82,7 +82,7 @@
 @81   = ~Meint Ihr, ja? Nun, vielleicht könnt Ihr das wirklich.~
 @82   = ~Das will ich Euch erzählen. Dann werdet Ihr auch verstehen, warum ich ihr nicht helfen kann.~
 @83   = ~Nun, dann wäre ja alles geregelt. Guten Tag.~
-@84   = ~Diese Aiwell ist vor ein paar Wochen in dem Haus etwas weiter westlich von hier eingezogen, zusammen mit ihrem Tagedieb von einem Mann.~
+@84   = ~Diese Aiwell ist vor ein paar Wochen in das Haus etwas weiter westlich von hier eingezogen, zusammen mit ihrem Tagedieb von einem Mann.~
 @85   = ~Und vor ein paar Nächten stand sie plötzlich draußen und schrie herum, irgendwas hätte diesen Kerl angefallen und gebissen. Ich konnte das Vieh vertreiben, den Göttern sei Dank. Aber natürlich war das nicht das Ende vom Lied.~
 @86   = ~Vor zwei Nächten hat sich dieser Nichtsnutz plötzlich in einen Werwolf verwandelt (seufzt). Als ob ich nicht schon genug Probleme hätte.~
 @87   = ~Ein Werwolf? Wieso tötet Ihr ihn nicht?~
@@ -153,7 +153,7 @@
 @148   = ~Wer war denn die Frau vor Eurem Tor?~
 @149   = ~Keine Sorge, sie ist jetzt weg. Was wollte sie denn eigentlich?~
 @150   = ~Ach, *jetzt* verstehe ich, was sie von mir wollte. Nun, ihr Werwolf ist tot.~
-@151   = ~Das könnte sich erledigt haben. Der Werwolf ist tot.~ 
+@151   = ~Das könnte sich erledigt haben. Der Werwolf ist tot.~
 @152   = ~Nun, dann ist es wohl das Einfachste, Euch den Körper des Werwolfes zu geben. Da kann man wohl nichts mehr weiter machen.~
 @153   = ~Da der Werwolf bereits tot ist, macht es wohl am meisten Sinn, wenn ich Euch den Körper bringe. Ich habe ihn allerdings nicht bei mir.~
 @154   = ~Hm, dann hat sich das wohl tatsächlich erledigt...~
@@ -172,3 +172,10 @@
 @167   = ~Ich finde den Leichnam des Werwolfs nicht mehr... das wird leider nichts mehr.~
 @168   = ~Bitte, helft uns!~
 @169   = ~Hmpf. Da kann man wohl nichts machen. (Grummelt noch etwas über die Sorglosigkeit heutiger Abenteurer.)~
+
+/* new for v 4.0 */
+//@26, rephrased for new location
+@170   = ~Tonder und ich sind in das kleine Haus eingezogen, das ganz im Südwesten von Beregost liegt. Eigentlich wollten wir nur in Ruhe ein wenig Land bestellen, aber vor ein paar Tagen wurde Tonder von einem großen Tier angefallen! Wäre Thalantyr uns nicht zu Hilfe gekommen hätte es ihn sicher gefressen.~
+
+//@84, rephrased for new location
+@171   = ~Diese Aiwell ist wohl erst vor ein paar Wochen in ein kleines Haus im Südwesten von Beregost eingezogen, zusammen mit ihrem Tagedieb von einem Mann.~

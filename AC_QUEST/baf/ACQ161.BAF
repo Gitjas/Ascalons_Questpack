@@ -1,16 +1,36 @@
+/*
 IF
-	HasItem("ACQ16001","THALANTYR")
+	True()
 THEN
 	RESPONSE #100
-		CutSceneId(Player1)
+		CutSceneId("THALANTYR")
 		FadeToColor([20.0],0)
 		ActionOverride("THALANTYR",DestroyItem("ACQ16001"))
+		ActionOverride("THALANTYR",DestroyItem("misc6c"))
         	Wait(2)		
 //		ActionOverride("THALANTYR",ForceSpell("THALANTYR",EFFECT_ONLY))
         	FadeFromColor([20.0],0)
 		Wait(2)
 		ActionOverride("THALANTYR",GiveItemCreate("ACQ16005",LastTalkedToBy(),0,0,0))
 		DisplayStringHead("THALANTYR",@5010)
+		Wait(2)	
+		EndCutSceneMode()
+END
+*/
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("THALANTYR")
+		FadeToColor([20.0],0)
+        	DestroyItem("ACQ16001")
+        	DestroyItem("misc6c")
+        	Wait(2)		
+		GiveItemCreate("ACQ16005",LastTalkedToBy(),0,0,0)
+        	FadeFromColor([20.0],0)
+		Wait(2)	
+		DisplayStringHead(Myself,@5010)
 		Wait(2)	
 		EndCutSceneMode()
 END

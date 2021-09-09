@@ -28,7 +28,7 @@
 @27   = ~And now you wish that I secure the book for you?~
 @28   = ~It sounds dangerous. You said it would be worthwhile for us?~
 @29   = ~Do I look like an errand boy? You are on your own!~
-@30   = ~What?? You do not know the great Karlini? So... you leave me speechless.~
+@30   = ~What?! You do not know the great Karlini? So... you leave me speechless.~
 @31   = ~Why do you not tell me about him?~
 @32   = ~Well, I only know that he is a great mage. What else is there?~
 @33   = ~As you wish... Hey there! A round for me and my friends!~
@@ -169,6 +169,6 @@
 @168  = ~But look, the Friendly Arm Inn is very close and you should seek treatment for that nasty wound there.~
 @169  = ~Well, maybe it would be not so bad to have a cleric check on this old body. This bite is burning, I must say. But then we will immediately go back!~
 @170  = ~I am right behind you, master!~
-@171  = ~Well, then. Oh yes, shall we show our gratitude to our young friend here? After all, <PRO_HESHE> was so adorably concerned about both our well-being.~ 
+@171  = ~Well, then. Oh yes, shall we show our gratitude to our young friend here? After all, <PRO_HESHE> was so adorably concerned about both our well-being.~
 @172  = ~You are right, great Karlini. Well then, <CHARNAME>, we are very grateful to you. Even if you've slowed down science, we can probably assume that you have not done it intentionally.~
 @173  = ~Here are the 300 pieces of gold we owe you - and a small trinket from hell. I think you'll know how to use it.~

@@ -1,8 +1,8 @@
 /* @0    = */
-@1    = ~Ascalons Questpack~
-@2    = ~Ascalons Questpack findet keine gültige BG-Installation. Die Mod-Installation wird abgebrochen.~
-@3    = ~Bringe Virginie, dem unsichtbaren Wunderbunny, ein paar neue Tricks bei~
-@4    = ~Installiere Virginie, das unsichtbare Wunderbunny~
+//@1    = ~Ascalons Questpack~
+//@2    = ~Ascalons Questpack findet keine gültige BG-Installation. Die Mod-Installation wird abgebrochen.~
+//@3    = ~Bringe Virginie, dem unsichtbaren Wunderbunny, ein paar neue Tricks bei~
+//@4    = ~Installiere Virginie, das unsichtbare Wunderbunny~
 
 @6    = ~Agnus~
 @7    = ~Agnus der Weiße~
@@ -365,9 +365,12 @@ Aphriel sucht nun selbst nach ihrem Sohn. Immerhin habe ich ihn aus der Mine ger
 @10032 = ~Die Suche nach Perwell
 
 Aphriel und ihr Sohn sind wieder glücklich vereint.~
+/* rephrased for v4.0 */
 @10033 = ~Von Wölfen und Männern
 
-Der Mann der Zauberin Aiwell hat sich wohl mit Lycanthropie angesteckt. Ich habe wohl verschiedene Möglichkeiten, das Problem zu lösen: Entweder mit einem Trank, den ich von Thalantyr bekommen kann, oder auf die althergebrachte Tour mit dem Schwert.~
+Der Mann der Zauberin Aiwell hat sich wohl mit Lycanthropie angesteckt. Ich habe wohl verschiedene Möglichkeiten, das Problem zu lösen: Entweder mit einem Trank, den ich von Thalantyr bekommen kann, oder auf die althergebrachte Tour mit dem Schwert.
+
+Ich finde ihr Haus im Wald gleich neben dem Domizil von Thalantyr.~
 @10034 = ~Von Wölfen und Männern
 
 Thalantyr hat uns verschiedene Möglichkeiten aufgezählt. Er kann den Trank mit Aiwells Blut mixen, was äußerst fragwürdig ist. Oder er benutzt Gurilbeeren, die nicht immer wirken. Am besten wäre ein Trank aus Tollkirschen. Er sagte auch, dass er uns nur einen der drei Tränke brauen kann.
@@ -408,7 +411,6 @@ Aiwell war entsprechend traurig, als wir ihr vom Tod ihres Mannes erzählt haben.
 @10043 = ~Von Wölfen und Männern
 
 Leider ist hier heute niemand glücklich geworden. Aiwell hat ihren Mann verloren, ihr Mann ist... nunja, tot, Thalantyr hat keine Werwolfleiche zum forschen, und ich habe keine Belohnung bekommen. Nächstes mal sollte ich besser aufpassen, wo ich meine Trophäen hintue!~
-
 
 @20001 = ~Der Kult der Augenlosen - Bunger Wiesner
 
@@ -482,28 +484,8 @@ Ein Bote hat mir eine Einladung seines Herrn überbracht. Auch wenn dieser seinen
 @80039 = ~Beschlagenes Lederwams +3~ //#6365
 @80040 = ~Mutierter Kreischling~ //#2286
 @80041 = ~Skelett-Bogenschütze~ //#73272
-@80042 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
-
-EIGENSCHAFTEN:
-
-Schaden: 1W8 (Klinge)
-Gewicht: 4
-Initiativefaktor: 5
-Mindeststärke: 6
-Fertigkeit: Langschwert
-Typ: 1-händig~ //#6742
-@80043 = ~Die Klinge brennt mit einem magischen Feuer und bei jedem Schlag wird versengende Hitze freigesetzt. Die Worte "Meta Infernum" sind in den Griff geritzt. Die Inschrift wirkt jedoch leicht verwischt und wurde vielleicht erst später von einem der Besitzer angebracht.
-
-EIGENSCHAFTEN:
-
-Schaden: 1W8 +1 (Klinge)
-Schadensbonus: +1 (Feuer)
-ETW0-Bonus: -1
-Gewicht: 4
-Initiativefaktor: 4
-Mindeststärke: 6
-Fertigkeit: Langschwert
-Typ: 1-händig~ //#4421
+//@80042 = /* description for EE */
+//@80043 = /* description for EE */
 @80044 = ~Langschwert~ //#2893
 @80045 = ~Flammenschwert +1~ //#4422
 @80046 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
@@ -512,7 +494,7 @@ EIGENSCHAFTEN:
 
 Schaden: 1W8 (Klinge)
 Gewicht: 4
-Initiativefaktor: 5
+Initiativefaktor: 4
 Mindeststärke: 6
 Fertigkeit: Langschwert
 Typ: 1-händig
@@ -628,58 +610,11 @@ Mindeststärke: 15~ //#66422
 @90010 = ~Ein geheimnisvolles Angebot~
 @90011 = ~Ein missglücktes Picknick~
 
-//EE Descriptions
-@100032   = ~Aphriels Elfenbogen
-
-Schon in jungen Jahren zog die Elfe Aphriel durch die Wälder Faerûns und wurde zu einer der größten Waldläuferinnen der Gegenwart. Keine Fährte, der sie nicht folgen konnte und kein Übeltäter, der vor ihrem Bogen sicher war. Erst als sie bei einem Besuch in der Stadt Baldurs Tor einen ansässigen Menschenhändler traf und sich Hals über Kopf verliebte, hatten ihre Tage im Wald ein Ende. Aus der Liaison wurde der junge Halbelf Perwell geboren, und als dieser von den Räubern der Schwertküste entführt wurde brach Aphriel ein letztes Mal in die Wälder auf. Auf dieser Reise gelangte ihr Bogen in die Hände von <CHARNAME>.
-
-EIGENSCHAFTEN:
-
-Schadensbonus: +2 (Geschoß)
-ETW0-Bonus: -3
-Gewicht: 2
-Initiativefaktor: 5
-Mindeststärke: 6
-Fertigkeit: Langbogen
-Typ: 2-händig~ //@32 without "Not useable by"
-@100048   = ~Dieser Schild ist auf Hochglanz poliert und offensichtlich magisch. Kratzer verschwinden und Blut und Schmutz perlt einfach von seiner spiegelnden Oberfläche ab. Es steht zu vermuten, dass er sogar dem Blick eines Basilisken standhalten kann.
-
-EIGENSCHAFTEN:
-
-Der Träger ist vor allen Arten der Versteinerung geschützt, auch vor Blickangriffen.
-
-RK-Bonus: -1
-Gewicht: 7
-Mindeststärke: 12~ //@48 without "Not useable by"
-@100058   = ~Rüstung aus Kreischlingsleder
-
-Eines der Nebenprodukte von Geraldos Arbeit mit Kreischlingen war eine hohe Lederproduktion. Da der Maler für seine Farben nur das Fell benötigte, suchte er für die dicke Haut der Monster eine andere Verwendung... und fand sie. Leider hatte das Kreischlingsleder einige nicht erwartete Nebenwirkungen und so wartete Geraldo ungeduldig darauf, dass er sein Experiment einer leichtgläubigen Seele andrehen konnte.
-
-Die Chronisten gehen davon aus, dass sich der große Geraldo ins Fäustchen lacht bei der Vorstellung, irgendein Idiot könnte seine Rüstung tatsächlich nützlich finden.
-
-EIGENSCHAFTEN:
-
-Der Charakter verfärbt sich blau.
-
-Kann nur durch Fluch brechen wieder abgenommen werden.
-
-Rüstungsklasse: 4
-Charisma: -3
-Widerstand gg. Geschosswaffen: +10%
-Gewicht: 7
-Mindeststärke: 6~ //@58 without "Not useable by"
-@100086   = ~Der Moradinpriester Bashrik Funkenhammer galt in den Kreisen liberal einsteller Zwerge als weise und wahrhaftig. Er setzte sich engagiert gegen die Abspaltung der Oberweltzwerge ein und genoss allgemein ein hohes Ansehen. Dieser Hammer, geladen mit den Blitzen Moradins, war seine größte Waffe im Kampf gegen das Böse.
-
-EIGENSCHAFTEN:
-
-Schaden: 1W4 +3 (Wucht)
-Schadensbonus: +1 (Elektrizität)
-ETW0-Bonus: -2
-Gewicht: 5
-Initiativefaktor: 2
-Mindeststärke: 9
-Fertigkeit: Kriegshammer
-Typ: 1-händig~ //@86 for EE without "Not useable by"
+//EE Descriptions, in setup-AC_QUEST_ee.tra
+//@100032   
+//@100048   
+//@100058   
+//@100086   
 
 //Karlini Journals
 @2000001   = ~Der große Karlini - Das Buch des großen Karlinis
@@ -769,3 +704,17 @@ Jenna wurde von den Schergen der Schlangen getötet, und sie haben das Artefakt m
 @3000013  = ~Die Schlangen Abbathors
 
 Ich habe mich bereiterklärt, ein Warenhaus im südöstlichen Distrikt von Baldurs Tor zu untersuchen. Dort befindet sich wohl der Unterschlupf der Schlangen des Abbathors. Um hineinzukommen, brauche ich einen Schlüssel.~
+
+/* new for v4.0 */
+//@10037 rephrased with location in Beregost
+@3000014 = ~Von Wölfen und Männern
+
+Vor Thalantyrs Festung hat mich eine Frau angeschrien, aber ich weiß nicht genau, was sie wollte. Hat es eventuell mit dem Werwolf in dem Haus im Südwesten von Beregost zu tun, den ich bekämpft habe?~
+
+//@10033 rephrased with location in Beregost
+@3000015 = ~Von Wölfen und Männern
+
+Der Mann der Zauberin Aiwell hat sich wohl mit Lycanthropie angesteckt. Ich habe wohl verschiedene Möglichkeiten, das Problem zu lösen: Entweder mit einem Trank, den ich von Thalantyr bekommen kann, oder auf die althergebrachte Tour mit dem Schwert.
+
+Ich finde ihr Haus im Südwesten von Beregost.~
+

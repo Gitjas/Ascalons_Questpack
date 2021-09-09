@@ -27,7 +27,7 @@ X. Letzte Worte
 
 I. Beschreibung:
 
-Im Laufe des Spiels kommen einem immer wieder kleinere und größere Ideen für Nebenhabdlungen und Geschichten, die sich außerhalb der Story um die Bhaalsbrut drehen. In dieser Modifikation sind nun meine Ideen gesammelt: Drei Questen von verschieden großen Ausmaßen. Einige sind humorvoll, andere etwas tragischer. Einige sind Rätsel, andere sind kampfbetont. Einige erfordern diplomatisches Geschick, andere sind nur von bestimmten Rassen oder Klassen lösbar.
+Im Laufe des Spiels kommen einem immer wieder kleinere und größere Ideen für Nebenhandlungen und Geschichten, die sich außerhalb der Story um die Bhaalsbrut drehen. In dieser Modifikation sind nun meine Ideen gesammelt: 10 Questen von verschieden großen Ausmaßen. Einige sind humorvoll, andere etwas tragischer. Einige sind Rätsel, andere sind kampfbetont. Einige erfordern diplomatisches Geschick, andere sind nur von bestimmten Rassen oder Klassen lösbar.
 Die Modifikation fügt Quests für sowohl BG1 als auch BGII ein. Sie kann direkt auf BG:EE, BGT-WeiDU, Tutu (w TotSC), BGII:EE, BGII und EET installiert werden, die richtigen Komponenten werden dann installiert.
 
 
@@ -51,16 +51,17 @@ III. Hinweise
 
 IV. Kompatibilität:
 
-Ascalons Questpack wurde mit WeiDU Vers. 2.10 und 2.11 programmiert und sollte daher mit allen anderen Modifikationen auf WeiDU-Basis kompatibel sein. Das Questpack wurde mit Blick auf das Big World Projekt von Leonardo Watson programmiert und sollte in jeder beliebigen Konstellation, in der BGT installiert ist, funktionieren.
-
 Ab Version 2.00 ist die Mod für die Spiele Tutu (w TotSC), BG:EE, BGII:EE, BGII, BGT und EET geeignet.
+
+Um mit Galms NPC Pack voll kompatibel zu sein, installiert die Auswahl mit dem Haus in Beregost für die Komponente "Von Wölfen und Männern".
+Ascalons Questpack sollte vor NPC Mods installiert werden, vor allem Ascalons Breagar, Brages Redemption und Brandock der Magier.
 
 
 ***************************************************************************************************************
 
 V. Kontakt:
 
-Sollten Probleme jedweder Art auftauchen (bei der Installation oder im Spiel), könnt ihr mich entweder über die oben angezeigte E-Mail-Adresse erreichen oder in den Foren von www.rosenranken.org oder www.kerzenburg.nightisforum.de anschreiben (mein Name ist jedes Mal "Ascalon").
+Sollten Probleme jedweder Art auftauchen (bei der Installation oder im Spiel), könnt ihr Unterstützung in einem der Forenthreads suchen, entweder im Kerzenburgforum, bei GibberlingsThree oder im BeamDog-Forum.
 
 
 ***************************************************************************************************************
@@ -69,45 +70,53 @@ VI: Komponenten:
 
 	Baldur's Gate I:
 
-- Der Lohn für die Mühe
+1. Der Lohn für die Mühe
+-------------------------
 Was passiert, wenn man über alle Maßen erfreut ist über das viele Geld, das man auf seiner ersten Abenteuertour verdient hat? Besucht Beregost und findet es heraus.
 
-- Ein Fressen für die Gnolle
+2. Ein Fressen für die Gnolle
+-------------------------
 Ein romantisches Picknick sollte es werden, doch dann kam alles ganz anders. Sucht Frau Brunnstein in Nashkell und helft der Ärmsten, ihren Sohn wieder zu finden.
 
-- Der große Karlini
-Wenn ein Gnom erstmal seine wissenschaftliche Neugier geweckt hat, dann hält ihn nichts auf. Sogar ein Zauber, der den großen Karlini einst das Leben kostete, nicht. Sucht Ygnatius im Freundlichen Arm (er sollte nicht zu übersehen sein).
-
-- Echte Fans
-Echte Fans halten ihren Idolen die Treue, so wie Cindy, Mandy und Ashley im Nordwestviertel von Baldur's Tor...
-
-- Die Kreischlingszucht
-Was macht ein Künstler, dem die Ideen ausgehen? Probleme, jede Menge Probleme, wie Geraldo der Prächtige im Zentrumsviertel von Baldur's Tor beweist.
-
-- Der verschwundene Sohn
-Die Halbelfe Aphriel wollte eigentlich ihren Bogen für immer an die Wand hängen - doch dann kam alles ganz anders. Ihr trefft sie im Gebiet der Mantelwald Lodge.
-
-- Ein haariges Problem
-Aivell, die junge Magierin, hält die Tür zu ihrem Haus verschlossen - von außen. Warum nur? Besucht sie an ihrem Haus in der Nähe der hohen Hecke und findet es heraus.
-
-- Hopsi
+3. Hopsi
+-------------------------
 Eine epische Queste um Ehre, Freundschaft und Kaninchen.
 
-- Die Schlangen Abbathors
+4. Der verschwundene Sohn
+-------------------------
+Die Halbelfe Aphriel wollte eigentlich ihren Bogen für immer an die Wand hängen - doch dann kam alles ganz anders. Ihr trefft sie im Gebiet der Mantelwald Lodge.
 
+5. Von Wölfen und Männern
+-------------------------
+Aivell, die junge Magierin, hält die Tür zu ihrem Haus verschlossen - von außen. Warum nur? Besucht sie an ihrem Haus in der Nähe der hohen Hecke und findet es heraus.
+Die Komponente hat zwei INstallationsoptionen: Die erste verwendet die Hütte neben Thalantyrs Festung in der Hohen Hecke, was die Originalversion der Quest ist.
+Die Zweite verlegt das vom Werwolf belegte Hasu nach Beregost (am südwestlichen Stadtrand, Haus "9" im Walkthrough von Dudleyville, Link s. untern). Diese Auswahl wurde für die Kompatibilität mit Glams NPC Pack eingefügt. Der Quest verläuft genau gleich, nur das Haus ist weiter von Thalantyr entfernt.
+Dudleyvilles Walkthrough:
+http://www.forgottenwars.com/bg1/ar3300.htm
+
+6. Der große Karlini
+-------------------------
+Wenn ein Gnom erstmal seine wissenschaftliche Neugier geweckt hat, dann hält ihn nichts auf. Sogar ein Zauber, der den großen Karlini einst das Leben kostete, nicht. Sucht Ygnatius im Freundlichen Arm (er sollte nicht zu übersehen sein).
+
+7. Die Kreischlingszucht
+-------------------------
+Was macht ein Künstler, dem die Ideen ausgehen? Probleme, jede Menge Probleme, wie Geraldo der Prächtige im Zentrumsviertel von Baldur's Tor beweist.
+
+8. Echte Fans
+-------------------------
+Echte Fans halten ihren Idolen die Treue, so wie Cindy, Mandy und Ashley im Nordwestviertel von Baldur's Tor...
+
+9. Die Schlangen Abbathors
+-------------------------
 Ein mysteriöser Zwergenkult macht sich an der Schwertküste breit. Es werden Helden gesucht! Z.Z. ist der BGI-Part spielbar. Durchsucht Mulaheys Leiche oder begebt Euch in den Südwesten von Baldur's Tor.
 
 
 	Baldur's Gate II:
 
-- Ein Halbling unter Augenlosen
-
+10. Ein Halbling unter Augenlosen
+-------------------------
 Wer hilft der armen Frau Wiesner, ihren Sohn wieder zu finden?
 
-
-	Throne of Bhaal:
-
-t.b.a.
 
 
 
@@ -194,6 +203,34 @@ VII. Versions-History:
 -corrected download link in ac_quest.ini
 -removed empty file ACQCUT04.baf
 
+4.0 - 2021-09-08
+-split mod into optional components.
+-"Of Wolves and men" offers second install choice where house ("9" of Dudleyville Walkthrough) in Beregost is used instead of hut in High Hedge for compatibility with Glam's NPC Pack.
+-French version added, by deratiseur & jazira (proofreading by tonton-thon)
+-Italian translation, by Coland
+-Russian version updates by Arkie
+-typo corrections by jazira
+-changed name of Gnoll "Boss" to "Gnoll Chieftain" to match the ingame names and Aaron's dialogue (English version).
+-Aaron will only say that the Gnolls took the ring, not a Gnoll Chieftain to prevent confusion with the existing Gnoll Chieftain near where Dynaheir is held.
+-Aaron should really stay at the Old Mill after the PC rested and not return to the Inn.
+-Aaron's ring should not contain comments in the description.
+-Aaron shouldn't initiate dialogue constantly while being in the pit.
+-Inserted unused journal entries for "A Job Well-Paid".
+-Journal entry about Emerson's notes should always be set correctly.
+-Dwarven artefact should not be accessible inside hidden wand safe before PC has key to it.
+-Aphriel should react to dead Perwell's body upon first meeting.
+-Aphriel should initiate dialogue only after Perwell called her.
+-Perwell shouldn't initiate dialogue constantly while being in the mine.
+-Ygnazius should not be at the FAI if quest is finished.
+-Cutscenes to receive Werwolf cure from Thalantyr should work if PC is not inside his abode as well.
+-Guril berries and Belladonna from original games (BGII/SoD) can also be used for werewolf cure. Also, guril berries from Ascalon's Questpack can be used for tanner quest in BGII.
+-use correct area variable in AC4402.baf.
+-more item descriptions in EE style by Cahir (English EE version).
+-All journal entries should be deleted upon transition to BGII in BGT. Journal entries for BG1 will not be deleted for EET.
+-split lines for install only into separate setup-install.tra. 
+-Added Dynamic Install Order categories and globally unique LABELs to support Project Infinity.
+-corrected entry in cpmvars.tpa
+
 
 ***************************************************************************************************************
 
@@ -205,6 +242,9 @@ VIII. Danksagungen
 - Jastey für großartige Hilfestellungen (was fürde ich nur ohne deine Tagebucheintragsbeispiele machen)
 - Leomar und Leonardo Watson für ihre Arbeit am BWP
 - Bloodtitan für die englische Übersetzung
+- Arkie für die russische Übersetzung
+- deratiseur & jazira für die französische Übersetzung, korrekturgelesen von tonton-thon
+- Coland für die italienische Übersetzung
 - Fridtjof und Hedian und allen anderen von www.rosenranken.org, die dem Questpack ein feines zu Hause bieten
 - vorlast but not vorleast den motivierten und begeisterten Spielern des BWP, die das beste Spiel aller Zeiten am Leben erhalten
 - Und zu guter Letzt meiner Lieblingsschweizerin Revianêl, die jede einzelne Quest, jede Anspielung, jeden Gag und jede versteckte Kleinigkeit auf Herz und Nieren geprüft und durchgewunken bzw. ausgebremst hat - Ohne jemals selbst über Kerzenburg hinausgekommen zu sein.

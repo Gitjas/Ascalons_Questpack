@@ -1,85 +1,227 @@
-/*
-
-überprüfen:
--Und Perwell ist bei mir nach der Rückkehr einfach auf der Karte stehen geblieben und nicht mit seiner Mutter weiter. 
--Kreischlingszucht:  did anyone actually solve this? Because I see 18 pelts, 18 instances of IncrementGlobal if they are handed over, but a trigger that distinguishes between lower than 20 and 20 skins to finish the quest.
-
-*/
-
 BACKUP ~AC_QUEST/backup~
 //AUTHOR ~whiteagnus@baldursgatemods.de~ 
 SUPPORT ~https://baldurs-gate.de/index.php?threads/ascalons-questpack.39286/~
 
-VERSION ~3.0~  
+VERSION ~4.0~  
 
 AUTO_TRA "AC_QUEST/TRA/autotra/%s"//%"
 
 ALWAYS
 
-INCLUDE ~AC_QUEST/lib/g3_tutu_cpmvars.tpa~
-INCLUDE ~AC_QUEST/lib/g3_bgt_cpmvars.tpa~
-INCLUDE ~AC_QUEST/lib/liam_bgee_vars.tpa~
+  INCLUDE ~AC_QUEST/lib/g3_tutu_cpmvars.tpa~
+  INCLUDE ~AC_QUEST/lib/g3_bgt_cpmvars.tpa~
+  INCLUDE ~AC_QUEST/lib/liam_bgee_vars.tpa~
 
 /* Declaration of EET Platform Variables */
-ACTION_IF GAME_IS "eet" BEGIN
-  INCLUDE ~EET/other/cpmvars/eet_cpmvars.tpa~
-END
+  ACTION_IF GAME_IS "eet" BEGIN
+    INCLUDE ~EET/other/cpmvars/eet_cpmvars.tpa~
+  END
 
-INCLUDE ~AC_QUEST/lib/ac_quest_cpmvars.tpa~
+  INCLUDE ~AC_QUEST/lib/ac_quest_cpmvars.tpa~
+
+
+/* DavidW's code for unifying the area script patching. With many thanks! 
+To be used later in the form:
+
+  LAF extend_area_script STR_VAR area="%Candlekeep%" top="bg1re/script/AR2600.baf"   END
+*/
+  DEFINE_ACTION_FUNCTION extend_area_script 
+    STR_VAR area=""
+            top=""
+            bottom=""
+    BEGIN
+      // find the area script from the area file
+      COPY_EXISTING "%area%.are" override
+           READ_ASCII 0x94 script
+      BUT_ONLY
+      // if it doesn't exist, give it a default name
+      ACTION_IF "%script%" STRING_EQUAL "" BEGIN
+          OUTER_INNER_PATCH_SAVE script "%area%" BEGIN
+                REPLACE_TEXTUALLY "FW" "_AR" // TUTU naming conventions
+          END
+
+  // added by argent77: assign area script if needed
+          COPY_EXISTING "%area%.are" override
+                WRITE_ASCIIE 0x94 ~%script%~ #8
+
+
+      END
+      // extend the script
+      ACTION_IF "%top%" STRING_COMPARE "" BEGIN
+        EXTEND_TOP "%script%.bcs" "%top%" EVALUATE_BUFFER
+      END
+      ACTION_IF "%bottom%" STRING_COMPARE "" BEGIN
+       EXTEND_BOTTOM "%script%.bcs" "%bottom%" EVALUATE_BUFFER
+      END
+    END 
 
 
 /* Handling of correctly formatted tra-files!! ---------------------- */
 
+/* all following actions are only processed ONCE for the whole mod, independent of un- and reinstalling of single components */
+
+  ACTION_IF !FILE_EXISTS ~AC_QUEST/Install/AC_QUESTreinstall.mrk~ BEGIN
+
 /*
 * Copies tra files into the autotra-folder (to leave the originals untouched)
 */
-	DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
-		COPY ~AC_QUEST/tra/german~ ~AC_QUEST/tra/autotra/%LANGUAGE%~
-		COPY ~AC_QUEST/tra/%LANGUAGE%~ ~AC_QUEST/tra/autotra/%LANGUAGE%~
-	END
+    DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
+      COPY ~AC_QUEST/tra/german~ ~AC_QUEST/tra/autotra/%LANGUAGE%~
+      COPY ~AC_QUEST/tra/%LANGUAGE%~ ~AC_QUEST/tra/autotra/%LANGUAGE%~
+    END
 
-	LAF autotra_workaround END
+    LAF autotra_workaround END
 
-	ACTION_DEFINE_ARRAY tra#reload BEGIN setup-AC_QUEST END
-//	ACTION_DEFINE_ARRAY tra#noconvert BEGIN END
+    ACTION_DEFINE_ARRAY tra#reload BEGIN setup-AC_QUEST END
+    ACTION_DEFINE_ARRAY tra#noconvert BEGIN setup-install END
 
-	LAF HANDLE_CHARSETS
-		INT_VAR
+    LAF HANDLE_CHARSETS
+      INT_VAR
 			infer_charsets = 1
-		STR_VAR
+      STR_VAR
 			tra_path = EVAL ~AC_QUEST/tra/autotra~
-//			noconvert_array = tra#noconvert
+			noconvert_array = tra#noconvert
 			reload_array = tra#reload
 			iconv_path = ~AC_QUEST/tools/iconv~
-	END
-		
-		LOAD_TRA ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
-		LOAD_TRA ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST_ee.tra~
+    END
+
 
 
 //CamDawgs CD_STATE_NOTVALID zum Checken der Dialogfähigkeit eines Char
 //Thank you very much, CamDawg!
-APPEND ~STATE.IDS~ // adds custom IsValidForPartyDialogue state
- ~0x80101FEF CD_STATE_NOTVALID~
- UNLESS ~CD_STATE_NOTVALID~
+    APPEND ~STATE.IDS~ // adds custom IsValidForPartyDialogue state
+      ~0x80101FEF CD_STATE_NOTVALID~
+      UNLESS ~CD_STATE_NOTVALID~
 
-APPEND ~shoutids.ids~ ~99 HELPME~ UNLESS ~^99~
+    APPEND ~shoutids.ids~ ~99 HELPME~ UNLESS ~^99~
 
 //Fix for ToB Shoutaction (appears on Tutu)
-COPY_EXISTING ~action.ids~ ~override~
- REPLACE_TEXTUALLY ~^106 Shout(.*$~ ~106 Shout(I:ID*SHOUTIDS)~
- BUT_ONLY_IF_IT_CHANGES
+    COPY_EXISTING ~action.ids~ ~override~
+      REPLACE_TEXTUALLY ~^106 Shout(.*$~ ~106 Shout(I:ID*SHOUTIDS)~
+      BUT_ONLY_IF_IT_CHANGES
 
-APPEND ~STATE.IDS~ ~0x00000FC0 STATE_REALLY_DEAD~ UNLESS ~STATE_REALLY_DEAD~
-END
+    APPEND ~STATE.IDS~ ~0x00000FC0 STATE_REALLY_DEAD~ 
+      UNLESS ~STATE_REALLY_DEAD~
+
+    ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+      EXTEND_BOTTOM ~AR0602.bcs~ ~AC_QUEST/BAF/AC0602.BAF~
+    END
+
+    ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+      COPY ~AC_QUEST/TRA/english/sounds~ ~override~
+      COPY ~AC_QUEST/TRA/%LANGUAGE%/sounds~ ~override~
+    END
+
+    ACTION_IF GAME_IS ~bgt bgee tutu_totsc eet~ THEN BEGIN
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~observe.cre~ THEN BEGIN
+        COPY ~AC_QUEST/cre/observe.cre~ ~override~
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~B1-12M4.ITM~ THEN BEGIN
+        COPY ~AC_QUEST/itm/B1-12M4.ITM~ ~override~
+        SAY NAME2 #7019
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~CHAN09.ITM~ THEN BEGIN
+        COPY ~AC_QUEST/itm/CHAN09.ITM~ ~override~
+        SAY NAME2 #21308
+        SAY DESC @80049
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~CLCK29.ITM~ THEN BEGIN
+        COPY ~AC_QUEST/itm/CLCK29.ITM~ ~override~
+        SAY NAME2 @80050
+        SAY DESC @80051
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~HAMM07.ITM~ THEN BEGIN
+        COPY ~AC_QUEST/itm/HAMM07.ITM~ ~override~
+        SAY NAME2 @80052
+        SAY DESC @80053
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~KEY27.ITM~ THEN BEGIN
+        COPY ~AC_QUEST/itm/KEY27.ITM~ ~override~
+        SAY NAME1 @80054
+        SAY NAME2 @80054
+        SAY UNIDENTIFIED_DESC @80055
+        SAY DESC @80055
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~LEAT14.ITM~ THEN BEGIN
+        COPY ~AC_QUEST/itm/LEAT14.ITM~ ~override~
+        SAY NAME2 @80056
+        SAY DESC @80057
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~PLAT21.ITM~ THEN BEGIN
+        COPY ~AC_QUEST/itm/PLAT21.ITM~ ~override~
+        SAY NAME2 @80058
+        SAY DESC @80059
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~SPECTR.ITM~ THEN BEGIN
+        COPY ~AC_QUEST/itm/SPECTR.ITM~ ~override~
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~DEMBAL01.BCS~ THEN BEGIN
+        COMPILE ~AC_QUEST/baf/DEMBAL01.BAF~
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~PRIES6C.BCS~ THEN BEGIN
+        COMPILE ~AC_QUEST/baf/PRIES6C.BAF~
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~PRIES10B.BCS~ THEN BEGIN
+        COMPILE ~AC_QUEST/baf/PRIES10B.BAF~
+      END
+
+      ACTION_IF NOT FILE_EXISTS_IN_GAME ~INPAIVSG.BCS~ THEN BEGIN
+        COMPILE ~AC_QUEST/baf/INPAIVSG.BAF~
+      END
+	
+
+      COMPILE ~AC_QUEST/baf/ACUITM.baf~
+
+    END
+
+    COPY ~AC_QUEST/install/component.xx~             ~AC_QUEST/Install/AC_QUESTreinstall.mrk~
+
+  END //AC_QUESTreinstall.mrk - do only once
+
+
+    //TRAs declared in LANGUAGE must be reloaded
+		
+  LOAD_TRA ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
+  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+    LOAD_TRA ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST_ee.tra~
+  END
+
+END //ALWAYS
 
 
 
 
-LANGUAGE ~Deutsch (German)~ ~german~ ~AC_QUEST/TRA/german/setup-AC_QUEST.tra~
+LANGUAGE ~Deutsch (German)~ 
+	 ~german~ 
+	 ~AC_QUEST/TRA/german/setup-AC_QUEST.tra~
+	 ~AC_QUEST/TRA/german/setup-install.tra~
 
-LANGUAGE ~English~ ~english~ ~AC_QUEST/TRA/english/setup-AC_QUEST.tra~
-LANGUAGE ~Russian~ ~russian~ ~AC_QUEST/TRA/russian/setup-AC_QUEST.tra~
+LANGUAGE ~English~ 
+	 ~english~ 
+	 ~AC_QUEST/TRA/english/setup-AC_QUEST.tra~
+	 ~AC_QUEST/TRA/english/setup-install.tra~
+
+LANGUAGE ~Russian~ 
+	 ~russian~ 
+	 ~AC_QUEST/TRA/russian/setup-AC_QUEST.tra~
+	 ~AC_QUEST/TRA/english/setup-install.tra~
+
+LANGUAGE ~Italian~ 
+	 ~italian~ 
+	 ~AC_QUEST/TRA/italian/setup-AC_QUEST.tra~
+	 ~AC_QUEST/TRA/italian/setup-install.tra~
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -91,111 +233,10 @@ LANGUAGE ~Russian~ ~russian~ ~AC_QUEST/TRA/russian/setup-AC_QUEST.tra~
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
        
-BEGIN @1
-REQUIRE_PREDICATE GAME_IS ~bgt bgee tob bg2ee tutu_totsc eet~ @2
+//BEGIN @1
+//REQUIRE_PREDICATE GAME_IS ~bgt bgee tob bg2ee tutu_totsc eet~ @2
 
 
-ACTION_IF GAME_IS ~bgt eet~ THEN BEGIN
-PRINT @3
-EXTEND_TOP ~ACVIRGI.bcs~ ~AC_QUEST/Virgi/ACVIRGI.BAF~
-EVAL
-	END
-	
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~ACVIRGI.CRE~ THEN BEGIN
-PRINT @4
-COPY ~AC_QUEST/cre/ACVIRGI.CRE~ ~OVERRIDE/ACVIRGI.CRE~
-SAY NAME1 ~~
-SAY NAME2 ~~
-WRITE_ASCII 0x280 ~ACVIRGI~
-PATCH_IF FILE_EXISTS_IN_GAME ~ACVIRGI.dlg~ THEN BEGIN
-WRITE_ASCII 0x2cc ~ACVIRGI~
-END
-PATCH_IF FILE_EXISTS_IN_GAME ~ACVIRGI.bcs~ THEN BEGIN
-WRITE_ASCII 0x248 ~ACVIRGI~
-	END
-END
-
-ACTION_IF GAME_IS ~bgt eet~
-THEN BEGIN
-EXTEND_BOTTOM ~AR0602.bcs~ ~AC_QUEST/BAF/AC0602.BAF~
-END
-
-ACTION_IF GAME_IS ~bgt bgee tutu_totsc eet~ THEN BEGIN
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-COPY ~AC_QUEST/TRA/english/sounds~ ~override~
-COPY ~AC_QUEST/TRA/%LANGUAGE%/sounds~ ~override~
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~observe.cre~ THEN BEGIN
-  COPY ~AC_QUEST/cre/observe.cre~ ~override~
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~B1-12M4.ITM~ THEN BEGIN
-  COPY ~AC_QUEST/itm/B1-12M4.ITM~ ~override~
-  SAY NAME2 #7019
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~CHAN09.ITM~ THEN BEGIN
-  COPY ~AC_QUEST/itm/CHAN09.ITM~ ~override~
-  SAY NAME2 #21308
-  SAY DESC @80049
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~CLCK29.ITM~ THEN BEGIN
-  COPY ~AC_QUEST/itm/CLCK29.ITM~ ~override~
-  SAY NAME2 @80050
-  SAY DESC @80051
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~HAMM07.ITM~ THEN BEGIN
-  COPY ~AC_QUEST/itm/HAMM07.ITM~ ~override~
-  SAY NAME2 @80052
-  SAY DESC @80053
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~KEY27.ITM~ THEN BEGIN
-  COPY ~AC_QUEST/itm/KEY27.ITM~ ~override~
-  SAY NAME1 @80054
-  SAY NAME2 @80054
-  SAY UNIDENTIFIED_DESC @80055
-  SAY DESC @80055
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~LEAT14.ITM~ THEN BEGIN
-  COPY ~AC_QUEST/itm/LEAT14.ITM~ ~override~
-  SAY NAME2 @80056
-  SAY DESC @80057
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~PLAT21.ITM~ THEN BEGIN
-  COPY ~AC_QUEST/itm/PLAT21.ITM~ ~override~
-  SAY NAME2 @80058
-  SAY DESC @80059
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~SPECTR.ITM~ THEN BEGIN
-  COPY ~AC_QUEST/itm/SPECTR.ITM~ ~override~
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~DEMBAL01.BCS~ THEN BEGIN
-  COMPILE ~AC_QUEST/baf/DEMBAL01.BAF~
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~PRIES6C.BCS~ THEN BEGIN
-  COMPILE ~AC_QUEST/baf/PRIES6C.BAF~
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~PRIES10B.BCS~ THEN BEGIN
-  COMPILE ~AC_QUEST/baf/PRIES10B.BAF~
-END
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~INPAIVSG.BCS~ THEN BEGIN
-  COMPILE ~AC_QUEST/baf/INPAIVSG.BAF~
-END
-	
-
-COMPILE ~AC_QUEST/baf/ACUITM.baf~
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -205,7 +246,14 @@ COMPILE ~AC_QUEST/baf/ACUITM.baf~
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-ADD_JOURNAL TITLE (@90001) @10001 @10002 @10003
+BEGIN @5000003 /* Der Lohn für die Mühe */
+LABEL AscalonsQuestpack-JobWellPaid
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
+
+
+ADD_JOURNAL TITLE (@90001) @10001 @10002 @10003 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
 
 COPY ~AC_QUEST/cre/ACQ11001.CRE~ ~override~
 SAY NAME1 @6
@@ -271,7 +319,13 @@ COMPILE ~AC_QUEST/BAF/ACQ11002.BAF~
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-ADD_JOURNAL TITLE (@90011) @10008 @10024 @10025 @10009 @10026 @10027
+BEGIN @5000005
+LABEL AscalonsQuestpack-FeastforGnolls
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
+
+ADD_JOURNAL TITLE (@90011) @10008 @10009 @10024 @10025 @10026 @10027 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
 
 
 
@@ -391,8 +445,12 @@ EVAL
 COMPILE ~AC_QUEST/BAF/ACQ12CU2.BAF~
 EVAL
 
+/*
 EXTEND_TOP ~%GnollStronghold_BCS%.bcs~ ~AC_QUEST/baf/AC4100.baf~
 EVAL
+*/
+LAF extend_area_script STR_VAR area="%GnollStronghold%" top="AC_QUEST/baf/AC4100.baf"   END
+
 
 COPY ~AC_QUEST/ITM/ACQ12000.ITM~ ~override~
 SAY NAME1 #6348
@@ -408,8 +466,14 @@ SAY DESC @21
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-ADD_JOURNAL TITLE (@90004) @10004 @10006
-ADD_JOURNAL TITLE (@90005) @10005 @10007
+BEGIN @5000006
+LABEL AscalonsQuestpack-Rabbit
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
+
+ADD_JOURNAL TITLE (@90004) @10004 @10006 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
+ADD_JOURNAL TITLE (@90005) @10005 @10007 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
 
 COPY ~AC_QUEST/cre/ACQ13001.CRE~ ~override~
 SAY NAME1 @22
@@ -527,14 +591,24 @@ COMPILE ~AC_QUEST/BAF/ACQ13002.BAF~
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-ADD_JOURNAL TITLE (@90006) @10010 @10028 @10029 @10030 @10031 @10032
+BEGIN @5000007
+LABEL AscalonsQuestpack-LostSon
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
+
+ADD_JOURNAL TITLE (@90006) @10010 @10028 @10029 @10030 @10031 @10032 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
 
 COMPILE ~AC_QUEST/D/ACQ15000.D~
 EVAL
 COMPILE ~AC_QUEST/BAF/ACQ15001.BAF~
 COMPILE ~AC_QUEST/BAF/ACQ15002.BAF~
 EVAL
+/*
 EXTEND_BOTTOM ~%CloakwoodMines_BCS%.bcs~ ~AC_QUEST/BAF/AC8600.BAF~
+*/
+LAF extend_area_script STR_VAR area="%CloakwoodMines%" bottom="AC_QUEST/BAF/AC8600.BAF"   END
+
 EXTEND_TOP ~BALDUR.bcs~ ~AC_QUEST/BAF/ACBALDUR.BAF~
 
 COPY_EXISTING ~MISC54.ITM~ ~Override/ACQ15002.ITM~
@@ -603,152 +677,26 @@ END
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-ADD_JOURNAL TITLE (@90007) @10033 @10034 @10035 @10036 @10037 @10038 @10039 @10040 @10041 @10042 @10043
+BEGIN @5000008 /* ~Quest uses hut near Thalantyr in High Hedge.~ */
+LABEL AscalonsQuestpack-WolvesMen_Highhedge
+SUBCOMPONENT @5000009 /* ~Von Wölfen und Männern~ */
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
 
-COPY ~AC_QUEST/cre/ACQ16001.CRE~ ~override~
-SAY NAME1 @34
-SAY NAME2 @34
-SAY INITIAL_MEETING @80028
-SAY DAMAGE @80029
-SAY DYING @80030
-SAY SELECT_COMMON1 @80031
-PATCH_IF GAME_IS ~bgt~ THEN BEGIN
-ADD_CRE_ITEM ~RNDTRE08~ #0 #0 #0 ~NONE~ ~INV~
-ADD_CRE_ITEM ~RNDTRE08~ #0 #0 #0 ~NONE~ ~INV~
-END
-PATCH_IF GAME_IS ~bgee eet tutu_totsc~ THEN BEGIN
-ADD_CRE_ITEM ~RNDTRE04~ #0 #0 #0 ~NONE~ ~INV~
-ADD_CRE_ITEM ~RNDTRE04~ #0 #0 #0 ~NONE~ ~INV~
-END
+INCLUDE ~AC_QUEST/tpa/wolves_and_men.tpa~
 
 
-COPY ~AC_QUEST/cre/ACQ16002.CRE~ ~override~
-SAY NAME1 @35
-SAY NAME2 @35
+BEGIN @5000010 /* ~Quest uses house in Beregost.~ */
+LABEL AscalonsQuestpack-WolvesMen_Beregost
+SUBCOMPONENT @5000009 /* ~Von Wölfen und Männern~ */
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
 
-COPY ~AC_QUEST/cre/ACQ16003.CRE~ ~override~
-SAY NAME1 @36
-SAY NAME2 @36
+INCLUDE ~AC_QUEST/tpa/wolves_and_men.tpa~
 
-COPY_EXISTING ~%HighHedge%.are~ ~OVERRIDE~
-LPF fj_are_structure
-	INT_VAR
-	fj_loc_x          = 2881
-	fj_loc_y          = 2677
-	fj_dest_x         = 2881
-	fj_dest_y         = 2677
-	fj_orientation    = 10
-	STR_VAR
-	fj_structure_type = actor
-	fj_name           = Aiwell
-	fj_cre_resref     = ACQ16001
-END
+EXTEND_TOP ~BALDUR.bcs~ ~AC_QUEST/BAF/ACBALDU3.BAF~
 
-COPY_EXISTING ~%HighHedge_House%.are~ ~OVERRIDE~
-LPF fj_are_structure
-	INT_VAR
-	fj_loc_x          = 283
-	fj_loc_y          = 197
-	fj_dest_x         = 283
-	fj_dest_y         = 197
-	fj_orientation    = 15
-	STR_VAR
-	fj_structure_type = actor
-	fj_name           = Tonder
-	fj_cre_resref     = ACQ16002
-END
-LPF fj_are_structure
-	INT_VAR
-	fj_loc_x          = 280
-	fj_loc_y          = 197
-	fj_dest_x         = 280
-	fj_dest_y         = 197
-	fj_orientation    = 0
-	STR_VAR
-	fj_structure_type = actor
-	fj_name           = Wonderbunny Virginie
-	fj_cre_resref     = ACVIRGI
-	fj_bcs_override   = ACQ7101
-END
-
-ACTION_IF GAME_IS ~bgt~ THEN BEGIN
-COMPILE ~AC_QUEST/D/ACQ16000.D~
-		~AC_QUEST/D/ACQ16000BGT.D~
-EVAL
-USING ~AC_QUEST/tra/autotra/%LANGUAGE%/ACQ16000.TRA~
-END ELSE BEGIN
-COMPILE ~AC_QUEST/D/ACQ16000.D~
-EVAL
-END
-COMPILE ~AC_QUEST/BAF/ACQ161.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ162.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ163.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ164.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ16001.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ16002.BAF~
-COMPILE ~AC_QUEST/BAF/ACQCUT05.BAF~
-COMPILE ~AC_QUEST/VIRGI/ACQ7101.BAF~
-EVAL
-
-EXTEND_BOTTOM ~%HighHedge%.bcs~ ~AC_QUEST/BAF/AR7100.baf~
-EVAL
-
-EXTEND_BOTTOM ~%HighHedge_House%.bcs~ ~AC_QUEST/BAF/AR7101.baf~
-EVAL
-
-COPY_EXISTING ~MISC65.ITM~ ~Override/ACQ16002.ITM~
-SAY NAME1 @37
-SAY NAME2 @37
-SAY UNIDENTIFIED_DESC @38
-SAY DESC @38
-
-COPY_EXISTING ~%Feldeposts_Store%.sto~ ~override~
-ADD_STORE_ITEM ~ACQ16001~ #10 #0 #0 ~IDENTIFIED~ #1 ~UNLIMITED~
-
-COPY ~AC_QUEST/ITM/ACQ16001.ITM~ ~override~
-SAY NAME1 @39
-SAY NAME2 @39
-SAY DESC @40
-
-ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-COPY ~AC_QUEST/ITM/AC1H53.ITM~ ~override~
-SAY NAME1 @80044
-SAY NAME2 @80045
-SAY UNIDENTIFIED_DESC @80042
-SAY DESC @80043
-END
-
-ACTION_IF GAME_IS ~bgt tutu_totsc~ THEN BEGIN
-COPY ~AC_QUEST/ITM/AC1H53.ITM~ ~override~
-SAY NAME1 @80044
-SAY NAME2 @80045
-SAY UNIDENTIFIED_DESC @80046
-SAY DESC @80047
-END
-
-COPY ~AC_QUEST/ITM/MISCAS.ITM~ ~Override/ACQ16003.ITM~
-SAY NAME1 @41
-SAY NAME2 @41
-SAY UNIDENTIFIED_DESC @42
-SAY DESC @42
-
-COPY ~AC_QUEST/ITM/MISCAS.ITM~ ~Override/ACQ16004.ITM~
-SAY NAME1 @43
-SAY NAME2 @43
-SAY UNIDENTIFIED_DESC @44
-SAY DESC @44
-
-COPY ~AC_QUEST/ITM/MISCAS.ITM~ ~Override/ACQ16005.ITM~
-SAY NAME1 @43
-SAY NAME2 @43
-SAY UNIDENTIFIED_DESC @45
-SAY DESC @45
-
-COPY ~AC_QUEST/ITM/MISC5Q.ITM~ ~Override/ACQ16006.ITM~
-SAY NAME1 @43
-SAY NAME2 @43
-SAY UNIDENTIFIED_DESC @46
-SAY DESC @46
+LAF extend_area_script STR_VAR area="%Beregost_House09%" bottom="AC_QUEST/BAF/AR6754.baf"   END
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -758,7 +706,13 @@ SAY DESC @46
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-ADD_JOURNAL TITLE (@2000009) @2000001 @2000002 @2000003 @2000004 @2000005 @2000006 @2000007 @2000008
+BEGIN @5000011
+LABEL AscalonsQuestpack-GreatKarlini
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
+
+ADD_JOURNAL TITLE (@2000009) @2000001 @2000002 @2000003 @2000004 @2000005 @2000006 @2000007 @2000008 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
 
 COPY ~AC_QUEST/ITM/ACQ17003.ITM~ ~override~
 SAY NAME1 #215
@@ -774,14 +728,18 @@ END
 
 COMPILE ~AC_QUEST/D/ACQ17000.D~
 EVAL
-COMPILE ~AC_QUEST/BAF/ACQ17001.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ17002.BAF~
-COMPILE ~AC_QUEST/BAF/ACQCUT03.BAF~
-
+COMPILE EVALUATE_BUFFER ~AC_QUEST/BAF/ACQ17001.BAF~
+COMPILE EVALUATE_BUFFER ~AC_QUEST/BAF/ACQ17002.BAF~
+COMPILE EVALUATE_BUFFER ~AC_QUEST/BAF/ACQCUT03.BAF~
+/*
 EXTEND_BOTTOM ~%UlcasterRuins_BCS%.bcs~ ~AC_QUEST/BAF/AR9798.baf~
 EVAL
 EXTEND_BOTTOM ~%LionsWay_BCS%.bcs~ ~AC_QUEST/BAF/AR6600.baf~
 EVAL
+*/
+LAF extend_area_script STR_VAR area="%UlcasterRuins%" bottom="AC_QUEST/BAF/AR9798.baf"   END
+LAF extend_area_script STR_VAR area="%LionsWay%" bottom="AC_QUEST/BAF/AR6600.baf"   END
+
 
 COPY ~AC_QUEST/ITM/BOOK90.ITM~ ~OVERRIDE/ACQBOOK2.ITM~ 
 SAY NAME1 @49
@@ -840,7 +798,13 @@ END
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-ADD_JOURNAL TITLE (@3000006) @3000001 @3000002 @3000003 @3000004 @3000005
+BEGIN @5000012
+LABEL AscalonsQuestpack-Gibberlings
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
+
+ADD_JOURNAL TITLE (@3000006) @3000001 @3000002 @3000003 @3000004 @3000005 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
 
 COMPILE ~AC_QUEST/BAF/ACQ18002.BAF~
 COMPILE ~AC_QUEST/D/ACQ18000.D~
@@ -853,12 +817,16 @@ COPY_EXISTING ~%CentralBaldursGate_House1_L1%.are~ ~override~
   END
 BUT_ONLY
 END
-
+/*
 EXTEND_TOP ~%CentralBaldursGate_House1_L1_BCS%.bcs~ ~AC_QUEST/baf/AR7711.baf~
 EXTEND_TOP ~%WSewers_BCS%.bcs~ ~AC_QUEST/baf/AR7324.baf~
 EVAL
 EXTEND_TOP ~%CentralSewers_BCS%.bcs~ ~AC_QUEST/baf/AR7325.baf~
 EVAL
+*/
+LAF extend_area_script STR_VAR area="%CentralBaldursGate_House1_L1%" bottom="AC_QUEST/baf/AR7711.baf"   END
+LAF extend_area_script STR_VAR area="%WSewers%" bottom="AC_QUEST/BAF/AR7324.baf"   END
+LAF extend_area_script STR_VAR area="%CentralSewers%" bottom="AC_QUEST/baf/AR7325.baf"   END
 
 ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
 COPY_EXISTING ~%BaldursGateDocks_IronThrone_Cellar%.are~ ~override~
@@ -868,9 +836,12 @@ COPY_EXISTING ~%BaldursGateDocks_IronThrone_Cellar%.are~ ~override~
   END
 BUT_ONLY
 END
-
+/*
 EXTEND_TOP ~%BaldursGateDocks_IronThrone_Cellar_BCS%.bcs~ ~AC_QUEST/baf/AR7611.baf~
 EVAL
+*/
+LAF extend_area_script STR_VAR area="%BaldursGateDocks_IronThrone_Cellar%" bottom="AC_QUEST/baf/AR7611.baf"   END
+
 COMPILE ~AC_QUEST/baf/AC7711.baf~
 
 COPY ~AC_QUEST/ARE/AC7711.ARE~ ~override~
@@ -953,6 +924,12 @@ END
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
+BEGIN @5000013
+LABEL AscalonsQuestpack-Fans
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
+
 COMPILE ~AC_QUEST/D/ACQ19000.D~
 EVAL
 
@@ -1017,8 +994,34 @@ LPF fj_are_structure
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
+BEGIN @5000014
+LABEL AscalonsQuestpack-SerpentsAbbathor
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
 
-ADD_JOURNAL TITLE (@90008) @10011 @10012 @10013 @10014 @10019 @10015 @10017 @10016 @10018 @10020 @10022 @10023 @10021 @3000007 @3000008 @3000009 @3000010 @3000011 @3000012 @3000013
+ACTION_IF GAME_IS ~bgt eet~ THEN BEGIN
+PRINT @5000001
+EXTEND_TOP ~ACVIRGI.bcs~ ~AC_QUEST/Virgi/ACVIRGI.BAF~
+EVAL
+	END
+	
+ACTION_IF NOT FILE_EXISTS_IN_GAME ~ACVIRGI.CRE~ THEN BEGIN
+PRINT @5000002
+COPY ~AC_QUEST/cre/ACVIRGI.CRE~ ~OVERRIDE/ACVIRGI.CRE~
+SAY NAME1 ~~
+SAY NAME2 ~~
+WRITE_ASCII 0x280 ~ACVIRGI~
+PATCH_IF FILE_EXISTS_IN_GAME ~ACVIRGI.dlg~ THEN BEGIN
+WRITE_ASCII 0x2cc ~ACVIRGI~
+END
+PATCH_IF FILE_EXISTS_IN_GAME ~ACVIRGI.bcs~ THEN BEGIN
+WRITE_ASCII 0x248 ~ACVIRGI~
+	END
+END
+
+
+ADD_JOURNAL TITLE (@90008) @10011 @10012 @10013 @10014 @10015 @10016 @10017 @10018 @10019 @10020 @10021 @10022 @10023 @3000007 @3000008 @3000009 @3000010 @3000011 @3000012 @3000013 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
 
 COMPILE ~AC_QUEST/D/ACQ10100.D~
 EVAL
@@ -1028,6 +1031,7 @@ COMPILE ~AC_QUEST/BAF/ACQCUT02.BAF~
 COMPILE ~AC_QUEST/BAF/AC8201.BAF~
 COMPILE ~AC_QUEST/BAF/AC4400.BAF~
 COMPILE ~AC_QUEST/BAF/AC4401.BAF~
+/*
 EXTEND_TOP ~%SEBaldursGate_BCS%.bcs~ ~AC_QUEST/baf/AR8200.baf~
 EVAL
 EXTEND_TOP ~%NashkelMines_BCS%.bcs~ ~AC_QUEST/baf/AR4400.baf~
@@ -1036,6 +1040,14 @@ EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.bcs~ ~AC_QUEST/baf/AR4405.baf~ EVALU
 EXTEND_TOP ~%NEBaldursGate_BCS%.bcs~ ~AC_QUEST/baf/AR7400.baf~
 EXTEND_TOP ~%ESewers_BCS%.bcs~ ~AC_QUEST/baf/AR7326.baf~
 EXTEND_BOTTOM ~%CoastWay_BCS%.bcs~ ~AC_QUEST/baf/AR6900.baf~ 
+*/
+LAF extend_area_script STR_VAR area="%SEBaldursGate%" top="AC_QUEST/baf/AR8200.baf"   END
+LAF extend_area_script STR_VAR area="%NashkelMines%" top="AC_QUEST/baf/AR4400.baf"   END
+LAF extend_area_script STR_VAR area="%NashkelMines_MulaheysCave%" top="AC_QUEST/baf/AR4405.baf"   END
+LAF extend_area_script STR_VAR area="%NEBaldursGate%" top="AC_QUEST/baf/AR7400.baf"   END
+LAF extend_area_script STR_VAR area="%ESewers%" top="AC_QUEST/baf/AR7326.baf"   END
+LAF extend_area_script STR_VAR area="%CoastWay%" bottom="AC_QUEST/baf/AR6900.baf"   END
+
 
 ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
 COPY_EXISTING ~%NWBaldursGate_Tavern_L2%.are~ ~override~
@@ -1045,9 +1057,12 @@ COPY_EXISTING ~%NWBaldursGate_Tavern_L2%.are~ ~override~
   END
 BUT_ONLY
 END
-
+/*
 EXTEND_TOP ~%NWBaldursGate_Tavern_L2_BCS%.bcs~ ~AC_QUEST/baf/AR7266.baf~
 EVAL
+*/
+LAF extend_area_script STR_VAR area="%NWBaldursGate_Tavern_L2%" top="AC_QUEST/baf/AR7266.baf"   END
+
 
 ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
 COPY_EXISTING ~%NWBaldursGate%.are~ ~override~
@@ -1057,8 +1072,10 @@ COPY_EXISTING ~%NWBaldursGate%.are~ ~override~
   END
 BUT_ONLY
 END
-
+/*
 EXTEND_TOP ~%NWBaldursGate_BCS%.bcs~ ~AC_QUEST/baf/AR7200.baf~
+*/
+LAF extend_area_script STR_VAR area="%NWBaldursGate%" top="AC_QUEST/baf/AR7200.baf"   END
 
 ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
 COPY_EXISTING ~%NBaldursGate_TempleofHelm%.are~ ~override~
@@ -1068,8 +1085,11 @@ COPY_EXISTING ~%NBaldursGate_TempleofHelm%.are~ ~override~
   END
 BUT_ONLY
 END
-
+/*
 EXTEND_TOP ~%NBaldursGate_TempleofHelm_BCS%.bcs~ ~AC_QUEST/baf/ARA002.baf~
+*/
+LAF extend_area_script STR_VAR area="%NBaldursGate_TempleofHelm%" top="AC_QUEST/baf/ARA002.baf"   END
+
 COMPILE ~AC_QUEST/BAF/ACQ10102.BAF~
 EVAL
 COMPILE ~AC_QUEST/BAF/ACQ10103.BAF~
@@ -1438,6 +1458,7 @@ COPY_EXISTING ~%NWBaldursGate_Tavern_L2%.are~ ~OVERRIDE~
     fj_structure_type 	= container
     fj_name           	= ~ACSecret~
 END
+/*
 LPF fj_are_structure
     INT_VAR
     fj_con_itm_idx    = SHORT_AT 0x74 - 1
@@ -1446,6 +1467,7 @@ LPF fj_are_structure
     fj_name           = ACQ10101
     fj_structure_type = itm
 END
+*/
 
 COPY_EXISTING ~%SEBaldursGate%.are~ ~override~
  READ_LONG  0xa4  "doors_num"
@@ -1628,14 +1650,13 @@ SAY NAME2 @109
 
 
 
-
-END
-
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////																			////////////
 ////////////									BEGIN PART 2							////////////
-////////////																			////////////
+////////////	
+
+//ADD_JOURNAL TITLE (@90010) @20023																		////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
          
@@ -1648,10 +1669,15 @@ END
 ////////////																			////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-ACTION_IF GAME_IS ~tob bg2ee eet~ THEN BEGIN
+//ACTION_IF GAME_IS ~tob bg2ee eet~ THEN BEGIN
 
-ADD_JOURNAL TITLE (@90009) @20001 @20002 @20003 @20004 @20005 @20006
-//ADD_JOURNAL TITLE (@90010) @20023
+BEGIN @5000015
+LABEL AscalonsQuestpack-HalflingEyeless
+REQUIRE_PREDICATE GAME_IS ~bgt tob bg2ee eet~ @5000004
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
+
+ADD_JOURNAL TITLE (@90009) @20001 @20002 @20003 @20004 @20005 @20006 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
 
 COPY ~AC_QUEST/cre/ACQ22001.CRE~ ~override~
 SAY NAME1 @123
@@ -1698,4 +1724,4 @@ EVAL
 
 COMPILE ~AC_QUEST/D/ACQ22000.D~
 
-END
+//END

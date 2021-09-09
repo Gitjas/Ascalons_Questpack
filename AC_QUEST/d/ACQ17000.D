@@ -63,7 +63,7 @@ END
 
 IF ~~ THEN BEGIN 9a
 SAY @25
-IF ~~ THEN DO ~EraseJournalEntry(@2000001) EraseJournalEntry(@2000002) AddJournalEntry(@2000004,QUEST_DONE) EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@2000001) EraseJournalEntry(@2000002) AddJournalEntry(@2000004,QUEST_DONE) ActionOverride("ACQ17001",EscapeAreaDestroy(5))~ EXIT
 END
 
 IF ~~ THEN BEGIN 10
@@ -120,7 +120,7 @@ END
 
 IF ~NumTimesTalkedTo(1)~ THEN BEGIN 17
 SAY @54
-IF ~PartyHasItem("ACQBOOK2")~ THEN REPLY @55 DO ~TakePartyItem("ACQBOOK2")~ + 18
+IF ~PartyHasItem("ACQBOOK2")~ THEN REPLY @55 DO ~ActionOverride("ACQ17001",TakePartyItem("ACQBOOK2"))~ + 18
 ++ @56 + 19
 ++ @57 + 20
 END
@@ -128,13 +128,13 @@ END
 IF ~~ THEN BEGIN 20
 SAY @58 = @59
 ++ @60 + 9a
-IF ~PartyHasItem("ACQBOOK2")~ THEN REPLY @61 DO ~TakePartyItem("ACQBOOK2")~ + 18
+IF ~PartyHasItem("ACQBOOK2")~ THEN REPLY @61 DO ~ActionOverride("ACQ17001",TakePartyItem("ACQBOOK2"))~ + 18
 ++ @62 + 19
 END
 
 IF ~~ THEN BEGIN 19
 SAY @63
-IF ~~ THEN DO ~SetNumTimesTalkedTo(1)~ EXIT
+IF ~~ THEN DO ~ActionOverride("ACQ17001",SetNumTimesTalkedTo(1))~ EXIT
 END
 
 IF ~~ THEN BEGIN 18
@@ -153,12 +153,12 @@ END
 
 IF ~~ THEN BEGIN 22
 SAY @74
-IF ~~ THEN DO ~EraseJournalEntry(@2000001) EraseJournalEntry(@2000002) AddJournalEntry(@2000005,QUEST_DONE)GiveGoldForce(300)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@2000001) EraseJournalEntry(@2000002) AddJournalEntry(@2000005,QUEST_DONE)GiveGoldForce(300)ActionOverride("ACQ17001",EscapeAreaDestroy(5))~ EXIT
 END
 
 IF ~~ THEN BEGIN 23
 SAY @74
-IF ~~ THEN DO ~EraseJournalEntry(@2000001) EraseJournalEntry(@2000002) AddJournalEntry(@2000005,QUEST_DONE)GiveGoldForce(300)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@2000001) EraseJournalEntry(@2000002) AddJournalEntry(@2000005,QUEST_DONE)GiveGoldForce(300)ActionOverride("ACQ17001",EscapeAreaDestroy(5))~ EXIT
 END
 
 IF ~~ THEN BEGIN 24
@@ -184,7 +184,11 @@ END
 
 IF ~~ THEN BEGIN 27
 SAY @81
-IF ~~ THEN DO ~AddJournalEntry(@2000003,QUEST)SetNumTimesTalkedTo(2)EscapeAreaMove("%LionsWay%",2470,1537,0)~ EXIT
+IF ~~ THEN DO ~AddJournalEntry(@2000003,QUEST)
+SetGlobal("AC_QUEST_spawn_ACQ17001","GLOBAL",1)
+//ActionOverride("ACQ17001",SetNumTimesTalkedTo(2))
+//EscapeAreaMove("%LionsWay%",2470,1537,0)
+ActionOverride("ACQ17001",EscapeAreaDestroy(5))~ EXIT
 END
 
 IF ~NumTimesTalkedToGT(1)~ THEN BEGIN 28
@@ -200,7 +204,7 @@ END
 
 IF ~~ THEN BEGIN 30
 SAY @86
-IF ~~ THEN DO ~SetNumTimesTalkedTo(2)~ EXIT
+IF ~~ THEN DO ~ActionOverride("ACQ17001",SetNumTimesTalkedTo(2))~ EXIT
 END
 
 BEGIN ACQ17003
@@ -273,7 +277,10 @@ END
 
 IF ~~ THEN BEGIN 10
 SAY @115 = @116
-IF ~~ THEN DO ~EraseJournalEntry(@2000001)EraseJournalEntry(@2000002)EraseJournalEntry(@2000003)AddJournalEntry(@2000007,QUEST_DONE)DropItem("ACQ17003",[-1.-1])ForceSpell(Myself,DRYAD_TELEPORT)Wait(1)DestroySelf()~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@2000001)EraseJournalEntry(@2000002)EraseJournalEntry(@2000003)AddJournalEntry(@2000007,QUEST_DONE)DropItem("ACQ17003",[-1.-1])
+ActionOverride("ACQ17003",ForceSpell(Myself,DRYAD_TELEPORT))
+ActionOverride("ACQ17003",Wait(1))
+ActionOverride("ACQ17003",DestroySelf())~ EXIT
 END
 
 IF ~~ THEN BEGIN 11
@@ -381,7 +388,10 @@ END
 
 IF ~~ THEN BEGIN 29
 SAY @151
-IF ~~ THEN DO ~CreateCreatureDoor("ACQ17001",[2475.1547],0)CreateCreatureDoor("ACQ17002",[2470.1527],0)ForceSpell(Myself,DRYAD_TELEPORT)Wait(1)DestroySelf()~ EXIT
+IF ~~ THEN DO ~CreateCreatureDoor("ACQ17001",[2475.1547],0)CreateCreatureDoor("ACQ17002",[2470.1527],0)
+ActionOverride("ACQ17003",ForceSpell(Myself,DRYAD_TELEPORT))
+ActionOverride("ACQ17003",Wait(1))
+ActionOverride("ACQ17003",DestroySelf())~ EXIT
 END
 
 BEGIN ACQ17002
@@ -423,6 +433,7 @@ IF ~~ THEN ACQ17001 31
 ==ACQ17001 @168
 ==ACQ17002 @169
 ==ACQ17001 @170
-==ACQ17002 @171 DO ~EscapeAreaDestroy(10)~
-==ACQ17001 @172 = @173 DO ~EraseJournalEntry(@2000001)EraseJournalEntry(@2000002)EraseJournalEntry(@2000003)AddJournalEntry(@2000008,QUEST_DONE)GiveGoldForce(300)GiveItemCreate("ACQ17003",PLAYER1,0,0,0)EscapeAreaDestroy(10)~ 
+==ACQ17002 @171 DO ~ActionOverride("ACQ17002",EscapeAreaDestroy(5))~
+==ACQ17001 @172 = @173 DO ~EraseJournalEntry(@2000001)EraseJournalEntry(@2000002)EraseJournalEntry(@2000003)AddJournalEntry(@2000008,QUEST_DONE)GiveGoldForce(300)GiveItemCreate("ACQ17003",PLAYER1,0,0,0)
+ActionOverride("ACQ17001",EscapeAreaDestroy(5))~ 
 EXIT

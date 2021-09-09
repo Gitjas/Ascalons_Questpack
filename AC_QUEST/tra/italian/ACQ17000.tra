@@ -1,0 +1,192 @@
+@0    = ~Ora cosa vuoi? Non vedi che sono occupato... oh.~
+@1    = ~Che arma grande che hai...~
+@2    = ~Va tutto bene, non devi aver paura di me. Vengo in pace.~
+@3    = ~Non ho intenzione di iniziare una lite.~
+@4    = ~Va tutto bene. Cerca solo di stare un po' più tranquillo.~
+@5    = ~Fai silenzio, Gnomo!~
+@6    = ~Vuoi infastidire? Altrimenti perché mai ti lamenti tutto il tempo?~
+@7    = ~Oh... felice di sentirlo. Sì. Molto appagante. Pensavo di finire in una di quelle risse da bar di cui ho sentito parlare. Ma sei più civile di quanto sembri.~
+@8    = ~Sì, ma certo. Ovviamente.~
+@9    = ~Oh cielo! Così scortese, davvero.~
+@10   = ~Infastidire? Ma no, perché!? Questa sarebbe la cosa più lontana dai miei pensieri. Per favore, calmati!~
+@11   = ~Dimmi, non saresti per caso del tipo avventuroso, vero?~
+@12   = ~Beh... suppongo che possa essere descritto così.~
+		~Beh... suppongo che possa essere descritta così.~
+@13   = ~Dipende.~
+@14   = ~No.~
+@15   = ~Beh, penso che tu sia proprio ciò di cui ho bisogno. Dimmi, sei interessato a occuparti di una piccola faccenduola?~
+		~Beh, penso che tu sia proprio ciò di cui ho bisogno. Dimmi, sei interessata a occuparti di una piccola faccenduola?~
+@16   = ~Sentiamo cos'hai da proporre.~
+@17   = ~Va bene, ecco qui. Per prima cosa mi presento. Il mio nome è Ygnatius Bombastus III, per lo più chiamato Ygnatz. Avrai certamente sentito raccontare numerose storie sul grande Karlini e probabilmente sei consapevole di quanto sia prezioso il suo libro degli incantesimi.~
+@18   = ~*resti in silenzio e ascolti*~
+@19   = ~Uh... no?~
+@20   = ~Libro degli incantesimi? Non voglio avere nulla a che fare con quel genere di cose.~
+@21   = ~Ci guadagneremmo tutti, aspetta!~
+@22   = ~Sei sicuro? Non sai cosa ti stai perdendo!~
+		~Sei sicura? Non sai cosa ti stai perdendo!~
+@23   = ~Ok, sentiamo allora.~
+@24   = ~Quale parte di "No" non hai capito?~
+@25   = ~Va bene, va bene. Accidenti...~
+@26   = ~Bene, puoi gioire e rallegrarti! Ho localizzato quel libro! È qui sulla Costa della Spada! Più precisamente nella Scuola di Ulcaster!~
+@27   = ~E ora vuoi che io vada a recuperarti questo libro?~
+@28   = ~Sembra pericoloso. Hai detto che ne sarebbe valsa la pena per entrambi?~
+@29   = ~Ti sembro forse un fattorino? Arrangiati!~
+@30   = ~Cosa?! Non conosci il grande Karlini? Sono... senza parole.~
+@31   = ~Perché non mi parli di lui?~
+@32   = ~Beh, so solo che è un grande mago. Cos'altro c'è?~
+@33   = ~Come desideri... Ehi! Un altro giro per me e il mio amico qui!~
+		~Come desideri... Ehi! Un altro giro per me e la mia amica qui!~
+@34   = ~Ascolta attentamente allora. Karlini non si è sempre chiamato Karlini. Il suo vero nome è Karl Jansen ed è originario dell'Amn. La sua famiglia si è stabilita lì da tempo ed è rinomata nel commercio delle rape, o così dicono. Ma tutto questo stava stretto al grande Karlini. Voleva di più! Voleva volare alto! Voleva volare quanto in alto uno gnomo avrebbe mai potuto fare.~
+@35   = ~E ci è riuscito, che Garl Glittergold mi sia testimone!~
+@36   = ~Ha sviluppato le formule di base per probabilmente una dozzina di incantesimi, ha inventato la torta di marmo auto-lievitante e ha creato un ibrido tra un tapiro e un macaco (non chiedermi cosa ne è stato, però).~
+@37   = ~È l'ideatore della formula "Oro in Pietra" (il suo unico insuccesso in più di 100 anni) e la "Stretta sulla Crostata di Rape di Karlini" (un'evoluzione del lavoro di Bigby, credo).~
+@38   = ~Ed è stato il primo gnomo che... ma penso che tu non voglia saperlo, non così dettagliatamente. In ogni caso, Karlini annotò tutte le sue scoperte e considerazioni in un unico libro. Questo libro degli incantesimi è pieno di insostituibile conoscenza della saggezza degli gnomi... tuttavia Karlini è scomparso da tempo e nessuno sa cosa gli sia successo esattamente.~
+@39   = ~Ma, puoi rallegrarti! Ho localizzato quel libro! È qui sulla Costa della Spada! Più precisamente nella Scuola di Ulcaster!~
+@40   = ~Per favore ascolta almeno quello che ho da dire.~
+@41   = ~Oh, che diamine. Inizia.~
+@42   = ~Esatto, giovane <MANWOMAN>.~
+@43   = ~Posso segnare la posizione delle rovine sulla tua mappa e quando tornerai ti pagherò 300 monete d'oro sull'unghia. Che te ne sembra?~
+@44   = ~Sembra sufficientemente interessante. Abbiamo un accordo.~
+@45   = ~Facciamo 500.~
+@46   = ~Non puoi dire sul serio.~
+@47   = ~È di mio gradimento, mio gradimento! Bisogna non perdere altro tempo e partire a tutta velocità! Le Rovine dell'Ulcaster stanno aspettando!~
+@48   = ~300.~
+@49   = ~Okay. Siamo in affari.~
+@50   = ~500.~
+@51   = ~Sì, sono molto serio! Si tratta della conoscenza accumulata dal grande Karlini!~
+@52   = ~Lo farò solo per 500.~
+@53   = ~E io ho detto di no! Fuori!~
+@54   = ~Salve amico mio! Qualche notizia sul fronte del libro?~
+		~Salve amica mia! Qualche notizia sul fronte del libro?~
+@55   = ~A dire il vero, sì. Abbiamo trovato il libro!~
+@56   = ~Finora, purtroppo, nessuna.~
+@57   = ~Volevo solo dirti che non lo cercheremo oltre.~
+@58   = ~Ma... non puoi dire sul serio...~
+@59   = ~Ahahahaha! Stai scherzando con me, vero? Sei un <RACE> divertente!~
+@60   = ~Ero assolutamente serio! Fuori!~
+		~Ero assolutamente seria! Fuori!~
+@61   = ~Ovviamente era uno scherzo. Ecco il libro!~
+@62   = ~Certamente. Continueremo a cercare.~
+@63   = ~Allora vai! Via, via!~
+@64   = ~Ce l'hai? Lo avete! Oh, è un giorno glorioso per il mondo gnomico! Fammi vedere!~
+@65   = ~Mmm....~
+@66   = ~*sfoglia le pagine*~
+@67   = ~Hm..... ah!~
+@68   = ~A-HA! Lo sapevo! La formula perfetta! Ha trovato la formula perfetta!~
+@69   = ~La formula perfetta? Per che cosa?~
+@70   = ~Come ti pare. Se volessi consegnarmi la mia paga...~
+@71   = ~È ora di andare. Il pagamento?~
+@72   = ~Oh, nessuno lo sa esattamente. Sappiamo solo che la formula perfetta... beh ... è perfetta. E ora posso recitarla! Posso recitarla!~
+@73   = ~Uh... Karlini è scomparso dopo aver pronunciato questa formula perfetta, dico bene?~
+@74   = ~Cosa? Oh, sì. Sì, naturalmente. Ecco. Arrivederci e in bocca al lupo... la formula perfetta!~
+@75   = ~Sì, esattamente. E pensa a quanto sarà emozionante scoprire cosa gli è successo!~
+@76   = ~Vuoi pronunciare questa formula perfetta senza sapere cosa sia successo?~
+@77   = ~Beh, bisogna fare dei sacrifici per amore della scienza!~
+@78   = ~Ma se scompari anche tu, la scienza non ne ricaverà nulla.~
+@79   = ~Oh... sì, certo, hai ragione. Mmm...~
+@80   = ~Forse posso aiutarti. Sono un buon osservatore.~
+		~Forse posso aiutarti. Sono una buona osservatrice.~
+@81   = ~Lo faresti? Oh, sarebbe me-ra-vi-glioso. Ascolta. A ovest di qui nel bosco ci sono un paio di cerchi magici. Incontriamoci lì. Prenditi tutto il tempo per prepararti, io ti aspetterò...~
+@82   = ~Ah, eccoti qui. Pronto per la formula perfetta?~
+		~Ah, eccoti qui. Pronta per la formula perfetta?~
+@83   = ~Sono pronto.~
+		~Sono pronta.~
+@84   = ~Un minuto.~
+@85   = ~Sì, è quello che volevo sentire. Fai attenzione, preparati... Eccoci!~
+@86   = ~Ma sbrigati! Non si può fare aspettare la scienza!~
+@87   = ~Dannati mortali! Chi ti credi di essere?~
+@88   = ~Io...~
+@89   = ~Beh...~
+@90   = ~Ma...~
+@91   = ~*Attacca*~
+@92   = ~Gnomi! Sempre e solo gnomi! Ti farò a pezzi per questo! Non ci si può aspettare di ricevere un'offerta umana dai propri seguaci? O magari un nano?~
+@93   = ~Seguace? Ma non sono un tuo seguace!~
+		~Seguace? Ma non sono una tua seguace!~
+@94   = ~Chi sei tu?~
+@95   = ~Cosa intendi dire? Non sei un accolito dei miei poteri abissali? Ma allora perché mi hai mandato lo gnomo?~
+		~Cosa intendi dire? Non sei un'accolita dei miei poteri abissali? Ma allora perché mi hai mandato lo gnomo?~
+@96   = ~Non ti abbiamo inviato nessuno gnomo. Ha solo provato la "formula perfetta".~
+@97   = ~A quanto pare, c'è stato un malinteso.~
+@98   = ~Io? Mi chiedi, sciocco mortale, chi sono *io*? Io sono Hrr'Nunga, l'orrore rosso sangue della notte! I mortali si inginocchiano davanti a me e mi portano sacrifici per placare la mia ira!~
+		~Io? Mi chiedi, sciocca mortale, chi sono *io*? Io sono Hrr'Nunga, l'orrore rosso sangue della notte! I mortali si inginocchiano davanti a me e mi portano sacrifici per placare la mia ira!~
+@99   = ~E hai il coraggio di mandarmi uno gnomo, tra tutti gli esseri viventi?~
+@100  = ~Formula? Che genere di formula? Di cosa stai blaterando?~
+@101  = ~*Raccontagli la storia di Karlini*~
+@102  = ~Oh sì, allora è così... credo di aver capito.~
+@103  = ~Karlini, sì? Questo nome mi è fin troppo familiare e odiato... Penso di capire ora.~
+@104  = ~Questo sciocco Karlini ha trovato la formula magica che veniva usata per offrirmi sacrifici! Ahahahahahah! E invece di capire cosa fosse successo è diventato mio schiavo! Ahahahaah!~
+@105  = ~Vedi, è stato tutto un malinteso. Se potessi congedarmi adesso...~
+@106  = ~Se tutto questo è stato solo uno stupido errore, perché non rispedisci indietro gli gnomi?~
+@107  = ~SILENZIO, MORTALI! La mia rabbia non è placata. Per quasi cento anni ho dovuto sopportare quel maledetto Karlini e le sue visioni scientifiche. Deve costantemente fare domande e indagare sulle cose. Sono stufo di lui. Ho bisogno di uno schiavo degno di me!~
+@108  = ~Tuttavia esiste l'accordo per un solo schiavo per invocazione. Un'anima è già sotto il mio dominio, quest'altro stupido gnomo.~
+@109  = ~Ascolta, <PRO_RACE>. Ti offro di liberare i due gnomi. In cambio della tua anima.~
+@110  = ~Oh sì, per favore! Che, uh, trionfo per, uh, la scienza!~
+@111  = ~Puoi scordartelo.~
+@112  = ~Cosa stai dicendo? Oh no! Non dirmi che sei anche tu uno *scienziato*!~
+		~Cosa stai dicendo? Oh no! Non dirmi che sei anche tu una *scienziata*!~
+@113  = ~Ehi, sono cresciuto a Candlekeep. Che altro potrei essere se non uno scienziato?~
+		~Ehi, sono cresciuta a Candlekeep. Che altro potrei essere se non una scienziata?~
+@114  = ~No, non lo sono, ovviamente. È solo che non voglio andare negli inferi, tutto qui.~
+@115  = ~Beh, se questa è la tua ultima parola ... così sia. L'accordo è concluso e non può essere annullato. Perdonami ora, ho degli gnomi da torturare.~
+@116  = ~Oh, c'è ancora una cosa. L'accordo dice che dovresti ricevere un dono da me. Ecco, questo è un oggetto appropriato che vale un'anima di gnomo.~
+@117  = ~Ascolta... non vogliamo affrettare nulla, giusto? Cosa c'è che non va con i tuoi compagni, non potrebbe uno di loro...?~
+@118  = ~Scienziati, tutti scienziati! Quando iniziamo, ho un milione di domande per te!~
+@119  = ~Ad essere onesti non sono uno scienziato. È solo che non voglio andare negli inferi, tutto qui.~
+		~Ad essere onesti non sono una scienziata. È solo che non voglio andare negli inferi, tutto qui.~
+@120  = ~Oh, dannazione. Tipico.~
+@121  = ~...~
+@122  = ~Bene, <PRO_RACE>. Ecco l'accordo. Prova di essere davvero uno scienziato e rispondi a tre domande. Rispondi correttamente e lascerò andare te e gli gnomi. Una sola risposta sbagliata e verrai con me.~
+		~Bene, <PRO_RACE>. Ecco l'accordo. Prova di essere davvero una scienziata e rispondi a tre domande. Rispondi correttamente e lascerò andare te e gli gnomi. Una sola risposta sbagliata e verrai con me.~
+@123  = ~Finché non mi chiederai della velocità relativa di un piccione a vuoto...~
+@124  = ~Molto bene. La prima domanda riguarda le "tradizioni degli dèi". Quale dio vivente è oggi salutato come la reincarnazione del defunto Amaunator?~
+@125  = ~Lathander.~
+@126  = ~Torm.~
+@127  = ~Ilmater.~
+@128  = ~Bahamut.~
+@129  = ~Dannazione!~
+@130  = ~Sbagliato! Un piccolo semidio come Torm, che lecca lo sporco dagli stivali di Helm, erede di Amaunator? Hai perso!~
+@131  = ~Sbagliato! Un dio piangente come Ilmater non otterrà l'adorazione di nessuno, lo status di un dio del sole! Hai perso!~
+@132  = ~Sbagliato! Un drago sarebbe il successore di Amaunator? Che idiozia! Hai perso!~
+@133  = ~La tua anima è mia! Ahahaaaahahahahahah!~
+@134  = ~Forse conosci i tuoi dèi, ma come te la cavi con le razze? Come chiameresti la prole di una copulazione tra orchi e ogre?~
+@135  = ~Orog.~
+@136  = ~Mezzogre.~
+@137  = ~Ogrillon.~
+@138  = ~Otyugh.~
+@139  = ~Mmpf. Un colpo fortunato, niente di più.~
+@140  = ~Sbagliato! Un mezzo orco è il risultato della mescolanza tra Orchi e Umani! Hai perso!~
+@141  = ~Sbagliato! Gli Orog sono parenti degli Orchi, che vivono principalmente nel Sottosuolo! Hai perso!~
+@142  = ~Sbagliato! Gli Otyugh sono creature che si nutrono di carogne e immondizia e non hanno assolutamente nulla a che fare con gli Orchi! Hai perso!~
+@143  = ~L'ultima domanda viene dal campo della politica. Ti svegli, un giorno, in una città sconosciuta senza sapere dove ti trovi. Due persone accanto a te parlano del Consiglio dei Sei. Dove ti trovi?~
+@144  = ~Baldur's Gate.~
+@145  = ~Athkatla.~
+@146  = ~Beregost.~
+@147  = ~Una città del genere non esiste.~
+@148  = ~Ah! Pretendi di definirti uno scienziato e non sai che Baldur's Gate è governata da quattro granduchi? Hai perso!~
+		~Ah! Pretendi di definirti una scienziata e non sai che Baldur's Gate è governata da quattro granduchi? Hai perso!~
+@149  = ~Mi prendi in giro? Beregost è amministrata dai sacerdoti del Tempio di Lathander da molto, molto tempo. Hai perso!~
+@150  = ~Oh, per favore, non metterti in imbarazzo. Hai perso!~
+@151  = ~Va bene, allora portati via i tuoi dannati gnomi e lasciami in pace!~
+@152  = ~Oh, sarebbe molto utile, giovane <PRO_RACE>. Sarebbe meglio se potessi teletrasportarci nello stesso punto in cui eravamo, circa tre o quattro piedi più a nord, in modo da essere fuori dalla portata dei tentacoli...~
+@153  = ~Mia caro, nonché illetterato <PRO_RACE>. A quanto pare non sei mai stato su un piano parallelo a questa esistenza, altrimenti conosceresti e capiresti il nostro entusiasmo. Quindi, ancora una volta, mio caro collega?~
+@154  = ~Sì, sarei io, Karlini, e sono molto seccato che tu abbia interrotto la mia ricerca. Lascia che te lo dica: il libro che intendo scrivere scuoterà le fondamenta della tua scienza! Quindi, ancora una volta, mio caro collega?~ //"angry" schien mir zu stark als Übersetzung für "ungehalten"
+@155  = ~Oh non preoccuparti, stiamo entrambi bene tranne che per qualche bruciatura e contusioni. Ma questo è solo il prezzo che uno scienziato deve pagare. Quindi, ancora una volta, mio caro collega?~
+@156  = ~... e così ho potuto continuare i miei studi giorno e notte, capisci? Quella lava ovunque può avere i suoi svantaggi, ma, se ti ci abitui, dà solo la luce ideale per la lettura.~
+@157  = ~Oh caro, quanto ti invidio per questa esperienza!~
+@158  = ~Beh, devo ammetterlo, quella tortura costante era abbastanza fastidiosa e ho anche giocato con l'idea di perdere i sensi. Ma poi ho pensato tra me e me: Karlini, vecchio mio, ricorda: è per la conoscenza delle generazioni future!~ //hier wollte ich ihn etwas bombastischer klingen lassen
+@159  = ~Ebbene, eravamo solo alla rastrelliera e io... oh.~
+@160  = ~Siamo già tornati?~
+@161  = ~Ora questo mi lascia piuttosto a disagio, caro collega. Mi vedi imbarazzato perché non ho l'opportunità di convincerti della verità delle mie affermazioni. No, questo è *davvero* seccante.~ //"uncomfortable" kenne ich im Zusammenhang mit "jemand fühlt sich..."
+@162  = ~Oh, vi chiedo umilmente scusa per avervi interrotto, maestri. Forse desiderate un modo per tornare indietro, sì? Sicuramente, il Balor sarebbe felice di riportarvi con lui.~
+@163  = ~Ti ho liberato dall'inferno e Ti stai *lamentando*?~
+@164  = ~Sei il grande Karlini, vero? Ho sentito parlare molto di te!~
+@165  = ~Ygnatz, stai bene?~
+@166  = ~Karlini, amico mio. Non pensi che dovremmo riprenderci un po' prima del nostro prossimo viaggio all'inferno?~
+@167  = ~Ygnatius, mia caro. La scienza non può essere rimandata!~
+@168  = ~Ma guarda, la Locanda del Braccio Amico è molto vicina e dovresti cercare un trattamento per quella brutta ferita lì.~
+@169  = ~Beh, forse non sarebbe poi così male far controllare da un chierico questo vecchio corpo. Questo morso sta bruciando, devo dire. Ma poi torneremo subito indietro!~
+@170  = ~Sarò proprio dietro di te, maestro!~
+@171  = ~Bene, allora. Oh sì, dobbiamo mostrare la nostra gratitudine al nostro giovane amico qui? Dopotutto, era così adorabilmente preoccupato per il nostro benessere.~ 
+		~Bene, allora. Oh sì, dobbiamo mostrare la nostra gratitudine alla nostra giovane amica qui? Dopotutto, era così adorabilmente preoccupata per il nostro benessere.~ 
+@172  = ~Hai ragione, grande Karlini. Ebbene, <CHARNAME>, ti siamo davvero grati. Anche se hai rallentato la scienza, possiamo probabilmente presumere che tu non l'hai fatto intenzionalmente.~
+@173  = ~Ecco le 300 monete d'oro che ti dobbiamo - e un piccolo gingillo dagli inferi. Penso che saprai come usarlo.~

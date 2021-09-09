@@ -54,7 +54,8 @@
 @53   = ~Findet Ihr den Weg?~
 @54   = ~Ja, ich war bei Bewusstsein, als sie mich hier reingeworfen haben.~
 @55   = ~Aber... eine Bitte hätte ich noch.~
-@56   = ~Ich hatte einen Ring bei mir. Der Gnoll-Boss hat ihn mir wohl weggenommen. Bitte, könnt Ihr nicht sehen, ob Ihr ihn findet?~
+/* rephrased for v4.0 */
+@56   = ~Ich hatte einen Ring bei mir. Die Gnolle haben ihn mir wohl weggenommen. Bitte, könnt Ihr nicht sehen, ob Ihr ihn findet?~
 @57   = ~Ist es dieser Ring hier?~
 @58   = ~Wir werden sehen, was sich machen lässt.~
 @59   = ~Oh, bei den Göttern! Es ist mein Ring! Darf ich ihn wiederhaben? Bitte!~

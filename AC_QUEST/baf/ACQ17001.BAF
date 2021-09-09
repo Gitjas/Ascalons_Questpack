@@ -1,4 +1,12 @@
 IF
+	GlobalGT("AC_QUEST_spawn_ACQ17001","GLOBAL",0)
+	AreaCheck("%FriendlyArmInn_L1%")
+THEN
+	RESPONSE #100
+		DestroySelf()
+END
+
+IF
 	See([PC])
 	NumTimesTalkedTo(0)
 	Global("AC12SHOUT","LOCALS",0)

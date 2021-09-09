@@ -1,0 +1,25 @@
+/* this file is not used in the mod */
+
+@0    = ~Vous, là ! Accordez-moi un peu de votre temps ! Je veux vous parler !~
+@1    = ~Bien sûr, de quoi s'agit-il ?~
+@2    = ~Qui êtes-vous ?~
+@3    = ~Halte ! Ne vous approchez pas plus, nain !~
+@4    = ~Hé ! Gardez vos distances !~
+@5    = ~Veuillez pardonner mon manque de courtoisie, mais je dois vous soumettre une offre.~
+@6    = ~Je ne suis qu'un messager, mon seigneur. Simplement un messager qui a une offre à vous faire parvenir.~ ~Je ne suis qu'un messager, ma dame. Simplement un messager qui a une offre à vous faire parvenir.~
+@7    = ~Je vous en prie, calmez-vous, mon seigneur. Je ne suis pas votre ennemi. Je ne suis qu'un simple messager venu pour vous soumettre une offre.~ ~Je vous en prie, calmez-vous, ma dame. Je ne suis pas votre ennemi. Je ne suis qu'un simple messager venu pour vous soumettre une offre.~
+@8    = ~Je représente les intérêts d'un riche citoyen de cette ville, qui, pour des raisons évidentes, ne souhaite pas être nommé. Mais il vous connaît, <CHARNAME> de Château-Suif, et il souhaite faire appel à vos services.~
+@9    = ~Traque-t-il lui aussi les enfants de Bhaal ?~
+@10   = ~Et quel genre de service souhaite-t-il s'offrir ?~
+@11   = ~Je n'ai aucune confiance en vous.~
+@12   = ~Il faut que j'y réfléchisse.~
+@13   = ~Je ne me laisserai jamais embaucher par un anonyme.~
+@14   = ~Très bien, je vous suis.~
+@15   = ~Traquer les enfants de Bhaal ? Bonté divine, non ! Mon client est conscient de votre héritage, tout à fait conscient, mais cela ne l'intéresse pas. Il est plus intéressé par les... aptitudes mondaines.~
+@16   = ~Quel genre de service attend-il de moi ?~
+@17   = ~Je suis vraiment navré, <CHARNAME>. Mais j'ai reçu des instructions très strictes pour ne rien dévoiler davantage. Mais soyez certain que votre confiance sera récompensée.~ ~Je suis vraiment navré, <CHARNAME>. Mais j'ai reçu des instructions très strictes pour ne rien dévoiler davantage. Mais soyez certaine que votre confiance sera récompensée.~
+@18   = ~Cela a-t-il un quelconque rapport avec le fait que je suis un enfant de Bhaal ?~ ~Cela a-t-il un quelconque rapport avec le fait que je suis une enfant de Bhaal ?~
+@19   = ~C'est bien sûr votre droit. Prenez votre temps et réfléchissez-y. Il n'y a pas d'urgence.~
+@20   = ~C'est bien sûr votre droit. Prenez votre temps et réfléchissez-y, il n'y a aucune urgence. Retrouvez-moi à la Couronne de Cuivre une fois que vous aurez pris votre décision.~
+@21   = ~Prenez votre temps et réfléchissez-y, il n'y a aucune urgence. Mon seigneur est très fortuné et généreux. Retrouvez-moi à la Couronne de Cuivre une fois que vous aurez pris votre décision.~
+@22   = ~Formidable. Suivez-moi je vous prie, je vais vous conduire à mon seigneur.~

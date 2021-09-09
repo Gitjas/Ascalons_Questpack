@@ -1,5 +1,3 @@
-
-
 @0    = ~Wääääähähähähähääääääääää!~
 @1    = ~(schnief)~
 @2    = ~Wäääääääääääääähähähähähääääää!!!~
@@ -74,7 +72,7 @@
 @71   = ~Wenn Ihr das Kaninchen nicht herausrückt, dann nehmen wir ihn uns mit Gewalt!~
 @72   = ~Klein-Ugh gehört Mädchen? Warum du das nicht gesagt, Klein-Ugh?~
 @73   = ~Das Mädchen ist ganz schön traurig, Ugh.~
-@74   = ~Ugh, das ist ein StallKaninchen und kein Wildkaninchen. Es stammt eindeutig aus einer Zucht und nicht aus den Wäldern. Schaut euch das gepflegte Fell an. Dieses Tier ist eindeutig aus dem Beitz eines Menschen.~
+@74   = ~Ugh, das ist ein Stallkaninchen und kein Wildkaninchen. Es stammt eindeutig aus einer Zucht und nicht aus den Wäldern. Schaut Euch das gepflegte Fell an. Dieses Tier ist eindeutig aus dem Beitz eines Menschen.~
 @75   = ~Äh...~
 @76   = ~Dieses Tier heißt Hopsi und gehört einem kleinen Mädchen!~
 @77   = ~Ihr versteht kein Wort was ich sage, oder?~
@@ -112,11 +110,11 @@
 @109  = ~He, was macht <RACE> da? <RACE> soll Klein-Ugh runterlassen! Sonst macht Ugh <RACE> kaputt!~
 @110  = ~(Ihr verstaut das Kaninchen im Rucksack)~
 @111  = ~Ihr wollt Klein-Ugh stehlen! Ihr Diebe!~
-@112  = ~Willkommen, gut<MANWOMAN>. Ich hoffe, Ihr genießt den Jahrmarkt?~
+@112  = ~Willkommen, guter Mann. Ich hoffe, Ihr genießt den Jahrmarkt?~ ~Willkommen, gute Frau. Ich hoffe, Ihr genießt den Jahrmarkt?~
 @113  = ~Das tun wir. Was macht Ihr hier?~
 @114  = ~Ihr verkauft Kaninchen? Können wir eins erwerben?~
 @115  = ~Danke, wir schauen uns nur mal um.~
-@116  = ~Willkommen zurück, gut<MANWOMAN>. Ich hoffe Ihr genießt den Jahrmarkt?~
+@116  = ~Willkommen zurück, guter Mann. Ich hoffe Ihr genießt den Jahrmarkt?~ ~Willkommen zurück, gute Frau. Ich hoffe Ihr genießt den Jahrmarkt?~
 @117  = ~Ich bin Kaninchenzüchter und biete die Früchte meiner Arbeit feil.~
 @118  = ~Danke, ich glaube nicht, dass wir ein Kaninchen auf unseren Reisen brauchen.~
 @119  = ~Selbstverständlich. Einen schönen Tag!~

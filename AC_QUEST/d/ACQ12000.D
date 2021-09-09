@@ -180,7 +180,9 @@ END
 
 IF ~~ THEN BEGIN 9
 SAY @64
-IF ~~ THEN DO ~AddJournalEntry(@10025,QUEST)ClearAllActions()StartCutSceneMode()SetGlobal("ACQ12","GLOBAL",2)Wait(1)FadeToColor([40.0],0)Wait(1)JumpToPoint([5031.2709])MakeGlobal()FadeFromColor([40.0],0)EndCutSceneMode()~ EXIT
+IF ~~ THEN DO ~AddJournalEntry(@10025,QUEST)ClearAllActions()StartCutSceneMode()SetGlobal("ACQ12","GLOBAL",2)Wait(1)FadeToColor([40.0],0)Wait(1)
+ActionOverride("ACQ12002",JumpToPoint([5031.2709]))
+ActionOverride("ACQ12002",MakeGlobal())FadeFromColor([40.0],0)EndCutSceneMode()~ EXIT
 END
 
 IF ~Global("ACQ12","GLOBAL",2)~ THEN BEGIN 10
@@ -461,22 +463,31 @@ IF ~Global("ACQ122","GLOBAL",3)~ THEN REPLY @162 EXTERN ACQ12002 23
 CHAIN
 IF ~~ THEN ACQ12001 22
 @164 DO ~SetGlobal("ACQ12","GLOBAL",4)AddexperienceParty(1200)ReputationInc(1)EscapeAreaDestroy(10)~
-==ACQ12002 @165 DO ~EscapeAreaMove("%Nashkel%",4490,2344,10)
-//MoveBetweenAreas("%Nashkel%",[4490.2344],10)~ //MoveToPointNoInterrupt([4490.2344])~
+==ACQ12002 @165 
+DO ~//EscapeAreaMove("%Nashkel%",4490,2344,10)
+ActionOverride("ACQ12002",JumpToPoint([4490.2344]))
+ActionOverride("ACQ12002",MoveToPointNoInterrupt([4490.2344]))
+ActionOverride("ACQ12002",Face(10))~
 EXIT
 
 CHAIN
 IF ~~ THEN ACQ12001 23
 @166 DO ~SetGlobal("ACQ12","GLOBAL",4)AddexperienceParty(1200)GiveItemCreate("AMUL09",PLAYER1,0,0,0)EscapeAreaDestroy(10)~
-==ACQ12002 @165 DO ~EscapeAreaMove("%Nashkel%",4490,2344,10)
-//MoveBetweenAreas("%Nashkel%",[4490.2344],10)~ //MoveToPointNoInterrupt([4490.2344])~
+==ACQ12002 @165 
+DO ~//EscapeAreaMove("%Nashkel%",4490,2344,10)
+ActionOverride("ACQ12002",JumpToPoint([4490.2344]))
+ActionOverride("ACQ12002",MoveToPointNoInterrupt([4490.2344]))
+ActionOverride("ACQ12002",Face(10))~
 EXIT
 
 CHAIN
 IF ~~ THEN ACQ12001 24
 @167 DO ~SetGlobal("ACQ12","GLOBAL",4)AddexperienceParty(1200)GiveItemCreate("AMUL09",PLAYER1,0,0,0)EscapeAreaDestroy(10)~
-==ACQ12002 @168 DO ~EscapeAreaMove("%Nashkel%",4490,2344,10)
-//MoveBetweenAreas("%Nashkel%",[4490.2344],10)~ //MoveToPointNoInterrupt([4490.2344])~
+==ACQ12002 @168 
+DO ~//EscapeAreaMove("%Nashkel%",4490,2344,10)
+ActionOverride("ACQ12002",JumpToPoint([4490.2344]))
+ActionOverride("ACQ12002",MoveToPointNoInterrupt([4490.2344]))
+ActionOverride("ACQ12002",Face(10))~
 EXIT
 
 CHAIN

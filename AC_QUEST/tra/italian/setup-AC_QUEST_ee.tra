@@ -1,0 +1,334 @@
+@21   = ~Anello di Protezione di Aaron
+
+Questo semplice anello è dotato di un incantesimo per proteggere chi lo indossa. L'incisione all'interno recita: 'Con amore per M., da A.'
+
+STATISTICHE:
+
+Classe Armatura: +1 bonus
+Tiri-salvezza: +1 bonus
+
+Peso: 0~
+
+
+@27   = ~Un piccolo coniglio bianco. Forse il più soffice che tu abbia mai visto.
+
+STATISTICHE:
+
+Peso: 3
+~
+@28   = ~Un piccolo coniglio bianco. Non è soffice come Zompo, ma quale coniglio potrebbe mai esserlo?
+
+STATISTICHE:
+
+Peso: 3
+~
+
+@30   = ~Questo è il corpo di Perwell.
+
+STATISTICHE:
+
+Peso: 110
+~
+//@32   not needed in EE!
+
+@38   = ~Dopo la morte il lupo mannaro si è ri-trasformato in un essere umano.
+
+STATISTICHE:
+
+Peso: 105
+~
+
+@40   = ~Le bacche di guril sono un rimedio tradizionale nel Faerûn e vengono utilizzate per varie applicazioni. Sono particolarmente apprezzate per alleviare sofferenze di tipo 'speciale', motivo per cui queste bacche vengono spesso offerte dai negozi nelle vicinanze delle cortigiane.
+
+STATISTICHE:
+
+Peso: 1
+~ 
+
+
+@44   = ~Questa pozione contiene principalmente fiori di belladonna.
+
+STATISTICHE:
+
+Peso: 0
+~
+@45   = ~Questa pozione contiene principalmente bacche di Guril.
+
+STATISTICHE:
+
+Peso: 0
+~
+@46   = ~Questa pozione contiene principalmente il sangue di Aiwell.
+
+STATISTICHE:
+
+Peso: 0
+~
+
+//@48   not needed in EE!
+
+@50   = ~In questo libro il grande Karlini, una delle figure più colorite della saggezza gnomica, ha scritto le sue esperienze e gli incantesimi. La calligrafia è confusa e incerta, probabilmente solo qualcuno folle quanto Karlini potrebbe decifrare questi scarabocchi.
+
+STATISTICHE:
+
+Peso: 2
+~
+
+@55   = ~Questa chiave apre la porta della casa di Geraldo nel centro di Baldur's Gate.
+
+STATISTICHE:
+
+Peso: 0
+~
+
+@57   = ~Questa è la pelle di un gibberling mutante.
+
+STATISTICHE:
+
+Peso: 0
+~
+//@58   not needed for EE!
+
+@60   = ~Elminster è l'uccello ammaestrato di Geraldo, anche se nemmeno lui conosce la specie esatta. L'uccello ha un aspetto saggio e un'eccezionale avversione per i gibberling. Non appena ne sente uno emetterà un forte 'Kiwitt'.
+
+STATISTICHE:
+
+Peso: 1
+~
+
+@67   = ~Una piccola chiave, che apre una sorta di pannello nel muro.
+
+STATISTICHE:
+
+Peso: 0
+~
+
+@69   = ~Questa chiave apre un magazzino nel distretto meridionale della città. I Serpenti di Abbathor hanno lì il loro covo.
+
+STATISTICHE:
+
+Peso: 0
+~
+
+
+
+@76   = ~Questo fascio di pagine sciolte sembra riassumere in larga misura l'approccio dei Serpenti di Abbathor. Apparentemente, il loro piano fin dall'inizio era quello di catturare un antico congegno nanico, chiamato Gundmagtor, che nel linguaggio comune significa qualcosa come "Richiama Anime Oscure". L'attacco principale del culto sembra concentrarsi su Nashkel e la nota "<CHARNAME> ha ucciso Mulahey, le miniere sono libere" fa presagire davvero male.
+
+STATISTICHE:
+
+Peso: 0
+~
+
+@80   = ~Lugosch Grayshirt ha annotato il suo viaggio da piccolo cultista fino a sacerdote di Abbathor con una grafia pulita. Ogni riga è piena di fiducia e arroganza. Descrive come il culto ha messo radici nell'Amn e lui stesso è stato assunto come scagnozzo della famiglia Lurraxol a Trademeet. Il culto crebbe e presto migrò in città più grandi, solo per ritrovarsi tenuto a freno dai Ladri dell'Ombra ad Athkatla. Lugosch, che ora era asceso al sacerdozio, fu chiamato dai leader del culto a scendere verso nord e continuare il suo lavoro a Baldur's Gate.
+
+Le ultime voci del diario trattano dei suoi sforzi per entrare in contatto con Mulahey nelle miniere di Nashkel, descrivono il duro diniego dato dal Mezzorco ai nani e la sua gioia maliziosa quando <CHARNAME> ha liberato la miniera. Lugosch ha visto la sua possibilità e ha condotto un veloce raid per incorporare una produttiva miniera di ferro nei possedimenti del culto.
+
+STATISTICHE:
+
+Peso: 2
+~
+
+@82   = ~Emerson, il caposquadra delle miniere di Nashkel, ha trascritto i suoi calcoli e la sua esperienza in questo ammasso di carte confuse. Per qualcuno che lavora nel settore minerario, questo miscuglio di informazioni è sicuramente una miniera d'oro. Per te, invece, gli appunti sono inutili.
+
+STATISTICHE:
+
+Peso: 3
+~
+
+@84   = ~Questo libro sembra molto vecchio e ne ha passate tante. Alcune pagine sono strappate o bucate, altre bruciacchiate e gran parte del libro è imbrattata di sangue. Anche se non riesci a decifrare il nome del sacerdote, sembra che il vecchio vagabondo ne abbia passate tante: viaggiare con un gruppo di avventurieri, alcuni conflitti sulla "vera" esistenza dei nani e infine l'esilio dal suo clan. Per il nano, per il quale era tutta la sua famiglia, questa perdita gli fece prima perdere la testa e poi lo spinse dritto tra le braccia dei Serpenti.
+
+STATISTICHE:
+
+Peso: 0
+~
+
+//@86   not needed in EE!
+
+@88   = ~Il libro è scritto con una calligrafia accurata e riporta l'ultimo viaggio di Bashrik Sparklehammer. Bashrik era sulle tracce di una setta che si fa chiamare "I Serpenti di Abbathor". Per loro, Abbathor, l'unico dio malvagio tra i Morndinsamman, è considerato il liberatore e santo patrono dei nani di superficie.
+
+Non puoi imparare molto di più dal libro perché a quanto pare, gli appunti di Bashrik sono stati scritti principalmente per gli iniziati. Solo l'ultima voce potrebbe offrire un indizio, se vuoi esaminare la questione:
+
+'Oggi sono partito da Wostok. Mirjala e io tenteremo la fortuna a sud, Wostok darà un'occhiata alla grande città. Ci incontreremo di nuovo nel tempio di Helm quando avrò maggiori informazioni.
+
+Addendum: Dopo essermi liberato dell'assassino che ci aspettava alla Locanda del Braccio Amico, ho almeno imparato un nome. Un certo Draglon bazzica nelle Cantine occupandosi degli affari del culto. Bene, me ne occuperò al mio ritorno.'
+
+(Se vuoi indagare sul culto e su cosa si tratta, sarà utile tenere questo libro.)
+
+STATISTICHE:
+
+Peso: 2
+~
+
+@91   = ~Quello che faccia esattamente questo manufatto ti è sconosciuto. I Serpenti di Abbathor lo vogliono, probabilmente è un'informazione sufficiente.
+
+STATISTICHE:
+
+Peso: 30
+~
+
+@93   = ~La storia di questo manufatto è avvolta dall'oscurità. Da quello che puoi estrarre dai pochi frammenti che hai imparato finora, e se hai interpretato correttamente le poche antiche rune naniche che coprono il dispositivo, questo manufatto in qualche modo consente di contattare gli antenati dei nani e reindirizzare la loro energia in esseri oscuri.
+
+Da quello che sai sui nani, un simile atto è il più grande sacrilegio di cui un nano possa essere capace. La pace dei morti è sacra e solo anime molto corrotte oserebbero romperla.
+
+STATISTICHE:
+
+Peso: 30
+~
+
+//#6742 BGII
+@80042 = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. Il più delle volte, la spada lunga ha una lama affilata soltanto da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura, e possono essere diverse anche nell'ambito della medesima cultura a seconda dell'epoca. Tuttavia, una delle caratteristiche più comuni delle spade lunghe è proprio la loro lunghezza, la quale varia dagli 87 ai 117 centimetri. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è concepita per tagliare, non per infilzare.
+
+STATISTICHE:
+
+Danno: 1d8 (tagliente)
+Fattore-velocità: 4
+Tipo di Competenza: Spada Lunga
+Tipo: A una mano
+Richiede:
+ 6 Forza
+
+Peso: 4~
+
+//#4421 BGII
+@80043 = ~Questa lama brucia con un fuoco magico e ogni volta che infligge un colpo emette un'ondata di calore. "Meta Infernum" è inciso sull'elsa, anche se sembra un po' sbiadito e potrebbe non essere originale della spada.
+
+STATISTICHE:
+
+THAC0: +1
+Danno: 1d8+1, +1 danno da fuoco
+Tipo di danno: tagliente
+Fattore-velocità: 4
+Tipo di Competenza: Spada Lunga
+Tipo: A una mano
+Richiede:
+ 6 Forza
+
+Peso: 4
+~ 
+//#6742 BGII same as @80042
+
+
+//@80046 = only needed for BGT+Tutu
+
+//#4421 BGII same as @80043
+//@80047 = only needed for BGT+Tutu
+
+//#39444 BGII
+@80053 = ~Un fabbro nanico, Silverblade, forgiò questo martello ed altri due oggetti: una Cintura di Forza del Gigante del Gelo e un paio di Guanti del Potere dell'Ogre. La sua intenzione era di regalarli a suo figlio, all'epoca un alto ufficiale dell'esercito nanico che combatteva i giganti e le tribù di ogre nell'area. Sfortunatamente, il figlio di Silverblade morì subito dopo il completamento dei tre oggetti e prima che gli potessero essere regalati. Nell'angoscia, Silverblade stesso indossò la cintura ed i guanti. Prese il Martello dei Fulmini e lottò in battaglia contro il popolo dei giganti. Morì valorosamente.
+
+Da solo, il Martello Tonante è una potente arma magica, ma quando viene unito ai Guanti del Potere dell'Ogre e alla Cintura di Forza del Gigante del Gelo, il martello si trasforma. Questa trasformazione richiede assistenza magica. Il Martello Tonante diventa allora in grado di infliggere 8 punti di danno aggiuntivo e di uccidere all'istante qualsiasi ogre o gigante che colpisce.
+
+STATISTICHE:
+
+THAC0: +3
+Danno: 2d4+3 (contundente)
+Fattore-velocità: 1
+Tipo di Competenza: Martello da Guerra
+Tipo: A una mano
+
+Richiede:
+Forza 18
+
+Peso: 4
+~
+//#39548 BGII
+@80057 = ~Benedetta in origine da Shar, quest'armatura ha una storia lunga ed interessante. Solo i migliori tra i ladri hanno posseduto quest'armatura fortemente incantata. L'essenza della notte è stata intessuta nella scura trama dell'armatura in modo che sembri normale ma circondi il portatore in una massa di ombre serpeggianti.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Nascondersi tra le Ombre: +20%
+
+Classe Armatura: 3 (5 contro danno perforante e da proiettile)
+
+Richiede:
+Forza 3
+
+Peso: 5
+~
+//#66422 BGII
+@80059 = ~Questa armatura è stata creata per Enkidu, un famoso guerriero di Kara-Tur. Anche se nessuno osava sfidarlo in un combattimento leale, Enkidu era spesso soggetto a vili attacchi furtivi da parte di assassini, ninja e Wu-Jen.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Resistenza alla Magia: +5%
+- Immunità alla Pugnalata alle Spalle
+
+Classe Armatura: -2 (-6 contro tagliente, -5 contro perforante e da proiettile)
+
+Richiede:
+Forza 15
+
+Peso: 45
+~
+
+// is @32 in "setup-AC_QUEST.tra".
+@100032   = ~Arco Lungo Elfico di Aphriel
+
+Fin dalla tenera età l'elfa Aphriel ha vagato per le foreste del Faerûn diventando una delle più grandi Ranger del nostro tempo. Non c'era profumo che non potesse seguire e nessun criminale era al sicuro dal suo arco. Fu solo dopo aver incontrato un commerciante locale in visita alla città di Baldur's Gate e essersene perdutamente innamorata, che i suoi giorni nella foresta giunsero a una fine. La loro relazione fu benedetta con il giovane mezzelfo Perwell, e quando è stato rapito dai banditi della Costa della Spada, Aphriel si è avviata per l'ultima volta nelle foreste. Durante questo viaggio l'arco è giunto nelle mani di <CHARNAME>.
+
+STATISTICHE:
+
+THAC0: +3
+Danno: +2 (missile)
+Fattore-velocità: 5
+Tipo di Competenza: Arco Lungo
+Tipo: A due mani
+Richiede: 
+ 6 Forza
+
+Peso: 2
+~
+// is @48 in "setup-AC_QUEST.tra".
+@100048   = ~Questo scudo è lucidato a specchio e ovviamente magico. I graffi scompaiono e sangue e sporco semplicemente scorrono dalla sua superficie riflettente. Si può presumere che possa persino resistere allo sguardo di un basilisco.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Classe Armatura: +2
+- Il personaggio è protetto contro tutti i tipi di pietrificazione e le forme di attacchi con lo sguardo.
+
+Richiede: 
+ 12 Forza
+
+Peso: 7
+~
+// is @58 in "setup-AC_QUEST.tra".
+@100058   = ~Armatura di Pelle di Gibberling
+
+Uno degli incovenienti del lavoro di Geraldo con i gibberling era l'alta produzione di pelle. Poiché il pittore aveva bisogno solo della pelliccia per i suoi colori, cercò un uso diverso per la pelle spessa dei mostri... e lo trovò. Sfortunatamente, la pelle dei gibberling aveva alcuni effetti collaterali inaspettati e quindi Geraldo attese con impazienza un'anima credulona a cui rifilare il suo esperimento.
+
+I cronisti presumono che il grande Geraldo rida a crepapelle all'idea che qualche idiota avrebbe trovato questa armatura effettivamente utile.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Resistanza contro proiettile: +10%
+- Carisma: -3
+- Il personaggio diventa blu.
+- Può essere rimossa soltanto con l'incantesimo Scaccia Maledizione
+
+Classe Armatura: 4
+
+Richiede: 
+ 6 Forza
+
+Peso: 7
+~
+// is @86 in "setup-AC_QUEST.tra".
+@100086   = ~Il sacerdote di Moradin, Bashrik Sparklehammer, era considerato saggio e leale all'interno della comunità dei nani liberali. Ha continuato a combattere contro la secessione dei nani di superficie e generalmente ha goduto di un'ottima reputazione. Questo martello, caricato dai fulmini di Moradin, era la sua arma più potente nella lotta contro il male.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 1d4+3, +1 punto di danno da elettricità
+Tipo di danno: Contundente
+Fattore-velocità: 2
+Tipo di Competenza: Martello da Guerra
+Tipo: A una mano
+Richiede:
+ 9 Forza
+
+Peso: 5
+~

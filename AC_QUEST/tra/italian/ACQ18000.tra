@@ -1,0 +1,86 @@
+@0    = ~Che Tymora sia con te, <SIRMAAM>. Hai l'aria di un vagabondo piuttosto che di un sedentario, vero?~
+		~Che Tymora sia con te, <SIRMAAM>. Hai l'aria di una vagabonda piuttosto che di una sedentaria, vero?~
+@1    = ~Ho cosa?!~
+@2    = ~Beh, suppongo si possa dire così.~
+@3    = ~E tu vuoi acquisire i miei servigi. Sbaglio?~
+@4    = ~Sono solo un cittadino qualunque.~
+		~Sono solo una cittadina qualunque.~
+@5    = ~Stai insinuando che sia un senzatetto?~
+		~Stai insinuando che sia una senzatetto?~
+@6    = ~Lasciami stare.~
+@7    = ~Eccoti di nuovo.~
+@8    = ~Vuoi acquisire i miei servigi. Sbaglio?~
+@9    = ~Ci hai ripensato?~
+@10   = ~Parlami del tuo problema.~
+@11   = ~Ci sto ancora pensando.~
+@12   = ~Beh... dal tuo aspetto. Il tuo abbigliamento. Le tue braccia... Le tue ... oh dannazione, è ovvio, ok?~
+@13   = ~Beh, mi hai beccato.~
+		~Beh, mi hai beccata.~
+@14   = ~Molto conveniente.~
+@15   = ~Beh... va bene. C'è una questione con cui potresti aiutarmi.~
+@16   = ~Tu? Sembra piuttosto inverosimile. Forse vuoi pensarci su. Ho del lavoro per un paio di braccia forti!~
+@17   = ~Uh... no no! Hai frainteso! Voglio solo dire che... oh dannazione, è ovvio che sei un tipo avventuroso, ok?~
+		~Uh... no no! Hai frainteso! Voglio solo dire che... oh dannazione, è ovvio che sei una tipa avventurosa, ok?~
+@18   = ~Beh, questo è troppo! Stai scherzando col fuoco!~
+@19   = ~Tu sei pazzo!~
+@20   = ~Va bene, magari un'altra volta.~
+@21   = ~Vedi, ho questo piccolo problema per cui *potrei* andare dalle autorità... ma ai piani alti hanno già le mani impegnate. Cosa mi dici tu?~
+@22   = ~Dimmi prima di tutto chi sei.~
+@23   = ~Di cosa si tratta?~
+@24   = ~Non ora. Anche se lo terrò in considerazione.~
+@25   = ~Io sono Geraldo il Magnifico, pittore, disegnatore, ritrattista. Li ho dipinti tutti. Il Duca Eltan, Rieltar... persino Elminster ci ha fatto un pensiero, te lo posso dire.~
+@26   = ~Beh, è ??un po' imbarazzante. Vedi... Io sono Geraldo il Magnifico, pittore, disegnatore, ritrattista. Li ho dipinti tutti. Il Duca Eltan, Rieltar... persino Elminster ci ha fatto un pensiero, te lo posso dire.~
+@27   = ~Basta non pensarci troppo a lungo... per favore.~
+@28   = ~E di sicuro ora ti domandi quali problemi potrebbe avere un grande artista come me, vero? Bene, per farla breve: ero in una crisi creativa. Avevo bisogno di ispirazione!~
+@29   = ~Ho lasciato Baldur's Gate qualche settimana fa per farmi ispirare da un ambiente bucolico e ad un certo punto mi sono imbattuto improvvisamente in alcuni gibberling. Creature fastidiose, se posso dirlo. Ma quel colore blu della loro pelle... mi ha immediatamente ispirato!~
+@30   = ~Così ho catturato due di quei gibberling e li ho messi in gabbia a casa mia. Avevo intenzione di tenerli imprigionati ed estrarre questo fantastico colore blu. Non avevo idea di quanto i gibberling fossero veloci a... beh, mi hai capito.~
+@31   = ~Hai iniziato ad allevare gibberling a Baldur's Gate? Sei pazzo?~
+@32   = ~I gibberling hanno iniziato a riprodursi molto velocemente, uh?~
+@33   = ~E ora cosa hai intenzione di fare?~
+@34   = ~Bisogna avvisare le autorità!~
+@35   = ~Non credo mi interessi davvero.~
+@36   = ~Non sapevo che potesse succedere! Ero disperato!~
+@37   = ~Non puoi immaginare quanto!~
+@38   = ~Quindi, non l'hai ancora capito allora?~
+@39   = ~Oh no! Tutto ma non quello! Mi arresteranno! E allora cosa ne sarebbe dei miei dipinti?~
+@40   = ~Va bene. Continua con la tua storia.~
+@41   = ~Oh sì, credo che sia l'opzione migliore. Ne farò rapporto al Pugno.~
+@42   = ~Oh, ti prego, non lasciarmi solo!~
+@43   = ~Oh sì, penso che sia la cosa migliore. Veditela da solo.~
+@44   = ~In una settimana la mia casa era *inabitabile*! Ho avuto appena il tempo di precipitarmi fuori e sigillare magicamente la porta prima che quell'orda si abbattesse su di me.~
+@45   = ~Bene, questa è la mia offerta: ti darò la chiave di casa mia e tu ti occuperai dei gibberling. Dovrebbero essercene circa venti. Portami le loro pelli e io ti darò una bella ricompensa. Sì?~
+@46   = ~Va bene. Abbiamo un accordo.~
+@47   = ~Penso che sarà meglio segnalarti al Pugno.~
+@48   = ~Non se ne parla. Occupatene da solo.~
+@49   = ~Meraviglioso. Ecco la chiave. La mia casa è quella grande blu con il recinto bianco a est di qui. Impossibile da perdere!~
+@50   = ~Hai scoperto qualcosa di nuovo?~
+@51   = ~Non ancora.~
+@52   = ~Sono qui solo perché non voglio più lavorare per te.~
+@53   = ~Brutte notizie, Geraldo. C'erano solo due gibberling in casa tua.~
+@54   = ~È un peccato. Beh, probabilmente non potrò fare altro che tentare la fortuna in terra straniera. Da qualche parte in cui il nome Geraldo non sarà diventato famigerato a causa di un'orda di gibberling...~
+@55   = ~Oh oh.~
+@56   = ~Questo è davvero un problema. I gibberling sono molto abili quando si tratta di nascondersi. E prima che tu possa rintracciarli... ma aspetta! Elminster! Potrebbe aiutarci!~
+@57   = ~Elminster? Non è da qualche parte lontano da qui?~
+@58   = ~Non pensi che possiamo gestire il problema senza aiuto?~
+@59   = ~Bene, allora andrò subito a cercarlo.~
+@60   = ~Oh, se vuoi disturbare un mago...~
+@61   = ~Elminster?~
+@62   = ~Oh, che sconsideratezza da parte mia. Non hai ancora incontrato Elminster. Non intendo il mago, intendo il mio uccello addomesticato Elminster.~
+@63   = ~Una bestiola molto docile ed affettuosa. Ma odia i gibberling più di una piaga. Ogni volta che ne nota uno emette un richiamo stridulo.~
+@64   = ~Se porterai Elminster con te saprai sempre se ci sono dei gibberling nelle vicinanze.~
+@65   = ~Bene, questa è la mia offerta: per ogni pelle di gibberling, ti pagherò 50 monete d'oro. E se li troverai tutti e venti, ti regalerò un oggetto magico unico. Affare fatto?~
+@66   = ~Affare fatto.~
+@67   = ~Non se ne parla. Non sono venuto fino a qui per la caccia al gibberling...~
+		~Non se ne parla. Non sono venuta fino a qui per la caccia al gibberling...~
+@68   = ~Eccellente. Prendi Elminster. Torna da me quando avrai le pelli di gibberling. Ai gibberling piace stare sottoterra, quindi guarderei negli scantinati o cose simili se fossi in te... e nelle fogne. Non credo che siano ancora fuggiti oltre i confini della città.~
+@69   = ~Ah, amico mio. Eccoti di nuovo.~
+		~Ah, amica mia. Eccoti di nuovo.~
+@70   = ~Volevo solo salutarti.~
+@71   = ~Sono qui perché non voglio più lavorare per te.~
+@72   = ~Ti ho portato alcune pelli di gibberling.~
+@73   = ~Bene, allora vediamole...~
+@74   = ~Oh, fantastico. Fammi prendere le pelli.~
+@75   = ~Ed ecco il tuo oro. 50 monete per pelle.~
+@76   = ~Ti aspetterò qui, portami il resto delle pelli, va bene?~
+@77   = ~Tu... l'hai fatto davvero. Bene, ecco l'oggetto magico di cui ti ho parlato.~
+@78   = ~Ed ho pensato al mio futuro... probabilmente non potrò fare altro che tentare la fortuna in terra straniera. Da qualche parte in cui il nome Geraldo non sarà diventato famigerato a causa di un'orda di gibberling...~

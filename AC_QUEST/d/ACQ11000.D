@@ -82,14 +82,14 @@ CHAIN
 IF ~~ THEN ACQ11001 7
 @46 DO ~SetGlobal("ACQ11","GLOBAL",2)Enemy()~
 ==ACQ11002 @47 DO ~Enemy()~
-==ACQ11003 @48 DO ~Enemy()~
+==ACQ11003 @48 DO ~AddJournalEntry(@10001,QUEST_DONE)Enemy()~
 EXIT
 
 CHAIN
 IF ~~ THEN ACQ11002 5
 @49 DO ~SetGlobal("ACQ11","GLOBAL",3)EscapeAreaDestroy(10)~
 ==ACQ11001 @50 DO ~EscapeAreaDestroy(10)~
-==ACQ11003 @51 DO ~EscapeAreaDestroy(10)~
+==ACQ11003 @51 DO ~AddJournalEntry(@10002,QUEST_DONE)EscapeAreaDestroy(10)~
 EXIT
 
 CHAIN
@@ -119,7 +119,7 @@ CHAIN
 IF ~~ THEN ACQ11002 9
 @71 = @49 DO ~SetGlobal("ACQ11","GLOBAL",3)EscapeAreaDestroy(10)~
 ==ACQ11001 @50 DO ~EscapeAreaDestroy(10)~
-==ACQ11003 @51 DO ~EscapeAreaDestroy(10)~
+==ACQ11003 @51 DO ~AddJournalEntry(@10002,QUEST_DONE)EscapeAreaDestroy(10)~
 EXIT
 
 CHAIN

@@ -11,7 +11,8 @@ END
 */
 
 /* new for v2.5: new reply options */
-EXTEND_TOP %Thalantyr_Dialog% 35 #1
+//EXTEND_TOP %Thalantyr_Dialog% 35 #1
+EXTEND_BOTTOM %Thalantyr_Dialog% 35
 IF ~!Dead("ACQ16001")Global("ACQ16","GLOBAL",0)!Dead("ACQ16002")~ THEN REPLY @61 + AC0
 IF ~!Dead("ACQ16001")Global("ACQ16","GLOBAL",0)Dead("ACQ16002")~ THEN REPLY @148 + AC0
 IF ~!Dead("ACQ16001")Global("ACQ16","GLOBAL",3)~ THEN REPLY @62 + AC0a
@@ -25,7 +26,8 @@ GlobalGT("ACQ16","GLOBAL",2)
 IF ~PartyHasItem("ACQ16002")
 OR(2) Global("ACQ16","GLOBAL",2) Global("ACQ16","GLOBAL",3)
 Global("ACQ16_HelpWerewolf","LOCALS",1)~ THEN REPLY @160 + AC16
-IF ~PartyHasItem("ACQ16002")
+IF ~Global("ACQ16_ResetQuest","GLOBAL",0)
+PartyHasItem("ACQ16002")
 OR(2) Global("ACQ16","GLOBAL",2) Global("ACQ16","GLOBAL",3)
 Global("ACQ16_HelpWerewolf","LOCALS",1)~ THEN REPLY @161 + AC21
 IF ~Dead("ACQ16002")GlobalGT("ACQ16","GLOBAL",1) GlobalLT("ACQ16","GLOBAL",4)!Global("ACQ16","GLOBAL",11)~ THEN REPLY @167 + AC23

@@ -9,7 +9,12 @@ THEN
 END
 
 IF
-	Dead("ACQ16002")
+	Dead("ACQ16002") 
+	GlobalLT("ACQ16","GLOBAL",4) !Global("ACQ16","GLOBAL",0)
+	OR(3)
+		!PartyHasItem("ACQ16002")
+		Global("ACQ16","GLOBAL",1)
+		!Global("ACQ16_ResetQuest","GLOBAL",0)
 	Detect([PC])
 	Range([PC],10)
 	Global("ACQ16_HeIsDead","LOCALS",0)

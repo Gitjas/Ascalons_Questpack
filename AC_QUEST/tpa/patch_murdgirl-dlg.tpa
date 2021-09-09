@@ -1,0 +1,78 @@
+<<<<<<<< .../inlined/MURDGIRL_patch1.d
+EXTEND_BOTTOM MURDGIRL 20
+  IF ~!PartyHasItem("misc6c") PartyHasItem("ACQ16001")~ THEN DO ~TakePartyItem("ACQ16001")
+TakePartyItem("MISC6D")
+TakePartyItem("MISC6E")~ GOTO 21
+END 
+>>>>>>>>
+COMPILE EVAL ~.../inlined/MURDGIRL_patch1.d~
+
+<<<<<<<< .../inlined/MURDGIRL_patch.d
+/* #26231 /* ~Yes, I do. He gave me three things for you to sample.~ */ */
+ALTER_TRANS MURDGIRL // file name
+BEGIN 18 END // state number (can be more than one)
+BEGIN %responses_18% END // transition number (can be more than one)
+BEGIN // list of changes, see below for flags
+  "TRIGGER" ~OR(2) PartyHasItem("misc6c") PartyHasItem("ACQ16001")
+PartyHasItem("misc6d")
+PartyHasItem("misc6e")~
+END 
+>>>>>>>>
+
+// List of all potential response strrefs to check
+ACTION_DEFINE_ASSOCIATIVE_ARRAY response_strrefs BEGIN
+  26231 => 1
+END
+  
+COPY_EXISTING ~MURDGIRL.dlg~ ~override~
+  // scanning listed dialog states
+  PATCH_FOR_EACH state IN 18 BEGIN
+    LPF GET_RESPONSE_STRREFS INT_VAR state RET strrefs RET_ARRAY strrefs END
+    TEXT_SPRINT indices ~~  // a temporary variable for building the index list
+    FOR (i = 0; i < strrefs; ++i) BEGIN
+      SET value = $strrefs(~%i%~)
+      // Include index only if strref is listed in the response_strrefs array
+      PATCH_IF (VARIABLE_IS_SET $response_strrefs(~%value%~)) BEGIN
+        TEXT_SPRINT indices ~%indices% %i%~ // building list of indices
+      END
+    END
+    // prevent adding a trigger if index list is empty
+    PATCH_IF (~%indices%~ STR_EQ ~~) BEGIN
+      TEXT_SPRINT indices "IF ~False()~"
+    END
+    // EVAL is used to create the variable name dynamically
+    TEXT_SPRINT EVAL ~responses_%state%~ ~%indices%~ 
+    PATCH_PRINT ~Variable %state%: %indices%~ 
+  END
+BUT_ONLY
+
+//COMPILE EVAL ~.../inlined/MURDGIRL_patch.d~
+
+// List of all potential response strrefs to check
+ACTION_DEFINE_ASSOCIATIVE_ARRAY response_strrefs BEGIN
+  26232 => 1
+END
+  
+COPY_EXISTING ~MURDGIRL.dlg~ ~override~
+  // scanning listed dialog states
+  PATCH_FOR_EACH state IN 18 BEGIN
+    LPF GET_RESPONSE_STRREFS INT_VAR state RET strrefs RET_ARRAY strrefs END
+    TEXT_SPRINT indices ~~  // a temporary variable for building the index list
+    FOR (i = 0; i < strrefs; ++i) BEGIN
+      SET value = $strrefs(~%i%~)
+      // Include index only if strref is listed in the response_strrefs array
+      PATCH_IF (VARIABLE_IS_SET $response_strrefs(~%value%~)) BEGIN
+        TEXT_SPRINT indices ~%indices% %i%~ // building list of indices
+      END
+    END
+    // prevent adding a trigger if index list is empty
+    PATCH_IF (~%indices%~ STR_EQ ~~) BEGIN
+      TEXT_SPRINT indices "IF ~False()~"
+    END
+    // EVAL is used to create the variable name dynamically
+    TEXT_SPRINT EVAL ~responses_%state%~ ~%indices%~ 
+    PATCH_PRINT ~Variable %state%: %indices%~ 
+  END
+BUT_ONLY
+
+COMPILE EVAL ~.../inlined/MURDGIRL_patch.d~

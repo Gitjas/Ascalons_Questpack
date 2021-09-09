@@ -36,4 +36,15 @@ THEN
 		AddJournalEntry(@3000012,QUEST)
 		SetGlobal("ACQUEST_JournalEntries","MYAREA",1)
 END
+
+IF
+	PartyHasItem("ACQKEY01")
+	Global("AC_Place_Artefact","MYAREA",0)
+	GlobalLT("ACQWOSTOK","GLOBAL",4)
+THEN
+	RESPONSE #100
+		ActionOverride("ACSecret",CreateItem("ACQ10101",0,0,0))
+		SetGlobal("AC_Place_Artefact","MYAREA",1)
+END
+
 	

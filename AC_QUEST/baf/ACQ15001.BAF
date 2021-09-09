@@ -1,6 +1,7 @@
 IF
 	See([PC])
 	See("ACQ15002")
+	Global("ACQ15","GLOBAL",6)
 THEN
 	RESPONSE #100
 		StartDialogNoSet([PC])

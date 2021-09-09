@@ -13,7 +13,7 @@
 @12   = ~Bah, whatever. Do what you want. And if you go in there tell this ossified dodderer to stop being as stiff as a poker and help me!~
 @13   = ~Oh yes, I understand. Top secret hero odds and ends, right? Well screw that. Go, continue sneaking through woods, cloak your faces and loiter in the dark corners of taverns. Bah. Almost as impressive as a cage filled with castrated gibberlings.~
 @14   = ~Bah. In the end you are just another idiot.~
-@15   = ~Oh, the brave hero sniffed a chance to help a damsel in distress?~ 
+@15   = ~Oh, the brave hero sniffed a chance to help a damsel in distress?~
 @16   = ~How touching. But if you do not happen to be well versed in alchemy you will hardly be able to help me.~
 @17   = ~I do not really know about alchemy. But maybe I can help you anyway.~
 @18   = ~You know the whole conversation would be easier if you would stop insulting me.~
@@ -82,7 +82,7 @@
 @81   = ~Do you think so? Well, maybe you really can.~
 @82   = ~I will tell you. Then you will understand why I cannot help her.~
 @83   = ~Well, everything would be settled then. Good day.~
-@84   = ~A few weeks ago, this woman Aiwell moved into the house a little west of here, along with her dawdler of a man.~
+@84   = ~A few weeks ago, this woman Aiwell moved into the house a little west of here, along with her dawdler of a husband.~
 @85   = ~And a few nights ago she was suddenly at my doors crying about some creature attacked and bit her guy. I was able to dislodge the creature, praise the gods. But of course, this was not the end of it.~ //"critter" steht mehr für kleine Tiere?
 @86   = ~Two nights ago, this crumbum of a husband suddenly turned into a werewolf (sighs). As if I do not have enough problems.~
 @87   = ~A werewolf? Why do you not kill him?~
@@ -97,7 +97,7 @@
 @96   = ~Well, that's the question.~
 @97   = ~Sure, I believe you. But that's not that easy.~
 @98   = ~This is not as easy as you think.~
-@99   = ~You see, I'm in a dilemma. On one hand I would most certainly like to help Aiwell. On the other hand I am missing some ingredients for a cure. To be honest, I am missing the most important ingredients for a cure. And even if I could create a medicine, a success could not be guaranteed. For I do not know a lot about werewolves.~ 
+@99   = ~You see, I'm in a dilemma. On one hand I would most certainly like to help Aiwell. On the other hand I am missing some ingredients for a cure. To be honest, I am missing the most important ingredients for a cure. And even if I could create a medicine, a success could not be guaranteed. For I do not know a lot about werewolves.~
 @100  = ~If I would get my hands on a dead werewolf, of course, I could continue my research...~
 @101  = ~What are the ingredients you are missing?~
 @102  = ~So you want me to kill the werewolf for you?~
@@ -107,7 +107,7 @@
 @106  = ~And if all else fails then we could still improvise. Maybe some pure blood of a loved one, so that the infected body rebels against the disease. But that would be little more than romantic nonsense.~
 @107  = ~Belladonna is a well-known agent to free people from the curse of the werewolf. Nine out of ten people will be healthy again. However, it does not grow in this area and I have no idea where it can be found.~
 @108  = ~Guril berries are an old remedy. Mostly for certain... intimate sufferings. I do not know if they also help against Lycanthropy, the chances should be about half-half. You should ask around in Beregost. Especially in the taverns. Some innkeeper may have a supply in stock.~
-@109  = ~As I said, this is pure speculation. In some romantic tales werewolves transform back into the original shape when they realize that they have drunk the blood of their kin, or a loved one. But the chances that this is true are one of ten at best.~ 
+@109  = ~As I said, this is pure speculation. In some romantic tales werewolves transform back into the original shape when they realize that they have drunk the blood of their kin, or a loved one. But the chances that this is true are one of ten at best.~
 @110  = ~The body of a man who's been infected with Lycanthropy would be of some value to me. But I doubt that he will come voluntarily.~
 @111  = ~But could you also produce a cure?~
 @112  = ~Good. Come back with either the ingredients or the corpse, however, keep in mind that I can only brew one of the three potions for you due to the other substances that are required for the potion. Good luck!~
@@ -153,7 +153,7 @@
 @148   = ~Who was the woman in front of your door?~
 @149   = ~No worries, she is gone now. What did she want?~
 @150   = ~Ah, so *now* I get what she was referring to. Well, the werewolf is dead.~
-@151   = ~Maybe that's no longer a problem. The werewolf is dead.~ 
+@151   = ~Maybe that's no longer a problem. The werewolf is dead.~
 @152   = ~Well, I guess giving the corpse to you is the best thing to do now. I don't think there is anything else that could be done.~
 @153   = ~Considering the werewolf is dead already, I guess bringing it to you would be the best thing to do. I don't have it with me currently, though.~
 @154   = ~Hm, in that case the problem might be done with, indeed.~
@@ -172,3 +172,12 @@
 @167   = ~I can't seem to find the werewolf's corpse any more... I will not be able to bring it to you.~
 @168   = ~Please, help us!~
 @169   = ~Hmph. Guess that's it, then. (Thalantyr grumbles something about the carelessness of nowadays' adventurers.)~
+
+
+
+/* new for v 4.0 */
+//@26, rephrased for new location
+@170   = ~Tonder and I moved into the little house which lies at the southwest boundary of Beregost. We wanted nothing but till the lands and live in peace, but a few days ago, Tonder was attacked by a large animal! If not for Thalantyr my huband would have been devoured.~
+
+//@84, rephrased for new location
+@171   = ~Apparently, this woman Aiwell moved into a house at the southwest boundary of Beregost a few weeks ago, along with her dawdler of a husband.~

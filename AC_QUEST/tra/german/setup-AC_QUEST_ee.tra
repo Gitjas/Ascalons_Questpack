@@ -5,7 +5,7 @@ EIGENSCHAFTEN:
 
 Schaden: 1W8 (Klinge)
 Gewicht: 4
-Initiativefaktor: 5
+Initiativefaktor: 4
 Mindeststärke: 6
 Fertigkeit: Langschwert
 Typ: 1-händig
@@ -24,7 +24,7 @@ Typ: 1-händig
 Mindeststärke: 6
 
 Gewicht: 4
-~ 
+~
 
 //#6742 BGII same as @80042
 //@80046 = only needed for BGT+Tutu
@@ -81,3 +81,58 @@ Mindeststärke: 15
 
 Gewicht: 45
 ~
+//@32 without "Not useable by"
+@100032   = ~Aphriels Elfenbogen
+
+Schon in jungen Jahren zog die Elfe Aphriel durch die Wälder Faerûns und wurde zu einer der größten Waldläuferinnen der Gegenwart. Keine Fährte, der sie nicht folgen konnte und kein Übeltäter, der vor ihrem Bogen sicher war. Erst als sie bei einem Besuch in der Stadt Baldurs Tor einen ansässigen Menschenhändler traf und sich Hals über Kopf verliebte, hatten ihre Tage im Wald ein Ende. Aus der Liaison wurde der junge Halbelf Perwell geboren, und als dieser von den Räubern der Schwertküste entführt wurde brach Aphriel ein letztes Mal in die Wälder auf. Auf dieser Reise gelangte ihr Bogen in die Hände von <CHARNAME>.
+
+EIGENSCHAFTEN:
+
+Schadensbonus: +2 (Geschoß)
+ETW0-Bonus: -3
+Gewicht: 2
+Initiativefaktor: 5
+Mindeststärke: 6
+Fertigkeit: Langbogen
+Typ: 2-händig~
+//@48 without "Not useable by"
+@100048   = ~Dieser Schild ist auf Hochglanz poliert und offensichtlich magisch. Kratzer verschwinden und Blut und Schmutz perlt einfach von seiner spiegelnden Oberfläche ab. Es steht zu vermuten, dass er sogar dem Blick eines Basilisken standhalten kann.
+
+EIGENSCHAFTEN:
+
+Der Träger ist vor allen Arten der Versteinerung geschützt, auch vor Blickangriffen.
+
+RK-Bonus: -1
+Gewicht: 7
+Mindeststärke: 12~
+//@58 without "Not useable by"
+@100058   = ~Rüstung aus Kreischlingsleder
+
+Eines der Nebenprodukte von Geraldos Arbeit mit Kreischlingen war eine hohe Lederproduktion. Da der Maler für seine Farben nur das Fell benötigte, suchte er für die dicke Haut der Monster eine andere Verwendung... und fand sie. Leider hatte das Kreischlingsleder einige nicht erwartete Nebenwirkungen und so wartete Geraldo ungeduldig darauf, dass er sein Experiment einer leichtgläubigen Seele andrehen konnte.
+
+Die Chronisten gehen davon aus, dass sich der große Geraldo ins Fäustchen lacht bei der Vorstellung, irgendein Idiot könnte seine Rüstung tatsächlich nützlich finden.
+
+EIGENSCHAFTEN:
+
+Der Charakter verfärbt sich blau.
+
+Kann nur durch Fluch brechen wieder abgenommen werden.
+
+Rüstungsklasse: 4
+Charisma: -3
+Widerstand gg. Geschosswaffen: +10%
+Gewicht: 7
+Mindeststärke: 6~
+//@86 for EE without "Not useable by"
+@100086   = ~Der Moradinpriester Bashrik Funkenhammer galt in den Kreisen liberal einsteller Zwerge als weise und wahrhaftig. Er setzte sich engagiert gegen die Abspaltung der Oberweltzwerge ein und genoss allgemein ein hohes Ansehen. Dieser Hammer, geladen mit den Blitzen Moradins, war seine größte Waffe im Kampf gegen das Böse.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (Wucht)
+Schadensbonus: +1 (Elektrizität)
+ETW0-Bonus: -2
+Gewicht: 5
+Initiativefaktor: 2
+Mindeststärke: 9
+Fertigkeit: Kriegshammer
+Typ: 1-händig~

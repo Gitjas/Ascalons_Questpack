@@ -6,9 +6,11 @@ THEN
 		Wait(1)
 		FadeToColor([20.0],0)
 		Wait(2)
-		ActionOverride("ACQ16002",CreateCreature("ACQ16003",[-1.-1],0))
+//		ActionOverride("ACQ16002",CreateCreature("ACQ16003",[-1.-1],0))
+		CreateCreatureObject("ACQ16003","ACQ16002",0,0,0)
 		ActionOverride("ACQ16002",DestroySelf())
 		FadeFromColor([20.0],0)
 		Wait(2)
+		SetGlobal("AC_QUEST_CutScene","MYAREA",1)
 		ActionOverride("ACQ16003",StartDialogNoSet([PC])
 END

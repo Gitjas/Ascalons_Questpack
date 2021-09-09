@@ -12,21 +12,21 @@
 @11   = ~Wir haben unsere eigenen Sorgen.~
 @12   = ~Ich bin Aphriel, eine Waldläuferin auf der Suche nach den Banditen hier.~
 @13   = ~Wir haben ein gemeinsames Ziel. Wir sind die Gruppe von <CHARNAME>.~
-@14   = ~Dann besteht kein Grund, so ruppig zu sein~
+@14   = ~Dann besteht kein Grund, so ruppig zu sein.~
 @15   = ~Ihr treibt Euch in umkämpften Gebieten herum, <RACE>. Die Räuber durchstreifen den Wald und seit einiger Zeit auch schwer gerüstete Kämpfer des Eisenthrons. Dazu kommt, dass die Druiden in der letzten Zeit ziemlich unruhig sind. Also sagt mir, wer Ihr seid!~
 @16   = ~Auf solche wie Euch habe ich nur gewartet! Macht Euch bereit, Eurem Gott gegenüber zu treten!~
 @17   = ~Wir suchen keinen Streit! Wir sind die Gruppe von <CHARNAME> und auf der Suche nach den Banditen.~
 @18   = ~Wartet! Wer seid Ihr?~
 @19   = ~Oder Ihr dem Euren!~
 @20   = ~Sterbt!~
-@21   = ~(seufzt) Ich bin auf der Suche nach meinem Sohn. Die Banditen haben ihn entführt.~
+@21   = ~(seufzt) Ich bin auf der Suche nach meinem Sohn, Perwell. Die Banditen haben ihn entführt.~
 @22   = ~So ein Frevel! Wir werden Euch helfen.~
 @23   = ~Wieso machen diese Leute so etwas?~
 @24   = ~Habt Ihr eine Vermutung, wo er ist?~
 @25   = ~Meint Ihr, dass er noch lebt?~
 @26   = ~Da können wir Euch nicht helfen.~
-@27   = ~Ich danke Euch. Ich bin auf der Suche nach meinem Sohn. Die Banditen haben ihn entführt.~
-@28   = ~Bitte verzeiht mir. Aber seht, ich bin verzweifelt. Ich bin auf der Suche nach meinem Sohn, den die Räuber entführt haben.~
+@27   = ~Ich danke Euch. Ich bin auf der Suche nach meinem Sohn, Perwell. Die Banditen haben ihn entführt.~
+@28   = ~Bitte verzeiht mir. Aber seht, ich bin verzweifelt. Ich bin auf der Suche nach meinem Sohn Perwell, den die Räuber entführt haben.~
 @29   = ~Wenn Ihr meint. Ich glaube Euch, dass Ihr nicht zu den Banditen gehört. Aber meinen Respekt habt Ihr Euch nicht verdient. Geht nur Euren wichtigen Taten nach.~
 @30   = ~Ich war lange Zeit Waldläuferin in diesem Gebiet, bis ich mich vor ein paar Jahren in Baldurs Tor mit einem der ansässigen Händer zur Ruhe setzte. Wir haben es zu einigem Wohlstand gebracht, und die Banditen fordern nun ein Lösegeld, das wir nicht bezahlen können und wollen.~
 @31   = ~Die Räuber des Eisenthrones haben irgendwo im Wald eine Basis. Ich vermute, dass sie ihn dort gefangen halten.~
@@ -126,3 +126,7 @@
 @125  = ~Au ja. Heim zu Papa!~
 @126  = ~Passt auf Euch auf, mein Freund.~
 @127  = ~Mögen die Götter Euch für Eure Güte segnen. Komm mein Schatz, wir gehen nach Hause!~
+
+/* new for v4.0 */
+//@35 last part
+@128  = ~Was ist das? Ist das... oh nein! Perwell!~

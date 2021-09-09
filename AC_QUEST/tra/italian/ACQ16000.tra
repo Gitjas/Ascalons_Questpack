@@ -1,0 +1,190 @@
+@0    = ~Eccoti qui!~
+@1    = ~E tu cosa vuoi? Non vedi che sono impegnata?~
+@2    = ~Ho l'impressione che tu sia parecchio agitata.~
+@3    = ~Impegnata ad urlare a questa porta?~ //drückt mE den Originalsinn besser aus
+@4    = ~Vorrei solo entrare, se non ti dispiace.~
+@5    = ~Cosa voglia io non sono certo affari tuoi.~
+@6    = ~Fuori dai piedi!~
+@7    = ~Che cosa vuoi adesso?~
+@8    = ~Oh, davvero? E ci sei arrivato tutto da solo?~
+		~Oh, davvero? E ci sei arrivata tutta da sola?~
+@9    = ~Possiamo aiutarti in qualche modo?~
+@10   = ~Ti capita spesso di urlare alle porte?~
+@11   = ~Molto divertente, mi sto rotolando dalle risate. Riesci a immaginare che non stia urlando a questa porta, ma a quella scimmia perversa di un mago che ci vive dietro?~
+@12   = ~Bah, fa come ti pare. Ma se entri lì dentro, dì a quella sottospecie di fossile di smetterla di essere più insensibile di una zanzara e di aiutarmi!~
+@13   = ~Oh sì, ho capito. Un prode avventuriero in missione segretissima, giusto? Beh, al diavolo! Vai, continua a pure a pattugliare boschi, coprirti il viso e bighellonare negli angoli bui delle taverne. Bah. Impressionante quasi come una gabbia piena di gibberling castrati.~
+		~Oh sì, ho capito. Una prode avventuriera in missione segretissima, giusto? Beh, al diavolo! Vai, continua a pure a pattugliare boschi, coprirti il viso e bighellonare negli angoli bui delle taverne. Bah. Impressionante quasi come una gabbia piena di gibberling castrati.~
+@14   = ~Bah. Alla fine, sei solo un altro idiota.~
+		~Bah. Alla fine, sei solo un'altra idiota.~
+@15   = ~Oh, il coraggioso eroe ha fiutato l'occasione per aiutare una damigella in pericolo?~ 
+		~Oh, la coraggiosa eroina ha fiutato l'occasione per aiutare una damigella in pericolo?~ 
+@16   = ~Toccante. Ma se non sei esperto di alchimia, difficilmente potrai aiutarmi.~
+		~Toccante. Ma se non sei esperta di alchimia, difficilmente potrai aiutarmi.~
+@17   = ~Non conosco bene l'alchimia. Ma forse posso aiutarti comunque.~
+@18   = ~Sai, l'intera conversazione sarebbe più facile se smettessi di insultarmi.~
+@19   = ~Non *devo* aiutarti se non vuoi.~
+@20   = ~Tutto questo è ridicolo. Me ne vado.~
+@21   = ~Attenta a come parli, non tollererò altre offese!~ //"Give over or going-over!" - den Satz hatte ich nicht verstanden
+@22   = ~*sospira* Forse puoi davvero. Perdona il mio tono aspro, <SIRMAAM>, ma devi capire che sono disperata. Il mio povero marito è malato e l'unica persona in queste terre che potrebbe aiutarlo si rifiuta di farlo.~
+@23   = ~*sospira* Me ne rendo conto da sola, <SIRMAAM>, ma devi capire che sono disperata. Il mio povero marito è malato e l'unica persona in queste terre che potrebbe aiutarlo si rifiuta di farlo.~
+@24   = ~*sospira* Perdona il mio tono aspro, <SIRMAAM>, ma devi capire che sono disperata. Il mio povero marito è malato e l'unica persona in queste terre che potrebbe aiutarlo si rifiuta di farlo.~
+@25   = ~Perdona il mio tono aspro, <SIRMAAM>, ma devi capire che sono disperata. Il mio povero marito è malato e l'unica persona in queste terre che potrebbe aiutarlo si rifiuta di farlo.~
+@26   = ~Tonder e io ci siamo trasferiti nella casetta che si trova a ovest di qui. Non volevamo altro che coltivare la terra e vivere in pace, ma pochi giorni fa, Tonder è stato attaccato da un grosso animale! Se non fosse stato per Thalantyr, mio marito sarebbe stato divorato.~
+@27   = ~Tonder ha cominciato a sentirsi sempre più male e poi due sere fa è successo - si è trasformato in un lupo mannaro davanti ai miei occhi!~
+@28   = ~Un fastidioso contrattempo!~
+@29   = ~Ed ora?~
+@30   = ~Sfortuna, eh?~
+@31   = ~Vuoi che lo liberi dal suo tormento per te?~
+@32   = ~Un lupo mannaro, eh? Proprio quello che stavo cercando.~
+@33   = ~Molto di più! Sono disperata!~
+@34   = ~Non lo so.~
+@35   = ~Non lo trovo per niente divertente.~
+@36   = ~Non osare!~
+@37   = ~Ho pregato Thalantyr di cercare una cura. Ma lui semplicemente non vuole ascoltarmi! E... non oso nemmeno pensare all'unica alternativa.~
+@38   = ~Vuoi che parli con Thalantyr?~
+@39   = ~Risolverò il tuo problema... in un modo o nell'altro.~
+@40   = ~Allora sei da sola, donna.~
+@41   = ~Lo faresti per me? Sarebbe fantastico da parte tua!~
+@42   = ~Oh, per favore, <SIRMAAM>, non dirlo!~
+@43   = ~Attendi un altro momento, <SIRMAAM>.~
+@44   = ~So che potrebbe non esserci altro modo... ma non mi perdonerei mai se non avessi provato tutto. Ti prego, parla con Thalantyr. Cerca di convincerlo a produrre una cura per Tonder.~
+@45   = ~Se questo fallisse... allora... farai quello che deve essere fatto. *sospira profondamente* Ti chiedo solo... per favore, prova prima in ogni altro modo. Ti prego.~
+@46   = ~Per favore, parla con Thalantyr!~
+@47   = ~Vi ho sentiti parlare lì dentro. Che cosa farai?~
+@48   = ~Ascolta, Thalantyr ha bisogno del tuo sangue per una cura.~
+@49   = ~Vedrò se posso aiutare tuo marito.~
+@50   = ~Non lo so ancora con certezza.~
+@51   = ~Immagino che dovrò abbattere un lupo mannaro.~
+@52   = ~Allora pregherò gli dèi per il tuo successo!~
+@53   = ~Per favore! Aiuta il mio Tonder, ti prego!~
+@54   = ~Oh, no. Tutto ma non quello! Per favore non farlo! Non ha fatto del male a nessuno! Forse... se non c'è altro modo... ma fino ad allora devi provare a salvarlo!~
+@55   = ~Hai ucciso Tonder! E non hai nemmeno provato ad aiutarlo. Sei senza cuore!~
+@56   = ~Hai ucciso Tonder... ma io... probabilmente non posso biasimarti. Hai fatto tutto quello che potevi.~
+@57   = ~Il mio sangue? Io... non voglio lasciare nulla di intentato per aiutare Tonder. Aspetta un minuto.~
+@58   = ~...~
+@59   = ~Ouch!~
+@60   = ~Ecco qua. Spero sia abbastanza. Ma sbrigati!~
+@61   = ~Ho notato una donna piuttosto agitata di fronte alla tua porta.~
+@62   = ~Ho ripensato alla tua offerta.~
+@63   = ~Ho parlato con Aiwell di suo marito.~
+@64   = ~Ti ho portato le bacche di Guril.~
+@65   = ~Ho ucciso il lupo mannaro e ti ho portato il suo cadavere.~
+@66   = ~Aiwell mi ha dato un po' del suo sangue.~
+@67   = ~Ti ho portato la belladonna.~
+@68   = ~Oh, per amore di Mystra! Quella disgraziata non se ne è ancora andata? Lanciarle contro qualche altro incantesimo farà il suo lavoro?~
+@69   = ~Perdonami, ma forse posso aiutarti a sbarazzarti di questa donna.~
+@70   = ~Qual è il problema?~
+@71   = ~Come ti pare. Non ho intenzione di parlare di lei.~
+@72   = ~Davvero, eh? Bene, ho ancora bisogno di una delle tre cose per una cura: belladonna, bacche di Guril o il sangue di una persona amata.~
+@73   = ~Parlami della belladonna.~
+@74   = ~Parlami delle bacche di Guril.~
+@75   = ~Parlami del sangue della persona amata.~
+@76   = ~Ma potrei anche uccidere il lupo per te?~
+@77   = ~Bene. Vedrò cosa posso fare.~
+@78   = ~Non credo sia di mio gusto.~
+@79   = ~Davvero, eh? È molto nobile da parte tua. E ti dirò la stessa cosa che ho detto a lei: non *posso* aiutare perché mi mancano gli ingredienti più importanti per una cura: ho bisogno o della belladonna, o delle bacche di Guril o del sangue di una persona cara.~
+@80   = ~Se vuoi davvero rendere il mondo un posto migliore, potresti uccidere il lupo mannaro e portarmi il suo corpo. Forse posso ottenere preziose intuizioni dalla dissezione di un lupo mannaro in modo che il prossimo povero disgraziato possa essere salvato.~
+@81   = ~La pensi così? Beh, forse puoi davvero.~
+@82   = ~Te lo dirò. Allora capirai perché non posso aiutarla.~
+@83   = ~Bene, allora tutto sarebbe sistemato. Buona giornata.~
+@84   = ~Qualche settimana fa, quella Aiwell si è trasferita nella casa a ovest di qui, insieme a quel perditempo di suo marito.~
+@85   = ~Poche sere fa si è presentata improvvisamente alla mia porta a piangere per una creatura che aveva attaccato e morso il suo uomo. Ho potuto occuparmi della creatura, siano lodati gli dèi. Ma ovviamente, non è finita qui.~ //"critter" steht mehr für kleine Tiere?
+@86   = ~Due notti fa, quell'ameba di un marito si è improvvisamente trasformato in un lupo mannaro *sospira*. Come se non avessi abbastanza problemi.~
+@87   = ~Un lupo mannaro? Perché non lo uccidi?~
+@88   = ~E cosa vuole esattamente Aiwell da te adesso?~
+@89   = ~Davvero una storia drammatica. Che si fa ora?~
+@90   = ~Troppo rischioso. Queste bestie hanno un morso infernale e sono immuni alle armi normali. Quindi o rischio uno dei miei preziosi golem o assumo dei mercenari. Saresti disponibile?~
+@91   = ~Penso di sì. Un unico lupo mannaro non dovrebbe essere un problema.~
+@92   = ~Non riesco a credere che Aiwell abbia chiesto *questo*, a essere onesti. Cosa vuole veramente da te?~
+@93   = ~Ha deciso che io potessi curare suo marito dalla licantropia. Come se non avessi niente di meglio da fare.~
+@94   = ~E non potresti farlo?~
+@95   = ~Perché non dai semplicemente fuoco alla bestia?~
+@96   = ~Beh, questa è la domanda.~
+@97   = ~Certo, ti credo. Ma non è così facile.~
+@98   = ~Non è così facile come pensi.~
+@99   = ~Vedi, sono di fronte a un dilemma. Da un lato mi piacerebbe sicuramente aiutare Aiwell. D'altra parte, mi mancano alcuni ingredienti per una cura. Ad essere onesti, mi mancano gli ingredienti più importanti. E anche se potessi creare una medicina, il successo non sarebbe garantito, dato che non ne so molto sui lupi mannari.~ //"obviously" war mir hier nicht die pasende Übersetzung zu "natürlich", da sich Thalantyr bisher nicht gerade so verhalten hat, dass seine Hilfsbereitschaft sichtbar wäre
+@100  = ~D'altro canto se potessi mettere le mani su un lupo mannaro morto, ovviamente, potrei approfondire le mie conoscenze...~
+@101  = ~Quali sono gli ingredienti che ti mancano?~
+@102  = ~Quindi vuoi che uccida il lupo mannaro per te?~
+@103  = ~I miei appunti sono molto frammentari. Ma potrei produrre l'antidoto con uno dei tre diversi ingredienti.~
+@104  = ~I più efficienti sarebbero i fiori di belladonna, ma non crescono da queste parti.~
+@105  = ~Un ottimo sostituto sarebbero le bacche di Guril.~
+@106  = ~E se tutto il resto fallisse, potremmo improvvisare. Forse del sangue puro di una persona cara, in modo che il corpo infetto si ribelli alla malattia. Ma sarebbe poco più che una sciocchezza romantica.~
+@107  = ~La Belladonna è un ingrediente noto per liberare le persone dalla licantropia. Nove persone su dieci tornano di nuovo in salute. Tuttavia, non cresce in questa zona e non ho idea di dove si possa trovare.~
+@108  = ~Le bacche di Guril sono un vecchio rimedio. Soprattutto per certe... sofferenze intime. Non so se aiutano anche contro la licantropia, le probabilità dovrebbero essere circa la metà. Dovresti chiedere in giro a Beregost. Soprattutto nelle taverne. Alcuni locandieri potrebbero averne una scorta in magazzino.~
+@109  = ~Come ho detto, questa è pura speculazione. In alcuni racconti romantici i lupi mannari si trasformano nella forma originale quando si rendono conto di aver bevuto il sangue dei loro parenti, o di una persona cara. Ma le possibilità che questo sia vero sono al massimo una su dieci.~ //"associate" klang mir zu sehr nach Geschäftsbeziehung
+@110  = ~Il corpo di un uomo che è stato infettato dalla licantropia sarebbe di un certo valore per me. Ma dubito che si offrirebbe volontariamente.~
+@111  = ~Ma potresti anche produrre una cura?~
+@112  = ~Bene. Torna con gli ingredienti o il cadavere, tuttavia, tieni presente che posso preparare solo una delle tre pozioni per te a causa delle altre sostanze necessarie per la pozione. Buona fortuna!~
+@113  = ~E allora perché mi fai perdere tempo?~
+@114  = ~Bacche di Guril, eh? Bene, vedrò cosa posso fare con queste.~
+@115  = ~Alla fine, mi hai portato un licantropo morto! Questo migliorerà i miei studi.~ //"push" war mir zu umgangssprachlich
+@116  = ~Ecco, questo è per te. L'avevo preparato per un guerriero qualche tempo fa, ma non è mai tornato a prenderlo. Probabilmente è stato divorato. Tuttavia, è stato pagato, quindi non mi costa nulla dartelo.~
+@117  = ~Aiwell ha effettivamente donato il suo sangue? Bene, vedrò cosa posso farci.~
+@118  = ~Oh, ma guarda! Non pensavo potessi trovarmi davvero della belladonna. Bene, vedrò cosa posso farci.~
+@119  = ~Gli occhi rossi del lupo mannaro brillano nell'oscurità della capanna. Apparentemente ti ha percepito e si sta preparando a farti a pezzi.~
+@120  = ~*Attacca*~
+@121  = ~*Ritirati*~
+@122  = ~*Lanciagli l'antidoto*~
+@123  = ~Il lupo mannaro si avventa su di te.~
+@124  = ~Esci di casa.~
+@125  = ~*Il lupo mannaro afferra la fiaschetta in volo verso di lui*~
+@126  = ~*Per un momento la confusione si dipinge sul suo volto, e poi...*~
+@127  = ~*Il lupo emette un forte ululato...*~
+@128  = ~*Il lupo mannaro ringhia minaccioso. Sembra che l'antidoto non abbia funzionato.*~
+@129  = ~Aaaah! Per gli dèi, che razza di incubo! Io... chi... chi sei? Dove sono?~
+@130  = ~Sei al sicuro. Ti abbiamo liberato dalla licantropia.~
+@131  = ~Sei a casa e sei libero dalla maledizione.~
+@132  = ~Non sono che un semplice mercenario che fa il suo lavoro.~
+		~Non sono che una semplice mercenaria che fa il suo lavoro.~
+@133  = ~Beh, sembra che tu sia di nuovo in sesto, eh?~
+@134  = ~Cerca di ricomporti, amico!~
+@135  = ~Dalla licantropia? Di cosa stai parlando...~
+@136  = ~Da una maledizione? Di cosa stai parlando...~
+@137  = ~E allora cosa fai in casa mia? Di cosa stai parlando...~
+@138  = ~In sesto? Di cosa stai parlando...~
+@139  = ~Ricompormi? Di cosa stai parlando...~
+@140  = ~Aiwell! Devo raggiungerla!~
+@141  = ~Ti sono molto debitore, <LADYLORD>. Mio marito è salvo e non ci sarei mai riuscita senza il tuo aiuto.~
+@142  = ~Gli ultimi giorni sono come un incubo nella mia testa. Aiwell mi ha già detto cosa è successo.~
+@143  = ~Dovremmo rilassarci qualche giorno, tesoro. Andiamocene a Baldur's Gate.~
+@144  = ~Una buona idea. Penso che impazzirei a restare in quella casa.~
+@145  = ~Ma voglio farti un regalo, <SIRMAAM>. Entra in casa nostra e apri il baule. Nascosto sul fondo c'è uno scompartimento segreto dove troverai una buona arma. Possa esserti d'aiuto.~ //"double bottom" war mir irgendwie zu deutsch - obwohl es wohl auch englisch ist
+
+@146  = ~Eccoti! Sei riuscito ad aiutare mio marito?~
+		~Eccoti! Sei riuscita ad aiutare mio marito?~
+@147  = ~No, purtroppo no.~
+
+/* new for v 2.5 */
+
+@148   = ~Chi era la donna davanti alla tua porta?~
+@149   = ~Non preoccuparti, ora se n'è andata. Cosa voleva?~
+@150   = ~Ah, quindi *ora* capisco a cosa si riferiva. Ebbene, il lupo mannaro è morto..~
+@151   = ~Forse non è più un problema. Il lupo mannaro è morto.~ 
+@152   = ~Beh, immagino che consegnarti il cadavere sia la cosa migliore. Non credo ci sia nient'altro che si possa fare.~
+@153   = ~Considerando che il lupo mannaro è già morto, immagino che portartelo sia la cosa migliore da fare. Al momento, però, non ce l'ho con me.~
+@154   = ~Mmm, in questo caso il problema potrebbe essere risolto, davvero.~
+@155   = ~È un peccato che abbia già ucciso il lupo mannaro... Ma questo non mi impedirà di aiutare. Cercherò gli ingredienti mancanti e resusciterò il marito per trasformarlo di nuovo!~
+@156   = ~Mmpf. Vedendo così tanta generosità, immagino dovrei aggiungere anche la mia parte. Molto bene. Se mi porterai il lupo mannaro, lo resusciterò e aspetterò gli ingredienti mancanti. Hai il cadavere?~
+@157   = ~Sì, eccolo.~
+@158   = ~No, non al momento.~
+@159   = ~Ora vai a trovare l'ingrediente mancante prima che cambi idea! Tieni presente che posso preparare solo una delle tre pozioni a causa delle altre sostanze necessarie alla pozione.~
+@160   = ~Ti ho portato il cadavere del lupo mannaro, ma ho cambiato idea. È per la tua ricerca.~
+@161   = ~Ti ho portato il cadavere del lupo mannaro. Lo riporterai in vita?~
+@162   = ~Certamente, l'avevo promesso.~
+@163   = ~Molto bene, tutto è tornato come prima. Aiwell è di nuovo qui fuori, piena di speranze.~
+@164   = ~Va bene, fammelo prendere...~
+@165   = ~Tu ... ci aiuterai? Oh, e Thalantyr ha persino riportato in vita il mio povero Tonder...~
+@166   = ~Stai cercando di essere divertente, dopo tutto quello che hai già fatto per noi?~
+@167   = ~Non riesco più a trovare il cadavere del lupo mannaro ... Non sarò in grado di riportartelo.~
+@168   = ~Per favore, aiutaci!~
+@169   = ~Mmpf. Immagino che sia tutto, allora. *borbotta qualcosa sulla sbadataggine degli avventurieri di oggi*~
+
+
+
+/* new for v 4.0 */
+//@26, rephrased for new location
+@170   = ~Tonder e io ci siamo trasferiti nella casetta che si trova al confine sud-ovest di Beregost. Non chiedevamo altro che coltivare la terra e vivere in pace, ma pochi giorni fa, Tonder è stato attaccato da un grosso animale! Se non fosse stato per Thalantyr, mio marito sarebbe stato divorato.~
+
+//@84, rephrased for new location
+@171   = ~Apparentemente, questa Aiwell si è trasferita in una casa al confine sud-ovest di Beregost poche settimane fa, insieme a quel perditempo di marito.~

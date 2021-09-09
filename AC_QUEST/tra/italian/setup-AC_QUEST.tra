@@ -1,0 +1,804 @@
+/* @0    = */
+@1    = ~Ascalon's Questpack~
+@2    = ~Nessuna installazione di BG trovata. L'installatione di Ascalon's Questpack verrà abortita.~
+@3    = ~Insegna a Virginie, l'Invisibile Super Coniglio Magico, alcuni nuovi trucchi~
+@4    = ~Installa Virginie, l'Invisibile Super Coniglio~
+
+@6    = ~Agnus~
+@7    = ~Agnus il Bianco~
+@8    = ~Teliel~
+@9    = ~Teliel Meadowsinger~ //fand ich als Nachnahmen schöner
+@10   = ~Udolf~
+@11   = ~Udolf Ballner~
+@12   = ~Signora Brunnstein~ 
+@13   = ~Aaron~
+@14   = ~Aaron Brunnstein~
+@15   = ~Fantasma~
+@16   = ~Barin~
+@17   = ~Barin il Ranger~
+@18   = ~Capo Gnoll~
+@19   = ~Guardia Gnoll~
+@20   = ~Anello di Protezione di Aaron~
+@21   = ~Anello di Protezione di Aaron
+
+Questo semplice anello è dotato di un incantesimo per proteggere chi lo indossa. L'incisione all'interno recita: 'Con amore per M., da A.'
+
+STATISTICHE:
+
+Classe Armatura: +1 bonus
+Tiri-salvezza: +1 bonus~ //"light spell" fand ich missverständlich (Licht- / leicht)
+@22   = ~Kessy~
+@23   = ~Ugh~
+@24   = ~Coniglio~
+@25   = ~Allevatore di Conigli~
+@26   = ~Coniglio~
+@27   = ~Un piccolo coniglio bianco. Forse il più soffice che tu abbia mai visto.~
+@28   = ~Un piccolo coniglio bianco. Non è soffice come Zompo, ma quale coniglio potrebbe mai esserlo?~
+@29   = ~Perwell~
+@30   = ~Questo è il corpo di Perwell.~
+@31   = ~Arco Lungo Elfico~
+@32   = ~Arco Lungo Elfico di Aphriel
+
+Fin dalla tenera età l'elfa Aphriel ha vagato per le foreste del Faerûn diventando una delle più grandi Ranger del nostro tempo. Non c'era profumo che non potesse seguire e nessun criminale era al sicuro dal suo arco. Fu solo dopo aver incontrato un commerciante locale in visita alla città di Baldur's Gate e essersene perdutamente innamorata, che i suoi giorni nella foresta giunsero a una fine. La loro relazione fu benedetta con il giovane mezzelfo Perwell, e quando è stato rapito dai banditi della Costa della Spada, Aphriel si è avviata per l'ultima volta nelle foreste. Durante questo viaggio l'arco è giunto nelle mani di <CHARNAME>..
+
+STATISTICHE:
+
+Danno: +2 bonus (proiettile)
+THAC0: +3 bonus
+Peso: 2
+Fattore-velocità: 5
+Tipo di Competenza: Arco Lungo
+Tipo: A Due Mani
+Richiede: Forza 6
+
+Non utilizzabile da:
+- Ladro
+- Druido
+- Chierico
+- Mago
+- Monaco~
+@33   = ~Aphriel~
+@34   = ~Aiwell~
+@35   = ~Lupo Mannaro~
+@36   = ~Tonder~
+@37   = ~Corpo di Tonder~
+@38   = ~Dopo la morte il lupo mannaro si è ri-trasformato in un essere umano.~
+@39   = ~Bacche di Guril~
+@40   = ~Le bacche di guril sono un rimedio tradizionale nel Faerûn e vengono utilizzate per varie applicazioni. Sono particolarmente apprezzate per alleviare sofferenze di tipo 'speciale', motivo per cui queste bacche vengono spesso offerte dai negozi nelle vicinanze delle cortigiane.~ //"floozy" ist sehr umgangssprachlich
+@41   = ~Sangue di Aiwell~
+@42   = ~Aiwell ti ha dato una notevole quantità del suo sangue per salvare suo marito Tonder.~
+@43   = ~Pozione Anti-Licantropia~
+@44   = ~Questa pozione contiene principalmente fiori di belladonna.~
+@45   = ~Questa pozione contiene principalmente bacche di Guril.~
+@46   = ~Questa pozione contiene principalmente il sangue di Aiwell.~
+@47   = ~Scudo Riflettente +1~
+@48   = ~Questo scudo è lucidato a specchio e ovviamente magico. I graffi scompaiono e sangue e sporco semplicemente scorrono dalla sua superficie riflettente. Si può presumere che possa persino resistere allo sguardo di un basilisco.
+
+STATISTICHE:
+
+
+Abilità durante l'uso:
+- Classe Armatura: +1
+- Il personaggio è protetto contro tutti i tipi di pietrificazione e le forme di attacchi con lo sguardo.
+
+Richiede: Forza 12
+
+Non utilizzabile da:
+- Bardo
+- Ladro
+- Druido
+- Mago
+- Monaco
+
+Peso: 7~
+@49   = ~Libro degli Incantesimi di Karlini~
+@50   = ~In questo libro il grande Karlini, una delle figure più colorite della saggezza gnomica, ha scritto le sue esperienze e gli incantesimi. La calligrafia è confusa e incerta, probabilmente solo qualcuno folle quanto Karlini potrebbe decifrare questi scarabocchi.~
+@51   = ~Ygnatz~
+@52   = ~Ygnatius Bombastus~
+@53   = ~Karlini~
+@54   = ~Chiave di Geraldo~
+@55   = ~Questa chiave apre la porta della casa di Geraldo nel centro di Baldur's Gate.~
+@56   = ~Pelle di Gibberling~
+@57   = ~Questa è la pelle di un gibberling mutante.~
+@58   = ~Armatura di Pelle di Gibberling
+
+Uno degli incovenienti del lavoro di Geraldo con i gibberling era l'alta produzione di pelle. Poiché il pittore aveva bisogno solo della pelliccia per i suoi colori, cercò un uso diverso per la pelle spessa dei mostri... e lo trovò. Sfortunatamente, la pelle dei gibberling aveva alcuni effetti collaterali inaspettati e quindi Geraldo attese con impazienza un'anima credulona a cui rifilare il suo esperimento.
+
+I cronisti presumono che il grande Geraldo rida a crepapelle all'idea che qualche idiota avrebbe trovato questa armatura effettivamente utile.
+
+STATISTICHE:
+
+Chi la indossa diventa blu.
+
+Può essere rimossa solo da un incantesimo "Rimuovi maledizione".
+
+Classe Armatura: 4
+Carisma: -3
+Resistenza contro proiettili: +10%
+Peso: 7
+Richiede: Forza 6
+
+Non utilizzabile da:
+- Mago
+- Monaco~
+@59   = ~Elminster l'Uccello~
+@60   = ~Elminster è l'uccello ammaestrato di Geraldo, anche se nemmeno lui conosce la specie esatta. L'uccello ha un aspetto saggio e un'eccezionale avversione per i gibberling. Non appena ne sente uno emetterà un forte 'Kiwitt'.
+
+Senza l'uccello, sarebbe impossibile rintracciare i gibberling negli scantinati e nelle fogne, quindi abbi cura di lui.~
+@61   = ~Geraldo~
+@62   = ~Geraldo il Magnifico~
+@63   = ~Mandy~
+@64   = ~Ashley~
+@65   = ~Cindy~
+@66   = ~Chiave~
+@67   = ~Una piccola chiave, che apre una sorta di pannello nel muro.~
+@68   = ~Chiave del Magazzino~
+@69   = ~Questa chiave apre un magazzino nel distretto meridionale della città. I Serpenti di Abbathor hanno lì il loro covo.~
+@70   = ~Lettera~
+@71   = ~Mulahey,
+
+abbiamo osservato i tuoi sforzi per parecchio tempo e siamo molto colpiti. Una collaborazione tra te e la nostra organizzazione si rivelerà redditizia nel lungo periodo. Se vuoi metterti in contatto con noi, incontra il nostro tramite Tarasch Blackhelmet a Beregost di notte. Ti aspetterà al pilastro di pietra nel centro della città.
+
+Ad Abbathor tutta la gloria e tutti i gioielli al Serpente!~
+@72   = ~Tarash,
+
+Adesso è ufficiale. Bashrik Sparklehammer è arrivato sulla Costa della Spada! Quel dannato perbenista ci rovinerà tutti. Secondo le nostre informazioni, lui e la sua sgualdrina elfica viaggiano da Baldur's Gate verso sud... quando arriverà all'incrocio per la Strada del Leone, gli faremo una bella sorpresa!
+
+Ad Abbathor tutta la gloria e tutti i gioielli al Serpente!~
+@73   = ~Opuscolo~
+@74   = ~Ai nani del mondo in superficie!
+
+Sappiamo come vi sentite! I Malcresciuti non fanno altro che tirarvi la barba, le Orecchie a Punta ridono di voi e i Pianbassi si sono allontanati del tutto!
+
+Ma voi non siete soli. Padre Abbathor si prende cura dei suoi figli. Anche dopo che Moradin avrà spento la vostra torcia. Volete far parte della famiglia di Abbathor? Allora venite alle Cantine e chiedete di Draglon!
+
+Ad Abbathor tutta la gloria e tutti i gioielli al Serpente!~ //"steal you blind" als Idiom kenne ich nicht
+@75   = ~Appunti~
+@76   = ~Questo fascio di pagine sciolte sembra riassumere in larga misura l'approccio dei Serpenti di Abbathor. Apparentemente, il loro piano fin dall'inizio era quello di catturare un antico congegno nanico, chiamato Gundmagtor, che nel linguaggio comune significa qualcosa come "Richiama Anime Oscure". L'attacco principale del culto sembra concentrarsi su Nashkel e la nota "<CHARNAME> ha ucciso Mulahey, le miniere sono libere" fa presagire davvero male.~
+@77   = ~Questo <CHARNAME> che lavora per Wostok sta venendo qui. Prendi qualcuno tra i Furiosi, e un Araldo. L'Araldo prenderà il Gundmagtor e ce lo porterà mentre voi due aspetterete <CHARNAME> e ve ne occuperete una volta per tutte. Poi venite da noi per discutere i prossimi passi.
+
+L~
+@78   = ~Lugosch, servo fedele!
+
+Accogliamo con favore i tuoi sforzi per portare la miniera di ferro di Nashkel sotto il tuo controllo. Tuttavia, abbiamo un'altra preoccupazione: tieni d'occhio <CHARNAME> di Candlekeep. L'ordine arriva dalle profondità più inferiori e sai cosa significa.
+
+Ad Abbathor tutta la gloria e tutti i gioielli al Serpente!~
+@79   = ~Diario di Lugosch~
+@80   = ~Lugosch Grayshirt ha annotato il suo viaggio da piccolo cultista fino a sacerdote di Abbathor con una grafia pulita. Ogni riga è piena di fiducia e arroganza. Descrive come il culto ha messo radici nell'Amn e lui stesso è stato assunto come scagnozzo della famiglia Lurraxol a Trademeet. Il culto crebbe e presto migrò in città più grandi, solo per ritrovarsi tenuto a freno dai Ladri dell'Ombra ad Athkatla. Lugosch, che ora era asceso al sacerdozio, fu chiamato dai leader del culto a scendere verso nord e continuare il suo lavoro a Baldur's Gate.
+
+Le ultime voci del diario trattano dei suoi sforzi per entrare in contatto con Mulahey nelle miniere di Nashkel, descrivono il duro diniego dato dal Mezzorco ai nani e la sua gioia maliziosa quando <CHARNAME> ha liberato la miniera. Lugosch ha visto la sua possibilità e ha condotto un veloce raid per incorporare una produttiva miniera di ferro nei possedimenti del culto.~
+@81   = ~Appunti di Emerson~
+@82   = ~Emerson, il caposquadra delle miniere di Nashkel, ha trascritto i suoi calcoli e la sua esperienza in questo ammasso di carte confuse. Per qualcuno che lavora nel settore minerario, questo miscuglio di informazioni è sicuramente una miniera d'oro. Per te, invece, gli appunti sono inutili.~
+@83   = ~Diario~
+@84   = ~Questo libro sembra molto vecchio e ne ha passate tante. Alcune pagine sono strappate o bucate, altre bruciacchiate e gran parte del libro è imbrattata di sangue. Anche se non riesci a decifrare il nome del sacerdote, sembra che il vecchio vagabondo ne abbia passate tante: viaggiare con un gruppo di avventurieri, alcuni conflitti sulla "vera" esistenza dei nani e infine l'esilio dal suo clan. Per il nano, per il quale era tutta la sua famiglia, questa perdita gli fece prima perdere la testa e poi lo spinse dritto tra le braccia dei Serpenti.~
+@85   = ~Martello di Bashrik +2~
+@86   = ~Il sacerdote di Moradin, Bashrik Sparklehammer, era considerato saggio e leale all'interno della comunità dei nani liberali. Ha continuato a combattere contro la secessione dei nani di superficie e generalmente ha goduto di un'ottima reputazione. Questo martello, caricato dai fulmini di Moradin, era la sua arma più potente nella lotta contro il male.
+
+STATISTICHE:
+
+Abilità in Combattimento: +1 danno da elettricità
+THAC0: +2 bonus
+Danno:  1D4 + 3
+Tipo di danno:  contundente
+Peso: 5
+Fattore-velocità: 2
+Tipo di Competenza: Martello da Guerra
+Tipo:  A una mano
+Richiede: Forza 9
+Non utilizzabile da:
+ Druid
+ Mago 
+ Thief~
+@87   = ~Registro di Bashrik's~
+@88   = ~Il libro è scritto con una calligrafia accurata e riporta l'ultimo viaggio di Bashrik Sparklehammer. Bashrik era sulle tracce di una setta che si fa chiamare "I Serpenti di Abbathor". Per loro, Abbathor, l'unico dio malvagio tra i Morndinsamman, è considerato il liberatore e santo patrono dei nani di superficie.
+
+Non puoi imparare molto di più dal libro perché a quanto pare, gli appunti di Bashrik sono stati scritti principalmente per gli iniziati. Solo l'ultima voce potrebbe offrire un indizio, se vuoi esaminare la questione:
+
+'Oggi sono partito da Wostok. Mirjala e io tenteremo la fortuna a sud, Wostok darà un'occhiata alla grande città. Ci incontreremo di nuovo nel tempio di Helm quando avrò maggiori informazioni.
+
+Addendum: Dopo essermi liberato dell'assassino che ci aspettava alla Locanda del Braccio Amico, ho almeno imparato un nome. Un certo Draglon bazzica nelle Cantine occupandosi degli affari del culto. Bene, me ne occuperò al mio ritorno.'
+
+(Se vuoi indagare sul culto e su cosa si tratta, sarà utile tenere questo libro.)~
+@89   = ~Manufatto~
+@90   = ~Manufatto Nanico~
+@91   = ~Quello che faccia esattamente questo manufatto ti è sconosciuto. I Serpenti di Abbathor lo vogliono, probabilmente è un'informazione sufficiente.~
+@92   = ~Gundmagtor~
+@93   = ~La storia di questo manufatto è avvolta dall'oscurità. Da quello che puoi estrarre dai pochi frammenti che hai imparato finora, e se hai interpretato correttamente le poche antiche rune naniche che coprono il dispositivo, questo manufatto in qualche modo consente di contattare gli antenati dei nani e reindirizzare la loro energia in esseri oscuri.
+
+Da quello che sai sui nani, un simile atto è il più grande sacrilegio di cui un nano possa essere capace. La pace dei morti è sacra e solo anime molto corrotte oserebbero romperla.~
+@94   = ~Tarash~
+@95   = ~Assasino~
+@96   = ~Bashrik~
+@97   = ~Mirjala~
+@98   = ~Draglon~
+@99   = ~Nano~
+@100  = ~Cultista~
+@101  = ~Fanatico di Abbathor~
+@102  = ~Chierico di Abbathor~
+@103  = ~Lugosch~
+@104  = ~Galder~
+@105  = ~Therk~
+@106  = ~Jarger~
+@107  = ~Jarger Goldbart~
+@108  = ~Wostok~
+@109  = ~Wostok Hammerhead~
+@110  = ~Jassir~
+@111  = ~Jenna~
+@112  = ~Ombra~
+@113  = ~Sacerdote Folle di Dumathoin~
+@114  = ~Larn~
+@115  = ~Bob~
+@116  = ~Ron~
+@117  = ~Hank~
+@118  = ~I Serpenti di Abbathor~
+@119  = ~Lugosch ei suoi uomini sono morti e le miniere di Nashkel sono liberate dal loro male. Tuttavia, questa vittoria ha sollevato più domande che risposte. I nani che si sono uniti al culto in realtà non sono altro che emarginati alla ricerca di una nuova casa? Se è così, perché gli uomini dei Serpenti chiedono così fermamente e con veemenza la tua morte? Sono domande a cui non c'è risposta perché la traccia che hai seguito finisce qui. Tutto ciò che ti resta da fare ora è parlare con Emerson e riferire che le miniere sono di nuovo libere e sperare che tutto si risolva prima o poi.~
+@120  = ~Jasr~
+@121  = ~Jas~
+@122  = ~Jen~
+@123  = ~Emmi Wiesner~
+@124  = ~Bunger~
+
+@5000 = ~Ehilà! Una parola, per favore!~
+@5001 = ~Aiuto! ho bisogno di aiuto!~
+@5002 = ~Per gli dèi, aiutami!~
+@5003 = ~Perché nessuno mi aiuta!~
+@5004 = ~Uuuuuuuuaaaaaahahahahahahaaaaaaaah!~
+@5005 = ~Zooooompooooo! Uuuuaaaaahahaaaaaaaah!~
+@5006 = ~Uuuuaaaaaaaaaaaah!~
+@5007 = ~Vattene ora!~
+@5008 = ~So che sei in casa!~
+@5009 = ~Razza di incapace!~ //Fucking bastard war mir etwas zu heftig
+@5010 = ~E questo è quanto. Con permesso, avrei delle faccende da sbrigare.~
+@5011 = ~Un imboscata!~
+@5012 = ~Mucchio di ignoranti...~
+@5013 = ~... marmaglia incompetente...~
+@5014 = ~E hanno il coraggio di farsi chiamare avventurieri...~
+@5015 = ~Birrabollos ko valla allamatillo!~
+@5016 = ~Cosa...~
+@5017 = ~Mamma!~
+@5018 = ~Avventuriero! Salute!~
+		~Avventuriera! Salute!~
+@5019 = ~Vieni qui!~
+@5020 = ~Ho bisogno di parlarti!~
+@5021 = ~KIWITT!~
+@6000 = ~Non lasciarmi così!~
+
+@6001 = ~Entrata della Miniera~ /* new for v2.01 - AC4400.bcs */
+@6002 = ~Chalet~ /* new for v2.01 - AC4400.bcs */
+
+@10001 = ~I Bulli Belli di Ballner
+
+Ho malmenato un gruppo militante di avventurieri a Beregost.~
+@10002 = ~I Bulli Belli di Ballner
+
+Sfortunatamente, non ho potuto aiutare la compagnia a Beregost.~
+@10003 = ~I Bulli Belli di Ballner
+
+Ho risolto il problema per il gruppo di avventurieri.~
+@10004 = ~Alla Ricerca di Zompo
+
+Ed eccomi qua, partito alla ricerca del coniglietto più soffice di tutto Faerûn, il suo nome è Zompo. Dobbiamo viaggiare verso ovest come ci ha indicato la bambina e chissà quali pericoli ci aspettano nel nostro viaggio.
+
+Cosa non si farebbe per mille milioni di monete d'oro. La vita dell'avventuriero fa proprio al caso mio.~
+		~Alla Ricerca di Zompo
+
+Ed eccomi qua, partita alla ricerca del coniglietto più soffice di tutto Faerûn, il suo nome è Zompo. Dobbiamo viaggiare verso ovest come ci ha indicato la bambina e chissà quali pericoli ci aspettano nel nostro viaggio.
+
+Cosa non si farebbe per mille milioni di monete d'oro. La vita dell'avventuriera fa proprio al caso mio.~
+@10005 = ~Un Nuovo Miglior Amico per Ugh
+
+L'orco Ugh ha restituito Zompo in modo da poter rendere felice Kessy. Ora tocca a me mantenere la mia promessa e trovare un coniglio sostitutivo - Kessy ha menzionato suo padre al Carnevale.~
+@10006 = ~Alla Ricerca di Zompo
+
+Siamo riusciti a riportare a Kessy il suo coniglio preferito. Ora ricordo perché mi piace essere un avventuriero.~
+		~Alla Ricerca di Zompo
+
+Siamo riusciti a riportare a Kessy il suo coniglio preferito. Ora ricordo perché mi piace essere un'avventuriera.~
+@10007 = ~Un Nuovo Miglior Amico per Ugh
+
+Ugh ora marcia nel grande mondo con il suo coniglio Ugh-inino. Un'impresa nobile, non ci sono mai abbastanza tizi enormi accompagnati da roditori a questo mondo.~
+@10008 = ~La Signora Brunnstein a Nashkel aspetta suo Figlio
+
+Ho accettato di cercare Aaron Brunnstein. Il ragazzo è andato a fare una gita in montagna con la sua fidanzata e non è mai stato più visto. Forse il ranger Barin nel tempio di Nashkel può aiutarmi.~
+@10009 = ~Un Fantasma ai Picchi delle Nuvole?
+
+Alcuni agricoltori riferiscono di aver visto una strana figura di notte vicino alla cascata.~
+@10010 = ~Alla Ricerca di Perwell
+
+Non sono riuscito a trovare Perwell nelle miniere... spero che sia riuscito a uscire con gli altri schiavi prima che l'acqua arrivasse.~
+@10011 = ~I Serpenti di Abbathor a Nashkel?
+
+Nel quartier generale dei Serpenti ho appreso alcune brutte notizie: il loro piano iniziale era, a quanto pare, quello di catturare un antico congegno nanico chiamato Gundmagtor, che tradotto in linguaggio comune significa qualcosa come "Richiama Anime Oscure". Il colpo principale del culto sembra concentrarsi su Nashkel.~
+@10012 = ~I Serpenti di Abbathor a Nashkel - Lugosch
+
+Lugosch, il capo dei Serpenti di Abbathor a Baldur's Gate, è sul campo nelle Miniere di Nashkel. Non ci sarà scampo per lui questa volta.~
+@10013 = ~I Serpenti di Abbathor a Nashkel - Nani d'Ombra
+
+A quanto pare ho imparato qual è l'uso del Gundmagtor. Richiama una sorta di guerrieri ombra che sono sotto il dominio dell'utilizzatore. Devo impossessarmene o distruggerlo.~
+@10014 = ~I Serpenti di Abbathor a Nashkel - Minatori Dispersi
+
+Sembra che ci siano ancora alcuni minatori dispersi.~
+@10015 = ~I Serpenti di Abbathor a Nashkel - Mostri
+
+I Serpenti sembrano aver portato un paio di mostri giganti nella miniera. Ciò disturberebbe sicuramente l'attività mineraria.~
+@10016 = ~I Serpenti di Abbathor a Nashkel - Appunti di Emerson
+
+Emerson ha perso i suoi appunti durante l'attacco dei Serpenti di Abbathor.~
+@10017 = ~I Serpenti di Abbathor a Nashkel - Mostri
+
+Ho ucciso i due Umber Hulk che i Serpenti hanno portato nella miniera.~
+@10018 = ~I Serpenti di Abbathor a Nashkel - Appunti di Emerson
+
+Ho trovato gli appunti di Emerson. Sarà sicuramente contento di riaverli.~
+@10019 = ~I Serpenti di Abbathor a Nashkel - Minatori Dispersi
+
+Ho salvato i minatori scomparsi dalle grinfie di un chierico pazzo. Emerson sarà sicuramente felice della notizia.~
+@10020 = ~I Serpenti di Abbathor
+
+Ho potuto fermare l'avanzata dei Serpenti nell'area di Baldur's Gate, almeno lo spero. Lugosch Greyshirt è morto e non ho informazioni su nessun altro leader del culto. Ma non saprei dire perché il mio nome sia stato menzionato così esplicitamente. Forse un giorno scoprirò questo segreto - se mi piacerà la risposta non posso dirlo.~
+@10021 = ~Un Nano Morto e un Messaggio
+
+Nei sotterranei di Mulahey ho trovato un nano morto che aveva un messaggio per Mulahey - a quanto pare il destinatario non era particolarmente interessato a ciò che aveva da dire il messaggero. Il messaggio parla di un incontro a Beregost. Forse dovrei andare a indagare sulla questione.~
+@10022 = ~Un Misterioso Nano a Beregost
+
+Tarash Blackhelmet era estremamente sospettoso e aggressivo: ho dovuto ucciderlo. Tra i suoi beni c'era una lettera in cui si precisava che ci sarebbe stato un assassinio a nord della città...~
+@10023 = ~Un Misterioso Nano a Beregost
+
+Tarash Blackhelmet ha parlato dei "Serpenti di Abbathor", chiunque essi fossero. E ha detto che sta per succedere qualcosa a nord di Beregost... Dovrei tenere d'occhio quella strada.~
+@10024 = ~Il Figlio Scomparso
+
+Abbiamo informato la signora Brunnstein che suo figlio è morto.~
+@10025 = ~Il Figlio Scomparso
+
+Ho trovato Aaron nella Fortezza degli Gnoll. Aspetterà dall'altra parte del ponte.~
+@10026 = ~Un Fantasma ai Picchi delle Nuvole
+
+Aaron ci ha dato la soluzione. Marina ha promesso di non andare a dormire prima di ricevere il suo anello di fidanzamento. Dovrei portarle l'anello.~
+@10027 = ~Un Fantasma ai Picchi delle Nuvole
+
+Sembra che tutto sia stato sistemato. Marina ha ricevuto l'anello e può finalmente riposare in pace.~
+@10028 = ~Alla Ricerca di Perwell
+
+L'elfa Aphriel sta cercando suo figlio Perwell nel Bosco Ammantato. I banditi lo hanno rapito e apparentemente lo hanno portato in un luogo segreto.~
+@10029 = ~Alla Ricerca di Perwell
+
+Ho trovato Perwell nella miniera e l'ho mandato fuori. Da un lato, potrei sicuramente portarlo attraverso i boschi... ma dall'altro Aphriel potrebbe pagarmi un buon riscatto per il piccolo...~
+@10030 = ~Alla Ricerca di Perwell
+
+Ho trovato Perwell nella miniera e l'ho mandato fuori. Non ho tempo da perdere con dei bambini.~
+@10031 = ~Alla Ricerca di Perwell
+
+Aphriel sta ora cercando suo figlio lei stessa. Almeno l'ho salvato dalla miniera.~
+@10032 = ~Alla Ricerca di Perwell
+
+Aphriel e suo figlio sono felicemente riuniti.~
+@10033 = ~Sugli Uomini e i Lupi
+
+Il marito di Aiwell sembra essere stato infettato dalla licantropia. Probabilmente ho due opzioni per risolvere il problema: o con una pozione che posso ottenere da Thalantyr, o quella di spada vecchio stile.~
+@10034 = ~Sugli Uomini e i Lupi
+
+Thalantyr ha elencato diversi modi. Può mescolare la pozione con il sangue di Aiwell, il che è altamente discutibile. Oppure può usare bacche di Guril che non sempre funzionano. Il migliore sarebbe un elisir di belladonna. Mi ha anche detto che sarà in grado di preparare solo una delle pozioni.
+
+Potrei anche portargli il cadavere di Thonder in modo che possa capire meglio la malattia del lupo mannaro.~
+@10035 = ~Sugli Uomini e i Lupi
+
+Thalantyr ha acquistato veolentieri il cadavere di Thonder in cambio di una spada fiammeggiante. Niente male.~
+@10036 = ~Sugli Uomini e i Lupi
+
+Aiwell e Thonder sono stati felicissimi che abbia liber liberato l'uomo dalla sua maledizione.~
+
+/* new for v2.05 */
+@10037 = ~Of Wolves and Men
+
+A woman shouted at me in front of Thalantyr's abode, but I am not sure what she was referring to. Maybe it had something to do with the werewolf I killed inside the house nearby?~
+
+@10038 = ~Of Wolves and Men
+
+I decided for the healing potion out of Guril berries. Now all that is left to do is to give it to the werewolf somehow.~
+
+@10039 = ~Of Wolves and Men
+
+I decided for the healing potion out of Aiwell's blood. Now all that is left to do is to give it to the werewolf somehow.~
+
+@10040 = ~Of Wolves and Men
+
+I decided for the healing potion out of belladonna. Now all that is left to do is to give it to the werewolf somehow.~
+
+@10041 = ~Of Wolves and Men
+
+Dang, the healing potion did not work, and I had to kill the werewolf. I guess I should tell Aiwell the sad news...~
+
+@10042 = ~Of Wolves and Men
+
+Aiwell was sad indeed when she heard about her husband's death. She went away without leaving a trace...~
+
+@10043 = ~Of Wolves and Men
+
+What a fruitless day. Aiwell lost her husband, the husband is... well, dead, Thalantyr didn't get a werewolf corpse for his research, and I didn't get a reward for my efforts. Next time, I really need to watch where I put my trophies!~
+
+@20001 = ~Il Culto dell'Occhio Offuscato - Bunger Wiesner
+
+La signora halfling Emmi Wiesner ci ha addirittura implorato di cercare suo figlio, che è stato trascinato nelle grinfie del Culto.~ //"to look after" kenne ich als "sich kümmern um"
+@20002 = ~Il Culto dell'Occhio Offuscato - Bunger Wiesner
+
+Ho trovato Bunger e l'ho convinto a venire con me. Rimarrà tranquillo finché non avrò bandito il pericolo rappresentato dal Culto.~
+@20003 = ~Il Culto dell'Occhio Offuscato - Bunger Wiesner
+
+Ho trovato Bunger e l'ho convinto a fuggire. Tuttavia, il culto è stato allertato da questo fatto.~
+@20004 = ~Il Culto dell'Occhio Offuscato - Bunger Wiesner
+
+Ho trovato Bunger. Sfortunatamente, non è stato molto collaborativo e ha allertato il resto della setta. Ho dovuto ucciderlo.~
+@20005 = ~Il Culto dell'Occhio Offuscato - Bunger Wiesner
+
+Nel tentativo di portarsi in salvo, Bunger Wiesner è morto al di sotto della città.~
+@20006 = ~Il Culto dell'Occhio Offuscato - Bunger Wiesner
+
+Bunger Wiesner è tornato da sua madre. La vecchia signora vorrà sicuramente ringraziarci.~
+@20023 = ~Una Misteriosa Offerta
+
+Un messaggero mi ha portato un invito dal suo padrone. Sebbene manterrà segreto il suo nome, in qualche modo ha un interesse per me. Se voglio partecipare a questa riunione, allora dovrò incontrare il messaggero al Diadema Incoronato.~
+
+
+//BG:EE Compatibility
+
+//Strings from Original BG2 for Setup-AC_QUEST.tra
+@80001 = ~ Qualcuno mi aiuti!~ [PEASF09] //#61667
+@80002 = ~~ [PEASF07] //#61665
+@80003 = ~~ [PEASF08] //#61666
+@80004 = ~Ringrazio gli dèi ogni giorno per le cose belle della mia vita.~ [PEASF02] //##61660
+@80005 = ~ Aaahhhh.........corri!~ [PEASM09] //#61823
+@80006 = ~~ [PEASM07] //#61821
+@80007 = ~~ [PEASM08] //#61822
+@80008 = ~Scambierò qualche parola, senz'altro.~ [PEASM03] //#61817
+@80009 = ~~ [WWOLF07] //#11393
+@80010 = ~Saluti. La tua potenza è impressionante.~ [EPRIM01] //#61614
+@80011 = ~~ [EPRIM06] //#61619
+@80012 = ~~ [EPRIM07] //#61620
+@80013 = ~Gli dèi non perdonano, folle!~ [EPRIM04] //#61617
+@80014 = ~Inchinati davanti agli dèi e implorare pietà!~ [EPRIM03] //#61616
+@80015 = ~Cosa vuoi tra i fedeli?~ [EPRIM02] //#61615
+@80016 = ~Non dovrei... parlare con degli stranieri.~ [CHILF04] //#61556
+@80017 = ~~ [CHILF06] //#61558
+@80018 = ~Ummm... salve.~ [CHILF03] //#61555
+@80019 = ~Beh, sembri qualcuno che abbia più di qualche spicciolo da spendere!~ [MALMER03] //#38784
+@80020 = ~~ [MALMER06] //#38847
+@80021 = ~~ [MALMER05] //#38786
+@80022 = ~Dai un'occhiata alle mie merci, spero che le troverai tutte in condizioni soddisfacenti.~ [MALMER02] //#38783
+@80023 = ~Non farmi del male!~ [CHILM07] //#61567
+@80024 = ~~ [CHILM05] //#61565
+@80025 = ~~ [CHILM06] //#61566
+@80026 = ~Wow!~ [CHILM03] //#61563
+@80027 = ~Non sei di queste parti! Lo so!~ [CHILM02] //#61562
+@80028 = ~Beh, di certo non mi piace il tuo aspetto.~ [PEASF306] //#61683
+@80029 = ~~ [PEASF307] //#61684
+@80030 = ~~ [PEASF308] //#61685
+@80031 = ~Parla.~ [ACFEM4H] //#16255
+@80032 = ~Mmmmmm, sì?~ [GNOMEM03] //#61703
+@80033 = ~~ [GNOMEM06] //#61706
+@80034 = ~~ [GNOMEM07] //#61707
+@80035 = ~Balor~ //#8449
+@80036 = ~Di solito non parlo con persone come te, ma salve.~ [NOBFE03] //#61643
+@80037 = ~~ [NOBFE07] //#61647
+@80038 = ~~ [NOBFE08] //#61648
+@80039 = ~Pelle d'Orco +3~ //#6365
+@80040 = ~Gibberling Mutato~ //#2286
+@80041 = ~Arciere Scheletro~ //#73272
+@80042 = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. Il più delle volte, la spada lunga ha una lama affilata soltanto da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura, e possono essere diverse anche nell'ambito della medesima cultura a seconda dell'epoca. Tuttavia, una delle caratteristiche più comuni delle spade lunghe è proprio la loro lunghezza, la quale varia dagli 87 ai 117 centimetri. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è concepita per tagliare, non per infilzare. 
+
+STATISTICHE:
+
+Danno:  1D8
+Tipo di danno:  tagliente
+Peso: 4
+Fattore-velocità: 5
+Tipo di Competenza: Spada Lunga
+Tipo:  A una mano
+Richiede: Forza 6~ //#6742
+@80043 = ~Questa lama brucia con un fuoco magico e ogni volta che infligge un colpo emette un'ondata di calore. "Meta Infernum" è inciso sull'elsa, anche se sembra un po' sbiadito e potrebbe non essere originale della spada.
+
+STATISTICHE:
+
+THAC0: +1 bonus
+Danno:  1D8 +1, +1 danno da fuoco
+Tipo di danno:  tagliente
+Peso: 4
+Fattore-velocità: 5
+Tipo di Competenza: Spada Lunga
+Tipo:  A una mano
+Richiede: Forza 6~ //#4421
+@80044 = ~Spada Lunga~ //#2893
+@80045 = ~Spada di Fiamma +1~ //#4422
+@80046 = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. Il più delle volte, la spada lunga ha una lama affilata soltanto da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura, e possono essere diverse anche nell'ambito della medesima cultura a seconda dell'epoca. Tuttavia, una delle caratteristiche più comuni delle spade lunghe è proprio la loro lunghezza, la quale varia dagli 87 ai 117 centimetri. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è concepita per tagliare, non per infilzare. 
+
+STATISTICHE:
+
+Danno:  1D8
+Tipo di danno:  tagliente
+Peso: 4
+Fattore-velocità: 5
+Tipo di Competenza: Spada Lunga
+Tipo:  A una mano
+Richiede: Forza 6
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago~ //#6742
+@80047 = ~Questa lama brucia con un fuoco magico e ogni volta che infligge un colpo emette un'ondata di calore. "Meta Infernum" è inciso sull'elsa, anche se sembra un po' sbiadito e potrebbe non essere originale della spada.
+
+STATISTICHE:
+
+THAC0: +1 bonus
+Danno:  1D8 +1, +1 danno da fuoco
+Tipo di danno:  tagliente
+Peso: 4
+Fattore-velocità: 5
+Tipo di Competenza: Spada Lunga
+Tipo:  A una mano
+Richiede: Forza 6
+Non utilizzabile da:
+ Druido
+ Chierico
+ Mago~ //#4421
+
+@80048 = ~Le fionde magiche sono il segno distintivo per i robusti guerrieri halfling. Di solito le loro madri o una zia di talento creano questo tipo di fionda per il ragazzo o la ragazza halfling che sta per intraprendere la loro seconda grande avventura. Il motivo per cui la fionda viene data nella seconda avventura e non nella prima è che molti halfling decidono di non perseguire la vita dell'avventuriero dopo averne avuto un assaggio.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: +2 (proiettile)
+Fattore-velocità: 4
+Tipo di Competenza: Fionda
+Tipo: A una mano
+Richiede:
+Forza 3
+
+Peso: 0~//#619
+@80049 = ~Sia per design che per esposizione al calore intenso in battaglia, le maglie di questa armatura sono completamente annerite come carbone. Sebbene le leggende di solito parlano di cavalieri in armatura scintillante che affrontano grandi bestie, l'incantesimo di resistenza al fuoco su questo completo suggerisce battaglie egualmente grandi, pur se sconosciute, con creature sputafuoco.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+– Resistenza al Fuoco: +20%
+
+Classe Armatura: 2 (0 contro tagliente, 4 contro contundente)
+Richiede:
+ Forza 8
+
+Peso: 9~//#39557
+@80050 = ~Robe of the Apprenti~//#37573	
+@80051 = ~This robe was created by your apprentices, working busily away within the planar sphere.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+– Classe Armatura: 3
+
+Peso: 3~//#39649	
+@80052 = ~Martello Tonante~//#7781
+@80053 = ~Un fabbro nanico, Silverblade, forgiò questo martello ed altri due oggetti: una Cintura di Forza del Gigante del Gelo e un paio di Guanti del Potere dell'Ogre. La sua intenzione era di regalarli a suo figlio, all'epoca un alto ufficiale dell'esercito nanico che combatteva i giganti e le tribù di ogre nell'area. Sfortunatamente, il figlio di Silverblade morì subito dopo il completamento dei tre oggetti e prima che gli potessero essere regalati. Nell'angoscia, Silverblade stesso indossò la cintura ed i guanti. Prese il Martello dei Fulmini e lottò in battaglia contro il popolo dei giganti. Morì valorosamente.
+
+Da solo, il Martello Tonante è una potente arma magica, ma quando viene unito ai Guanti del Potere dell'Ogre e alla Cintura di Forza del Gigante del Gelo, il martello si trasforma. Questa trasformazione richiede assistenza magica. Il Martello Tonante diventa allora in grado di infliggere 8 punti di danno aggiuntivo e di uccidere all'istante qualsiasi ogre o gigante che colpisce.
+
+STATISTICHE:
+
+THAC0: +3
+Danno: 2d4+3 (contundente)
+Fattore-velocità: 1
+Tipo di Competenza: Martello da Guerra
+Tipo: A una mano
+
+Richiede:
+Forza 18
+
+Peso: 4~//#39444
+@80054 = ~Chiave di Casa della Gilda~ //#54030
+@80055 = ~Questa è la chiave per i livelli inferiori della Salone delle Feste di Lady Galvena, la Gilda delle Cortigiane.
+
+STATISTICHE:
+
+Peso: 0~ //#1091
+@80056 = ~Il Dono della Notte +5~ //#6363
+@80057 = ~Benedetta in origine da Shar, quest'armatura ha una storia lunga ed interessante. Solo i migliori tra i ladri hanno posseduto quest'armatura fortemente incantata. L'essenza della notte è stata intessuta nella scura trama dell'armatura in modo che sembri normale ma circondi il portatore in una massa di ombre serpeggianti.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Nascondersi tra le Ombre: +20%
+
+Classe Armatura: 3 (5 contro danno perforante e da proiettile)
+
+Richiede:
+Forza 3
+
+Peso: 5~ //#39548
+@80058 = ~Armatura di piastre completa di Endiku~ //#65033
+@80059 = ~Questa armatura è stata creata per Enkidu, un famoso guerriero di Kara-Tur. Anche se nessuno osava sfidarlo in un combattimento leale, Enkidu era spesso soggetto a vili attacchi furtivi da parte di assassini, ninja e Wu-Jen.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Resistenza alla Magia: +5%
+- Immunità alla Pugnalata alle Spalle
+
+Classe Armatura: -2 (-6 contro tagliente, -5 contro perforante e da proiettile)
+
+Richiede:
+Forza 15
+
+Peso: 45~ //#66422
+@80060 = ~Umber Hulk~
+
+//Journal Titles
+@90001 = ~I Bulli Belli di Ballner~
+//@90002 = ~Il Figlio Scomparso~
+//@90003 = ~Un Fantasma ai Picchi delle Nuvole~
+@90004 = ~Alla Ricerca di Zompo~
+@90005 = ~Un Nuovo Miglior Amico per Ugh~
+@90006 = ~Alla Ricerca di Perwell~
+@90007 = ~Sugli Uomini e i Lupi~
+@90008 = ~I Serpenti di Abbathor~
+@90009 = ~Il Culto dell'Occhio Offuscato - Bunger Wiesner~
+@90010 = ~Una Misteriosa Offerta~
+@90011 = ~Un Picnic da Dimenticare~
+
+//EE Descriptions
+@100032   = ~Arco Lungo Elfico di Aphriel
+
+Fin dalla tenera età l'elfa Aphriel ha vagato per le foreste del Faerûn diventando una delle più grandi Ranger del nostro tempo. Non c'era profumo che non potesse seguire e nessun criminale era al sicuro dal suo arco. Fu solo dopo aver incontrato un commerciante locale in visita alla città di Baldur's Gate e essersene perdutamente innamorata, che i suoi giorni nella foresta giunsero a una fine. La loro relazione fu benedetta con il giovane mezzelfo Perwell, e quando è stato rapito dai banditi della Costa della Spada, Aphriel si è avviata per l'ultima volta nelle foreste. Durante questo viaggio l'arco è giunto nelle mani di <CHARNAME>.
+
+STATISTICHE:
+
+THAC0: +3
+Danno: +2 (proiettile)
+Fattore-velocità: 5
+Tipo di Competenza: Arco Lungo
+Tipo: A Due Mani
+
+Richiede: 
+Forza 6
+
+Peso: 2~
+@100048   = ~Questo scudo è lucidato a specchio e ovviamente magico. I graffi scompaiono e sangue e sporco semplicemente scorrono dalla sua superficie riflettente. Si può presumere che possa persino resistere allo sguardo di un basilisco.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Classe Armatura: +1
+- Il personaggio è protetto contro tutti i tipi di pietrificazione e le forme di attacchi con lo sguardo.
+
+Richiede: 
+Forza 12
+
+Peso: 7~
+@100058   = ~Armatura di Pelle di Gibberling
+
+Uno degli incovenienti del lavoro di Geraldo con i gibberling era l'alta produzione di pelle. Poiché il pittore aveva bisogno solo della pelliccia per i suoi colori, cercò un uso diverso per la pelle spessa dei mostri... e lo trovò. Sfortunatamente, la pelle dei gibberling aveva alcuni effetti collaterali inaspettati e quindi Geraldo attese con impazienza un'anima credulona a cui rifilare il suo esperimento.
+
+I cronisti presumono che il grande Geraldo rida a crepapelle all'idea che qualche idiota avrebbe trovato questa armatura effettivamente utile.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+- Resistanza contro proiettile: +10%
+- Carisma: -3
+- Il personaggio diventa blu.
+- Può essere rimossa soltanto con l'incantesimo Scaccia Maledizione
+
+Classe Armatura: 4
+
+Richiede: 
+Forza 6
+
+Peso: 7~
+@100086   = ~Il sacerdote di Moradin, Bashrik Sparklehammer, era considerato saggio e leale all'interno della comunità dei nani liberali. Ha continuato a combattere contro la secessione dei nani di superficie e generalmente ha goduto di un'ottima reputazione. Questo martello, caricato dai fulmini di Moradin, era la sua arma più potente nella lotta contro il male.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 1d4+3, +1 punto di danno da elettricità
+Tipo di danno: Contundente
+Fattore-velocità: 2
+Tipo di Competenza: Martello da Guerra
+Tipo: A una mano
+
+Richiede:
+Forza 9
+
+Peso: 5~
+
+//Karlini Journals
+@2000001   = ~Karlini il Magnifico - Il libro degli incantesimi di Karlini il Magnifico
+
+All'interno della Locanda del Braccio Amico ho incontrato uno gnomo chiamato Ygnatius Bombastus III.
+Ha offerto 300 monete d'oro per il recupero di uno dei libri degli incantesimi del magnifico Karlini che potrebbe trovarsi all'interno delle Rovine di Ulcaster.~
+
+@2000002   = ~Karlini il Magnifico - Il libro degli incantesimi di Karlini il Magnifico
+
+Per fortuna ho trovato il libro degli incantesimi del magnifico Karlini nelle Rovine di Ulcaster.~
+
+@2000003   = ~Karlini il Magnifico - Il libro degli incantesimi di Karlini il Magnifico
+
+Come promesso, abbiamo dato a Ygnatius il libro degli incantesimi del magnifico Karlini. Dopo alcune ricerche ha trovato l'incantesimo adatto per rintracciare Karlini e abbiamo deciso di supervisionare il suo compito di lanciare l'incantesimo. Per questo mi incontrerò con Ygnatius al cerchio di pietre sulla Strada del Leone.~
+
+@2000004   = ~Karlini il Magnifico
+
+Ho detto a Ygnatius di non voler continuare a lavorare per lui.~
+
+@2000005   = ~Karlini il Magnifico
+
+Ho dato a Ignatius il libro degli incantesimi del magnifico Karlini e ho ricevuto la sua ricompensa come promesso.~
+
+@2000006   = ~Karlini il Magnifico
+
+Ho supervisionato il lancio dell'incantesimo, ma sorprendentemente è apparso un Balor e Ygnatius è scomparso. È stata una lotta dura abbattere il balor, ma è andata bene. Sfortunatamente non ho idea di come riportare Ygnatius da dovunque si trovi in questo momento.~
+
+@2000007   = ~Karlini il Magnifico
+
+Ho supervisionato il lancio dell'incantesimo, ma sorprendentemente è apparso un Balor e Ygnatius è scomparso. Inaspettatamente il demone avrebbe acconsentito a lasciare abdare i due gnomi in cambio della mia anima. Ho rifiutato l'offerta e il Balor è svanito nel nulla.~
+
+@2000008   = ~Karlini il Magnifico
+
+Ho supervisionato il lancio dell'incantesimo, ma sorprendentemente è apparso un Balor e Ygnatius è scomparso. Inaspettatamente, il demone ha acconsentito a lasciare andare i due gnomi se avessimo risposto correttamente ad alcune difficili domande sulla Costa della Spada. Altrimenti la mia anima sarebbe stata la sua ricompensa. Per fortuna e impegno sono stato in grado di rispondere correttamente a tutte e tre le domande. In cambio il Balor è svantito nel nulla ma rimanendo fedele alla parola data ha riportato indietro i due gnomi sani e salvi. Sono stati grati - più o meno - per il loro salvataggio. Gnomi... In retrospettiva la ricompensa consegnata da questi due gnomi è valsa lo sforzo.~
+
+@2000009   = ~Karlini il Magnifico~
+
+//Geraldo's Journal entries
+
+@3000001   = ~Allevamento di Gibberling a Baldur's Gate
+
+Percorrendo le strade di Baldur's Gate ho incontrato un uomo chiamato "Geraldo il Magnifico". Mi ha detto che aveva progettato di estrarre il colore blu dalla pelliccia dei gibberling ma quando hanno iniziato a riprodursi in modo incontrollabile è stato costretto a imprigionarli nella sua stessa casa. Mi ha chiesto di andare a casa sua e occuparmi dei mostri all'interno. A questo punto dovrebbero essercene circa venti.~
+@3000002   = ~Allevamento di Gibberling a Baldur's Gate
+
+In casa di Geraldo c'erano solo due gibberling. Dovrei tornare da lui e dargli comunque le pellicce.~
+@3000003   = ~Allevamento di Gibberling a Baldur's Gate
+
+Geraldo mi ha chiesto di trovare i rimanenti gibberling. Per rendere le cose più facili mi ha dato un uccello di nome Elminster, che ci avviserà quando i gibberling saranno nelle vicinanze. Per addolcire l'affare mi ricompenserà anche con 50 monete d'oro per ogni pelliccia raccolta, e un oggetto utile se dovessi riuscire a trovarli tutti.~
+@3000004   = ~Allevamento di Gibberling a Baldur's Gate
+
+Ho trovato tutti i rimanenti gibberling. Quando ho informato Geraldo se ne è andato inspiegabilmente, borbottando qualcosa sul cercare fortuna da qualche altra parte.~
+@3000005   = ~Allevamento di Gibberling a Baldur's Gate
+
+Ho detto a Geraldo di non volermi più occupare della faccenda. Ha borbottato qualcosa sul cercare fortuna altrove e se ne è andato.~
+
+@3000006   = ~Allevamento di Gibberling a Baldur's Gate~
+
+@3000007  = ~I Serpenti di Abbathor
+
+Ho assistito a un'imboscata sulla Strada della Costa e ho trovato un diario di un nano di nome Bashrik. Dovrei portarlo al Tempio di Helm a Baldur's Gate.~
+ 
+@3000008  = ~I Serpenti di Abbathor
+
+Ho accettato di affrontare questo Draglon che è stato menzionato nel diario di Bashrik. Per quanto ne so, potrebbe essere nelle Cantine.~
+
+@3000009  = ~I Serpenti di Abbathor
+
+Ho affrontato Draglon, ma è scappato. Dovrei tornare al tempio di Helm e parlare con i nani.~
+
+@3000010  = ~I Serpenti di Abbathor
+
+Una maga di nome Jenna conserva un manufatto per i nani. Lei e il suo compagno Jassir risiedono nella taverna del distretto nordoccidentale. Devo andare lì e dirle "Saluti da Mirjala" come parola d'ordine.~
+
+@3000011  = ~I Serpenti di Abbathor
+
+Ho deciso di non aiutare ulteriormente i nani.~
+
+@3000012  = ~I Serpenti di Abbathor
+
+Jenna è stata uccisa dai servi del Serpente e il manufatto è stato preso. Dovrei tornare a Wostock e riferirglielo!~
+
+@3000013  = ~I Serpenti di Abbathor
+
+Ho accettato di dare un'occhiata a un magazzino nel distretto sud-orientale di Baldur's Gate. Crediamo che sia il nascondiglio dei Serpenti di Abbathor. Avrò bisogno di una chiave per entrare.~
+
+/* new for v4.0 */
+//@10037 rephrased with location in Beregost
+@3000014 = ~Sugli Uomini e i Lupi
+
+Una donna mi ha urlato contro di fronte alla dimora di Thalantyr, ma non credo di aver capito a cosa si riferisse. Forse ha qualcosa a che fare con il lupo mannaro che ho ucciso nella casa al confine sud-ovest di Beregost?~
+
+//@10033 rephrased with location in Beregost
+@3000015  = ~Sugli Uomini e i Lupi
+
+Il marito di Aiwell sembra essere stato infettato dalla licantropia. Probabilmente ho due opzioni per risolvere il problema: o con una pozione che posso ottenere da Thalantyr, o con la cara vecchia spada.
+
+La sua casa è una piccola abitazione al confine sud-ovest di Beregost.~

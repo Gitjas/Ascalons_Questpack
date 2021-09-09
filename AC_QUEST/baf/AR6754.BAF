@@ -1,0 +1,50 @@
+IF
+	Global("ACQ16_MoveWolfLocation","GLOBAL",0)
+	InMyArea("ACQ16002")
+	Exists("ACQ16002")
+THEN
+	RESPONSE #100
+		ActionOverride("ACQ16002",DestroySelf())
+END
+
+IF
+	Global("ACQ16_MoveWolfLocation","GLOBAL",1)
+	Global("ACQ16_SpawnTonder","MYAREA",1)
+	!InMyArea("ACQ16002")
+	Global("ACQ16_TonderWithAiwell","GLOBAL",0)
+	Global("ACQ16_ResetQuest","GLOBAL",1)
+	Global("ACQ16_ResetTonder","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ16_ResetTonder","MYAREA",1)
+		CreateCreature("ACQ16002",[386.260],2)
+END
+
+IF
+	Global("ACQ16_MoveWolfLocation","GLOBAL",1)
+	Global("ACQ16_SpawnTonder","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ16_SpawnTonder","MYAREA",1)
+		CreateCreature("ACQ16002",[386.260],2)
+END
+
+IF
+	Global("ACQ16_MoveWolfLocation","GLOBAL",1)
+	Global("ACQ16","GLOBAL",10)
+	Global("AC_QUEST_CreateItem","MYAREA",0)
+THEN
+	RESPONSE #100
+		Unlock("Container 1")
+		SetGlobal("AC_QUEST_CreateItem","MYAREA",1)
+		ActionOverride("Container 1",CreateItem("AC1H53",0,0,0))
+END
+
+IF
+	Global("AC_QUEST_CutScene","MYAREA",1)
+	InMyArea("ACVIRGI")
+THEN
+	RESPONSE #100
+		ActionOverride("ACVIRGI",DestroySelf())
+		SetGlobal("AC_QUEST_CutScene","MYAREA",2)
+END

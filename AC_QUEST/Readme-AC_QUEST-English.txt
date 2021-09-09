@@ -48,15 +48,16 @@ III. Notes
 
 IV. Compatibility:
 
-Ascalon's Quest Pack was written in WeiDU and is likely compatible with all other WeiDU modifications. This mod was written specifically with the BWP by Leonardo Watson in mind and should work without issues for all BGT games.
-
 From version 2.00 the mod is compatible with Tutu (w TotSC), BG:EE, BGII:EE, BGII, BGT, and EET.
+
+For compatibility with Glam's NPC Pack, install the "Beregost" install choice for the component "From Wolves and Men".
+Ascalon's Questpack should be installed before NPC mods, especially Ascalon's Breagar, Brage's Redemption, and Brandock the Mage.
 
 ***************************************************************************************************************
 
 V. Contact:
 
-If you experience any problems (during installation or ingame), then you can contact me via the email adress above or at the www.kerzenburg.nightisforum.de forums (my name is "Ascalon" either way).
+If you experience any problems (during installation or ingame), then you can contact the current maintainer in one of the forum threads, either at Kerzenburgforum, GibberlingsThree, or BeamDog Forums.
 
 ***************************************************************************************************************
 
@@ -64,43 +65,55 @@ VI: Komponenten:
 
 	Baldur's Gate I:
 
-- A Job Well-Paid
+1 A Job Well-Paid
+-------------------------
 What happens when adventurers are a bit too eager to spend their first big money? Travel to Beregost to find out.
 
-- A Feast for the Gnolls
+2 A Feast for the Gnolls
+-------------------------
 It was supposed to be a romantic picnic, but then everything went wrong. Look for Mrs Wellstone in Nashkel and help the poor woman find her son.
 
-- The Great Carlini
-Once a gnome's scientific curiousity has been stirred there is nothing that can stop him. Not even the spell that once cost the archmage Carlini hist life. Look for Ygnatius in the Friendly Arm Inn (he is hard to miss).
-
-- Fangirls
-True fangirls stay true to their idols, just like Cindy, Mandy and Ashley in the north-western part of Baldur's Gate...
-
-- A Home for the Gibberlings
-What does an artist create when out of ideas? Trouble, lots of trouble, considering what Gerlado the Splendiferous in the central part of Baldur's Gate has been up to recently.
-
-- The Lost Son
-All the half-elf Aphriel wanted was to lay down her bow in favour of a simple life. But then everything changed. Meet her in the Cloakwood Lodge area.
-
-- Of Wolves and Men
-Aiwell the mage has barred her doors - from the outside. Find out why near High Hedge.
-
-- Flopsy
+3 Jumper
+-------------------------
 An epic tale of honour, friendship and bunny-rabbits.
 
-- The Serpents of Abbathor
+4 The Lost Son
+-------------------------
+All the half-elf Aphriel wanted was to lay down her bow in favour of a simple life. But then everything changed. Meet her in the Cloakwood Lodge area.
+
+5 Of Wolves and Men
+-------------------------
+Aiwell the mage has barred her doors - from the outside. Find out why near High Hedge.
+
+This component has two options: the first uses the hut near Thalantyr's Abode in HighHedge.
+The second option moves the home of the couple into a house in Beregost ("House 9" on Dudleyville's Walkthrough on the southwest boundary of Beregost). This is mainly for compatibility reasons because Glam's NPC Pack uses the hut in High Hedge for something else. Install this component if you want to play both mods together.
+Dudleyvilles Walkthrough:
+http://www.forgottenwars.com/bg1/ar3300.htm
+
+6 The Great Carlini
+-------------------------
+Once a gnome's scientific curiousity has been stirred there is nothing that can stop him. Not even the spell that once cost the archmage Carlini hist life. Look for Ygnatius in the Friendly Arm Inn (he is hard to miss).
+
+7 A Home for the Gibberlings
+-------------------------
+What does an artist create when out of ideas? Trouble, lots of trouble, considering what Geraldo the Splendiferous in the central part of Baldur's Gate has been up to recently.
+
+8 Fangirls
+-------------------------
+True fangirls stay true to their idols, just like Cindy, Mandy and Ashley in the north-western part of Baldur's Gate...
+
+9 The Serpents of Abbathor
+-------------------------
 A mysterious dwarven kult is recruiting along the Sword Coast and heroes are in great demand! At the moment only te BG 1 part is complete. Loot Mulahey's corpse or travel to the south-west part of Baldur's Gate to get started.
 
 
 	Baldur's Gate II:
 
-- A Halfling among the Eyeless
+10 A Halfling among the Eyeless
+-------------------------
 Who will help Mrs Lawner to find her missing son?
 
 
-	Throne of Bhaal:
-
-t.b.a.
 
 
 
@@ -187,6 +200,34 @@ VII. Version history:
 -corrected download link in ac_quest.ini
 -removed empty file ACQCUT04.baf
 
+4.0 - 2021-09-08
+-split mod into optional components.
+-"Of Wolves and men" offers second install choice where house ("9" of Dudleyville Walkthrough) in Beregost is used instead of hut in High Hedge for compatibility with Glam's NPC Pack.
+-French version added, by deratiseur & jazira (proofreading by tonton-thon)
+-Italian translation, by Coland
+-Russian version updates by Arkie
+-typo corrections by jazira
+-changed name of Gnoll "Boss" to "Gnoll Chieftain" to match the ingame names and Aaron's dialogue (English version).
+-Aaron will only say that the Gnolls took the ring, not a Gnoll Chieftain to prevent confusion with the existing Gnoll Chieftain near where Dynaheir is held.
+-Aaron should really stay at the Old Mill after the PC rested and not return to the Inn.
+-Aaron's ring should not contain comments in the description.
+-Aaron shouldn't initiate dialogue constantly while being in the pit.
+-Inserted unused journal entries for "A Job Well-Paid".
+-Journal entry about Emerson's notes should always be set correctly.
+-Dwarven artefact should not be accessible inside hidden wand safe before PC has key to it.
+-Aphriel should react to dead Perwell's body upon first meeting.
+-Aphriel should initiate dialogue only after Perwell called her.
+-Perwell shouldn't initiate dialogue constantly while being in the mine.
+-Ygnazius should not be at the FAI if quest is finished.
+-Cutscenes to receive Werwolf cure from Thalantyr should work if PC is not inside his abode as well.
+-Guril berries and Belladonna from original games (BGII/SoD) can also be used for werewolf cure. Also, guril berries from Ascalon's Questpack can be used for tanner quest in BGII.
+-use correct area variable in AC4402.baf.
+-more item descriptions in EE style by Cahir (English EE version).
+-All journal entries should be deleted upon transition to BGII in BGT. Journal entries for BG1 will not be deleted for EET.
+-split lines for install only into separate setup-install.tra. 
+-Added Dynamic Install Order categories and globally unique LABELs to support Project Infinity.
+-corrected entry in cpmvars.tpa
+
 
 ***************************************************************************************************************
 
@@ -198,6 +239,9 @@ VIII. Thanks
 - Jastey für großartige Hilfestellungen (was fürde ich nur ohne deine Tagebucheintragsbeispiele machen)
 - Leomar und Leonardo Watson für ihre Arbeit am BWP
 - Bloodtitan für die englische Übersetzung
+- Arkie for the Russian translation
+- deratiseur & jazira for the French translation, proofreading by tonton-thon
+- Coland for the Italian translation
 - Fridtjof und Hedian und allen anderen von www.rosenranken.org, die dem Questpack ein feines zu Hause bieten
 - vorlast but not vorleast den motivierten und begeisterten Spielern des BWP, die das beste Spiel aller Zeiten am Leben erhalten
 - Und zu guter Letzt meiner Lieblingsschweizerin Revianêl, die jede einzelne Quest, jede Anspielung, jeden Gag und jede versteckte Kleinigkeit auf Herz und Nieren geprüft und durchgewunken bzw. ausgebremst hat - Ohne jemals selbst über Kerzenburg hinausgekommen zu sein.

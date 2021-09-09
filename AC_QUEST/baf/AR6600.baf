@@ -1,4 +1,13 @@
 IF
+	Global("AC_QUEST_spawn_ACQ17001","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("AC_QUEST_spawn_ACQ17001","GLOBAL",2)
+		CreateCreature("ACQ17001",[2470.1537],0)
+		ActionOverride("ACQ17001",SetNumTimesTalkedTo(2))
+END
+
+IF
 	Dead("ACQ17003")
 	Global("ACGotKBookJournal","%LionsWay%",0)
 THEN

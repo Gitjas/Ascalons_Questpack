@@ -1,9 +1,11 @@
 IF
 	AreaCheck("%GnollStronghold%")
 	Global("ACQ12","GLOBAL",1)
+	Global("ACQ12_1","LOCALS",0)
 	Detect([PC])
 THEN
 	RESPONSE #100
+		SetGlobal("ACQ12_1","LOCALS",1)
 		StartDialogNoSet([PC])
 END
 

@@ -1,7 +1,7 @@
 @0    = ~Please! Do not go away, help me!~
-@1    = ~You don't need to shout any more, my lady. I will help you.~ 
+@1    = ~You don't need to shout any more, my lady. I will help you.~
 @2    = ~Calm yourself, good woman. Tell me what happened.~
-@3    = ~We happen to be available for hire. No work too dirty if the payment is right.~ 
+@3    = ~We happen to be available for hire. No work too dirty if the payment is right.~
 @4    = ~Leave me alone, I have more important things to do.~
 @5    = ~(Push the woman aside) Out of my way!~
 @6    = ~Oh, thank you, good <MANWOMAN>.~
@@ -13,7 +13,7 @@
 @12   = ~What happened?~
 @13   = ~Not my problem. Farewell.~ //die deutsche Fassung schien mir etwas neutraler gehalten, daher habe ich es etwas abgeschwächt
 @14   = ~He left for a mountain trip with his fiancée a few days ago. They were going to have a picnic... and I think he wanted to propose to her.~ //Hmmm - eigentlich ist sie ja noch keine Verlobte, wenn er ihr noch keinen Antrag gemacht hat - ist aber ein Fehler des deutschen Originals, ich lasse das mal
-@15   = ~But they never came back, so Barin gathered a company of farmers and searched the mountains. They have... oh no, it's too awful! (sobs)~ 
+@15   = ~But they never came back, so Barin gathered a company of farmers and searched the mountains. They have... oh no, it's too awful! (sobs)~
 @16   = ~What happened?~
 @17   = ~Who is Barin?~
 @18   = ~Can you tell us anything else?~
@@ -21,7 +21,7 @@
 @20   = ~All right, we are going to look for your son.~
 @21   = ~If you want to know more then talk to Barin. He is probably in the temple right now.~
 @22   = ~What have they found?~
-@23   = ~Oh, you make me so happy, <SIRMAAM>. Please hurry, Aaron's such a emotional and sensitive boy. He surely will be dreadfully scared!~ 
+@23   = ~Oh, you make me so happy, <SIRMAAM>. Please hurry, Aaron's such a emotional and sensitive boy. He surely will be dreadfully scared!~
 @24   = ~And talk to Barin in the temple, for he can certainly tell you further details.~
 @25   = ~I... I do not have any valuables besides my mother's silver necklace. I promise you, you can have it if only you bring back my son!~
 @26   = ~They found Marina's body! Someone slew her and threw her down the waterfall. The poor child! She was so young! And there were signs of monsters everywhere. No one dared to go follow them, being just farmers. Oh, please! Find my boy!~
@@ -42,10 +42,10 @@
 @41   = ~I do not recall ever having worked for such a measly reward.~
 @42   = ~Bah. What meagre trumpery.~
 @43   = ~Maybe I should cut you and your son's throat instead and search you for what you have surely hidden from me.~
-@44   = ~You must set me free, <LADYLORD>! Please, you must set me free!~  [PEASM09]
+@44   = ~You must set me free, <LADYLORD>! Please, you must set me free!~ [PEASM09]
 @45   = ~You are Aaron, right? Your mother has sent us to your rescue!~
 @46   = ~Not so fast, my boy.~
-@47   = ~I think I'll leave you down here a little longer.~ //Wenn der HC sagt "I'll keep you" klingt das, als hätte er Aaron eingesperrt
+@47   = ~I think I'll leave you down here a little longer.~
 @48   = ~Yes, that's me! Aaron Brunnstein. Please, <SIRMAAM>. Please get me out of here!~
 @49   = ~At once. I will cut your bonds.~ //"hobble" kenn ich nicht als Substantiv
 @50   = ~Not so fast? Damn, what are you waiting for?~
@@ -54,7 +54,8 @@
 @53   = ~Will you find the way?~
 @54   = ~Yes, I was conscious when they threw me in here.~
 @55   = ~But... I have one request.~
-@56   = ~I had a ring with me. The Gnoll Chieftain has taken it from me. Please, go see if you can find it for me.~
+/* rephrased for v4.0 */
+@56   = ~I had a ring with me. The gnolls took it from me. Please, go see if you can find it for me.~
 @57   = ~Is it this ring here?~
 @58   = ~We'll see what we can do.~
 @59   = ~Oh by the gods! It is my ring! Can I have it back? Please!~
@@ -180,5 +181,5 @@
 @179  = ~Oh, such a ruffian!~
 @180  = ~Way to go. Show her her place.~
 @181  = ~Oh, <CHARNAME>. I do not think that Gorion taught you to behave like *that*.~
-@182  = ~We should also have given her a good kickin'!~ //Montaron ist ein ziemliches ...
+@182  = ~We should also have given her a good kickin'!~ //Montaron ist ein ziemliches...
 @183  = ~You set her spirit to rest. I thank you, <CHARNAME>. (sigh) I don't know how I will go on - without her... But do not worry, I'll be fine. Farewell, <CHARNAME>.~

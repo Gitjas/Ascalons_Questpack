@@ -1,0 +1,253 @@
+@21   = ~Anneau de protection d'Aaron
+
+Cette simple bague est munie d'un sort pour protéger son porteur. La gravure à l'intérieur dit : « Amour pour M., de A. ».
+
+PARAMÈTRES :
+
+Classe d'armure : +1
+Jets de sauvegarde : +1
+
+Poids : 0~
+
+
+@27   = ~Un petit lapin blanc. Peut-être le plus duveteux que vous n'ayez jamais vu.
+
+PARAMÈTRES :
+
+Poids : 3
+~
+@28   = ~Un petit lapin blanc. Il n'est pas aussi duveteux que Ricochet, mais quel lapin pourrait bien l'être ?
+
+PARAMÈTRES :
+
+Poids : 3
+~
+@30   = ~Ceci est le corps de Perwell.
+
+PARAMÈTRES :
+
+Poids : 110
+~
+//@32 not needed in EE!
+@38   = ~Après sa mort, le loup-garou est redevenu un humain.
+
+PARAMÈTRES :
+
+Poids : 105~
+@40   = ~Les baies de guril sont des remèdes traditionnels à Féérune, et sont utilisées pour diverses applications. Elles sont particulièrement appréciées pour soulager les souffrances du type « privées », c'est pourquoi ces baies sont souvent proposées dans les magasins à proximité des courtisanes.
+
+Poids : 1~
+@44   = ~Cette potion contient principalement des fleurs de Belladone.
+
+Poids : 0~
+@45   = ~Cette potion contient principalement des baies de Guril.
+
+Poids : 0~
+@46   = ~Cette potion contient principalement du sang d'Aiwell.
+
+Poids : 0~
+
+//@48 not needed in EE!
+
+@50   = ~Dans ce livre, le grand Karlini, l'une des figures les plus colorées de la sagesse gnomique, a consigné ses expériences et ses sorts. L'écriture est confuse et gribouillée, et il est probable que seul quelqu'un d'aussi fou que Karlini soit en mesure de déchiffrer ce griffonnage.
+
+Poids : 2~
+@55   = ~Cette clé ouvre la porte de la maison de Geraldo au centre de la Porte de Baldur.
+
+PARAMÈTRES :
+
+Poids : 0
+~
+
+@57   = ~Ceci est la fourrure d'un grouilleux.
+
+PARAMÈTRES :
+
+Poids : 0
+~
+//@58 not needed for EE!
+
+@60   = ~Elminster est l'oiseau apprivoisé de Geraldo, bien que lui-même n'en connaisse pas l'espèce exacte. L'oiseau a une allure rusée et une aversion exceptionnelle pour les grouilleux. Dès qu'il en sent un, il piaille bruyamment.
+
+Sans cet oiseau, il serait difficile de traquer les grouilleux dans les caves et les égouts, alors prenez bien soin de lui.
+
+PARAMÈTRES :
+
+Poids : 1~
+
+@67   = ~Une petite clé, qui ouvre une sorte de panneau dans le mur.
+
+Poids : 0~
+
+@69   = ~Cette clé ouvre un entrepôt dans le quartier sud de la ville. Les Serpents d'Abbathor en ont fait leur repaire.
+
+Poids : 0~
+
+@76   = ~Cette liasse de feuillets détachés semble résumer dans une large mesure l'approche des Serpents d'Abbathor. Apparemment, leur plan était dès le début de capturer un ancien dispositif de nain, appelé Gundmagtor, qui dans le langage courant signifie quelque chose comme « Appelant des âmes noires ». La frappe principale de la secte semble se concentrer sur Nashkel, et la note « <CHARNAME> a tué Mulahey, les mines sont libres » est de mauvais augure.
+
+Poids : 0~
+
+@80   = ~Lugosch Manteaugris a écrit son cheminement de petit cultivateur à prêtre d'Abbathor avec une écriture soignée. Chaque ligne est pleine de confiance et d'arrogance. Il décrit comment le culte a pris racine à Amn et comment il a lui-même été engagé comme homme de main de la famille Lurraxol à Francmarché. Le culte s'est développé et a rapidement migré vers les grandes villes, pour se retrouver maintenu par les Voleurs de l'ombre à Athkatla. Lugosch, qui était devenu prêtre, fut appelé par les chefs du culte à monter vers le nord et à poursuivre son travail à la Porte de Baldur.
+
+Les dernières entrées du livre traitent de ses efforts pour entrer en contact avec Mulahey dans les mines de Nashkel, décrivent le rejet grossier annoncé par le demi-orque aux nains et sa joie malicieuse lorsque <CHARNAME> a libéré la mine. Lugosch y a vu sa chance et a mené une attaque rapide pour incorporer une mine de fer en bon état de marche dans le culte.
+
+Poids : 2~
+
+@82   = ~Emerson, le contremaître des mines de Nashkel, a consigné par écrit ses calculs et son expérience dans ce tas de documents déroutants. Pour quelqu'un qui travaille dans l'industrie minière, ce fouillis d'informations est sûrement une mine d'or. Pour vous, en revanche, les notes sont inutiles.
+
+Poids : 3~
+
+@84   = ~Ce livre a l'air très vieux et a subi beaucoup de dégâts. Certaines pages sont déchirées et d'autres percées, certaines sont brûlées, et une grande partie du livre est maculée de sang. Même si vous ne pouvez pas déchiffrer le nom du prêtre, il semble que le vieux vagabond ait traversé beaucoup de choses : des voyages avec un groupe d'aventuriers, certains conflits sur la « vraie » existence des nains et enfin le bannissement de son clan. Pour le nain, pour qui sa famille était tout, cette perte lui a d'abord fait perdre la tête, puis l'a conduit tout droit dans les bras des Serpents.
+
+Poids : 0~
+
+//@86 not needed in EE!
+
+@88   = ~Le livre est écrit avec une écriture soignée et relate le dernier voyage de Bashrik Marteauchargé. Bachrik était à la poursuite d'une secte appelée « Les Serpents d'Abbathor ». Pour eux, Abbathor, le seul dieu maléfique parmi les Morndinsamman, est considéré comme le libérateur et le saint patron des nains résidant à la surface.
+
+Vous ne pouvez pas en apprendre beaucoup plus dans ce livre car apparemment, les notes de Bashrik ont été écrites principalement pour les initiés. Seule la dernière entrée pourrait offrir un indice, si vous voulez vous pencher sur le sujet :
+
+« Je me suis séparé de Wostok aujourd'hui. Mirjala et moi allons tenter notre chance dans le sud, Wostok va jeter un coup d'œil dans la grande ville. Nous nous retrouverons au temple de Heaum quand j'aurai plus d'informations.
+
+Addenda : Après avoir fait parler l'assassin qui nous attendait à l'Auberge de Brasamical, j'ai appris un nom, au moins. Un certain Draglon attend dans les caves souterraines pour régler les affaires de la secte. Eh bien, je vais retarder cela jusqu'à mon retour ».
+
+(Si vous voulez enquêter sur la secte et sur ce dont il s'agit, il serait préférable de conserver ce livre.)
+
+Poids : 2~
+
+@91   = ~Vous ne savez pas ce que fait exactement cet artefact. Les Serpents d'Abbathor le veulent, c'est probablement une information suffisante.
+
+Poids : 30~
+
+@93   = ~L'histoire de cet artefact se déroule dans l'obscurité. D'après ce que vous pouvez conjecturer à partir des quelques bribes que vous avez apprises jusqu'à présent, et si vous avez interprété correctement les quelques anciennes runes naines qui recouvrent l'appareil, cet artefact permet d'une certaine manière de contacter les ancêtres des nains et de rediriger leur énergie sous forme d'êtres d'ombre.
+
+D'après ce que vous savez des anciens nains, un tel acte est le plus grand sacrilège dont un nain puisse être capable. La paix des morts est sacrée et seules des âmes très corrompues oseraient la rompre.
+
+Poids : 30~
+
+//#6742 BGII
+@80042 = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre, parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
+
+PARAMÈTRES :
+
+Dégâts : 1D8
+Type de dégât : tranchant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : épée longue
+Type : arme à 1 main
+Force nécessaire : 6~
+
+//#4421 BGII
+@80043 = ~Cette lame brûle avec un feu magique, et un souffle carbonisé est émis chaque fois qu'un coup est porté. « Meta Infernum » est gravé sur la poignée, quelque peu effacé et qui semble avoir été rajouté à l'épée originale.
+
+PARAMÈTRES :
+
+TAC0 : +1
+Dégâts : 1D8 +1 (+1 de feu)
+Type de dégât : tranchant
+Poids : 4
+Facteur de vitesse : 4
+Type de compétence : Épée longue
+Type : arme à 1 main
+Force nécessaire : 6~
+//#6742 BGII same as @80042
+
+
+//@80046 = only needed for BGT+Tutu
+
+//#4421 BGII same as @80043
+//@80047 = only needed for BGT+Tutu
+
+//#39444 BGII
+@80053 = ~Silverblade, un forgeron nain, créa ce marteau et deux autres objets : un ceinturon des géants et des gantelets des ogres. Son intention était de les offrir à son fils qui, en tant qu'officier supérieur dans les armées naines, combattait les géants et les tribus d'ogres de la région. Malheureusement le fils de Silverblade mourut à la fin de la fabrication des objets, avant qu'ils ne lui aient été offerts. De chagrin, Silverblade mit le ceinturon et les gantelets, et prenant le marteau de tonnerre, il partit se battre contre les géants. Il mourut en héros. Seul, le marteau de tonnerre est un objet magique puissant, mais combiné avec le ceinturon des géants et les gantelets des ogres, son pouvoir est transformé. Cette modification nécessite une aide magique. Le marteau de tonnerre devient alors capable d'infliger 8 points de dégâts supplémentaires par coup, et de tuer instantanément tous les géants et les ogres qu'il touche.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : 2D4 +3
+Type de dégât : contondant
+Poids : 4
+Facteur de vitesse : 1
+Type de compétence : marteau de guerre
+Type : arme à 1 main
+Force nécessaire : 18~
+//#39548 BGII
+@80057 = ~Cette armure, originellement bénite par Shar, a une histoire longue et intéressante. Seuls les plus grands voleurs ont jamais possédé cette protection lourdement enchantée. L'essence de la nuit a été tissée dans cette sombre armure de sorte qu'elle semble normale à porter, mais qu'elle entoure son porteur d'ombres entortillées.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
++20 % pour se cacher dans l'ombre
+
+Classe d'armure : 3
+Poids : 5
+Force nécessaire : 3~
+//#66422 BGII
+@80059 = ~Cette armure a été créée pour Enkidu, un fameux guerrier de Kara-Tur. En effet, alors qu'aucun adversaire ne se risquait à le défier en combat loyal, nombreux étaient ceux, ninjas, assassins ou wu-jen, qui tentaient de le poignarder dans le dos.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+Immunité complète à l'Attaque sournoise
++5 % de Résistance à la magie
+
+Classe d'armure : -2
+Poids : 45
+Force nécessaire : 15~
+
+// is @32 in "setup-AC_QUEST.tra".
+@100032   = ~Arc long elfique d'Aphriel
+
+Aphriel, l'elfe, dès son plus jeune âge a parcouru les forêts de Féérune et est devenue l'une des plus grandes rôdeuses de notre ère. Il n'y avait aucune empreinte qu'elle ne pouvait traquer, et aucun criminel n'était à l'abri de son arc. Ce n'est que lorsqu'elle a rencontré un marchand lors d'une visite à la Porte de Baldur, dont elle est tombée follement amoureuse, que ses jours dans la forêt ont pris fin. De cette liaison est né le jeune demi-elfe Perwell, et lorsqu'il a été enlevé par des bandits de la Côte des Épées, Aphriel s'est lancée une dernière fois dans les bois. Au cours de ce périple, l'arc est tombé entre les mains de <CHARNAME>.
+
+PARAMÈTRES :
+
+TAC0 : +3 
+Dégâts : +2 (projectile)
+Poids : 2
+Facteur de Vitesse : 5
+Type de compétence : arc long
+Type : arme à 2 mains
+Force nécessaire : 6~
+// is @48 in "setup-AC_QUEST.tra".
+@100048   = ~Ce bouclier est poli jusqu'à briller intensément et est évidemment magique. Les éraflures disparaissent et le sang et la saleté s'écoulent simplement de sa surface réfléchissante. On peut supposer qu'il peut même résister au regard d'un basilic.
+
+PARAMÈTRES :
+
+Le porteur est protégé contre tous les types de pétrification et toutes les attaques de regard.
+
+Classe d'armure : +2
+Poids : 7
+Force nécessaire : 12~
+// is @58 in "setup-AC_QUEST.tra".
+@100058   = ~Armure en cuir de grouilleux
+
+L'œuvre de Geraldo sur les grouilleux avait engendré de nombreux produits dérivés, notamment une abondante quantité de cuir. Étant donné que le peintre n'avait besoin de leur fourrure que pour ses pigments et leur épatante couleur bleue, il a donc cherché d'autres usages pour l'épaisse peau des monstres qui lui restait sur les bras... et en a finalement trouvé un. Malheureusement, le cuir des grouilleux a des propriétés annexes inattendues et Geraldo se languissait de pouvoir rencontrer une âme suffisamment crédule pour lui confier le fruit de son expérimentation.
+
+Les chroniqueurs présument que Geraldo le Magnifique doit rire dans sa barbe à l'idée qu'un idiot puisse trouver cette armure véritablement utile.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Résistance aux dégâts des projectiles : +10 %
+- Le personnage devient bleu
+- Charisme : -3
+- Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+
+Classe d'armure : 4
+Poids : 7
+Force nécessaire : 6~
+// is @86 in "setup-AC_QUEST.tra".
+@100086   = ~Le prêtre de Moradin, Bashrik Marteauchargé, était considéré comme sage et vrai au sein de la communauté des nains libéraux. Il luttait sans cesse contre la sécession des nains de surface et jouissait généralement d'une grande réputation. Ce marteau, chargé des coups de foudre de Moradin, était sa plus grande arme dans la lutte contre le mal.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : 1D4 +3 (+1 d'électricité) 
+Type de dégât : contondant
+Poids : 5
+Facteur de vitesse : 2
+Type de compétence : marteau de guerre
+Type : arme à 1 main
+Force nécessaire : 9~

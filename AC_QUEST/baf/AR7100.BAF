@@ -9,10 +9,10 @@ THEN
 END
 
 IF
-	Global("ACQ16_TorbenWithAiwell","GLOBAL",1)
+	Global("ACQ16_TonderWithAiwell","GLOBAL",1)
 THEN
 	RESPONSE #100
-		SetGlobal("ACQ16_TorbenWithAiwell","GLOBAL",2)
+		SetGlobal("ACQ16_TonderWithAiwell","GLOBAL",2)
 		CreateCreature("ACQ16003",[2870.2660],0)
 		Continue()
 END

@@ -1,12 +1,13 @@
 BEGIN ACQ15001
 IF ~NumTimesTalkedTo(0)~ THEN BEGIN 0
 SAY @0
-+ ~!See("ACQ15002")~ + @1 + 1
-+ ~!See("ACQ15002")~ + @2 + 2
-+ ~!See("ACQ15002")~ + @3 + 3
-+ ~!See("ACQ15002")~ + @4 + 4
-+ ~!See("ACQ15002")~ + @5 + 5
-IF ~See("ACQ15002")~ THEN + 32
++ ~!See("ACQ15002") !PartyHasItem("ACQ15002")~ + @1 + 1
++ ~!See("ACQ15002") !PartyHasItem("ACQ15002")~ + @2 + 2
++ ~!See("ACQ15002") !PartyHasItem("ACQ15002")~ + @3 + 3
++ ~!See("ACQ15002") !PartyHasItem("ACQ15002")~ + @4 + 4
++ ~!See("ACQ15002") !PartyHasItem("ACQ15002")~ + @5 + 5
+IF ~See("ACQ15002") !PartyHasItem("ACQ15002")~ THEN + 32
+IF ~PartyHasItem("ACQ15002")~ THEN + 35
 END
 
 IF ~~ THEN BEGIN 1
@@ -48,7 +49,7 @@ END
 
 IF ~~ THEN BEGIN 5a
 SAY @20
-IF ~~ THEN DO ~Enemy()~ EXIT
+IF ~~ THEN DO ~ActionOverride("ACQ15001",Enemy())~ EXIT
 END
 
 IF ~~ THEN BEGIN 6
@@ -80,7 +81,7 @@ END
 
 IF ~~ THEN BEGIN 9
 SAY @29
-IF ~~ THEN DO ~EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~ActionOverride("ACQ15001",EscapeAreaDestroy(10))~ EXIT
 END
 
 IF ~~ THEN BEGIN 10
@@ -109,18 +110,19 @@ END
 
 IF ~~ THEN BEGIN 13
 SAY @33
-IF ~~ THEN DO ~AddJournalEntry(@10028,QUEST)SetGlobal("ACQ15","GLOBAL",1)EscapeAreaMove("%FriendlyArmInn%",870,3560,0)~ EXIT
+IF ~~ THEN DO ~AddJournalEntry(@10028,QUEST)SetGlobal("ACQ15","GLOBAL",1)
+ActionOverride("ACQ15001",EscapeAreaMove("%FriendlyArmInn%",870,3560,0))~ EXIT
 END
 
 IF ~~ THEN BEGIN 14
 SAY @34
-IF ~~ THEN DO ~AddJournalEntry(@10028,QUEST)SetGlobal("ACQ15","GLOBAL",1)EscapeAreaMove("%FriendlyArmInn%",870,3560,0)~ EXIT
+IF ~~ THEN DO ~AddJournalEntry(@10028,QUEST)SetGlobal("ACQ15","GLOBAL",1)
+ActionOverride("ACQ15001",EscapeAreaMove("%FriendlyArmInn%",870,3560,0))~ EXIT
 END
 
 IF ~NumTimesTalkedToGT(0)PartyHasItem("ACQ15002")~ THEN BEGIN 15
-SAY @35 = @36
-++ @37 DO ~TakePartyItem("ACQ15002")~ + 16
-++ @38 + 17
+SAY @35 
+IF ~~ THEN + 35
 END
 
 IF ~~ THEN BEGIN 16
@@ -142,18 +144,20 @@ END
 
 IF ~~ THEN BEGIN 17
 SAY @53
-++ @54 DO ~TakePartyItem("ACQ15002")~ + 16
+++ @54 DO ~ActionOverride("ACQ15001",TakePartyItem("ACQ15002"))~ + 16
 ++ @55 + 5a
 END
 
 IF ~~ THEN BEGIN 18
 SAY @56
-IF ~~ THEN DO ~EraseJournalEntry(@10028)EraseJournalEntry(@10029)EraseJournalEntry(@10030)EraseJournalEntry(@10031)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@10028)EraseJournalEntry(@10029)EraseJournalEntry(@10030)EraseJournalEntry(@10031)
+ActionOverride("ACQ15001",EscapeAreaDestroy(10))~ EXIT
 END
 
 IF ~~ THEN BEGIN 19
 SAY @57
-IF ~~ THEN DO ~EraseJournalEntry(@10028)EraseJournalEntry(@10029)EraseJournalEntry(@10030)EraseJournalEntry(@10031)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@10028)EraseJournalEntry(@10029)EraseJournalEntry(@10030)EraseJournalEntry(@10031)
+ActionOverride("ACQ15001",EscapeAreaDestroy(10))~ EXIT
 END
 
 IF ~NumTimesTalkedToGT(0)!InMyArea("ACQ15002")!PartyHasItem("ACQ15002")~ THEN BEGIN 20
@@ -177,7 +181,8 @@ END
 
 IF ~~ THEN BEGIN 22a
 SAY @67
-IF ~~ THEN DO ~EraseJournalEntry(@10030)AddJournalEntry(@10031,QUEST_DONE)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@10030)AddJournalEntry(@10031,QUEST_DONE)
+ActionOverride("ACQ15001",EscapeAreaDestroy(10))~ EXIT
 END
 
 IF ~~ THEN BEGIN 23
@@ -201,7 +206,8 @@ END
 
 IF ~~ THEN BEGIN 26
 SAY @75
-IF ~~ THEN DO ~EraseJournalEntry(@10028)EraseJournalEntry(@10029)EraseJournalEntry(@10030)AddJournalEntry(@10031,QUEST_DONE)SetGlobal("ACQ15","GLOBAL",7)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@10028)EraseJournalEntry(@10029)EraseJournalEntry(@10030)AddJournalEntry(@10031,QUEST_DONE)SetGlobal("ACQ15","GLOBAL",7)
+ActionOverride("ACQ15001",EscapeAreaDestroy(10))~ EXIT
 END
 
 IF ~~ THEN BEGIN 27
@@ -226,12 +232,14 @@ END
 
 IF ~~ THEN BEGIN 30
 SAY @85
-IF ~~ THEN DO ~EraseJournalEntry(@10028)EraseJournalEntry(@10029)EraseJournalEntry(@10030)EraseJournalEntry(@10031)SetGlobal("ACQ15","GLOBAL",7)ReputationInc(-1)Enemy()~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@10028)EraseJournalEntry(@10029)EraseJournalEntry(@10030)EraseJournalEntry(@10031)SetGlobal("ACQ15","GLOBAL",7)ReputationInc(-1)
+ActionOverride("ACQ15001",Enemy())~ EXIT
 END
 
 IF ~~ THEN BEGIN 31
 SAY @86
-IF ~~ THEN DO ~EraseJournalEntry(@10028)EraseJournalEntry(@10029)EraseJournalEntry(@10030)EraseJournalEntry(@10031)SetGlobal("ACQ15","GLOBAL",7)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@10028)EraseJournalEntry(@10029)EraseJournalEntry(@10030)EraseJournalEntry(@10031)SetGlobal("ACQ15","GLOBAL",7)
+ActionOverride("ACQ15001",EscapeAreaDestroy(10))~ EXIT
 END
 
 BEGIN ACQ15002
@@ -257,7 +265,7 @@ END
 
 IF ~~ THEN BEGIN 3
 SAY @96
-IF ~~ THEN DO ~SetNumTimesTalkedTo(0)~ EXIT
+IF ~~ THEN DO ~SetGlobalTimer("ACQ15_TalkTimer","GLOBAL",10) ActionOverride("ACQ15002",SetNumTimesTalkedTo(0))~ EXIT
 END
 
 IF ~~ THEN BEGIN 4
@@ -284,7 +292,9 @@ END
 
 IF ~~ THEN BEGIN 8
 SAY @104 = @105
-IF ~~ THEN DO ~AddexperienceParty(1200)EraseJournalEntry(@10028)AddJournalEntry(@10029,QUEST)SetNumTimesTalkedTo(1)SetGlobal("ACQ15","GLOBAL",3)EscapeAreaMove("%CloakwoodMines%",1534,1953,12)~ EXIT
+IF ~~ THEN DO ~AddexperienceParty(1200)EraseJournalEntry(@10028)AddJournalEntry(@10029,QUEST)
+ActionOverride("ACQ15002",SetNumTimesTalkedTo(1))SetGlobal("ACQ15","GLOBAL",3)
+ActionOverride("ACQ15002",EscapeAreaMove("%CloakwoodMines%",1534,1953,12))~ EXIT
 END
 
 IF ~~ THEN BEGIN 9
@@ -295,7 +305,8 @@ END
 
 IF ~~ THEN BEGIN 10
 SAY @108
-IF ~~ THEN DO ~AddexperienceParty(1200)EraseJournalEntry(@10028)AddJournalEntry(@10030,QUEST)SetGlobal("ACQ15","GLOBAL",2)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~AddexperienceParty(1200)EraseJournalEntry(@10028)AddJournalEntry(@10030,QUEST)SetGlobal("ACQ15","GLOBAL",2)
+ActionOverride("ACQ15002",EscapeAreaDestroy(10))~ EXIT
 END
 
 IF ~NumTimesTalkedTo(1)~ THEN BEGIN 11
@@ -307,12 +318,14 @@ END
 
 IF ~~ THEN BEGIN 12
 SAY @113
-IF ~~ THEN DO ~SetNumTimesTalkedTo(1)~ EXIT
+IF ~~ THEN DO ~ActionOverride("ACQ15002",SetNumTimesTalkedTo(1))~ EXIT
 END
 
 IF ~~ THEN BEGIN 13
 SAY @114
-IF ~~ THEN DO ~SetGlobal("ACQ15","GLOBAL",4)ChangeEnemyAlly(Myself,GOODBUTBLUE)~ EXIT
+IF ~~ THEN DO ~SetGlobal("ACQ15","GLOBAL",4)
+ActionOverride("ACQ15002",MakeGlobal())
+ActionOverride("ACQ15002",ChangeEnemyAlly(Myself,GOODBUTBLUE))~ EXIT
 END
 
 IF ~~ THEN BEGIN 14
@@ -320,9 +333,11 @@ SAY @113
 IF ~~ THEN DO ~SetNumTimesTalkedTo(1)~ EXIT
 END
 
-IF ~Global("ACQ15","GLOBAL",5)~ THEN BEGIN 15
+IF WEIGHT #-1
+~Global("ACQ15","GLOBAL",5)~ THEN BEGIN 15
 SAY @115
-IF ~~ THEN DO ~DropItem("ACQ15002",[-1.-1])DestroySelf()~ EXIT
+IF ~~ THEN DO ~ActionOverride("ACQ15002",DropItem("ACQ15002",[-1.-1]))
+ActionOverride("ACQ15002",DestroySelf())~ EXIT
 END
 
 CHAIN
@@ -333,19 +348,30 @@ IF ~NumTimesTalkedToGT(0)See("ACQ15002")~ THEN ACQ15001 32
 ==ACQ15002 @119
 ==ACQ15001 @120 = @121
 END
-++ @122 DO ~GiveItem("ACQ15001",LastTalkedToBy())~ + 33
+++ @122 DO ~ActionOverride("ACQ15001",GiveItem("ACQ15001",LastTalkedToBy()))~ + 33
 ++ @123 + 34
 
 CHAIN
 IF ~~ THEN ACQ15001 33
 @124
 ==ACQ15002 @125 
-==ACQ15001 @126 DO ~AddexperienceParty(1200) ActionOverride("ACQ15002",EscapeAreaDestroy(3)) EscapeAreaDestroy(10)~
+==ACQ15001 @126 DO ~AddexperienceParty(1200) ActionOverride("ACQ15002",EscapeAreaDestroy(3)) 
+ActionOverride("ACQ15001",EscapeAreaDestroy(10))~
 EXIT
 
 CHAIN
 IF ~~ THEN ACQ15001 34
 @127
 ==ACQ15002 @125 
-==ACQ15001 @126 DO ~AddexperienceParty(1200)ReputationInc(1) ActionOverride("ACQ15002",EscapeAreaDestroy(3)) EscapeAreaDestroy(10)~
+==ACQ15001 @126 DO ~AddexperienceParty(1200)ReputationInc(1) ActionOverride("ACQ15002",EscapeAreaDestroy(3)) 
+ActionOverride("ACQ15001",EscapeAreaDestroy(10))~
 EXIT
+
+APPEND ACQ15001 
+
+IF ~~ THEN BEGIN 35
+SAY @36
+++ @37 DO ~ActionOverride("ACQ15001",TakePartyItem("ACQ15002"))~ + 16
+++ @38 + 17
+END
+END //APPEND

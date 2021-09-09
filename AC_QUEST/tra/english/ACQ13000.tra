@@ -1,18 +1,16 @@
-//Das Kaninchen wird in der deutschen Version eindeutig als "er" bezeichnet. Das Kind spricht von "meinem Hopsi" und @71 lautet: ~Wenn Ihr das Kaninchen nicht herausrückt dann nehmen wir ihn uns mit Gewalt!~ - also "he", und als Name Jumper
-
 @0    = ~Uaaaaahahahahahaaaaaaaaaa!~
 @1    = ~(sniff)~
 @2    = ~Uaaaaaaaaaaaaaahahahahahaaaaaa!!!~
-@3    = ~Hush, little one. Why are you crying?~ 
+@3    = ~Hush, little one. Why are you crying?~
 @4    = ~Calm down, child.~
 @5    = ~Shut up!~
 @6    = ~This is too stupid.~
 @7    = ~(slap the child in the face) Shut your hole!~
 @8    = ~How are you?~
-@9    = ~Waaaahahahaaaaa! Jumper! Uaaaaahahahahaaaaaa!~ 
+@9    = ~Waaaahahahaaaaa! Jumper! Uaaaaahahahahaaaaaa!~
 @10   = ~Jumper? Who is that?~
 @11   = ~Now calm yourself and tell me what happened.~
-@12   = ~Uaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaah!!!~
+@12   = ~UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!!!~
 @13   = ~Jumper is goooohooohooooooone! Uaaaaaaaaaaah!~
 @14   = ~Oh my goodness. Who is this Jumper?~
 @15   = ~Maybe I can help you. Where did you lose your "Jumper"?~
@@ -22,7 +20,7 @@
 @19   = ~Alright, I'm going to find it for you.~
 @20   = ~(sniff)~
 @21   = ~He scampered that whaaaahahay! (points west)~
-@22   = ~Oh please find him quickly, he's so smaaaaaaaaall! (cries)~ 
+@22   = ~Oh please find him quickly, he's so smaaaaaaaaall! (cries)~
 @23   = ~Oh, yes please! Please please please find my Jumper! I'll give you even one thousand millions pieces of gold for it! Please please please!~
 @24   = ~Hey, look who's here!~
 @25   = ~Girl... I'm afraid Jumper is dead.~
@@ -30,7 +28,7 @@
 @27   = ~I'm still looking for it.~
 @28   = ~I... I miss my Jumper.~
 @29   = ~That way. (She points to the west)~
-@30   = ~Please hurry. Jumper is so peerie and helpless.~
+@30   = ~Please hurry. Jumper is so small and helpless.~
 @31   = ~What? Oh no! Juuuuumpeeeeeer! Uaaaaaaahahahaaaaaaaaaaaa!~
 @32   = ~Juuumpeeeeeer! Jumper Jumper Jumper! I got you again! Oh, thank you, <SIRMAAM>, thank you thank you thank you!~
 @33   = ~Say, you would not know where one can get a rabbit as lovely as yours, wouldn't you?~
@@ -49,7 +47,7 @@
 @46   = ~Look what we've brought you.~
 @47   = ~Oh! A new best friend for Ugh!~
 @48   = ~I call you... call you... Little-Little-Ugh!~
-@49   = ~<RACE> has done much good for Ugh, Ugh will never forget! But now Little-Little-Ugh and Ugh must go to find herbs. Little-Little-Ugh must become large and strong!~
+@49   = ~You <RACE> has done much good for Ugh, Ugh will never forget! But now Little-Little-Ugh and Ugh must go to find herbs. Little-Little-Ugh must become large and strong!~
 @50   = ~Ugh and Little-Ugh fine. Leave us alone now, Little-Ugh needs his sleep to become large and strong.~
 @51   = ~Oh no! Please don't hurt Ugh! Please don't hurt!~
 @52   = ~Ugh is injured, don't want to fight against <RACE>, don't!~
@@ -68,10 +66,10 @@
 @65   = ~You're good <RACE>.~
 @66   = ~No Jumper here! Only Ugh and Little-Ugh!~
 @67   = ~This rabbit is called Jumper and belongs to a little girl!~
-@68   = ~Ugh, this is a house rabbit and not a wild rabbit. It clearly comes from a breed and not out of the woods.  Look at the clean fur. This animal is clearly a human's pet.~
+@68   = ~Ugh, this is a house rabbit and not a wild rabbit. It clearly comes from a breed and not out of the woods. Look at the clean fur. This animal is clearly a human's pet.~
 @69   = ~Well, I've probably made a mistake.~
 @70   = ~No more lies, Ugh! This rabbit is not yours!~
-@71   = ~Hand over the rabbit or we take it by force!~ //Habe die "rew.." Anspielung nicht verstanden
+@71   = ~Hand over the rabbit or we take it by force!~
 @72   = ~Little-Ugh belongs to girl? Why you no tell, Little-Ugh?~
 @73   = ~This girl is pretty sad, Ugh.~
 @74   = ~Ugh, this is a house rabbit and not a wild rabbit. It clearly comes from a breed and not out of the woods. Watch the clean fur. This animal is clearly a human's pet.~
@@ -97,7 +95,7 @@
 @94   = ~(Kick the rabbit)~
 @95   = ~(Let the rabbit rest)~
 @96   = ~(Put the rabbit in the bag)~
-@97   = ~(The rabbit nibbles on)~
+@97   = ~(The rabbit continues to nibble on some grass.)~
 @98   = ~Muah! Muahahahahahaha!~
 @99   = ~Haaaahahahahahahaha!~
 @100  = ~Yes, Little-Ugh rejoices when Ugh brings beautiful fresh herbs!~
@@ -118,7 +116,7 @@
 @115  = ~Thank you, we are just taking a look around.~
 @116  = ~Welcome back, good <MANWOMAN>. I hope you're enjoying the carnival?~
 @117  = ~I am a rabbit breeder, offering the fruits of my labor.~
-@118  = ~Thank you, I do not think we need a rabbit on our travels.~
+@118  = ~Thank you, I do not think we need a pet rabbit on our travels.~
 @119  = ~But of course. Have a nice day!~
 @120  = ~Oh, I should warn you, <SIRMAAM>. My rabbits are the noblest animals north of Amn and not exactly cheap.~
 @121  = ~The best costs up to 10 pieces of gold!~

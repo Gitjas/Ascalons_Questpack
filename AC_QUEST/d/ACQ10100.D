@@ -489,7 +489,8 @@ END
 ++ @143 + 24
 ++ @113 + 23
 
-EXTEND_TOP %Prihel_Dialog% 0 #1
+//EXTEND_TOP %Prihel_Dialog% 0 #1
+EXTEND_BOTTOM %Prihel_Dialog% 0
 IF ~Global("ACQWOSTOK","GLOBAL",0)Global("ACQSNAKEWORK","GLOBAL",1)~ THEN REPLY @144 DO ~SetGlobal("ACQWOSTOK","GLOBAL",1)~ GOTO AC.1
 IF ~Global("ACQWOSTOK","GLOBAL",0)PartyHasItem("ACQBOOK1")~ THEN REPLY @145 DO ~SetGlobal("ACQWOSTOK","GLOBAL",1)~ GOTO AC.2
 IF ~Global("ACQWOSTOK","GLOBAL",0)PartyHasItem("ACQLET03")~ THEN REPLY @146 DO ~SetGlobal("ACQWOSTOK","GLOBAL",1)~ GOTO AC.3
@@ -1015,7 +1016,7 @@ IF ~~ THEN BEGIN 6
 SAY @332
 ++ @322 DO ~AddJournalEntry(@10013,QUEST)~ + 7
 ++ @323 DO ~AddJournalEntry(@10014,QUEST)~ + 8
-++ @324 DO ~AddJournalEntry(@10012,QUEST)~ + 9
+++ @324 DO ~AddJournalEntry(@10016,QUEST)~ + 9
 ++ @325 DO ~AddJournalEntry(@10015,QUEST)~ + 10
 ++ @326 + 11
 ++ @327 + 12
@@ -1037,7 +1038,7 @@ IF ~~ THEN BEGIN 8
 SAY @335
 ++ @334  + 6
 ++ @322 DO ~AddJournalEntry(@10013,QUEST)~ + 7
-++ @324 DO ~AddJournalEntry(@10014,QUEST)~ + 9
+++ @324 DO ~AddJournalEntry(@10016,QUEST)~ + 9
 ++ @325 DO ~AddJournalEntry(@10015,QUEST)~ + 10
 ++ @326 + 11
 ++ @327 + 12
