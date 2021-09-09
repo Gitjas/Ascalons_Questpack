@@ -13,7 +13,7 @@ Ascalon's Questpack should be installed before NPC mods, especially Ascalon's Br
 
 ## Komponenten:
 
-	### Baldur's Gate I:
+### Baldur's Gate I:
 
 ### 1 A Job Well-Paid
 -------------------------
