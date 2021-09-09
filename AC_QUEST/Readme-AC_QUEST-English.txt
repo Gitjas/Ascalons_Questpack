@@ -61,7 +61,7 @@ If you experience any problems (during installation or ingame), then you can con
 
 ***************************************************************************************************************
 
-VI: Komponenten:
+VI: Components:
 
 	Baldur's Gate I:
 
