@@ -222,6 +222,11 @@ LANGUAGE ~Italian~
 	 ~italian~ 
 	 ~AC_QUEST/TRA/italian/setup-AC_QUEST.tra~
 	 ~AC_QUEST/TRA/italian/setup-install.tra~
+	 
+LANGUAGE ~French~ 
+	 ~french~ 
+	 ~AC_QUEST/TRA/french/setup-AC_QUEST.tra~
+	 ~AC_QUEST/TRA/french/setup-install.tra~
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
