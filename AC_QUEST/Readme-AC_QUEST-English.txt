@@ -50,7 +50,7 @@ IV. Compatibility:
 
 From version 2.00 the mod is compatible with Tutu (w TotSC), BG:EE, BGII:EE, BGII, BGT, and EET.
 
-For compatibility with Glam's NPC Pack, install the "Beregost" install choice for the component "From Wolves and Men".
+For compatibility with Glam's NPC Pack, install the "Beregost" install choice for the component "Of Wolves and Men".
 Ascalon's Questpack should be installed before NPC mods, especially Ascalon's Breagar, Brage's Redemption, and Brandock the Mage.
 
 ***************************************************************************************************************
