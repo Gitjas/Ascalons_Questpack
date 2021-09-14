@@ -229,6 +229,10 @@ VII. Historique des versions :
 - Ajout des catégories Dynamic Install Order et des LABELs uniques pour supporter Project Infinity.
 - Entrée corrigée dans cpmvars.tpa.
 
+4.1 - 2021-09-14
+-French version is now offered when installing.
+-Translation of French readme completed.
+
 
 
 
