@@ -35,9 +35,9 @@ IF
 	Global("AC_QUEST_CreateItem","MYAREA",0)
 THEN
 	RESPONSE #100
-		Unlock("Container 1")
+		Unlock("Container 2")
 		SetGlobal("AC_QUEST_CreateItem","MYAREA",1)
-		ActionOverride("Container 1",CreateItem("AC1H53",0,0,0))
+		ActionOverride("Container 2",CreateItem("AC1H53",0,0,0))
 END
 
 IF
