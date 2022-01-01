@@ -232,6 +232,10 @@ VII. Version history:
 -French version is now offered when installing.
 -Translation of French readme completed.
 
+4.2 - 2022-01-01
+-French sounds integrated (bgee)
+-"From men and Wolves (Beregost version)": reward should be in chest, not drawer.
+
 
 ***************************************************************************************************************
 
