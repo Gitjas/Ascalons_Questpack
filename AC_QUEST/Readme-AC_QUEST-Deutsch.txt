@@ -239,6 +239,9 @@ VII. Versions-History:
 -French sounds integrated (bgee)
 -"From men and Wolves (Beregost version)": reward should be in chest, not drawer.
 
+4.3 - 2022-04-09
+-"The Great Karlini": Ygnatius should spawn at Lions Way if he tells the PC to meet him there.
+
 ***************************************************************************************************************
 
 

@@ -5,6 +5,7 @@ THEN
 		SetGlobal("AC_QUEST_spawn_ACQ17001","GLOBAL",2)
 		CreateCreature("ACQ17001",[2470.1537],0)
 		ActionOverride("ACQ17001",SetNumTimesTalkedTo(2))
+		Continue()
 END
 
 IF
@@ -17,4 +18,5 @@ THEN
 		EraseJournalEntry(@2000002)
 		EraseJournalEntry(@2000003)
 		AddJournalEntry(@2000006,QUEST_DONE)
+		Continue()
 END
