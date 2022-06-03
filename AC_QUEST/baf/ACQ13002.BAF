@@ -7,7 +7,7 @@ THEN
 END	
 
 IF
-	Dead("AC13003")
+	Dead("ACQ13003")
 	!Allegiance(Myself,ENEMY)
 THEN
 	RESPONSE #100
