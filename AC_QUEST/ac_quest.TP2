@@ -2,7 +2,7 @@ BACKUP ~AC_QUEST/backup~
 //AUTHOR ~whiteagnus@baldursgatemods.de~ 
 SUPPORT ~https://baldurs-gate.de/index.php?threads/ascalons-questpack.39286/~
 
-VERSION ~4.3~  
+VERSION ~4.4~  
 
 AUTO_TRA "AC_QUEST/TRA/autotra/%s"//%"
 
@@ -743,7 +743,7 @@ EXTEND_TOP ~%LionsWay_BCS%.bcs~ ~AC_QUEST/BAF/AR6600.baf~
 EVAL
 */
 LAF extend_area_script STR_VAR area="%UlcasterRuins%" bottom="AC_QUEST/BAF/AR9798.baf"   END
-LAF extend_area_script STR_VAR area="%LionsWay%" bottom="AC_QUEST/BAF/AR6600.baf"   END
+LAF extend_area_script STR_VAR area="%LionsWay%" top="AC_QUEST/BAF/AR6600.baf"   END
 
 
 COPY ~AC_QUEST/ITM/BOOK90.ITM~ ~OVERRIDE/ACQBOOK2.ITM~ 

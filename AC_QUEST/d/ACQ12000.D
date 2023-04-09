@@ -213,8 +213,8 @@ END
 
 IF ~~ THEN BEGIN 14
 SAY @77
-IF ~HasItem("ACQ12000","ACQ12002")~ THEN DO ~ClearAllActions()StartCutSceneMode()StartCutScene("ACQ12CUT")~ EXIT
-IF ~!HasItem("ACQ12000","ACQ12002")~ THEN DO ~ClearAllActions()StartCutSceneMode()StartCutScene("ACQ12CU2")~ EXIT
+IF ~HasItem("ACQ12000","ACQ12002")~ THEN DO ~EraseJournalEntry(@10025) ClearAllActions()StartCutSceneMode()StartCutScene("ACQ12CUT")~ EXIT
+IF ~!HasItem("ACQ12000","ACQ12002")~ THEN DO ~EraseJournalEntry(@10025) ClearAllActions()StartCutSceneMode()StartCutScene("ACQ12CU2")~ EXIT
 END
 
 IF ~~ THEN BEGIN 15

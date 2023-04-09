@@ -69,8 +69,8 @@ END
 IF ~~ THEN BEGIN 10
 SAY @26
 ++ @27 + 13
-++ @28 + 14
-++ @29 + 15
+++ @28 + 13a
+++ @29 + 9a
 END
 
 IF ~~ THEN BEGIN 11
@@ -80,11 +80,16 @@ SAY @30
 END
 
 IF ~~ THEN BEGIN 11a
-SAY @33 = @34 = @35 = @36 = @37 = @38 = @39
+SAY @33 = @34 = @35 = @36 = @37 = @38 
+IF ~~ THEN + 10
+END
+
+/*= @39
 ++ @27 + 13
 ++ @28 + 14
 ++ @29 + 15
 END
+*/
 
 IF ~~ THEN BEGIN 12
 SAY @40
@@ -93,7 +98,12 @@ SAY @40
 END
 
 IF ~~ THEN BEGIN 13
-SAY @42 = @43
+SAY @42
+IF ~~ THEN + 13a
+END
+
+IF ~~ THEN BEGIN 13a
+SAY @43
 ++ @44 + 14
 ++ @45 + 15
 ++ @46 + 16

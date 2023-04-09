@@ -240,6 +240,10 @@ VII. Version history:
 -"The Great Karlini": Ygnatius should spawn at Lions Way if he tells the PC to meet him there.
 -Corrected typo in DeathVariable in ACQ13002.BAF
 
+4.4 - 2023-04-09
+-"The Great Karlini": Ygnatius should REALLY spawn at Lions Way if he tells the PC to meet him there.
+-Install error on BG:EE for non-English versions fixed.
+
 
 ***************************************************************************************************************
 
