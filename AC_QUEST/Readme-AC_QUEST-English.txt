@@ -242,6 +242,7 @@ VII. Version history:
 
 4.4 - 2023-04-09
 -"The Great Karlini": Ygnatius should REALLY spawn at Lions Way if he tells the PC to meet him there.
+-English version: changed "localize" -> "locate".
 -Install error on BG:EE for non-English versions fixed.
 
 
