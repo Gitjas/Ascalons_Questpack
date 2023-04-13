@@ -2,7 +2,7 @@ BACKUP ~AC_QUEST/backup~
 //AUTHOR ~whiteagnus@baldursgatemods.de~ 
 SUPPORT ~https://baldurs-gate.de/index.php?threads/ascalons-questpack.39286/~
 
-VERSION ~4.4~  
+VERSION ~4.5~  
 
 AUTO_TRA "AC_QUEST/TRA/autotra/%s"//%"
 
@@ -109,7 +109,9 @@ To be used later in the form:
 
     ACTION_IF GAME_IS ~bgee~ THEN BEGIN
       COPY ~AC_QUEST/TRA/english/sounds~ ~override~
-      COPY ~AC_QUEST/TRA/%LANGUAGE%/sounds~ ~override~
+      ACTION_IF DIRECTORY_EXISTS ~AC_QUEST/tra/%LANGUAGE%/sounds~ THEN BEGIN
+        COPY ~AC_QUEST/TRA/%LANGUAGE%/sounds~ ~override~
+      END
     END
 
     ACTION_IF GAME_IS ~bgt bgee tutu_totsc eet~ THEN BEGIN

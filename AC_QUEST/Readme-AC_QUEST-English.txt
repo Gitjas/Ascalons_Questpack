@@ -245,6 +245,9 @@ VII. Version history:
 -English version: changed "localize" -> "locate".
 -Install error on BG:EE for non-English versions fixed.
 
+4.5 - 2023-04-13
+-Fixed install error for Russian version, by Arkie.
+
 
 ***************************************************************************************************************
 
