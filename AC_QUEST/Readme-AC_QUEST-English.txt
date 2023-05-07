@@ -250,6 +250,7 @@ VII. Version history:
 
 4.6 - 2023-05-07
 -Removed wrong string refs from cres (Serpents of Abbathor).
+-Taken mine should no longer contain contaminatd ore.
 
 
 ***************************************************************************************************************
