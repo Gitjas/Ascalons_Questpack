@@ -249,6 +249,9 @@ VII. Historique des versions :
 4.5 - 2023-04-13
 -Fixed install error for Russian version, by Arkie.
 
+4.6 - 2023-05-07
+-Removed wrong string refs from cres (Serpents of Abbathor).
+
 
 
 
