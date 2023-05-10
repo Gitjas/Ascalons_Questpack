@@ -1102,7 +1102,8 @@ IF ~~ THEN ACQEMERS 14
 ==ACQEMERS IF ~Dead("ACQ10120")~ THEN @353 DO ~AddexperienceParty(1200)ReputationInc(1)~
 ==ACQEMERS IF ~Global("ACUMBWAKE","GLOBAL",2)~ THEN @354 DO ~AddexperienceParty(1200)~
 ==ACQEMERS @355 DO ~EraseJournalEntry(@10011)EraseJournalEntry(@10012)EraseJournalEntry(@10013)EraseJournalEntry(@10014)EraseJournalEntry(@10015)EraseJournalEntry(@10016)EraseJournalEntry(@10017)EraseJournalEntry(@10018)EraseJournalEntry(@10021)EraseJournalEntry(@10022)
-AddJournalEntry(@10020,QUEST_DONE) EscapeAreaDestroy(10)~
+AddJournalEntry(@10020,QUEST_DONE) 
+SetGlobal("ACQ1SNAKESDEFEATED","GLOBAL",2) EscapeAreaDestroy(10)~
 EXIT
 
 BEGIN ACQ10120

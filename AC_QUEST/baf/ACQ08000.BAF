@@ -3,7 +3,7 @@
 IF
 	OR(2)
 		Global("ACQWOSTOK","GLOBAL",9) // PC won't help any more
-		Global("ACQ1SNAKESDEFEATED","GLOBAL",1) // quest solved
+		GlobalGT("ACQ1SNAKESDEFEATED","GLOBAL",0) // quest solved
 	IsActive(Myself)
 THEN
 	RESPONSE #100
