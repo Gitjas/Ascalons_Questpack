@@ -250,9 +250,10 @@ VII. Historique des versions :
 -Fixed install error for Russian version, by Arkie.
 
 4.6 - 2023-05-10
--Freed miners in the occupied mine should leave (Serpents of Abbathor).
+-Freed miners and Amnish guards should leave (Serpents of Abbathor).
 -Removed wrong string refs from cres (Serpents of Abbathor).
 -Taken mine should no longer contain contaminatd ore (Serpents of Abbathor).
+-Removed wrong automap notes (AC4404.are).
 
 
 
