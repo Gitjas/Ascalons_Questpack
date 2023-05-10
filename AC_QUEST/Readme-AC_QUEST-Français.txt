@@ -249,9 +249,10 @@ VII. Historique des versions :
 4.5 - 2023-04-13
 -Fixed install error for Russian version, by Arkie.
 
-4.6 - 2023-05-07
+4.6 - 2023-05-10
+-Freed miners in the occupied mine should leave (Serpents of Abbathor).
 -Removed wrong string refs from cres (Serpents of Abbathor).
--Taken mine should no longer contain contaminatd ore.
+-Taken mine should no longer contain contaminatd ore (Serpents of Abbathor).
 
 
 
