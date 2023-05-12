@@ -257,6 +257,7 @@ VII. Versions-History:
 -Taken mine should no longer contain contaminatd ore (Serpents of Abbathor).
 -Removed wrong automap notes (AC4404.are).
 -Removed leftover scripts from mod areas.
+-Inserted unused journal entry if Tarash remained friendly (Serpents of Abbathor).
 
 ***************************************************************************************************************
 

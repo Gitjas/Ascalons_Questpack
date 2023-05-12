@@ -144,12 +144,12 @@ END
 
 IF ~~ THEN BEGIN 11
 SAY @42
-IF ~~ THEN DO ~SetGlobal("ACSNAKEPLOT","GLOBAL",1)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~AddJournalEntry(@10023,QUEST)SetGlobal("ACSNAKEPLOT","GLOBAL",1)EscapeAreaDestroy(10)~ EXIT
 END
 
 IF ~~ THEN BEGIN 12
 SAY @43
-IF ~~ THEN DO ~SetGlobal("ACSNAKEPLOT","GLOBAL",1)EscapeAreaDestroy(10)~ EXIT
+IF ~~ THEN DO ~AddJournalEntry(@10023,QUEST)SetGlobal("ACSNAKEPLOT","GLOBAL",1)EscapeAreaDestroy(10)~ EXIT
 END
 
 BEGIN ACQ10104
@@ -1101,7 +1101,7 @@ IF ~~ THEN ACQEMERS 14
 ==ACQEMERS IF ~PartyHasItem("ACQBOOK4")~ THEN @352 DO ~AddexperienceParty(1200)TakePartyItem("ACQBOOK4")~
 ==ACQEMERS IF ~Dead("ACQ10120")~ THEN @353 DO ~AddexperienceParty(1200)ReputationInc(1)~
 ==ACQEMERS IF ~Global("ACUMBWAKE","GLOBAL",2)~ THEN @354 DO ~AddexperienceParty(1200)~
-==ACQEMERS @355 DO ~EraseJournalEntry(@10011)EraseJournalEntry(@10012)EraseJournalEntry(@10013)EraseJournalEntry(@10014)EraseJournalEntry(@10015)EraseJournalEntry(@10016)EraseJournalEntry(@10017)EraseJournalEntry(@10018)EraseJournalEntry(@10021)EraseJournalEntry(@10022)
+==ACQEMERS @355 DO ~EraseJournalEntry(@10011)EraseJournalEntry(@10012)EraseJournalEntry(@10013)EraseJournalEntry(@10014)EraseJournalEntry(@10015)EraseJournalEntry(@10016)EraseJournalEntry(@10017)EraseJournalEntry(@10018)EraseJournalEntry(@10021)EraseJournalEntry(@10022) EraseJournalEntry(@10023)
 AddJournalEntry(@10020,QUEST_DONE) 
 SetGlobal("ACQ1SNAKESDEFEATED","GLOBAL",2) EscapeAreaDestroy(10)~
 EXIT
