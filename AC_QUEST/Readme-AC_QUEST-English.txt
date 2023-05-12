@@ -253,6 +253,7 @@ VII. Version history:
 -Removed wrong string refs from cres (Serpents of Abbathor).
 -Taken mine should no longer contain contaminatd ore (Serpents of Abbathor).
 -Removed wrong automap notes (AC4404.are).
+-Removed leftover scripts from mod areas.
 
 
 ***************************************************************************************************************
