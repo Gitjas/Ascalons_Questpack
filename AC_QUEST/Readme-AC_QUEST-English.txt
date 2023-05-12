@@ -255,6 +255,7 @@ VII. Version history:
 -Removed wrong automap notes (AC4404.are).
 -Removed leftover scripts from mod areas.
 -Inserted unused journal entry if Tarash remained friendly (Serpents of Abbathor).
+-Tarash should not spawn if quest was started with pamphlet (Serpents of Abbathor).
 
 
 ***************************************************************************************************************
