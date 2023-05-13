@@ -4,6 +4,6 @@ IF
 	NumTimesTalkedTo(0)
 THEN
 	RESPONSE #100
-		CreateItem("ACQ10101",0,0,0)
+		CreateItem("ACQ1011A",0,0,0)
 		StartDialogNoSet([PC])
 END

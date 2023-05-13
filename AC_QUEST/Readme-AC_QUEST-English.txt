@@ -256,6 +256,7 @@ VII. Version history:
 -Removed leftover scripts from mod areas.
 -Inserted unused journal entry if Tarash remained friendly (Serpents of Abbathor).
 -Tarash should not spawn if quest was started with pamphlet (Serpents of Abbathor).
+-Lugosch should drop the known Gundmagtor, not the unknown artefact (Serpents of Abbathor).
 
 
 ***************************************************************************************************************
