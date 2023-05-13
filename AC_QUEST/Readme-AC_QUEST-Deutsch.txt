@@ -251,7 +251,7 @@ VII. Versions-History:
 4.5 - 2023-04-13
 -Fixed install error for Russian version, by Arkie.
 
-4.6 - 2023-05-10
+5.0 - 2023-05-12
 -Freed miners and Amnish guards should leave (Serpents of Abbathor).
 -Removed wrong string refs from cres (Serpents of Abbathor).
 -Taken mine should no longer contain contaminatd ore (Serpents of Abbathor).
@@ -260,6 +260,7 @@ VII. Versions-History:
 -Inserted unused journal entry if Tarash remained friendly (Serpents of Abbathor).
 -Tarash should not spawn if quest was started with pamphlet (Serpents of Abbathor).
 -Lugosch should drop the known Gundmagtor, not the unknown artefact (Serpents of Abbathor).
+-Gibberling Leather Armor should not be called Orc Leather (Home for the Gibberlings).
 
 ***************************************************************************************************************
 

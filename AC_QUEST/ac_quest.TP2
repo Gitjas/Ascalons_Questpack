@@ -2,7 +2,7 @@ BACKUP ~AC_QUEST/backup~
 //AUTHOR ~whiteagnus@baldursgatemods.de~ 
 SUPPORT ~https://baldurs-gate.de/index.php?threads/ascalons-questpack.39286/~
 
-VERSION ~4.6pre~  
+VERSION ~5.0pre~  
 
 AUTO_TRA "AC_QUEST/TRA/autotra/%s"//%"
 
@@ -871,7 +871,7 @@ SAY DESC @57
 
 COPY ~AC_QUEST/ITM/ACQ18002.ITM~ ~override~
 SAY NAME1 #6664
-SAY NAME2 @80039
+SAY NAME2 @1000
 SAY UNIDENTIFIED_DESC #6667
 PATCH_IF GAME_IS ~tutu_totsc bgt~ BEGIN
 SAY DESC @58
