@@ -269,6 +269,8 @@ THAC0: +2 улучшение
 @123  = ~Эмми Вайснер~
 @124  = ~Бунгер~
 
+@1000 = ~Gibberling Leather Armor~ /* new for v5.0 */
+
 @5000 = ~Эй! Можно тебя на пару слов?~
 @5001 = ~Прошу! Мне нужна помощь!~
 @5002 = ~Помогите, ради богов!~
@@ -816,3 +818,76 @@ THAC0: +2 улучшение
 Муж волшебницы Айвелл болен ликантропией. У меня есть два варианта решения этой проблемы: использовать зелье, которое может сделать Талантир, или справиться с помощью оружия.
 
 Ее дом расположен на юго-западном крае Берегоста.~
+
+/* new for v5.0 */
+@3000016  = ~The Serpents of Abbathor
+
+I gave the dwarven journal to Draglon who in the Undercellars, and I fear I have lost my way to contact the other mentioned dwarf, Wostok, who the journal was actually meant for. Maybe there is still a way to ask for him in the temple of Helm in Baldur's Gate if I have more insight into this cult "Serpents of Abbathor", but my gut is telling me that I will need a dwarf in my group to receive such information.~
+@3000017  = ~The Serpents of Abbathor
+
+I met a dwarf in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but what it is about he wouldn't tell me and instead left with a threat about a powerful enemy I made... I wished people wouldn't be so thin-skinned. Maybe I'll learn more about what he meant - my gut is telling me that I will need a dwarf in my group to find such information.~
+@3000018  = ~The Serpents of Abbathor
+
+I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, but he didn't like how I asked for more information and left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go and look for this Wostok inside the temple of Helm in Baldur's Gate.~
+@3000019  = ~The Serpents of Abbathor
+
+I confronted Draglon, the contact of the Serpents of Abbathor, but he didn't like how I asked for more information and left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go around with the cult pamphlet and see whether anyone knows something about it.~
+@3000020  = ~The Serpents of Abbathor
+
+I met Draglon, the contact of the Serpents of Abbathor, in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but when I declined to work for the cult he left with a threat about a powerful enemy I made... Maybe I'll learn more about what he meant - my gut is telling me that I will need a dwarf in my group to find such information.~
+@3000021  = ~The Serpents of Abbathor
+
+I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, but when I declined to work for the cult he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go and look for this Wostok inside the temple of Helm in Baldur's Gate.~
+@3000022  = ~The Serpents of Abbathor
+
+I met Draglon, the contact of the Serpents of Abbathor, but when I declined to work for the cult he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go around with the cult pamphlet and see whether anyone knows something about it.~
+@3000023  = ~The Serpents of Abbathor
+
+I met Draglon, the contact of the Serpents of Abbathor, in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but when I threatened him he left with a threat about a powerful enemy I made... Maybe I'll learn more about what he meant - my gut is telling me that I will need a dwarf in my group to find such information.~
+@3000024  = ~The Serpents of Abbathor
+
+I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, but when I threatened him he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go and look for this Wostok inside the temple of Helm in Baldur's Gate.~
+@3000025  = ~The Serpents of Abbathor
+
+I met Draglon, the contact of the Serpents of Abbathor, but when I threatened him he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go around with the cult pamphlet and see whether anyone knows something about it.~
+@3000026  = ~The Serpents of Abbathor
+
+Sigh - I made an enemy out of *another* evil organization who thought I'd play the henchman for them. I guess they are dangerous enough but we'll see whether they'll send more than one group of assassins after me if they realize I might be dangerous, myself.~
+@3000027  = ~The Serpents of Abbathor
+
+I agreed to kill Wostok and his comrades for Draglon, the contact of the Serpents of Abbathor. Wostok was last seen in the Temple of Helm in Baldur's Gate. When I'm done, I will find Draglon again in the Undercellars.~ 
+@3000028  = ~The Serpents of Abbathor
+
+Wostok is dead.~
+@3000029  = ~The Serpents of Abbathor
+
+A mage named Jenna keeps an artifact for the dwarves. She and her companion Jassir reside in the Northwestern District's tavern. I need to go there and retrieve the ancient dwarvern artifact from them.~
+@3000030  = ~The Serpents of Abbathor
+
+I have the Gundmagtor, the dwarven artifact Draglon wanted me to retrieve. I should return to the undercellars and give it to him.~
+@3000031  = ~The Serpents of Abbathor
+
+Draglon gave me a key to a warehouse in south east Baldur's Gate where the Serpents of Abbathor have a meeting. I am invited and should join with them to discuss my further affiliation to the cult.~
+@3000032  = ~The Serpents of Abbathor
+
+I'll find Wostok who can give me answers to the Serpents of Abbathor in the sewers.~
+/* former @3000007 with more details */
+@3000033  = ~The Serpents of Abbathor
+
+I witnessed an ambuch at the Coast Way and found a journal from a dwarf named Bashrik. It mentions two fractions: Draglon from the Serpents of Abbathor, a cult who worship an evil dwarven god, and Wostok who was investigating the cult. Wostok was supposed to meet with Bashrik in the Temple of Helm in Baldur's Gate. Draglon from the cult was last seen in the Undercellar.~
+@3000034  = ~The Serpents of Abbathor
+
+I didn't agree to help Wostok further against the Serpents of Abbathor, but I think I could still check out this Draglon from the cult in the Undercellars if I feel like it.~
+@3000035  = ~The Serpents of Abbathor
+
+I should go to the the temple of Helm in Baldur's Gate again to meet Wostok.~
+/* @3000012 with more info */
+@3000036  = ~The Serpents of Abbathor
+
+Jenna was killed by the Serpent's minions, and the artefact was taken. I should return to Wostock in the temple of Helm in Baldur's Gate and tell him about it!~
+@3000037  = ~The Serpents of Abbathor
+
+We granted Wostok's plea to die by our hand - I would lie if I said we fulfilled his request without emotions. I hope he and his friends are now in whatever afterlife he was wishing for.~
+@3000038  = ~The Serpents of Abbathor
+
+Wostok plead to die by our hand instead of waiting for his wounds to take him. Never would I have thought that this would be our last act of help we would need to do for him.~

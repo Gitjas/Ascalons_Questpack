@@ -3,6 +3,8 @@ IF
 	Global("ACQUEST_JournalEntries","MYAREA",0)
 THEN
 	RESPONSE #100
-		AddJournalEntry(@3000007,QUEST)
+		EraseJournalEntry(@10022)
+		EraseJournalEntry(@10023)
+		AddJournalEntry(@3000033,QUEST)
 		SetGlobal("ACQUEST_JournalEntries","MYAREA",1)
 END

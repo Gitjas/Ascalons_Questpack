@@ -251,7 +251,8 @@ VII. Versions-History:
 4.5 - 2023-04-13
 -Fixed install error for Russian version, by Arkie.
 
-5.0 - 2023-05-12
+5.0 - 2023-05-13
+-Generally revised Serpents of Abbathor quest: more journal entries, no open quest ends, PC can change sides if agreed to kill Wostok, dialogue improvements.
 -Freed miners and Amnish guards should leave (Serpents of Abbathor).
 -Removed wrong string refs from cres (Serpents of Abbathor).
 -Taken mine should no longer contain contaminatd ore (Serpents of Abbathor).

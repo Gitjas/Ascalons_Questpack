@@ -114,7 +114,7 @@
 @113  = ~Na gut. Dann gebt mir meinen Auftrag.~
 @114  = ~Unser Anführer in Baldur's Tor benötigt einen Gegenstand. Ein mächtiges, uraltes Zwergenartefakt, mehr braucht Ihr nicht zu wissen. Es wurde in der Halle der Wunder ausgestellt, aber nun hat eine Magierin namens Jenna das Artefakt erworben um es gründlich zu untersuchen. Bringt es zu mir, egal wie, und Eure Aufgabe gilt als erfüllt. Ihr werdet Jenna in der Taverne im Nordwesten der Stadt finden. Wir treffen uns wieder hier, sobald Ihr Erfolg hattet.~
 @115  = ~Ein dummer Fehler, ein sehr dummer Fehler. Betet, dass die Strafe rasch und schmerzlos sein wird!~
-@116  = ~Natürlich. Ihr habt Euch als Vertrauenswürdig erwiesen und habt das Recht, ein paar Dinge zu erfahren.~
+@116  = ~Natürlich. Ihr habt Euch als vertrauenswürdig erwiesen und habt das Recht, ein paar Dinge zu erfahren.~
 @117  = ~Wie groß sind die Schlangen Abbathors?~
 @118  = ~Woher stammt der Kult?~
 @119  = ~Was verspricht Abbathor?~
@@ -409,3 +409,13 @@
 @408  = ~Das Alter ist keine Krankheit. Und nun... nun hat es mich erwischt. Bitte, <GABBER>. Schenkt mir ein Ende. Ich will durch den Stahl sterben und nicht wie ein Hund.~
 
 @409  = ~Ich fürchte, dafür ist es jetzt zu spät.~
+
+/* new for v5.0 */
+@410  = ~[Draglon]Verständlich, aber das steht Euch noch nicht zu. Erst müsst Ihr Euch als vertrauenswürdig erweisen.~
+@411  = ~Ich soll für Euch weiterhin arbeiten, ohne genaue Details zu kennen?~
+@412  = ~Yes, I regret it myself. Is there a chance we could start over? I'd rather help you against this evil cult.~
+@413  = ~[Wostok]Hmm. What do you know so far?~
+@414  = ~Enough to know that I will rather work for you.~
+@415  = ~I would. There is just one problem. I think I already made an enemy out of him, so he knows my face, too.~
+@416  = ~[Wostok]Hmm. That's too bad. Still, I think you could be of use to us. Meet us in the temple of Helm later. We will return there when we have gathered new information.~
+

@@ -29,11 +29,13 @@ END
 IF
 	Dead("ACQ10109")
 	Dead("ACQ10110")
+	!Global("ACQSNAKEWORK","GLOBAL",2)
+	Global("ACQWOSTOK","GLOBAL",3)
 	Global("ACQUEST_JournalEntries","MYAREA",0)
 THEN
 	RESPONSE #100
 		EraseJournalEntry(@3000010)
-		AddJournalEntry(@3000012,QUEST)
+		AddJournalEntry(@3000036,QUEST)
 		SetGlobal("ACQUEST_JournalEntries","MYAREA",1)
 END
 
@@ -47,4 +49,15 @@ THEN
 		SetGlobal("AC_Place_Artefact","MYAREA",1)
 END
 
+IF
+	PartyHasItem("ACQ10101")
+	Global("ACQSNAKEWORK","GLOBAL",2)
+	!Global("ACQWOSTOK","GLOBAL",3)
+	Global("ACQUEST_JournalEntries","MYAREA",0)
+THEN
+	RESPONSE #100
+		EraseJournalEntry(@3000029)
+		AddJournalEntry(@3000030,QUEST)
+		SetGlobal("ACQUEST_JournalEntries","MYAREA",1)
+END
 	

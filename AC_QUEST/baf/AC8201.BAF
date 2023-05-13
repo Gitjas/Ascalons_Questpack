@@ -6,6 +6,7 @@ THEN
 	RESPONSE #100		
 		SetGlobal("ACQ1NASHKELL_Journal","MYAREA",1)
 		SetGlobal("ACQ1NASHKELL","GLOBAL",1)
+		EraseJournalEntry(@3000031)
 		EraseJournalEntry(@3000013)
 		AddJournalEntry(@10011,QUEST)
 		Continue()

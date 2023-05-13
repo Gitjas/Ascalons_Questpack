@@ -15,3 +15,14 @@ THEN
 		AddMapNote([1202.717],@6001) //mine entrance
 		AddMapNote([2796.430],@6002) //cabin
 END
+
+IF
+	Dead("ACQ10127")
+	Global("ACQWOSTOKWANTSTODIE","MYAREA",1)
+THEN
+	RESPONSE #100
+		EraseJournalEntry(@3000038)
+		AddJournalEntry(@3000037,QUEST)
+		AddexperienceParty(500)
+		SetGlobal("ACQWOSTOKWANTSTODIE","MYAREA",2)
+END

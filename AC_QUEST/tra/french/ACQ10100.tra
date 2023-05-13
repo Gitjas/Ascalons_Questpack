@@ -408,3 +408,12 @@
 @407  = ~(Le vieux prêtre respire fortement plusieurs fois, puis ses yeux paraissent aussi clairs qu'auparavant.)~
 @408  = ~L'âge n'est pas une maladie. Et maintenant... c'est mon heure. S'il vous plaît, <GABBER>. Accordez-moi la fin. Je veux mourir par l'acier, pas... pas comme ça.~
 @409  = ~Je crains qu'il ne soit trop tard maintenant.~
+
+/* new for v5.0 */
+@410  = ~[Draglon]Understandable, but that is not yet your right. First you have to prove yourself trustworthy.~
+@411  = ~You want me to continue working for you without knowing exact details?~
+@412  = ~Yes, I regret it myself. Is there a chance we could start over? I'd rather help you against this evil cult.~
+@413  = ~[Wostok]Hmm. What do you know so far?~
+@414  = ~Enough to know that I will rather work for you.~
+@415  = ~I would. There is just one problem. I think I already made an enemy out of him, so he knows my face, too.~
+@416  = ~[Wostok]Hmm. That's too bad. Still, I think you could be of use to us. Meet us in the temple of Helm later. We will return there when we have gathered new information.~
