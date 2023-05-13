@@ -183,13 +183,13 @@ L~
 We welcome your effort to bring the iron mine in Nashkel under your control. However, we do have another concern: keep an eye on <CHARNAME> from Candlekeep. The order comes from the lowest depths and you know what that means.
 
 To God all glory and all jewels to the Serpent!~
-@79   = ~Lugosch's diary~
+@79   = ~Lugosch's Journal~
 @80   = ~Lugosch Grayshirt has written down his journey from a small cultist to priest of Abbathor with neat handwriting. Every line is full of confidence and arrogance. He describes how the cult took root in Amn and he himself was hired as a henchman to the Lurraxol family in Trademeet. The cult grew and soon migrated to larger cities, only to find itself kept down by the Shadow Thieves in Athkatla. Lugosch, who now had ascended to priesthood, was called away by the cult leaders to descend northwards and continue his work in Baldur's Gate.
 
 The last entries of the book deal with his efforts to get in touch with Mulahey in the mines of Nashkel, describe the rude denial given by the Halforc to the dwarves and his malicious glee when <CHARNAME> freed the mine. Lugosch saw his chance and led a fast strike to incorporate a smoothly running iron mine into the cult.~
 @81   = ~Emerson's Notes~
 @82   = ~Emerson, the foreman of the Nashkel Mines, has written down his calculations and experience in this messed up cluster of papers. For someone who works in the mining industry, this jumble of information is surely a gold mine. For you, however, the notes are useless.~
-@83   = ~Diary~
+@83   = ~Journal~
 @84   = ~This book looks very old and has been through a lot. Some pages are torn and others pierced, some singed, and a large part of the book is smeared with blood. Even if you cannot decipher the name of the priest, it seems the old wanderer has gone through a lot - traveling with a group of adventurers, certain conflicts over the "true" dwarf existence and finally the banishment from his clan. To the dwarf, to whom his family was above all, this loss made him first lose his mind and then drove him straight into the arms of the Serpents.~
 @85   = ~Bashrik's Hammer +2~
 @86   = ~The priest of Moradin, Bashrik Sparklehammer, was considered as wise and true and within the community of liberal dwarves. He continued to fight against the secession of the surface dwarves and generally relished a high reputation. This hammer, charged with the thunderbolts of Moradin, was his greatest weapon in the fight against evil.
@@ -258,7 +258,10 @@ From what you know about the old dwarves, such an act is the greatest sacrilege 
 @123  = ~Emmi Wiesner~
 @124  = ~Bunger~
 
+
 @1000 = ~Gibberling Leather Armor~ /* new for v5.0 */
+
+
 
 @5000 = ~Hey there! A word, if you please!~
 @5001 = ~Help! I need help!~
@@ -496,7 +499,7 @@ A messenger has brought me an invitation from his master. Although he will keep 
 @80036 = ~I don't usually speak to the likes of you, but hello.~ [NOBFE03] //#61643
 @80037 = ~~ [NOBFE07] //#61647
 @80038 = ~~ [NOBFE08] //#61648
-@80039 = ~Orc Leather +3~ //#6365
+//@80039 = ~Orc Leather +3~ //#6365
 @80040 = ~Mutated Gibberling~ //#2286
 @80041 = ~Skeleton Archer~ //#73272
 

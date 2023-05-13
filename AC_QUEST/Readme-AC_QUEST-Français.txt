@@ -259,6 +259,7 @@ VII. Historique des versions :
 -Tarash should not spawn if quest was started with pamphlet (Serpents of Abbathor).
 -Lugosch should drop the known Gundmagtor, not the unknown artefact (Serpents of Abbathor).
 -Gibberling Leather Armor should not be called Orc Leather (Home for the Gibberlings).
+-Changed "diary" to "journal" (English version).
 
 
 

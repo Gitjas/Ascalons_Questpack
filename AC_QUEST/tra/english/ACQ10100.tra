@@ -48,7 +48,7 @@
 @47   = ~I do not know... hold yourself ready.~
 @48   = ~A stupid decision! You are antagonizing someone powerful beyond your imagination!~
 @49   = ~Welcome, <BROTHERSISTER>. Can I be of any help?~
-@50   = ~Are you Draglon? Your name is mentioned in this diary.~
+@50   = ~Are you Draglon? Your name is mentioned in this journal.~
 @51   = ~I received this pamphlet. What is the meaning of this?~
 @52   = ~Excuse me.~
 @53   = ~And you came here as quickly as possible? A wise decision! Welcome to the Serpents of Abbathor. How may we assist you?~
@@ -57,7 +57,7 @@
 @56   = ~We can be hired if you can pay the needed gold.~
 @57   = ~How can I join the Serpents?~
 @58   = ~Good day, <RACE>. I am in the middle of something, please come back later.~
-@59   = ~Take a look at this. Here, your name is mentioned in this diary.~
+@59   = ~Take a look at this. Here, your name is mentioned in this journal.~
 @60   = ~You will take the time. What's the intent of this pamphlet?~
 @61   = ~As you wish.~
 @62   = ~The pamphlet! Where did you get that? Give it back!~
@@ -68,7 +68,7 @@
 @67   = ~(STRENGTH) Listen carefully, Draglon. You talk, or I'll beat the living hell out of you! Got it?~
 @68   = ~All right, here.~
 @69   = ~Interesting - may I see?~
-@70   = ~This is Bashrik's diary, isn't it? Give it to me! You don't know what you are blundering into!~
+@70   = ~This is Bashrik's journal, isn't it? Give it to me! You don't know what you are blundering into!~
 @71   = ~We saw him getting murdered. Speak!~
 @72   = ~You truly have no idea what you are getting yourselves into, <MANWOMAN>.~
 @73   = ~You really... wait, you are... <CHARNAME>, from Candlekeep, aren't you? That... that... is quite the surprise.~
@@ -143,7 +143,7 @@
 @142  = ~Go now, and your life will be forfeit.~
 @143  = ~We shall see.~
 @144  = ~We are looking for Wostok Hammerhead. Is he known to you?~
-@145  = ~We found a diary that must be shown to Wostok Hammerhead. Do you know where he is?~
+@145  = ~We found a journal that must be shown to Wostok Hammerhead. Do you know where he is?~
 @146  = ~Can you take a closer look at this pamphlet?~
 @147  = ~Wostok? I know him well. But you've just missed him, he and his companions just started a patrol in the local sewers, investigating something.~
 @148  = ~Wostok? You've just missed him, he and his companions just started a patrol in the local sewers, investigating something.~
@@ -170,12 +170,12 @@
 @169  = ~You're back.~
 @170  = ~I'm <GABBER>. What are you doing down here?~
 @171  = ~We came to say hello from Draglon.~
-@172  = ~I'm <GABBER>. We have a diary you should take a look at.~
+@172  = ~I'm <GABBER>. We have a journal you should take a look at.~
 @173  = ~I'm <GABBER>. Can you take a closer look at this pamphlet?~
 @174  = ~We are just passing through, actually.~
 @175  = ~Rumor has it that there is an infestation down here... no idea what. Anyway, we are going to search this place.~
-@176  = ~We have a diary you should take a look at.~
-@177  = ~A diary? Let me see... hmm. This is Bashrik's! So the rumors are true? Is he dead?~
+@176  = ~We have a journal you should take a look at.~
+@177  = ~A journal? Let me see... hmm. This is Bashrik's! So the rumors are true? Is he dead?~
 @178  = ~It was an ambush. We could do nothing.~
 @179  = ~Might it be related to this pamphlet?~
 @180  = ~Well, we only wanted to give it to you. Farewell.~
@@ -187,7 +187,7 @@
 @186  = ~Well... actually we were searching for YOU with salutations from Draglon.~
 @187  = ~Does it pay off?~
 @188  = ~Okay, I'll do it.~
-@189  = ~I just wanted to give you the diary. Not interested.~
+@189  = ~I just wanted to give you the journal. Not interested.~
 @190  = ~You cannot expect any great riches, <GABBER>. Those with greed in their hearts may be better off with the Serpents. Join with us, though, and you will do the right thing.~
 @191  = ~If that's all you can offer then I'll pass.~
 @192  = ~Ah, <CHARNAME> and <PRO_HISHER>'s friends.~
