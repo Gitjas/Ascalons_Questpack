@@ -14,5 +14,6 @@ OR(8)
 THEN
 	RESPONSE #100
 		SetGlobal("ACQ2SNAKESTART","GLOBAL",2)
-		ActionOverride(PLAYER1,CreateCreatureOffScreen("ACQ21001",0))
+		CreateCreatureObject("ACQ21001",PLAYER1,0,0,0)
+		Continue()
 END

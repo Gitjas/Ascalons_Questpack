@@ -14,3 +14,7 @@
 @5000014    = ~The Serpents of Abbathor~
 @5000015    = ~A Halfling among the Eyeless~
 @5000016    = ~This mod needs to be installed before EET_End on your EET install.~
+
+/* new for v5.0 */
+@5000017    = ~Original version~
+@5000018    = ~Tweaked version: quest can be finished in BG1.~

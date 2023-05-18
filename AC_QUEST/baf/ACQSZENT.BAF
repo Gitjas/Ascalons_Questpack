@@ -1,0 +1,44 @@
+IF
+	InMyArea([PC])
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		StartDialogNoSet([PC])
+END
+
+IF
+	InMyArea(Player1)
+	!Allegiance(Myself,ENEMY)
+	Global("ACQZENTISWAITING","GLOBAL",0)
+THEN
+	RESPONSE #100
+		StartDialogNoSet(Player1)
+END
+
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	!Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Global("ACQZENTISWAITING","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetInterrupt(FALSE)
+		EraseJournalEntry(@3000056) 
+		EraseJournalEntry(@3000059) 
+		EraseJournalEntry(@3000061) 
+		EraseJournalEntry(@3000062) 
+		AddJournalEntry(@3000058,QUEST_DONE)
+		GiveItemCreate("SCRL07",Player1,1,0,0) 
+		SetGlobal("ACQSGUNDMAGTOR","GLOBAL",3)
+		TakePartyItem("ACQ1011A") 
+		DestroyItem("ACQ1011A") 
+		CreateVisualEffectObject("SPDIMNDR",Myself) 
+		DestroySelf()
+		SetInterrupt(TRUE)
+END
+

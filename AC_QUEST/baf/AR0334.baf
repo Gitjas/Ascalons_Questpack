@@ -1,0 +1,17 @@
+IF
+ Global("ACQSMAKEHAMMERTHROWABLE","MYAREA",1)
+ Global("ForgeStuff","GLOBAL",1)
+THEN
+ RESPONSE #100
+     SetGlobal("ForgeStuff","GLOBAL",0)
+     TakePartyItem("acq10128")
+     TakePartyItemNum("SCRL6M",1)
+     TakePartyItemNum("SCRLA5",1)
+     TakePartyItemNum("MISC42",1)
+     DestroyItem("acq10128")
+     DestroyItem("SCRL6M")
+     DestroyItem("SCRLA5")
+     DestroyItem("MISC42")
+     GiveItemCreate("acq1128a",PLAYER1,0,0,0) // completed item
+     ActionOverride("wsmith01",StartDialogueNoSet([PC]))
+END

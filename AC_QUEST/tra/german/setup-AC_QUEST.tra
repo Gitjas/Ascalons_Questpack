@@ -236,7 +236,109 @@ Nach allem, was Ihr über die alten Zwerge wisst, kommt so eine Tat dem größten S
 @123  = ~Emmi Wiesner~
 @124  = ~Bunger~
 
+/* new for v5.0 */
 @1000 = ~Gibberling-Lederrüstung~ /* new for v5.0 */
+@1001 = ~Wostoks Leiche~
+@1002 = ~Dies ist die Leiche von Wostok, dem Zwergenkrieger. Der Priester im Tempel des Helm in Baldur's Gate wird sie Euch sicher abnehmen.
+
+Gewicht: 105 Pfund~ 
+@1003 = ~Baldar Goldbart~
+@1004 = ~Wostoks Hammer +3~ 
+@1005 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält Segen.
+
+ETW0-Bonus: -3
+Schaden:
+ 2W4 +3 (Wucht)
+ 2W4 +5 gg. böse Gesinnungen
+Initiativefaktor: 1
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9
+Gewicht: 4
+
+Nicht verwedbar von:
+ Bösen Gesinnungen
+ Druiden
+ Magiern 
+ Dieben~
+@1006 = ~Gorgar Blaurock~
+@1007 = ~Abgesandter der Zhentarim~
+@1008 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
+Meisterschmied Cromwell hat den Hammer mit der Funktion verbessert, dass er immer präzise in die Hand des Werfers zurückkehrt.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält Segen.
+Kehrt sofort zum Werfer zurück.
+
+ETW0-Bonus: -3
+Schaden:
+ 2W4 +3 (Wucht/Geschoss)
+ 2W4 +5 gg. böse Gesinnungen
+Initiativefaktor: 1
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9
+Gewicht: 4
+
+Nicht verwedbar von:
+ Bösen Gesinnungen
+ Druiden
+ Magiern 
+ Dieben~
+@1009 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
+Meisterschmied Cromwell hat den Hammer mit der Funktion verbessert, dass er immer präzise in die Hand des Werfers zurückkehrt.
+Euer Imp Cespenar hat den Schaden erhöht, den der Hammer machen kann.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält Segen.
+Kehrt sofort zum Werfer zurück.
+
+ETW0-Bonus: -4
+Schaden:
+ 2W4 +4 (Wucht/Geschoss)
+ 2W4 +6 gg. böse Gesinnungen
+Initiativefaktor: 1
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9
+Gewicht: 4
+
+Nicht verwedbar von:
+ Bösen Gesinnungen
+ Druiden
+ Magiern 
+ Dieben~
+@1010 = ~Wostoks Hammer +4~ 
+@1011 = ~Wostoks Hammer +5~ 
+@1012 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
+Euer Imp Cespenar hat den Schaden erhöht, den der Hammer machen kann.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält Segen.
+
+ETW0-Bonus: -5
+Schaden:
+ 2W4 +5 (Wucht)
+ 2W4 +7 gg. böse Gesinnungen
+Initiativefaktor: 1
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9
+Gewicht: 4
+
+Nicht verwedbar von:
+ Bösen Gesinnungen
+ Druiden
+ Magiern 
+ Dieben~
+
 
 
 @5000 = ~Heda! Auf ein Wort, wenn's beliebt!~
@@ -720,74 +822,123 @@ Der Mann der Zauberin Aiwell hat sich wohl mit Lycanthropie angesteckt. Ich habe
 Ich finde ihr Haus im Südwesten von Beregost.~
 
 /* new for v5.0 */
-@3000016  = ~The Serpents of Abbathor
+@3000016  = ~Die Schlangen Abbathors
 
-I gave the dwarven journal to Draglon who in the Undercellars, and I fear I have lost my way to contact the other mentioned dwarf, Wostok, who the journal was actually meant for. Maybe there is still a way to ask for him in the temple of Helm in Baldur's Gate if I have more insight into this cult "Serpents of Abbathor", but my gut is telling me that I will need a dwarf in my group to receive such information.~
-@3000017  = ~The Serpents of Abbathor
+Ich habe das Zwergenjournal an Draglon gegeben, der in den Unterkellern ist, und ich fürchte, ich habe den Kontakt zu dem anderen erwähnten Zwerg, Wostok, für den das Journal eigentlich gedacht war, verloren. Vielleicht gibt es noch eine Möglichkeit, im Helmtempel in Baldurs Tor nach ihm zu fragen, wenn ich mehr Informationen zu diesem Kult "Schlangen von Abbathor" habe.~
+@3000017  = ~Die Schlangen Abbathors
 
-I met a dwarf in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but what it is about he wouldn't tell me and instead left with a threat about a powerful enemy I made... I wished people wouldn't be so thin-skinned. Maybe I'll learn more about what he meant - my gut is telling me that I will need a dwarf in my group to find such information.~
-@3000018  = ~The Serpents of Abbathor
+Im Unterkeller traf ich einen Zwerg, der mich begrüßte, aber worum es ging, wollte er mir nicht sagen und ging stattdessen mit einer Drohung über einen mächtigen Feind, den ich gemacht hatte... Ich wünschte, die Leute wären nicht so dünnhäutig. Vielleicht erfahre ich ja mehr darüber, was er gemeint hat wenn ich die Augen offenhalte. Mein Gefühl sagt mir, dass ich einen Zwerg in meiner Gruppe brauche, um solche Informationen zu erhalten.~
+@3000018  = ~Die Schlangen Abbathors
 
-I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, but he didn't like how I asked for more information and left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go and look for this Wostok inside the temple of Helm in Baldur's Gate.~
-@3000019  = ~The Serpents of Abbathor
+Ich habe Bashriks Tagebuch Draglon gezeigt, dem Kontaktmann der Schlangen von Abbathor, aber es hat ihm nicht gefallen, wie ich nach mehr Informationen gefragt habe, und er ist mit einer Drohung über einen mächtigen Feind gegangen, den ich gemacht habe... Ich schätze, meine beste Chance, mehr Informationen darüber zu bekommen, ist, nach diesem Wostok im Helmtempel in Baldurs Tor zu suchen.~
+@3000019  = ~Die Schlangen Abbathors
 
-I confronted Draglon, the contact of the Serpents of Abbathor, but he didn't like how I asked for more information and left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go around with the cult pamphlet and see whether anyone knows something about it.~
-@3000020  = ~The Serpents of Abbathor
+Ich habe Draglon, den Kontaktmann der Schlangen von Abbathor, zur Rede gestellt, aber es hat ihm nicht gefallen, wie ich um mehr Informationen gebeten habe, und er ist mit einer Drohung über einen mächtigen Feind gegangen, den ich gemacht habe... Ich schätze, meine beste Chance, mehr Informationen darüber zu bekommen, ist, mit dem Pamphlet des Kults herumzugehen und zu sehen, ob jemand etwas darüber weiß.~
+@3000020  = ~Die Schlangen Abbathors
 
-I met Draglon, the contact of the Serpents of Abbathor, in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but when I declined to work for the cult he left with a threat about a powerful enemy I made... Maybe I'll learn more about what he meant - my gut is telling me that I will need a dwarf in my group to find such information.~
-@3000021  = ~The Serpents of Abbathor
+Ich traf Draglon, den Kontaktmann der Schlangen von Abbathor, im Unterkeller, aber als ich mich weigerte, für den Kult zu arbeiten, verschwand er mit einer Drohung über einen mächtigen Feind den ich mir gemacht hätte... Vielleicht erfahre ich ja mehr darüber, was er meinte, wenn ich mehr Informationen zu diesem Kult "Schlangen von Abbathor" habe.~
+@3000021  = ~Die Schlangen Abbathors
 
-I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, but when I declined to work for the cult he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go and look for this Wostok inside the temple of Helm in Baldur's Gate.~
-@3000022  = ~The Serpents of Abbathor
+Ich habe Bashriks Tagebuch Draglon, dem Kontaktmann der Schlangen von Abbathor, gezeigt, aber als ich mich weigerte, für den Kult zu arbeiten, verschwand er mit einer Drohung über einen mächtigen Feind den ich mir gemacht hätte... Ich schätze, meine beste Chance, mehr Informationen darüber zu bekommen, ist, nach diesem Wostok im Helmtempel in Baldurs Tor zu suchen.~
+@3000022  = ~Die Schlangen Abbathors
 
-I met Draglon, the contact of the Serpents of Abbathor, but when I declined to work for the cult he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go around with the cult pamphlet and see whether anyone knows something about it.~
-@3000023  = ~The Serpents of Abbathor
+Ich traf Draglon, den Kontaktmann der Schlangen von Abbathor, aber als ich mich weigerte, für den Kult zu arbeiten, verschwand er mit einer Drohung über einen mächtigen Feind den ich mir gemacht hätte... Ich schätze, meine beste Chance, mehr Informationen darüber zu bekommen, ist, mit dem Pamphlet des Kults herumzugehen und zu sehen, ob jemand etwas darüber weiß.~
+@3000023  = ~Die Schlangen Abbathors
 
-I met Draglon, the contact of the Serpents of Abbathor, in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but when I threatened him he left with a threat about a powerful enemy I made... Maybe I'll learn more about what he meant - my gut is telling me that I will need a dwarf in my group to find such information.~
-@3000024  = ~The Serpents of Abbathor
+Ich habe Draglon, den Kontaktmann der Schlangen von Abbathor, im Unterkeller getroffen, der mich als <PRO_BROTHERSISTER> begrüßte, aber als ich ihm drohte, verschwand er mit einer Drohung über einen mächtigen Feind den ich mir gemacht hätte... Vielleicht erfahre ich ja mehr darüber, was er meinte, wenn ich mehr Informationen zu diesem Kult "Schlangen von Abbathor" habe.~
+@3000024  = ~Die Schlangen Abbathors
 
-I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, but when I threatened him he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go and look for this Wostok inside the temple of Helm in Baldur's Gate.~
-@3000025  = ~The Serpents of Abbathor
+Ich habe Bashriks Tagebuch Draglon gezeigt, dem Kontaktmann der Schlangen von Abbathor, aber als ich ihm drohte, verschwand er mit einer Drohung über einen mächtigen Feind den ich mir gemacht hätte... Ich schätze, meine beste Chance, mehr Informationen darüber zu bekommen, ist, nach diesem Wostok im Helmtempel in Baldurs Tor zu suchen.~
+@3000025  = ~Die Schlangen Abbathors
 
-I met Draglon, the contact of the Serpents of Abbathor, but when I threatened him he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go around with the cult pamphlet and see whether anyone knows something about it.~
-@3000026  = ~The Serpents of Abbathor
+Ich habe Draglon, den Kontaktmann der Schlangen von Abbathor, getroffen, aber als ich ihn bedrohte, verschwand er mit einer Drohung über einen mächtigen Feind den ich mir gemacht hätte... Ich schätze, meine beste Chance, mehr Informationen darüber zu bekommen, ist, mit dem Kult-Pamphlet herumzugehen und zu sehen, ob jemand etwas darüber weiß.~
+@3000026  = ~Die Schlangen Abbathors
 
-Sigh - I made an enemy out of *another* evil organization who thought I'd play the henchman for them. I guess they are dangerous enough but we'll see whether they'll send more than one group of assassins after me if they realize I might be dangerous, myself.~
-@3000027  = ~The Serpents of Abbathor
+Seufz - ich habe mir eine *weitere* böse Organisation zum Feind gemacht, die dachte, ich würde den Handlanger für sie spielen. Ich schätze, sie sind gefährlich genug, aber wir werden sehen, ob sie mehr als eine Gruppe von Attentätern auf mich hetzen werden, wenn sie merken, dass ich selbst gefährlich sein könnte.~
+@3000027  = ~Die Schlangen Abbathors
 
-I agreed to kill Wostok and his comrades for Draglon, the contact of the Serpents of Abbathor. Wostok was last seen in the Temple of Helm in Baldur's Gate. When I'm done, I will find Draglon again in the Undercellars.~ 
-@3000028  = ~The Serpents of Abbathor
+Ich habe zugestimmt, Wostok und seine Kameraden für Draglon, den Kontaktmann der Schlangen von Abbathor, zu töten. Wostok wurde zuletzt im Helmtempel in Baldurs Tor gesehen. Wenn ich fertig bin, werde ich Draglon in den Unterkellern wiederfinden.~ 
+@3000028  = ~Die Schlangen Abbathors
 
-Wostok is dead.~
-@3000029  = ~The Serpents of Abbathor
+Wostok ist tot.~
+@3000029  = ~Die Schlangen Abbathors
 
-A mage named Jenna keeps an artifact for the dwarves. She and her companion Jassir reside in the Northwestern District's tavern. I need to go there and retrieve the ancient dwarvern artifact from them.~
-@3000030  = ~The Serpents of Abbathor
+Eine Magierin namens Jenna bewahrt ein Artefakt für die Zwerge auf. Sie und ihr Begleiter Jassir wohnen in der Taverne des nordwestlichen Bezirks von Baldurs Tor. Ich muss dorthin gehen und ihnen das alte Zwergenartefakt abnehmen.~
+@3000030  = ~Die Schlangen Abbathors
 
 I have the Gundmagtor, the dwarven artifact Draglon wanted me to retrieve. I should return to the undercellars and give it to him.~
-@3000031  = ~The Serpents of Abbathor
+@3000031  = ~Die Schlangen Abbathors
 
-Draglon gave me a key to a warehouse in south east Baldur's Gate where the Serpents of Abbathor have a meeting. I am invited and should join with them to discuss my further affiliation to the cult.~
-@3000032  = ~The Serpents of Abbathor
+Draglon hat mir einen Schlüssel zu einem Lagerhaus im Südosten von Baldurs Tor gegeben, wo die Schlangen des Abbathor ein Treffen abhalten. Ich bin eingeladen und sollte sie aufsuchen, um meine weitere Zugehörigkeit zum Kult zu besprechen.~
+@3000032  = ~Die Schlangen Abbathors
 
-I'll find Wostok who can give me answers to the Serpents of Abbathor in the sewers.~
+Ich werde Wostok, der mir Antworten zu den Schlangen von Abbathor geben kann in den Abwasserkanälen finden.~
 /* former @3000007 with more details */
-@3000033  = ~The Serpents of Abbathor
+@3000033  = ~Die Schlangen Abbathors
 
-I witnessed an ambuch at the Coast Way and found a journal from a dwarf named Bashrik. It mentions two fractions: Draglon from the Serpents of Abbathor, a cult who worship an evil dwarven god, and Wostok who was investigating the cult. Wostok was supposed to meet with Bashrik in the Temple of Helm in Baldur's Gate. Draglon from the cult was last seen in the Undercellar.~
-@3000034  = ~The Serpents of Abbathor
+Ich war Zeuge eines Überfalls am Küstenweg und fand ein Tagebuch von einem Zwerg namens Bashrik. Darin werden zwei Fraktionen erwähnt: Draglon von den Schlangen von Abbathor, einer Sekte, die einen bösen Zwergengott anbetet, und Wostok, der die Sekte untersuchte. Wostok sollte sich mit Bashrik im Helmtempel in Baldur's Gate treffen. Draglon von der Sekte wurde zuletzt in den Underkellern gesehen.~
+@3000034  = ~Die Schlangen Abbathors
 
-I didn't agree to help Wostok further against the Serpents of Abbathor, but I think I could still check out this Draglon from the cult in the Undercellars if I feel like it.~
-@3000035  = ~The Serpents of Abbathor
+Ich habe nicht zugestimmt, Wostok weiter gegen die Serpents of Abbathor zu helfen, aber ich denke, ich könnte diesen Draglon vom Kult in den Underkellern trotzdem mal aufsuchen, wenn ich Lust dazu habe.~
+@3000035  = ~Die Schlangen Abbathors
 
-I should go to the the temple of Helm in Baldur's Gate again to meet Wostok.~
+Ich sollte noch einmal zum Helmtempel in Baldur's Gate gehen, um Wostok zu treffen.~
 /* @3000012 with more info */
-@3000036  = ~The Serpents of Abbathor
+@3000036  = ~Die Schlangen Abbathors
 
-Jenna was killed by the Serpent's minions, and the artefact was taken. I should return to Wostock in the temple of Helm in Baldur's Gate and tell him about it!~
-@3000037  = ~The Serpents of Abbathor
+Jenna wurde von den Schergen der Schlange getötet, und das Artefakt wurde gestohlen. Ich sollte zu Wostock in den Tempel von Helm in Baldurs Tor zurückkehren und ihm davon erzählen!~
+@3000037  = ~Die Schlangen Abbathors
 
-We granted Wostok's plea to die by our hand - I would lie if I said we fulfilled his request without emotions. I hope he and his friends are now in whatever afterlife he was wishing for.~
-@3000038  = ~The Serpents of Abbathor
+Wir haben Wostoks Wunsch entsprochen, durch unsere Hand zu sterben - ich würde lügen, wenn ich behaupten würde, dass wir seine Bitte emotionslos erfüllt haben. Ich hoffe, er und seine Freunde sind jetzt in dem Leben nach dem Tod, das sie sich gewünscht haben.~
+@3000038  = ~Die Schlangen Abbathors
 
-Wostok plead to die by our hand instead of waiting for his wounds to take him. Never would I have thought that this would be our last act of help we would need to do for him.~
+Wostok flehte darum, durch unsere Hand zu sterben, anstatt darauf zu warten, dass seine Wunden ihn dahinraffen. Niemals hätte ich gedacht, dass dies unsere letzte Hilfe sein würde, die wir für ihn leisten müssten.~
+
+@3000050  = ~Wostok
+
+Ich sollte Wostoks Leiche zum Tempel in Helm in Baldur's Gate bringen. Ich bin sicher, der Priester weiß, wie er ihn zu seinem Klan bringen kann.~
+@3000051  = ~Wostok
+
+Ich habe Wostok zu dem Priester von Helm gebracht. Er wird dafür sorgen, dass seine Leichen und die seiner Freunde zu seinem Klan überführt werden, damit sie ein ordentliches Begräbnis erhalten.~
+@3000052  = ~Wostok~
+
+@3000054  = ~Wohin mit dem Gundmagtor?~
+@3000055  = ~Wohin mit dem Gundmagtor?
+
+Das Gundmagtor, ein uraltes, böses Zwergenartefakt, für das ich keine Verwendung habe, ist jetzt in meinem Besitz. Die Frage ist, was ich damit machen werde. Es zu behalten scheint sinnlos - vielleicht gibt es bessere Leute als einen bösen Zwergenkult, die daran interessiert sind? Wostoks Freunde zum Beispiel - der Priester im Helmtempel in Baldurs Tor sollte mir hier weiterhelfen können. Oder ich könnte es Magiern zeigen, die es gewohnt sind, mit mächtigen Artefakten umzugehen - dieses Ding zu zerstören, damit niemand anderes es missbrauchen kann, wäre auch eine gute Option.~
+@3000056  = ~Wohin mit dem Gundmagtor?
+
+Das Gundmagtor, ein uraltes, böses Zwergenartefakt, für das ich keine Verwendung habe, ist jetzt in meinem Besitz. Die Frage ist, was ich damit machen werde. Es zu behalten scheint sinnlos - ich könnte es Magiern zeigen, die den Umgang mit mächtigen Artefakten gewohnt sind.~
+@3000057  = ~Wohin mit dem Gundmagtor?
+
+Ich habe das Gundmagtor, das uralte böse Zwergenartefakt, dem Priester von Helm überlassen. Er wird es an Wostoks Freunde weitergeben - ich bin sicher, sie werden wissen, was damit zu tun ist, damit es nie wieder Schaden anrichten kann.~
+@3000058  = ~Wohin mit dem Gundmagtor?
+
+Ich habe das Gundmagtor, das uralte böse Zwergenartefakt, für eine schöne Summe Gold an einen Abgesandten der Zhentarim verkauft.~
+@3000059  = ~Wohin mit dem Gundmagtor?
+
+Ein Abgesandter der Zhentarim bot mir an, das zwergische Artefakt Gundmagtor zu kaufen. Er klang sehr entschlossen, das Artefakt zu bekommen. Ich kann ihn in der Errötenden Nixe finden.~
+@3000060  = ~Wohin mit dem Gundmagtor?
+
+Ich habe das Gundmagtor, das uralte böse Artefakt der Zwerge, an Thalantyr in Hohen Hecke übergeben. Er wird es zerstören. Das hat mich 1000 Goldstücke gekostet, also hoffe ich, dass er es gründlich macht!~
+@3000061  = ~Wohin mit dem Gundmagtor?
+
+Thalantyr, the mage in High Hedge, offered to destroy the dwarven artefact Gundmagtor. He wants 1000 gold as compensation for the expenses!~
+@3000062  = ~Wohin mit dem Gundmagtor?
+
+Nun, Halbazzer Drin ist hier keine Hilfe. Er lehnte es rundweg ab, den Gundmagtor auch nur näher zu betrachten.~
+
+/* BG2 follow up for good path */
+@3000080  = ~Ein freundlicher Zwerg
+
+Ich wurde von einem Zwerg angesprochen, der sagte, er sei ein Bote von jemandem, der meine Dienste benötigt. Ich kann sie in der Kupferkrone in den Slums von Athkatla finden.~
+@3000081  = ~Ein freundlicher Zwerg
+
+Da schau her - der Zwerg, der mich ansprach, war einer von zwei guten Freunden von Wostok, dem Zwergenkrieger und Priester, dem ich gegen den bösen Zwergenkult "Schlangen von Abbathor" unter der Führung von Lugosch beistand, den ich aus den Nashkell-Minen vertrieben hatte! Wie könnte ich den tapferen Wostok vergessen, dessen letzter Wunsch es war, lieber durch meine Hand zu sterben, als darauf zu warten, dass seine Wunden ihn dahinraffen... Sie gaben mir seinen Hammer, eine mächtige Waffe wie es aussieht, und baten mich, von Wostoks Tapferkeit zu erzählen, wenn jemand nach dieser Waffe fragt.~
+@3000082  = ~Ein freundlicher Zwerg~
+@3000083  = ~Cromwell kann Wostoks Hammer verzaubern, damit ich ihn auch werfen kann! Dafür bräuchte er eine Schriftrolle "Verzauberte Waffe", eine Schriftrolle "Melfs magische Meteoriten", einen Diamanten sowie wahrscheinlich eine Summe Gold, die er noch nicht genannt hat.~
+@3000084  = ~Cespenar kann Wostoks Hammer mit einem Hammer +2 und 10.000 Gold aufwerten.~
+@3000085  = ~Cespenar kann Wostoks Hammer mit einem Hammer +2, einer Schriftrolle "Verzauberte Waffe", einem Diamanten und 10.000 Gold aufwerten.~
+@3000086  = ~Die Schlangen Abbathors
+
+Mein Gefühl sagt mir, dass ich einen Zwerg in meiner Gruppe brauche, um mehr Informationen zu erhalten.~

@@ -1,0 +1,42 @@
+IF
+	Dead("ACQ10127")
+	Global("ACQWOSTOKWANTSTODIE","MYAREA",2)
+THEN
+	RESPONSE #100
+		ActionOverride("ACQ10127",CreateItem("ACQ10127",0,0,0))
+		ActionOverride("ACQ10127",DropInventory())
+		ActionOverride("ACQ10127",DestroySelf())
+		SetGlobal("ACQWOSTOKWANTSTODIE","MYAREA",3)
+END
+
+IF
+	PartyHasItem("ACQ10127")
+	Global("ACQWOSTOKWANTSTODIE","MYAREA",3)
+THEN
+	RESPONSE #100
+		AddJournalEntry(@3000050,QUEST)
+		SetGlobal("ACQWOSTOKWANTSTODIE","MYAREA",4)
+END
+
+IF
+	PartyHasItem("ACQ1011A")
+	GlobalGT("ACQWOSTOK","GLOBAL",6)
+	Global("ACQ1SNAKESDEFEATED","GLOBAL",2)
+	Global("ACQGundmagtorJournal","MYAREA",0)
+THEN
+	RESPONSE #100
+		AddJournalEntry(@3000055,QUEST)
+		SetGlobal("ACQGundmagtorJournal","MYAREA",1)
+END
+
+IF
+	PartyHasItem("ACQ1011A")
+	GlobalGT("ACQSNAKEWORK","GLOBAL",1)
+	Global("ACQ1SNAKESDEFEATED","GLOBAL",2)
+	Global("ACQGundmagtorJournal","MYAREA",0)
+THEN
+	RESPONSE #100
+		AddJournalEntry(@3000056,QUEST)
+		SetGlobalTimer("ACQZHENTTIMER","GLOBAL",ONE_DAY)
+		SetGlobal("ACQGundmagtorJournal","MYAREA",1)
+END

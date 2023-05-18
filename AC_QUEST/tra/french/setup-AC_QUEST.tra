@@ -249,7 +249,99 @@ D'après ce que vous savez des anciens nains, un tel acte est le plus grand sacri
 @123  = ~Emmi Wiesner~
 @124  = ~Bunger~
 
-@1000 = ~Gibberling Leather Armor~ /* new for v5.0 */
+/* new for v5.0 */
+@1000 = ~Gibberling Leather Armor~ 
+@1001 = ~Wostok's Body~
+@1002 = ~This is Wostok's Body, the dwarf warrior and priest you helped against the Serpents of Abbathor. The priest of Helm in Baldur's Gate will surely take him from you.
+
+STATISTICS:
+
+Weight: 105~ 
+@1003 = ~Baldar Goldbart~
+@1004 = ~Wostok's Hammer +3~ 
+@1005 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
+
+STATISTICS:
+
+Equipped abilities: Gives Bless effect upon wielder.
+
+THAC0: +3 bonus
+Damage:  2D4 + 3, + 2 damage to creatures of evil alignment
+Damage type:  crushing
+Weight: 4
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength
+Not Usable By:
+ Evil alignments
+ Druid
+ Mage 
+ Thief~
+@1006 = ~Gorgar Blaurock~
+@1007 = ~Zhentarim Emissary~
+@1008 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
+The master smith Cromwell improved the weapon so it will always return into the wielder's hand if thrown.
+
+STATISTICS:
+
+Equipped abilities: Gives Bless effect upon wielder.
+Combat Abilities: Returns to thrower
+THAC0: +3 bonus
+Damage:  2D4 + 3, + 2 damage to creatures of evil alignment
+Damage type:  crushing
+Weight: 4
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength
+Not Usable By:
+ Evil alignments
+ Druid
+ Mage 
+ Thief~
+@1009 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
+Cespenar improved the weapon further so it does more damage.
+
+STATISTICS:
+
+Equipped abilities: Gives Bless effect upon wielder.
+Combat Abilities: Returns to thrower
+THAC0: +4 bonus
+Damage:  2D4 + 4, + 2 damage to creatures of evil alignment
+Damage type:  crushing
+Weight: 4
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength
+Not Usable By:
+ Evil alignments
+ Druid
+ Mage 
+ Thief~
+@1010 = ~Wostok's Hammer +4~ 
+@1011 = ~Wostok's Hammer +5~ 
+@1012 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
+Cespenar improved the weapon further so it does more damage.
+
+STATISTICS:
+
+Equipped abilities: Gives Bless effect upon wielder.
+THAC0: +5 bonus
+Damage:  2D4 + 5, + 2 damage to creatures of evil alignment
+Damage type:  crushing
+Weight: 4
+Speed Factor: 1
+Proficiency Type: War Hammer
+Type:  1-handed
+Requires: 9 Strength
+Not Usable By:
+ Evil alignments
+ Druid
+ Mage 
+ Thief~
+
 
 @5000 = ~Hé là ! Un mot, s'il vous plaît !~
 @5001 = ~Au secours ! J'ai besoin d'aide !~
@@ -716,10 +808,11 @@ Le mari de la mage Aiwell semble avoir été infecté par la lycanthropie. J'ai pro
 
 Sa maison est la petite maison à la limite sud-ouest de Bérégost.~
 
+
 /* new for v5.0 */
 @3000016  = ~The Serpents of Abbathor
 
-I gave the dwarven journal to Draglon who in the Undercellars, and I fear I have lost my way to contact the other mentioned dwarf, Wostok, who the journal was actually meant for. Maybe there is still a way to ask for him in the temple of Helm in Baldur's Gate if I have more insight into this cult "Serpents of Abbathor", but my gut is telling me that I will need a dwarf in my group to receive such information.~
+I gave the dwarven journal to Draglon who in the Undercellars, and I fear I have lost my way to contact the other mentioned dwarf, Wostok, who the journal was actually meant for. Maybe there is still a way to ask for him in the temple of Helm in Baldur's Gate if I have more insight into this cult "Serpents of Abbathor".~
 @3000017  = ~The Serpents of Abbathor
 
 I met a dwarf in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but what it is about he wouldn't tell me and instead left with a threat about a powerful enemy I made... I wished people wouldn't be so thin-skinned. Maybe I'll learn more about what he meant - my gut is telling me that I will need a dwarf in my group to find such information.~
@@ -731,7 +824,7 @@ I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, 
 I confronted Draglon, the contact of the Serpents of Abbathor, but he didn't like how I asked for more information and left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go around with the cult pamphlet and see whether anyone knows something about it.~
 @3000020  = ~The Serpents of Abbathor
 
-I met Draglon, the contact of the Serpents of Abbathor, in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but when I declined to work for the cult he left with a threat about a powerful enemy I made... Maybe I'll learn more about what he meant - my gut is telling me that I will need a dwarf in my group to find such information.~
+I met Draglon, the contact of the Serpents of Abbathor, in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but when I declined to work for the cult he left with a threat about a powerful enemy I made... Maybe I'll learn more about what he meant if I have more insight into this cult "Serpents of Abbathor".~
 @3000021  = ~The Serpents of Abbathor
 
 I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, but when I declined to work for the cult he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go and look for this Wostok inside the temple of Helm in Baldur's Gate.~
@@ -740,7 +833,7 @@ I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, 
 I met Draglon, the contact of the Serpents of Abbathor, but when I declined to work for the cult he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go around with the cult pamphlet and see whether anyone knows something about it.~
 @3000023  = ~The Serpents of Abbathor
 
-I met Draglon, the contact of the Serpents of Abbathor, in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but when I threatened him he left with a threat about a powerful enemy I made... Maybe I'll learn more about what he meant - my gut is telling me that I will need a dwarf in my group to find such information.~
+I met Draglon, the contact of the Serpents of Abbathor, in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but when I threatened him he left with a threat about a powerful enemy I made... Maybe I'll learn more about what he meant if I have more insight into this cult "Serpents of Abbathor".~
 @3000024  = ~The Serpents of Abbathor
 
 I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, but when I threatened him he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go and look for this Wostok inside the temple of Helm in Baldur's Gate.~
@@ -771,7 +864,7 @@ I'll find Wostok who can give me answers to the Serpents of Abbathor in the sewe
 /* former @3000007 with more details */
 @3000033  = ~The Serpents of Abbathor
 
-I witnessed an ambuch at the Coast Way and found a journal from a dwarf named Bashrik. It mentions two fractions: Draglon from the Serpents of Abbathor, a cult who worship an evil dwarven god, and Wostok who was investigating the cult. Wostok was supposed to meet with Bashrik in the Temple of Helm in Baldur's Gate. Draglon from the cult was last seen in the Undercellar.~
+I witnessed an ambush at the Coast Way and found a journal from a dwarf named Bashrik. It mentions two fractions: Draglon from the Serpents of Abbathor, a cult who worship an evil dwarven god, and Wostok who was investigating the cult. Wostok was supposed to meet with Bashrik in the Temple of Helm in Baldur's Gate. Draglon from the cult was last seen in the Undercellar.~
 @3000034  = ~The Serpents of Abbathor
 
 I didn't agree to help Wostok further against the Serpents of Abbathor, but I think I could still check out this Draglon from the cult in the Undercellars if I feel like it.~
@@ -784,8 +877,58 @@ I should go to the the temple of Helm in Baldur's Gate again to meet Wostok.~
 Jenna was killed by the Serpent's minions, and the artefact was taken. I should return to Wostock in the temple of Helm in Baldur's Gate and tell him about it!~
 @3000037  = ~The Serpents of Abbathor
 
-We granted Wostok's plea to die by our hand - I would lie if I said we fulfilled his request without emotions. I hope he and his friends are now in whatever afterlife he was wishing for.~
+We granted Wostok's plea to die by our hand - I would lie if I said we fulfilled his request without emotions. I hope he and his friends are now in whatever afterlife they were wishing for.~
 @3000038  = ~The Serpents of Abbathor
 
 Wostok plead to die by our hand instead of waiting for his wounds to take him. Never would I have thought that this would be our last act of help we would need to do for him.~
+
+@3000050  = ~Wostok
+
+I should bring Wostok's body to the temple in Helm in Baldur's Gate. I am sure the priest knows how to get him to his clan.~
+@3000051  = ~Wostok
+
+I brought Wostok to the priest of Helm. He will see to his and his friends' bodies being transferred to his clan for a proper burial.~
+@3000052  = ~Wostok~
+
+@3000054  = ~What to do with the Gundmagtor?~
+@3000055  = ~What to do with the Gundmagtor?
+
+The Gundmagtor, an ancient, evil dwarven artefact which I have no use for is now in my possession. Question is what I will do with it now. Keeping it seems pointless - maybe there are better people than an evil dwarf cult interested in it? Wostok's friends for example - the priest in the temple of Helm in Baldur's Gate should know about it. Or I could show it to mages who are used to handling powerful artefacts - destroying this thing so noone else can misuse it would be a valid option, too.~
+@3000056  = ~What to do with the Gundmagtor?
+
+The Gundmagtor, an ancient, evil dwarven artefact which I have no use for is now in my possession. Question is what I will do with it now. Keeping it seems pointless - I could show it to mages used to handling powerful artefacts.~
+@3000057  = ~What to do with the Gundmagtor?
+
+I gave the Gundmagtor, the ancient evil dwarven artefact to the priest of Helm. He will transfer it to Wostok's friends - I am sure they'll know what to do with it so it won't cause harm ever again.~
+@3000058  = ~What to do with the Gundmagtor?
+
+I sold the Gundmagtor, the ancient evil dwarven artefact to an emissary of the Zhentarim for a nice sum of gold.~
+@3000059  = ~What to do with the Gundmagtor?
+
+An emissary of the Zhentarim offered me to buy the dwarven artefact Gundmagtor. He sounded very determined to obtain the artefact. I can find him in the Blushing Mermaid.~
+@3000060  = ~What to do with the Gundmagtor?
+
+I gave the Gundmagtor, the ancient evil dwarven artefact to Thalantyr in High Hedge. He will destroy it. This cost me 1000 gold, so I hope he does it thoroughly!~
+@3000061  = ~What to do with the Gundmagtor?
+
+Thalantyr, the mage in High Hedge, offered to destroy the dwarven artefact Gundmagtor. He wants 1000 gold as compensation for the expenses!~
+@3000062  = ~What to do with the Gundmagtor?
+
+Well, Halbazzer Drin is no help here. He flat out rejected to even look at the Gundmagtor further.~
+
+/* BG2 follow up for good path */
+@3000080  = ~A friendly Dwarf
+
+I was approached by a dwarf who said that he is a messenger from someone who needs my services. I'll find them in the Copper Coronet in the Slums of Athkatla.~
+@3000081  = ~A friendly Dwarf
+
+Would you look at that - the dwarf who approached me was one of two good friends of Wostok, the dwarven warrior and priest I assisted against the evil dwarven cult "Serpents of Abbathor" lead by Lugosch, who I drove out of the Nashkel mines. How could I forget brave Wostok who's last wish was to rather die by my hand than wait for his wounds to take him... They gave me his hammer, a mighty weapon by the looks of it, and asked me to tell of Wostok's bravery whenever anyone asks about this weapon.~
+@3000082  = ~A friendly Dwarf~
+@3000083  = ~Cromwell can enchant Wostok's hammer so I can throw him, too! For that, he'd need a scroll of Enchanted Weapon, a scroll of Melf's Minute Meteors, and a Diamond, and probably a sum of gold he didn't specify yet.~
+@3000084  = ~Cespenar can upgrade Wostok's hammer with a hammer +2 and 10,000 gold.~
+@3000085  = ~Cespenar can upgrade Wostok's hammer with a hammer +2, a scroll of Enchanted Weapon, a diamond, and 10,000 gold.~
+@3000086  = ~The Serpents of Abbathor
+
+I have a strong feeling that I will need a dwarf in my group to receive such information..~
+
 

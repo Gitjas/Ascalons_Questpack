@@ -61,17 +61,17 @@ END
 
 IF ~~ THEN BEGIN 8
 SAY @20
-IF ~~ THEN DO ~AddJournalEntry(@20023,QUEST)EscapeAreaMove("AR0406",475,1504,2)~ EXIT
+IF ~~ THEN DO ~AddJournalEntry(@20023,QUEST)EscapeAreaDestroy(5)~ UNSOLVED_JOURNAL @3000080 EXIT
 END
 
 IF ~~ THEN BEGIN 9
 SAY @21
-IF ~~ THEN DO ~AddJournalEntry(@20023,QUEST)EscapeAreaMove("AR0406",475,1504,2)~ EXIT
+IF ~~ THEN DO ~AddJournalEntry(@20023,QUEST)EscapeAreaDestroy(5)~ UNSOLVED_JOURNAL @3000080 EXIT
 END
 
 IF ~~ THEN BEGIN 10
 SAY @22
-IF ~~ THEN DO ~ClearAllActions()StartCutSceneMode()StartCutScene("ACQCUT04")~ EXIT
+IF ~~ THEN DO ~SetGlobal("ACQ2SNAKESTART","GLOBAL",5) ClearAllActions()StartCutSceneMode()StartCutScene("ACQCUT04")~ EXIT
 END
 
 

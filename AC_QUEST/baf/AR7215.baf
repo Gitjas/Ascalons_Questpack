@@ -1,0 +1,9 @@
+IF
+	Global("ACQZENTISWAITING","GLOBAL",1)
+	GlobalLT("ACQSPAWNZHENT","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQSPAWNZHENT","GLOBAL",2)
+		CreateCreature("ACQSZENT",[290.157],0)
+		Continue()
+END

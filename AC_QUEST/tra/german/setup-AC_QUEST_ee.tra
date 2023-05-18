@@ -1,3 +1,111 @@
+/* new for v5.0 */
+@1005 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält Segen.
+
+ETW0-Bonus: -3
+Schaden:
+ 2W4 +3 (Wucht)
+ 2W4 +5 gg. böse Gesinnungen
+Initiativefaktor: 1
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9
+
+Gewicht: 4
+~
+@1008 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
+Meisterschmied Cromwell hat den Hammer mit der Funktion verbessert, dass er immer präzise in die Hand des Werfers zurückkehrt.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält Segen.
+Kehrt sofort zum Werfer zurück.
+
+ETW0-Bonus: -3
+Schaden:
+ 2W4 +3 (Wucht/Geschoss)
+ 2W4 +5 gg. böse Gesinnungen
+Initiativefaktor: 1
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9
+
+Gewicht: 4
+~
+@1009 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
+Meisterschmied Cromwell hat den Hammer mit der Funktion verbessert, dass er immer präzise in die Hand des Werfers zurückkehrt.
+Euer Imp Cespenar hat den Schaden erhöht, den der Hammer machen kann.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält Segen.
+Kehrt sofort zum Werfer zurück.
+
+ETW0-Bonus: -4
+Schaden:
+ 2W4 +4 (Wucht/Geschoss)
+ 2W4 +6 gg. böse Gesinnungen
+Initiativefaktor: 1
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9
+
+Gewicht: 4
+~
+@1012 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
+Euer Imp Cespenar hat den Schaden erhöht, den der Hammer machen kann.
+
+EIGENSCHAFTEN:
+
+Der Träger erhält Segen.
+
+ETW0-Bonus: -5
+Schaden:
+ 2W4 +5 (Wucht)
+ 2W4 +7 gg. böse Gesinnungen
+Initiativefaktor: 1
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9
+
+Gewicht: 4
+~
+
+//#6742 BGII
+@80042 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
+
+STATISTICS:
+
+Damage: 1d8 (slashing)
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4~
+
+//#4421 BGII
+@80043 = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored. "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
+
+STATISTICS:
+
+THAC0: +1
+Damage: 1d8+1, +1 fire damage
+Damage type: Slashing
+Speed Factor: 4
+Proficiency Type: Long Sword
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 4
+~
+
+
 //#6742 BGII
 @80042 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
 

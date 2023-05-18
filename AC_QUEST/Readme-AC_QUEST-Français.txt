@@ -105,7 +105,13 @@ Les vraies groupies restent fidèles à leurs idoles, tout comme Cindy, Mandy et A
 
 9 Les Serpents d'Abbathor
 -------------------------
-Un mystérieux culte de nains recrute le long de la Côte des Épées et les héros sont très demandés ! Pour l'instant, seule la partie BG1 est complétée. Pillez le cadavre de Mulahey ou rendez-vous dans la partie sud-ouest de la Porte de Baldur pour commencer.
+Un mystérieux culte de nains recrute le long de la Côte des Épées et les héros sont très demandés ! Pillez le cadavre de Mulahey ou rendez-vous dans la partie sud-ouest de la Porte de Baldur pour commencer. For the latter, a dwarf is needed in the group.
+
+There is two install choices:
+A Original version from Ascalon
+This version was planned as part 1 of three along the whole campaign. Unfortunately, the other parts never were finished, so the quest ends with a cliffhanger in BG1.
+B Tweaked version by Kerzenburgforum
+With blessings from Ascalon, the end is tweaked so that there is no hints to following events and the quest really ends in BG1. In addition, the artefact can be handed in at two places for both good and evil paths; Wostok's body and Lugosch' journal can be brought to temple (good path). For BGT and EET, for the good path there will be a small follow-up in the slums of Athkatla if Wostok was brought to the temple and the artefact was given to one of teh two options in BG1. The resulting weapon can be upgraded by both Cromwell and Cespenar.
 
 
 	Baldur's Gate II :
@@ -249,7 +255,8 @@ VII. Historique des versions :
 4.5 - 2023-04-13
 -Fixed install error for Russian version, by Arkie.
 
-5.0 - 2023-05-13
+5.0 - 2023-05-18
+-Component Serpenst of Abbathor has two install choices: Original version or Tweaked version. Tweaked version has closing of quest in BG1, including small follow-up in BGII for BGT/EET if PC helped Wostok to the end.
 -Generally revised Serpents of Abbathor quest: more journal entries, no open quest ends, PC can change sides if agreed to kill Wostok, dialogue improvements.
 -Freed miners and Amnish guards should leave (Serpents of Abbathor).
 -Removed wrong string refs from cres (Serpents of Abbathor).

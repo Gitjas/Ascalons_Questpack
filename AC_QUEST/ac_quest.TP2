@@ -2,7 +2,7 @@ BACKUP ~AC_QUEST/backup~
 //AUTHOR ~whiteagnus@baldursgatemods.de~ 
 SUPPORT ~https://baldurs-gate.de/index.php?threads/ascalons-questpack.39286/~
 
-VERSION ~5.0pre~  
+VERSION ~5.0~  
 
 AUTO_TRA "AC_QUEST/TRA/autotra/%s"//%"
 
@@ -1001,666 +1001,133 @@ LPF fj_are_structure
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-BEGIN @5000014
+BEGIN @5000017 /* ~Original version~ */
 LABEL AscalonsQuestpack-SerpentsAbbathor
+SUBCOMPONENT @5000014 /* ~The Serpents of Abbathor~ */
 REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
 FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
 FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
 
+INCLUDE ~AC_QUEST/tpa/serpents_of_abbathor.tpa~
+
+
+BEGIN @5000018 /* ~Tweaked version~ */
+LABEL AscalonsQuestpack-SerpentsAbbathor_Tweak
+SUBCOMPONENT @5000014 /* ~The Serpents of Abbathor~ */
+REQUIRE_PREDICATE GAME_IS ~bgt bgee tutu_totsc eet~ @5000004
+FORBID_COMPONENT ~EET_end.tp2~ ~0~ @5000016
+FORBID_COMPONENT ~EET_end.tp2~ ~1~ @5000016
+
+LOAD_TRA ~AC_QUEST/tra/autotra/%s/serpents_of_abbathor_tweaked.tra~
+
+INCLUDE ~AC_QUEST/tpa/serpents_of_abbathor.tpa~
+
+//Wostok
+ADD_JOURNAL TITLE (@3000052) @3000050 @3000051 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
+
+//What to do with the Gundmagtor?
+ADD_JOURNAL TITLE (@3000054) @3000055 @3000056 @3000057 @3000058 @3000059 @3000060 @3000061 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
+
+
+COPY_EXISTING ~ACQ10111.cre~ ~override~
+  REMOVE_CRE_ITEM ~ACQLET04~
+
+/* Wostok can be picked up */
+EXTEND_BOTTOM ~AC4400.bcs~ ~AC_QUEST/baf/AC4400_tweak.baf~ EVALUATE_BUFFER
+
+COPY ~AC_QUEST/ITM/acq10127.itm~ ~OVERRIDE~ 
+SAY NAME1 @1001 /* Wostoks Leiche */
+SAY NAME2 @1001 /* Wostoks Leiche */
+SAY DESC @1002 /* Dies ist die Leiche von Wostok, dem Zwergenkrieger. Der Priester im Tempel des Helm in Baldur's Gate wird sie Euch sicher abnehmen. */
+
+ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+  COMPILE EVALUATE_BUFFER ~AC_QUEST/d/ACQ10100_tweak.D~
+	~AC_QUEST/d/ACQ10100_tweak_bgt.d~
+	USING ~AC_QUEST/tra/autotra/%LANGUAGE%/ACQ10100_tweak.tra~
+END ELSE BEGIN
+  COMPILE EVALUATE_BUFFER ~AC_QUEST/d/ACQ10100_tweak.D~ 
+END
+
+COMPILE EVALUATE_BUFFER ~AC_QUEST/baf/ACQSZENT.baf~
+
+/* Zhentarim Emissary */
+COPY_EXISTING ~%tutu_var%wheber.CRE~ ~override/ACQSZENT.CRE~
+SAY NAME1 @1007 
+SAY NAME2 @1007
+WRITE_EVALUATED_ASCII 0x248 ~ACQSZENT~ #8   // Override script
+WRITE_EVALUATED_ASCII 0x250 ~~ #8   // Class script
+WRITE_EVALUATED_ASCII 0x258 ~~ #8   // Race script
+WRITE_EVALUATED_ASCII 0x260 ~~ #8   // General script
+WRITE_EVALUATED_ASCII 0x268 ~~ #8   // Default script
+WRITE_EVALUATED_ASCII 0x280 ~ACQSZENT~ #8   // Script name
+WRITE_EVALUATED_ASCII 0x2cc ~ACQSZENT~ #8   // Dialogue
+ADD_CRE_ITEM ~MINHP1~ #0 #0 #0 ~unstealable&undroppable~ ~belt~
+
+/* Place Zhentarim Emissary */
+EXTEND_TOP ~BALDUR.bcs~ ~AC_QUEST/BAF/ACBALDU4.BAF~ EVALUATE_BUFFER
+LAF extend_area_script STR_VAR area="%NEBaldursGate_BlushingMermaid_L1%" top="AC_QUEST/baf/AR7215.baf"   END
+
+/* BG2 follow up: good path. for BGT and EET only */
+/* use "unfinished business" :-) Idea from Lumorus! */
 ACTION_IF GAME_IS ~bgt eet~ THEN BEGIN
-PRINT @5000001
-EXTEND_TOP ~ACVIRGI.bcs~ ~AC_QUEST/Virgi/ACVIRGI.BAF~
-EVAL
-	END
-	
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~ACVIRGI.CRE~ THEN BEGIN
-PRINT @5000002
-COPY ~AC_QUEST/cre/ACVIRGI.CRE~ ~OVERRIDE/ACVIRGI.CRE~
-SAY NAME1 ~~
-SAY NAME2 ~~
-WRITE_ASCII 0x280 ~ACVIRGI~
-PATCH_IF FILE_EXISTS_IN_GAME ~ACVIRGI.dlg~ THEN BEGIN
-WRITE_ASCII 0x2cc ~ACVIRGI~
-END
-PATCH_IF FILE_EXISTS_IN_GAME ~ACVIRGI.bcs~ THEN BEGIN
-WRITE_ASCII 0x248 ~ACVIRGI~
-	END
-END
 
-
-ADD_JOURNAL TITLE (@90008) @10011 @10012 @10013 @10014 @10015 @10016 @10017 @10018 @10019 @10020 @10021 @10022 @10023 @3000008 @3000009 @3000010 @3000011 @3000013 @3000016 @3000017 @3000018 @3000019 @3000020 @3000021 @3000022 @3000023 @3000024 @3000025 @3000026 @3000027 @3000028 @3000029 @3000030 @3000031 @3000032 @3000033 @3000034 @3000035 @3000036 @3000037 @3000038 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
-
-COMPILE ~AC_QUEST/D/ACQ10100.D~
-EVAL
-COMPILE ~AC_QUEST/BAF/ACQ6900.BAF~
-COMPILE ~AC_QUEST/BAF/ACQCUT01.BAF~
-COMPILE ~AC_QUEST/BAF/ACQCUT02.BAF~
-COMPILE ~AC_QUEST/BAF/AC8201.BAF~
-COMPILE ~AC_QUEST/BAF/AC4400.BAF~
-COMPILE ~AC_QUEST/BAF/AC4401.BAF~
-/*
-EXTEND_TOP ~%SEBaldursGate_BCS%.bcs~ ~AC_QUEST/baf/AR8200.baf~
-EVAL
-EXTEND_TOP ~%NashkelMines_BCS%.bcs~ ~AC_QUEST/baf/AR4400.baf~
-
-EXTEND_TOP ~%NashkelMines_MulaheysCave_BCS%.bcs~ ~AC_QUEST/baf/AR4405.baf~ EVALUATE_BUFFER
-EXTEND_TOP ~%NEBaldursGate_BCS%.bcs~ ~AC_QUEST/baf/AR7400.baf~
-EXTEND_TOP ~%ESewers_BCS%.bcs~ ~AC_QUEST/baf/AR7326.baf~
-EXTEND_BOTTOM ~%CoastWay_BCS%.bcs~ ~AC_QUEST/baf/AR6900.baf~ 
-*/
-LAF extend_area_script STR_VAR area="%SEBaldursGate%" top="AC_QUEST/baf/AR8200.baf"   END
-LAF extend_area_script STR_VAR area="%NashkelMines%" top="AC_QUEST/baf/AR4400.baf"   END
-LAF extend_area_script STR_VAR area="%NashkelMines_MulaheysCave%" top="AC_QUEST/baf/AR4405.baf"   END
-LAF extend_area_script STR_VAR area="%NEBaldursGate%" top="AC_QUEST/baf/AR7400.baf"   END
-LAF extend_area_script STR_VAR area="%ESewers%" top="AC_QUEST/baf/AR7326.baf"   END
-LAF extend_area_script STR_VAR area="%CoastWay%" bottom="AC_QUEST/baf/AR6900.baf"   END
-
-
-ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
-COPY_EXISTING ~%NWBaldursGate_Tavern_L2%.are~ ~override~
-  READ_ASCII 0x94 area_script
-  PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  	WRITE_EVALUATED_ASCII 0x94 ~%NWBaldursGate_Tavern_L2_BCS%~ (8)
-  END
-BUT_ONLY
-END
-/*
-EXTEND_TOP ~%NWBaldursGate_Tavern_L2_BCS%.bcs~ ~AC_QUEST/baf/AR7266.baf~
-EVAL
-*/
-LAF extend_area_script STR_VAR area="%NWBaldursGate_Tavern_L2%" top="AC_QUEST/baf/AR7266.baf"   END
-
-
-ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
-COPY_EXISTING ~%NWBaldursGate%.are~ ~override~
-  READ_ASCII 0x94 area_script
-  PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  	WRITE_EVALUATED_ASCII 0x94 ~%NWBaldursGate_BCS%~ (8)
-  END
-BUT_ONLY
-END
-/*
-EXTEND_TOP ~%NWBaldursGate_BCS%.bcs~ ~AC_QUEST/baf/AR7200.baf~
-*/
-LAF extend_area_script STR_VAR area="%NWBaldursGate%" top="AC_QUEST/baf/AR7200.baf"   END
-
-ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
-COPY_EXISTING ~%NBaldursGate_TempleofHelm%.are~ ~override~
-  READ_ASCII 0x94 area_script
-  PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  	WRITE_EVALUATED_ASCII 0x94 ~%NBaldursGate_TempleofHelm_BCS%~ (8)
-  END
-BUT_ONLY
-END
-LAF extend_area_script STR_VAR area="%CentralSewers%" bottom="AC_QUEST/baf/AR7325_2.baf"   END
-/*
-EXTEND_TOP ~%NBaldursGate_TempleofHelm_BCS%.bcs~ ~AC_QUEST/baf/ARA002.baf~
-*/
-LAF extend_area_script STR_VAR area="%NBaldursGate_TempleofHelm%" top="AC_QUEST/baf/ARA002.baf"   END
-
-COMPILE ~AC_QUEST/BAF/ACQ10102.BAF~
-EVAL
-COMPILE ~AC_QUEST/BAF/ACQ10103.BAF~
-EVAL
-COMPILE ~AC_QUEST/BAF/ACQ10106.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ10116.BAF~
-EVAL
-COMPILE ~AC_QUEST/BAF/ACQ10117.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ10100.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ10118.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ10119.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ10120.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ4400Q.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ44001.BAF~
-COMPILE ~AC_QUEST/BAF/AC4402.BAF~
-COMPILE ~AC_QUEST/BAF/ACQAMSOL.BAF~
-COMPILE ~AC_QUEST/BAF/ACQMINER.BAF~
-COMPILE ~AC_QUEST/BAF/AC4403.BAF~
-COMPILE ~AC_QUEST/BAF/AC4405.BAF~
-COMPILE ~AC_QUEST/BAF/ACUMBHUL.BAF~
-COMPILE ~AC_QUEST/BAF/ACQ4405.BAF~
-
-COPY ~AC_QUEST/ITM/KEY07.ITM~ ~OVERRIDE/ACQKEY01.ITM~ 
-SAY NAME1 @66
-SAY NAME2 @66
-SAY DESC @67
-
-COPY ~AC_QUEST/ITM/KEY09.ITM~ ~OVERRIDE/ACQKEY02.ITM~ 
-SAY NAME1 @68
-SAY NAME2 @68
-SAY DESC @69
-
-COPY_EXISTING ~SCRL2J.ITM~ ~OVERRIDE/ACQLET01.ITM~ 
-SAY NAME1 @70
-SAY NAME2 @70
-SAY DESC @71
-
-COPY_EXISTING ~SCRL2J.ITM~ ~OVERRIDE/ACQLET02.ITM~ 
-SAY NAME1 @70
-SAY NAME2 @70
-SAY DESC @72
-
-COPY_EXISTING ~SCRL2J.ITM~ ~OVERRIDE/ACQLET03.ITM~ 
-SAY NAME1 @73
-SAY NAME2 @73
-SAY DESC @74
-
-COPY ~AC_QUEST/ITM/MISC4T.ITM~ ~OVERRIDE/ACQLET05.ITM~ 
-SAY NAME1 @75
-SAY NAME2 @75
-SAY DESC @76
-
-COPY ~AC_QUEST/ITM/MISC4T.ITM~ ~OVERRIDE/ACQLET06.ITM~ 
-SAY NAME1 @75
-SAY NAME2 @75
-SAY DESC @77
-
-COPY_EXISTING ~SCRL2J.ITM~ ~OVERRIDE/ACQLET04.ITM~ 
-SAY NAME1 @70
-SAY NAME2 @70
-SAY DESC @78
-
-COPY ~AC_QUEST/ITM/BOOK92.ITM~ ~OVERRIDE/ACQBOOK3.ITM~ 
-SAY NAME1 @79
-SAY NAME2 @79
-SAY DESC @80
-
-COPY ~AC_QUEST/ITM/MISC4W.ITM~ ~OVERRIDE/ACQBOOK4.ITM~ 
-SAY NAME1 @81
-SAY NAME2 @81
-SAY DESC @82
-
-COPY ~AC_QUEST/ITM/PLOT18B.ITM~ ~OVERRIDE/ACQBOOK5.ITM~ 
-SAY NAME1 @83
-SAY NAME2 @83
-SAY DESC @84
-
-COPY ~AC_QUEST/ITM/HAMM05.ITM~ ~Override/ACQHAMM1.ITM~
-SAY NAME1 #6345 //War Hammer
-SAY NAME2 @85
-SAY UNIDENTIFIED_DESC #6716
-PATCH_IF GAME_IS ~tutu_totsc bgt~ BEGIN
-SAY DESC @86
-END
-PATCH_IF GAME_IS ~bgee eet~ BEGIN
-SAY DESC @100086
-END
-
-
-COPY ~AC_QUEST/ITM/BOOK92.ITM~ ~OVERRIDE/ACQBOOK1.ITM~ 
-SAY NAME1 @87
-SAY NAME2 @87
-SAY DESC @88
-
-COPY ~AC_QUEST/ITM/MISC6L.ITM~ ~OVERRIDE/ACQ10101.ITM~ 
-SAY NAME1 @89
-SAY NAME2 @90
-SAY DESC @91
-
-COPY ~AC_QUEST/ITM/ACQ1011A.ITM~ ~override~
-SAY NAME1 @92
-SAY NAME2 @92
-SAY DESC @93
-
-COPY ~AC_QUEST/cre/ACQ10101.CRE~ ~override~
-SAY NAME1 ~~
-SAY NAME2 ~~
-
-COPY_EXISTING ~%NashkelMines_MulaheysCave%.are~ ~OVERRIDE~
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x          = 583
-    fj_loc_y          = 831
-    fj_dest_x         = 583
-    fj_dest_y         = 831
-    fj_orientation    = 12
-    STR_VAR
-    fj_structure_type = actor
-    fj_name           = Dead Dwarf
-    fj_cre_resref     = ACQ10101
-  END
-  LPF fj_are_structure
-    INT_VAR
-    fj_type        = 10
-    fj_loc_x       = 568
-    fj_loc_y       = 857
-    fj_box_left    = 573
-    fj_box_top     = 821
-    fj_box_right   = 583
-    fj_box_bottom  = 831
-    fj_trap_loc_x  = 587
-    fj_trap_loc_y  = 831
-    fj_vertex_0    = 573 + (821 << 16)
-    fj_vertex_1    = 573 + (831 << 16)
-    fj_vertex_2    = 583 + (831 << 16)
-    fj_vertex_3    = 583 + (821 << 16)
-    STR_VAR
-    fj_structure_type = container
-    fj_name           = ~Dwarf~
-  END
-  LPF fj_are_structure
-    INT_VAR
-    fj_con_itm_idx    = SHORT_AT 0x74 - 1
-    fj_flags          = 1
-    STR_VAR
-    fj_name           = ACQLET01
-    fj_structure_type = itm
-END
-
-COPY ~AC_QUEST/cre/ACQ10102.CRE~ ~override~
-SAY NAME1 @94
-SAY NAME2 @94
-
-COPY_EXISTING ~%Beregost%.are~ ~OVERRIDE~
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x          = 2124
-    fj_loc_y          = 2503
-    fj_dest_x         = 2124
-    fj_dest_y         = 2503
-    fj_orientation    = 15
-    fj_schedule		  = 0xfff0003f
-    STR_VAR
-    fj_structure_type = actor
-    fj_name           = Tarash
-    fj_cre_resref     = ACQ10102
-END
-
-COPY ~AC_QUEST/cre/ACQ10103.CRE~ ~override~
-SAY NAME1 @95
-SAY NAME2 @95
-
-COPY_EXISTING ~%CoastWay%.are~ ~OVERRIDE~
-LPF fj_are_structure
-	INT_VAR
-	fj_loc_x          = 0
-	fj_loc_y          = 0
-	fj_dest_x         = 0
-	fj_dest_y         = 0
-	fj_orientation    = 0
-	STR_VAR
-	fj_structure_type = actor
-	fj_name           = Wonderbunny Virginie
-	fj_cre_resref     = ACVIRGI
-	fj_bcs_override   = ACQ6900
-END
-
-COPY ~AC_QUEST/cre/ACQ10104.CRE~ ~override~
-SAY NAME1 @96
-SAY NAME2 @96
-
-COPY ~AC_QUEST/cre/ACQ10105.CRE~ ~override~
-SAY NAME1 @97
-SAY NAME2 @97
-
-COPY ~AC_QUEST/cre/ACQ10106.CRE~ ~override~
-SAY NAME1 @98
-SAY NAME2 @98
-
-COPY ~AC_QUEST/cre/ACQ10112.CRE~ ~override~
-SAY NAME1 @99
-SAY NAME2 @99
-
-COPY_EXISTING ~%SWBaldursGate%.are~ ~OVERRIDE~
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x         	= 1298
-    fj_loc_y         	= 1499
-    fj_dest_x        	= 1298
-    fj_dest_y        	= 1499
-    fj_orientation   	= 12
-    STR_VAR
-    fj_dlg_resref		= ACQ08000
-    fj_structure_type	= actor
-    fj_name          	= Abbathorian
-    fj_cre_resref    	= ACQ10112
-  END
-
-COPY_EXISTING ~%BaldursGate_Undercellars%.are~ ~OVERRIDE~
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x         	= 1132
-    fj_loc_y         	= 926
-    fj_dest_x        	= 1132
-    fj_dest_y        	= 926
-    fj_orientation   	= 14
-    STR_VAR
-    fj_structure_type	= actor
-    fj_name          	= Draglon
-    fj_cre_resref    	= ACQ10106
-  END
-  
-COPY ~AC_QUEST/cre/ACQ10107.CRE~ ~override~
-SAY NAME1 @100
-SAY NAME2 @100
-
-COPY ~AC_QUEST/cre/ACQ10108.CRE~ ~override~
-SAY NAME1 @100
-SAY NAME2 @100
-
-COPY ~AC_QUEST/cre/ACQ10109.CRE~ ~override~
-SAY NAME1 @101
-SAY NAME2 @101
-
-COPY ~AC_QUEST/cre/ACQ10110.CRE~ ~override~
-SAY NAME1 @102
-SAY NAME2 @102
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~SLNG04.ITM~ THEN BEGIN
-COPY ~AC_QUEST/itm/SLNG04.ITM~ ~override~
-SAY NAME1 #6733 //sling
-SAY NAME2 @80061
-SAY UNIDENTIFIED_DESC #6650 //sling
-SAY DESC @80048
-END
-
-COPY ~AC_QUEST/cre/ACQ10111.CRE~ ~override~
-SAY NAME1 @103
-SAY NAME2 @103
-
-COPY ~AC_QUEST/cre/ACQ10113.CRE~ ~override~
-SAY NAME1 @104
-SAY NAME2 @104
-
-COPY ~AC_QUEST/cre/ACQ10114.CRE~ ~override~
-SAY NAME1 @105
-SAY NAME2 @105
-
-COPY ~AC_QUEST/cre/ACQ10115.CRE~ ~override~
-SAY NAME1 @106
-SAY NAME2 @107
-
-COPY ~AC_QUEST/cre/ACQ10116.CRE~ ~override~
-SAY NAME1 @108
-SAY NAME2 @109
-
-COPY_EXISTING ~%CentralSewers%.are~ ~OVERRIDE~
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x          = 3657
-    fj_loc_y          = 2265
-    fj_dest_x         = 3657
-    fj_dest_y         = 2265
-    fj_orientation    = 12
-    STR_VAR
-    fj_structure_type = actor
-    fj_name           = Galder
-    fj_cre_resref     = ACQ10113
-  END
-
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x          = 3677
-    fj_loc_y          = 2285
-    fj_dest_x         = 3677
-    fj_dest_y         = 2285
-    fj_orientation    = 0
-    STR_VAR
-    fj_structure_type = actor
-    fj_name           = Therk
-    fj_cre_resref     = ACQ10114
-  END
-  
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x          = 3677
-    fj_loc_y          = 2265
-    fj_dest_x         = 3677
-    fj_dest_y         = 2265
-    fj_orientation    = 7
-    STR_VAR
-    fj_structure_type = actor
-    fj_name           = Jarger
-	fj_cre_resref     = ACQ10115
-END
-
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x          = 3657
-    fj_loc_y          = 2285
-    fj_dest_x         = 3657
-    fj_dest_y         = 2285
-    fj_orientation    = 7
-    STR_VAR
-    fj_structure_type = actor
-    fj_name           = Wostok
-	fj_cre_resref     = ACQ10116
-END
-
-COPY ~AC_QUEST/cre/ACQ10117.CRE~ ~override~
-SAY NAME1 @110
-SAY NAME2 @110
-
-COPY ~AC_QUEST/cre/ACQ10118.CRE~ ~override~
-SAY NAME1 @111
-SAY NAME2 @111
-SAY INITIAL_MEETING @80036
-SAY DAMAGE @80037
-SAY DYING @80038
-SAY SELECT_COMMON1 @80036
-
-COPY_EXISTING ~%NWBaldursGate_Tavern_L2%.are~ ~OVERRIDE~
-  LPF fj_are_structure
-    INT_VAR
-    fj_type        		= 6
-    fj_flags	   		= 1
-    fj_lock_diff   		= 80
-    fj_trap_active 		= 1
-    fj_trap_status 		= 0
-    fj_trap_detect 		= 50
-    fj_trap_remove_diff = 60
-    fj_loc_x       		= 456
-    fj_loc_y   		    = 462
-    fj_box_left  		= 492
-    fj_box_top     		= 396
-    fj_box_right   		= 515
-    fj_box_bottom  		= 445
-    fj_trap_loc_x  		= 470
-    fj_trap_loc_y  		= 450
-    fj_vertex_0    		= 515 + (445 << 16)
-    fj_vertex_1    		= 515 + (412 << 16)
-    fj_vertex_2    		= 493 + (396 << 16)
-    fj_vertex_3    		= 493 + (431 << 16)
-    STR_VAR
-    fj_key_resref		= ~ACQKEY01~
-    fj_trap_script		= ~CTMM~
-    fj_structure_type 	= container
-    fj_name           	= ~ACSecret~
-END
-/*
-LPF fj_are_structure
-    INT_VAR
-    fj_con_itm_idx    = SHORT_AT 0x74 - 1
-    fj_flags          = 1
-    STR_VAR
-    fj_name           = ACQ10101
-    fj_structure_type = itm
-END
-*/
-
-COPY_EXISTING ~%SEBaldursGate%.are~ ~override~
- READ_LONG  0xa4  "doors_num"
- READ_LONG  0xa8  "doors_offset"
-    FOR( cnt=0; cnt<"%doors_num%"; cnt=cnt+1 ) BEGIN
-        READ_ASCII ("%doors_offset%"+0xc8*cnt)       "door_name"
-            PATCH_IF (("%door_name%" STRING_COMPARE_CASE "Door1301")=0) BEGIN
-                SET offset = ("%doors_offset%"+0xc8*cnt)
-                WRITE_LONG (offset+0x28) 0x00000442
-                WRITE_ASCII (offset+0x78) ~ACQKEY02~ (8)
-                WRITE_BYTE (offset+0x8c) 100
-            END
-END
-LPF fj_are_structure
-    INT_VAR
-    fj_type         = 2    //travel
-    fj_box_left     = 915
-    fj_box_top      = 2828
-    fj_box_right    = 957
-    fj_box_bottom   = 2918
-    fj_cursor_idx   = 30   //door
-    fj_vertex_0     = 915 + (2876 << 16)
-    fj_vertex_1     = 957 + (2918 << 16)
-    fj_vertex_2     = 957 + (2867 << 16)
-    fj_vertex_3     = 915 + (2828 << 16)
-    fj_flags		= 4
-    STR_VAR
-    fj_structure_type   = region
-    fj_name             = ACDOOR01
-    fj_destination_area = AC8201
-    fj_destination_name = Exit8200
-  END
-
-COPY ~AC_QUEST/ARE/AC8201.ARE~ ~override~
-WRITE_EVALUATED_ASCII  0x8 ~%BaldursGateDocks_BasiliskWarehouse%~ #6
-WRITE_EVALUATED_ASCII  0xd04 ~%SEBaldursGate%~ #6
-WRITE_EVALUATED_ASCII  0xd0c ~%SEBaldursGate_EXIT%~ #8
-COPY ~AC_QUEST/ARE/AC4400.ARE~ ~override~
-WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines%~ #6
-WRITE_EVALUATED_ASCII  0x18 ~%NashkelCarnival%~ #6
-WRITE_EVALUATED_ASCII  0x24 ~%GibberlingMountains%~ #6
-WRITE_EVALUATED_ASCII  0x3c ~%FireLeafForest%~ #6
-WRITE_EVALUATED_ASCII  0x19c ~%tutu_var%DEAD~ #5
-WRITE_EVALUATED_ASCII  0x2ac ~%tutu_var%DEAD1~ #6
-WRITE_EVALUATED_ASCII  0x3bc ~%tutu_var%DEAD2~ #6
-WRITE_EVALUATED_ASCII  0x4cc ~%tutu_var%DEAD1~ #6
-WRITE_EVALUATED_ASCII  0x5dc ~%tutu_var%DEAD1~ #6
-WRITE_EVALUATED_ASCII  0x6ec ~%tutu_var%DEAD1~ #6
-WRITE_EVALUATED_ASCII  0x7fc ~%tutu_var%DEAD1~ #6
-WRITE_EVALUATED_ASCII  0x4cc ~%tutu_var%DEAD1~ #6
-WRITE_EVALUATED_ASCII  0x90c ~%tutu_var%DEAD1~ #6
-WRITE_EVALUATED_ASCII  0x4cc ~%tutu_var%DEAD1~ #6
-WRITE_EVALUATED_ASCII  0xa1c ~%tutu_var%DEAD1~ #6
-WRITE_EVALUATED_ASCII  0xb2c ~%tutu_var%DEAD1~ #6
-COPY ~AC_QUEST/ARE/AC4401.ARE~ ~override~
-WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_L1%~ #6
-COPY ~AC_QUEST/ARE/AC4402.ARE~ ~override~
-WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_L2%~ #6
-ACTION_IF GAME_IS ~bgt tutu_totsc~ THEN BEGIN
-COPY ~AC_QUEST/ARE/AC4403.ARE~ ~override~
-WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_L3%~ #6
-END
-ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-COPY ~AC_QUEST/ARE/ee/AC4403.ARE~ ~override~
-WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_L3%~ #6
-END
-COPY ~AC_QUEST/ARE/AC4404.ARE~ ~override~
-WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_L4%~ #6
-WRITE_EVALUATED_ASCII  0x94 ~%NashkelMines_L4%~ #6
-COPY ~AC_QUEST/ARE/AC4405.ARE~ ~override~
-WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_MulaheysCave%~ #6
-COPY ~AC_QUEST/ARE/AC4406.ARE~ ~override~
-WRITE_EVALUATED_ASCII  0x8 ~%NashkelMines_Cabin%~ #6
-WRITE_EVALUATED_ASCII  0x2ac ~%tutu_var%AMNIS4~ #7
-WRITE_EVALUATED_ASCII  0x3bc ~%tutu_var%AMNIS4~ #7
-WRITE_EVALUATED_ASCII  0x19c ~%tutu_var%EMERSO~ #7
-
-ACTION_IF NOT FILE_EXISTS_IN_GAME ~SKELAR02.cre~ THEN BEGIN
-  COPY ~AC_QUEST/cre/SKELAR02.cre~ ~override~
-  SAY NAME1 @80041
-  SAY NAME2 @80041
-END
-
-COPY ~AC_QUEST/cre/ACQ10119.CRE~ ~override~
-SAY NAME1 @112
-SAY NAME2 @112
-
-COPY ~AC_QUEST/cre/ACQ10120.CRE~ ~override~
-SAY NAME1 @113
-SAY NAME2 @113
-
-COPY ~AC_QUEST/cre/ACQ10121.CRE~ ~override~
-SAY NAME1 @114
-SAY NAME2 @114
-WRITE_EVALUATED_ASCII 0x248 ~ACQMINER~ #8   // Override script
-
-COPY ~AC_QUEST/cre/ACQ10122.CRE~ ~override~
-SAY NAME1 @115
-SAY NAME2 @115
-WRITE_EVALUATED_ASCII 0x248 ~ACQMINER~ #8   // Override script
-
-COPY ~AC_QUEST/cre/ACQ10123.CRE~ ~override~
-SAY NAME1 @116
-SAY NAME2 @116
-WRITE_EVALUATED_ASCII 0x248 ~ACQMINER~ #8   // Override script
-
-COPY ~AC_QUEST/cre/ACQ10124.CRE~ ~override~
-SAY NAME1 @117
-SAY NAME2 @117
-WRITE_EVALUATED_ASCII 0x248 ~ACQMINER~ #8   // Override script
-
-COPY_EXISTING ~AC_QUEST/cre/ACUMBHUL.cre~ ~override~
-SAY NAME1 @80060
-SAY NAME2 @80060
-
-COPY ~AC_QUEST/2da/ACHP01.2da~ ~override~
-REPLACE 99998 @118
-REPLACE 99999 @119
-
-COPY_EXISTING ~%NBaldursGate_TempleofHelm%.are~ ~OVERRIDE~
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x          = 448
-    fj_loc_y          = 437
-    fj_dest_x         = 448
-    fj_dest_y         = 437
-    fj_orientation    = 3
-    STR_VAR
-    fj_structure_type = actor
-    fj_name           = Wostok
-    fj_cre_resref     = ACQ10116
-  END
-
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x          = 497
-    fj_loc_y          = 460
-    fj_dest_x         = 497
-    fj_dest_y         = 460
-    fj_orientation    = 0
-    STR_VAR
-    fj_structure_type = actor
-    fj_name           = DWARF
-    fj_cre_resref     = ACQ10113
-  END
-  
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x          = 543
-    fj_loc_y          = 442
-    fj_dest_x         = 543
-    fj_dest_y         = 442
-    fj_orientation    = 3
-    STR_VAR
-    fj_structure_type = actor
-    fj_name           = DWARF
-    fj_cre_resref     = ACQ10114
-  END
-
-LPF fj_are_structure
-    INT_VAR
-    fj_loc_x          = 488
-    fj_loc_y          = 405
-    fj_dest_x         = 488
-    fj_dest_y         = 405
-    fj_orientation    = 3
-    STR_VAR
-    fj_structure_type = actor
-    fj_name           = DWARF
-    fj_cre_resref     = ACQ10115
-  END
-  
-COPY ~AC_QUEST/cre/ACQ10125.CRE~ ~override~
-SAY NAME1 @120
-SAY NAME2 @121
-
-COPY ~AC_QUEST/cre/ACQ10126.CRE~ ~override~
-SAY NAME1 @122
-SAY NAME2 @122
-
-COPY ~AC_QUEST/cre/ACQ10127.CRE~ ~override~
-SAY NAME1 @108
-SAY NAME2 @109
-
+//A friendly Dwarf
+ADD_JOURNAL TITLE (@3000082) @3000080 @3000081 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
+
+COMPILE EVALUATE_BUFFER ~AC_QUEST/d/ACQ21000.d~
+COMPILE EVALUATE_BUFFER ~AC_QUEST/d/ACQ10100_tweak_bg2.D~ USING ~AC_QUEST/tra/autotra/%LANGUAGE%/ACQ10100_tweak.tra~
+
+COMPILE EVALUATE_BUFFER ~AC_QUEST/baf/ACQ21001.baf~
+COMPILE EVALUATE_BUFFER ~AC_QUEST/baf/ACQCUT04.baf~
+
+/* Wostok's Hammer */
+COPY ~AC_QUEST/ITM/acq10128.ITM~ ~override~
+SAY NAME1 @1004 /* Wostok's Hammer +3 */
+SAY NAME2 @1004
+SAY DESC @1005
+
+/* Wostok's Hammer improved by Cromwell */
+COPY ~AC_QUEST/ITM/acq1128a.ITM~ ~override~
+SAY NAME1 @1004 /* Wostok's Hammer +3 */
+SAY NAME2 @1004
+SAY DESC @1008
+
+/* Wostok's Hammer improved by Cespenar: if hammer was improved by Cromwell */
+COPY ~AC_QUEST/ITM/acq1128b.ITM~ ~override~
+SAY NAME1 @1010 /* Wostok's Hammer +4 */
+SAY NAME2 @1010
+SAY DESC @1009
+
+/* Wostok's Hammer improved by Cespenar: if hammer was not improved by Cromwell */
+COPY ~AC_QUEST/ITM/acq1128c.ITM~ ~override~
+SAY NAME1 @1011 /* Wostok's Hammer +5 */
+SAY NAME2 @1011
+SAY DESC @1012
+
+/* Baldar Goldbart: Messenger dwarf */
+COPY ~AC_QUEST/cre/ACQ10114.CRE~ ~override/ACQ21001.cre~
+SAY NAME1 @1003 /* Baldar Goldbart */ 
+SAY NAME2 @1003 /* Baldar Goldbart */
+WRITE_EVALUATED_ASCII 0x248 ~ACQ21001~ #8   // Override script
+WRITE_EVALUATED_ASCII 0x280 ~ACQ21001~ #8   // Script name
+WRITE_EVALUATED_ASCII 0x2cc ~ACQ21001~ #8   // Dialogue
+
+/* Gorgar Blaurock */
+COPY ~AC_QUEST/cre/ACQ10113.CRE~ ~override/ACQ21002.cre~
+SAY NAME1 @1006 /* Gorgar Blaurock */ 
+SAY NAME2 @1006 /* Gorgar Blaurock */
+WRITE_EVALUATED_ASCII 0x248 ~ACQ21002~ #8   // Override script
+WRITE_EVALUATED_ASCII 0x280 ~ACQ21002~ #8   // Script name
+WRITE_EVALUATED_ASCII 0x2cc ~ACQ21002~ #8   // Dialogue
+ADD_CRE_ITEM ~acq10128~ #0 #0 #0 ~unstealable~ ~inv5~
+
+EXTEND_BOTTOM ~AR0334.bcs~ ~AC_QUEST/BAF/AR0334.BAF~ EVALUATE_BUFFER
+EXTEND_TOP ~AR0400.bcs~ ~AC_QUEST/BAF/AR0400.BAF~ EVALUATE_BUFFER
+EXTEND_TOP ~AR0406.bcs~ ~AC_QUEST/BAF/AR0406.BAF~ EVALUATE_BUFFER
+EXTEND_TOP ~BALDUR.bcs~ ~AC_QUEST/BAF/ACBALDU2.BAF~ EVALUATE_BUFFER
+EXTEND_BOTTOM ~BOTSMITH.bcs~ ~AC_QUEST/BAF/ACQBOTSMITH.baf~ EVALUATE_BUFFER
+
+END //BGT,EET
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////

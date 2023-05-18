@@ -412,10 +412,10 @@
 
 /* new for v5.0 */
 @410  = ~[Draglon]Verständlich, aber das steht Euch noch nicht zu. Erst müsst Ihr Euch als vertrauenswürdig erweisen.~
-@411  = ~Ich soll für Euch weiterhin arbeiten, ohne genaue Details zu kennen?~
-@412  = ~Yes, I regret it myself. Is there a chance we could start over? I'd rather help you against this evil cult.~
-@413  = ~[Wostok]Hmm. What do you know so far?~
-@414  = ~Enough to know that I will rather work for you.~
-@415  = ~I would. There is just one problem. I think I already made an enemy out of him, so he knows my face, too.~
-@416  = ~[Wostok]Hmm. That's too bad. Still, I think you could be of use to us. Meet us in the temple of Helm later. We will return there when we have gathered new information.~
+@411  = ~Ich soll weiterhin für Euch arbeiten, ohne genaue Details zu kennen?~
+@412  = ~Ja, ich bedaure es selbst. Besteht die Möglichkeit, dass wir von vorne anfangen? Ich würde lieber Euch gegen diese böse Sekte helfen.~
+@413  = ~[Wostok]Hmm. Was wisst Ihr bisher?~
+@414  = ~Genug, um zu wissen, dass ich lieber für Euch arbeiten würde.~
+@415  = ~Ich würde es tun. Es gibt nur ein Problem. Ich glaube, ich habe ihn mir bereits zum Feind gemacht, also kennt er auch mein Gesicht.~
+@416  = ~[Wostok]Hm. Das ist sehr schade. Aber ich denke, du könntest uns von Nutzen sein. Trefft uns bald im Tempel von Helm. Wir werden dorthin zurückkehren, wenn wir neue Informationen gesammelt haben.~
 

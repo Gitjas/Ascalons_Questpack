@@ -1,0 +1,13 @@
+IF
+	GlobalGT("ACQ1SNAKESDEFEATED","GLOBAL",1)
+	GlobalTimerExpired("ACQZHENTTIMER","GLOBAL")
+	GlobalGT("ACQSNAKEWORK","GLOBAL",1)
+	Global("ACQSPAWNZHENT","GLOBAL",0)
+	AreaType(CITY)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQSPAWNZHENT","GLOBAL",1)
+		CreateCreatureObject("ACQSZENT",Player1,0,0,0)
+		Continue()
+END

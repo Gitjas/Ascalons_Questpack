@@ -8,3 +8,27 @@ THEN
 		StartCutSceneMode()
 		Dialog(PLAYER1)
 END
+
+IF
+	GlobalGT("ACQ2SNAKESTART","GLOBAL",5)
+THEN
+	RESPONSE #100
+		ActionOverride("ACQ21002",EscapeAreaDestroy(5))
+		EscapeAreaDestroy(5)
+END
+
+IF
+	Allegiance("ACQ21002",ENEMY)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Allegiance("ACQ21002",NEUTRAL)
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		ActionOverride("ACQ21001",Enemy())
+END

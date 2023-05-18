@@ -1,0 +1,9 @@
+IF
+	Global("ACQ2SNAKESTART","GLOBAL",4)
+THEN
+	RESPONSE #100
+		SetGlobal("ACQ2SNAKESTART","GLOBAL",5)
+		CreateCreature("ACQ21001",[475.1504],12)
+		CreateCreature("ACQ21002",[440.1472],12)
+		Continue()
+END

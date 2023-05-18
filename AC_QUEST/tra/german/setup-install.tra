@@ -15,6 +15,10 @@
 @5000015    = ~Ein Halbling unter Augenlosen~
 @5000016    = ~Diese Mod muss vor EET_End installiert werden.~
 
+/* new for v5.0 */
+@5000017    = ~Originalversion~
+@5000018    = ~Veraenderte Version: Quest kann abgeschlossen werden.~
+
 // WeiDU prompts
 @-1000= "Die %TP2_FILE_NAME%-Mod besitzt"
 @-1001= "verschiedene optionale Komponenten.

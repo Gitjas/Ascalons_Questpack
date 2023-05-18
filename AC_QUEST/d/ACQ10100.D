@@ -12,12 +12,12 @@ END
 
 IF ~~ THEN BEGIN 1
 SAY @5
-IF ~~ THEN DO ~GiveItemCreate("ACQLET03",LastTalkedToBy(myself),0,0,0)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@3000086) GiveItemCreate("ACQLET03",LastTalkedToBy(myself),0,0,0)~ EXIT
 END
 
 IF ~~ THEN BEGIN 1a
 SAY @6
-IF ~~ THEN DO ~GiveItemCreate("ACQLET03",LastTalkedToBy(myself),0,0,0)~ EXIT
+IF ~~ THEN DO ~EraseJournalEntry(@3000086) GiveItemCreate("ACQLET03",LastTalkedToBy(myself),0,0,0)~ EXIT
 END
 
 IF ~NumTimesTalkedTo(0)!Race(LastTalkedToBy(),DWARF)~ THEN BEGIN 2
@@ -384,9 +384,17 @@ END
 
 IF ~~ THEN BEGIN 14
 SAY @101
-IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000023 EXIT
-IF ~PartyHasItem("ACQLET03")~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000025 EXIT
-IF ~PartyHasItem("ACQBOOK1")~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000024 EXIT
+IF ~Race(Player1,DWARF)~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000023 EXIT
+IF ~Race(Player1,DWARF)
+PartyHasItem("ACQLET03")~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000025 EXIT
+IF ~Race(Player1,DWARF)
+PartyHasItem("ACQBOOK1")~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000024 EXIT
+
+IF ~!Race(Player1,DWARF)~ THEN DO ~AddJournalEntry(@3000086,QUEST) SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000023 EXIT
+IF ~!Race(Player1,DWARF)
+PartyHasItem("ACQLET03")~ THEN DO ~AddJournalEntry(@3000086,QUEST) SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000025 EXIT
+IF ~!Race(Player1,DWARF)
+PartyHasItem("ACQBOOK1")~ THEN DO ~AddJournalEntry(@3000086,QUEST) SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000024 EXIT
 END
 
 IF ~~ THEN BEGIN 15
@@ -398,9 +406,17 @@ END
 
 IF ~~ THEN BEGIN 16
 SAY @104
-IF ~~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000020 EXIT
-IF ~PartyHasItem("ACQLET03")~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000022 EXIT
-IF ~PartyHasItem("ACQBOOK1")~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000021 EXIT
+IF ~Race(Player1,DWARF)~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000020 EXIT
+IF ~Race(Player1,DWARF)
+PartyHasItem("ACQLET03")~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000022 EXIT
+IF ~Race(Player1,DWARF)
+PartyHasItem("ACQBOOK1")~ THEN DO ~SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000021 EXIT
+
+IF ~!Race(Player1,DWARF)~ THEN DO ~AddJournalEntry(@3000086,QUEST) SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000020 EXIT
+IF ~!Race(Player1,DWARF)
+PartyHasItem("ACQLET03")~ THEN DO ~AddJournalEntry(@3000086,QUEST) SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000022 EXIT
+IF ~!Race(Player1,DWARF)
+PartyHasItem("ACQBOOK1")~ THEN DO ~AddJournalEntry(@3000086,QUEST) SetGlobal("ACQSNAKEENEMY","GLOBAL",1)UseItem("potn10",Myself) Wait(1)DestroySelf()~ UNSOLVED_JOURNAL @3000021 EXIT
 END
 
 IF ~~ THEN BEGIN 17
@@ -1170,7 +1186,7 @@ IF ~~ THEN ACQEMERS 14
 ==ACQEMERS IF ~PartyHasItem("ACQBOOK4")~ THEN @352 DO ~AddexperienceParty(1200)TakePartyItem("ACQBOOK4")~
 ==ACQEMERS IF ~Dead("ACQ10120")~ THEN @353 DO ~EraseJournalEntry(@10019) AddexperienceParty(1200)ReputationInc(1)~
 ==ACQEMERS IF ~Global("ACUMBWAKE","GLOBAL",2)~ THEN @354 DO ~AddexperienceParty(1200)~
-==ACQEMERS @355 DO ~EraseJournalEntry(@10011)EraseJournalEntry(@10012)EraseJournalEntry(@10013)EraseJournalEntry(@10014)EraseJournalEntry(@10015)EraseJournalEntry(@10016)EraseJournalEntry(@10017)EraseJournalEntry(@10018)EraseJournalEntry(@10021)EraseJournalEntry(@10022) EraseJournalEntry(@10023)
+==ACQEMERS @355 DO ~EraseJournalEntry(@10011)EraseJournalEntry(@10012)EraseJournalEntry(@10013)EraseJournalEntry(@10014)EraseJournalEntry(@10015)EraseJournalEntry(@10016)EraseJournalEntry(@10017)EraseJournalEntry(@10018)EraseJournalEntry(@10021)EraseJournalEntry(@10022) EraseJournalEntry(@10023) EraseJournalEntry(@3000086)
 AddJournalEntry(@10020,QUEST_DONE) 
 SetGlobal("ACQ1SNAKESDEFEATED","GLOBAL",2) EscapeAreaDestroy(10)~
 EXIT
@@ -1372,5 +1388,5 @@ END
 
 IF ~~ THEN BEGIN 5
 SAY @406 = @407 = @408
-IF ~~ THEN DO ~DestroyItem("MINHP1") SetGlobal("ACQWOSTOKWANTSTODIE","MYAREA",1)~ UNSOLVED_JOURNAL @3000038 EXIT
+IF ~~ THEN DO ~SetGlobal("ACQWOSTOKWANTSTODIE","MYAREA",1) DestroyItem("MINHP1")~ UNSOLVED_JOURNAL @3000038 EXIT
 END

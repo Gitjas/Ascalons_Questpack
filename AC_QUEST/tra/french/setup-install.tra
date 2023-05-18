@@ -16,6 +16,10 @@
 @5000015    = ~Un petit-homme parmi les sans-yeux~
 @5000016    = ~Ce mod doit etre installe avant EET_End sur votre installation EET.~
 
+/* new for v5.0 */
+@5000017    = ~Original version~
+@5000018    = ~Tweaked version: quest can be finished in BG1.~
+
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"
 @-1001= "composants optionnels distincts.

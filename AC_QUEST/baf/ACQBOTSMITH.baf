@@ -1,0 +1,19 @@
+IF
+	Global("ACQ_ItemMaker","GLOBAL",1)
+	Global("ImpForgeStuff","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ImpForgeStuff","GLOBAL",0)
+		GiveItemCreate("ACQ1128b",Player1,0,0,0) // 
+		StartDialogueNoSet(Player1)
+END
+
+IF
+	Global("ACQ_ItemMaker","GLOBAL",2)
+	Global("ImpForgeStuff","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ImpForgeStuff","GLOBAL",0)
+		GiveItemCreate("ACQ1128c",Player1,0,0,0) // 
+		StartDialogueNoSet(Player1)
+END
