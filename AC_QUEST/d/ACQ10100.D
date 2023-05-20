@@ -998,7 +998,7 @@ END
 
 IF ~~ THEN BEGIN 17
 SAY @299
-IF ~~ THEN DO ~AddexperienceParty(550)DropItem("ACQKEY01",[-1.-1])ActionOverride("ACQ10117",EscapeAreaDestroy(10))EscapeAreaDestroy(10) EraseJournalEntry(@3000010)~ EXIT
+IF ~~ THEN DO ~AddexperienceParty(550)GiveItem("ACQKEY01",Player1)ActionOverride("ACQ10117",EscapeAreaDestroy(10))EscapeAreaDestroy(10) EraseJournalEntry(@3000010)~ EXIT
 END
 
 IF ~StateCheck(Myself,STATE_CHARMED)~ THEN BEGIN 17a

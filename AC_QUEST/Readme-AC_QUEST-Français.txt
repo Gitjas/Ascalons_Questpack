@@ -268,6 +268,7 @@ VII. Historique des versions :
 -Lugosch should drop the known Gundmagtor, not the unknown artefact (Serpents of Abbathor).
 -Unified dwarven names (Lugosch, Tarash/Tarasch; Serpents of Abbathor).
 -Gibberling Leather Armor should not be called Orc Leather (Home for the Gibberlings).
+-Quest characters should not drop items in dialogue meant for the group but give it to the PC.
 -Changed "diary" to "journal" (English version).
 
 

@@ -282,7 +282,7 @@ END
 
 IF ~~ THEN BEGIN 10
 SAY @115 = @116
-IF ~~ THEN DO ~EraseJournalEntry(@2000001)EraseJournalEntry(@2000002)EraseJournalEntry(@2000003)AddJournalEntry(@2000007,QUEST_DONE)DropItem("ACQ17003",[-1.-1])
+IF ~~ THEN DO ~EraseJournalEntry(@2000001)EraseJournalEntry(@2000002)EraseJournalEntry(@2000003)AddJournalEntry(@2000007,QUEST_DONE)GiveItem("ACQ17003",Player1)
 ActionOverride("ACQ17003",ForceSpell(Myself,DRYAD_TELEPORT))
 ActionOverride("ACQ17003",Wait(1))
 ActionOverride("ACQ17003",DestroySelf())~ EXIT
