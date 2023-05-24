@@ -4,7 +4,7 @@
 
 ПАРАМЕТРЫ:
 
-Особенности при экипировке:
+Свойства экипировки:
  - Класс защиты: +1 улучшение
  - Спасброски: +1 улучшение
 
@@ -172,115 +172,116 @@
 
 
 /* new for v5.0 */
-@1005 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
+@1005 = ~Уосток Хаммерхэд, воин и жрец Морадина, был известен своей бесстрашной и жертвенной борьбой с наземными дварфами, поклоняющимся злому богу Аббатору. Это оружие забрали себе Змеи Аббатора, когда Уосток пал с битве за освобождение шахт Нашкеля от их культа. Позже клан Уостока вернул и очистил молот от скверны, и теперь он снова может служить силам добра.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Equipped abilities:
-– Bless
-
-THAC0: +3
-Damage: 2d4+3, +2 extra vs. evil aignments
-Damage type (melee): Crushing
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
-
-Weight: 4~
-@1008 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-The master smith Cromwell improved the weapon so it will always return into the wielder's hand if thrown.
-
-STATISTICS:
-
-Equipped abilities:
-– Bless
-Combat abilities:
-– Returns to the wielder's hand when thrown
+Свойства экипировки:
+– Благословение
 
 THAC0: +3
-Damage: 2d4+3, +2 extra vs. evil aignments
-Damage type (melee): Crushing
-Damage type (thrown): Missile
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
+Урон: 2d4+3, +2 против злых существ
+Тип урона: дробящий
+Фактор скорости: 1
+Навык: боевой молот
+Тип: одноручное
+Требования:
+ Сила 9
 
-Weight: 4~
-@1009 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-Cespenar improved the weapon further so it does more damage.
+Вес: 4~
+@1008 = ~Уосток Хаммерхэд, воин и жрец Морадина, был известен своей бесстрашной и жертвенной борьбой с наземными дварфами, поклоняющимся злому богу Аббатору. Это оружие забрали себе Змеи Аббатора, когда Уосток пал с битве за освобождение шахт Нашкеля от их культа. Позже клан Уостока вернул и очистил молот от скверны, и теперь он снова может служить силам добра.
+Кузнец-мастер Кромвель улучшил это оружие, и теперь оно всегда возвращается в руку после броска.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Equipped abilities:
-– Bless
-Combat abilities:
-– Returns to the wielder's hand when thrown
+Свойства экипировки:
+– Благословение
+
+Боевые возможности:
+– Возвращается после броска к владельцу
+
+THAC0: +3
+Урон: 2d4+3, +2 против злых существ
+Тип урона (рукопашная): дробящий
+Тип урона (бросок): метательный
+Фактор скорости: 1
+Навык: боевой молот
+Тип: одноручное
+Требования:
+ Сила 9
+
+Вес: 4~
+@1009 = ~Уосток Хаммерхэд, воин и жрец Морадина, был известен своей бесстрашной и жертвенной борьбой с наземными дварфами, поклоняющимся злому богу Аббатору. Это оружие забрали себе Змеи Аббатора, когда Уосток пал с битве за освобождение шахт Нашкеля от их культа. Позже клан Уостока вернул и очистил молот от скверны, и теперь он снова может служить силам добра.
+Цеспенар ещё сильнее улучшил это оружие, и теперь оно наносит больше урона.
+
+ПАРАМЕТРЫ:
+
+Свойства экипировки:
+– Благословение
+
+Боевые возможности:
+– Возвращается после броска к владельцу
 
 THAC0: +4
-Damage: 2d4+4, +2 extra vs. evil aignments
-Damage type (melee): Crushing
-Damage type (thrown): Missile
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
+Урон: 2d4+4, +2 против злых существ
+Тип урона (рукопашная): дробящий
+Тип урона (бросок): метательный
+Фактор скорости: 1
+Навык: боевой молот
+Тип: одноручное
+Требования:
+ Сила 9
 
-Weight: 4~
-@1012 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-Cespenar improved the weapon further so it does more damage.
+Вес: 4~
+@1012 = ~Уосток Хаммерхэд, воин и жрец Морадина, был известен своей бесстрашной и жертвенной борьбой с наземными дварфами, поклоняющимся злому богу Аббатору. Это оружие забрали себе Змеи Аббатора, когда Уосток пал с битве за освобождение шахт Нашкеля от их культа. Позже клан Уостока вернул и очистил молот от скверны, и теперь он снова может служить силам добра.
+Цеспенар ещё сильнее улучшил это оружие, и теперь оно наносит больше урона.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Equipped abilities:
-– Bless
+Свойства экипировки:
+– Благословение
 
 THAC0: +5
-Damage: 2d4+5, +2 extra vs. evil aignments
-Damage type (melee): Crushing
-Damage type (thrown): Missile
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
+Урон: 2d4+5, +2 против злых существ
+Тип урона (рукопашная): дробящий
+Тип урона (бросок): метательный
+Фактор скорости: 1
+Навык: боевой молот
+Тип: одноручное
+Требования:
+ Сила 9
 
-Weight: 4~
+Вес: 4~
 
 //#6742 BGII
-@80042 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
+@80042 = ~Такие мечи иногда называют обоюдоострыми, армейскими или солдатскими мечами. Известно немало видов этого оружия и с односторонней заточкой. Не существует единого стандарта длинного меча; его форма и длина зависит от места, а в большинстве культур – и от эпохи изготовления. Одна из самых общих для этих мечей характеристик – их длина: от 35 до 47 дюймов. В последнем случае собственно лезвие достигает в длину 40 дюймов. Наиболее широко распространены мечи, имеющие двустороннюю заточку и заострение на конце. Несмотря на последнее, длинные мечи предназначены для рубящих, а не колющих ударов.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-Damage: 1d8 (slashing)
-Speed Factor: 4
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
+Урон: 1d8 (рубящий)
+Фактор скорости: 5
+Навык: длинный меч
+Тип: одноручное
+Требования:
+ Сила 6
 
-Weight: 4~
+Вес: 4~
 
 //#4421 BGII
-@80043 = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored. "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
+@80043 = ~Этот клинок пылает магическим огнём, и при каждом успешном попадании из него вырывается раскалённое пламя. «Мета Инфернум» – вытравлено на рукояти, хотя надпись несколько поблекла и, возможно, была нанесена позднее.
 
-STATISTICS:
+ПАРАМЕТРЫ:
 
-THAC0: +1
-Damage: 1d8+1, +1 fire damage
-Damage type: Slashing
-Speed Factor: 4
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
+ТНАС0: +1
+Урон: 1d8+1, +1 огненного урона
+Тип урона: рубящий
+Фактор скорости: 4
+Навык: длинный меч
+Тип: одноручное
+Требования:
+ Сила 6
 
-Weight: 4
-~
+Вес: 4~
 
 //#6742 BGII
 @80042 = ~Такие мечи иногда называют обоюдоострыми, боевыми или солдатскими мечами. Часто лезвие длинных мечей имеет и одностороннюю заточку. Не существует единого стандарта длинного меча, их форма и длина зависит от места, а в большинстве культур и от эпохи изготовления. Одной из наиболее общих характеристик для таких мечей является их длина, она колеблется от тридцати пяти до сорока семи дюймов. В последнем случае лезвие достигает сорока дюймов от общей длины меча. Наиболее широко распространены мечи, имеющие обоюдоострое лезвие, заточенное к концу. Несмотря на это длинные мечи предназначены для рубящих, а не колющих ударов.
@@ -398,7 +399,7 @@ THAC0: +3 улучшение
 
 Этот щит предоставляет обладателю иммунитет к любым формам окаменения. Это включает в себя взгляд василиска и медузы, воздействие проклятых свитков окаменения и т.п.
 
-Особенности при экипировке:
+Свойства экипировки:
  - Класс защиты: +2 улучшение
  - Владелец получает иммунитет к любым формам окаменения. Это включает в себя взгляд василиска и медузы, воздействие проклятых свитков окаменения и т.п.
 
