@@ -78,6 +78,10 @@ C'était censé être un pique-nique romantique, mais tout a dérapé. Cherchez Mme B
 -------------------------
 Un récit épique sur l'honneur, l'amitié et les lapins.
 
+This component has two options: The first one is the original version, with Ugh and Jumper inside a cave west of south Beregost road.
+
+The second one places them outside near the cave entrance. This is for compatibility reasons because TheArtisan's Shadow Magic mod also places a quest character into the cave. Install this component if you want to play both mods together.
+
 4 À la recherche de Perwell
 -------------------------
 Tout ce que la demi-elfe Aphriel voulait, c'était de poser son arc en faveur d'une vie simple. Mais ensuite, tout a changé. Retrouvez-la dans la loge de Bois Manteau.

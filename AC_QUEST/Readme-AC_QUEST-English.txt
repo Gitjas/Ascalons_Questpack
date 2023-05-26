@@ -77,6 +77,10 @@ It was supposed to be a romantic picnic, but then everything went wrong. Look fo
 -------------------------
 An epic tale of honour, friendship and bunny-rabbits.
 
+This component has two options: The first one is the original version, with Ugh and Jumper inside a cave west of south Beregost road.
+
+The second one places them outside near the cave entrance. This is for compatibility reasons because TheArtisan's Shadow Magic mod also places a quest character into the cave. Install this component if you want to play both mods together.
+
 4 The Lost Son
 -------------------------
 All the half-elf Aphriel wanted was to lay down her bow in favour of a simple life. But then everything changed. Meet her in the Cloakwood Lodge area.

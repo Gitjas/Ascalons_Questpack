@@ -82,6 +82,10 @@ Ein romantisches Picknick sollte es werden, doch dann kam alles ganz anders. Suc
 -------------------------
 Eine epische Queste um Ehre, Freundschaft und Kaninchen.
 
+Für diese Komponente gibt es zwei Optionen: Die erste ist die ursprüngliche Version, bei der sich Ugh und Hopsi in einer Höhle westlich der Straße südlich von Beregost befinden.
+
+Die zweite Version platziert sie draußen in der Nähe des Höhleneingangs. Dies geschieht aus Kompatibilitätsgründen, da die Shadow Magic Mod von TheArtisan ebenfalls einen Quest-Charakter in der Höhle platziert. Installiert diese Komponente, wenn Ihr beide Mods zusammen spielen wollt.
+
 4. Der verschwundene Sohn
 -------------------------
 Die Halbelfe Aphriel wollte eigentlich ihren Bogen für immer an die Wand hängen - doch dann kam alles ganz anders. Ihr trefft sie im Gebiet der Mantelwald Lodge.
@@ -90,7 +94,7 @@ Die Halbelfe Aphriel wollte eigentlich ihren Bogen für immer an die Wand hängen 
 -------------------------
 Aivell, die junge Magierin, hält die Tür zu ihrem Haus verschlossen - von außen. Warum nur? Besucht sie an ihrem Haus in der Nähe der hohen Hecke und findet es heraus.
 Die Komponente hat zwei INstallationsoptionen: Die erste verwendet die Hütte neben Thalantyrs Festung in der Hohen Hecke, was die Originalversion der Quest ist.
-Die Zweite verlegt das vom Werwolf belegte Hasu nach Beregost (am südwestlichen Stadtrand, Haus "9" im Walkthrough von Dudleyville, Link s. untern). Diese Auswahl wurde für die Kompatibilität mit Glams NPC Pack eingefügt. Der Quest verläuft genau gleich, nur das Haus ist weiter von Thalantyr entfernt.
+Die Zweite verlegt das vom Werwolf belegte Hasu nach Beregost (am südwestlichen Stadtrand, Haus "9" im Walkthrough von Dudleyville, Link s. untern). Diese Auswahl wurde für die Kompatibilität mit Glams NPC Pack eingefügt. Der Quest verläuft genau gleich, nur das Haus ist weiter von Thalantyr entfernt. Installiert diese Komponente, wenn Ihr beide Mods zusammen spielen wollt.
 Dudleyvilles Walkthrough:
 http://www.forgottenwars.com/bg1/ar3300.htm
 
