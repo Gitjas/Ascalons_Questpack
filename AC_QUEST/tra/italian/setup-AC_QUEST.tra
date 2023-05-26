@@ -1005,13 +1005,11 @@ Thalantyr, the mage in High Hedge, offered to destroy the dwarven artefact Gundm
 Well, Halbazzer Drin is no help here. He flat out rejected to even look at the Gundmagtor further.~
 
 /* BG2 follow up for good path */
-@3000080  = ~A friendly Dwarf
-
-I was approached by a dwarf who said that he is a messenger from someone who needs my services. I'll find them in the Copper Coronet in the Slums of Athkatla.~
-@3000081  = ~A friendly Dwarf
+//@3000080  = 
+@3000081  = ~Una Misteriosa Offerta
 
 Would you look at that - the dwarf who approached me was one of two good friends of Wostok, the dwarven warrior and priest I assisted against the evil dwarven cult "Serpents of Abbathor" lead by Lugosch, who I drove out of the Nashkel mines. How could I forget brave Wostok who's last wish was to rather die by my hand than wait for his wounds to take him... They gave me his hammer, a mighty weapon by the looks of it, and asked me to tell of Wostok's bravery whenever anyone asks about this weapon.~
-@3000082  = ~A friendly Dwarf~
+//@3000082  = 
 @3000083  = ~Cromwell can enchant Wostok's hammer so I can throw him, too! For that, he'd need a scroll of Enchanted Weapon, a scroll of Melf's Minute Meteors, and a Diamond, and probably a sum of gold he didn't specify yet.~
 @3000084  = ~Cespenar can upgrade Wostok's hammer with a hammer +2 and 10,000 gold.~
 @3000085  = ~Cespenar can upgrade Wostok's hammer with a hammer +2, a scroll of Enchanted Weapon, a diamond, and 10,000 gold.~

@@ -285,7 +285,7 @@ VIII. Remerciements
 - Jastey pour son aide inestimable (que ferais-je sans ses exemples d'entrées de journal).
 - Leomar et Leonardo Watson pour leur travail sur le BWP.
 - Bloodtitan pour la traduction anglaise.
-- Arkie pour la traduction russe.
+- Arkie pour la traduction russe (v5.0).
 - deratiseur et jazira pour la traduction française, relecture par tonton-thon.
 - Coland pour la traduction italienne.
 - Fridtjof et Hedian et tous les autres de www.rosenranken.org qui offrent un sympathique foyer au Pack de Quêtes.

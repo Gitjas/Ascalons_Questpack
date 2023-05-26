@@ -69,7 +69,7 @@ IF ~~ THEN DO ~EraseJournalEntry(@3000059) CreateVisualEffectObject("SPDIMNDR",M
 END 
 
 IF ~Global("ACQZENTISWAITING","GLOBAL",0)~ THEN zent
-SAY @12 /* ~[male emissary of Zhentarim]Greetings, <CHARNAME>. Don't be startled that I know your name - you made quite the impression with your deeds these last weeks. I am with those who call themselves the Zhentarim, and my leader have a huge interest in a dwarven artifact that you have only recently come into possession of.~ */
+SAY @12 /* ~[male emissary of Zhentarim]Greetings, <CHARNAME>. Don't be startled that I know your name - you made quite the impression with your deeds these last weeks. I am with those who call themselves the Zhentarim, and my leaders have a huge interest in a dwarven artifact that you have only recently come into possession of.~ */
 ++ @13 /* ~You want the Gundmagtor?~ */ + zent_01
 ++ @14 /* ~And why would I give this to you?~ */ + zent_02
 ++ @16 /* ~Handing this thing to another evil organization? Do you think I'm crazy?~ */ + zent_10

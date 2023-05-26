@@ -257,7 +257,7 @@ VII. Versions-History:
 -Fixed install error for Russian version, by Arkie.
 
 5.0 - 2023-05-18
--Component Serpenst of Abbathor has two install choices: Original version or Tweaked version. Tweaked version has closing of quest in BG1, including small follow-up in BGII for BGT/EET if PC helped Wostok to the end.
+-Component Serpenst of Abbathor has two install choices: Original version or Tweaked version. Tweaked version has closing of quest in BG1, including small follow-up in BGII for BGT/EET if PC helped Wostok to the end. 
 -Generally revised Serpents of Abbathor quest: more journal entries, no open quest ends, PC can change sides if agreed to kill Wostok, dialogue improvements.
 -Freed miners and Amnish guards should leave (Serpents of Abbathor).
 -Removed wrong string refs from cres (Serpents of Abbathor).
@@ -282,7 +282,7 @@ VIII. Danksagungen
 - Jastey für großartige Hilfestellungen (was fürde ich nur ohne deine Tagebucheintragsbeispiele machen)
 - Leomar und Leonardo Watson für ihre Arbeit am BWP
 - Bloodtitan für die englische Übersetzung
-- Arkie für die russische Übersetzung
+- Arkie für die russische Übersetzung (v5.0)
 - deratiseur & jazira für die französische Übersetzung, korrekturgelesen von tonton-thon
 - Coland für die italienische Übersetzung
 - Fridtjof und Hedian und allen anderen von www.rosenranken.org, die dem Questpack ein feines zu Hause bieten

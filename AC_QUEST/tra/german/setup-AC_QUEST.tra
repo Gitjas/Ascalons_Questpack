@@ -929,13 +929,11 @@ Thalantyr, the mage in High Hedge, offered to destroy the dwarven artefact Gundm
 Nun, Halbazzer Drin ist hier keine Hilfe. Er lehnte es rundweg ab, den Gundmagtor auch nur näher zu betrachten.~
 
 /* BG2 follow up for good path */
-@3000080  = ~Ein freundlicher Zwerg
-
-Ich wurde von einem Zwerg angesprochen, der sagte, er sei ein Bote von jemandem, der meine Dienste benötigt. Ich kann sie in der Kupferkrone in den Slums von Athkatla finden.~
-@3000081  = ~Ein freundlicher Zwerg
+//@3000080  = 
+@3000081  = ~Ein geheimnisvolles Angebot
 
 Da schau her - der Zwerg, der mich ansprach, war einer von zwei guten Freunden von Wostok, dem Zwergenkrieger und Priester, dem ich gegen den bösen Zwergenkult "Schlangen von Abbathor" unter der Führung von Lugosch beistand, den ich aus den Nashkell-Minen vertrieben hatte! Wie könnte ich den tapferen Wostok vergessen, dessen letzter Wunsch es war, lieber durch meine Hand zu sterben, als darauf zu warten, dass seine Wunden ihn dahinraffen... Sie gaben mir seinen Hammer, eine mächtige Waffe wie es aussieht, und baten mich, von Wostoks Tapferkeit zu erzählen, wenn jemand nach dieser Waffe fragt.~
-@3000082  = ~Ein freundlicher Zwerg~
+//@3000082  = ~Ein geheimnisvolles Angebot~
 @3000083  = ~Cromwell kann Wostoks Hammer verzaubern, damit ich ihn auch werfen kann! Dafür bräuchte er eine Schriftrolle "Verzauberte Waffe", eine Schriftrolle "Melfs magische Meteoriten", einen Diamanten sowie wahrscheinlich eine Summe Gold, die er noch nicht genannt hat.~
 @3000084  = ~Cespenar kann Wostoks Hammer mit einem Hammer +2 und 10.000 Gold aufwerten.~
 @3000085  = ~Cespenar kann Wostoks Hammer mit einem Hammer +2, einer Schriftrolle "Verzauberte Waffe", einem Diamanten und 10.000 Gold aufwerten.~

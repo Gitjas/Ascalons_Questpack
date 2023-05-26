@@ -1071,8 +1071,8 @@ LAF extend_area_script STR_VAR area="%NEBaldursGate_BlushingMermaid_L1%" top="AC
 /* use "unfinished business" :-) Idea from Lumorus! */
 ACTION_IF GAME_IS ~bgt eet~ THEN BEGIN
 
-//A friendly Dwarf
-ADD_JOURNAL TITLE (@3000082) @3000080 @3000081 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
+//A Mysterious Offer
+ADD_JOURNAL TITLE (@90010) @20023 @3000081 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
 
 COMPILE EVALUATE_BUFFER ~AC_QUEST/d/ACQ21000.d~
 COMPILE EVALUATE_BUFFER ~AC_QUEST/d/ACQ10100_tweak_bg2.D~ USING ~AC_QUEST/tra/autotra/%LANGUAGE%/ACQ10100_tweak.tra~

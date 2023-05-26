@@ -96,7 +96,7 @@ END
 
 IF ~~ THEN gorgar_10
 SAY @135 /* ~[Gorgar Blaurock]Farewell, <CHARNAME>. Moradin be with you.~ */
-IF ~~ THEN DO ~GiveItem("acq10128",Player1) EraseJournalEntry(@3000080) SetGlobal("ACQ2SNAKESTART","GLOBAL",6)~ SOLVED_JOURNAL @3000081 EXIT
+IF ~~ THEN DO ~GiveItem("acq10128",Player1) EraseJournalEntry(@20023) SetGlobal("ACQ2SNAKESTART","GLOBAL",6)~ SOLVED_JOURNAL @3000081 EXIT
 END
 
 IF ~~ THEN gorgar_11

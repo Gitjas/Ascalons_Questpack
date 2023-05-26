@@ -281,7 +281,7 @@ VIII. Thanks
 - Jastey für großartige Hilfestellungen (was fürde ich nur ohne deine Tagebucheintragsbeispiele machen)
 - Leomar und Leonardo Watson für ihre Arbeit am BWP
 - Bloodtitan für die englische Übersetzung
-- Arkie for the Russian translation
+- Arkie for the Russian translation (v5.0)
 - deratiseur & jazira for the French translation, proofreading by tonton-thon
 - Coland for the Italian translation
 - Fridtjof und Hedian und allen anderen von www.rosenranken.org, die dem Questpack ein feines zu Hause bieten

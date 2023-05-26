@@ -61,12 +61,12 @@ END
 
 IF ~~ THEN BEGIN 8
 SAY @20
-IF ~~ THEN DO ~AddJournalEntry(@20023,QUEST)EscapeAreaDestroy(5)~ UNSOLVED_JOURNAL @3000080 EXIT
+IF ~~ THEN DO ~AddJournalEntry(@20023,QUEST)EscapeAreaDestroy(5)~ EXIT
 END
 
 IF ~~ THEN BEGIN 9
 SAY @21
-IF ~~ THEN DO ~AddJournalEntry(@20023,QUEST)EscapeAreaDestroy(5)~ UNSOLVED_JOURNAL @3000080 EXIT
+IF ~~ THEN DO ~AddJournalEntry(@20023,QUEST)EscapeAreaDestroy(5)~ EXIT
 END
 
 IF ~~ THEN BEGIN 10
