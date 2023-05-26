@@ -18,6 +18,8 @@
 /* new for v5.0 */
 @5000017    = ~Originalversion~
 @5000018    = ~Veraenderte Version: Quest kann abgeschlossen werden.~
+@5000019    = ~Originalversion: Ugh und Hopsi sind in der Hoehle.~
+@5000020    = ~Kompatibilitätsalternative: Ugh und Hopsi befinden sich draussen.~
 
 // WeiDU prompts
 @-1000= "Die %TP2_FILE_NAME%-Mod besitzt"

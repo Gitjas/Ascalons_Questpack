@@ -19,6 +19,8 @@
 /* new for v5.0 */
 @5000017    = ~Original version~
 @5000018    = ~Tweaked version: quest can be finished in BG1.~
+@5000019    = ~Original version: Ugh and Jumper are inside the cave.~
+@5000020    = ~Alternative for compatibility: Ugh and Jumper are outside.~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"

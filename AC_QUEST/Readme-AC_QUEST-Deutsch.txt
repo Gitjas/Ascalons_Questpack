@@ -259,6 +259,7 @@ VII. Versions-History:
 5.0 - 2023-05-18
 -Component Serpenst of Abbathor has two install choices: Original version or Tweaked version. Tweaked version has closing of quest in BG1, including small follow-up in BGII for BGT/EET if PC helped Wostok to the end. 
 -Generally revised Serpents of Abbathor quest: more journal entries, no open quest ends, PC can change sides if agreed to kill Wostok, dialogue improvements.
+-Component "Jumper" has two install choices: original with Ugh&Jumper inside the cave and a compatibility alternative with them outside.
 -Freed miners and Amnish guards should leave (Serpents of Abbathor).
 -Removed wrong string refs from cres (Serpents of Abbathor).
 -Taken mine should no longer contain contaminatd ore (Serpents of Abbathor).

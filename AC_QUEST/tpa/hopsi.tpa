@@ -1,0 +1,76 @@
+ADD_JOURNAL TITLE (@90004) @10004 @10006 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
+ADD_JOURNAL TITLE (@90005) @10005 @10007 USING ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
+
+COPY ~AC_QUEST/cre/ACQ13001.CRE~ ~override~
+SAY NAME1 @22
+SAY NAME2 @22
+SAY INITIAL_MEETING @80016
+SAY DAMAGE @80017
+SAY DYING @80017
+SAY SELECT_COMMON1 @80018
+
+COPY ~AC_QUEST/cre/ACQ13002.CRE~ ~override~
+SAY NAME1 @23
+SAY NAME2 @23
+PATCH_IF GAME_IS ~bgt~ THEN BEGIN
+ADD_CRE_ITEM ~RNDTRE08~ #0 #0 #0 ~NONE~ ~INV~
+END
+PATCH_IF GAME_IS ~bgee eet tutu_totsc~ THEN BEGIN
+ADD_CRE_ITEM ~RNDTRE04~ #0 #0 #0 ~NONE~ ~INV~
+END
+
+
+COPY ~AC_QUEST/cre/ACQ13003.CRE~ ~override~
+SAY NAME1 @24
+SAY NAME2 @24
+
+COPY ~AC_QUEST/cre/ACQ13004.CRE~ ~override~
+SAY NAME1 @25
+SAY NAME2 @25
+SAY INITIAL_MEETING @80019
+SAY DAMAGE @80020
+SAY DYING @80021
+SAY SELECT_COMMON1 @80022
+
+COPY_EXISTING ~%SouthBeregostRoad%.are~ ~OVERRIDE~
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 3676
+	fj_loc_y          = 2217
+	fj_dest_x         = 3676
+	fj_dest_y         = 2217
+	fj_orientation    = 13
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Kessy
+	fj_cre_resref     = ACQ13001
+END
+
+COPY_EXISTING ~%NashkelCarnival%.are~ ~OVERRIDE~
+LPF fj_are_structure
+	INT_VAR
+	fj_loc_x          = 1352
+	fj_loc_y          = 3642
+	fj_dest_x         = 1352
+	fj_dest_y         = 3642
+	fj_orientation    = 13
+	STR_VAR
+	fj_structure_type = actor
+	fj_name           = Rabbitdealer
+	fj_cre_resref     = ACQ13004
+END
+
+COPY ~AC_QUEST/BAM/ACQ13003.BAM~ ~OVERRIDE~
+COPY ~AC_QUEST/BAM/ACQ13004.BAM~ ~OVERRIDE~
+COPY ~AC_QUEST/ITM/ACQ13003.ITM~ ~OVERRIDE~
+SAY NAME1 @26
+SAY NAME2 @26
+SAY DESC @27
+COPY ~AC_QUEST/ITM/ACQ13003.ITM~ ~OVERRIDE/ACQ13004.ITM~
+SAY NAME1 @26
+SAY NAME2 @26
+SAY DESC @28
+
+COMPILE ~AC_QUEST/D/ACQ13000.D~
+COMPILE ~AC_QUEST/BAF/ACQ13001.BAF~
+COMPILE ~AC_QUEST/BAF/ACQ13002.BAF~
