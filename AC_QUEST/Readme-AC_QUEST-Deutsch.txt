@@ -114,10 +114,13 @@ Echte Fans halten ihren Idolen die Treue, so wie Cindy, Mandy und Ashley im Nord
 -------------------------
 Ein mysteriöser Zwergenkult macht sich an der Schwertküste breit. Es werden Helden gesucht! Durchsucht Mulaheys Höhle oder begebt Euch in den Südwesten von Baldur's Tor mit einem Zwergen in der Gruppe um den Quest zu starten.
 
-A Originalversion von Ascalon
-Diese Version war als Teil 1 von drei Teilen der gesamten Kampagne geplant. Leider wurden die anderen Teile nie fertiggestellt, so dass die Quest mit einem Cliffhanger in BG1 endet.
-B Überarbeitete Version vom Kerzenburgforum
+Diese Komponente hat zwei Installationsoptionen:
+1. Originalversion von Ascalon
+Diese Version war als Teil 1 von drei Teilen über die gesamten Kampagne geplant. Die anderen Teile wurden nie fertiggestellt, so dass die Quest mit einem Cliffhanger in BG1 endet.
+2. Überarbeitete Version vom Kerzenburgforum
 Mit dem Segen von Ascalon wurde das Ende überarbeitet, so dass es keine Hinweise mehr auf mögliche folgende Ereignisse gibt und die Quest wirklich in BG1 endet. Außerdem kann das Artefakt sowohl für den guten als auch für den bösen Pfad an jeweils zwei Stellen abgegeben werden; Wostoks Leiche und Lugoschs Tagebuch können zum Tempel gebracht werden (guter Pfad). Für BGT und EET gibt es für den guten Weg einen kleinen Nachtrag in den Slums von Athkatla, wenn Wostok zum Tempel gebracht wurde und das Artefakt einer der beiden Optionen in BG1 übergeben wurde. Die daraus resultierende Waffe kann sowohl von Cromwell als auch von Cespenar aufgewertet werden.
+
+There is a short walkthrough for the quest in docs/walkthrough_serpents_of_abbathor.txt.
 
 
 	Baldur's Gate II:
@@ -260,7 +263,7 @@ VII. Versions-History:
 4.5 - 2023-04-13
 -Fixed install error for Russian version, by Arkie.
 
-5.0 - 2023-05-18
+5.0 - 2023-06-01
 -Component Serpenst of Abbathor has two install choices: Original version or Tweaked version. Tweaked version has closing of quest in BG1, including small follow-up in BGII for BGT/EET if PC helped Wostok to the end. 
 -Generally revised Serpents of Abbathor quest: more journal entries, no open quest ends, PC can change sides if agreed to kill Wostok, dialogue improvements.
 -Component "Jumper" has two install choices: original with Ugh&Jumper inside the cave and a compatibility alternative with them outside.
