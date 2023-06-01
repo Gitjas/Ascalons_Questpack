@@ -1,0 +1,50 @@
+Short Walkthrough for "The Serpents of Abbathor"
+
+
+Main quest path:
+-In Mulahey's cave there is a dead dwarf with a message. The message reveals that another dwarf named Tarash is waiting in Beregost at night.
+
+-Tarash will be at night in Beregost in chapters 3 and 4. Talk to him and receive a hint about an ambush at Coast Way.
+
+-At Coast Way at the ambush site, the journal of Bashrik can be found. In the journal, Draglon is mentioned as the servant of the serpents in the Undercellars and Wostok who is investigating teh cult in the temple of Helm in BG.
+
+At this point there are several possible paths to proceed:
+
+1 Good Path:
+First go to the temple for info where Wostok is. Find Wostok in the sewers and agree to his request to kill Draglon who is in the Undercellars. Go to teh Undercellars. Draglon will threaten the PC and disappear. After leaving the Blushing Mermaid there is an ambush of assassins. Report back to Wostok in the temple and agree to help further, you get the order to help Jenna and her companion in the unnamed tavern in NW BG.
+Go to the tavern to find Jenna and companion dead with the assassins still in the room. Fight the assassins who will be dropping a warehouse key. 
+Note: there have been reports that the key was not dropped but we couldn't reproduce it. The item code for the warehouse key is "ACQKEY02".
+Leaving the tavern Jarger will reach the PC, a messenger from Wostok, who tells about the warehouse. Go to the warehouse and fight the snakes there, Lugosh himself disappears, you find clues to the Nashkel Mine.
+
+2 Evil Path:
+Go to Draglon first, don't give him the journal but promise to kill Wostok.
+Ask in the temple of Helm in BG to get the information that Wostok is in the sewers. Go to the sewers, kill the dwarves, and report to Draglon. Agree to continue working for the snakes and get the order to get the Gundmagtor from Jenna in the unnamed tavern in NE BG. 
+Meet Jenna and her companion and talk to them, it either comes to a fight or you can convince them that you work for Wostok. Either way you'll get the key to a panel in the same tavern level. Inside it is the dwarven artefact Gundmagtor - you bring it to Draglon, he gives you the key to a warehouse in SE BG. You go to the warehouse, fight the dwarves and find clues to the Nashkel Mine.
+
+Other paths could be change of order who is talked to first, or to agree to kill Wostok for Draglon but then switch sides when talking to Wostok, or don't agree to kill Draglon for Wostok when talked to in the sewers. In general: as long as either Wostok or Draglong are not dead or goe (and the journal doesn't state the quest has ended), Wostok should be either in the sewers or in the temple of Helm and Draglon should be in the Undercellars and the quest can proceed.
+
+The only order of actions that leads to an early quest end would be killing Wostok for Draglon but then not agreeing to work for him further. In that case, the quest cannot proceed.
+
+-Go to the Nashkel Mines.
+
+-If you helped Wostok (good path), you will find him on the path down to the mine entrance. He has a wish. Grant it.
+
+-Talk to Emerson who is hiding in the hut. 
+
+-Clear the mines from the cultist dwarves. There is several smaller side quests like finding Emerson's notes, freeing the miners, and killing some Umber Hulks. Lugosch the leader of the cultists will be in Mulahey's cave. After killing him, report to Emerson. 
+
+The original quest (Install option 1) ends here.
+
+Tweaked version (Install option 2) continues:
+
+Good path: Take the Gundmagtor, Lugosch's journal, and Wostok's body. The latter two can be given to the priest of Helm in BG. The Gundmagtor can either be given to the priest as well, or it can be given to Thalantyr who will destroy it for 1000 gold.
+
+Evil path: Take the Gundmagtor. You can either give it to Thalantyr who will destroy it for 1000 gold. Or you keep it until an emissary of the Zhentarim appears who will buy the Gundmagtor for 3000 gold and a scroll of magic protection.
+
+Follow up in BGII for BGT/EET (Good path):
+If you brought Wostok's body to the priest of Helm and took care of the Gundmagtor either by giving it to the priest or having it destroyed by Thalantyr, a dwarf will approach you inside Athkatla approximately two days after you emerged from Irenicus' Dungeon. He will summon you to the Copper Coronet to talk to his leader. Go there. They are friends of Wostok who came to thank you. You will receive a hammer that can be upgraded by Cromwell and Cespenar both.
+
+Wostok in the sewers can be found in CentralSewers, [3657.2285].
+
+Note: the quest can also be started after chapter 4 by getting one of the cult pamphlets from a dwarf in front of the Flaming Fist HQ and showing it to either the priest of Helm in BG or a dwarf named Daglon in the Undercellars. There are no journal entries leading to them because with this path there is no hint in the game that they are connected. This path requires a dwarf in the group. 
+This path can also be taken to advance the quest in case Bashrik's journal was given to Draglon if the PC is not a dwarf.
