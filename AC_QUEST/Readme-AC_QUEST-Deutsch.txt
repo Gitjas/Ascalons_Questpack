@@ -281,6 +281,9 @@ VII. Versions-History:
 -Quest characters should not drop items in dialogue meant for the group but give it to the PC.
 -Changed "diary" to "journal" (English version).
 
+5.1 - 2023-xx-xx
+-Fixed item description (Wostok's hammer version +5 does no missile damage)
+
 ***************************************************************************************************************
 
 
