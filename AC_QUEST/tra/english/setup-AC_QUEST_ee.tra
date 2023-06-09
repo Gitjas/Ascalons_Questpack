@@ -229,6 +229,7 @@ Combat abilities:
 THAC0: +4
 Damage: 2d4+4, +2 extra vs. evil aignments
 Damage type (melee): Crushing
+Damage type (thrown): Missile
 Speed Factor: 1
 Proficiency Type: War Hammer
 Type: One-handed
@@ -247,7 +248,6 @@ Equipped abilities:
 THAC0: +5
 Damage: 2d4+5, +2 extra vs. evil aignments
 Damage type (melee): Crushing
-Damage type (thrown): Missile
 Speed Factor: 1
 Proficiency Type: War Hammer
 Type: One-handed
