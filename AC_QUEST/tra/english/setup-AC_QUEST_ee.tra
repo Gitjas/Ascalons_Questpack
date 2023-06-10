@@ -5,7 +5,7 @@ This simple ring is provided with a faint spell to protect the wearer. The engra
 STATISTICS:
 
 Armor Class: +1 bonus
-Saving Throws: +1 bonus 
+Saving Throws: +1 bonus
 
 Weight: 0~
 
@@ -186,8 +186,7 @@ Equipped abilities:
 – Bless
 
 THAC0: +3
-Damage: 2d4+3, +2 extra vs. evil aignments
-Damage type (melee): Crushing
+Damage: 2d4+3 (crushing), +2 extra vs. evil aignments
 Speed Factor: 1
 Proficiency Type: War Hammer
 Type: One-handed
@@ -217,7 +216,7 @@ Requires:
 
 Weight: 4~
 @1009 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-Cespenar improved the weapon further so it does more damage.
+The master smith Cromwell improved the weapon so it will always return into the wielder's hand if thrown. Cespenar improved the weapon further so it does more damage.
 
 STATISTICS:
 
@@ -246,8 +245,7 @@ Equipped abilities:
 – Bless
 
 THAC0: +5
-Damage: 2d4+5, +2 extra vs. evil aignments
-Damage type (melee): Crushing
+Damage: 2d4+5 (crushing), +2 extra vs. evil aignments
 Speed Factor: 1
 Proficiency Type: War Hammer
 Type: One-handed
@@ -353,7 +351,7 @@ Damage: +2 (missile)
 Speed Factor: 5
 Proficiency Type: Longbow
 Type: Two-handed
-Requires: 
+Requires:
  6 Strength
 
 Weight: 2
@@ -367,7 +365,7 @@ Equipped abilities:
 - Armor Class: +2
 - The wearer is protected against all types of petrification and forms of gaze attacks.
 
-Requires: 
+Requires:
  12 Strength
 
 Weight: 7
@@ -389,7 +387,7 @@ Equipped abilities:
 
 Armor Class: 4
 
-Requires: 
+Requires:
  6 Strength
 
 Weight: 7
@@ -405,8 +403,8 @@ Damage type: Crushing
 Speed Factor: 2
 Proficiency Type: War Hammer
 Type: One-handed
-Requires: 
+Requires:
  9 Strength
- 
+
 Weight: 5
 ~

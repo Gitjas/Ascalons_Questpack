@@ -3,7 +3,7 @@
 @2    = ~Calmez-vous, bonne dame. Dites-moi ce qui s'est passé.~
 @3    = ~Il se trouve que nous sommes disponibles à la location. Travail bien fait si le paiement est correct.~
 @4    = ~Laissez-moi tranquille, j'ai des choses plus importantes à faire.~
-@5    = ~(Poussez la femme de côté) Hors de mon chemin !~
+@5    = ~*pousser la femme de côté* Hors de mon chemin !~
 @6    = ~Oh, merci, monsieur.~ ~Oh, merci, madame.~
 @7    = ~Je... je vais essayer, monsieur.~ ~Je... je vais essayer, madame.~
 @8    = ~Oh s'il vous plaît, écoutez mon histoire. Je paierai n'importe quel prix si vous m'aidez.~
@@ -13,7 +13,7 @@
 @12   = ~Qu'est-ce qui s'est passé ?~
 @13   = ~Ce n'est pas mon problème. Adieu.~
 @14   = ~Il est parti pour une excursion en montagne avec sa fiancée il y a quelques jours. Ils allaient faire un pique-nique... et je pense qu'il voulait la demander en mariage.~
-@15   = ~Mais ils ne sont jamais revenus, alors Barin a réuni une compagnie de fermiers et a fouillé les montagnes. Ils ont... oh non, c'est trop affreux ! (Sanglots)~
+@15   = ~Mais ils ne sont jamais revenus, alors Barin a réuni une compagnie de fermiers et a fouillé les montagnes. Ils ont... oh non, c'est trop affreux ! *sanglote*~
 @16   = ~Qu'est-ce qui s'est passé ?~
 @17   = ~Qui est Barin ?~
 @18   = ~Pouvez-vous nous dire autre chose ?~
@@ -34,7 +34,7 @@
 @33   = ~Alors, s'il vous plaît, cherchez plus loin ! Je peux sentir qu'il souffre !~
 @34   = ~Marina est un fantôme ? Oh non ! La pauvre fille ! Vous lui donnerez la rédemption, n'est-ce pas ?~
 @35   = ~Oh, c'était certainement très courageux de votre part ! J'espère qu'elle n'a pas eu à souffrir trop longtemps...~
-@36   = ~Mort ? Oh non ! (Sanglots)~
+@36   = ~Mort ? Oh non ! *sanglote*~
 @37   = ~Mon pauvre garçon...~
 @38   = ~Attendez une minute, <SIRMAAM>. Vous avez fait tant de bien pour moi et je ne pourrai jamais vous le rendre. Mais je vous en prie, prenez le collier en argent de ma mère. C'est la chose la plus précieuse que je possède, et pourtant cela ne suffit pas pour exprimer ma gratitude.~
 @39   = ~Gardez votre collier, bonne dame. Vos remerciements sont une récompense suffisante.~
@@ -77,7 +77,7 @@
 @76   = ~D'accord, mais dépêchez-vous. Je ne resterai pas ici plus longtemps que nécessaire !~
 @77   = ~Merveilleux ! Hourraaa, je rentre à la maison !~
 @78   = ~S'il vous plaît, continuez de chercher ! Je ne peux pas rentrer chez moi sans cette bague... vous comprenez sûrement ?~
-@79   = ~Oh... oh très bien. Je veux dire... d'accord. (Soupirs)~
+@79   = ~Oh... oh très bien. Je veux dire... d'accord. *soupire*~
 @80   = ~Est-ce qu'on peut y aller maintenant ?~
 @81   = ~Bonjour, <GABBER>.~
 @82   = ~J'ai bien peur que nous devions parler de Marina, Aaron. Barin nous a parlé d'un fantôme qui hante la chute d'eau.~
@@ -87,7 +87,7 @@
 @86   = ~Un fantôme ? Vous voulez dire... vous voulez dire que c'est Marina ? Oh s'il vous plaît, vous devez en être sûr, monsieur. Allez vérifier la chute d'eau, s'il vous plaît !~ ~Un fantôme ? Vous voulez dire... vous voulez dire que c'est Marina ? Oh s'il vous plaît, vous devez en être sure, madame. Allez vérifier la chute d'eau, s'il vous plaît !~
 @87   = ~Son fantôme ? Comment est-ce possible ?~
 @88   = ~Elle a promis de rester éveillée, n'est-ce pas ?~
-@89   = ~Détruite ? Oh non... ma pauvre Marina. (Sanglots)~
+@89   = ~Détruite ? Oh non... ma pauvre Marina. *sanglote*~
 @90   = ~Je ne peux qu'espérer qu'elle n'a pas eu à souffrir trop longtemps.~
 @91   = ~Aaron... est-ce toi ? Aaron... !~
 @92   = ~J'ai quelque chose pour vous.~
@@ -95,7 +95,7 @@
 @94   = ~Faites attention, mes amis ! Un fantôme !~
 @95   = ~Meurs, ignoble mort-vivant !~
 @96   = ~Marina ? Est-ce vous ?~
-@97   = ~(Se détourner)~
+@97   = ~*se détourner*~
 @98   = ~J'attends Aaron...~
 @99   = ~Qui est Aaron ?~
 @100  = ~Pourquoi attendez-vous ?~
@@ -104,7 +104,7 @@
 @103  = ~Aaron...~
 @104  = ~Aaron... j'attends Aaron...~
 @105  = ~J'ai promis... Aaron... attendre Aaron...~
-@106  = ~Ma... Marina ? Oui... je m'appelle Marina. Oh, <LADYLORD>, les souvenirs perdus reviennent, je commence à me souvenir. Oh non ! (Pleurs)~
+@106  = ~Ma... Marina ? Oui... je m'appelle Marina. Oh, <LADYLORD>, les souvenirs perdus reviennent, je commence à me souvenir. Oh non ! *sanglote*~
 @107  = ~Chuuut, tout va bien se passer. Je suis là pour vous aider.~
 @108  = ~Écoutez, nous cherchons Aaron. Aidez-nous, que s'est-il passé ?~
 @109  = ~Pourquoi êtes-vous encore ici ? Qu'est-ce qui vous lie à cet endroit ?~
@@ -156,17 +156,17 @@
 @155  = ~Maman, dis-moi : Marina va bien ? Où est-elle ?~
 @156  = ~Oh, mon garçon...~
 @157  = ~Quoi ? Tu veux dire qu'elle... non ! Non !~
-@158  = ~(Aaron tombe à genoux et se met à pleurer de façon incontrôlable.)~
+@158  = ~*Aaron tombe à genoux et se met à pleurer de façon incontrôlable.*~
 @159  = ~Pourquoi les monstres ne m'ont-ils pas tué à la place ?~
 @160  = ~Je crains que ce ne soit encore pire, Aaron. Barin a parlé d'un fantôme qui hante les chutes d'eau.~
 @161  = ~Je crains que ce ne soit encore pire, Aaron. Nous avons rencontré Marina. Ou plutôt, son fantôme.~
 @162  = ~Je crains que ce ne soit encore pire, Aaron. Marina était un fantôme. Nous devions la détruire.~
 @163  = ~Eh bien, si je n'ai plus rien à faire ici, je ferais mieux de partir.~
 @164  = ~Oh, vous êtes trop gentil ! Je ferai toujours l'éloge de votre nom !~ ~Oh, vous êtes trop gentille ! Je ferai toujours l'éloge de votre nom !~
-@165  = ~Si vous me cherchez, vous me trouverez probablement au moulin. (Soupire lourdement)~
+@165  = ~Si vous me cherchez, vous me trouverez probablement au moulin. *soupire fortement*~
 @166  = ~Vous êtes vraiment de grands héros !~
 @167  = ~C'est plus que ce que je peux me permettre. Chérissez-la.~
-@168  = ~Si vous voulez autre chose de ma part, vous me trouverez probablement au moulin. (Soupire lourdement)~
+@168  = ~Si vous voulez autre chose de ma part, vous me trouverez probablement au moulin. *soupire fortement*~
 @169  = ~Oh, comment ai-je pu me tromper à ce point sur vous !~
 @170  = ~Au secours !~
 @171  = ~Elle a dit qu'elle voulait rester éveillée, jusqu'à ce que je... je...~
@@ -179,6 +179,6 @@
 @178  = ~Elle ne semble pas pouvoir nous payer décemment. C'est une perte de temps.~
 @179  = ~Oh, quel rustre !~
 @180  = ~Bien dit. Montrez-lui sa place.~
-@181  = ~Oh, <CHARNAME>. Je ne pense pas que Gorion t'ait appris à te comporter comme *ça*.~
+@181  = ~Oh, <CHARNAME>. Je ne pense pas que Gorion t'ait appris à te comporter comme ça.~
 @182  = ~Nous aurions aussi dû lui donner un bon coup de pied !~
-@183  = ~Vous avez apporté le repos à son esprit. Je vous remercie, <CHARNAME>. (Soupirs) Je ne sais pas comment je vais continuer, sans elle... Mais ne vous inquiétez pas, tout ira bien. Adieu, <CHARNAME>.~
+@183  = ~Vous avez apporté le repos à son esprit. Je vous remercie, <CHARNAME>. *soupire* Je ne sais pas comment je vais continuer, sans elle... Mais ne vous inquiétez pas, tout ira bien. Adieu, <CHARNAME>.~

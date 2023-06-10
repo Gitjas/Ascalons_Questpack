@@ -15,7 +15,7 @@
 @14   = ~Et tout l'or pour le Serpent.~
 @15   = ~Et le monde pour le Serpent.~
 @16   = ~Et tous les joyaux pour le Serpent.~
-@17   = ~Et tout l'or pour moi~
+@17   = ~Et tout l'or pour moi.~
 @18   = ~Et le monde pour moi.~
 @19   = ~Et tous les joyaux pour moi.~
 @20   = ~Est-ce que c'est un code ?~
@@ -149,7 +149,7 @@
 @148  = ~Wostok ? Vous venez de le manquer, lui et ses compagnons viennent de partir patrouiller dans les égouts locaux, pour enquêter sur quelque chose.~
 @149  = ~Hum ? Abbathor ? Allez contacter Wostok Têtedemarteau. C'est un prêtre nain qui vit actuellement ici. Vous venez de le manquer, lui et ses compagnons viennent de partir patrouiller dans les égouts locaux, pour enquêter sur quelque chose. Vous le trouverez certainement là-bas.~
 @150  = ~Est-ce que je peux faire autre chose pour vous ?~
-@151  = ~Non merci, c'est tout..~
+@151  = ~Non merci, c'est tout.~
 @152  = ~Montrez-moi ce que vous avez à offrir.~
 @153  = ~Oh, Wostok, quelqu'un se faufile par là !~
 @154  = ~Heureusement que je vous ai trouvé si vite, <GABBER> ! Salutations de Wostok !~
@@ -158,7 +158,7 @@
 @157  = ~Le Gundmagtor ? Qu'est-ce que c'est ?~
 @158  = ~Où se dirigent-ils ?~
 @159  = ~Que dois-je faire maintenant ?~
-@160  = ~Personne ne sait *exactement* ce qu'est le Gundmagtor. C'est un appareil. Un appareil ancien qui attire les âmes des morts.~
+@160  = ~Personne ne sait exactement ce qu'est le Gundmagtor. C'est un appareil. Un appareil ancien qui attire les âmes des morts.~
 @161  = ~Certains disent qu'il pourrait appeler les légendaires nains d'autrefois à la bataille.~
 @162  = ~J'en ai assez entendu. Je vais continuer.~
 @163  = ~Nous ne le savons pas. C'est pourquoi nous devons les poursuivre. Wostok soupçonnait que des plans ou des instructions pouvaient se trouver dans leur quartier général et faire allusion à leur destination. Soyez sur vos gardes !~
@@ -215,7 +215,7 @@
 @214  = ~Therk, mon vieil ami simple d'esprit. On ne peut pas tuer tous ceux qui croisent notre chemin.~
 @215  = ~Jarger a raison. Ils ne ressemblent pas à la racaille résidente que l'on trouve ici. Parlez, que peut faire le vieux Wostok pour vous ?~
 @216  = ~Draglon, hein ? Je me demandais quand les Serpents engageraient des étrangers pour faire ce qu'il ne peuvent pas faire eux-mêmes.~
-@217  = ~Vous voyez ? Je vous avais dit que nous devrions les tuer !~
+@217  = ~Vous voyez ? Je vous avais dit que nous aurions dû les tuer !~
 @218  = ~Je déteste dire ça, mais je suis d'accord avec Therk pour une fois.~
 @219  = ~Jeune <RACE>, je ne sais pas ce que les Serpents vous ont promis. Mais ils vont certainement vous doubler.~
 @220  = ~Vous ne me persuaderez pas ! Vous mourrez ici et maintenant !~
@@ -285,7 +285,7 @@
 @284  = ~Nous travaillons pour Wostok Têtedemarteau.~
 @285  = ~Quoi qu'il en soit, nous n'avons pas besoin de confidents. Jassir !~
 @286  = ~Wostok ? Ça change tout. Alors, écoutez bien. L'artefact est caché dans la deuxième pièce sur la gauche. Derrière le rideau vert jaunâtre. Vous pouvez ouvrir le compartiment avec ma clé.~
-@287  = ~...et des salutations à Wostok de ma part et à ce bon vieux Bashrik avec son amie elfe... quel était son nom ?~
+@287  = ~... et des salutations à Wostok de ma part et à ce bon vieux Bashrik avec son amie elfe... quel était son nom ?~
 @288  = ~Eliel.~
 @289  = ~Leirana.~
 @290  = ~Mirjala.~
@@ -377,7 +377,7 @@
 @376  = ~Cette fois-ci, nous allons nous défouler comme il se doit !~
 @377  = ~Plus de mots, <CHARNAME>. Votre nom est bien connu, c'est tout. Vous êtes loin d'être le premier à mourir au nom d'Abbathor.~ ~Plus de mots, <CHARNAME>. Votre nom est bien connu, c'est tout. Vous êtes loin d'être la première à mourir au nom d'Abbathor.~
 @378  = ~Magie ? Bah. Vous ne comprenez évidemment rien à la voie des nains.~
-@379  = ~Mais que peut-on attendre d'un *habitué de la surface*. Nos ancêtres sont avec nous, <CHARNAME>. Et ils nous envoient leur puissance !~ ~Mais que peut-on attendre d'une *habituée de la surface*. Nos ancêtres sont avec nous, <CHARNAME>. Et ils nous envoient leur puissance !~
+@379  = ~Mais que peut-on attendre d'un habitué de la surface. Nos ancêtres sont avec nous, <CHARNAME>. Et ils nous envoient leur puissance !~ ~Mais que peut-on attendre d'une habituée de la surface. Nos ancêtres sont avec nous, <CHARNAME>. Et ils nous envoient leur puissance !~
 @380  = ~Bien ! J'en ai assez de cette discussion !~
 @381  = ~Plus de questions ! Je suis fatigué de votre bavardage inepte !~
 @382  = ~Vous allez maintenant mourir, <CHARNAME> ! Vous allez mourir comme l'ont exigé les Nains d'en-dessous !~
@@ -405,15 +405,15 @@
 @404  = ~Mes blessures... empoisonnées... au-delà de vos compétences... s'il vous plaît... mon dieu m'appelle...~
 @405  = ~Je suis... vieux. J'ai eu une bonne vie. S'il vous plaît... donnez-moi une mort honorable. Tuez-moi.~
 @406  = ~Il n'existe pas *tousse* de remède pour le vieux Wostok.~
-@407  = ~(Le vieux prêtre respire fortement plusieurs fois, puis ses yeux paraissent aussi clairs qu'auparavant.)~
+@407  = ~*le vieux prêtre respire fortement plusieurs fois, puis ses yeux paraissent aussi clairs qu'auparavant.*~
 @408  = ~L'âge n'est pas une maladie. Et maintenant... c'est mon heure. S'il vous plaît, <GABBER>. Accordez-moi la fin. Je veux mourir par l'acier, pas... pas comme ça.~
 @409  = ~Je crains qu'il ne soit trop tard maintenant.~
 
 /* new for v5.0 */
-@410  = ~[Draglon]Understandable, but that is not yet your right. First you have to prove yourself trustworthy.~
-@411  = ~You want me to continue working for you without knowing exact details?~
-@412  = ~Yes, I regret it myself. Is there a chance we could start over? I'd rather help you against this evil cult.~
-@413  = ~[Wostok]Hmm. What do you know so far?~
-@414  = ~Enough to know that I will rather work for you.~
-@415  = ~I would. There is just one problem. I think I already made an enemy out of him, so he knows my face, too.~
-@416  = ~[Wostok]Hmm. That's too bad. Still, I think you could be of use to us. Meet us in the temple of Helm later. We will return there when we have gathered new information.~
+@410  = ~[Draglon]C'est compréhensible, cependant ce privilège ne vous est pas encore accordé. Vous devez d'abord prouver que vous êtes digne de confiance.~
+@411  = ~Vous voulez que je continue à travailler pour vous sans pour autant connaître les détails exacts ?~
+@412  = ~Oui, je le déplore moi-même. Y a-t-il une chance que nous puissions repartir à zéro ? Je préférerais vous aider à lutter contre cette secte maléfique.~
+@413  = ~[Wostok]Hmm. Qu'avez-vous appris jusqu'à présent ?~
+@414  = ~Suffisamment pour savoir que je préférerais avoir à travailler pour vous.~
+@415  = ~Je vais vous aider. Il y a juste un problème. Je pense que je m'en suis déjà fait un ennemi, donc il connaît aussi mon visage.~
+@416  = ~[Wostok]Hmm. C'est dommage. Pourtant, je pense que vous pourriez tout de même nous être utile. Rejoignez-nous au temple de Heaum dans quelque temps. Nous y retournerons lorsque nous aurons recueilli de plus amples informations.~

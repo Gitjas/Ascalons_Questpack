@@ -19,7 +19,7 @@
 @18  = ~Attendez ! Qui êtes-vous ?~
 @19  = ~Et vous du vôtre !~
 @20  = ~Crevez !~
-@21  = ~(Soupir) Je suis à la recherche de mon fils, Perwell. Des bandits l'ont enlevé.~
+@21  = ~*soupire* Je suis à la recherche de mon fils, Perwell. Des bandits l'ont enlevé.~
 @22  = ~Quelle horreur ! Nous allons vous aider.~
 @23  = ~Pourquoi ces gens font-ils une chose pareille ?~
 @24  = ~Avez-vous une idée de l'endroit où il pourrait se trouver ?~
@@ -94,7 +94,7 @@
 @93  = ~Allez, dépêche-toi de t'enfuir.~
 @94  = ~Tu m'as déjà assez retardé comme ça, gamin ! Dégage !~ ~Tu m'as déjà assez retardée comme ça, gamin ! Dégage !~
 @95  = ~Vous connaissez ma maman ? Elle est sûrement morte d'inquiétude ! S'il vous plaît, libérez-moi !~
-@96  = ~Vous ne pouvez pas me laisser là ! Au secours ! À l'aide !!!~
+@96  = ~Vous ne pouvez pas me laisser là ! Au secours ! À l'aide !~
 @97  = ~Oui, je crois bien, mais...~
 @98  = ~J'aimerais bien, mais...~
 @99  = ~S'il vous plaît, mon seigneur, je ne veux pas vous embêter, mais...~ ~S'il vous plaît, ma dame, je ne veux pas vous embêter, mais...~

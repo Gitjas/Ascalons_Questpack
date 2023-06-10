@@ -30,7 +30,7 @@
 @29   = ~Bah, encore une femme qui pleurniche. Elle a intérêt à être contente qu'on ait oublié de lui dire au revoir.~
 @30   = ~Oh, Yondalla peut vous bénir de m'avoir écouté !~
 @31   = ~N'ayez pas peur, ma bonne dame. Nous défendrons les droits des faibles.~
-@32   = ~Oh, belle dame (Sanglots). Comme j'ai désiré ces mots.~
+@32   = ~Oh, belle dame. *sanglote* Comme j'ai désiré ces mots.~
 @33   = ~Oh, vous êtes si gentil, mon seigneur. Je prierai pour votre retour sain et sauf.~ ~Oh, vous êtes si gentille, madame. Je prierai pour votre retour sain et sauf.~
 @34   = ~Je vous apprécie de plus en plus, <CHARNAME>. vous êtes un vrai chevalier.~ ~Je vous apprécie de plus en plus, <CHARNAME>. Vous êtes une vraie chevalière.~
 @35   = ~Alors maintenant, nous sommes des sauveurs de petit-homme, hein ? Hmm. Ça me va, nous nous contentons de petites parts de mal alors que le vrai mal se cache ailleurs.~
@@ -72,7 +72,7 @@
 @71   = ~Un héros ne se bat pas juste pour se battre, Bunger. Il se bat parce qu'il le doit.~
 @72   = ~Je vois que cela ne nous mène nulle part... Je vais y aller.~
 @73   = ~Mais je... je...~
-@74   = ~Oh, vous avez raison. (Renifle) J'ai été idiot, tellement idiot !~
+@74   = ~Oh, vous avez raison. *renifle* J'ai été idiot, tellement idiot !~
 @75   = ~Je ne suis pas un guerrier ! Et maintenant... maintenant... maintenant ils m'ont même pris les yeux ! Que dois-je faire ?~
 @76   = ~Shhhh, pas si fort. Je vais vous faire sortir d'ici, je vous le promets.~
 @77   = ~Vous devriez courir. Essayez de sortir d'ici le plus vite possible !~

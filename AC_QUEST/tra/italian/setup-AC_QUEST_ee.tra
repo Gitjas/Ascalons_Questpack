@@ -43,7 +43,7 @@ Peso: 105
 STATISTICHE:
 
 Peso: 1
-~ 
+~
 
 
 @44   = ~Questa pozione contiene principalmente fiori di belladonna.
@@ -184,8 +184,7 @@ Equipped abilities:
 – Bless
 
 THAC0: +3
-Damage: 2d4+3, +2 extra vs. evil aignments
-Damage type (melee): Crushing
+Damage: 2d4+3 (crushing), +2 extra vs. evil aignments
 Speed Factor: 1
 Proficiency Type: War Hammer
 Type: One-handed
@@ -215,7 +214,7 @@ Requires:
 
 Weight: 4~
 @1009 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-Cespenar improved the weapon further so it does more damage.
+The master smith Cromwell improved the weapon so it will always return into the wielder's hand if thrown. Cespenar improved the weapon further so it does more damage.
 
 STATISTICS:
 
@@ -244,8 +243,7 @@ Equipped abilities:
 – Bless
 
 THAC0: +5
-Damage: 2d4+5, +2 extra vs. evil aignments
-Damage type (melee): Crushing
+Damage: 2d4+5 (crushing), +2 extra vs. evil aignments
 Speed Factor: 1
 Proficiency Type: War Hammer
 Type: One-handed
@@ -314,7 +312,7 @@ Richiede:
  6 Forza
 
 Peso: 4
-~ 
+~
 //#6742 BGII same as @80042
 
 
@@ -385,7 +383,7 @@ Danno: +2 (missile)
 Fattore-velocità: 5
 Tipo di Competenza: Arco Lungo
 Tipo: A due mani
-Richiede: 
+Richiede:
  6 Forza
 
 Peso: 2
@@ -399,7 +397,7 @@ Abilità durante l'uso:
 - Classe Armatura: +2
 - Il personaggio è protetto contro tutti i tipi di pietrificazione e le forme di attacchi con lo sguardo.
 
-Richiede: 
+Richiede:
  12 Forza
 
 Peso: 7
@@ -421,7 +419,7 @@ Abilità durante l'uso:
 
 Classe Armatura: 4
 
-Richiede: 
+Richiede:
  6 Forza
 
 Peso: 7
