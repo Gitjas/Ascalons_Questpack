@@ -281,8 +281,11 @@ VII. Historique des versions :
 - Les personnages de quête ne devraient pas laisser tomber des objets dans les dialogues destinés au groupe, mais les donner au protagoniste.
 - Remplacement de "diary" par "journal" (version anglaise).
 
-5.1 - 2023-xx-xx
+5.1 - 2023-06-13
+- French version completed, by Deratiseur and Jazira 
+- Russian Version proofread by Arkie
 - Description d'objet corrigée (la version du Marteau de Wostok +5 n'inflige pas de dégâts de projectile)
+-Typo corrections
 
 ***************************************************************************************************************
 
