@@ -39,7 +39,7 @@
 @38  = ~[male emissary of Zhentarim]A wise choice to sell it to us - and a fortunate one, not only for us but I believe for you, as well. My deed here is done - farewell, <CHARNAME>. I have the strong feeling we will hear from you again.~
 @39  = ~I have this powerful dwarven artefact called Gundmagtor here I would like to get rid of.~
 @40  = ~I really want the Gundmagtor to be gone from existence. Please destroy it, here is the gold.~
-@41  = ~[Thalantyr]Powerful indeed - not for the uninformed, but I see it clearly. End very evil - too evil. I could destroy it for you, but I need quite some resources to do so. It would cost you 1000 gold.~
+@41  = ~[Thalantyr]Powerful indeed - not for the uninformed, but I see it clearly. And very evil - too evil. I could destroy it for you, but I need quite some resources to do so. It would cost you 1000 gold.~
 @42  = ~Wait, what? Destroy it? And I should pay for it? No, this is a huge misunderstanding. I'm gone.~
 @43  = ~That sounds appropriate. I really want this thing to be gone from existence. Here is the gold.~
 @44  = ~That sounds appropriate but I don't have enough gold with me.~
@@ -84,7 +84,7 @@
 @129  = ~Fine, I can do that.~
 @130  = ~I'll take the hammer, but I'm not a bard. You want his tale spread you'll have to do it yourself.~
 @131  = ~[Gorgar Blaurock]We do not expect you to tell any stories. Just tell whoever is interested in this hammer who it is from.~
-@132  = ~[Gorgar Blaurock]This is all we would ask of you.~ 
+@132  = ~[Gorgar Blaurock]This is all we would ask of you.~
 @133  = ~You saw me? Do you know what happened to my friend Imoen?~
 @134  = ~You saw me? Do you know what happened to this mage Irenicus?~
 @135  = ~[Gorgar Blaurock]Farewell, <CHARNAME>. Moradin be with you.~
@@ -117,6 +117,6 @@
 @162  = ~It seems I don't have that much money.~
 @163  = ~[Cespenar]I goes back to digging through backpacks.~
 /*
-@164  = 
-@165  = 
+@164  =
+@165  =
 */

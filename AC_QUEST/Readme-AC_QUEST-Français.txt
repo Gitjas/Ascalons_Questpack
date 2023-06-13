@@ -78,9 +78,9 @@ C'était censé être un pique-nique romantique, mais tout a dérapé. Cherchez Mme B
 -------------------------
 Un récit épique sur l'honneur, l'amitié et les lapins.
 
-This component has two options: The first one is the original version, with Ugh and Jumper inside a cave west of south Beregost road.
+Ce composant a deux options : La première est la version originale, avec Ugh et Ricochet à l'intérieur d'une grotte à l'ouest de la route sud de Beregost.
 
-The second one places them outside near the cave entrance. This is for compatibility reasons because TheArtisan's Shadow Magic mod also places a quest character into the cave. Install this component if you want to play both mods together.
+Le second composant les place à l'extérieur, près de l'entrée de la grotte. Pour des raisons de compatibilité, car le mod Shadow Magic de TheArtisan place également un personnage de quête dans la grotte. Installez ce composant si vous voulez jouer avec ces deux mods simultanément.
 
 4 À la recherche de Perwell
 -------------------------
@@ -88,16 +88,16 @@ Tout ce que la demi-elfe Aphriel voulait, c'était de poser son arc en faveur d'u
 
 5 Des loups et des hommes
 -------------------------
-Aiwell la mage a barré sa porte... de l'extérieur. Découvrez pourquoi près de Haute Haie.
+Aiwell la mage a barré sa porte... de l'extérieur. Découvrez pourquoi près de Haute-Haie.
 
-Ce composant a deux options : la première utilise la cabane située près de la demeure de Thalantyr à Haute Haie.
-La seconde option consiste à déplacer la maison du couple dans une maison à Bérégost ("Maison 9" dans la solution complète de Dudleyville à la limite sud-ouest de Bérégost). C'est principalement pour des raisons de compatibilité, car le mod Glam's NPC Pack utilise la cabane de Haute Haie pour autre chose. Installez ce composant si vous voulez jouer aux deux mods ensemble.
+Ce composant a deux options : la première utilise la cabane située près de la demeure de Thalantyr à Haute-Haie.
+La seconde option consiste à déplacer la maison du couple dans une maison à Bérégost ("Maison 9" dans la solution complète de Dudleyville à la limite sud-ouest de Bérégost). C'est principalement pour des raisons de compatibilité, car le mod Glam's NPC Pack utilise la cabane de Haute-Haie pour autre chose. Installez ce composant si vous voulez jouer aux deux mods ensemble.
 Dudleyvilles Walkthrough:
 http://www.forgottenwars.com/bg1/ar3300.htm
 
-6 Le grand Carlini
+6 Le magnifique Karlini
 -------------------------
-Une fois que la curiosité scientifique d'un gnome a été éveillée, rien ne peut l'arrêter. Pas même le sort qui a coûté la vie à l'archimage Carlini. Cherchez Ygnatius dans l'auberge de Brasamical (difficile de la rater).
+Une fois que la curiosité scientifique d'un gnome a été éveillée, rien ne peut l'arrêter. Pas même le sort qui a coûté la vie à l'archimage Karlini. Cherchez Ygnatius dans l'auberge de Brasamical (difficile de la rater).
 
 7 Élevage de grouilleux
 -------------------------
@@ -109,15 +109,17 @@ Les vraies groupies restent fidèles à leurs idoles, tout comme Cindy, Mandy et A
 
 9 Les Serpents d'Abbathor
 -------------------------
-Un mystérieux culte de nains recrute le long de la Côte des Épées et les héros sont très demandés ! Pillez le cadavre de Mulahey ou rendez-vous dans la partie sud-ouest de la Porte de Baldur pour commencer. For the latter, a dwarf is needed in the group.
+Un mystérieux culte de nains recrute le long de la Côte des Épées et les héros sont très demandés ! Pillez le cadavre de Mulahey ou rendez-vous dans la partie sud-ouest de la Porte de Baldur pour commencer. Pour cette dernière option, un nain est nécessaire dans le groupe.
 
-There is two install choices:
-A Original version from Ascalon
-This version was planned as part 1 of three along the whole campaign. Unfortunately, the other parts never were finished, so the quest ends with a cliffhanger in BG1.
-B Tweaked version by Kerzenburgforum
-With blessings from Ascalon, the end is tweaked so that there is no hints to following events and the quest really ends in BG1. In addition, the artefact can be handed in at two places for both good and evil paths; Wostok's body and Lugosch' journal can be brought to temple (good path). For BGT and EET, for the good path there will be a small follow-up in the slums of Athkatla if Wostok was brought to the temple and the artefact was given to one of teh two options in BG1. The resulting weapon can be upgraded by both Cromwell and Cespenar.
+Il y a deux possibilités d'installation :
 
-There is a short walkthrough for the quest in docs/walkthrough_serpents_of_abbathor.txt.
+- Version originale d'Ascalon
+Cette version était prévue comme la première des trois parties de la campagne. Malheureusement, les autres parties n'ont jamais été terminées, et la quête se termine donc sur un "cliffhanger" dans BG1.
+
+- Version améliorée par Kerzenburgforum
+Avec l'accord d'Ascalon, la fin est modifiée de façon à ce qu'il n'y ait pas d'allusion aux événements suivants et que la quête se termine réellement dans BG1. De plus, l'artefact peut être remis à deux endroits pour les voies du bien et du mal ; le corps de Wostok et le journal de Lugosch peuvent être apportés au temple (voie du bien). Pour BGT et EET, pour la voie du bien, il y aura une petite suite dans les bas quartiers d'Athkatla si Wostok a été amené au temple et que l'artefact a été donné à l'une des deux options dans BG1. L'arme qui en résulte peut être ensuite améliorée par Cromwell et Cespenar.
+
+Il y a un court cheminement pour la quête dans docs/walkthrough_serpents_of_abbathor.txt.
 
 
 	Baldur's Gate II :
@@ -215,7 +217,7 @@ VII. Historique des versions :
 
 4.0 - 2021-09-08
 - Division du mod en composants optionnels.
-- "Des loups et des hommes" offre une seconde option d'installation où une maison ("9" dans Dudleyville Walkthrough) à Beregost est utilisé à la place de la hutte à Haute Haie pour la compatibilité avec Glam's NPC Pack.
+- "Des loups et des hommes" offre une seconde option d'installation où une maison ("9" dans Dudleyville Walkthrough) à Beregost est utilisé à la place de la hutte à Haute-Haie pour la compatibilité avec Glam's NPC Pack.
 - Traduction française, par deratiseur et jazira (relecture par tonton-thon).
 - Traduction italienne, par Coland.
 - Mise à jour de la traduction russe par Arkie.
@@ -242,49 +244,45 @@ VII. Historique des versions :
 - Entrée corrigée dans cpmvars.tpa.
 
 4.1 - 2021-09-14
--French version is now offered when installing.
--Translation of French readme completed.
+- La version française est désormais proposée lors de l'installation.
+- La traduction du readme en français est terminée.
 
 4.2 - 2022-01-01
--French sounds integrated (bgee)
--"From men and Wolves (Beregost version)": reward should be in chest, not drawer.
+- Les doublages français sont intégrés (bgee)
+- "Des loups et des hommes (version Bérégost)" : la récompense devrait être dans le coffre, pas dans le tiroir.
 
 4.3 - 2022-04-09
--"The Great Karlini": Ygnatius should spawn at Lions Way if he tells the PC to meet him there.
--Corrected typo in DeathVariable in ACQ13002.BAF
+- "Le magnifique Karlini" : Ygnatius devrait apparaître à la Voie du Lion s'il dit au protagoniste de le retrouver à cet endroit.
+- Correction d'une coquille dans DeathVariable dans ACQ13002.BAF
 
 4.4 - 2023-04-09
--"The Great Karlini": Ygnatius should REALLY spawn at Lions Way if he tells the PC to meet him there.
--English version: changed "localize" -> "locate".
--Install error on BG:EE for non-English versions fixed.
+- "Le magnifique Karlini" : Ygnatius devrait VRAIMENT apparaître à la Voie du Lion s'il dit au protagoniste de le retrouver à cet endroit.
+- Version anglaise : modification de "localize" -> "locate".
+- Correction de l'erreur d'installation de BG:EE pour les versions non anglaises.
 
 4.5 - 2023-04-13
--Fixed install error for Russian version, by Arkie.
+- Correction de l'erreur d'installation pour la version russe, par Arkie.
 
 5.0 - 2023-06-01
--Component Serpenst of Abbathor has two install choices: Original version or Tweaked version. Tweaked version has closing of quest in BG1, including small follow-up in BGII for BGT/EET if PC helped Wostok to the end.
--Generally revised Serpents of Abbathor quest: more journal entries, no open quest ends, PC can change sides if agreed to kill Wostok, dialogue improvements.
--A short walkthrough for the component Serpents of Abbathor was added to AC_QUEST/docs/.
--Component "Jumper" has two install choices: original with Ugh&Jumper inside the cave and a compatibility alternative with them outside.
--Freed miners and Amnish guards should leave (Serpents of Abbathor).
--Removed wrong string refs from cres (Serpents of Abbathor).
--Taken mine should no longer contain contaminatd ore (Serpents of Abbathor).
--Removed wrong automap notes (AC4404.are).
--Removed leftover scripts from mod areas.
--Inserted unused journal entry if Tarash remained friendly (Serpents of Abbathor).
--Tarash should not spawn if quest was started with pamphlet (Serpents of Abbathor).
--Lugosch should drop the known Gundmagtor, not the unknown artefact (Serpents of Abbathor).
--Unified dwarven names (Lugosch, Tarash/Tarasch; Serpents of Abbathor).
--Gibberling Leather Armor should not be called Orc Leather (Home for the Gibberlings).
--Quest characters should not drop items in dialogue meant for the group but give it to the PC.
--Changed "diary" to "journal" (English version).
+- Le composant les Serpents d'Abbathor a deux choix d'installation : version originale ou version améliorée. La version améliorée comprend la fin de la quête dans BG1, y compris une petite suite dans BGII pour BGT/EET si le protagoniste a aidé Wostok jusqu'à la fin.
+- Révision générale de la quête les Serpents d'Abbathor : plus d'entrées de journal, pas de fin de quête en suspens, le protagoniste peut changer de camp s'il est d'accord pour tuer Wostok, amélioration des dialogues.
+- Un court cheminement pour le composant les Serpents d'Abbathor a été ajouté dans AC_QUEST/docs/.
+- Le composant "À la recherche de Ricochet" a deux choix d'installation : l'original avec Ugh et Ricochet à l'intérieur de la grotte et une alternative de compatibilité avec les deux à l'extérieur.
+- Les mineurs libérés et les gardes amniens devraient partir (les Serpents d'Abbathor).
+- Suppression des références de chaînes erronées dans les fichiers créatures (les Serpents d'Abbathor).
+- La mine conquise ne devrait plus contenir de minerai contaminé (les Serpents d'Abbathor).
+- Suppression des notes erronées sur les cartes automatiques (AC4404.are).
+- Suppression des scripts restants dans les zones issues de mod.
+- Insertion d'une entrée de journal inutilisée si Tarash reste amical (les Serpents d'Abbathor)
+- Tarash ne devrait pas apparaître si la quête a été commencée avec la brochure (les Serpents d'Abbathor).
+- Lugosch devrait lâcher le Gundmagtor identifié, et non l'artefact non identifié (les Serpents d'Abbathor).
+- Noms nains unifiés (Lugosch, Tarash/Tarasch ; les serpents d'Abbathor).
+- L'Armure en cuir de grouilleux ne devraient pas être appelées Armure de cuir orque (Élevage de grouilleux).
+- Les personnages de quête ne devraient pas laisser tomber des objets dans les dialogues destinés au groupe, mais les donner au protagoniste.
+- Remplacement de "diary" par "journal" (version anglaise).
 
 5.1 - 2023-xx-xx
--Fixed item description (Wostok's hammer version +5 does no missile damage)
-
-
-
-
+- Description d'objet corrigée (la version du Marteau de Wostok +5 n'inflige pas de dégâts de projectile)
 
 ***************************************************************************************************************
 

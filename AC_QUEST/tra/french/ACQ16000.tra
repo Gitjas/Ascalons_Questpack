@@ -17,12 +17,12 @@
 @16   = ~Comme c'est touchant. Mais si vous n'êtes pas doué pour l'alchimie, vous ne pourrez guère m'aider.~ ~Comme c'est touchant. Mais si vous n'êtes pas douée pour l'alchimie, vous ne pourrez guère m'aider.~
 @17   = ~Je ne connais pas vraiment l'alchimie. Mais je peux peut-être vous aider quand même.~
 @18   = ~Vous savez, cette conversation serait plus facile si vous arrêtiez de m'insulter.~
-@19   = ~Je n'ai pas *à* vous aider si vous ne le voulez pas.~
+@19   = ~Je n'ai pas à vous aider si vous ne le voulez pas.~
 @20   = ~C'est trop bête. Je m'en vais.~
 @21   = ~Surveillez votre ton, ou je risque de perdre mon sang-froid avec vous !~
-@22   = ~(Soupir) Peut-être que vous le pouvez vraiment. Pardonnez mon ton cassant, <SIRMAAM>, mais comprenez que je suis désespérée. Mon pauvre mari est malade et la seule personne dans ces terres qui pourrait l'aider refuse de le faire.~
-@23   = ~(Soupir) Je m'en rends compte moi-même, <SIRMAAM>, mais comprenez que je suis désespérée. Mon pauvre mari est malade et la seule personne dans ces terres qui pourrait l'aider refuse de le faire.~
-@24   = ~(Soupir) Veuillez pardonner mon ton cassant, <SIRMAAM>, mais comprenez que je suis désespérée. Mon pauvre mari est malade et la seule personne dans ces terres qui pourrait l'aider refuse de le faire.~
+@22   = ~*soupire* Peut-être que vous le pouvez vraiment. Pardonnez mon ton cassant, <SIRMAAM>, mais comprenez que je suis désespérée. Mon pauvre mari est malade et la seule personne dans ces terres qui pourrait l'aider refuse de le faire.~
+@23   = ~*soupire* Je m'en rends compte moi-même, <SIRMAAM>, mais comprenez que je suis désespérée. Mon pauvre mari est malade et la seule personne dans ces terres qui pourrait l'aider refuse de le faire.~
+@24   = ~*soupire* Veuillez pardonner mon ton cassant, <SIRMAAM>, mais comprenez que je suis désespérée. Mon pauvre mari est malade et la seule personne dans ces terres qui pourrait l'aider refuse de le faire.~
 @25   = ~Veuillez pardonner mon ton cassant, <SIRMAAM>, mais comprenez que je suis désespérée. Mon pauvre mari est malade et la seule personne dans ces terres qui pourrait l'aider refuse de le faire.~
 @26   = ~Tonder et moi avons emménagé dans la petite maison qui se trouve à l'ouest d'ici. Nous ne voulions que labourer les terres et vivre en paix, mais il y a quelques jours, Tonder a été attaqué par un gros animal ! Sans Thalantyr, mon mari aurait été dévoré.~
 @27   = ~Tonder a commencé à se sentir de plus en plus malade et puis il y a deux nuits, c'est arrivé, il s'est transformé en loup-garou sous mes yeux !~
@@ -43,7 +43,7 @@
 @42   = ~Oh s'il vous plaît, <SIRMAAM>, ne dites pas ça !~
 @43   = ~S'il vous plaît, attendez encore un moment, <SIRMAAM>.~
 @44   = ~Je sais qu'il n'y a peut-être pas d'autre moyen... mais je ne me pardonnerais jamais si je n'avais pas tout essayé. Je vous en prie, parlez à Thalantyr. Essayez de le convaincre de créer un remède pour Tonder.~
-@45   = ~Si cela échoue... alors... faites ce qui doit être fait. (Soupire lourdement) Je vous demande seulement... s'il vous plaît, essayez d'abord tous les autres moyens. S'il vous plaît.~
+@45   = ~Si cela échoue... alors... faites ce qui doit être fait. *soupire fortement* Je vous demande seulement... s'il vous plaît, essayez d'abord tous les autres moyens. S'il vous plaît.~
 @46   = ~S'il vous plaît, parlez à Thalantyr !~
 @47   = ~Je vous ai entendu parler à l'intérieur. Qu'allez-vous faire ?~
 @48   = ~Écoutez, Thalantyr a besoin de votre sang pour trouver un remède.~
@@ -77,20 +77,20 @@
 @76   = ~Mais je pourrais aussi tuer le loup-garou pour vous à la place ?~
 @77   = ~Bien. Je vais voir ce que je peux faire.~
 @78   = ~Je ne pense pas que ce soit une affaire pour moi.~
-@79   = ~C'est le cas ? C'est très noble de votre part. Et je vais vous dire la même chose que celle que je lui ai dit, je ne *peux pas* l'aider parce qu'il me manque les ingrédients les plus importants pour un remède : J'ai besoin de belladone, ou de baies de Guril, ou du sang d'un être cher.~
+@79   = ~C'est le cas ? C'est très noble de votre part. Et je vais vous dire la même chose que celle que je lui ai dit, je ne peux pas l'aider parce qu'il me manque les ingrédients les plus importants pour un remède : J'ai besoin de belladone, ou de baies de Guril, ou du sang d'un être cher.~
 @80   = ~Si vous voulez vraiment rendre le monde meilleur, vous pourriez tuer le loup-garou et me rapporter son corps. Peut-être que je pourrais acquérir des connaissances précieuses en l'étudiant, afin que le prochain pauvre malheureux puisse être sauvé.~
 @81   = ~Vous le pensez ? Eh bien, peut-être que vous le pouvez vraiment.~
 @82   = ~Je vais vous le dire. Vous comprendrez alors pourquoi je ne peux pas l'aider.~
 @83   = ~Eh bien, tout serait alors réglé. Bonne journée.~
 @84   = ~Il y a quelques semaines, cette femme Aiwell a emménagé dans la maison un peu à l'ouest d'ici, en compagnie de son traînard d'homme.~
 @85   = ~Et il y a quelques nuits, elle était soudain à ma porte, pleurant sur une créature qui avait attaqué et mordu son homme. Je me suis débarrassé de cette chose, grâce aux dieux. Mais bien sûr, ce n'était pas la fin de l'histoire.~
-@86   = ~Il y a deux nuits, cette larve de mari s'est soudainement transformée en loup-garou (Soupirs). Comme si je n'avais pas assez de problèmes.~
+@86   = ~Il y a deux nuits, cette larve de mari s'est soudainement transformée en loup-garou. *soupire* Comme si je n'avais pas assez de problèmes.~
 @87   = ~Un loup-garou ? Pourquoi ne le tuez-vous pas ?~
 @88   = ~Et qu'est-ce qu'Aiwell attend de vous maintenant ?~
 @89   = ~C'est en effet une histoire dramatique. Que se passera-t-il maintenant ?~
 @90   = ~Trop risqué. Ces bêtes ont une morsure d'enfer et sont immunisées contre les armes normales. Donc, soit je risque quelques-uns de mes précieux golems, soit j'engage des mercenaires. Seriez-vous disponibles ?~
 @91   = ~Je pense que oui. Un seul loup-garou ne devrait pas être un problème.~
-@92   = ~Pour être honnête, je ne peux pas imaginer qu'Aiwell vous ait demandé *cela*. Que veut-elle vraiment de vous ?~
+@92   = ~Pour être honnête, je ne peux pas imaginer qu'Aiwell vous ait demandé cela. Que veut-elle vraiment de vous ?~
 @93   = ~Elle s'est fixée comme objectif que je puisse guérir son mari de la lycanthropie. Comme si je n'avais rien de mieux à faire.~
 @94   = ~Et ne pourriez-vous pas faire ça ?~
 @95   = ~Pourquoi ne pas simplement enflammer la bête ?~
@@ -118,15 +118,15 @@
 @117  = ~Aiwell a-t-elle vraiment donné son sang ? Je vais voir ce que je peux en faire.~
 @118  = ~Regardez-moi ça ! Je ne pensais pas que vous pourriez vraiment me trouver de la belladone. Je vais voir ce que je peux en faire.~
 @119  = ~Les yeux rouges du loup-garou scintillent dans la pénombre de la hutte. Apparemment, il vous a senti et se prépare à vous mettre en pièces.~
-@120  = ~(Attaquer)~
-@121  = ~(Battre en retraite)~
-@122  = ~(Jeter l'antidote sur lui)~
+@120  = ~*attaquer*~
+@121  = ~*battre en retraite*~
+@122  = ~*jeter l'antidote sur lui*~
 @123  = ~Le loup-garou se jette sur vous.~
 @124  = ~Vous quittez la maison.~
-@125  = ~(Le loup-garou s'empare de la fiole qui vole vers lui.)~
-@126  = ~(Pendant un instant, la confusion est écrite sur le visage du loup-garou, et puis...)~
-@127  = ~(Le loup pousse un grand cri...)~
-@128  = ~(Le loup-garou grogne de façon menaçante. Il semble que le remède n'ait pas fonctionné.)~
+@125  = ~*le loup-garou s'empare de la fiole qui vole vers lui.*~
+@126  = ~*pendant un instant, la confusion se décrit sur le visage du loup-garou, et puis...*~
+@127  = ~*le loup pousse un grand cri...*~
+@128  = ~*le loup-garou grogne de façon menaçante. Il semble que le remède n'ait pas fonctionné.*~
 @129  = ~Aaaah ! Par les dieux, quel cauchemar ! Je... qui... qui êtes-vous ? Où suis-je ?~
 @130  = ~Vous êtes sauf. Nous vous avons libéré de la lycanthropie.~
 @131  = ~Vous êtes chez vous, et libéré de la malédiction.~
@@ -151,7 +151,7 @@
 
 @148   = ~Qui était la femme devant votre porte ?~
 @149   = ~Pas de soucis, elle est partie maintenant. Que voulait-elle ?~
-@150   = ~Ah, donc *maintenant* je comprends ce dont elle parlait. Eh bien, le loup-garou est mort.~
+@150   = ~Ah, donc maintenant je comprends ce dont elle parlait. Eh bien, le loup-garou est mort.~
 @151   = ~Peut-être que ce n'est plus un problème. Le loup-garou est mort.~
 @152   = ~Eh bien, je suppose que vous donner le cadavre est la meilleure chose à faire maintenant. Je ne pense pas qu'il y ait d'alternative.~
 @153   = ~Étant donné que le loup-garou est déjà mort, je pense que vous l'apporter serait la meilleure chose à faire. Mais je ne l'ai pas avec moi en ce moment.~
@@ -170,7 +170,7 @@
 @166   = ~Essayez-vous d'être drôle, après tout ce que vous avez déjà fait pour nous ?~
 @167   = ~Je n'arrive plus à trouver le cadavre du loup-garou... Je ne pourrai pas vous l'apporter.~
 @168   = ~S'il vous plaît, aidez-nous !~
-@169   = ~Hmph. Je suppose que c'est fini, alors. (Thalantyr grogne quelque chose à propos de l'imprudence des aventuriers d'aujourd'hui.)~
+@169   = ~Hmph. Je suppose que c'est fini, alors. *Thalantyr grogne quelque chose à propos de l'imprudence des aventuriers d'aujourd'hui.*~
 
 /* new for v 4.0 */
 

@@ -6,10 +6,10 @@
 @5000005    = ~Un festin pour les gnolls~
 @5000006    = ~A la recherche de Ricochet~
 @5000007    = ~A la recherche de Perwell~
-@5000008    = ~Quete qui utilise une hutte pres de Thalantyr a Haute Haie.~
+@5000008    = ~La quete utilise une hutte pres de Thalantyr a Haute-Haie.~
 @5000009    = ~Des loups et des hommes~
-@5000010    = ~Quete qui utilise une maison a Beregost.~
-@5000011    = ~Le grand Carlini~
+@5000010    = ~La quete utilise une maison a Beregost.~
+@5000011    = ~Le magnifique Karlini~
 @5000012    = ~Elevage de grouilleux~
 @5000013    = ~Les groupies~
 @5000014    = ~Les Serpents d'Abbathor~
@@ -17,10 +17,10 @@
 @5000016    = ~Ce mod doit etre installe avant EET_End sur votre installation EET.~
 
 /* new for v5.0 */
-@5000017    = ~Original version~
-@5000018    = ~Tweaked version: quest can be finished in BG1.~
-@5000019    = ~Original version: Ugh and Jumper are inside the cave.~
-@5000020    = ~Alternative for compatibility: Ugh and Jumper are outside.~
+@5000017    = ~Version originale~
+@5000018    = ~Version amelioree : la quete peut etre achevee dans BG1.~
+@5000019    = ~Version originale : Ugh et Ricochet se trouvent a l'interieur de la grotte.~
+@5000020    = ~Alternative pour la compatibilite : Ugh et Ricochet se trouvent a l'exterieur de la grotte.~
 
 // WeiDU prompts
 @-1000= "Le mod %TP2_FILE_NAME% contient"

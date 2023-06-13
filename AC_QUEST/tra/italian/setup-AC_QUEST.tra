@@ -10,7 +10,7 @@
 @9    = ~Teliel Meadowsinger~ //fand ich als Nachnahmen schöner
 @10   = ~Udolf~
 @11   = ~Udolf Ballner~
-@12   = ~Signora Brunnstein~ 
+@12   = ~Signora Brunnstein~
 @13   = ~Aaron~
 @14   = ~Aaron Brunnstein~
 @15   = ~Fantasma~
@@ -187,7 +187,7 @@ Tipo:  A una mano
 Richiede: Forza 9
 Non utilizzabile da:
  Druid
- Mago 
+ Mago
  Thief~
 @87   = ~Registro di Bashrik's~
 @88   = ~Il libro è scritto con una calligrafia accurata e riporta l'ultimo viaggio di Bashrik Sparklehammer. Bashrik era sulle tracce di una setta che si fa chiamare "I Serpenti di Abbathor". Per loro, Abbathor, l'unico dio malvagio tra i Morndinsamman, è considerato il liberatore e santo patrono dei nani di superficie.
@@ -238,15 +238,15 @@ Da quello che sai sui nani, un simile atto è il più grande sacrilegio di cui un 
 @123  = ~Emmi Wiesner~
 @124  = ~Bunger~
 /* new for v5.0 */
-@1000 = ~Gibberling Leather Armor~ 
+@1000 = ~Gibberling Leather Armor~
 @1001 = ~Wostok's Body~
 @1002 = ~This is Wostok's Body, the dwarf warrior and priest you helped against the Serpents of Abbathor. The priest of Helm in Baldur's Gate will surely take him from you.
 
 STATISTICS:
 
-Weight: 105~ 
+Weight: 105~
 @1003 = ~Baldar Goldbart~
-@1004 = ~Wostok's Hammer +3~ 
+@1004 = ~Wostok's Hammer +3~
 @1005 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
 
 STATISTICS:
@@ -254,17 +254,17 @@ STATISTICS:
 Equipped abilities: Gives Bless effect upon wielder.
 
 THAC0: +3 bonus
-Damage:  2D4 + 3, + 2 damage to creatures of evil alignment
-Damage type:  crushing
+Damage: 2D4 + 3, + 2 damage to creatures of evil alignment
+Damage type: crushing
 Weight: 4
 Speed Factor: 1
 Proficiency Type: War Hammer
-Type:  1-handed
+Type: 1-handed
 Requires: 9 Strength
 Not Usable By:
  Evil alignments
  Druid
- Mage 
+ Mage
  Thief~
 @1006 = ~Gorgar Blaurock~
 @1007 = ~Zhentarim Emissary~
@@ -276,40 +276,42 @@ STATISTICS:
 Equipped abilities: Gives Bless effect upon wielder.
 Combat Abilities: Returns to thrower
 THAC0: +3 bonus
-Damage:  2D4 + 3, + 2 damage to creatures of evil alignment
-Damage type:  crushing
+Damage: 2D4 + 3, + 2 damage to creatures of evil alignment
+Damage type (melee): crushing
+Damage type (thrown): missile
 Weight: 4
 Speed Factor: 1
 Proficiency Type: War Hammer
-Type:  1-handed
+Type: 1-handed
 Requires: 9 Strength
 Not Usable By:
  Evil alignments
  Druid
- Mage 
+ Mage
  Thief~
 @1009 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-Cespenar improved the weapon further so it does more damage.
+The master smith Cromwell improved the weapon so it will always return into the wielder's hand if thrown. Cespenar improved the weapon further so it does more damage.
 
 STATISTICS:
 
 Equipped abilities: Gives Bless effect upon wielder.
 Combat Abilities: Returns to thrower
 THAC0: +4 bonus
-Damage:  2D4 + 4, + 2 damage to creatures of evil alignment
-Damage type:  crushing
+Damage: 2D4 + 4, + 2 damage to creatures of evil alignment
+Damage type (melee): crushing
+Damage type (thrown): missile
 Weight: 4
 Speed Factor: 1
 Proficiency Type: War Hammer
-Type:  1-handed
+Type: 1-handed
 Requires: 9 Strength
 Not Usable By:
  Evil alignments
  Druid
- Mage 
+ Mage
  Thief~
-@1010 = ~Wostok's Hammer +4~ 
-@1011 = ~Wostok's Hammer +5~ 
+@1010 = ~Wostok's Hammer +4~
+@1011 = ~Wostok's Hammer +5~
 @1012 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
 Cespenar improved the weapon so it does more damage.
 
@@ -317,17 +319,17 @@ STATISTICS:
 
 Equipped abilities: Gives Bless effect upon wielder.
 THAC0: +5 bonus
-Damage:  2D4 + 5, + 2 damage to creatures of evil alignment
-Damage type:  crushing
+Damage: 2D4 + 5, + 2 damage to creatures of evil alignment
+Damage type: crushing
 Weight: 4
 Speed Factor: 1
 Proficiency Type: War Hammer
-Type:  1-handed
+Type: 1-handed
 Requires: 9 Strength
 Not Usable By:
  Evil alignments
  Druid
- Mage 
+ Mage
  Thief~
 
 
@@ -576,7 +578,7 @@ Un messaggero mi ha portato un invito dal suo padrone. Sebbene manterrà segreto 
 @80039 = ~Pelle d'Orco +3~ //#6365
 @80040 = ~Gibberling Mutato~ //#2286
 @80041 = ~Arciere Scheletro~ //#73272
-@80042 = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. Il più delle volte, la spada lunga ha una lama affilata soltanto da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura, e possono essere diverse anche nell'ambito della medesima cultura a seconda dell'epoca. Tuttavia, una delle caratteristiche più comuni delle spade lunghe è proprio la loro lunghezza, la quale varia dagli 87 ai 117 centimetri. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è concepita per tagliare, non per infilzare. 
+@80042 = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. Il più delle volte, la spada lunga ha una lama affilata soltanto da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura, e possono essere diverse anche nell'ambito della medesima cultura a seconda dell'epoca. Tuttavia, una delle caratteristiche più comuni delle spade lunghe è proprio la loro lunghezza, la quale varia dagli 87 ai 117 centimetri. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è concepita per tagliare, non per infilzare.
 
 STATISTICHE:
 
@@ -601,7 +603,7 @@ Tipo:  A una mano
 Richiede: Forza 6~ //#4421
 @80044 = ~Spada Lunga~ //#2893
 @80045 = ~Spada di Fiamma +1~ //#4422
-@80046 = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. Il più delle volte, la spada lunga ha una lama affilata soltanto da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura, e possono essere diverse anche nell'ambito della medesima cultura a seconda dell'epoca. Tuttavia, una delle caratteristiche più comuni delle spade lunghe è proprio la loro lunghezza, la quale varia dagli 87 ai 117 centimetri. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è concepita per tagliare, non per infilzare. 
+@80046 = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. Il più delle volte, la spada lunga ha una lama affilata soltanto da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura, e possono essere diverse anche nell'ambito della medesima cultura a seconda dell'epoca. Tuttavia, una delle caratteristiche più comuni delle spade lunghe è proprio la loro lunghezza, la quale varia dagli 87 ai 117 centimetri. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è concepita per tagliare, non per infilzare.
 
 STATISTICHE:
 
@@ -747,7 +749,7 @@ Fattore-velocità: 5
 Tipo di Competenza: Arco Lungo
 Tipo: A Due Mani
 
-Richiede: 
+Richiede:
 Forza 6
 
 Peso: 2~
@@ -759,7 +761,7 @@ Abilità durante l'uso:
 - Classe Armatura: +1
 - Il personaggio è protetto contro tutti i tipi di pietrificazione e le forme di attacchi con lo sguardo.
 
-Richiede: 
+Richiede:
 Forza 12
 
 Peso: 7~
@@ -779,7 +781,7 @@ Abilità durante l'uso:
 
 Classe Armatura: 4
 
-Richiede: 
+Richiede:
 Forza 6
 
 Peso: 7~
@@ -858,7 +860,7 @@ Ho detto a Geraldo di non volermi più occupare della faccenda. Ha borbottato qua
 @3000007  = ~I Serpenti di Abbathor
 
 Ho assistito a un'imboscata sulla Strada della Costa e ho trovato un diario di un nano di nome Bashrik. Dovrei portarlo al Tempio di Helm a Baldur's Gate.~
- 
+
 @3000008  = ~I Serpenti di Abbathor
 
 Ho accettato di affrontare questo Draglon che è stato menzionato nel diario di Bashrik. Per quanto ne so, potrebbe essere nelle Cantine.~
@@ -900,7 +902,7 @@ La sua casa è una piccola abitazione al confine sud-ovest di Beregost.~
 /* new for v5.0 */
 @3000016  = ~The Serpents of Abbathor
 
-I gave the dwarven journal to Draglon who in the Undercellars, and I fear I have lost my way to contact the other mentioned dwarf, Wostok, who the journal was actually meant for. Maybe there is still a way to ask for him in the temple of Helm in Baldur's Gate if I have more insight into this cult "Serpents of Abbathor".~
+I gave the dwarven journal to Draglon who is in the Undercellars, and I fear I have lost my way to contact the other mentioned dwarf, Wostok, who the journal was actually meant for. Maybe there is still a way to ask for him in the temple of Helm in Baldur's Gate if I have more insight into this cult "Serpents of Abbathor".~
 @3000017  = ~The Serpents of Abbathor
 
 I met a dwarf in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but what it is about he wouldn't tell me and instead left with a threat about a powerful enemy I made... I wished people wouldn't be so thin-skinned. Maybe I'll learn more about what he meant - my gut is telling me that I will need a dwarf in my group to find such information.~
@@ -933,7 +935,7 @@ I met Draglon, the contact of the Serpents of Abbathor, but when I threatened hi
 Sigh - I made an enemy out of *another* evil organization who thought I'd play the henchman for them. I guess they are dangerous enough but we'll see whether they'll send more than one group of assassins after me if they realize I might be dangerous, myself.~
 @3000027  = ~The Serpents of Abbathor
 
-I agreed to kill Wostok and his comrades for Draglon, the contact of the Serpents of Abbathor. Wostok was last seen in the Temple of Helm in Baldur's Gate. When I'm done, I will find Draglon again in the Undercellars.~ 
+I agreed to kill Wostok and his comrades for Draglon, the contact of the Serpents of Abbathor. Wostok was last seen in the Temple of Helm in Baldur's Gate. When I'm done, I will find Draglon again in the Undercellars.~
 @3000028  = ~The Serpents of Abbathor
 
 Wostok is dead.~
@@ -942,7 +944,7 @@ Wostok is dead.~
 A mage named Jenna keeps an artifact for the dwarves. She and her companion Jassir reside in the Northwestern District's tavern. I need to go there and retrieve the ancient dwarvern artifact from them.~
 @3000030  = ~The Serpents of Abbathor
 
-I have the Gundmagtor, the dwarven artifact Draglon wanted me to retrieve. I should return to the undercellars and give it to him.~
+I have the Gundmagtor, the dwarven artifact Draglon wanted me to retrieve. I should return to the Undercellars and give it to him.~
 @3000031  = ~The Serpents of Abbathor
 
 Draglon gave me a key to a warehouse in south east Baldur's Gate where the Serpents of Abbathor have a meeting. I am invited and should join with them to discuss my further affiliation to the cult.~
@@ -952,7 +954,7 @@ I'll find Wostok who can give me answers to the Serpents of Abbathor in the sewe
 /* former @3000007 with more details */
 @3000033  = ~The Serpents of Abbathor
 
-I witnessed an ambush at the Coast Way and found a journal from a dwarf named Bashrik. It mentions two fractions: Draglon from the Serpents of Abbathor, a cult who worship an evil dwarven god, and Wostok who was investigating the cult. Wostok was supposed to meet with Bashrik in the Temple of Helm in Baldur's Gate. Draglon from the cult was last seen in the Undercellar.~
+I witnessed an ambush at the Coast Way and found a journal from a dwarf named Bashrik. It mentions two factions: Draglon from the Serpents of Abbathor, a cult who worship an evil dwarven god, and Wostok who was investigating the cult. Wostok was supposed to meet with Bashrik in the Temple of Helm in Baldur's Gate. Draglon from the cult was last seen in the Undercellar.~
 @3000034  = ~The Serpents of Abbathor
 
 I didn't agree to help Wostok further against the Serpents of Abbathor, but I think I could still check out this Draglon from the cult in the Undercellars if I feel like it.~
@@ -1005,11 +1007,11 @@ Thalantyr, the mage in High Hedge, offered to destroy the dwarven artefact Gundm
 Well, Halbazzer Drin is no help here. He flat out rejected to even look at the Gundmagtor further.~
 
 /* BG2 follow up for good path */
-//@3000080  = 
+//@3000080  =
 @3000081  = ~Una Misteriosa Offerta
 
 Would you look at that - the dwarf who approached me was one of two good friends of Wostok, the dwarven warrior and priest I assisted against the evil dwarven cult "Serpents of Abbathor" lead by Lugosch, who I drove out of the Nashkel mines. How could I forget brave Wostok who's last wish was to rather die by my hand than wait for his wounds to take him... They gave me his hammer, a mighty weapon by the looks of it, and asked me to tell of Wostok's bravery whenever anyone asks about this weapon.~
-//@3000082  = 
+//@3000082  =
 @3000083  = ~Cromwell can enchant Wostok's hammer so I can throw him, too! For that, he'd need a scroll of Enchanted Weapon, a scroll of Melf's Minute Meteors, and a Diamond, and probably a sum of gold he didn't specify yet.~
 @3000084  = ~Cespenar can upgrade Wostok's hammer with a hammer +2 and 10,000 gold.~
 @3000085  = ~Cespenar can upgrade Wostok's hammer with a hammer +2, a scroll of Enchanted Weapon, a diamond, and 10,000 gold.~

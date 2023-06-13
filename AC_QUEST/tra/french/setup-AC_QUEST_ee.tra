@@ -4,8 +4,9 @@ Cette simple bague est munie d'un sort pour protéger son porteur. La gravure à l
 
 PARAMÈTRES :
 
-Classe d'armure : +1
-Jets de sauvegarde : +1
+Capacités d'équipement :
+- Classe d'armure : +1
+- Jets de sauvegarde : +1
 
 Poids : 0~
 
@@ -14,57 +15,67 @@ Poids : 0~
 
 PARAMÈTRES :
 
-Poids : 3
-~
+Poids : 3~
+
 @28   = ~Un petit lapin blanc. Il n'est pas aussi duveteux que Ricochet, mais quel lapin pourrait bien l'être ?
 
 PARAMÈTRES :
 
-Poids : 3
-~
+Poids : 3~
+
 @30   = ~Ceci est le corps de Perwell.
 
 PARAMÈTRES :
 
-Poids : 110
-~
+Poids : 110~
+
 //@32 not needed in EE!
 @38   = ~Après sa mort, le loup-garou est redevenu un humain.
 
 PARAMÈTRES :
 
 Poids : 105~
+
 @40   = ~Les baies de guril sont des remèdes traditionnels à Féérune, et sont utilisées pour diverses applications. Elles sont particulièrement appréciées pour soulager les souffrances du type « privées », c'est pourquoi ces baies sont souvent proposées dans les magasins à proximité des courtisanes.
+
+PARAMÈTRES :
 
 Poids : 1~
 @44   = ~Cette potion contient principalement des fleurs de Belladone.
 
+PARAMÈTRES :
+
 Poids : 0~
 @45   = ~Cette potion contient principalement des baies de Guril.
 
+PARAMÈTRES :
+
 Poids : 0~
 @46   = ~Cette potion contient principalement du sang d'Aiwell.
+
+PARAMÈTRES :
 
 Poids : 0~
 
 //@48 not needed in EE!
 
-@50   = ~Dans ce livre, le grand Karlini, l'une des figures les plus colorées de la sagesse gnomique, a consigné ses expériences et ses sorts. L'écriture est confuse et gribouillée, et il est probable que seul quelqu'un d'aussi fou que Karlini soit en mesure de déchiffrer ce griffonnage.
+@50   = ~Dans ce livre, le magnifique Karlini, l'une des figures les plus colorées de la sagesse gnomique, a consigné ses expériences et ses sorts. L'écriture est confuse et gribouillée, et il est probable que seul quelqu'un d'aussi fou que Karlini soit en mesure de déchiffrer ce griffonnage.
+
+PARAMÈTRES :
 
 Poids : 2~
 @55   = ~Cette clé ouvre la porte de la maison de Geraldo au centre de la Porte de Baldur.
 
 PARAMÈTRES :
 
-Poids : 0
-~
+Poids : 0~
 
 @57   = ~Ceci est la fourrure d'un grouilleux.
 
 PARAMÈTRES :
 
-Poids : 0
-~
+Poids : 0~
+
 //@58 not needed for EE!
 
 @60   = ~Elminster est l'oiseau apprivoisé de Geraldo, bien que lui-même n'en connaisse pas l'espèce exacte. L'oiseau a une allure rusée et une aversion exceptionnelle pour les grouilleux. Dès qu'il en sent un, il piaille bruyamment.
@@ -77,13 +88,19 @@ Poids : 1~
 
 @67   = ~Une petite clé, qui ouvre une sorte de panneau dans le mur.
 
+PARAMÈTRES :
+
 Poids : 0~
 
 @69   = ~Cette clé ouvre un entrepôt dans le quartier sud de la ville. Les Serpents d'Abbathor en ont fait leur repaire.
 
+PARAMÈTRES :
+
 Poids : 0~
 
 @76   = ~Cette liasse de feuillets détachés semble résumer dans une large mesure l'approche des Serpents d'Abbathor. Apparemment, leur plan était dès le début de capturer un ancien dispositif de nain, appelé Gundmagtor, qui dans le langage courant signifie quelque chose comme « Appelant des âmes noires ». La frappe principale de la secte semble se concentrer sur Nashkel, et la note « <CHARNAME> a tué Mulahey, les mines sont libres » est de mauvais augure.
+
+PARAMÈTRES :
 
 Poids : 0~
 
@@ -91,13 +108,19 @@ Poids : 0~
 
 Les dernières entrées du livre traitent de ses efforts pour entrer en contact avec Mulahey dans les mines de Nashkel, décrivent le rejet grossier annoncé par le demi-orque aux nains et sa joie malicieuse lorsque <CHARNAME> a libéré la mine. Lugosch y a vu sa chance et a mené une attaque rapide pour incorporer une mine de fer en bon état de marche dans le culte.
 
+PARAMÈTRES :
+
 Poids : 2~
 
 @82   = ~Emerson, le contremaître des mines de Nashkel, a consigné par écrit ses calculs et son expérience dans ce tas de documents déroutants. Pour quelqu'un qui travaille dans l'industrie minière, ce fouillis d'informations est sûrement une mine d'or. Pour vous, en revanche, les notes sont inutiles.
 
+PARAMÈTRES :
+
 Poids : 3~
 
 @84   = ~Ce livre a l'air très vieux et a subi beaucoup de dégâts. Certaines pages sont déchirées et d'autres percées, certaines sont brûlées, et une grande partie du livre est maculée de sang. Même si vous ne pouvez pas déchiffrer le nom du prêtre, il semble que le vieux vagabond ait traversé beaucoup de choses : des voyages avec un groupe d'aventuriers, certains conflits sur la « vraie » existence des nains et enfin le bannissement de son clan. Pour le nain, pour qui sa famille était tout, cette perte lui a d'abord fait perdre la tête, puis l'a conduit tout droit dans les bras des Serpents.
+
+PARAMÈTRES :
 
 Poids : 0~
 
@@ -113,9 +136,13 @@ Addenda : Après avoir fait parler l'assassin qui nous attendait à l'Auberge de B
 
 (Si vous voulez enquêter sur la secte et sur ce dont il s'agit, il serait préférable de conserver ce livre.)
 
+PARAMÈTRES :
+
 Poids : 2~
 
 @91   = ~Vous ne savez pas ce que fait exactement cet artefact. Les Serpents d'Abbathor le veulent, c'est probablement une information suffisante.
+
+PARAMÈTRES :
 
 Poids : 30~
 
@@ -123,144 +150,121 @@ Poids : 30~
 
 D'après ce que vous savez des anciens nains, un tel acte est le plus grand sacrilège dont un nain puisse être capable. La paix des morts est sacrée et seules des âmes très corrompues oseraient la rompre.
 
+PARAMÈTRES :
+
 Poids : 30~
 
 /* new for v5.0 */
-@1005 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-
-STATISTICS:
-
-Equipped abilities:
-– Bless
-
-THAC0: +3
-Damage: 2d4+3, +2 extra vs. evil aignments
-Damage type (melee): Crushing
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
-
-Weight: 4~
-@1008 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-The master smith Cromwell improved the weapon so it will always return into the wielder's hand if thrown.
-
-STATISTICS:
-
-Equipped abilities:
-– Bless
-Combat abilities:
-– Returns to the wielder's hand when thrown
-
-THAC0: +3
-Damage: 2d4+3, +2 extra vs. evil aignments
-Damage type (melee): Crushing
-Damage type (thrown): Missile
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
-
-Weight: 4~
-@1009 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-Cespenar improved the weapon further so it does more damage.
-
-STATISTICS:
-
-Equipped abilities:
-– Bless
-Combat abilities:
-– Returns to the wielder's hand when thrown
-
-THAC0: +4
-Damage: 2d4+4, +2 extra vs. evil aignments
-Damage type (melee): Crushing
-Damage type (thrown): Missile
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
-
-Weight: 4~
-@1012 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-Cespenar improved the weapon further so it does more damage.
-
-STATISTICS:
-
-Equipped abilities:
-– Bless
-
-THAC0: +5
-Damage: 2d4+5, +2 extra vs. evil aignments
-Damage type (melee): Crushing
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
-
-Weight: 4~
-
-//#6742 BGII
-@80042 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
-
-STATISTICS:
-
-Damage: 1d8 (slashing)
-Speed Factor: 4
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
-
-Weight: 4~
-
-//#4421 BGII
-@80043 = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored. "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
-
-STATISTICS:
-
-THAC0: +1
-Damage: 1d8+1, +1 fire damage
-Damage type: Slashing
-Speed Factor: 4
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
-
-Weight: 4
-~
-
-//#6742 BGII
-@80042 = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre, parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
+@1005 = ~À la fois guerrier et prêtre de Moradin, Wostok Têtedemarteau était connu pour sa bravoure et sa lutte désintéressée contre les nains de la surface corrompus qui vénéraient le dieu maléfique Abbathor. Cette arme a été égarée lors du combat contre les Serpents d'Abbathor, lorsque Wostok est tombé sous leurs coups pour libérer les mines de Nashkel de leur occupation, malgré cela les mines ont été délivrées et purifiées par son clan pour servir une fois de plus la juste cause contre le mal.
 
 PARAMÈTRES :
 
-Dégâts : 1D8
-Type de dégât : tranchant
-Poids : 4
-Facteur de vitesse : 4
+Capacités d'équipement :
+- Octroie les effets de Bénédiction au porteur
+
+TAC0 : +3
+Dégâts : 2d4 +3 (contondant), +2 contre les alignements mauvais
+Facteur de vitesse : 1
+Type de compétence : marteau
+Type : arme à une main
+Nécessite :
+ 9 en Force
+
+Poids : 4~
+@1008 = ~À la fois guerrier et prêtre de Moradin, Wostok Têtedemarteau était connu pour sa bravoure et sa lutte désintéressée contre les nains de la surface corrompus qui vénéraient le dieu maléfique Abbathor. Cette arme a été égarée lors du combat contre les Serpents d'Abbathor, lorsque Wostok est tombé sous leurs coups pour libérer les mines de Nashkel de leur occupation, malgré cela les mines ont été délivrées et purifiées par son clan pour servir une fois de plus la juste cause contre le mal.
+
+Le maître forgeron Cromwell a amélioré cette arme pour qu'elle revienne systématiquement dans la main du porteur si elle est lancée.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Octroie les effets de Bénédiction au porteur
+
+Capacités de combat :
+- Revient dans la main du porteur après avoir été lancé
+
+TAC0 : +3
+Dégâts : 2d4 +3, +2 contre les alignements mauvais
+Type de dégâts (mêlée) : contondant
+Type de dégâts (à distance) : projectile
+Facteur de vitesse : 1
+Type de compétence : marteau
+Type : arme à une main
+Nécessite :
+ 9 en Force
+
+Poids : 4~
+@1009 = ~À la fois guerrier et prêtre de Moradin, Wostok Têtedemarteau était connu pour sa bravoure et sa lutte désintéressée contre les nains de la surface corrompus qui vénéraient le dieu maléfique Abbathor. Cette arme a été égarée lors du combat contre les Serpents d'Abbathor, lorsque Wostok est tombé sous leurs coups pour libérer les mines de Nashkel de leur occupation, malgré cela les mines ont été délivrées et purifiées par son clan pour servir une fois de plus la juste cause contre le mal.
+
+Le maître forgeron Cromwell a amélioré cette arme pour qu'elle revienne systématiquement dans la main du porteur si elle est lancée. Cespenar a perfectionné cette arme pour qu'elle inflige davantage de dégâts.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Octroie les effets de Bénédiction au porteur
+
+Capacités de combat :
+- Revient dans la main du porteur après avoir été lancé
+
+TAC0 : +4
+Dégâts : 2d4 +4, +2 contre les alignements mauvais
+Type de dégâts (mêlée) : contondant
+Type de dégâts (à distance) : projectile
+Facteur de vitesse : 1
+Type de compétence : marteau
+Type : arme à une main
+Nécessite :
+ 9 en Force
+
+Poids : 4~
+@1012 = ~À la fois guerrier et prêtre de Moradin, Wostok Têtedemarteau était connu pour sa bravoure et sa lutte désintéressée contre les nains de la surface corrompus qui vénéraient le dieu maléfique Abbathor. Cette arme a été égarée lors du combat contre les Serpents d'Abbathor, lorsque Wostok est tombé sous leurs coups pour libérer les mines de Nashkel de leur occupation, malgré cela les mines ont été délivrées et purifiées par son clan pour servir une fois de plus la juste cause contre le mal.
+
+Cespenar a perfectionné cette arme pour qu'elle inflige davantage de dégâts.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+- Octroie les effets de Bénédiction au porteur
+
+TAC0 : +5
+Dégâts : 2d4 +5 (contondant), +2 contre les alignements mauvais
+Facteur de vitesse : 1
+Type de compétence : marteau
+Type : arme à une main
+Nécessite :
+ 9 en Force
+
+Poids : 4~
+
+//#6742 BGII
+@80042 = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Certaines épées longues peuvent avoir une lame à simple tranchant, mais la plupart ont une lame à double tranchant ainsi qu'un estoc pointu et acéré. Il n'existe pas de version type : le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 centimètres et 1,20 mètre. Dans le cas des épées les plus longues, la lame peut atteindre jusqu'à un mètre de la longueur totale de l'arme. Malgré son extrémité pointue, cette arme est conçue pour frapper de taille, et non d'estoc. De ce fait, l'épée longue est une arme considérée comme tranchante, et non perforante.
+
+PARAMÈTRES :
+
+Dégâts : 1d8 (tranchant)
+Facteur de vitesse : 5
 Type de compétence : épée longue
-Type : arme à 1 main
-Force nécessaire : 6~
+Type : arme à une main
+Nécessite :
+ 6 en Force
+
+Poids : 4~
 
 //#4421 BGII
-@80043 = ~Cette lame brûle avec un feu magique, et un souffle carbonisé est émis chaque fois qu'un coup est porté. « Meta Infernum » est gravé sur la poignée, quelque peu effacé et qui semble avoir été rajouté à l'épée originale.
+@80043 = ~Cette lame brûle d'un feu magique et fait jaillir une flamme à chaque fois qu'elle touche. On a gravé « Meta Infernum » sur le pommeau, bien que ce soit un peu effacé et que la gravure soit plus récente que l'épée.
 
 PARAMÈTRES :
 
 TAC0 : +1
-Dégâts : 1D8 +1 (+1 de feu)
-Type de dégât : tranchant
-Poids : 4
+Dégâts : 1d8 +1 (tranchant), +1 (feu)
 Facteur de vitesse : 4
-Type de compétence : Épée longue
-Type : arme à 1 main
-Force nécessaire : 6~
+Type de compétence : épée longue
+Type : arme à une main
+Nécessite :
+ 6 en Force
+
+Poids : 4~
+
 //#6742 BGII same as @80042
 
 
@@ -270,41 +274,50 @@ Force nécessaire : 6~
 //@80047 = only needed for BGT+Tutu
 
 //#39444 BGII
-@80053 = ~Silverblade, un forgeron nain, créa ce marteau et deux autres objets : un ceinturon des géants et des gantelets des ogres. Son intention était de les offrir à son fils qui, en tant qu'officier supérieur dans les armées naines, combattait les géants et les tribus d'ogres de la région. Malheureusement le fils de Silverblade mourut à la fin de la fabrication des objets, avant qu'ils ne lui aient été offerts. De chagrin, Silverblade mit le ceinturon et les gantelets, et prenant le marteau de tonnerre, il partit se battre contre les géants. Il mourut en héros. Seul, le marteau de tonnerre est un objet magique puissant, mais combiné avec le ceinturon des géants et les gantelets des ogres, son pouvoir est transformé. Cette modification nécessite une aide magique. Le marteau de tonnerre devient alors capable d'infliger 8 points de dégâts supplémentaires par coup, et de tuer instantanément tous les géants et les ogres qu'il touche.
+@80053 = ~Silverblade, un forgeron nain, créa ce marteau de guerre et deux autres objets, un Ceinturon de force de géant du froid et des gantelets en peau d'ogre : « Les mains de Takkok ». Son intention était de les offrir à son fils qui, en tant qu'officier supérieur dans les armées naines, combattait les géants et les tribus d'ogres de la région. Malheureusement le fils de Silverblade mourut à la fin de la fabrication des objets, avant qu'ils ne lui aient été offerts. De chagrin, Silverblade enfila le ceinturon et les gantelets, et après avoir saisi le Marteau de tonnerre, il partit se battre contre les géants. Il mourut en héros.
+
+Seul, le Marteau de tonnerre est un objet magique puissant, mais combiné avec le Ceinturon de force de géant du froid et Les mains de Takkok, son pouvoir est transformé. Cette modification nécessite une aide magique. Le Marteau de tonnerre devient alors capable d'infliger 8 points de dégâts supplémentaires par coup, et de tuer instantanément tous les géants et les ogres qu'il touche.
 
 PARAMÈTRES :
 
 TAC0 : +3
-Dégâts : 2D4 +3
-Type de dégât : contondant
-Poids : 4
+Dégâts : 2d4 +3 (contondant)
 Facteur de vitesse : 1
-Type de compétence : marteau de guerre
-Type : arme à 1 main
-Force nécessaire : 18~
+Type de compétence : marteau
+Type : arme à une main
+Nécessite :
+ 18 en Force
+
+Poids : 4~
+
 //#39548 BGII
 @80057 = ~Cette armure, originellement bénite par Shar, a une histoire longue et intéressante. Seuls les plus grands voleurs ont jamais possédé cette protection lourdement enchantée. L'essence de la nuit a été tissée dans cette sombre armure de sorte qu'elle semble normale à porter, mais qu'elle entoure son porteur d'ombres entortillées.
 
 PARAMÈTRES :
 
 Capacités d'équipement :
-+20 % pour se cacher dans l'ombre
+- Se cacher dans l'ombre : +20 %
 
-Classe d'armure : 3
-Poids : 5
-Force nécessaire : 3~
+Classe d'armure : 3 (5 contre les armes perforantes et les projectiles)
+Nécessite :
+ 3 en Force
+
+Poids : 5~
+
 //#66422 BGII
-@80059 = ~Cette armure a été créée pour Enkidu, un fameux guerrier de Kara-Tur. En effet, alors qu'aucun adversaire ne se risquait à le défier en combat loyal, nombreux étaient ceux, ninjas, assassins ou wu-jen, qui tentaient de le poignarder dans le dos.
+@80059 = ~Cette armure a été créée pour Enkidu, un fameux guerrier de Kara-Tur. En effet, alors qu'aucun adversaire ne se risquait à le défier en combat loyal, nombreux étaient ceux, ninjas, assassins ou Wu Jen, qui tentaient de le poignarder dans le dos.
 
 PARAMÈTRES :
 
 Capacités d'équipement :
-Immunité complète à l'Attaque sournoise
-+5 % de Résistance à la magie
+- Résistance à la magie : +5 %
+- Immunité contre les attaques sournoises
 
-Classe d'armure : -2
-Poids : 45
-Force nécessaire : 15~
+Classe d'armure : -2 (-6 contre les armes tranchantes, -5 contre les armes perforantes et les projectiles)
+Nécessite :
+ 15 en Force
+
+Poids : 45~
 
 // is @32 in "setup-AC_QUEST.tra".
 @100032   = ~Arc long elfique d'Aphriel
@@ -313,23 +326,26 @@ Aphriel, l'elfe, dès son plus jeune âge a parcouru les forêts de Féérune et est 
 
 PARAMÈTRES :
 
-TAC0 : +3 
+TAC0 : +3
 Dégâts : +2 (projectile)
 Poids : 2
 Facteur de Vitesse : 5
 Type de compétence : arc long
 Type : arme à 2 mains
 Force nécessaire : 6~
+
 // is @48 in "setup-AC_QUEST.tra".
 @100048   = ~Ce bouclier est poli jusqu'à briller intensément et est évidemment magique. Les éraflures disparaissent et le sang et la saleté s'écoulent simplement de sa surface réfléchissante. On peut supposer qu'il peut même résister au regard d'un basilic.
 
 PARAMÈTRES :
 
-Le porteur est protégé contre tous les types de pétrification et toutes les attaques de regard.
+Capacités d'équipement :
+- Le porteur est protégé contre tous les types de pétrification et toutes les attaques de regard.
+- Classe d'armure : +2
 
-Classe d'armure : +2
 Poids : 7
 Force nécessaire : 12~
+
 // is @58 in "setup-AC_QUEST.tra".
 @100058   = ~Armure en cuir de grouilleux
 
@@ -343,21 +359,22 @@ Capacités d'équipement :
 - Résistance aux dégâts des projectiles : +10 %
 - Le personnage devient bleu
 - Charisme : -3
-- Ne peut être ôté qu'à l'aide d'un sort de Délivrance de la malédiction
+- Ne peut être ôtée qu'à l'aide d'un sort de Délivrance de la malédiction
 
 Classe d'armure : 4
 Poids : 7
 Force nécessaire : 6~
+
 // is @86 in "setup-AC_QUEST.tra".
 @100086   = ~Le prêtre de Moradin, Bashrik Marteauchargé, était considéré comme sage et vrai au sein de la communauté des nains libéraux. Il luttait sans cesse contre la sécession des nains de surface et jouissait généralement d'une grande réputation. Ce marteau, chargé des coups de foudre de Moradin, était sa plus grande arme dans la lutte contre le mal.
 
 PARAMÈTRES :
 
 TAC0 : +2
-Dégâts : 1D4 +3 (+1 d'électricité) 
-Type de dégât : contondant
+Dégâts : 1d4 +3, +1 (électrique)
+Type de dégâts : contondant
 Poids : 5
 Facteur de vitesse : 2
-Type de compétence : marteau de guerre
-Type : arme à 1 main
+Type de compétence : marteau
+Type : arme à une main
 Force nécessaire : 9~
