@@ -284,6 +284,10 @@ VII. Version history:
 -Fixed item description (Wostok's hammer version +5 does no missile damage)
 -Typo corrections
 
+5.2 - 2023-12-04
+-Spanish version added, by alaisFcZ
+-Aaron should be "NEUTRAL", not "GOODBUTBLUE"
+
 ***************************************************************************************************************
 
 

@@ -287,6 +287,10 @@ VII. Historique des versions :
 - Description d'objet corrigée (la version du Marteau de Wostok +5 n'inflige pas de dégâts de projectile)
 -Typo corrections
 
+5.2 - 2023-12-04
+-Spanish version added, by alaisFcZ
+-Aaron should be "NEUTRAL", not "GOODBUTBLUE"
+
 ***************************************************************************************************************
 
 
