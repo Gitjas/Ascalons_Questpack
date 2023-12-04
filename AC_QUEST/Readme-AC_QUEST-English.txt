@@ -62,6 +62,8 @@ If you experience any problems (during installation or ingame), then you can con
 ***************************************************************************************************************
 
 VI: Components:
+There is 9 components for BG1, and one (component 10: "A Halfling among the Eyeless") for BGII.
+Component 9 ("The Serpents of Abbathor"); tweaked version (option 2) has a small follow-up in BG2 if the good path was played in BG1 (BGT and EET only).
 
 	Baldur's Gate I:
 
