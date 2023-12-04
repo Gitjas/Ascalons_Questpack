@@ -1,0 +1,410 @@
+@21   = ~Anillo de protección de Aarón
+
+Este sencillo anillo está provisto de un tenue hechizo para proteger a su portador. El grabado interior dice: "Con amor para M., de A."
+
+ESTADÍSTICAS:
+
+Clase de Armadura: +1 bonus
+Tiradas de salvación: +1 bonus
+
+Peso: 0~
+
+
+@27   = ~Un conejito blanco. Tal vez el más esponjoso que hayas visto.
+
+ESTADÍSTICAS:
+
+Peso: 3
+~
+@28 = ~Un pequeño conejo blanco. No es tan esponjoso como Jumper, pero ¿qué conejo podría serlo?
+
+ESTADÍSTICAS:
+
+Peso: 3
+~
+
+@30 = ~Este es el cuerpo de Perwell.
+
+ESTADÍSTICAS:
+
+Peso: 110
+~
+//@32 no necesario en EE!
+
+@38 = ~Después de la muerte el hombre lobo ha vuelto a convertirse en humano.
+
+STATISTICS:
+
+Peso: 105
+~
+
+@40 = ~Las bayas de Guril son remedios tradicionales en Faerûn, y se utilizan para diversas aplicaciones. Son especialmente populares para aliviar enfermedades de tipo "especial", por lo que estas bayas suelen ofrecerse en las tiendas de las cercanías a las cortesanas.
+
+ESTADÍSTICAS:
+
+Peso: 1
+~
+
+
+@44 = ~Esta poción contiene principalmente flores de belladona.
+
+ESTADÍSTICAS:
+
+Peso: 0
+~
+@45 = ~Esta poción contiene principalmente bayas de Guril.
+
+ESTADÍSTICAS:
+
+Peso: 0
+~
+@46 = ~Esta poción contiene principalmente sangre de Aiwell.
+
+ESTADÍSTICAS:
+
+Peso: 0
+~
+
+//@48 no se necesita en EE!
+
+@50 = ~En este libro el gran Karlini, una de las figuras más pintorescas de la sabiduría gnómica, escribió sus experiencias y hechizos. La letra es confusa y garabateada, probablemente sólo alguien que esté tan loco como Karlini podría descifrar este garabato.
+
+ESTADÍSTICAS:
+
+Peso: 2
+~
+
+@55 = ~La llave abre la puerta de la casa de Geraldo en el centro de Puerta de baldur.
+
+ESTADÍSTICAS:
+
+Peso: 0
+~
+
+@57   = ~Este es el pelaje de un farfullero mutante.
+
+ESTADÍSTICAS:
+
+Peso: 0
+~
+//@58 no necesario para EE!
+
+@60 = ~Elminster es el pájaro domesticado de Geraldo, aunque ni siquiera él conoce la especie exacta. El pájaro tiene una mirada sabia y una aversión excepcional a los farfulleros. En cuanto detecta uno, grita un sonoro "Kiwitt".
+
+Sin el pájaro, sería casi imposible localizar a los farfulleros en los sótanos y alcantarillas, así que cuídalo bien.
+
+ESTADÍSTICAS:
+
+Peso: 1
+~
+
+@67 = ~Una llave pequeña, que abre una especie de panel en la pared.
+
+ESTADÍSTICAS:
+
+Peso: 0
+~
+
+@69 = ~Esta llave abre un almacén en el Distrito Sur de la ciudad. Las Serpientes de Abbathor tienen allí su escondite.
+
+ESTADÍSTICAS:
+
+Peso: 0
+~
+
+
+
+@76   = ~Este manojo de páginas sueltas envueltas parece resumir en gran medida el planteamiento de las Serpientes de Abbathor. Al parecer, su plan desde el principio era capturar un antiguo artefacto enano, llamado Gundmagtor, que en lenguaje común significa algo así como "Llamador de Almas Negras". El golpe principal del culto parece centrarse en Nashkel, y la nota dice "<CHARNAME> ha matado a Mulahey, las minas están libres" es un mal presagio.
+
+STATISTICS:
+
+Peso: 0
+~
+
+@80 = ~Lugosch Camisagris ha escrito su viaje desde el rango de pequeño cultista a sacerdote de Abbathor con pulcra caligrafía. Cada línea está llena de confianza y arrogancia. Describe cómo el culto echó raíces en Amn y él mismo fue contratado como esbirro de la familia Lurraxol en Trademeet. El culto creció y pronto emigró a ciudades más grandes, pero los Ladrones de las Sombras de Athkatla lo mantuvieron a raya. Lugosch, que ahora había ascendido al sacerdocio, fue llamado por los líderes del culto para descender hacia el norte y continuar su trabajo en la Puerta de Baldur.
+
+Las últimas entradas del libro tratan de sus esfuerzos por ponerse en contacto con Mulahey en las minas de Nashkel, describen la grosera negativa dada por el semiorco a los enanos y su malicioso regocijo cuando <CHARNAME> liberó la mina. Lugosch vio su oportunidad y dirigió un rápido golpe para incorporar al culto una mina de hierro que funcionaba sin problemas para el culto.
+
+ESTADÍSTICAS:
+
+Peso: 2
+~
+
+@82 = ~Emerson, el capataz de las minas de Nashkel, ha plasmado sus cálculos y su experiencia en este revoltijo de papeles. Para alguien que trabaja en la industria minera, este revoltijo de información es seguramente una mina de oro. Para ti, sin embargo, las notas son inútiles.
+
+ESTADÍSTICAS:
+
+Peso: 3
+~
+
+@84 = ~Este libro parece muy viejo y ha sufrido mucho. Algunas páginas están rotas y otras agujereadas, algunas chamuscadas, y gran parte del libro está manchado de sangre. Aunque no puedas descifrar el nombre del sacerdote, parece que el viejo vagabundo ha pasado por muchas cosas: viajes con un grupo de aventureros, ciertos conflictos sobre la "verdadera" existencia enana y, finalmente, el destierro de su clan. Al enano, para quien su familia estaba por encima de todo, esta pérdida le hizo perder primero la cabeza y luego le llevó directamente a los brazos de las Serpientes.
+
+ESTADÍSTICAS:
+
+Peso: 0
+~
+
+//@86 no es necesario en EE!
+
+@88 = ~El libro está escrito con pulcra caligrafía e informa del último viaje de Bashrik Martillochispa. Bashrik iba detrás de un culto que se hace llamar "Las Serpientes de Abbathor". Para ellos, Abbathor, el único dios maligno entre los Morndinsamman(término enano que significa "hermanos del escudo en las alturas" o "enanos de las alturas"), es considerado el libertador y santo patrón de la humanidad enana de la superficie.
+
+No se puede saber mucho más del libro porque, al parecer, las notas de Bashrik fueron escritas principalmente para los iniciados. Sólo la última entrada podría ofrecer una pista, en caso de que quieras investigar el asunto:
+
+"Hoy he partido de Wostok. Mirjala y yo probaremos suerte en el sur, Wostok echará un vistazo en la gran ciudad. Nos reuniremos de nuevo en el templo de Helm cuando tenga más información.
+
+Addendum: Después de racanear al asesino que nos esperaba en la posada del Mezon del Brazo Amigo he aprendido un nombre, al menos. Un tal Draglon aparece en los Bajosotano para regular los asuntos del culto. Bueno, retrasaré eso hasta mi regreso.'
+
+(Si quieres investigar el culto y de qué va, te será ventajoso conservar este libro).
+
+ESTADÍSTICAS:
+
+Peso: 2
+~
+
+@91 = ~Qué hace exactamente este artefacto te es desconocido. Las Serpientes de Abbathor lo quieren, eso es probablemente suficiente información.
+
+ESTADÍSTICAS:
+
+Peso: 30
+~
+
+@93 = ~La historia de este artefacto yace en la oscuridad. Por lo que puedes conjeturar a partir de los pocos retazos que has aprendido hasta ahora, y si has interpretado correctamente las pocas runas enanas antiguas que cubren el artefacto, este artefacto permite de algún modo contactar con los antepasados de los enanos y redirigir su energía hacia seres sombríos.
+
+Por lo que sabes de los viejos enanos, tal acto es el mayor sacrilegio del que un enano puede ser capaz. La paz de los muertos es sagrada y sólo almas muy corrompidas se atreverían a romperla.
+
+ESTADÍSTICAS:
+
+Peso: 30
+~
+
+/* new for v5.0 */
+@1005 = ~Tanto guerrero como sacerdote de Moradin, Wostok Cabezamartillo era conocido por su valentía y su lucha desinteresada contra los enanos corruptos de la superficie que adoraban al malvado dios Abbathor. Esta arma se perdió a manos de las Serpientes de Abbathor cuando Wostok cayó contra ellas mientras luchaba para liberar las minas de Nashkel de su ocupación, pero fue asegurada y purificada por su clan para servir a la causa justa contra el mal una vez más.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Bendición
+
+THAC0: +3
+Daño: 2d4+3 (aplastante), +2 extra vs. alineamientos malignos
+Factor de velocidad: 1
+Tipo de competencia: Martillo de Guerra
+Tipo: Martillo de guerra A una mano
+Requiere
+ 9 Fuerza
+
+Peso: 4~
+@1008 = ~Guerrero y sacerdote de Moradin, Wostok Cabezamartillo era conocido por su valentía y su lucha desinteresada contra los enanos de la superficie corruptos que adoraban al malvado dios Abbathor. Esta arma se perdió a manos de las Serpientes de Abbathor cuando Wostok cayó contra ellas mientras luchaba para liberar las minas de Nashkel de su ocupación, pero fue asegurada y purificada por su clan para servir a la causa justa contra el mal una vez más.
+El maestro herrero Cromwell mejoró el arma para que siempre volviera a la mano de su portador si era arrojada.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Bendición
+Habilidades de combate:
+- Vuelve a la mano del portador cuando se lanza
+
+THAC0: +3
+Daño: 2d4+3, +2 extra vs. alineamientos malignos
+Tipo de daño (cuerpo a cuerpo): Aplastante
+Tipo de daño (lanzado): Misil
+Factor de velocidad: 1
+Tipo de competencia: Martillo de guerra
+Tipo: A una mano
+Requiere
+ 9 Fuerza
+
+Peso: 4~
+@1009 = ~Guerrero y sacerdote de Moradin, Wostok Cabezamartillo era conocido por su valentía y su lucha desinteresada contra los enanos de la superficie corruptos que adoraban al malvado dios Abbathor. Esta arma se perdió a manos de las Serpientes de Abbathor cuando Wostok cayó contra ellas mientras luchaba para liberar las minas de Nashkel de su ocupación, pero fue asegurada y purificada por su clan para servir a la causa justa contra el mal una vez más.
+El maestro herrero Cromwell mejoró el arma para que siempre volviera a la mano de su portador si era arrojada. Cespenar mejoró aún más el arma para que cause más daño.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Bendición
+Habilidades de combate:
+- Vuelve a la mano del portador cuando se lanza
+
+THAC0: +4
+Daño: 2d4+4, +2 extra vs. alineamientos malignos
+Tipo de daño (cuerpo a cuerpo): Aplastante
+Tipo de daño (lanzado): Misil
+Factor de velocidad: 1
+Tipo de competencia: Martillo de guerra
+Tipo: A una mano
+Requiere
+ 9 Fuerza
+
+Peso: 4~
+@1012 = ~Guerrero y sacerdote de Moradin, Wostok Cabezamartillo era conocido por su valentía y su lucha desinteresada contra los enanos de la superficie corruptos que adoraban al malvado dios Abbathor. Esta arma se perdió a manos de las Serpientes de Abbathor cuando Wostok cayó contra ellas mientras luchaba para liberar las minas de Nashkel de su ocupación, pero fue asegurada y purificada por su clan para servir a la causa justa contra el mal una vez más.
+Cespenar mejoró el arma para que hiciera más daño.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Bendición
+
+THAC0: +5
+Daño: 2d4+5 (aplastante), +2 extra vs. alineamientos malignos
+Factor de velocidad: 1
+Tipo de competencia: Martillo de Guerra
+Tipo: Martillo de guerra A una mano
+Requiere
+ 9 Fuerza
+
+Peso: 4~
+
+//#6742 BGII
+@80042 = ~Estas espadas suelen denominarse espadas de doble filo, espadas de guerra o espadas militares. En muchos casos, el sable largo tiene una hoja de un solo filo. No existe una única versión del sable largo; el diseño y la longitud varían de una cultura a otra y pueden variar dentro de la misma cultura dependiendo de la época. Una de las características más comunes de todas las espadas largas es su longitud, que oscila entre treinta y cinco pulgadas y cuarenta y siete pulgadas. En este último caso, se sabe que la hoja ocupa cuarenta pulgadas de la longitud total. La mayoría de las espadas largas tienen una hoja de doble filo y una punta afilada en la punta. A pesar de la punta, la espada larga está diseñada para acuchillar, no para clavar..
+
+ESTADÍSTICAS:
+
+Daño: 1d8 (cortante)
+Factor de velocidad: 4
+Tipo de competencia: Espada Larga
+Tipo: Espada larga A una mano
+Requiere
+ 6 Fuerza
+
+Peso: 4~
+
+//#4421 BGII
+@80043 = ~Esta hoja arde con un fuego mágico, y se libera una ráfaga carbonizante cada vez que se acierta un golpe. En la empuñadura está grabado "Meta Infernum", aunque parece algo descolorido y puede que no sea original de la espada.
+
+ESTADÍSTICAS:
+
+THAC0: +1
+Daño: 1d8+1, +1 daño de fuego
+Tipo de daño: Cuchillada
+Factor de velocidad: 4
+Tipo de competencia: Espada larga
+Tipo: Espada larga A una mano
+Requiere
+ 6 Fuerza
+
+Peso: 4
+~
+//#6742 BGII igual que @80042
+
+
+//@80046 = sólo necesario para BGT+Tutu
+
+//#4421 BGII same as @80043
+//@80047 = sólo es necesario para BGT+Tutu
+
+//#39444 BGII
+@80053 = ~Un herrero enano, Filo de Plata, forjó este martillo y otros dos objetos: un cinturón de fuerza de gigante de escarcha y un par de guanteletes de poder ogro. Su intención era regalárselos a su hijo, que por aquel entonces era un alto oficial de los ejércitos enanos que luchaba contra las tribus de gigantes y ogros de la zona. Por desgracia, el hijo de Silverblade murió justo después de terminar los tres objetos y antes de que pudieran regalárselos. Afligido, Silverblade se puso la faja y los guanteletes. Tomó el Martillo de los Rayos y se lanzó a la batalla contra los gigantes. Murió valientemente.
+
+Por sí solo, el Martillo de los Rayos es una poderosa arma mágica, pero cuando se fusiona con los guanteletes de poder ogro y el cinturón de fuerza gigante de escarcha, el martillo se transforma. Esta transformación requiere asistencia mágica. El Martillo de los Truenos puede infligir +8 de daño adicional y matar instantáneamente a cualquier gigante u ogro que golpee.
+
+ESTADÍSTICAS:
+
+THAC0: +3
+Daño 2d4+3 (aplastante)
+Factor de velocidad: 1
+Tipo de competencia: Martillo de Guerra
+Tipo: Martillo de guerra A una mano
+Requiere
+ 18 Fuerza
+
+Peso: 4
+~
+//#39548 BGII
+@80057 = ~Bendecida originalmente por Shar, esta armadura tiene una larga e interesante historia. Sólo los mejores ladrones han poseído alguna vez esta armadura fuertemente encantada. La esencia de la noche se ha entretejido en esta armadura oscura, de modo que parece una armadura normal, pero envuelve al portador en una masa de sombras retorcidas.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Esconderse en las sombras: +20%
+
+Clase de Armadura: 3 (5 vs. perforante y proyectil)
+Requiere
+ 3 Fuerza
+
+Peso: 5
+~
+//#66422 BGII
+@80059 = ~Esta armadura fue creada para Enkidu, un famoso guerrero de Kara-Tur. Aunque nadie se atrevía a desafiarle en un combate justo, Enkidu sufría a menudo los cobardes ataques furtivos de asesinos, ninjas y Wu-Jen.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia mágica: +5%
+- Inmunidad al apuñalamiento 
+
+Clase de Armadura: -2 (-6 vs. cortante, -5 vs. perforante y proyectil)
+Requiere:
+ 15 Fuerza
+
+Peso: 45
+~
+
+// is @32 in "setup-AC_QUEST.tra".
+@100032   = ~Arco largo élfico de Aphriel
+
+A una edad temprana, la elfa Aphriel vagaba por los bosques de Faerûn y se convirtió en una de las mejores exploradoras de nuestro tiempo. No había aroma que no pudiera seguir, y ningún criminal estaba a salvo de su arco. Sólo cuando conoció a un mercader local en una visita a la ciudad de Puerta de Baldur y se enamoró apasionadamente de él, sus días en el bosque llegaron a su fin. Su relación fue bendecida con el joven semielfo Perwell, y cuando éste fue secuestrado por bandidos de la Costa de la Espada, Aphriel partió por última vez hacia los bosques. Durante este viaje el arco llegó a manos de <CHARNAME>.
+
+ESTADÍSTICAS:
+
+THAC0: +3
+Daño: +2 (misil)
+Factor de velocidad: 5
+Tipo de competencia: Arco largo
+Tipo: Arco largo A dos manos
+Requiere
+ 6 Fuerza
+
+Peso: 2
+~
+// es @48 en "setup-AC_QUEST.tra".
+@100048 = ~Este escudo está pulido a alto brillo y es obviamente mágico. Los arañazos desaparecen y la sangre y la suciedad simplemente se deslizan por su superficie reflectante. Se puede presumir que incluso puede resistir la mirada de un basilisco.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: +2
+- El portador está protegido contra todo tipo de petrificaciones y formas de ataques de mirada.
+
+Requiere
+ 12 Fuerza
+
+Peso: 7
+~
+// is @58 in "setup-AC_QUEST.tra".
+@100058   = ~Armadura de cuero de farfullero
+
+Uno de los subproductos del trabajo de Geraldo con los farfulleros era una gran producción de cuero. Como el pintor sólo necesitaba la piel para sus colores, buscó un uso diferente para la gruesa piel de los monstruos... y lo encontró. Por desgracia, el cuero de los farfulleros tenía algunos efectos secundarios inesperados, por lo que Geraldo esperó impaciente a que un alma crédula le endilgara su experimento.
+
+Los cronistas suponen que el gran Geraldo se ríe en la manga ante la idea de que algún idiota pueda encontrar realmente útil esta armadura.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia a misiles: +10%
+- El personaje se vuelve azul
+- Carisma: -3
+- Sólo se puede eliminar con un hechizo Quitar maldición
+
+Clase de Armadura 4
+
+Requiere
+ 6 Fuerza
+
+Peso: 7
+~
+// is @86 in "setup-AC_QUEST.tra".
+@100086   = ~El sacerdote de Moradin, Bashrik Martillochispa, era considerado como sabio y veraz y dentro de la comunidad de enanos liberales. Siguió luchando contra la secesión de los enanos de la superficie y, en general, gozaba de una gran reputación. Este martillo, cargado con los rayos de Moradin, fue su mejor arma en la lucha contra el mal.
+
+ESTADÍSTICAS:
+
+THAC0: +2
+Daño: 1d4+3, +1 eléctrico
+Tipo de daño: Aplastante
+Factor de velocidad: 2
+Tipo de competencia: Martillo de guerra
+Tipo: A una mano
+Requiere
+ 9 Fuerza
+
+Peso: 5
+~

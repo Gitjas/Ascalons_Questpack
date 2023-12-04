@@ -1,0 +1,6 @@
+/* This replaces strings from "setup-AC_QUEST.tra" to something without cliffhanger */
+@119  = ~Lugosch y sus hombres han muerto y las minas de Nashkel han sido liberadas de su maldad. ¿Cuál era el plan del culto con respecto a la mina? ¿Los enanos que se han unido al culto no son en realidad más que parias en busca de un nuevo hogar? Son preguntas para las que no hay respuesta porque la pistas que eh seguido terminan aquí. Sean cuales sean los objetivos de las Serpientes de Abbathor, está claro que tu interferencia puso fin a lo que estuvieran planeando para la Costa de la Espada, y probablemente hizo retroceder las actividades del culto durante años, como mínimo. Lo único que te queda por hacer ahora es hablar con Emerson e informarle de que las minas vuelven a estar libres... y asegurarte de que la Gundmagtor no pueda volver a ser utilizado indebidamente.~
+
+@10020 = ~Las serpientes de Abbathor
+
+Esto podría detener el avance de las Serpientes en la zona de Puerta de Baldur, al menos eso espero. Lugosch Camisagris está muerto y no tengo información sobre ningún otro líder del culto.~

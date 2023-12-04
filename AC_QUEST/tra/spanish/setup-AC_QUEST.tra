@@ -1,0 +1,955 @@
+/* @0    = */
+//@1    = ~Ascalon's Questpack~
+//@2    = ~No se ha detectado ninguna instalación BG válida. La instalación de Ascalon's Questpack será abortada.~
+//@3    = ~Enseña a Virginie, la conejita milagrosa invisible, algunos trucos nuevos.~
+//@4    = ~Instalar Virginie, la conejita invisible~
+
+@6    = ~Agnus~
+@7    = ~Agnus el blanco~
+@8    = ~Teliel~
+@9    = ~Teliel Cantantepradera~ //fand ich als Nachnahmen schöner
+@10   = ~Udolf~
+@11   = ~Udolf Raukner~
+@12   = ~Señora Brunnstein~
+@13   = ~Aaron~
+@14   = ~Aaron Brunnstein~
+@15   = ~Fantasma~
+@16   = ~Barin~
+@17   = ~Explorador Barin~
+@18   = ~Cacique gnoll~
+@19   = ~Guardaespaldas Gnoll~
+@20   = ~Anillo de protección de Aarón~
+@21   = ~Anillo de protección de Aarón
+
+Este sencillo anillo está provisto de un tenue hechizo para proteger a su portador. El grabado interior dice: "Con amor para M., de A."
+
+ESTADÍSTICAS:
+
+Clase de Armadura: +1 bonus
+Tiradas de salvación: +1 bonus
+
+Peso: 0~
+
+@22   = ~Kessy~
+@23   = ~Ugh~
+@24   = ~Conejo~
+@25   = ~Criador de conejos~
+@26   = ~Conejo~
+@27   = ~Un conejito blanco. Tal vez el más esponjoso que hayas visto.~
+
+
+
+
+
+@28   = ~Un conejito blanco. No es tan esponjoso como Jumper, pero ¿qué conejo podría serlo?~
+
+
+
+
+
+@29   = ~Perwell~
+@30   = ~Este es el cuerpo de Perwell.
+
+ESTADÍSTICAS:
+
+Peso: 110~
+
+@31   = ~Arco largo élfico~
+@32   = ~Arco largo élfico de Aphriel
+
+A una edad temprana, la elfa Aphriel vagaba por los bosques de Faerûn y se convirtió en una de las mejores exploradoras de nuestro tiempo. No había aroma que no pudiera seguir, y ningún criminal estaba a salvo de su arco. Sólo cuando conoció a un mercader local en una visita a la ciudad de Puerta de Baldur y se enamoró apasionadamente de él, sus días en el bosque llegaron a su fin. Su relación fue bendecida con el joven semielfo Perwell, y cuando éste fue secuestrado por bandidos de la Costa de la Espada, Aphriel partió por última vez hacia los bosques. Durante este viaje el arco llegó a manos de <CHARNAME>..
+
+ESTADÍSTICAS:
+
+Daño: +2 bonus (misil)
+THAC0: +3 bonus
+Peso: 2
+Factor de velocidad 5
+Tipo de competencia: Arco Largo
+Tipo: Arco largo 2 manos
+Requiere 6 Fuerza
+
+No utilizable por:
+- Ladrón
+- Druida
+- Clérigo
+- Mago
+- Monje~
+@33   = ~Aphriel~
+@34   = ~Aiwell~
+@35   = ~Hombre lobo~
+@36   = ~Tonder~
+@37   = ~Cuerpo de Tonder~
+@38   = ~Tras la muerte, el hombre lobo vuelve a convertirse en humano.
+
+ESTADÍSTICAS:
+
+Peso: 105
+~
+@39   = ~Bayas de Guril~
+@40   = ~Las bayas de Guril son remedios tradicionales en Faerûn, y se utilizan para diversas aplicaciones. Son especialmente populares para aliviar ciertas enfermedades  de tipo "especial", razón por la cual estas bayas son ofrecidas a menudo por las tiendas de cercanas a las cortesanas.~
+@41   = ~La sangre de Aiwell~
+@42   = ~Aiwell te ha dado una gran parte de su sangre para salvar a su marido Tonder.~
+@43   = ~Poción contra la Licantrofia~
+@44   = ~Esta poción contiene principalmente flores de belladona.~
+@45   = ~Esta poción contiene principalmente bayas de Guril.~
+@46   = ~Esta poción contiene principalmente la sangre de Aiwell.~
+@47   = ~Escudo Espejo +1~
+@48   = ~Este escudo está pulido a alto brillo y es obviamente mágico. Los arañazos desaparecen y la sangre y la suciedad simplemente resbalan por su superficie reflectante. Cabe suponer que incluso puede resistir la mirada de un basilisco.
+
+ESTADÍSTICAS:
+
+El portador está protegido contra todos los tipos de petrificación y formas de ataques de mirada.
+
+Clase de Armadura: +2 bonus
+Peso: 7
+Requiere 12 Fuerza
+
+No utilizable por:
+- Bardo
+- Ladrón
+- Druida
+- Mago
+- Monje~
+@49   = ~Libro de hechizos de Karlini~
+@50   = ~En este libro el gran Karlini, una de las figuras más pintorescas de la sabiduría gnómica, escribió sus experiencias y hechizos. La letra es confusa y garabateada, probablemente sólo alguien que esté tan loco como Karlini podría descifrar este garabato.~
+@51   = ~Ygnatz~
+@52   = ~Ygnatius Bombastus~
+@53   = ~Karlini~
+@54   = ~Llave de Geraldo~
+@55   = ~La llave abre la puerta de la casa de Geraldo en el centro de la Puerta de Baldur.~
+@56   = ~Pelaje de farfullero~
+@57   = ~Este es el pelaje de un farfullero mutante.~
+@58   = ~Armadura de cuero farfullero
+
+Uno de los subproductos del trabajo de Geraldo con los farfa era una gran producción de cuero. Como el pintor sólo necesitaba la piel para sus colores, buscó un uso diferente para la gruesa piel de los monstruos... y lo encontró. Por desgracia, el cuero de los farfulleros tenía algunos efectos secundarios inesperados, por lo que Geraldo esperó impaciente a que algún alma crédula le endilgara su experimento.
+
+Los cronistas dan por hecho que el gran Geraldo se ríe en la manga ante la idea de que algún idiota encuentre esta armadura realmente útil.
+
+ESTADÍSTICAS:
+
+El personaje se vuelve azul.
+
+Sólo puede eliminarse con un hechizo "Eliminar maldición".
+
+Clase de Armadura: 4
+Carisma: -3
+Resistencia vs. armas de proyectil: +10%
+Peso: 7
+Requiere 6 Fuerza
+
+No utilizable por:
+- Mago
+- Monje~
+@59   = ~Elminster, el pájaro~
+@60   = ~Elminster es el pájaro domesticado de Geraldo, aunque ni siquiera él conoce la especie exacta. El pájaro tiene una mirada sabia y una aversión excepcional a los farfulleros. En cuanto detecta uno, grita un sonoro "Kiwitt".
+
+Sin el pájaro, sería casi imposible localizar a los farfulleros en los sótanos y alcantarillas, así que cuídalo bien.~
+@61   = ~Geraldo~
+@62   = ~El magnifico Geraldo~
+@63   = ~Mandy~
+@64   = ~Ashley~
+@65   = ~Cindy~
+@66   = ~Llave~
+@67   = ~Una pequeña llave, abriendo algún tipo de panel en la pared.~
+@68   = ~Llave del almacén~
+@69   = ~Esta llave abre un almacén en el distrito sur de la ciudad. Las Serpientes de Abbathor tienen allí su escondite.~
+@70   = ~Carta~
+@71   = ~Mulahey,
+
+Hemos observado sus esfuerzos durante bastante tiempo y estamos muy impresionados. Una colaboración entre ustedes y nuestra organización resultaría rentable a largo plazo. Si quieres ponerte en contacto con nosotros, reúnete con nuestro contacto Tarash Castonegro en Beregost por la noche. Te espera en el pilar de piedra del centro de la ciudad.
+
+Para Dios, toda la gloria y todas las joyas para la Serpiente!~
+@72   = ~Tarash,
+
+Ya es oficial. ¡Bashrik Martillochispa ha viajado a la Costa de la Espada! Ese maldito Bienhechor nos arruinará a todos. Según nuestra información, él y esta perra elfa viajan desde la Puerta de Baldur hacia el sur... ¡cuando llegue a la encrucijada del Camino del León, le daremos una sorpresa como es debido!
+
+¡Para Dios, toda la gloria y todas las joyas para la Serpiente!~
+@73   = ~Pamphlet~
+@74   = ~Enanos del alto mundo!
+
+Sabemos cómo te sientes. Los de orejas largas no hacen más que tratar de tirarse los pelos de la barba, los de orejas puntiagudas se ríen de ti y los duergar te han dado la espalda!
+
+Pero no estáis solos. El Padre Abbathor cuida de sus hijos. Incluso después de que Moradin apague tu antorcha. ¿Quieres pertenecer a la familia de Abbathor? ¡Entonces ve a Bajosótano y pregunta por Draglon!
+
+¡Para Dios toda la gloria y todas las joyas para la Serpiente!~ //"steal you blind" als Idiom kenne ich nicht
+@75   = ~Notas~
+@76   = ~Este manojo de páginas sueltas envueltas parece resumir en gran medida el planteamiento de las Serpientes de Abbathor. Al parecer, su plan desde el principio era capturar un antiguo artefacto enano, llamado Gundmagtor, que en lenguaje común significa algo así como "Llamador de Almas Negras". El golpe principal del culto parece centrarse en Nashkel, y la nota dice "<CHARNAME> ha matado a Mulahey, las minas están libres" es un mal presagio.~
+@77   = ~Este <PRO_RACE> llamado <CHARNAME> ,que trabaja para Wostok se está haciendo camino aquí. Lleva a alguien de los Furiosos y a un Heraldo. El Heraldo cogerá el Gundmagtor y nos lo traerá mientras vosotros dos esperáis a <CHARNAME> y acabáis con su vida. Luego venid a nosotros para que podamos discutir los siguientes pasos.
+
+L~
+@78   = ~Lugosch, siervo fiel!
+
+Agradecemos tu esfuerzo por poner la mina de hierro de Nashkel bajo tu control. Sin embargo, tenemos otra preocupación: vigilar a <CHARNAME> desde Candelero. La orden viene de las más bajas profundidades y ya sabes lo que eso significa.
+
+Para Dios toda la gloria y todas las joyas a la Serpiente!~
+@79   = ~Diario de Lugosch~
+@80   = ~Lugosch Camisagris ha escrito su viaje desde el rango pequeño cultista a sacerdote de Abbathor con pulcra caligrafía. Cada línea está llena de confianza y arrogancia. Describe cómo el culto echó raíces en Amn y él mismo fue contratado como esbirro de la familia Lurraxol en Caravasar. El culto creció y pronto emigró a ciudades más grandes, pero los Ladrones de las Sombras de Athkatla lo mantuvieron a raya. Lugosch, que había ascendido al sacerdocio, fue llamado por los líderes del culto para descender hacia el norte y continuar su trabajo en la Puerta de Baldur.
+
+Las últimas entradas del libro tratan de los esfuerzos por entrar en contacto con Mulahey en las minas de Nashkel, describen la grosera negativa dada por el semiorco a los enanos y su malicioso regocijo cuando <CHARNAME> liberó la mina. Lugosch vio su oportunidad y dirigió un rápido golpe para incorporar una mina de hierro que funcionara sin problemas para el culto.~
+@81   = ~Notas de Emerson~
+@82   = ~Emerson, el capataz de las minas de Nashkel, ha plasmado sus cálculos y su experiencia en este revoltijo de papeles. Para alguien que trabaja en la industria minera, este revoltijo de información es sin duda una mina de oro. Para ti, sin embargo, las notas son inútiles.~
+@83   = ~Diario~
+@84   = ~Este libro parece muy viejo y ha sufrido mucho. Algunas páginas están rotas y otras agujereadas, otras chamuscadas y gran parte del libro está manchado de sangre. Aunque no se pueda descifrar el nombre del sacerdote, parece que el viejo vagabundo ha pasado por muchas cosas: viajes con un grupo de aventureros, ciertos conflictos sobre la "verdadera" existencia enana y, finalmente, el destierro de su clan. Al enano, para quien su familia estaba por encima de todo, esta pérdida le hizo perder primero la cabeza y luego le llevó directamente a los brazos de las Serpientes.~
+@85   = ~Martillo de Bashrik +2~
+@86   = ~El sacerdote de Moradin, Bashrik Martillochispa, estaba considerado como sabio y veraz y dentro de la comunidad de enanos liberales. Siguió luchando contra la secesión de los enanos de la superficie y, en general, gozaba de una gran reputación. Este martillo, cargado con los rayos de Moradin, fue su mejor arma en la lucha contra el mal.
+
+ESTADÍSTICAS:
+
+Habilidades de combate: +1 daño de electricidad
+THAC0: +2 bonificación
+Daño 1D4 + 3
+Tipo de daño: aplastante
+Peso: 5
+Factor de velocidad: 2
+Tipo de competencia: Martillo de guerra
+Tipo: Martillo de guerra 1 mano
+Requiere 9 Fuerza
+No utilizable por:
+ Druida
+ Mago
+ Ladrón~
+@87   = ~Diario de Bashrik~
+@88   = ~El libro está escrito con pulcra caligrafía e informa del último viaje de Bashrik Martillochispa. Bashrik iba tras una secta que se hace llamar "Las Serpientes de Abbathor". Para ellos, Abbathor, el único dios maligno entre los Morndinsamman(término enano que significa "hermanos del escudo en las alturas" o "enanos de las alturas"), es considerado el libertador y santo patrón de la humanidad enana de la superficie.
+
+No se puede aprender mucho más del libro porque, al parecer, las notas de Bashrik se escribieron principalmente para los iniciados. Sólo la última entrada podría ofrecer una pista, en caso de que quieras investigar el asunto:
+
+Hoy partí Wostok. Mirjala y yo probaremos suerte en el sur, Wostok echará un vistazo en la gran ciudad. Nos encontraremos de nuevo en el templo de Helm cuando tenga más información.
+
+Apéndice: Tras acabar con el asesino que nos esperaba en la posada del Meson del Brazo Amigo he aprendido un nombre, al menos. Un tal Draglon aparece en el Bajosotano para solucionar los asuntos del culto. Bueno, retrasaré eso hasta mi regreso.'
+
+(Si quieres investigar la secta y de qué va, te será de provecho quedarte con este libro.)~
+@89   = ~Artefacto~
+@90   = ~Artefacto enano~
+@91   = ~Lo que este artefacto hace exactamente es desconocido para ti. Las Serpientes de Abbathor lo quieren, eso es probablemente suficiente información.~
+@92   = ~Gundmagtor~
+@93   = ~La historia de este artefacto yace en la oscuridad. Por lo que puedes conjeturar a partir de los pocos retazos que has aprendido hasta ahora, y si has interpretado correctamente las pocas runas enanas antiguas que cubren el artefacto, este artefacto te permite de alguna manera contactar con los antepasados de los enanos y redirigir su energía hacia seres sombríos.
+
+Por lo que sabes de los viejos enanos, un acto así es el mayor sacrilegio del que un enano puede ser capaz. La paz de los muertos es sagrada y sólo almas muy corrompidas se atreverían a romperla.~
+@94   = ~Tarash~
+@95   = ~Asesino~
+@96   = ~Bashrik~
+@97   = ~Mirjala~
+@98   = ~Draglon~
+@99   = ~Enano~
+@100  = ~Cultista~
+@101  = ~Fanatico de Abbathor~
+@102  = ~Clerigo de Abbathor~
+@103  = ~Lugosch~
+@104  = ~Galder~
+@105  = ~Therk~
+@106  = ~Jarger~
+@107  = ~Jarger Goldbart~
+@108  = ~Wostok~
+@109  = ~Wostok Cabezamartillo~
+@110  = ~Jassir~
+@111  = ~Jenna~
+@112  = ~Sombra~
+@113  = ~Sacerdote loco de Dumathoin~
+@114  = ~Larn~
+@115  = ~Bob~
+@116  = ~Ron~
+@117  = ~Hank~
+@118  = ~Las serpientes de Abbathor~
+@119  = ~Lugosch y sus hombres han muerto y las Minas de Nashkel han sido liberadas de su maldad. Sin embargo, esta victoria ha suscitado más preguntas que respuestas. ¿Los enanos que se han unido al culto no son en realidad más que parias en busca de un nuevo hogar? Si es así, ¿por qué los hombres de las Serpientes piden con tanta firmeza y vehemencia tu muerte? Son preguntas para las que no hay respuesta porque la pista que has seguido termina aquí. Lo único que te queda por hacer ahora es hablar con Emerson e informarle de que las minas vuelven a estar libres... y esperar que todo se solucione en algún momento.~
+@120  = ~Jasr~
+@121  = ~Jas~
+@122  = ~Jen~
+@123  = ~Emmi Wiesner~
+@124  = ~Bunger~
+
+/* new for v5.0 */
+@1000 = ~Armadura de farfullero de cuero~
+@1001 = ~Cuerpo de Wostok~
+@1002 = ~Este es el Cuerpo de Wostok, el guerrero enano y sacerdote al que ayudaste contra las Serpientes de Abbathor. El sacerdote de Helm en la Puerta de Baldur seguramente te lo quitará.
+
+ESTADÍSTICAS:
+
+Peso: 105~
+@1003 = ~Barra de oro de Baldar~
+@1004 = ~Martillo de Wostok +3~
+@1005 = ~Tanto guerrero como sacerdote de Moradin, Wostok Cabezamartillo era conocido por su valentía y su lucha desinteresada contra los enanos corruptos de la superficie que adoraban al malvado dios Abbathor. Esta arma se perdió a manos de las Serpientes de Abbathor cuando Wostok cayó contra ellas mientras luchaba para liberar las minas de Nashkel de su ocupación, pero fue asegurada y purificada por su clan para servir a la causa justa contra el mal una vez más.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Otorga un efecto de Bendición al portador.
+
+THAC0: +3 bonus
+Daño: 2D4 + 3, + 2 daño a criaturas de alineamiento maligno
+Tipo de daño: aplastante
+Peso: 4
+Factor de velocidad: 1
+Tipo de competencia: Martillo de Guerra
+Tipo: Martillo de guerra 1 mano
+Requiere 9 Fuerza
+No utilizable por:
+ Alineamientos malignos
+ Druida
+ Mago
+ Ladrón~
+@1006 = ~Gorgar Blaurock~
+@1007 = ~Emisario Zhentarim~
+@1008 = ~Guerrero y sacerdote de Moradin, Wostok Cabezamartillo era conocido por su valentía y su lucha desinteresada contra los enanos de la superficie corruptos que adoraban al malvado dios Abbathor. Esta arma se perdió a manos de las Serpientes de Abbathor cuando Wostok cayó contra ellas mientras luchaba para liberar las minas de Nashkel de su ocupación, pero fue asegurada y purificada por su clan para servir a la causa justa contra el mal una vez más.
+El maestro herrero Cromwell mejoró el arma para que siempre volviera a la mano de su portador si era arrojada.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Otorga un efecto de Bendición al portador.
+Habilidades de combate: Devuelve al lanzador
+THAC0: +3 bonus
+Daño: 2D4 + 3, + 2 de daño a criaturas de alineamiento maligno
+Tipo de daño (cuerpo a cuerpo): aplastante
+Tipo de daño (lanzado): misil
+Peso: 4
+Factor de velocidad: 1
+Tipo de competencia: Martillo de guerra
+Tipo: Martillo de guerra 1 mano
+Requiere 9 Fuerza
+No utilizable por:
+ Alineamientos malignos
+ Druida
+ Mago
+ Ladrón~
+@1009 = ~Guerrero y sacerdote de Moradin, Wostok Cabezamartillo era conocido por su valentía y su lucha desinteresada contra los enanos de la superficie corruptos que adoraban al malvado dios Abbathor. Esta arma se perdió a manos de las Serpientes de Abbathor cuando Wostok cayó contra ellas mientras luchaba para liberar las minas de Nashkel de su ocupación, pero fue asegurada y purificada por su clan para servir a la causa justa contra el mal una vez más.
+El maestro herrero Cromwell mejoró el arma para que siempre volviera a la mano de su portador si era arrojada. Cespenar mejoró el arma para que cause más daño.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Otorga un efecto de Bendición al portador.
+Habilidades de combate: Devuelve al lanzador
+THAC0: +4 bonus
+Daño: 2D4 + 4, + 2 de daño a criaturas de alineamiento maligno
+Tipo de daño (cuerpo a cuerpo): aplastante
+Tipo de daño (lanzado): misil
+Peso: 4
+Factor de velocidad: 1
+Tipo de competencia: Martillo de guerra
+Tipo: Martillo de guerra 1 mano
+Requiere 9 Fuerza
+No utilizable por:
+ Alineamientos malignos
+ Druida
+ Mago
+ Ladrón~
+@1010 = ~Martillo de Wostok +4~
+@1011 = ~Martillo de Wostok +5~
+@1012 = ~Guerrero y sacerdote de Moradin, Wostok Cabezamartillo era conocido por su valentía y su lucha desinteresada contra los enanos de la superficie corruptos que adoraban al malvado dios Abbathor. Esta arma se perdió a manos de las Serpientes de Abbathor cuando Wostok cayó contra ellas mientras luchaba para liberar las minas de Nashkel de su ocupación, pero fue asegurada y purificada por su clan para servir a la causa justa contra el mal una vez más.
+Cespenar mejoró el arma para que hiciera más daño.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas: Otorga un efecto de Bendición al portador.
+THAC0: +5 bonus
+Daño: 2D4 + 5, + 2 daño a criaturas de alineamiento maligno
+Tipo de daño: aplastante
+Peso: 4
+Factor de velocidad: 1
+Tipo de competencia: Martillo de Guerra
+Tipo: Martillo de guerra 1 mano
+Requiere 9 Fuerza
+No utilizable por:
+ Alineamientos malignos
+ Druida
+ Mago
+ Ladrón~
+
+
+
+@5000 = ~¡Hola! ¡Unas palabras, por favor!~
+@5001 = ~¡Ayuda! ¡Necesito ayuda!~
+@5002 = ~¡Por los dioses, ayúdame!~
+@5003 = ~¿¡Por qué no me ayuda nadie!?~
+@5004 = ~Uuuuuuuuaaaaaahahahahahahaaaaaaaah!~
+@5005 = ~Juuuuumpeeeeer! Uuuuaaaaahahaaaaaaaah!~
+@5006 = ~Uuuuaaaaaaaaaaaah!~
+@5007 = ~¡Fuera de aquí!~
+@5008 = ~¡Sé que estás en tu casa!~
+@5009 = ~¡Pedazo de asqueroso!~ //Fucking bastard war mir etwas zu heftig
+@5010 = ~Y eso es todo.Me disculpas ahora, tengo cosas que hacer.~
+@5011 = ~¡Una emboscada!~
+@5012 = ~Banda de ignorantes...~
+@5013 = ~... gentuza incompetente...~
+@5014 = ~Y se llaman a sí mismos aventureros...~
+@5015 = ~Birrabollos ko valla allamatillo!~
+@5016 = ~¿Qué...~
+@5017 = ~Mum!~
+@5018 = ~¡Hola!¡Aventureros!~
+@5019 = ~¡Venid aquí!~
+@5020 = ~¡Necesito hablar contigo!~
+@5021 = ~KIWITT!~
+@6000 = ~¡No me dejes de esta manera!~
+
+@6001 = ~Entrada a la mina~ /* new for v2.01 - AC4400.bcs */
+@6002 = ~Cabina~ /* new for v2.01 - AC4400.bcs */
+
+@10001 = ~Ruffianes de Raukner los del CuelloAspero
+
+He desbastado a un grupo de aventureros militantes en Beregost.~
+@10002 = ~Ruffianes de Raukner los del CuelloAspero
+
+Por desgracia, no pude ayudar al grupo en Beregost.~
+@10003 = ~Ruffianes de Raukner's del CuelloAspero
+
+Pude resolver el problema del grupo de aventureros.~
+@10004 = ~La búsqueda de Jumper
+
+Y he aquí que mis compañeros y yo partimos en busca del conejito más esponjoso de Faerûn, cuyo nombre es Jumper. Hacia el oeste debemos viajar como nos dijo la niña, y quién sabe qué peligros nos esperan en nuestro viaje.
+
+Qué no haría uno por mil millones de piezas de oro. Estoy hecho para la vida de un aventurero.~
+@10005 = ~Un nuevo mejor amigo para Ugh
+
+El ogro Ugh ha devuelto a Jumper para que pudiéramos hacer feliz a la niña Kessy. Ahora me toca a mí cumplir mi promesa y encontrar un conejo sustituto -Kessy ha mencionado a su padre en el Carnaval de Nashkel.~
+@10006 = ~La búsqueda de Jumper
+
+Pudimos devolverle a Kessy su conejo favorito. Ahora recuerdo por qué me gusta ser un aventurero.~
+@10007 = ~Un nuevo mejor amigo para Ugh
+
+Ugh marcha hacia el gran mundo con su conejo Peque-pequeño-Ugh. Un noble esfuerzo, en mi opinión no hay suficientes tipos grandes con roedores en el mundo.~
+@10008 = ~La Sra. Brunnstein de Nashkel echa de menos a su hijo perdido
+
+Acepté buscar a Aaron Brunnstein. El muchacho se fue de excursión a la montaña con su prometida y nunca se le volvió a ver. Tal vez el explorador Barin en el templo en Nashkel nos puede ayudar.~
+@10009 = ~¿Un fantasma en los Picos de las Nubes?
+
+Algunos agricultores afirman haber visto una extraña figura por la noche junto a la cascada.~
+@10010 = ~La búsqueda de Perwell
+
+No pude encontrar a Perwell en las minas... Espero que se las halla arreglado para salir con los otros esclavos antes de que el agua rompiera.~
+@10011 = ~¿Las Serpientes de Abbathor en Nashkel?
+
+En el cuartel general de las Serpientes me he enterado de malas noticias: Su plan inicial era, al parecer, capturar un antiguo artefacto enano llamado Gundmagtor, que traducido al lenguaje común significa algo así como "Llamador de las almas negras". El golpe principal del culto parece centrarse en Nashkel.~
+@10012 = ~Las serpientes de Abbathor en Nashkel - Lugosch
+
+Lugosch, el líder de las Serpientes de Abbathor de la Puerta de Baldur, se encuentra en las Minas de Nashkel. Esta vez no tendrá escapatoria.~
+@10013 = ~Las Serpientes de Abbathor en Nashkel - Enanos Sombríos
+
+Aparentemente hemos aprendido cuál es el uso del Gundmagtor. Llama a una especie de guerreros de las sombras que están bajo el dominio del usuario. Debo dominar o destruir este dispositivo.~
+@10014 = ~Las serpientes de Abbathors en Nashkel - Mineros desaparecidos
+
+Parece que todavía hay algunos mineros en el pozo.~
+@10015 = ~Las serpientes de Abbathor en Nashkel - Monstruos
+
+Las Serpientes parecen haber traído un par de monstruos gigantes a la mina. Eso seguramente afectaría a la minería.~
+@10016 = ~Las serpientes de Abbathor en Nashkel - Notas de Emerson
+
+Emerson ha perdido sus notas desde el ataque de las Serpientes de Abbathor.~
+@10017 = ~Las serpientes de Abbathor en Nashkel - Monstruos
+
+He matado a las moles sombrias que las Serpientes han traído a la mina.~
+@10018 = ~Las serpientes de Abbathor en Nashkel - Notas de Emerson
+
+Pude encontrar las notas de Emerson. Sin duda estará encantado de recuperarlos.~
+@10019 = ~Las serpientes de Abbathor en Nashkel - Mineros desaparecidos
+
+Pude rescatar a los mineros desaparecidos de las garras de un clérigo loco. Emerson seguramente se alegrará de la noticia.~
+@10020 = ~Las serpientes de Abbathor
+
+Podría detener el avance de las Serpientes en la zona de la Puerta de Baldur, al menos eso espero. Lugosch Camisagris está muerto y no tengo información sobre ningún otro líder de la secta. Pero no puedo decir por qué mi propio nombre fue mencionado tan explícitamente. Tal vez algún día descubra este secreto - si me gusta la respuesta no lo sé.~
+@10021 = ~Un enano muerto y un mensaje
+
+En las minas exactamente en la base cueva de Mulahey encontré a un enano muerto que tenía un mensaje para Mulahey - aparentemente "el receptor del mensaje" no estaba particularmente interesado en lo que el mensajero tenía que decir. El mensaje habla de una reunión en Beregost. Tal vez debería ir a investigar este asunto.~
+@10022 = ~Un misterioso enano en Beregost
+
+Tarash Casconegro era extremadamente desconfiado y agresivo: tuve que matarlo. Entre sus pertenencias había una carta que señalaba que habría un asesinato al norte de la ciudad...~
+@10023 = ~Un misterioso enano en Beregost
+
+Tarash Casconegro habló de las "Serpientes de Abbathor", sean quienes sean. Y dijo que algo va a suceder al norte de Beregost... Debería vigilar la Encrucijada.~
+@10024 = ~El hijo perdido
+
+Hemos informado a la Señora Brunnstein que su hijo ha muerto.~
+@10025 = ~El hijo perdido
+
+Encontré a Aaron en la Fortaleza Gnoll. Él nos espera en el otro lado del puente.~
+@10026 = ~Un fantasma en los Picos Nublados
+
+Aaron nos dio la solución. Marina había prometido no irse a dormir antes de recibir su anillo de compromiso. Debería llevarle el anillo.~
+@10027 = ~Un fantasma en los Picos Nublados
+
+Parece que todo se ha resuelto. Marina ha recibido el anillo y por fin puede descansar en paz.~
+@10028 = ~La búsqueda de Perwell
+
+La elfa Aphriel busca a su hijo Perwell en el Bosque de las Capas. Los Bandidos lo han secuestrado y aparentemente se lo llevaron a un lugar secreto.~
+@10029 = ~La búsqueda de Perwell
+
+De hecho he encontrado a Perwell en la mina y lo he enviado fuera. Por otro lado, seguro que podría haberlo traido conmigo por el bosque... pero por otro lado Aphriel podría pagarme un buen rescate por el pequeño...~
+@10030 = ~La búsqueda de Perwell
+
+De hecho he encontrado a Perwell en la mina y lo he enviado fuera. No tengo tiempo para perder en temas relacionado con niños.~ //"struggle klang so, als wolle der PC mit ihm kämpfen
+@10031 = ~La búsqueda de Perwell
+
+Ahora Aphriel está buscando a su hijo ella misma. Al menos lo salvé de la mina.~
+@10032 = ~La búsqueda de Perwell
+
+Aphriel y su hijo están felizmente reunidos.~
+/* rephrased for v4.0 */
+@10033 = ~De lobos y de hombres
+
+El marido de la maga Aiwell parece haber sido infectado con Licantropía. Probablemente tenga dos opciones para resolver el problema: o con una poción que pueda conseguir de Thalantyr, o la solución de la espada a la vieja usanza.
+
+Su casa es la cabaña justo al lado de la morada de Thalantyr.~
+@10034 = ~De lobos y de hombres
+
+Thalantyr ha enumerado varias maneras. Puede mezclar la poción con sangre de Aiwell, lo que es muy cuestionable. O puede usar bayas de Guril que no siempre funcionan. Lo mejor sería un elixir de belladona. También nos dijo que sólo será capaz de elaborar una de las pociones.
+
+También podría llevarle el cadáver de Tonder para que entienda mejor la enfermedad del hombre lobo.~
+@10035 = ~De lobos y de hombres
+
+Thalantyr ha comprado el cadáver de Tonder a cambio de una Espada Flamígera. Tampoco está mal.~
+@10036 = ~De lobos y de hombres
+
+Aiwell y Tonder se alegraron de que el fuera liberado de su maldición.~
+
+/* new for v2.05 */
+@10037 = ~De lobos y de hombres
+
+Una mujer gritaba delante de la morada de Thalantyr, pero no estoy seguro de a qué se refería. ¿Quizá tenía algo que ver con el hombre lobo que maté dentro de la casa cercana?~
+
+@10038 = ~De lobos y de hombres
+
+Me decidí por la poción curativa de bayas de Guril. Ahora sólo queda dársela al hombre lobo de alguna manera.~
+
+@10039 = ~De lobos y de hombres
+
+Me decidí por la poción curativa de la sangre de Aiwell. Ahora sólo queda dársela al hombre lobo de alguna manera.~
+
+@10040 = ~De lobos y de hombres
+
+Me decidí por la poción curativa de belladona. Ahora sólo queda dársela al hombre lobo de alguna manera.~
+
+@10041 = ~De lobos y de hombres
+
+Dang, la poción curativa no funcionó, y tuve que matar al hombre lobo. Supongo que debo decirle a Aiwell la triste noticia...~
+
+@10042 = ~De lobos y de hombres
+
+Aiwell se puso muy triste cuando se enteró de la muerte de su marido. Se marchó sin dejar rastro...~
+
+@10043 = ~De lobos y de hombres
+
+Qué día tan infructuoso. Aiwell perdió a su marido, el marido está... bueno, muerto, Thalantyr no consiguió un cadáver de hombre lobo para su investigación, y yo no obtuve una recompensa por mis esfuerzos. La próxima vez, realmente tengo que mirar donde pongo mis trofeos!~
+
+@20001 = ~El culto del ojo que no ve - Bunger Wiesner
+
+La dama mediana Emmi Wiesner nos ha suplicado que busquemos a su hijo, que cayó en las garras del Culto.~ //"to look after" kenne ich als "sich kümmern um"
+@20002 = ~El culto del ojo que no ve - Bunger Wiesner
+
+He encontrado a Bunger y le he convencido para que venga conmigo. Permanecerá callado hasta que haya eliminado el peligro que representa el Culto.~
+@20003 = ~El culto del ojo que no ve - Bunger Wiesner
+
+He encontrado a Bunger y le he convencido para que huya. Sin embargo, el culto ha sido alertado por que.~
+@20004 = ~El culto del ojo que no ve - Bunger Wiesner
+
+He encontrado a Bunger. Por desgracia, no se disculpó y alertó al resto de la secta. Tuve que matarlo.~
+@20005 = ~El culto del ojo que no ve - Bunger Wiesner
+
+En un intento por salvarse, Bunger Wiesner murió bajo la ciudad.~
+@20006 = ~El culto del ojo que no ve - Bunger Wiesner
+
+Bunger Wiesner ha vuelto con su madre. La anciana seguramente querrá agradecernos.~
+@20023 = ~Una misteriosa oferta
+
+Un mensajero me ha traído una invitación de su señor. Aunque mantendrá su nombre en secreto, de alguna manera tiene interés en mí. Si quiero participar en una reunión entonces me reuniré con el mensajero en la Corona de Cobre.~
+
+
+//BG:EE Compatibility
+
+//Strings from Original BG2 for Setup-AC_QUEST.tra
+@80001 = ~¡Que alguien me ayude!~ [PEASF09] //#61667
+@80002 = ~~ [PEASF07] //#61665
+@80003 = ~~ [PEASF08] //#61666
+@80004 = ~Doy gracias a los dioses todos los días por las cosas buenas de mi vida.~ [PEASF02] //##61660
+@80005 = ~Aaahhhh.........Corre!~ [PEASM09] //#61823
+@80006 = ~~ [PEASM07] //#61821
+@80007 = ~~ [PEASM08] //#61822
+@80008 = ~Te cambiaré algunas palabras, seguro.~ [PEASM03] //#61817
+@80009 = ~~ [WWOLF07] //#11393
+@80010 = ~Saludos. Tu poder me impresiona.~ [EPRIM01] //#61614
+@80011 = ~~ [EPRIM06] //#61619
+@80012 = ~~ [EPRIM07] //#61620
+@80013 = ~¡Los dioses no perdonan, idiota!~ [EPRIM04] //#61617
+@80014 = ~¡Inclínate ante los dioses y pide clemencia!~ [EPRIM03] //#61616
+@80015 = ~¿Qué es lo que quiere entre los fieles?~ [EPRIM02] //#61615
+@80016 = ~Se... supone que no debo hablar con extraños.~ [CHILF04] //#61556
+@80017 = ~~ [CHILF06] //#61558
+@80018 = ~Ummm... Hola.~ [CHILF03] //#61555
+@80019 = ~Bueno, ¡pareces del tipo que tiene más de dos piezas de oro!~ [MALMER03] //#38784
+@80020 = ~~ [MALMER06] //#38847
+@80021 = ~~ [MALMER05] //#38786
+@80022 = ~Echa un vistazo a mis productos, confío en que los encuentre en perfecto estado.~ [MALMER02] //#38783
+@80023 = ~No me lastimes!~ [CHILM07] //#61567
+@80024 = ~~ [CHILM05] //#61565
+@80025 = ~~ [CHILM06] //#61566
+@80026 = ~¡Vaya! ¡Un aventurero!~ [CHILM03] //#61563
+@80027 = ~¡No eres de por aquí! ¡Lo sé!~ [CHILM02] //#61562
+@80028 = ~Bueno, desde luego no me gusta tu aspecto.~ [PEASF306] //#61683
+@80029 = ~~ [PEASF307] //#61684
+@80030 = ~~ [PEASF308] //#61685
+@80031 = ~Habla.~ [ACFEM4H] //#16255
+@80032 = ~Mmmmmm, Si?~ [GNOMEM03] //#61703
+@80033 = ~~ [GNOMEM06] //#61706
+@80034 = ~~ [GNOMEM07] //#61707
+@80035 = ~Balor~ //#8449
+@80036 = ~No suelo hablar con gente como tú, pero hola.~ [NOBFE03] //#61643
+@80037 = ~~ [NOBFE07] //#61647
+@80038 = ~~ [NOBFE08] //#61648
+//@80039 = ~Cuero de orco +3~ //#6365
+@80040 = ~farfullero Mutado~ //#2286
+@80041 = ~Esqueleto Arquero~ //#73272
+
+//@80042 = /* description for EE */
+//@80043 = /* description for EE */
+@80044 = ~Espada Larga~ //#2893
+@80045 = ~Espada en llamas +1~ //#4422
+@80046 = ~Estas espadas suelen denominarse espadas de doble filo, espadas de guerra o espadas militares. En muchos casos, el sable largo tiene una hoja de un solo filo. No existe una única versión del sable largo; el diseño y la longitud varían de una cultura a otra, y pueden variar dentro de la misma cultura dependiendo de la época. Una de las características más comunes de todas las espadas largas es su longitud, que oscila entre 35 y 47 pulgadas. En este último caso, se sabe que la hoja ocupa 40 pulgadas de la longitud total. La mayoría de las espadas largas tienen una hoja de doble filo y una punta afilada en la punta. A pesar de la punta, la espada larga está diseñada para acuchillar, no para apuñalar.
+
+ESTADÍSTICAS:
+
+Daño: 1D8
+Tipo de daño: cortante
+Peso: 4
+Factor de velocidad: 4
+Tipo de competencia: Espada larga
+Tipo: Espada larga 1 mano
+Requiere 6 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~ //#6742
+/* description for BGT */
+@80047 = ~Esta hoja arde con un fuego mágico, y se libera una explosión carbonizante cada vez que se acierta un golpe. En la empuñadura está grabado "Meta Infernum", aunque parece algo descolorido y puede que no sea original de la espada.
+
+ESTADÍSTICAS:
+
+THAC0: +1 bonus
+Daño: 1D8 +1, +1 daño de fuego
+Tipo de daño: cortante
+Peso: 4
+Factor de velocidad: 4
+Tipo de competencia: Espada larga
+Tipo: Espada larga 1 mano
+Requiere 6 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~ //#4421
+
+@80048 = ~Las hondas mágicas son el sello distintivo de los robustos guerreros medianos. Normalmente, sus madres o una tía con talento crean esta honda para el muchacho o muchacha mediano que está a punto de embarcarse en su segunda gran aventura. La razón por la que la honda se entrega en la segunda aventura y no en la primera es que muchos medianos deciden no seguir la vida de aventurero después de probarla.
+
+ESTADÍSTICAS:
+
+THAC0: +2
+Daño: +2 (misil)
+Factor de velocidad: 4
+Tipo de competencia: Honda
+Tipo Una mano
+Requiere
+ 3 Fuerza
+
+Peso: 0~//#619
+@80049 = ~Ya sea por diseño o por la exposición al intenso calor de la batalla, los eslabones de esta armadura son negros como el carbón. Aunque las leyendas suelen hablar de caballeros con armaduras brillantes que se enfrentan a grandes bestias, el encantamiento resistente al fuego de este traje sugiere batallas igualmente grandes, aunque no anunciadas, contra criaturas que escupen fuego.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia al fuego: +20%
+
+Clase de Armadura: 2 (0 vs. acuchillamiento, 4 vs. aplastamiento)
+Requiere
+ 8 Fuerza
+
+Peso: 9~//#39557
+@80050 = ~Túnica de los Aprendices~//#37573	
+@80051 = ~Esta túnica fue creada por aprendices tuyos, que trabajan afanosamente en la esfera plana.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Clase de Armadura: 3
+
+Peso: 3~//#39649	
+@80052 = ~Martillo de Rayos +3~//#7781
+@80053 = ~Un herrero enano, Filo de Plata, forjó este martillo y otros dos objetos: un cinturón de fuerza de gigante de escarcha y un par de guanteletes de poder ogro. Su intención era regalárselos a su hijo, que por aquel entonces era un alto oficial de los ejércitos enanos que luchaba contra las tribus de gigantes y ogros de la zona. Por desgracia, el hijo de Filo de Plata murió justo después de terminar los tres objetos y antes de que pudieran regalárselos. Afligido, filo de plata se puso la faja y los guanteletes. Tomó el Martillo de los Rayos y se lanzó a la batalla contra los gigantes. Murió valientemente.
+
+Por sí solo, el Martillo de los Rayos es una poderosa arma mágica, pero cuando se fusiona con los guanteletes de poder ogro y el cinturón de fuerza gigante de escarcha, el martillo se transforma. Esta transformación requiere asistencia mágica. El Martillo de los Truenos puede infligir +8 de daño adicional y matar instantáneamente a cualquier gigante u ogro que golpee.
+
+ESTADÍSTICAS:
+
+THAC0: +3
+Daño 2d4+3 (aplastante)
+Factor de velocidad: 1
+Tipo de competencia: Martillo de Guerra
+Tipo: Martillo de guerra A una mano
+Requiere
+ 18 Fuerza
+
+Peso: 4~//#39444
+@80054 = ~Llave de la casa gremial~ //#54030
+@80055 = ~Esta es la llave de los niveles inferiores del Salón de Lady Galvena, el Gremio de Cortesanas.
+
+ESTADÍSTICAS:
+
+Peso: 0~ //#1091
+@80056 = ~El Regalo de la Noche +5~ //#6363
+@80057 = ~Bendecida originalmente por Shar, esta armadura tiene una larga e interesante historia. Sólo los mejores ladrones han poseído alguna vez esta armadura fuertemente encantada. La esencia de la noche se ha entretejido en esta armadura oscura, de modo que parece una armadura normal, pero envuelve a su portador en una masa de sombras retorcidas.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Esconderse en las sombras: +20%
+
+Clase de Armadura: 3 (5 vs. perforante y proyectil)
+Requiere
+ 3 Fuerza
+
+Peso: 5~ //#39548
+@80058 = ~Armadura completa de Enkidu +3~ //#65033
+@80059 = ~Esta armadura fue creada para Enkidu, un famoso guerrero de Kara-Tur. Aunque nadie se atrevía a desafiarle en un combate justo, Enkidu sufría a menudo los cobardes ataques furtivos de asesinos, ninjas y Wu-Jen.
+
+ESTADÍSTICAS:
+
+Habilidades equipadas:
+- Resistencia mágica: +5%
+- Inmunidad a puñalada por la espalda
+
+Clase de Armadura: -2 (-6 vs. cortante, -5 vs. perforante y proyectil)
+Requiere:
+ 15 Fuerza
+
+Peso: 45~ //#66422
+@80060 = ~Mole Sombria~
+
+@80061 = ~Honda +2~
+
+//Journal Titles
+@90001 = ~Rufianes de Raukner del CuelloAspero~
+//@90002 = ~El hijo perdido ~
+//@90003 = ~Un fantasma en los Picos de las Nubes~
+@90004 = ~La búsqueda de Jumper~
+@90005 = ~Un nuevo mejor amigo para Ugh~
+@90006 = ~La búsqueda de Perwell~
+@90007 = ~De lobos y hombres~
+@90008 = ~Las serpientes de Abbathor~
+@90009 = ~El culto del ojo que no ve - Bunger Wiesner~
+@90010 = ~Una oferta misteriosa~
+@90011 = ~Un picnic fallido~
+
+//EE Descriptions, not needed for BGT/BGII
+//@100032
+//@100048
+//@100058
+//@100086
+
+//Diarios de Karlini
+@2000001   = ~El magnífico Karlini - El libro de hechizos del magnífico Karlini
+
+Dentro de la posada del Meson del Brazo Amigo nos encontramos con un gnomo llamado Ygnatius Bombastus III.
+Ofreció 300 piezas de oro si recibíamos uno de los libros de hechizos del magnífico Karlini que se podía encontrar dentro de las Ruinas de la escuela de Ulcaster.~
+
+@2000002   = ~El magnífico Karlini - El libro de hechizos del magnífico Karlini
+
+Por suerte encontramos el libro de hechizos del magnífico Karlini en las Ruinas de la escuela de Ulcaster.~
+
+@2000003   = ~El magnífico Karlini - El libro de hechizos del magnífico Karlini
+
+Le dimos a Ygnatius el libro de hechizos del magnífico Karlini. Tras investigar un poco, encontró el último hechizo que utilizó Karlini antes de desaparecer. Le propusimos que le vigiláramos mientras lanzaba el hechizo. Ygnatius aceptó y nos dijo que esperaría nuestra llegada al círculo de piedras del Camino del León.~
+
+@2000004   = ~El magnífico Karlini
+
+Le dijimos a Ynatius que no trabajaríamos más para él.~
+
+@2000005   = ~El magnífico Karlini
+
+Le entregamos a Ygnatius el libro de hechizos del magnífico Karlini y recibimos nuestra recompensa prometida.~
+
+@2000006   = ~El magnífico Karlini
+
+Supervisamos el lanzamiento del hechizo, pero sorprendentemente apareció un balor e Ygnatius se desvaneció. Fue una dura lucha acabar con el balor pero lo conseguimos. Desafortunadamente no sabemos de una manera de traer a Ygnatius de vuelta de donde quiera que este ahora.~
+
+@2000007   = ~El magnífico Karlini
+
+Supervisamos el lanzamiento del hechizo, pero sorprendentemente apareció un balor e Ygnatius se desvaneció. Inesperadamente el demonio accedió a dejar ir a los dos gnomos a cambio de mi alma. Rechacé la oferta y el balor se desvaneció en el aire.~
+
+@2000008   = ~El magnífico Karlini
+
+Supervisamos el lanzamiento del hechizo, pero sorprendentemente apareció un balor e Ygnatius se desvaneció. Inesperadamente, el demonio accedió a dejar marchar a los dos gnomos si respondíamos correctamente a algunas preguntas difíciles sobre la Costa de la Espada. De lo contrario, mi alma sería su recompensa. Por suerte y con bastante esfuerzo pude responder correctamente a las tres preguntas. A cambio, el balor se desvaneció en el aire, pero cumplió su palabra y trajo a los dos gnomos sanos y salvos. Ellos, a su vez, agradecieron -más o menos- su rescate. Gnomos... En retrospectiva, la recompensa entregada por estos dos gnomos se ajustaba a los esfuerzos necesarios para resolver las tareas encomendadas.~
+
+@2000009   = ~El magnífico Karlini~
+
+//Entradas del diario de Geraldo
+
+@3000001   = ~Crías de farfulleros en la Puerta de Baldur
+
+Viajando por las calles en Puerta de Baldur conocimos a un hombre que se hacía llamar "Geraldo el Magnífico". Nos contó que había planeado crear el color azul a partir del pelaje de los farfulleros, pero cuando empezaron a reproducirse sin control se vio obligado a encerrarlos en su propia casa. Nos pidió que fuéramos a su casa y nos ocupáramos de los monstruos que había dentro. En este momento debe de haber unas 20 de esas pequeñas bestias. Su casa es la grande de color gris azulado con la valla blanca al este de la Puerta de Baldur Central.~
+@3000002   = ~Crías de farfulleros en la Puerta de Baldur
+
+Sólo había dos farfulleros en casa de Geraldo. Debemos volver a él y darle las pieles de todos modos.~
+@3000003   = ~Crías de farfulleros en la Puerta de Baldur
+
+Geraldo nos ha pedido que encontremos a los farfulleros que quedan. Para facilitarnos las cosas, nos ha dado un pájaro llamado Elminster, que nos avisará cuando haya farfulleros cerca. Para endulzar el trato, también nos recompensará con 50 piezas de oro por cada piel recogida, y un objeto útil en caso de que seamos capaces de encontrarlas todas.~
+@3000004   = ~Crías de farfulleros en la Puerta de Baldur
+
+Pudimos encontrar a todos los farfulleros que quedaban. Cuando informamos a Geraldo inexplicablemente se fue, murmurando algo acerca de encontrar su suerte en otro lugar.~
+@3000005   = ~Crías de farfulleros en la Puerta de Baldur
+
+Le dijimos a Geraldo que renunciábamos a su pequeña tarea. Él murmuró algo acerca de encontrar su suerte en otro lugar y se fue.~
+
+@3000006   = ~Crías de farfulleros en la Puerta de Baldur~
+/* deprecated */
+//@3000007
+
+@3000008  = ~Las serpientes de Abbathor
+
+Acepté enfrentarme a ese Draglon que se mencionaba en el diario de Bashrik. Por lo que sé, podría estar en los bajosotano.~
+
+@3000009  = ~Las serpientes de Abbathor
+
+Me enfrenté a Draglon, pero escapó. Debo volver al templo de Helm y hablar con los enanos.~
+
+@3000010  = ~Las serpientes de Abbathor
+
+Una maga llamada Jenna guarda un artefacto para los enanos. Ella y su compañero Jassir residen en la taberna del Distrito Noroeste. Tengo que ir allí y decirle "Saludos de Mirjala" como contraseña.~
+
+@3000011  = ~Las serpientes de Abbathor
+
+He decidido no ayudar más a los enanos.~
+
+//@3000012
+
+@3000013  = ~Las serpientes de Abbathor
+
+Acepté echar un vistazo a un almacén en el distrito sureste en Puerta de Baldur. Creemos que es el escondite de las Serpientes de Abbathor. Necesitaré una llave para entrar.~
+
+
+/* new for v4.0 */
+//@10037 reformulado con ubicación en Beregost
+@3000014 = ~De lobos y hombres
+
+Una mujer gritaba delante de la morada de Thalantyr, pero no estoy seguro de a qué se refería. ¿Quizá tenía algo que ver con el hombre lobo que maté dentro de la casa del suroeste de Beregost?~
+
+//@10033 reformulado con ubicación en Beregost
+@3000015  = ~De lobos y hombres
+
+El marido de la maga Aiwell parece haber sido infectado con Licantropía. Probablemente tenga dos opciones para resolver el problema: o con una poción que pueda conseguir de Thalantyr, o la solución de la espada a la vieja usanza.
+
+Su hogar es la pequeña casa en el límite suroeste de Beregost.~
+
+
+/* new for v5.0 */
+@3000016  = ~Las serpientes de Abbathor
+
+Le di el diario del enano a Draglon que está en Bajosotano, y me temo que he perdido la forma de contactar con el otro enano mencionado, Wostok, a quien en realidad iba dirigido el diario. Tal vez todavía hay una manera de preguntar por él en el templo de Helm en la Puerta de Baldur si tengo más información sobre este culto "Serpientes de Abbathor".~
+@3000017  = ~Las serpientes de Abbathor
+
+Conocí a un enano en Bajosotano que me saludó como una veradera "hermandad", pero no quiso decirme de qué se trataba y, en cambio, se marchó con una amenaza sobre unos poderosos enemigos que hice... Ojalá la gente no tuviera la piel tan fina. Tal vez me entere más de lo que quiso decir - mi instinto me dice que necesitaré un enano en mi grupo para encontrar tal información.~
+@3000018  = ~Las serpientes de Abbathor
+
+Le enseñé el diario de Bashrik a Draglon, el contacto de las Serpientes de Abbathor, pero no le gustó cómo le pedí más información y se marchó con una amenaza sobre unos poderosos enemigos que hice... Supongo que mi mejor opción para obtener más información sobre esto es ir a buscar a este Wostok dentro del templo de Helm en Puerta de Baldur.~
+@3000019  = ~Las serpientes de Abbathor
+
+Me enfrenté a Draglon, el contacto de las Serpientes de Abbathor, pero no le gustó que le pidiera más información y se marchó con una amenaza sobre unos poderosos enemigos que hice... Supongo que mi mejor opción para conseguir más información sobre esto es ir por ahí con el panfleto del culto y ver si alguien sabe algo al respecto.~
+@3000020  = ~Las serpientes de Abbathor
+
+Conocí a Draglon, el contacto de las Serpientes de Abbathor, en Bajosotano, me saludó como una verdadera "hermandad", pero cuando me negué a trabajar para el culto se marchó con una amenaza sobre unos poderosos enemigos que me hice... Tal vez aprenda más sobre lo que quiso decir si tengo más información sobre este culto "Serpientes de Abbathor".~
+@3000021  = ~Las serpientes de Abbathor
+
+Le mostré el diario de Bashrik a Draglon, el contacto de las Serpientes de Abbathor, pero cuando me negué a trabajar para el culto se marchó con una amenaza sobre unos poderosos enemigos que hice... Supongo que mi mejor apuesta para obtener más información sobre esto es ir a buscar a Wostok dentro del templo de Helm en la Puerta de Baldur.~
+@3000022  = ~Las serpientes de Abbathor
+
+Conocí a Draglon, el contacto de las Serpientes de Abbathor, pero cuando me negué a trabajar para el culto se marchó con una amenaza sobre unos poderosos enemigos que me hice... Supongo que mi mejor opción para conseguir más información sobre esto es ir por ahí con el panfleto del culto y ver si alguien sabe algo al respecto.~
+@3000023  = ~Las serpientes de Abbathor
+
+Conocí a Draglon, el contacto de las Serpientes de Abbathor, en Bajosotano, me saludó como una verdadera "hermandad", pero cuando le amenacé se marchó con una amenaza sobre unos poderosos enemigos que me hice... Tal vez aprenda más sobre lo que quiso decir si obtengo más información sobre este culto "Serpientes de Abbathor".~
+@3000024  = ~Las serpientes de Abbathor
+
+Le enseñé el diario de Bashrik a Draglon, el contacto de las Serpientes de Abbathor, pero cuando le amenacé se marchó con una amenaza sobre unos poderosos enemigos que hice... Supongo que mi mejor opción para obtener más información sobre esto es ir a buscar a Wostok dentro del templo de Helm en Puerta de Baldur.~
+@3000025  = ~Las serpientes de Abbathor
+
+Conocí a Draglon, el contacto de las Serpientes de Abbathor, pero cuando le amenacé se marchó con una amenaza sobre unos poderosos enemigos que me hice... Supongo que mi mejor opción para conseguir más información sobre esto es ir por ahí con el panfleto de la secta y ver si alguien sabe algo al respecto.~
+@3000026  = ~Las serpientes de Abbathor
+
+(Suspiro) Otra vez me he creado un nuevo enemigo de *otra* organización malvada que ha pensado que les haría de esbirro. Supongo que son bastante peligrosos, pero veremos si envían a más de un grupo de asesinos a por mí si se dan cuenta de que yo también puedo ser peligroso.~
+@3000027  = ~Las serpientes de Abbathor
+
+Acepté matar a Wostok y a sus camaradas por Draglon, el contacto de las Serpientes de Abbathor. Wostok fue visto por última vez en el Templo de Helm, en la Puerta de Baldur. Cuando termine, encontraré a Draglon de nuevo en Bajosotano.~
+@3000028  = ~Las serpientes de Abbathor
+
+Wostok está muerto.~
+@3000029  = ~Las serpientes de Abbathor
+
+Una maga llamada Jenna guarda un artefacto para los enanos. Ella y su compañero Jassir residen en la taberna del Distrito Noroeste. Tengo que ir allí y recuperar el antiguo artefacto enano de ellos.~
+@3000030  = ~Las serpientes de Abbathor
+
+Tengo el Gundmagtor, el artefacto enano que Draglon quería que recuperara. Debería volver al Bajosotano y dárselo.~
+@3000031  = ~Las serpientes de Abbathor
+
+Draglon me dio una llave de un almacén en el sureste de la Puerta de Baldur donde las Serpientes de Abbathor tienen una reunión. Estoy invitado y deberia reunirme con ellos para discutir mi futura afiliacion al culto.~
+@3000032  = ~Las serpientes de Abbathor
+
+Encontraré a Wostok, que puede darme respuestas sobre las Serpientes de Abbathor en las alcantarillas.~
+/* former @3000007 with more details */
+@3000033  = ~Las serpientes de Abbathor
+
+Fui testigo de una emboscada en el Camino de la Costa y encontré un diario de un enano llamado Bashrik. Menciona dos facciones: Draglon de las Serpientes de Abbathor, un culto que adora a un malvado dios enano, y Wostok que estaba investigando el culto. Wostok debía reunirse con Bashrik en el Templo de Helm, en la Puerta de Baldur. Draglon del culto fue visto por última vez en el Bajosotano.~
+@3000034  = ~Las serpientes de Abbathor
+
+No accedí a seguir ayudando a Wostok contra las Serpientes de Abbathor, pero creo que aún podría echar un vistazo a este Draglon de la secta en el Bajosotano si me apetece.~
+@3000035  = ~Las serpientes de Abbathor
+
+Debería volver al templo de Helm en la Puerta de Baldur para encontrarme con Wostok.~
+/* @3000012 with more info */
+@3000036  = ~Las serpientes de Abbathor
+
+Jenna fue asesinada por los secuaces de la Serpiente, y se llevaron el artefacto. Debería volver a ver a Wostock en el templo de Helm, en Puerta de Baldur, y contárselo~
+@3000037  = ~Las serpientes de Abbathor
+
+Accedimos a la petición de Wostok de morir a nuestra mano; mentiría si dijera que cumplimos su petición sin emociones. Espero que él y sus amigos estén ahora en la otra vida que deseaban.~
+@3000038  = ~Las serpientes de Abbathor
+
+Wostok suplicó morir por nuestra mano en lugar de esperar a que sus heridas se lo llevaran. Nunca hubiera pensado que éste sería el último acto de ayuda que tendríamos que hacer por él.~
+
+@3000050  = ~Wostok
+
+Debería llevar el cuerpo de Wostok al templo de Helm, en Puerta de Baldur. Estoy seguro de que el sacerdote sabe cómo llevarlo a su clan.~
+@3000051  = ~Wostok
+
+Llevé a Wostok al sacerdote de Helm. Él se encargará de que sus cuerpos y los de sus amigos sean transferidos a su clan para un entierro apropiado.~
+@3000052  = ~Wostok~
+
+@3000054  = ~¿Qué hacer con el Gundmagtor?~
+@3000055  = ~¿Qué hacer con el Gundmagtor?
+
+El Gundmagtor, un antiguo y malvado artefacto enano para el que no tengo ningún uso, está ahora en mi poder. La cuestión es qué voy a hacer ahora con él. Guardarlo parece inútil - ¿quizás haya gente mejor que un culto enano malvado interesada en él? Los amigos de Wostok, por ejemplo. El sacerdote del templo de Helm en la Puerta de Baldur debería conocerlo. O podría enseñársela a magos acostumbrados a manejar artefactos poderosos -destruir esta cosa para que nadie más pueda hacer mal uso de ella también sería una opción válida.~
+@3000056  = ~¿Qué hacer con el Gundmagtor?
+
+El Gundmagtor, un antiguo y malvado artefacto enano para el que no tengo ningún uso, está ahora en mi poder. La cuestión es qué voy a hacer ahora con él. Guardarlo parece inútil - podría enseñárselo a magos acostumbrados a manejar artefactos poderosos.~
+@3000057  = ~¿Qué hacer con el Gundmagtor?
+
+Entregué el Gundmagtor, el antiguo artefacto enano maligno, al sacerdote de Helm. Él lo transferirá a los amigos de Wostok - Estoy seguro de que sabrán qué hacer con él para que no cause daño nunca más.~
+@3000058  = ~¿Qué hacer con el Gundmagtor?
+
+Vendí el Gundmagtor, el antiguo artefacto maligno enano a un emisario de los Zhentarim por una buena suma de oro.~
+@3000059  = ~¿Qué hacer con el Gundmagtor?
+
+Un emisario de los Zhentarim me ofreció comprar el artefacto enano Gundmagtor. Parecía muy decidido a obtener el artefacto. Puedo encontrarlo en la Sirena Ruborizada.~
+@3000060  = ~¿Qué hacer con el Gundmagtor?
+
+Le di el Gundmagtor, el antiguo artefacto maligno enano a Thalantyr en Seto Alto. Él lo destruirá. Esto me costó 1000 de oro, ¡así que espero que lo haga a conciencia!~
+@3000061  = ~¿Qué hacer con el Gundmagtor?
+
+Thalantyr, el mago de Seto Alto, se ofreció a destruir el artefacto enano Gundmagtor. Quiere 1000 de oro como compensación por los gastos!~
+@3000062  = ~¿Qué hacer con el Gundmagtor?
+
+Bueno, Halbazzer Drin no es de ayuda aquí. Se negó rotundamente a seguir mirando al Gundmagtor.~
+
+/* BG2 follow up for good path */
+//@3000080  =
+@3000081  = ~Una misteriosa oferta
+
+Fíjate, el enano que se me acercó era uno de los dos buenos amigos de Wostok, el guerrero y sacerdote enano al que ayudé contra el malvado culto enano "Serpientes de Abbathor", liderado por Lugosch, al que expulsé de las minas de Nashkel. Cómo olvidar al valiente Wostok, cuyo último deseo fue morir a mis manos antes que esperar a que sus heridas se lo llevaran... Me dieron su martillo, un arma poderosa por lo que parece, y me pidieron que hablara de la valentía de Wostok siempre que alguien preguntara por esta arma.~
+//@3000082  =
+@3000083  = ~¡Cromwell puede encantar el martillo de Wostok para que yo también pueda lanzarlo! Para eso, necesitaría un pergamino de Arma Encantada, un pergamino de Meteoros de Melf, y un Diamante, y probablemente una suma de oro que aún no especificó.~
+@3000084  = ~Cespenar puede mejorar el martillo de Wostok con un martillo +2 y 10.000 de oro.~
+@3000085  = ~Cespenar puede mejorar el martillo de Wostok con un martillo +2, un pergamino de Arma Encantada, un diamante y 10.000 de oro.~
+@3000086  = ~Las serpientes de Abbathor
+
+Tengo la fuerte sensación de que necesitaré un enano en mi grupo para recibir esa información...~
+
