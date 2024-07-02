@@ -235,7 +235,7 @@ LANGUAGE ~Spanish~
 	 ~AC_QUEST/TRA/spanish/setup-AC_QUEST.tra~
 	 ~AC_QUEST/TRA/spanish/setup-install.tra~
 
-LANGUAGE ~schinese~ 
+LANGUAGE ~Simplified Chinese~ 
 	 ~schinese~ 
 	 ~AC_QUEST/TRA/schinese/setup-AC_QUEST.tra~
 	 ~AC_QUEST/TRA/schinese/setup-install.tra~
