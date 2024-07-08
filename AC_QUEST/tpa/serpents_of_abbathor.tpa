@@ -581,7 +581,7 @@ SAY NAME1 @117
 SAY NAME2 @117
 WRITE_EVALUATED_ASCII 0x248 ~ACQMINER~ #8   // Override script
 
-COPY_EXISTING ~AC_QUEST/cre/ACUMBHUL.cre~ ~override~
+COPY ~AC_QUEST/cre/ACUMBHUL.cre~ ~override~
 SAY NAME1 @80060
 SAY NAME2 @80060
 
@@ -653,3 +653,18 @@ SAY NAME2 @122
 COPY ~AC_QUEST/cre/ACQ10127.CRE~ ~override~
 SAY NAME1 @108
 SAY NAME2 @109
+
+
+/* Assign appropriate random treasure */
+ACTION_IF GAME_IS ~bgt eet~ BEGIN
+  COPY_EXISTING_REGEXP ~ACQ1010[2-9]\.cre~ ~override~
+                       ~ACQ1011[0-8]\.cre~ ~override~
+    GET_OFFSET_ARRAY items CRE_V10_ITEMS
+    PHP_EACH items AS i => item BEGIN
+      READ_ASCII item item_filename
+      PATCH_IF (~%item_filename%~ STR_EQ ~RNDTRE04~) BEGIN
+        WRITE_ASCII item ~RNDTRE08~
+      END
+    END
+  BUT_ONLY
+END
