@@ -225,9 +225,9 @@ END
 
 IF ~~ THEN BEGIN 4
 SAY @72
-IF ~InPartySlot(LastTalkedToBy(),0)OR(2)ReputationGT(PLAYER1,13)ReputationLT(PLAYER1,8)~ THEN GOTO 4a
-IF ~!InPartySlot(LastTalkedToBy(),0)OR(2)ReputationGT(PLAYER1,13)ReputationLT(PLAYER1,8)~ THEN GOTO 4b
-IF ~ReputationGT(PLAYER1,7)ReputationLT(PLAYER1,12)~ THEN GOTO 4c
+IF ~InPartySlot(LastTalkedToBy(),0)OR(2)ReputationGT(PLAYER1,12)ReputationLT(PLAYER1,8)~ THEN GOTO 4a
+IF ~!InPartySlot(LastTalkedToBy(),0)OR(2)ReputationGT(PLAYER1,12)ReputationLT(PLAYER1,8)~ THEN GOTO 4b
+IF ~ReputationGT(PLAYER1,7)ReputationLT(PLAYER1,13)~ THEN GOTO 4c
 END
 
 IF ~~ THEN BEGIN 4a
