@@ -291,6 +291,13 @@ VII. Historique des versions :
 -Spanish version added, by alaisFcZ
 -Aaron should be "NEUTRAL", not "GOODBUTBLUE"
 
+5.3 - 2024-11-04
+-Simplified Chinese version added, by huma628-design and yoshimo0417
+-Add ACQ12000.ITM to itemexcl.2da (Aaron's Ring of Protection will not be stackable with other protective items)
+-Fix NO VALID REPLIES OR LINKS in ACQ10106.DLG for rep of 13
+-Use existing item description image in BGEE for Jumper
+-Instead of RNDTRE04 assign RNDTRE08 in BGT and EET in all cases.
+
 ***************************************************************************************************************
 
 
@@ -304,6 +311,7 @@ VIII. Remerciements
 - Arkie pour la traduction russe (v5.0).
 - deratiseur et jazira pour la traduction française, relecture par tonton-thon.
 - Coland pour la traduction italienne.
+- huma628-design and yoshimo0417 for the Simplified Chinese translation
 - Fridtjof et Hedian et tous les autres de www.rosenranken.org qui offrent un sympathique foyer au Pack de Quêtes.
 - en dernier, mais pas des moindres, les joueurs motivés et enthousiastes du BWP, qui maintiennent en vie le meilleur jeu de tous les temps.
 - et en fin de compte, ma Suissesse préférée Revianêl, qui a examiné de fond en comble toutes les quêtes, toutes les allusions, tous les gags et tous les petits détails cachés, qu'elle a validés ou refrénés, sans jamais avoir été soi-même au-delà de Château-Suif.
