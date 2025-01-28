@@ -173,7 +173,7 @@ VII. Version history:
 2.02
 -more journal entries for the quest "The Serpents of Abbathor"
 -Bashrik's hammer now has the correct statistics description
--after setting Melina's ghost to rest there is one "I did it" dialogue with Aaron.
+-after setting Marina's ghost to rest there is one "I did it" dialogue with Aaron.
 -werewolfquest: if Thalantyr mixes the antidote the cutscene now fades to blayck instead of displaying that the "Antichickenator" spell is used.
 -journal entry in Emerson's dialogue now appear directly with the according dialogue lines.
 -updated readme so description matches the compatible games
@@ -290,12 +290,19 @@ VII. Version history:
 -Spanish version added, by alaisFcZ
 -Aaron should be "NEUTRAL", not "GOODBUTBLUE"
 
-5.3 - 2024-11-04
+6.0 - 2025-01-28
 -Simplified Chinese version added, by huma628-design and yoshimo0417
+-"A Feast for the Gnolls": Killing the ghost will lead to a quest conclusion; revised the ghosts dialogue if she is talked to more than once.
+-"A Home for the Gibberlings": more than 18 furs can be handed in, changed the mentioned number of Gibberlings from 20 to 18 in some languages.
+-Crossmod-Compatibility with BG1NPC: prevent Dynaheir from complaining about robbing a house if it's Tonder's chest (House 9 in Beregost)
 -Add ACQ12000.ITM to itemexcl.2da (Aaron's Ring of Protection will not be stackable with other protective items)
+-dwarven assassins drop less magic armor
+-warehouse key should be on assassin in tavern (scripted more stable, hopefully)
+-cre files should not have "Export allowed" flag set
 -Fix NO VALID REPLIES OR LINKS in ACQ10106.DLG for rep of 13
 -Use existing item description image in BGEE for Jumper
--Instead of RNDTRE04 assign RNDTRE08 in BGT and EET in all cases.
+-Instead of RNDTRE04 assign RNDTRE08 in BGT and EET in all cases
+-English is default (fall back) language for HANDLE_CHARSETS.
 
 ***************************************************************************************************************
 

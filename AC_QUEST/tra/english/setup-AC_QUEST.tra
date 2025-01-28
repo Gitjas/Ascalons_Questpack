@@ -548,6 +548,10 @@ Bunger Wiesner has returned to his mother. The old lady surely will want to than
 @20023 = ~A Mysterious Offer
 
 A messenger has brought me an invitation from his master. Although he will keep his name secret, he somehow has an interest in me. If I want to get involved in a meeting than I'll meet the messenger in the Copper Coronet.~
+/* new in v 6.0 */
+@20024 = ~A Ghost in the Cloudpeaks
+
+We informed Aaron that his fiancée, I mean the ghost is dead.~
 
 
 //BG:EE Compatibility
@@ -778,7 +782,7 @@ We oversaw the casting of the spell but surprisingly a balor appeared and Ygnati
 
 @3000001   = ~Breeding Gibberlings in Baldur's Gate
 
-Travelling through the streets of Baldur's Gate we met a man who referred to himself as "Geraldo the Magnificent". He told us he had planned to create blue colour from the fur of gibberlings but when they started to breed uncontrollably he was forced to imprison them in his own house. He asked us to go to his house and deal with the monsters inside. By now there should be around 20 of the little beasts there. His house is the big blue-grey one with the white fence east of Central Baldur's Gate.~
+Travelling through the streets of Baldur's Gate we met a man who referred to himself as "Geraldo the Magnificent". He told us he had planned to create blue colour from the fur of gibberlings but when they started to breed uncontrollably he was forced to imprison them in his own house. He asked us to go to his house and deal with the monsters inside. By now there should be around 18 of the little beasts there. His house is the big blue-grey one with the white fence east of Central Baldur's Gate.~
 @3000002   = ~Breeding Gibberlings in Baldur's Gate
 
 There were only two gibberlings in Geraldo’s house. We should return to him and give him the furs anyway.~

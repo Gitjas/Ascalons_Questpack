@@ -193,7 +193,7 @@ IF ~NumItemsParty("ACQ18001",14)~ THEN DO ~IncrementGlobal("ACQ18001","LOCALS",1
 IF ~NumItemsParty("ACQ18001",15)~ THEN DO ~IncrementGlobal("ACQ18001","LOCALS",15)TakePartyItemNum("ACQ18001",15)GiveGoldForce(750)~ GOTO GotFur.1
 IF ~NumItemsParty("ACQ18001",16)~ THEN DO ~IncrementGlobal("ACQ18001","LOCALS",16)TakePartyItemNum("ACQ18001",16)GiveGoldForce(800)~ GOTO GotFur.1
 IF ~NumItemsParty("ACQ18001",17)~ THEN DO ~IncrementGlobal("ACQ18001","LOCALS",17)TakePartyItemNum("ACQ18001",17)GiveGoldForce(850)~ GOTO GotFur.1
-IF ~NumItemsParty("ACQ18001",18)~ THEN DO ~IncrementGlobal("ACQ18001","LOCALS",18)TakePartyItemNum("ACQ18001",18)GiveGoldForce(900)~ GOTO GotFur.1
+IF ~NumItemsPartyGT("ACQ18001",17)~ THEN DO ~IncrementGlobal("ACQ18001","LOCALS",18)TakePartyItemNum("ACQ18001",18)GiveGoldForce(900)~ GOTO GotFur.1
 END
 
 IF ~~ THEN BEGIN GotFur.1

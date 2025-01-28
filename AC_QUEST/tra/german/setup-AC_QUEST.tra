@@ -536,6 +536,10 @@ Bunger Wiesner ist zu seiner Mutter zurückgekehrt. Die alte Dame wird uns bestim
 @20023 = ~Ein geheimnisvolles Angebot
 
 Ein Bote hat mir eine Einladung seines Herrn überbracht. Auch wenn dieser seinen Namen geheimhalten will, so hat er doch aus irgendeinem Grund Interesse an mir. Wenn ich mich auf ein Treffen einlassen will dann finde ich den Boten in der Kupferkrone.~
+/* new in v 6.0 */
+@20024 = ~Ein Geist in den Wolkenspitzen?
+
+Wir haben Aaron die Nachricht überbracht, dass seine Verlobte, also der Geist, tot ist.~
 
 
 
@@ -765,7 +769,7 @@ Wir haben Ygnatz dabei beobachtet wie er die große Formel gesprochen hat, dabei 
 
 @3000001   = ~Kreischlingszucht in Baldurs Tor
 
-Wir haben auf den Straßen von Baldurs Tor einen Mann namens "Geraldo der Prächtige" getroffen. Er erzählte uns,dass er vorhatte aus dem Fell gefangener Kreischlinge blaue Farbe zu gewinnen, diese pflanzten sich aber innerhalb kürzester Zeit fort und er musste sie in seinem Haus einsperren. Er hat uns gebeten in sein Haus zu gehen, um uns um die Kreischlinge zu kümmern und erwähnte, dass es um die 20 Kreischlinge sein müssten. Das Haus ist das große blau-graue mit dem weißen Zaun im östlichen Bereich des Zentrums von Baldurs Tor.~
+Wir haben auf den Straßen von Baldurs Tor einen Mann namens "Geraldo der Prächtige" getroffen. Er erzählte uns,dass er vorhatte aus dem Fell gefangener Kreischlinge blaue Farbe zu gewinnen, diese pflanzten sich aber innerhalb kürzester Zeit fort und er musste sie in seinem Haus einsperren. Er hat uns gebeten in sein Haus zu gehen, um uns um die Kreischlinge zu kümmern und erwähnte, dass es um die 18 Kreischlinge sein müssten. Das Haus ist das große blau-graue mit dem weißen Zaun im östlichen Bereich des Zentrums von Baldurs Tor.~
 @3000002   = ~Kreischlingszucht in Baldurs Tor
 
 Wir konnten im Haus leider nur zwei Kreischlinge antreffen, wir sollten mit den Fellen zu Geraldo zurückkehren.~

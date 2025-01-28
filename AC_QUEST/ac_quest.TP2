@@ -2,7 +2,7 @@ BACKUP ~AC_QUEST/backup~
 //AUTHOR ~whiteagnus@baldursgatemods.de~ 
 SUPPORT ~https://baldurs-gate.de/index.php?threads/ascalons-questpack.39286/~
 
-VERSION ~5.3~  
+VERSION ~6.0~  
 
 AUTO_TRA "AC_QUEST/TRA/autotra/%s"//%"
 
@@ -66,24 +66,29 @@ To be used later in the form:
 * Copies tra files into the autotra-folder (to leave the originals untouched)
 */
     DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
-      COPY ~AC_QUEST/tra/german~ ~AC_QUEST/tra/autotra/%LANGUAGE%~
+      COPY ~AC_QUEST/tra/english~ ~AC_QUEST/tra/autotra/english~
+      COPY ~AC_QUEST/tra/english~ ~AC_QUEST/tra/autotra/%LANGUAGE%~
       COPY ~AC_QUEST/tra/%LANGUAGE%~ ~AC_QUEST/tra/autotra/%LANGUAGE%~
     END
 
     LAF autotra_workaround END
 
-    ACTION_DEFINE_ARRAY tra#reload BEGIN setup-AC_QUEST END
+    //ACTION_DEFINE_ARRAY tra#reload BEGIN setup-AC_QUEST END
     ACTION_DEFINE_ARRAY tra#noconvert BEGIN setup-install END
 
     LAF HANDLE_CHARSETS
       INT_VAR
 			infer_charsets = 1
       STR_VAR
+      			default_language = ~english~
 			tra_path = EVAL ~AC_QUEST/tra/autotra~
 			noconvert_array = tra#noconvert
-			reload_array = tra#reload
+			//reload_array = tra#reload
 			iconv_path = ~AC_QUEST/tools/iconv~
     END
+
+  LOAD_TRA ~AC_QUEST/tra/autotra/english/setup-AC_QUEST.tra~
+  LOAD_TRA ~AC_QUEST/tra/autotra/%LANGUAGE%/setup-AC_QUEST.tra~
 
 
 
@@ -1096,7 +1101,7 @@ SAY NAME2 @1006 /* Gorgar Blaurock */
 WRITE_EVALUATED_ASCII 0x248 ~ACQ21002~ #8   // Override script
 WRITE_EVALUATED_ASCII 0x280 ~ACQ21002~ #8   // Script name
 WRITE_EVALUATED_ASCII 0x2cc ~ACQ21002~ #8   // Dialogue
-ADD_CRE_ITEM ~acq10128~ #0 #0 #0 ~unstealable~ ~inv5~
+ADD_CRE_ITEM ~acq10128~ #0 #0 #0 ~unstealable~ ~inv~
 
 EXTEND_BOTTOM ~AR0334.bcs~ ~AC_QUEST/BAF/AR0334.BAF~ EVALUATE_BUFFER
 EXTEND_TOP ~AR0400.bcs~ ~AC_QUEST/BAF/AR0400.BAF~ EVALUATE_BUFFER

@@ -1,3 +1,11 @@
+/* deactivate Dynaheir's complaint about CHARNAME stealing in this house - BG1NPC */
+IF 
+Global("X#DYRobb1","GLOBAL",0)
+THEN
+RESPONSE #100
+SetGlobal("X#DYRobb1","GLOBAL",2)
+END
+
 IF
 	Global("ACQ16_MoveWolfLocation","GLOBAL",0)
 	InMyArea("ACQ16002")

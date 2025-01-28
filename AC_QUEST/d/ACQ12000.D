@@ -247,42 +247,53 @@ SAY @87
 ++ @88 + 24
 END
 
+/* I did not give XP here because player already gained from killing the ghost - jastey */
 IF ~~ THEN BEGIN 23
 SAY @89 = @90
-IF ~Global("ACQ12","GLOBAL",4)~ THEN DO ~SetGlobal("ACQ122","GLOBAL",4)~ EXIT
-IF ~!Global("ACQ12","GLOBAL",4)~ THEN DO ~SetGlobal("ACQ122","GLOBAL",4)~ EXTERN ACQ12001 21
+IF ~Global("ACQ12","GLOBAL",4)~ THEN DO ~EraseJournalEntry(@10009)
+EraseJournalEntry(@10026)
+EraseJournalEntry(@10008)
+SetGlobal("ACQ122","GLOBAL",4)~ SOLVED_JOURNAL @20024 EXIT
+IF ~!Global("ACQ12","GLOBAL",4)~ THEN DO ~EraseJournalEntry(@10009)
+EraseJournalEntry(@10026)
+EraseJournalEntry(@10008)
+SetGlobal("ACQ122","GLOBAL",4)~ SOLVED_JOURNAL @20024 EXTERN ACQ12001 21
 END
 
 BEGIN ACQ12003
-IF ~True()~ THEN BEGIN 0
+IF ~Global("ACKnowsMarinaStory","GLOBAL",0)~ THEN BEGIN 0
 SAY @91
-IF ~Global("ACKnowsMelinaStory","GLOBAL",1)PartyHasItem("ACQ12000")~ THEN REPLY @92 + 12
+IF ~Global("ACKnowsMarinaStory","GLOBAL",1)PartyHasItem("ACQ12000")~ THEN REPLY @92 + 12
 ++ @93 + 1
 ++ @94 + 2
 ++ @95 + 3
-IF ~GlobalGT("ACQ12","GLOBAL",0)!Global("ACQ122","GLOBAL",2)~ THEN REPLY @96 + 7
+IF ~GlobalGT("ACQ12","GLOBAL",0)Global("ACQ12_KnowsMarina","MYAREA",0)~ THEN REPLY @96 DO ~SetGlobal("ACQ122","GLOBAL",2) SetGlobal("ACQ12_KnowsMarina","MYAREA",1)~ + 7
 ++ @97 + 4
 END
 
 IF ~~ THEN BEGIN 1
-SAY @98
-IF ~!GlobalGT("ACQ12","GLOBAL",1)~ THEN REPLY @99 + 5
-++ @100 + 6
-++ @94 + 2
-++ @95 + 3
-IF ~GlobalGT("ACQ12","GLOBAL",0)!Global("ACQ122","GLOBAL",2)~ THEN REPLY @96 + 7
-++ @97 + 4
+SAY @98 /* ~I... am waiting for Aaron...~ */
+IF ~!GlobalGT("ACQ12","GLOBAL",1)~ THEN REPLY @99 /* ~Who is Aaron?~ */ + 5
+++ @100 /* ~Why are you waiting?~ */ + 6
+++ @94 /* ~Be careful, friends! A ghost!~ */ + 2
+++ @95 /* ~Die, undead fiend!~ */ + 3
+IF ~GlobalGT("ACQ12","GLOBAL",0)Global("ACQ12_KnowsMarina","MYAREA",0)~ THEN REPLY @96 /* ~Marina? Is it you?~ */ DO ~SetGlobal("ACQ122","GLOBAL",2) SetGlobal("ACQ12_KnowsMarina","MYAREA",1)~ + 7
+++ @97 /* ~(turn away)~ */ + 4
 END
 
 IF ~~ THEN BEGIN 2
 SAY @101
+COPY_TRANS_LATE ACQ12003 1
+END
+/*
 IF ~!GlobalGT("ACQ12","GLOBAL",1)~ THEN REPLY @99 + 5
 ++ @100 + 6
 ++ @94 + 2
 ++ @95 + 3
-IF ~GlobalGT("ACQ12","GLOBAL",0)!Global("ACQ122","GLOBAL",2)~ THEN REPLY @96 + 7
+IF ~GlobalGT("ACQ12","GLOBAL",0)Global("ACQ12_KnowsMarina","MYAREA",0)~ THEN REPLY @96 DO ~SetGlobal("ACQ122","GLOBAL",2) SetGlobal("ACQ12_KnowsMarina","MYAREA",1)~ + 7
 ++ @97 + 4
 END
+*/
 
 IF ~~ THEN BEGIN 3
 SAY @102
@@ -299,25 +310,28 @@ SAY @104
 ++ @100 + 6
 ++ @94 + 2
 ++ @95 + 3
-IF ~GlobalGT("ACQ12","GLOBAL",0)!Global("ACQ122","GLOBAL",2)~ THEN REPLY @96 + 7
+IF ~GlobalGT("ACQ12","GLOBAL",0)Global("ACQ12_KnowsMarina","MYAREA",0)~ THEN REPLY @96 DO ~SetGlobal("ACQ122","GLOBAL",2) SetGlobal("ACQ12_KnowsMarina","MYAREA",1)~ + 7
 ++ @97 + 4
 END
 
 IF ~~ THEN BEGIN 6
-SAY @105
-IF ~!GlobalGT("ACQ12","GLOBAL",1)~ THEN REPLY @99 + 5
+SAY @105 /* ~I promised... Aaron... wait for Aaron...~ */
+IF ~!GlobalGT("ACQ12","GLOBAL",1)~ THEN REPLY @99 /* ~Who is Aaron?~ */ + 5
+IF ~Global("ACKnowsMarinaStory","GLOBAL",1) PartyHasItem("ACQ12000")~ THEN REPLY @92 /* ~I've got something for you.~ */ + 12
 ++ @94 + 2
 ++ @95 + 3
-IF ~GlobalGT("ACQ12","GLOBAL",0)!Global("ACQ122","GLOBAL",2)~ THEN REPLY @96 + 7
+IF ~GlobalGT("ACQ12","GLOBAL",0)Global("ACQ12_KnowsMarina","MYAREA",0)~ THEN REPLY @96 /* ~Marina? Is it you?~ */ DO ~SetGlobal("ACQ122","GLOBAL",2) SetGlobal("ACQ12_KnowsMarina","MYAREA",1)~ + 7
 ++ @97 + 4
 END
 
 IF ~~ THEN BEGIN 7
-SAY @106
-++ @107 DO ~SetGlobal("ACQ122","GLOBAL",2)~ + 8
-IF ~!GlobalGT("ACQ12","GLOBAL",1)~ THEN REPLY @108 DO ~SetGlobal("ACQ122","GLOBAL",2)~ + 8
-++ @109 DO ~SetGlobal("ACQ122","GLOBAL",2)~ + 9
-++ @110 DO ~SetGlobal("ACQ122","GLOBAL",2)~ + 10
+SAY @106 /* ~Ma... Marina? Yes... my name is Marina. Oh, <LADYLORD>, memories lost are returning, I begin to remember. Oh no! (cries)~ */
+IF ~Global("ACKnowsMarinaStory","GLOBAL",1) PartyHasItem("ACQ12000")~ THEN REPLY @92 /* ~I've got something for you.~ */ + 12
+++ @107 /* ~Shhhh, everything will be alright. I'm here to help.~ */ + 8
+IF ~!GlobalGT("ACQ12","GLOBAL",1)~ THEN REPLY @108 /* ~Listen, we are looking for Aaron. Help us - what happened?~ */ + 8
++ ~Global("ACKnowsMarinaStory","GLOBAL",0)~ + @109 /* ~Why are you still here? What binds you to this place?~ */ + 9
++ ~!GlobalGT("ACQ12","GLOBAL",1)~ + @110 /* ~I will go then and find Aaron.~ */ + 10
++ ~Global("ACKnowsMarinaStory","GLOBAL",1)~ + @97 + 4
 END
 
 IF ~~ THEN BEGIN 8
@@ -327,7 +341,9 @@ END
 
 IF ~~ THEN BEGIN 9
 SAY @112 = @113 = @114 = @115
-++ @116 + 11
++ ~Global("ACKnowsMarinaStory","GLOBAL",0)~ + @116 + 11
+IF ~Global("ACKnowsMarinaStory","GLOBAL",1) PartyHasItem("ACQ12000")~ THEN REPLY @92 /* ~I've got something for you.~ */ + 12
++ ~Global("ACKnowsMarinaStory","GLOBAL",1)~ + @97 + 4
 END
 
 IF ~~ THEN BEGIN 10
@@ -343,6 +359,16 @@ END
 IF ~~ THEN BEGIN 12
 SAY @119 = @120 = @121
 IF ~~ THEN DO ~EraseJournalEntry(@10008)EraseJournalEntry(@10009)EraseJournalEntry(@10024)EraseJournalEntry(@10025)EraseJournalEntry(@10026)AddJournalEntry(@10027,QUEST_DONE)SetGlobal("ACQ122","GLOBAL",6)TakePartyItem("ACQ12000")DestroyItem("ACQ12000")AddexperienceParty(1200)CreateItem("MISC36",0,0,0)DropInventory()CreateVisualEffectObject("spholy",Myself)PlaySound("EFF_P15")DestroySelf()~ EXIT
+END
+
+IF ~Global("ACKnowsMarinaStory","GLOBAL",1)~ THEN BEGIN 13
+SAY @91 /* ~Aaron.... is it you? Aaron...!~ */
+IF ~PartyHasItem("ACQ12000")~ THEN REPLY @92 /* ~I've got something for you.~ */ + 12
+++ @93 /* ~Who are you?~ */ + 1
+++ @94 /* ~Be careful, friends! A ghost!~ */ + 2
+++ @95 /* ~Die, undead fiend!~ */ + 3
++ ~GlobalGT("ACQ12","GLOBAL",0)Global("ACQ12_KnowsMarina","MYAREA",0)~ + @96 /* ~Marina? Is it you?~ */ DO ~SetGlobal("ACQ122","GLOBAL",2) SetGlobal("ACQ12_KnowsMarina","MYAREA",1)~ + 7
+++ @97 /* ~(turn away)~ */ + 4
 END
 
 BEGIN ACQ12004
@@ -499,8 +525,8 @@ EXIT
 CHAIN
 IF ~~ THEN ACQ12002 24
 @171 = @172 = @173 DO ~AddJournalEntry(@10026,QUEST)~
-==ACQ12002 IF ~HasItem("ACQ12000","ACQ12002")~ THEN @174 DO ~SetGlobal("ACKnowsMelinaStory","GLOBAL",1)GiveItem("ACQ12000",LastTalkedToBy())~
-==ACQ12002 IF ~!HasItem("ACQ12000","ACQ12002")~ THEN @175 DO ~SetGlobal("ACKnowsMelinaStory","GLOBAL",1)~
+==ACQ12002 IF ~HasItem("ACQ12000","ACQ12002")~ THEN @174 DO ~SetGlobal("ACKnowsMarinaStory","GLOBAL",1)GiveItem("ACQ12000",LastTalkedToBy())~
+==ACQ12002 IF ~!HasItem("ACQ12000","ACQ12002")~ THEN @175 DO ~SetGlobal("ACKnowsMarinaStory","GLOBAL",1)~
 END
 IF ~Global("ACQ12","GLOBAL",4)~ THEN DO ~SetGlobal("ACQ122","GLOBAL",4)~ EXIT
 IF ~!Global("ACQ12","GLOBAL",4)~ THEN DO ~SetGlobal("ACQ122","GLOBAL",4)~ EXTERN ACQ12001 21

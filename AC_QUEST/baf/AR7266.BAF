@@ -20,10 +20,19 @@ THEN
 		CreateCreature("ACQ10110",[627.234],3)
 		CreateCreature("ACQ10109",[596.258],3)
 		ActionOverride("ACSecret",DestroyItem("ACQ10101")
-		ActionOverride("ACQ10109",Enemy())
+END
+
+IF
+	Global("ACQWOSTOK","GLOBAL",4)
+	Global("ACPREP","%NWBaldursGate_Tavern_L2%",1)
+THEN
+	RESPONSE #100
+		SetGlobal("ACPREP","%NWBaldursGate_Tavern_L2%",2)
 		ActionOverride("ACQ10110",CreateItem("ACQKEY02",0,0,0)
 		ActionOverride("ACQ10110",CreateItem("ACQLET06",0,0,0)
 		ActionOverride("ACQ10110",Enemy())
+		SmallWait(1)
+		ActionOverride("ACQ10109",Enemy())
 END
 
 IF
