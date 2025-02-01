@@ -291,10 +291,10 @@ VII. Historique des versions :
 -Spanish version added, by alaisFcZ
 -Aaron should be "NEUTRAL", not "GOODBUTBLUE"
 
-6.0 - 2025-01-28
+6.0 - 2025-02-01
 -Simplified Chinese version added, by huma628-design and yoshimo0417
 -"A Feast for the Gnolls": Killing the ghost will lead to a quest conclusion; revised the ghosts dialogue if she is talked to more than once.
--"A Home for the Gibberlings": more than 18 furs can be handed in, changed the mentioned number of Gibberlings from 20 to 18 in some languages.
+-"A Home for the Gibberlings": more than 18 furs can be handed in (failsave in case of cheated furs), changed the mentioned number of Gibberlings from 20 to 18 in some languages.
 -Crossmod-Compatibility with BG1NPC: prevent Dynaheir from complaining about robbing a house if it's Tonder's chest (House 9 in Beregost)
 -Add ACQ12000.ITM to itemexcl.2da (Aaron's Ring of Protection will not be stackable with other protective items)
 -dwarven assassins drop less magic armor
