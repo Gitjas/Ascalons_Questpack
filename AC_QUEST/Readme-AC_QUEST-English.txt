@@ -304,6 +304,10 @@ VII. Version history:
 -Instead of RNDTRE04 assign RNDTRE08 in BGT and EET in all cases
 -English is default (fall back) language for HANDLE_CHARSETS.
 
+6.1 - 2025-02-04
+-Spanish version completed with new line @20024 from setup-AC_QUEST.tra, by alaisFcZ. 
+Still missing: Italian
+
 ***************************************************************************************************************
 
 
