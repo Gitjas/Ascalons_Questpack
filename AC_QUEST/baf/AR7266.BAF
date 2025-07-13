@@ -10,36 +10,41 @@ END
 
 IF
 	Global("ACQWOSTOK","GLOBAL",3)
-	Global("ACPREP","%NWBaldursGate_Tavern_L2%",0)
 THEN
 	RESPONSE #100
+		SetInterrupt(FALSE)
 		SetGlobal("ACQWOSTOK","GLOBAL",4)
-		SetGlobal("ACPREP","%NWBaldursGate_Tavern_L2%",1)
 		CreateCreature("ACQ10125",[713.297],7)
 		CreateCreature("ACQ10126",[744.270],3)
 		CreateCreature("ACQ10110",[627.234],3)
 		CreateCreature("ACQ10109",[596.258],3)
-		ActionOverride("ACSecret",DestroyItem("ACQ10101")
+		ActionOverride("ACSecret",DestroyItem("ACQ10101"))
+		SetInterrupt(TRUE)
 END
 
 IF
 	Global("ACQWOSTOK","GLOBAL",4)
-	Global("ACPREP","%NWBaldursGate_Tavern_L2%",1)
+	Exists("ACQ10109")
+	Exists("ACQ10110")
+	Global("ACPREP","%NWBaldursGate_Tavern_L2%",0)
 THEN
 	RESPONSE #100
-		SetGlobal("ACPREP","%NWBaldursGate_Tavern_L2%",2)
-		ActionOverride("ACQ10110",CreateItem("ACQKEY02",0,0,0)
-		ActionOverride("ACQ10110",CreateItem("ACQLET06",0,0,0)
-		ActionOverride("ACQ10110",Enemy())
+		SetInterrupt(FALSE)
+		ActionOverride("ACQ10110",CreateItem("ACQKEY02",0,0,0))
 		SmallWait(1)
+		ActionOverride("ACQ10110",CreateItem("ACQLET06",0,0,0))
+		SmallWait(1)
+		ActionOverride("ACQ10110",Enemy())
 		ActionOverride("ACQ10109",Enemy())
+		SetGlobal("ACPREP","%NWBaldursGate_Tavern_L2%",2)
+		SetInterrupt(TRUE)
 END
 
 IF
 	Dead("ACQ10109")
 	Dead("ACQ10110")
 	!Global("ACQSNAKEWORK","GLOBAL",2)
-	Global("ACQWOSTOK","GLOBAL",3)
+	Global("ACQWOSTOK","GLOBAL",4)
 	Global("ACQUEST_JournalEntries","MYAREA",0)
 THEN
 	RESPONSE #100
@@ -62,6 +67,7 @@ IF
 	PartyHasItem("ACQ10101")
 	Global("ACQSNAKEWORK","GLOBAL",2)
 	!Global("ACQWOSTOK","GLOBAL",3)
+	!Global("ACQWOSTOK","GLOBAL",4)
 	Global("ACQUEST_JournalEntries","MYAREA",0)
 THEN
 	RESPONSE #100
