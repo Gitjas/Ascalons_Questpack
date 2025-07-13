@@ -309,6 +309,18 @@ VII. Versions-History:
 -Spanish version completed with new line @20024 from setup-AC_QUEST.tra, by alaisFcZ. 
 Still missing: Italian
 
+6.2 - 2025-07-13
+-Italian version completed and revised, by improb@bile.
+-Corrected text format errors in Italian version.
+-"Serpents of Abathor": hostile dwarves should drop storehouse key fix (scripted sincerely more stable).
+-"Serpents of Abathor": after hostile dwarves in Tavern are killed there should be journal entry.
+-"Serpents of Abathor": dwarf who has pamphlet should vanish if quest is done. (Fixed missing script).
+-"Serpents of Abathor": Contact of Zentharim should take the Gundmagtor and give the reward.
+-"A Feast for the Gnolls": if PC never talked to Barin, remove journal entry after Aaron is found.
+-"A Feast for the Gnolls": Aaron's ring is now tagged as a critical item.
+-corrected syntax of item descriptions (German version).
+-typo correction.
+
 ***************************************************************************************************************
 
 
