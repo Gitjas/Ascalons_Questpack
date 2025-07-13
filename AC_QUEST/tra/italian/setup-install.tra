@@ -1,22 +1,22 @@
-@5000001    = ~Teach Virginie, the invisible miracle Wonderbunny, a few new tricks~
-@5000002    = ~Install Virginie, the invisible Wonderbunny~
-@5000003    = ~A Job Well-Paid~
-@5000004    = ~This component is not compatible with this game.~
-@5000005    = ~A Feast for the Gnolls~
-@5000006    = ~Jumper~
-@5000007    = ~The Lost Son~
-@5000008    = ~Quest uses hut near Thalantyr in High Hedge.~
-@5000009    = ~Of Wolves and Men~
-@5000010    = ~Quest uses house in Beregost.~
-@5000011    = ~The Great Carlini~
-@5000012    = ~A Home for the Gibberlings~
-@5000013    = ~Fangirls~
-@5000014    = ~The Serpents of Abbathor~
-@5000015    = ~A Halfling among the Eyeless~
-@5000016    = ~This mod needs to be installed before EET_End on your EET install.~
+@5000001 = ~Insegna a Virginie, l'Invisibile Super Coniglio Magico, alcuni nuovi trucchi~
+@5000002 = ~Installa Virginie, l'Invisibile Super Coniglio~
+@5000003 = ~Un lavoro ben pagato~
+@5000004 = ~Questo componente non e compatibile con questo gioco.~
+@5000005 = ~Un banchetto per gli Gnoll~
+@5000006 = ~Jumper~
+@5000007 = ~Il figlio perduto~
+@5000008 = ~La missione usa una capanna vicino a Thalantyr ad Alta Siepe.~
+@5000009 = ~Sugli Uomini e i Lupi~
+@5000010 = ~La missione usa una casa a Beregost.~
+@5000011 = ~Il grande Carlini~
+@5000012 = ~Una casa per i Gibberling~
+@5000013 = ~Fangirls~
+@5000014 = ~I Serpenti di Abbathor~
+@5000015 = ~Un Halfling tra i Senza Occhi~
+@5000016 = ~Questa mod deve essere installata prima di EET_End sulla tua installazione di EET.~
 
-/* new for v5.0 */
-@5000017    = ~Original version~
-@5000018    = ~Tweaked version: quest can be finished in BG1.~
-@5000019    = ~Original version: Ugh and Jumper are inside the cave.~
-@5000020    = ~Alternative for compatibility: Ugh and Jumper are outside.~
+/* novità per la v5.0 */
+@5000017 = ~Versione originale~
+@5000018 = ~Versione modificata: la missione puo essere completata in BG1.~
+@5000019 = ~Versione originale: Ugh e Jumper sono dentro la caverna.~
+@5000020 = ~Alternativa per compatibilita: Ugh e Jumper sono fuori.~

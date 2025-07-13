@@ -91,6 +91,8 @@ Peso: 0
 
 @60   = ~Elminster è l'uccello ammaestrato di Geraldo, anche se nemmeno lui conosce la specie esatta. L'uccello ha un aspetto saggio e un'eccezionale avversione per i gibberling. Non appena ne sente uno emetterà un forte 'Kiwitt'.
 
+Senza l'uccello, sarebbe impossibile rintracciare i gibberling negli scantinati e nelle fogne, quindi abbi cura di lui..
+
 STATISTICHE:
 
 Peso: 1
@@ -176,145 +178,113 @@ Peso: 30
 ~
 
 /* new for v5.0 */
-@1005 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
+@1005 = ~Guerriero e sacerdote di Moradin, Wostok Testa di Martello era noto per il suo coraggio e la sua battaglia disinteressata contro i nani di superficie corrotti che adoravano il dio malvagio Abbathor. Quest'arma fu persa dai Serpenti di Abbathor quando Wostok cadde contro di loro mentre combatteva per liberare le miniere di Nashkel dalla loro occupazione, ma fu recuperata e purificata dal suo clan per servire ancora una volta la giusta causa contro il male.
 
-STATISTICS:
+STATISTICHE:
 
-Equipped abilities:
-– Bless
-
-THAC0: +3
-Damage: 2d4+3 (crushing), +2 extra vs. evil aignments
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
-
-Weight: 4~
-@1008 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-The master smith Cromwell improved the weapon so it will always return into the wielder's hand if thrown.
-
-STATISTICS:
-
-Equipped abilities:
-– Bless
-Combat abilities:
-– Returns to the wielder's hand when thrown
+Abilità durante l'uso:
+– Benedizione
 
 THAC0: +3
-Damage: 2d4+3, +2 extra vs. evil aignments
-Damage type (melee): Crushing
-Damage type (thrown): Missile
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
+Danni: 2d4+3 (contundente), +2 extra contro gli allineamenti malvagi
+Fattore-velocità: 1
+Tipo di competenza: Martello da guerra
+Tipo: A una mano
+Richiede:
+ Forza 9
 
-Weight: 4~
-@1009 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-The master smith Cromwell improved the weapon so it will always return into the wielder's hand if thrown. Cespenar improved the weapon further so it does more damage.
+Peso: 4~
+@1008 = ~Guerriero e sacerdote di Moradin, Wostok Testa di Martello era noto per il suo coraggio e la sua lotta disinteressata contro i nani di superficie corrotti che adoravano il dio malvagio Abbathor. Quest'arma fu persa dai Serpenti di Abbathor quando Wostok cadde contro di loro mentre combatteva per liberare le miniere di Nashkel dalla loro occupazione, ma fu recuperata e purificata dal suo clan per servire ancora una volta la giusta causa contro il male.
+Il maestro fabbro Cromwell ha migliorato l'arma in modo che torni sempre in mano a chi la brandisce se lanciata.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+– Benedizione
+Abilità in combattimento:
+– Quando lanciato ritorna in mano di chi lo brandisce
+
+THAC0: +3
+Danni: 2d4+3, +2 extra contro gli allineamenti malvagi
+Tipo di danno (mischia): Contundente
+Tipo di danno (da lancio): Proiettile
+Fattore-velocità: 1
+Tipo di competenza: Martello da guerra
+Tipo: A una mano
+Richiede:
+ Forza 9
+
+Peso: 4~
+@1009 = ~Guerriero e sacerdote di Moradin, Wostok Testa di Martello era noto per il suo coraggio e la sua lotta disinteressata contro i nani di superficie corrotti che adoravano il dio malvagio Abbathor. Quest'arma fu persa dai Serpenti di Abbathor quando Wostok cadde contro di loro mentre combatteva per liberare le miniere di Nashkel dalla loro occupazione, ma fu recuperata e purificata dal suo clan per servire ancora una volta la giusta causa contro il male.
+Il maestro fabbro Cromwell ha migliorato l'arma in modo che torni sempre in mano a chi la brandisce se lanciata. Cespenar l'ha ulteriormente migliorata in modo da farle infliggere ulteriori danni.
 
 STATISTICS:
 
-Equipped abilities:
-– Bless
-Combat abilities:
-– Returns to the wielder's hand when thrown
+Abilità durante l'uso:
+– Benedizione
+Abilità in combattimento:
+– Quando lanciato ritorna in mano di chi lo brandisce
 
 THAC0: +4
-Damage: 2d4+4, +2 extra vs. evil aignments
-Damage type (melee): Crushing
-Damage type (thrown): Missile
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
+Danni: 2d4+4, +2 extra contro gli allineamenti malvagi
+Tipo di danno (mischia): Contundente
+Tipo di danno (da lancio): Proiettile
+Fattore-velocità: 1
+Tipo di competenza: Martello da guerra
+Tipo: A una mano
+Richiede:
+ Forza 9
 
-Weight: 4~
-@1012 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-Cespenar improved the weapon so it does more damage.
+Peso: 4~
+@1012 = ~Guerriero e sacerdote di Moradin, Wostok Testa di Martello era noto per il suo coraggio e la sua lotta disinteressata contro i nani di superficie corrotti che adoravano il dio malvagio Abbathor. Quest'arma fu persa dai Serpenti di Abbathor quando Wostok cadde contro di loro mentre combatteva per liberare le miniere di Nashkel dalla loro occupazione, ma fu recuperata e purificata dal suo clan per servire ancora una volta la giusta causa contro il male.
+Cespenar ha migliorato l'arma in modo da farle infliggere ulteriori danni.
 
 STATISTICS:
 
-Equipped abilities:
-– Bless
+Abilità durante l'uso:
+– Benedizione
 
 THAC0: +5
-Damage: 2d4+5 (crushing), +2 extra vs. evil aignments
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: One-handed
-Requires:
- 9 Strength
+Danni: 2d4+5 (contundente), +2 extra contro gli allineamenti malvagi
+Fattore-velocità: 1
+Tipo di competenza: Martello da guerra
+Tipo: A una mano
+Richiede:
+ Forza 9
 
-Weight: 4~
-
-//#6742 BGII
-@80042 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
-
-STATISTICS:
-
-Damage: 1d8 (slashing)
-Speed Factor: 4
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
-
-Weight: 4~
-
-//#4421 BGII
-@80043 = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored. "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
-
-STATISTICS:
-
-THAC0: +1
-Damage: 1d8+1, +1 fire damage
-Damage type: Slashing
-Speed Factor: 4
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
-
-Weight: 4
-~
+Peso: 4~
 
 //#6742 BGII
-@80042 = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. Il più delle volte, la spada lunga ha una lama affilata soltanto da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura, e possono essere diverse anche nell'ambito della medesima cultura a seconda dell'epoca. Tuttavia, una delle caratteristiche più comuni delle spade lunghe è proprio la loro lunghezza, la quale varia dagli 87 ai 117 centimetri. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è concepita per tagliare, non per infilzare.
+@80042 = ~Queste spade sono solitamente chiamate spade a doppio taglio, spade da guerra o spade militari. In molti casi, la spada lunga ha una lama a un solo taglio. Non esiste un'unica versione della spada lunga; il design e la lunghezza variano da cultura a cultura e possono variare all'interno della stessa cultura a seconda dell'epoca. Tra le caratteristiche più comuni di tutte le spade lunghe c'è la loro lunghezza, che varia da 90 cm a 110 cm. In quest'ultimo caso, è noto che la lama occupa 110 cm della lunghezza totale. La maggior parte delle spade lunghe ha una lama a doppio taglio e una punta affilata. Nonostante la punta, la spada lunga è progettata per colpire di taglio, non di punta.
 
 STATISTICHE:
 
 Danno: 1d8 (tagliente)
 Fattore-velocità: 4
-Tipo di Competenza: Spada Lunga
+Tipo di competenza: Spada lunga
 Tipo: A una mano
 Richiede:
- 6 Forza
+6 Forza
 
 Peso: 4~
 
 //#4421 BGII
-@80043 = ~Questa lama brucia con un fuoco magico e ogni volta che infligge un colpo emette un'ondata di calore. "Meta Infernum" è inciso sull'elsa, anche se sembra un po' sbiadito e potrebbe non essere originale della spada.
+@80043 = ~Questa lama arde di un fuoco magico e ogni volta che un colpo va a segno si sprigiona un'esplosione carbonizzante. Sull'elsa è inciso "Meta Infernum", sebbene appaia un po' sbiadito e potrebbe non essere originale della spada.
 
 STATISTICHE:
 
 THAC0: +1
-Danno: 1d8+1, +1 danno da fuoco
-Tipo di danno: tagliente
+Danni: 1d8+1, +1 danni da fuoco
+Tipo di danno: Tagliente
 Fattore-velocità: 4
-Tipo di Competenza: Spada Lunga
+Tipo di competenza: Spada lunga
 Tipo: A una mano
 Richiede:
- 6 Forza
+6 Forza
 
 Peso: 4
 ~
 //#6742 BGII same as @80042
-
 
 //@80046 = only needed for BGT+Tutu
 
@@ -412,7 +382,7 @@ I cronisti presumono che il grande Geraldo rida a crepapelle all'idea che qualch
 STATISTICHE:
 
 Abilità durante l'uso:
-- Resistanza contro proiettile: +10%
+- Resistenza contro proiettile: +10%
 - Carisma: -3
 - Il personaggio diventa blu.
 - Può essere rimossa soltanto con l'incantesimo Scaccia Maledizione

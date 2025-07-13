@@ -1,51 +1,51 @@
-@0   = ~Tu laggi√π! Stai fermo e spiegati!~ 
+@0   = ~Tu laggi˘! Stai fermo e spiegati!~ 
 @1   = ~Non sono una minaccia, mia signora. Non cerco guai.~
 @2   = ~Mi chiamo <CHARNAME> e sono alla ricerca dei banditi.~ 
 @3   = ~E chi potresti essere tu?~
 @4   = ~Controlla le tue maniere!~ 
 @5   = ~Se stai cercando un combattimento, l'hai trovato!~
 @6   = ~Allora cosa ti porta nel Bosco Ammantato? Parla!~
-@7   = ~Il nome di <CHARNAME> mi √® ben noto. Beh, penso che ti creder√≤ per il momento. Ad essere onesta, potrei persino usare il tuo aiuto.~ 
+@7   = ~Il nome di <CHARNAME> mi Ë ben noto. Beh, penso che ti crederÚ per il momento. Ad essere onesta, potrei persino usare il tuo aiuto.~ 
 @8   = ~Cosa ti turba? Dimmi.~
-@9   = ~Ascolter√≤ quello che hai da dire.~ 
+@9   = ~AscolterÚ quello che hai da dire.~ 
 @10  = ~Ti aspetti che io ti aiuti dopo questo duro benvenuto?~
-@11  = ~Ho gi√† i miei problemi.~
+@11  = ~Ho gi‡ i miei problemi.~
 @12  = ~Mi chiamo Aphriel, una ranger in cerca di banditi.~ 
 @13  = ~Abbiamo un obiettivo comune, allora. Io sono <CHARNAME>.~
-@14  = ~Allora non c'√® motivo di essere cos√¨ scortese.~ 
-@15  = ~Ti aggiri in territori contesi, <RACE>. I banditi vagano per i boschi e, pi√π recentemente, i guerrieri pesantemente corazzati del Trono di Ferro. A parte questo, ultimamente i Druidi sono piuttosto irrequieti. Allora dimmi chi sei!~
+@14  = ~Allora non c'Ë motivo di essere cosÏ scortese.~ 
+@15  = ~Ti aggiri in territori contesi, <RACE>. I banditi vagano per i boschi e, pi˘ recentemente, i guerrieri pesantemente corazzati del Trono di Ferro. A parte questo, ultimamente i Druidi sono piuttosto irrequieti. Allora dimmi chi sei!~
 @16  = ~Stavo aspettando uno come te! Preparati a incontrare il tuo dio!~
 		~Stavo aspettando una come te! Preparati a incontrare il tuo dio!~
 @17  = ~Non sono in cerca di guai! Mi chiamo <CHARNAME> e sono alla ricerca dei banditi.~
 @18  = ~Aspetta! Tu chi sei?~ 
-@19  = ~Quello sar√† il tuo destino ora!~
+@19  = ~Quello sar‡ il tuo destino ora!~
 @20  = ~Muori!~ 
 @21  = ~*Sospira* Sto cercando mio figlio. I banditi lo hanno rapito.~ 
-@22  = ~Che ignominia! Ti aiuter√≤.~
-@23  = ~Perch√© queste persone fanno cose del genere?~ 
+@22  = ~Che ignominia! Ti aiuterÚ.~
+@23  = ~PerchÈ queste persone fanno cose del genere?~ 
 @24  = ~Hai idea di dove sia?~
 @25  = ~Pensi che sia ancora vivo?~
 @26  = ~Temo di non poterti aiutare.~
 @27  = ~Ti ringrazio. Sto cercando mio figlio. I banditi lo hanno rapito.~
-@28  = ~Per favore perdonami. Vedi, sono disperata. Sto cercando mio figlio che √® stato rapito dai banditi.~
-@29  = ~Se lo dici tu. Non credo che tu faccia parte dei banditi. Ma non ti sei guadagnato il mio rispetto. Procedi pure con quello che ti sembra cos√¨ importante.~	
-		~Se lo dici tu. Non credo che tu faccia parte dei banditi. Ma non ti sei guadagnata il mio rispetto. Procedi pure con quello che ti sembra cos√¨ importante.~
+@28  = ~Per favore perdonami. Vedi, sono disperata. Sto cercando mio figlio che Ë stato rapito dai banditi.~
+@29  = ~Se lo dici tu. Non credo che tu faccia parte dei banditi. Ma non ti sei guadagnato il mio rispetto. Procedi pure con quello che ti sembra cosÏ importante.~	
+		~Se lo dici tu. Non credo che tu faccia parte dei banditi. Ma non ti sei guadagnata il mio rispetto. Procedi pure con quello che ti sembra cosÏ importante.~
 @30  = ~Sono stata una ranger in questa zona per molto tempo fino a quando non mi sono ritirata alcuni anni fa con un commerciante locale a Baldur's Gate. Abbiamo fatto un bel po' di soldi ma ora i banditi chiedono un riscatto che non possiamo e non vogliamo pagare.~
-@31  = ~Quei predoni del Trono di Ferro hanno una base da qualche parte nella foresta. Immagino che lo tengano prigioniero l√¨.~
-@32  = ~Deve semplicemente vivere! Lui √® tutto per me! E considera che i banditi chiedono un riscatto per il loro ostaggio.~
-@33  = ~Ascolta, non ti chiedo di cercarlo e basta. Ma se lo trovassi per caso... Potresti accompagnarlo alla Locanda del Braccio Amico? Sar√† al sicuro l√¨. Pensaci. Ora devo proseguire.~
-@34  = ~Che gli d√®i ti benedicano, <CHARNAME>. Continuer√≤ la mia ricerca. Ci incontreremo alla Locanda del Braccio Amico se dovessi scoprire qualcosa.~
-@35  = ~Eccoti qua. Hai... cosa c'√®? Quello √®... oh no! Perwell!~
+@31  = ~Quei predoni del Trono di Ferro hanno una base da qualche parte nella foresta. Immagino che lo tengano prigioniero lÏ.~
+@32  = ~Deve semplicemente vivere! Lui Ë tutto per me! E considera che i banditi chiedono un riscatto per il loro ostaggio.~
+@33  = ~Ascolta, non ti chiedo di cercarlo e basta. Ma se lo trovassi per caso... Potresti accompagnarlo alla Locanda del Braccio Amico? Sar‡ al sicuro lÏ. Pensaci. Ora devo proseguire.~
+@34  = ~Che gli dËi ti benedicano, <CHARNAME>. ContinuerÚ la mia ricerca. Ci incontreremo alla Locanda del Braccio Amico se dovessi scoprire qualcosa.~
+@35  = ~Eccoti qua. Hai... cosa c'Ë? Quello Ë... oh no! Perwell!~
 @36  = ~Dammi mio figlio! Svelto!~
 @37  = ~Certamente. Mi dispiace.~
 @38  = ~E cosa ricevo io in cambio?~
 @39  = ~Spero non sia troppo tardi... un sacerdote! Ho bisogno di un sacerdote!~
 @40  = ~Sono un chierico. Fammi vedere se posso fare qualcosa.~
-@41  = ~Abbiamo assistenza divina con noi. <PLAYER2> pu√≤ aiutarti!~
-@42  = ~Abbiamo assistenza divina con noi. <PLAYER3> pu√≤ aiutarti!~
-@43  = ~Abbiamo assistenza divina con noi. <PLAYER4> pu√≤ aiutarti!~
-@44  = ~Abbiamo assistenza divina con noi. <PLAYER5> pu√≤ aiutarti!~
-@45  = ~Abbiamo assistenza divina con noi. <PLAYER6> pu√≤ aiutarti!~
+@41  = ~Abbiamo assistenza divina con noi. <PLAYER2> puÚ aiutarti!~
+@42  = ~Abbiamo assistenza divina con noi. <PLAYER3> puÚ aiutarti!~
+@43  = ~Abbiamo assistenza divina con noi. <PLAYER4> puÚ aiutarti!~
+@44  = ~Abbiamo assistenza divina con noi. <PLAYER5> puÚ aiutarti!~
+@45  = ~Abbiamo assistenza divina con noi. <PLAYER6> puÚ aiutarti!~
 @46  = ~Sono un druido. Fammi vedere se posso fare qualcosa.~
 @47  = ~Forse <PLAYER2> con un incantesimo druidico!~
 @48  = ~Forse <PLAYER3> con un incantesimo druidico!~
@@ -56,81 +56,89 @@
 @53  = ~Cosa ricevi in cambio? Ti eviti una freccia nella tua testa, ecco cosa ottieni!~
 @54  = ~Prendi tuo figlio. Mi dispiace.~
 @55  = ~Vieni a prenderlo.~
-@56  = ~Non toccarlo! Hai gi√† fatto abbastanza danni! Aiuto! Abbiamo bisogno di aiuto!~
+@56  = ~Non toccarlo! Hai gi‡ fatto abbastanza danni! Aiuto! Abbiamo bisogno di aiuto!~
 @57  = ~Aiuto! Abbiamo bisogno di aiuto!~
 @58  = ~Eccoti qua. Hai qualcosa da segnalare?~
 @59  = ~Ancora niente.~
-@60  = ~Ho trovato tuo figlio e l'ho mandato da te. Non √® ancora arrivato?~
+@60  = ~Ho trovato tuo figlio e l'ho mandato da te. Non Ë ancora arrivato?~
 @61  = ~Ho trovato tuo figlio.~
 @62  = ~Ti prego continua a cercare! So quanto sta soffrendo, lo sento!~
-@63  = ~Cosa? Dove? Sta bene? Perch√© non l'hai portato qui?~
+@63  = ~Cosa? Dove? Sta bene? PerchÈ non l'hai portato qui?~
 @64  = ~Sta bene. Ho pensato che marciare nella foresta al nostro ritmo sarebbe stato un disagio per lui, quindi l'ho lasciato in un posto sicuro.~
 @65  = ~Devo andare a prenderlo?~
-@66  = ~Sar√≤ felice di dirti dove si trova... per il giusto prezzo.~
+@66  = ~SarÚ felice di dirti dove si trova... per il giusto prezzo.~
 @67  = ~Cosa hai fatto? Sei pazzo? Non puoi esporre un bambino ai pericoli del Bosco Ammantato! Presto, devo vedere se riesco a trovarlo...~
 		~Cosa hai fatto? Sei pazza? Non puoi esporre un bambino ai pericoli del Bosco Ammantato! Presto, devo vedere se riesco a trovarlo...~
-@68  = ~Beh, √® un motivo un po' strano... ma posso comprendere come sei giunto a questa conclusione. Dimmi dov'√® e andr√≤ a prenderlo io stessa.~
-		~Beh, √® un motivo un po' strano... ma posso comprendere come sei giunta a questa conclusione. Dimmi dov'√® e andr√≤ a prenderlo io stessa.~
-@69  = ~√à nella vecchia miniera dei Nani di Orothiar.~
+@68  = ~Beh, Ë un motivo un po' strano... ma posso comprendere come sei giunto a questa conclusione. Dimmi dov'Ë e andrÚ a prenderlo io stessa.~
+		~Beh, Ë un motivo un po' strano... ma posso comprendere come sei giunta a questa conclusione. Dimmi dov'Ë e andrÚ a prenderlo io stessa.~
+@69  = ~» nella vecchia miniera dei Nani di Orothiar.~
 @70  = ~Per favore! Con tutta fretta, se non ti dispiace!~
 @71  = ~Cosa hai intenzione di dire?~
 @72  = ~Oh, niente. Stavo pensando ad alta voce. Si trova nella vecchia miniera dei Nani di Orothiar.~
 @73  = ~Niente. Vuoi che te lo vada a prendere?~
 @74  = ~Stavo pensando che incomincia a piacermi l'idea di un riscatto.~
-@75  = ~Allora andr√≤ a prenderlo personalmente. Ti ringrazio per l'informazione.~
+@75  = ~Allora andrÚ a prenderlo personalmente. Ti ringrazio per l'informazione.~
 @76  = ~Tu... sei senza cuore! Molto bene... non ho molto da darti. Solo il mio arco.~
-@77  = ~Lo prender√≤.~
-@78  = ~Non √® abbastanza per me.~
-@79  = ~Non importa... te lo dico gratuitamente. √à nella vecchia miniera dei Nani di Orothiar.~
-@80  = ~Spero che ti abbia rallegrato la giornata. E ora dimmi dov'√® mio figlio, dannato bastardo!~
-		~Spero che ti abbia rallegrato la giornata. E ora dimmi dov'√® mio figlio, dannata bastarda!~
+@77  = ~Lo prenderÚ.~
+@78  = ~Non Ë abbastanza per me.~
+@79  = ~Non importa... te lo dico gratuitamente. » nella vecchia miniera dei Nani di Orothiar.~
+@80  = ~Spero che ti abbia rallegrato la giornata. E ora dimmi dov'Ë mio figlio, dannato bastardo!~
+		~Spero che ti abbia rallegrato la giornata. E ora dimmi dov'Ë mio figlio, dannata bastarda!~
 @81  = ~Hmm... no... no, non ancora.~
 @82  = ~Ma non ho nient'altro con me oltre a una manciata di monete.~
-@83  = ~Allora prender√≤ l'arco.~
+@83  = ~Allora prenderÚ l'arco.~
 @84  = ~Allora probabilmente hai un problema.~
 @85  = ~Che l'Abisso ti colga!~
 @86  = ~Non aspettarti gratitudine da me, <GABBER>. Mi sono decisamente sbagliata sul tuo conto.~
 @87  = ~Aiuto! Per favore, liberami subito!~
-@88  = ~Ma certo, ragazzo. Spezzer√≤ le tue catene.~
+@88  = ~Ma certo, ragazzo. SpezzerÚ le tue catene.~
 @89  = ~Sei Perwell, giusto? Io sono <GABBER>. Tua madre ti sta cercando.~
 @90  = ~Hmm... no, non penso proprio.~
 @91  = ~Oh, grazie, <SIRMAAM>, grazie grazie grazie! I banditi mi hanno rapito per ricattare mia madre. Ma ora posso sfuggirgli!~
 @92  = ~Riesci a trovare da solo la via d'uscita?~
 @93  = ~Avanti ora, scappa.~
-@94  = ~Mi hai gi√† fatto perdere abbastanza tempo, ragazzo! Ora sparisci!~
-@95  = ~Conosci mia madre? Probabilmente √® gi√† preoccupata da morire! Per favore, liberami!~
+@94  = ~Mi hai gi‡ fatto perdere abbastanza tempo, ragazzo! Ora sparisci!~
+@95  = ~Conosci mia madre? Probabilmente Ë gi‡ preoccupata da morire! Per favore, liberami!~
 @96  = ~Non puoi farlo! Aiuto! Aiuto!!!~
-@97  = ~S√¨, penso di s√¨, ma...~
+@97  = ~SÏ, penso di sÏ, ma...~
 @98  = ~Con piacere, ma...~
 @99  = ~Per favore, <SIRMAAM>, non voglio infastidirti, ma...~
 @100 = ~So che siamo nel profondo del bosco e non conosco la strada per tornare a casa. Puoi... portarmi con te?~
 @101 = ~Posso farlo ma prima devo finire qualcosa qui.~
 @102 = ~Oh, ce la puoi fare, ragazzo.~
-@103 = ~Ne ho abbastanza di te! La mia pazienza √® finita!~
+@103 = ~Ne ho abbastanza di te! La mia pazienza Ë finita!~
 @104 = ~Yuppiee! Sei il migliore!~ 
 		~Yuppiee! Sei la migliore!~ 
-@105 = ~Sgattaioler√≤ fuori da qui e ti aspetter√≤ nel cortile interno! Si torna a casa!~
-@106 = ~Pu√≤ darsi... ma preferirei se potessi venire con te.~
-@107 = ~Molto bene. Ti porter√≤ con me ma prima devo finire qualcosa qui.~
-@108 = ~Oh per favore, niente sculacciate! Me ne sono gi√† andato!~
+@105 = ~SgattaiolerÚ fuori da qui e ti aspetterÚ nel cortile interno! Si torna a casa!~
+@106 = ~PuÚ darsi... ma preferirei se potessi venire con te.~
+@107 = ~Molto bene. Ti porterÚ con me ma prima devo finire qualcosa qui.~
+@108 = ~Oh per favore, niente sculacciate! Me ne sono gi‡ andato!~
 @109 = ~Eccoti! Possiamo andare adesso?~
-@110 = ~Il sentiero nella foresta √® molto pericoloso, figlio mio. Ti suggerisco di aspettare qui mentre vado a chiamare tua madre.~
+@110 = ~Il sentiero nella foresta Ë molto pericoloso, figlio mio. Ti suggerisco di aspettare qui mentre vado a chiamare tua madre.~
 @111 = ~Dovremmo partire adesso. Sei pronto?~
 @112 = ~Aspetta ancora un poco, stiamo per partire.~
-@113 = ~Va bene, aspetter√≤ qui.~
-@114 = ~S√¨, <SIRMAAM>, sono pronto. Ti seguir√≤ finch√© non mi avrai portato da mia madre. Non ti seguir√≤ in nessuna grotta, non voglio pi√π saperne.~
+@113 = ~Va bene, aspetterÚ qui.~
+@114 = ~SÏ, <SIRMAAM>, sono pronto. Ti seguirÚ finchÈ non mi avrai portato da mia madre. Non ti seguirÚ in nessuna grotta, non voglio pi˘ saperne.~
 @115 = ~Argh...~ [CHILM06]
 @116 = ~Perwell! Tesoro mio, eccoti qui!~
 @117 = ~Mamma! Mamma! Quest'avventuriero mi ha condotto attraverso i boschi!~
 		~Mamma! Mamma! Quest'avventuriera mi ha condotto attraverso i boschi!~
-@118 = ~Ero cos√¨ preoccupato per te. Che gli d√®i ti benedicano, <CHARNAME>.~
-@119 = ~Ma non avevo paura! √à stato fantastico! Quando sar√≤ grande voglio essere un avventuriero!~
-@120 = ~Ne discuteremo pi√π tardi, giovanotto.~
-@121 = ~E tu, <CHARNAME>. Non potr√≤ mai ringraziarti abbastanza. Per favore, prendi il mio arco come ricompensa per i tuoi sforzi. √à un buon arco e non mi ha mai delusa.~
-@122 = ~Prender√≤ l'arco e vorrei ringraziarti.~
+@118 = ~Ero cosÏ preoccupato per te. Che gli dËi ti benedicano, <CHARNAME>.~
+@119 = ~Ma non avevo paura! » stato fantastico! Quando sarÚ grande voglio essere un avventuriero!~
+@120 = ~Ne discuteremo pi˘ tardi, giovanotto.~
+@121 = ~E tu, <CHARNAME>. Non potrÚ mai ringraziarti abbastanza. Per favore, prendi il mio arco come ricompensa per i tuoi sforzi. » un buon arco e non mi ha mai delusa.~
+@122 = ~PrenderÚ l'arco e vorrei ringraziarti.~
 @123 = ~Tieni il tuo arco. I tuoi ringraziamenti sono sufficienti per me~
-@124 = ~Allora √® ora di partire. Dai, tesoro, andiamo a casa!~
-@125 = ~Oh s√¨. A casa da pap√†!~
+@124 = ~Allora Ë ora di partire. Dai, tesoro, andiamo a casa!~
+@125 = ~Oh sÏ. A casa da pap‡!~
 @126 = ~Abbi cura di te, amico mio.~
 		~Abbi cura di te, amica mia.~
-@127 = ~Possano gli d√®i benedirti per la tua gentilezza. Vieni, tesoro, andiamo a casa!~
+@127 = ~Possano gli dËi benedirti per la tua gentilezza. Vieni, tesoro, andiamo a casa!~
+
+
+
+
+
+/* new for v4.0 */
+//@35 last part
+@128  = ~E questo? Ma Ë... oh no! Perwell!~

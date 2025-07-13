@@ -1,6 +1,6 @@
 /* @0    = */
 @1    = ~Ascalon's Questpack~
-@2    = ~Nessuna installazione di BG trovata. L'installatione di Ascalon's Questpack verrà abortita.~
+@2    = ~Nessuna installazione di BG trovata. L'installazione di Ascalon's Questpack verrà abortita.~
 @3    = ~Insegna a Virginie, l'Invisibile Super Coniglio Magico, alcuni nuovi trucchi~
 @4    = ~Installa Virginie, l'Invisibile Super Coniglio~
 
@@ -26,16 +26,34 @@ Questo semplice anello è dotato di un incantesimo per proteggere chi lo indossa.
 STATISTICHE:
 
 Classe Armatura: +1 bonus
-Tiri-salvezza: +1 bonus~ //"light spell" fand ich missverständlich (Licht- / leicht)
+Tiri-salvezza: +1 bonus
+
+Peso:0~ //"light spell" fand ich missverständlich (Licht- / leicht)
+
 @22   = ~Kessy~
 @23   = ~Ugh~
 @24   = ~Coniglio~
 @25   = ~Allevatore di Conigli~
 @26   = ~Coniglio~
 @27   = ~Un piccolo coniglio bianco. Forse il più soffice che tu abbia mai visto.~
+
+
+
+
+
 @28   = ~Un piccolo coniglio bianco. Non è soffice come Zompo, ma quale coniglio potrebbe mai esserlo?~
+
+
+
+
+
 @29   = ~Perwell~
-@30   = ~Questo è il corpo di Perwell.~
+@30   = ~Questo è il corpo di Perwell.
+
+STATISTICHE:
+
+Peso: 110~
+
 @31   = ~Arco Lungo Elfico~
 @32   = ~Arco Lungo Elfico di Aphriel
 
@@ -62,7 +80,12 @@ Non utilizzabile da:
 @35   = ~Lupo Mannaro~
 @36   = ~Tonder~
 @37   = ~Corpo di Tonder~
-@38   = ~Dopo la morte il lupo mannaro si è ri-trasformato in un essere umano.~
+@38   = ~Dopo la morte il lupo mannaro si è ri-trasformato in un essere umano.
+
+STATISTICHE:
+
+Peso: 105
+~
 @39   = ~Bacche di Guril~
 @40   = ~Le bacche di guril sono un rimedio tradizionale nel Faerûn e vengono utilizzate per varie applicazioni. Sono particolarmente apprezzate per alleviare sofferenze di tipo 'speciale', motivo per cui queste bacche vengono spesso offerte dai negozi nelle vicinanze delle cortigiane.~ //"floozy" ist sehr umgangssprachlich
 @41   = ~Sangue di Aiwell~
@@ -76,13 +99,10 @@ Non utilizzabile da:
 
 STATISTICHE:
 
-
 Abilità durante l'uso:
-- Classe Armatura: +1
+- Classe Armatura: +2
 - Il personaggio è protetto contro tutti i tipi di pietrificazione e le forme di attacchi con lo sguardo.
-
 Richiede: Forza 12
-
 Non utilizzabile da:
 - Bardo
 - Ladro
@@ -186,9 +206,9 @@ Tipo di Competenza: Martello da Guerra
 Tipo:  A una mano
 Richiede: Forza 9
 Non utilizzabile da:
- Druid
+ Druido
  Mago
- Thief~
+ Ladro~
 @87   = ~Registro di Bashrik's~
 @88   = ~Il libro è scritto con una calligrafia accurata e riporta l'ultimo viaggio di Bashrik Sparklehammer. Bashrik era sulle tracce di una setta che si fa chiamare "I Serpenti di Abbathor". Per loro, Abbathor, l'unico dio malvagio tra i Morndinsamman, è considerato il liberatore e santo patrono dei nani di superficie.
 
@@ -221,7 +241,7 @@ Da quello che sai sui nani, un simile atto è il più grande sacrilegio di cui un 
 @106  = ~Jarger~
 @107  = ~Jarger Goldbart~
 @108  = ~Wostok~
-@109  = ~Wostok Hammerhead~
+@109  = ~Wostok Testa di Martello~
 @110  = ~Jassir~
 @111  = ~Jenna~
 @112  = ~Ombra~
@@ -237,100 +257,102 @@ Da quello che sai sui nani, un simile atto è il più grande sacrilegio di cui un 
 @122  = ~Jen~
 @123  = ~Emmi Wiesner~
 @124  = ~Bunger~
+
 /* new for v5.0 */
-@1000 = ~Gibberling Leather Armor~
-@1001 = ~Wostok's Body~
-@1002 = ~This is Wostok's Body, the dwarf warrior and priest you helped against the Serpents of Abbathor. The priest of Helm in Baldur's Gate will surely take him from you.
+@1000 = ~Armatura di Pelle di Gibberlin~
+@1001 = ~Corpo di Wostok~
+@1002 = ~Questo è il corpo di Wostok, il nano guerriero e sacerdote che hai aiutato contro i Serpenti di Abbathor. Il sacerdote di Helm a Baldur's Gate si occuperà senz'altro di lui.
 
-STATISTICS:
+STATISTICHE:
 
-Weight: 105~
+Peso: 105~
 @1003 = ~Baldar Goldbart~
-@1004 = ~Wostok's Hammer +3~
-@1005 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
+@1004 = ~Martello di Wostok +3~
+@1005 = ~Guerriero e sacerdote di Moradin, Wostok Testa di Martello era noto per il suo coraggio e la sua battaglia disinteressata contro i nani di superficie corrotti che adoravano il dio malvagio Abbathor. Quest'arma fu persa dai Serpenti di Abbathor quando Wostok cadde contro di loro mentre combatteva per liberare le miniere di Nashkel dalla loro occupazione, ma fu recuperata e purificata dal suo clan per servire ancora una volta la giusta causa contro il male.
 
-STATISTICS:
+STATISTICHE:
 
-Equipped abilities: Gives Bless effect upon wielder.
+Abilità durante l'uso:
+– Benedizione
 
-THAC0: +3 bonus
-Damage: 2D4 + 3, + 2 damage to creatures of evil alignment
-Damage type: crushing
-Weight: 4
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: 1-handed
-Requires: 9 Strength
-Not Usable By:
- Evil alignments
- Druid
- Mage
- Thief~
+THAC0: +3
+Danni: 2d4+3 (contundente), +2 extra contro gli allineamenti malvagi
+Fattore-velocità: 1
+Tipo di competenza: Martello da guerra
+Tipo: A una mano
+Richiede: Forza 9
+Peso: 4
+Non utilizzabile da:
+ Allineamenti malvagi
+ Druido
+ Mago
+ Ladro~
 @1006 = ~Gorgar Blaurock~
-@1007 = ~Zhentarim Emissary~
-@1008 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-The master smith Cromwell improved the weapon so it will always return into the wielder's hand if thrown.
+@1007 = ~Emissario Zhentarim~
+@1008 = ~Guerriero e sacerdote di Moradin, Wostok Testa di Martello era noto per il suo coraggio e la sua lotta disinteressata contro i nani di superficie corrotti che adoravano il dio malvagio Abbathor. Quest'arma fu persa dai Serpenti di Abbathor quando Wostok cadde contro di loro mentre combatteva per liberare le miniere di Nashkel dalla loro occupazione, ma fu recuperata e purificata dal suo clan per servire ancora una volta la giusta causa contro il male.
+Il maestro fabbro Cromwell ha migliorato l'arma in modo che torni sempre in mano a chi la brandisce se lanciata.
+
+STATISTICHE:
+
+Abilità durante l'uso: Benedizione
+Abilità in combattimento: Quando lanciato ritorna in mano di chi lo brandisce
+THAC0: +3
+Danni: 2d4+3, +2 extra contro gli allineamenti malvagi
+Tipo di danno (mischia): Contundente
+Tipo di danno (da lancio): Proiettile
+Fattore-velocità: 1
+Tipo di competenza: Martello da guerra
+Tipo: A una mano
+Richiede: Forza 9
+Peso: 4
+Non utilizzabile da:
+ Allineamenti malvagi
+ Druido
+ Mago
+ Ladro~
+@1009 = ~Guerriero e sacerdote di Moradin, Wostok Testa di Martello era noto per il suo coraggio e la sua lotta disinteressata contro i nani di superficie corrotti che adoravano il dio malvagio Abbathor. Quest'arma fu persa dai Serpenti di Abbathor quando Wostok cadde contro di loro mentre combatteva per liberare le miniere di Nashkel dalla loro occupazione, ma fu recuperata e purificata dal suo clan per servire ancora una volta la giusta causa contro il male.
+Il maestro fabbro Cromwell ha migliorato l'arma in modo che torni sempre in mano a chi la brandisce se lanciata. Cespenar l'ha ulteriormente migliorata in modo da farle infliggere ulteriori danni.
 
 STATISTICS:
 
-Equipped abilities: Gives Bless effect upon wielder.
-Combat Abilities: Returns to thrower
-THAC0: +3 bonus
-Damage: 2D4 + 3, + 2 damage to creatures of evil alignment
-Damage type (melee): crushing
-Damage type (thrown): missile
-Weight: 4
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: 1-handed
-Requires: 9 Strength
-Not Usable By:
- Evil alignments
- Druid
- Mage
- Thief~
-@1009 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-The master smith Cromwell improved the weapon so it will always return into the wielder's hand if thrown. Cespenar improved the weapon further so it does more damage.
+Abilità durante l'uso: Benedizione
+Abilità in combattimento: Quando lanciato ritorna in mano di chi lo brandisce
+THAC0: +4
+Danni: 2d4+4, +2 extra contro gli allineamenti malvagi
+Tipo di danno (mischia): Contundente
+Tipo di danno (da lancio): Proiettile
+Fattore-velocità: 1
+Tipo di competenza: Martello da guerra
+Tipo: A una mano
+Richiede: Forza 9
+Peso: 4
+Non utilizzabile da:
+ Allineamenti malvagi
+ Druido
+ Mago
+ Ladro~
+@1010 = ~Martello di Wostok +4~
+@1011 = ~Martello di Wostok +5~
+@1012 = ~Guerriero e sacerdote di Moradin, Wostok Testa di Martello era noto per il suo coraggio e la sua lotta disinteressata contro i nani di superficie corrotti che adoravano il dio malvagio Abbathor. Quest'arma fu persa dai Serpenti di Abbathor quando Wostok cadde contro di loro mentre combatteva per liberare le miniere di Nashkel dalla loro occupazione, ma fu recuperata e purificata dal suo clan per servire ancora una volta la giusta causa contro il male.
+Cespenar ha migliorato l'arma in modo da farle infliggere ulteriori danni.
 
 STATISTICS:
 
-Equipped abilities: Gives Bless effect upon wielder.
-Combat Abilities: Returns to thrower
-THAC0: +4 bonus
-Damage: 2D4 + 4, + 2 damage to creatures of evil alignment
-Damage type (melee): crushing
-Damage type (thrown): missile
-Weight: 4
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: 1-handed
-Requires: 9 Strength
-Not Usable By:
- Evil alignments
- Druid
- Mage
- Thief~
-@1010 = ~Wostok's Hammer +4~
-@1011 = ~Wostok's Hammer +5~
-@1012 = ~A warrior as well a priest of Moradin, Wostok Hammerhead was known for his bravery and selfless battle against the corrupted surface dwarves worshipping the evil god Abbathor. This weapon was lost to the Serpents of Abbathor when Wostok fell against them while fighting to free the Nashkel mines from their occupation, but it was secured and purified by his clan to serve the righteous cause against evil once more.
-Cespenar improved the weapon so it does more damage.
+Abilità durante l'uso: Benedizione
+THAC0: +5
+Danni: 2d4+5 (contundente), +2 extra contro gli allineamenti malvagi
+Fattore-velocità: 1
+Tipo di competenza: Martello da guerra
+Tipo: A una mano
+Richiede:
+ Forza 9
+Peso: 4
+Non utilizzabile da:
+ Allineamenti malvagi
+ Druido
+ Mago
+ Ladro~
 
-STATISTICS:
-
-Equipped abilities: Gives Bless effect upon wielder.
-THAC0: +5 bonus
-Damage: 2D4 + 5, + 2 damage to creatures of evil alignment
-Damage type: crushing
-Weight: 4
-Speed Factor: 1
-Proficiency Type: War Hammer
-Type: 1-handed
-Requires: 9 Strength
-Not Usable By:
- Evil alignments
- Druid
- Mage
- Thief~
 
 
 @5000 = ~Ehilà! Una parola, per favore!~
@@ -351,8 +373,7 @@ Not Usable By:
 @5015 = ~Birrabollos ko valla allamatillo!~
 @5016 = ~Cosa...~
 @5017 = ~Mamma!~
-@5018 = ~Avventuriero! Salute!~
-		~Avventuriera! Salute!~
+@5018 = ~Avventuriero! Salute!~ ~Avventuriera! Salute!~
 @5019 = ~Vieni qui!~
 @5020 = ~Ho bisogno di parlarti!~
 @5021 = ~KIWITT!~
@@ -385,8 +406,8 @@ Cosa non si farebbe per mille milioni di monete d'oro. La vita dell'avventuriera
 L'orco Ugh ha restituito Zompo in modo da poter rendere felice Kessy. Ora tocca a me mantenere la mia promessa e trovare un coniglio sostitutivo - Kessy ha menzionato suo padre al Carnevale.~
 @10006 = ~Alla Ricerca di Zompo
 
-Siamo riusciti a riportare a Kessy il suo coniglio preferito. Ora ricordo perché mi piace essere un avventuriero.~
-		~Alla Ricerca di Zompo
+Siamo riusciti a riportare a Kessy il suo coniglio preferito. Ora ricordo perché mi piace essere un avventuriero.~ 
+         ~Alla Ricerca di Zompo
 
 Siamo riusciti a riportare a Kessy il suo coniglio preferito. Ora ricordo perché mi piace essere un'avventuriera.~
 @10007 = ~Un Nuovo Miglior Amico per Ugh
@@ -467,9 +488,12 @@ Aphriel sta ora cercando suo figlio lei stessa. Almeno l'ho salvato dalla minier
 @10032 = ~Alla Ricerca di Perwell
 
 Aphriel e suo figlio sono felicemente riuniti.~
+/* rephrased for v4.0 */
 @10033 = ~Sugli Uomini e i Lupi
 
-Il marito di Aiwell sembra essere stato infettato dalla licantropia. Probabilmente ho due opzioni per risolvere il problema: o con una pozione che posso ottenere da Thalantyr, o quella di spada vecchio stile.~
+Il marito della maga Aiwell sembra essere stato contagiato dalla licantropia. Probabilmente ho due opzioni per risolvere il problema: con una pozione che posso ottenere da Thalantyr, oppure con la vecchia soluzione della spada.
+
+La sua casa è la capanna proprio accanto alla dimora di Thalantyr.~
 @10034 = ~Sugli Uomini e i Lupi
 
 Thalantyr ha elencato diversi modi. Può mescolare la pozione con il sangue di Aiwell, il che è altamente discutibile. Oppure può usare bacche di Guril che non sempre funzionano. Il migliore sarebbe un elisir di belladonna. Mi ha anche detto che sarà in grado di preparare solo una delle pozioni.
@@ -483,33 +507,33 @@ Thalantyr ha acquistato veolentieri il cadavere di Thonder in cambio di una spad
 Aiwell e Thonder sono stati felicissimi che abbia liber liberato l'uomo dalla sua maledizione.~
 
 /* new for v2.05 */
-@10037 = ~Of Wolves and Men
+@10037 = ~Sugli Uomini e i Lupi
 
-A woman shouted at me in front of Thalantyr's abode, but I am not sure what she was referring to. Maybe it had something to do with the werewolf I killed inside the house nearby?~
+Una donna mi ha urlato contro davanti alla dimora di Thalantyr, ma non sono sicuro a cosa si riferisse. Forse aveva a che fare con il lupo mannaro che ho ucciso nella casa lì vicino?~
 
-@10038 = ~Of Wolves and Men
+@10038 = ~Sugli Uomini e i Lupi
 
-I decided for the healing potion out of Guril berries. Now all that is left to do is to give it to the werewolf somehow.~
+Ho optato per la pozione curativa a base di bacche di Guril. Ora non mi resta che somministrarla in qualche modo al lupo mannaro.~
 
-@10039 = ~Of Wolves and Men
+@10039 = ~Sugli Uomini e i Lupi
 
-I decided for the healing potion out of Aiwell's blood. Now all that is left to do is to give it to the werewolf somehow.~
+Ho optato per la pozione curativa ricavata dal sangue di Aiwell. Ora non mi resta che somministrarla in qualche modo al lupo mannaro.~
 
-@10040 = ~Of Wolves and Men
+@10040 = ~Sugli Uomini e i Lupi
 
-I decided for the healing potion out of belladonna. Now all that is left to do is to give it to the werewolf somehow.~
+Ho optato per la pozione curativa alla belladonna. Ora non mi resta che somministrarla in qualche modo al lupo mannaro.~
 
-@10041 = ~Of Wolves and Men
+@10041 = ~Sugli Uomini e i Lupi
 
-Dang, the healing potion did not work, and I had to kill the werewolf. I guess I should tell Aiwell the sad news...~
+Accidenti, la pozione curativa non ha funzionato e ho dovuto uccidere il lupo mannaro. Credo che dovrei dare la triste notizia ad Aiwell....~
 
-@10042 = ~Of Wolves and Men
+@10042 = ~Sugli Uomini e i Lupi
 
-Aiwell was sad indeed when she heard about her husband's death. She went away without leaving a trace...~
+Aiwell è stata davvero triste quando ha appreso della morte del marito. Se n'è andata senza lasciare traccia....~
 
-@10043 = ~Of Wolves and Men
+@10043 = ~Sugli Uomini e i Lupi
 
-What a fruitless day. Aiwell lost her husband, the husband is... well, dead, Thalantyr didn't get a werewolf corpse for his research, and I didn't get a reward for my efforts. Next time, I really need to watch where I put my trophies!~
+Che giornata infruttuosa. Aiwell ha perso il marito, il marito è... beh, morto, Thalantyr non ha ricevuto un cadavere di lupo mannaro per le sue ricerche e io non ho ricevuto una ricompensa per i miei sforzi. La prossima volta, devo proprio stare attenta a dove metto i miei trofei!~
 
 @20001 = ~Il Culto dell'Occhio Offuscato - Bunger Wiesner
 
@@ -532,6 +556,10 @@ Bunger Wiesner è tornato da sua madre. La vecchia signora vorrà sicuramente ring
 @20023 = ~Una Misteriosa Offerta
 
 Un messaggero mi ha portato un invito dal suo padrone. Sebbene manterrà segreto il suo nome, in qualche modo ha un interesse per me. Se voglio partecipare a questa riunione, allora dovrò incontrare il messaggero al Diadema Incoronato.~
+/* new in v 6.0 */
+@20024 = ~Un Fantasma ai Picchi delle Nuvole
+
+Abbiamo informato Aaron che la sua fidanzata, cioè il fantasma, è morta.~
 
 
 //BG:EE Compatibility
@@ -575,32 +603,12 @@ Un messaggero mi ha portato un invito dal suo padrone. Sebbene manterrà segreto 
 @80036 = ~Di solito non parlo con persone come te, ma salve.~ [NOBFE03] //#61643
 @80037 = ~~ [NOBFE07] //#61647
 @80038 = ~~ [NOBFE08] //#61648
-@80039 = ~Pelle d'Orco +3~ //#6365
+//@80039 = ~Pelle d'Orco +3~ //#6365
 @80040 = ~Gibberling Mutato~ //#2286
 @80041 = ~Arciere Scheletro~ //#73272
-@80042 = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. Il più delle volte, la spada lunga ha una lama affilata soltanto da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura, e possono essere diverse anche nell'ambito della medesima cultura a seconda dell'epoca. Tuttavia, una delle caratteristiche più comuni delle spade lunghe è proprio la loro lunghezza, la quale varia dagli 87 ai 117 centimetri. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è concepita per tagliare, non per infilzare.
 
-STATISTICHE:
-
-Danno:  1D8
-Tipo di danno:  tagliente
-Peso: 4
-Fattore-velocità: 5
-Tipo di Competenza: Spada Lunga
-Tipo:  A una mano
-Richiede: Forza 6~ //#6742
-@80043 = ~Questa lama brucia con un fuoco magico e ogni volta che infligge un colpo emette un'ondata di calore. "Meta Infernum" è inciso sull'elsa, anche se sembra un po' sbiadito e potrebbe non essere originale della spada.
-
-STATISTICHE:
-
-THAC0: +1 bonus
-Danno:  1D8 +1, +1 danno da fuoco
-Tipo di danno:  tagliente
-Peso: 4
-Fattore-velocità: 5
-Tipo di Competenza: Spada Lunga
-Tipo:  A una mano
-Richiede: Forza 6~ //#4421
+//@80042 = /* description for EE */
+//@80043 = /* description for EE */
 @80044 = ~Spada Lunga~ //#2893
 @80045 = ~Spada di Fiamma +1~ //#4422
 @80046 = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. Il più delle volte, la spada lunga ha una lama affilata soltanto da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura, e possono essere diverse anche nell'ambito della medesima cultura a seconda dell'epoca. Tuttavia, una delle caratteristiche più comuni delle spade lunghe è proprio la loro lunghezza, la quale varia dagli 87 ai 117 centimetri. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è concepita per tagliare, non per infilzare.
@@ -660,13 +668,13 @@ Richiede:
  Forza 8
 
 Peso: 9~//#39557
-@80050 = ~Robe of the Apprenti~//#37573	
-@80051 = ~This robe was created by your apprentices, working busily away within the planar sphere.
+@80050 = ~Tunica dell'Apprendista~//#37573	
+@80051 = ~Questa tunica è stata creata dai tuoi apprendisti, lavorando alacremente all'interno della sfera planare.
 
 STATISTICHE:
 
 Abilità durante l'uso:
-– Classe Armatura: 3
+- Classe Armatura: 3
 
 Peso: 3~//#39649	
 @80052 = ~Martello Tonante~//#7781
@@ -723,6 +731,8 @@ Forza 15
 Peso: 45~ //#66422
 @80060 = ~Umber Hulk~
 
+@80061 = ~Fionda +2~
+
 //Journal Titles
 @90001 = ~I Bulli Belli di Ballner~
 //@90002 = ~Il Figlio Scomparso~
@@ -736,70 +746,11 @@ Peso: 45~ //#66422
 @90010 = ~Una Misteriosa Offerta~
 @90011 = ~Un Picnic da Dimenticare~
 
-//EE Descriptions
-@100032   = ~Arco Lungo Elfico di Aphriel
-
-Fin dalla tenera età l'elfa Aphriel ha vagato per le foreste del Faerûn diventando una delle più grandi Ranger del nostro tempo. Non c'era profumo che non potesse seguire e nessun criminale era al sicuro dal suo arco. Fu solo dopo aver incontrato un commerciante locale in visita alla città di Baldur's Gate e essersene perdutamente innamorata, che i suoi giorni nella foresta giunsero a una fine. La loro relazione fu benedetta con il giovane mezzelfo Perwell, e quando è stato rapito dai banditi della Costa della Spada, Aphriel si è avviata per l'ultima volta nelle foreste. Durante questo viaggio l'arco è giunto nelle mani di <CHARNAME>.
-
-STATISTICHE:
-
-THAC0: +3
-Danno: +2 (proiettile)
-Fattore-velocità: 5
-Tipo di Competenza: Arco Lungo
-Tipo: A Due Mani
-
-Richiede:
-Forza 6
-
-Peso: 2~
-@100048   = ~Questo scudo è lucidato a specchio e ovviamente magico. I graffi scompaiono e sangue e sporco semplicemente scorrono dalla sua superficie riflettente. Si può presumere che possa persino resistere allo sguardo di un basilisco.
-
-STATISTICHE:
-
-Abilità durante l'uso:
-- Classe Armatura: +1
-- Il personaggio è protetto contro tutti i tipi di pietrificazione e le forme di attacchi con lo sguardo.
-
-Richiede:
-Forza 12
-
-Peso: 7~
-@100058   = ~Armatura di Pelle di Gibberling
-
-Uno degli incovenienti del lavoro di Geraldo con i gibberling era l'alta produzione di pelle. Poiché il pittore aveva bisogno solo della pelliccia per i suoi colori, cercò un uso diverso per la pelle spessa dei mostri... e lo trovò. Sfortunatamente, la pelle dei gibberling aveva alcuni effetti collaterali inaspettati e quindi Geraldo attese con impazienza un'anima credulona a cui rifilare il suo esperimento.
-
-I cronisti presumono che il grande Geraldo rida a crepapelle all'idea che qualche idiota avrebbe trovato questa armatura effettivamente utile.
-
-STATISTICHE:
-
-Abilità durante l'uso:
-- Resistanza contro proiettile: +10%
-- Carisma: -3
-- Il personaggio diventa blu.
-- Può essere rimossa soltanto con l'incantesimo Scaccia Maledizione
-
-Classe Armatura: 4
-
-Richiede:
-Forza 6
-
-Peso: 7~
-@100086   = ~Il sacerdote di Moradin, Bashrik Sparklehammer, era considerato saggio e leale all'interno della comunità dei nani liberali. Ha continuato a combattere contro la secessione dei nani di superficie e generalmente ha goduto di un'ottima reputazione. Questo martello, caricato dai fulmini di Moradin, era la sua arma più potente nella lotta contro il male.
-
-STATISTICHE:
-
-THAC0: +2
-Danno: 1d4+3, +1 punto di danno da elettricità
-Tipo di danno: Contundente
-Fattore-velocità: 2
-Tipo di Competenza: Martello da Guerra
-Tipo: A una mano
-
-Richiede:
-Forza 9
-
-Peso: 5~
+//EE Descriptions, not needed for BGT/BGII
+//@100032
+//@100048
+//@100058
+//@100086
 
 //Karlini Journals
 @2000001   = ~Karlini il Magnifico - Il libro degli incantesimi di Karlini il Magnifico
@@ -856,10 +807,8 @@ Ho trovato tutti i rimanenti gibberling. Quando ho informato Geraldo se ne è and
 Ho detto a Geraldo di non volermi più occupare della faccenda. Ha borbottato qualcosa sul cercare fortuna altrove e se ne è andato.~
 
 @3000006   = ~Allevamento di Gibberling a Baldur's Gate~
-
-@3000007  = ~I Serpenti di Abbathor
-
-Ho assistito a un'imboscata sulla Strada della Costa e ho trovato un diario di un nano di nome Bashrik. Dovrei portarlo al Tempio di Helm a Baldur's Gate.~
+/* deprecated */
+//@3000007
 
 @3000008  = ~I Serpenti di Abbathor
 
@@ -877,13 +826,12 @@ Una maga di nome Jenna conserva un manufatto per i nani. Lei e il suo compagno J
 
 Ho deciso di non aiutare ulteriormente i nani.~
 
-@3000012  = ~I Serpenti di Abbathor
-
-Jenna è stata uccisa dai servi del Serpente e il manufatto è stato preso. Dovrei tornare a Wostock e riferirglielo!~
+//@3000012
 
 @3000013  = ~I Serpenti di Abbathor
 
 Ho accettato di dare un'occhiata a un magazzino nel distretto sud-orientale di Baldur's Gate. Crediamo che sia il nascondiglio dei Serpenti di Abbathor. Avrò bisogno di una chiave per entrare.~
+
 
 /* new for v4.0 */
 //@10037 rephrased with location in Beregost
@@ -900,123 +848,123 @@ La sua casa è una piccola abitazione al confine sud-ovest di Beregost.~
 
 
 /* new for v5.0 */
-@3000016  = ~The Serpents of Abbathor
+@3000016  = ~I Serpenti di Abbathor
 
-I gave the dwarven journal to Draglon who is in the Undercellars, and I fear I have lost my way to contact the other mentioned dwarf, Wostok, who the journal was actually meant for. Maybe there is still a way to ask for him in the temple of Helm in Baldur's Gate if I have more insight into this cult "Serpents of Abbathor".~
-@3000017  = ~The Serpents of Abbathor
+Ho dato il diario nanico a Draglon, che si trova nelle Cantine, e temo di aver perso la strada per contattare l'altro nano menzionato, Wostok, a cui in realtà era destinato il diario. Forse c'è ancora un modo per chiedere di lui al tempio di Helm a Baldur's Gate, se trovo maggiori informazioni su questo culto dei "Serpenti di Abbathor".~
+@3000017  = ~I Serpenti di Abbathor
 
-I met a dwarf in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but what it is about he wouldn't tell me and instead left with a threat about a powerful enemy I made... I wished people wouldn't be so thin-skinned. Maybe I'll learn more about what he meant - my gut is telling me that I will need a dwarf in my group to find such information.~
-@3000018  = ~The Serpents of Abbathor
+Ho incontrato un nano nelle Cantine che mi ha accolto come congiunto, ma non mi ha voluto dire di cosa si trattasse e se n'è andato con una minaccia riguardo a un nemico potente che mi ero creato... Vorrei che la gente non fosse così permalosa. Forse scoprirò di più su cosa intendeva: il mio istinto mi dice che avrò bisogno di un nano nel mio gruppo per trovare queste informazioni.~
+@3000018  = ~I Serpenti di Abbathor
 
-I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, but he didn't like how I asked for more information and left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go and look for this Wostok inside the temple of Helm in Baldur's Gate.~
-@3000019  = ~The Serpents of Abbathor
+Ho mostrato il diario di Bashrik a Draglon, il contatto dei Serpenti di Abbathor, ma non gli è piaciuto il fatto che gli ho chiesto più informazioni e se n'è andato con una minaccia su un potente nemico che avevo creato... Credo che la mia possibilità migliore per ottenere maggiori informazioni sia andare a cercare questo Wostok all'interno del tempio di Helm a Baldur's Gate.~
+@3000019  = ~I Serpenti di Abbathor
 
-I confronted Draglon, the contact of the Serpents of Abbathor, but he didn't like how I asked for more information and left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go around with the cult pamphlet and see whether anyone knows something about it.~
-@3000020  = ~The Serpents of Abbathor
+Ho affrontato Draglon, il contatto de I Serpenti di Abbathor, ma non gli è piaciuto il fatto che gli ho chiesto più informazioni e se n'è andato con una minaccia su un nemico potente che mi ero fatto... Credo che la mia possibilità migliore per ottenere maggiori informazioni sia quella di andare in giro con l'opuscolo del culto e vedere se qualcuno ne sa qualcosa.~
+@3000020  = ~I Serpenti di Abbathor
 
-I met Draglon, the contact of the Serpents of Abbathor, in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but when I declined to work for the cult he left with a threat about a powerful enemy I made... Maybe I'll learn more about what he meant if I have more insight into this cult "Serpents of Abbathor".~
-@3000021  = ~The Serpents of Abbathor
+Ho incontrato Draglon, il contatto de I Serpenti di Abbathor, nella Cantina Sotterranea, che mi ha accolto come un congiunto, ma quando ho rifiutato di lavorare per la setta se n'è andato con una minaccia riguardante un nemico potente che mi ero creato... Forse scoprirò di più su cosa intendeva se avrò una conoscenza più approfondita di questa setta, i "Serpenti di Abbathor".~
+@3000021  = ~I Serpenti di Abbathor
 
-I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, but when I declined to work for the cult he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go and look for this Wostok inside the temple of Helm in Baldur's Gate.~
-@3000022  = ~The Serpents of Abbathor
+Ho mostrato il diario di Bashrik a Draglon, il contatto de I Serpenti di Abbathor, ma quando ho rifiutato di lavorare per il culto se n'è andato con una minaccia riguardante un nemico potente che mi ero creato... Credo che la mia possibilità migliore per ottenere maggiori informazioni a riguardo sia quella di andare a cercare questo Wostok all'interno del tempio di Helm a Baldur's Gate.~
+@3000022  = ~I Serpenti di Abbathor
 
-I met Draglon, the contact of the Serpents of Abbathor, but when I declined to work for the cult he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go around with the cult pamphlet and see whether anyone knows something about it.~
-@3000023  = ~The Serpents of Abbathor
+Ho incontrato Draglon, il contatto de I Serpenti di Abbathor, ma quando ho rifiutato di lavorare per la setta se n'è andato con una minaccia riguardante un nemico potente che mi ero fatto... Credo che la cosa migliore che posso fare per ottenere maggiori informazioni sia quella di andare in giro con l'opuscolo della setta e vedere se qualcuno ne sa qualcosa.~
+@3000023  = ~I Serpenti di Abbathor
 
-I met Draglon, the contact of the Serpents of Abbathor, in the Undercellar who greeted me as a <PRO_BROTHERSISTER>, but when I threatened him he left with a threat about a powerful enemy I made... Maybe I'll learn more about what he meant if I have more insight into this cult "Serpents of Abbathor".~
-@3000024  = ~The Serpents of Abbathor
+Ho incontrato Draglon, il contatto dei Serpenti di Abbathor, nelle Cantine che mi ha accolto come un congiunto, ma quando l'ho affrontato se n'è andato con una minaccia su un potente nemico che mi ero creato... Forse scoprirò di più su cosa intendesse se avrò una visione più approfondita di questo culto dei "Serpenti di Abbathor".~
+@3000024  = ~I Serpenti di Abbathor
 
-I showed Bashrik's journal to Draglon, the contact of the Serpents of Abbathor, but when I threatened him he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go and look for this Wostok inside the temple of Helm in Baldur's Gate.~
-@3000025  = ~The Serpents of Abbathor
+Ho mostrato il diario di Bashrik a Draglon, il contatto dei Serpenti di Abbathor, ma quando l'ho affrontato se n'è andato con una minaccia riguardante un nemico potente che avevo creato... Credo che la mia possibilità migliore per ottenere maggiori informazioni sia quella di andare a cercare questo Wostok all'interno del tempio di Helm a Baldur's Gate.~
+@3000025  = ~I Serpenti di Abbathor
 
-I met Draglon, the contact of the Serpents of Abbathor, but when I threatened him he left with a threat about a powerful enemy I made... I guess my best bet to get more information about this is to go around with the cult pamphlet and see whether anyone knows something about it.~
-@3000026  = ~The Serpents of Abbathor
+Ho incontrato Draglon, il contatto de I Serpenti di Abbathor, ma quando l'ho affrontato se n'è andato minacciando un nemico potente che mi ero fatto... Credo che la cosa migliore che posso fare per ottenere maggiori informazioni sia andare in giro con l'opuscolo del culto e vedere se qualcuno ne sa qualcosa.~
+@3000026  = ~I Serpenti di Abbathor
 
-Sigh - I made an enemy out of *another* evil organization who thought I'd play the henchman for them. I guess they are dangerous enough but we'll see whether they'll send more than one group of assassins after me if they realize I might be dangerous, myself.~
-@3000027  = ~The Serpents of Abbathor
+Sigh - Mi sono fatto un nemico con *un'altra* organizzazione malvagia che ha pensato che avrei fatto loro da scagnozzo. Immagino che siano già abbastanza pericolosi, ma vedremo se mi manderanno più di un gruppo di assassini alle calcagna se si renderanno conto che potrei essere pericoloso anch'io.~
+@3000027  = ~I Serpenti di Abbathor
 
-I agreed to kill Wostok and his comrades for Draglon, the contact of the Serpents of Abbathor. Wostok was last seen in the Temple of Helm in Baldur's Gate. When I'm done, I will find Draglon again in the Undercellars.~
-@3000028  = ~The Serpents of Abbathor
+Ho accettato di uccidere Wostok e i suoi compagni per conto di Draglon, il contatto dei Serpenti di Abbathor. Wostok è stato visto l'ultima volta nel Tempio di Helm a Baldur's Gate. Quando avrò finito, ritroverò Draglon nelle Cantine.~
+@3000028  = ~I Serpenti di Abbathor
 
-Wostok is dead.~
-@3000029  = ~The Serpents of Abbathor
+Wostok è morto.~
+@3000029  = ~I Serpenti di Abbathor
 
-A mage named Jenna keeps an artifact for the dwarves. She and her companion Jassir reside in the Northwestern District's tavern. I need to go there and retrieve the ancient dwarvern artifact from them.~
-@3000030  = ~The Serpents of Abbathor
+Una maga di nome Jenna custodisce un manufatto per i nani. Lei e il suo compagno Jassir risiedono nella taverna del Distretto Nordoccidentale. Devo andare lì e recuperare l'antico manufatto nanico da loro.~
+@3000030  = ~I Serpenti di Abbathor
 
-I have the Gundmagtor, the dwarven artifact Draglon wanted me to retrieve. I should return to the Undercellars and give it to him.~
-@3000031  = ~The Serpents of Abbathor
+Ho il Gundmagtor, l'artefatto nanico che Draglon voleva che recuperassi. Dovrei tornare alle Cantine e consegnarglielo.~
+@3000031  = ~I Serpenti di Abbathor
 
-Draglon gave me a key to a warehouse in south east Baldur's Gate where the Serpents of Abbathor have a meeting. I am invited and should join with them to discuss my further affiliation to the cult.~
-@3000032  = ~The Serpents of Abbathor
+Draglon mi ha dato la chiave di un magazzino a sud-est di Baldur's Gate, dove i Serpenti di Abbathor terranno un incontro. Sono invitato e dovrei unirmi a loro per discutere della mia futura affiliazione al culto.~
+@3000032  = ~I Serpenti di Abbathor
 
-I'll find Wostok who can give me answers to the Serpents of Abbathor in the sewers.~
+Troverò Wostok che potrà darmi le risposte sui Serpenti di Abbathor nelle fogne.~
 /* former @3000007 with more details */
-@3000033  = ~The Serpents of Abbathor
+@3000033  = ~I Serpenti di Abbathor
 
-I witnessed an ambush at the Coast Way and found a journal from a dwarf named Bashrik. It mentions two factions: Draglon from the Serpents of Abbathor, a cult who worship an evil dwarven god, and Wostok who was investigating the cult. Wostok was supposed to meet with Bashrik in the Temple of Helm in Baldur's Gate. Draglon from the cult was last seen in the Undercellar.~
-@3000034  = ~The Serpents of Abbathor
+Ho assistito a un'imboscata sulla Strada della Costa e ho trovato il diario di un nano di nome Bashrik. Menziona i membri di due fazioni: Draglon dei Serpenti di Abbathor, una setta che venera una divinità nanica malvagia, e Wostok, che stava indagando sulla setta. Wostok avrebbe dovuto incontrare Bashrik nel Tempio di Helm a Baldur's Gate. Draglon del culto è stato visto l'ultima volta nelle Cantine.~
+@3000034  = ~I Serpenti di Abbathor
 
-I didn't agree to help Wostok further against the Serpents of Abbathor, but I think I could still check out this Draglon from the cult in the Undercellars if I feel like it.~
-@3000035  = ~The Serpents of Abbathor
+Non ho accettato di aiutare ulteriormente Wostok contro I Serpenti di Abbathor, ma penso che potrei comunque dare un'occhiata a questo Draglon del culto nelle Cantine se ne avessi voglia.~
+@3000035  = ~I Serpenti di Abbathor
 
-I should go to the the temple of Helm in Baldur's Gate again to meet Wostok.~
+Dovrei andare di nuovo al tempio di Helm a Baldur's Gate per incontrare Wostok.~
 /* @3000012 with more info */
-@3000036  = ~The Serpents of Abbathor
+@3000036  = ~I Serpenti di Abbathor
 
-Jenna was killed by the Serpent's minions, and the artefact was taken. I should return to Wostock in the temple of Helm in Baldur's Gate and tell him about it!~
-@3000037  = ~The Serpents of Abbathor
+Jenna è stata uccisa dai tirapiedi del Serpente e il manufatto è stato rubato. Dovrei tornare da Wostock, nel tempio di Helm a Baldur's Gate, e riferirglielo!~
+@3000037  = ~I Serpenti di Abbathor
 
-We granted Wostok's plea to die by our hand - I would lie if I said we fulfilled his request without emotions. I hope he and his friends are now in whatever afterlife they were wishing for.~
-@3000038  = ~The Serpents of Abbathor
+Ho accettato di esaudire la richiesta di Wostok che chiedeva di morire per mano mia: mentirei se dicessi che ho esaudito la sua richiesta a cuor leggero. Spero che lui e i suoi amici siano ora nell'aldilà che desideravano..~
+@3000038  = ~I Serpenti di Abbathor
 
-Wostok plead to die by our hand instead of waiting for his wounds to take him. Never would I have thought that this would be our last act of help we would need to do for him.~
+Wostok ha implorato di morire per mano mia piuttosto che aspettare che le sue ferite lo finissero. Non avrei mai pensato che questo sarebbe stato il mio ultimo gesto d'aiuto.~
 
 @3000050  = ~Wostok
 
-I should bring Wostok's body to the temple in Helm in Baldur's Gate. I am sure the priest knows how to get him to his clan.~
+Dovrei portare il corpo di Wostok al tempio di Helm a Baldur's Gate. Sono sicuro che il sacerdote saprà come farlo arrivare al suo clan.~
 @3000051  = ~Wostok
 
-I brought Wostok to the priest of Helm. He will see to his and his friends' bodies being transferred to his clan for a proper burial.~
+Ho portato Wostok dal sacerdote di Helm. Si occuperà che il suo corpo e quelli dei suoi amici vengano trasferiti al suo clan per una degna sepoltura.~
 @3000052  = ~Wostok~
 
-@3000054  = ~What to do with the Gundmagtor?~
-@3000055  = ~What to do with the Gundmagtor?
+@3000054  = ~Cosa fare con il Gundmagtor?~
+@3000055  = ~Cosa fare con il Gundmagtor?
 
-The Gundmagtor, an ancient, evil dwarven artefact which I have no use for is now in my possession. Question is what I will do with it now. Keeping it seems pointless - maybe there are better people than an evil dwarf cult interested in it? Wostok's friends for example - the priest in the temple of Helm in Baldur's Gate should know about it. Or I could show it to mages who are used to handling powerful artefacts - destroying this thing so noone else can misuse it would be a valid option, too.~
-@3000056  = ~What to do with the Gundmagtor?
+Il Gundmagtor, un antico e malvagio manufatto nanico il cui scopo non mi è chiaro, è ora in mio possesso. La domanda è cosa ne farò ora. Tenerlo mi sembra inutile: forse ci sono persone migliori di un malvagio culto nanico interessate? Gli amici di Wostok, per esempio: il sacerdote del tempio di Helm a Baldur's Gate dovrebbe saperlo. Oppure potrei mostrarlo a maghi abituati a maneggiare manufatti potenti: distruggere quest'oggetto in modo che nessun altro possa abusarne sarebbe un'altra valida opzione.~
+@3000056  = ~Cosa fare con il Gundmagtor?
 
-The Gundmagtor, an ancient, evil dwarven artefact which I have no use for is now in my possession. Question is what I will do with it now. Keeping it seems pointless - I could show it to mages used to handling powerful artefacts.~
-@3000057  = ~What to do with the Gundmagtor?
+Il Gundmagtor, un antico e malvagio manufatto nanico il cui scopo non mi è chiaro, è ora in mio possesso. La domanda è cosa ne farò ora. Tenerlo mi sembra inutile: potrei mostrarlo a maghi abituati a maneggiare manufatti potenti.~
+@3000057  = ~Cosa fare con il Gundmagtor?
 
-I gave the Gundmagtor, the ancient evil dwarven artefact to the priest of Helm. He will transfer it to Wostok's friends - I am sure they'll know what to do with it so it won't cause harm ever again.~
-@3000058  = ~What to do with the Gundmagtor?
+Ho dato il Gundmagtor, l'antico manufatto nanico malvagio, al sacerdote di Helm. Lo consegnerà agli amici di Wostok: sono sicuro che sapranno cosa farne affinché non causi più danni.~
+@3000058  = ~Cosa fare con il Gundmagtor?
 
-I sold the Gundmagtor, the ancient evil dwarven artefact to an emissary of the Zhentarim for a nice sum of gold.~
-@3000059  = ~What to do with the Gundmagtor?
+Ho venduto il Gundmagtor, l'antico e malvagio manufatto dei nani, a un emissario degli Zhentarim in cambio di una bella somma di oro.~
+@3000059  = ~Cosa fare con il Gundmagtor?
 
-An emissary of the Zhentarim offered me to buy the dwarven artefact Gundmagtor. He sounded very determined to obtain the artefact. I can find him in the Blushing Mermaid.~
-@3000060  = ~What to do with the Gundmagtor?
+Un emissario degli Zhentarim mi ha offerto di acquistare il manufatto nanico Gundmagtor. Sembrava molto determinato a ottenerlo. Lo potrò trovare alla Sirenetta Timida.~
+@3000060  = ~Cosa fare con il Gundmagtor?
 
-I gave the Gundmagtor, the ancient evil dwarven artefact to Thalantyr in High Hedge. He will destroy it. This cost me 1000 gold, so I hope he does it thoroughly!~
-@3000061  = ~What to do with the Gundmagtor?
+Ho dato il Gundmagtor, l'antico manufatto nanico malvagio, a Thalantyr ad Alta Siepe. Lo distruggerà. Mi è costato 1000 monete d'oro, quindi spero che lo faccia a regola d'arte!~
+@3000061  = ~Cosa fare con il Gundmagtor?
 
-Thalantyr, the mage in High Hedge, offered to destroy the dwarven artefact Gundmagtor. He wants 1000 gold as compensation for the expenses!~
-@3000062  = ~What to do with the Gundmagtor?
+Thalantyr, il mago di Alta Siepe, si è offerto di distruggere il manufatto nanico Gundmagtor. Vuole 1000 monete d'oro come rimborso spese!~
+@3000062  = ~Cosa fare con il Gundmagtor?
 
-Well, Halbazzer Drin is no help here. He flat out rejected to even look at the Gundmagtor further.~
+Beh, Halbazzer Drin non è d'aiuto in questo caso. Si è rifiutato categoricamente di dare un'occhiata più approfondita al Gundmagtor.~
 
 /* BG2 follow up for good path */
 //@3000080  =
 @3000081  = ~Una Misteriosa Offerta
 
-Would you look at that - the dwarf who approached me was one of two good friends of Wostok, the dwarven warrior and priest I assisted against the evil dwarven cult "Serpents of Abbathor" lead by Lugosch, who I drove out of the Nashkel mines. How could I forget brave Wostok who's last wish was to rather die by my hand than wait for his wounds to take him... They gave me his hammer, a mighty weapon by the looks of it, and asked me to tell of Wostok's bravery whenever anyone asks about this weapon.~
+Ma guarda un po': il nano che mi si è avvicinato era uno dei due amici più intimi di Wostok, il guerriero e sacerdote nano che ho aiutato contro il malvagio culto nanico dei "Serpenti di Abbathor" guidato da Lugosch, che ho scacciato dalle miniere di Nashkel. Come potrei dimenticare il coraggioso Wostok, il cui ultimo desiderio è stato di morire per mano mia piuttosto che aspettare che le sue ferite lo finissero... Mi hanno dato il suo martello, un'arma possente a giudicare dall'aspetto, e mi hanno chiesto di raccontare il coraggio di Wostok ogni volta che qualcuno mi chiederà di quest'arma.~
 //@3000082  =
-@3000083  = ~Cromwell can enchant Wostok's hammer so I can throw him, too! For that, he'd need a scroll of Enchanted Weapon, a scroll of Melf's Minute Meteors, and a Diamond, and probably a sum of gold he didn't specify yet.~
-@3000084  = ~Cespenar can upgrade Wostok's hammer with a hammer +2 and 10,000 gold.~
-@3000085  = ~Cespenar can upgrade Wostok's hammer with a hammer +2, a scroll of Enchanted Weapon, a diamond, and 10,000 gold.~
-@3000086  = ~The Serpents of Abbathor
+@3000083 = ~Cromwell può incantare il martello di Wostok così da poterlo lanciare! Avrebbe bisogno di una pergamena di Arma Incantata, una pergamena di Piccole Meteore di Melf e un Diamante e, probabilmente, una somma d'oro che non ha ancora specificato.~
+@3000084 = ~Cespenar può potenziare il martello di Wostok con un martello +2 e 10.000 monete d'oro.~
+@3000085 = ~Cespenar può potenziare il martello di Wostok con un martello +2, una pergamena di Arma Incantata, un Diamante e 10.000 monete d'oro.~
+@3000086 = ~I Serpenti di Abbathor
 
-I have a strong feeling that I will need a dwarf in my group to receive such information..~
+Ho la netta sensazione che avrò bisogno di un nano nel mio gruppo per ricevere ulteriori informazioni...~
 
 

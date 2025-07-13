@@ -1,16 +1,16 @@
 @0    = ~Salve, <BROTHERSISTER>.~
-@1    = ~Perch√© ti rivolgi a me in quel modo?~
+@1    = ~PerchÈ ti rivolgi a me in quel modo?~
 @2    = ~Ah, sei tornato!~
 		~Ah, sei tornata!~
 @3    = ~Posso avere un altro di quegli opuscoli?~
 @4    = ~Devo andarmene nuovamente.~
-@5    = ~Siamo nani che abitano in superficie, motivo per cui ci considero fratelli. Prendi questa. La lettera ti guider√† e risponder√† alle tue domande inespresse.~
+@5    = ~Siamo nani che abitano in superficie, motivo per cui ci considero fratelli. Prendi questa. La lettera ti guider‡ e risponder‡ alle tue domande inespresse.~
 @6    = ~Certamente.~
 @7    = ~Lasciami stare. Tratto solo con quelli della mia razza.~
 @8    = ~Non mi hai sentito? Maledizione, sei veramente ottuso, persino per un <RACE>...~
 		~Non mi hai sentito? Maledizione, sei veramente ottusa, persino per un <RACE>...~
 @9    = ~Ehm. A Dio tutta la gloria?~
-@10   = ~Cos'√® questo?~
+@10   = ~Cos'Ë questo?~
 @11   = ~E tutto l'oro ai nani.~
 @12   = ~Ed il mondo ai nani.~
 @13   = ~E tutti i gioielli ai nani.~
@@ -20,269 +20,269 @@
 @17   = ~E tutto l'oro a me.~
 @18   = ~Ed il mondo a me.~
 @19   = ~E tutti i gioielli a me.~
-@20   = ~√à una specie di codice?~
+@20   = ~» una specie di codice?~
 @21   = ~Perdonami.~
 @22   = ~Sappiamo cosa stai architettando! Confessa!~
 @23   = ~Rispondi e basta.~
 @24   = ~Non dici sul serio, vero?~
-@25   = ~Non so chi sei n√© mi interessa - tutto quello che so √® che hai scoperto troppo!~
+@25   = ~Non so chi sei nÈ mi interessa - tutto quello che so Ë che hai scoperto troppo!~
 @26   = ~Eccellente. Mulahey ha deciso?~
 @27   = ~Mulahey desidera un'alleanza.~
 @28   = ~Declina la tua offerta.~
-@29   = ~Mulahey √® morto.~
+@29   = ~Mulahey Ë morto.~
 @30   = ~Se sei stato veramente mandato da me, allora conoscerai la parola d'ordine...?~
 		~Se sei stata veramente mandata da me, allora conoscerai la parola d'ordine...?~
 @31   = ~Mmpf.~
-@32   = ~√à cos√¨? Non so chi sei n√© mi interessa - tutto quello che so √® che hai scoperto troppo!~
-@33   = ~Eccellente. Riferisci al tuo maestro che avr√† presto nostre notizie. I Serpenti di Abbathor mantengono la parola data!~
+@32   = ~» cosÏ? Non so chi sei nÈ mi interessa - tutto quello che so Ë che hai scoperto troppo!~
+@33   = ~Eccellente. Riferisci al tuo maestro che avr‡ presto nostre notizie. I Serpenti di Abbathor mantengono la parola data!~
 @34   = ~I Serpenti di Abbathor? Chi sono?~
 @35   = ~Gielo diremo.~
 @36   = ~Non lavoro per Mulahey! Sono qui per fermarvi!~
-@37   = ~Un vero peccato. Per favore, riferisci al tuo maestro che ora spetta ai Serpenti di Abbathor eseguire il passo successivo. E che non ne sar√† contento, molto probabilmente.~
-@38   = ~√à una minaccia?~
-@39   = ~√à cos√¨? E chi potrebbe esserne responsabile? Ho un'idea al riguardo...~
-@40   = ~Mi chiedevo perch√© non assomigliassi alla solita marmaglia in combutta con quella feccia.  Indipendentemente da ci√≤, non so chi sei n√© mi interessa - tutto quello che so √® che hai scoperto troppo!~
-@41   = ~Il tuo padrone lo sapr√†. Cerca l√¨ le tue risposte, non √® mia intenzione illuminare i suoi sottoposti se ha scelto di tenerli all'oscuro dei suoi piani.~
+@37   = ~Un vero peccato. Per favore, riferisci al tuo maestro che ora spetta ai Serpenti di Abbathor eseguire il passo successivo. E che non ne sar‡ contento, molto probabilmente.~
+@38   = ~» una minaccia?~
+@39   = ~» cosÏ? E chi potrebbe esserne responsabile? Ho un'idea al riguardo...~
+@40   = ~Mi chiedevo perchÈ non assomigliassi alla solita marmaglia in combutta con quella feccia.  Indipendentemente da ciÚ, non so chi sei nÈ mi interessa - tutto quello che so Ë che hai scoperto troppo!~
+@41   = ~Il tuo padrone lo sapr‡. Cerca lÏ le tue risposte, non Ë mia intenzione illuminare i suoi sottoposti se ha scelto di tenerli all'oscuro dei suoi piani.~
 @42   = ~E digli anche di tenere d'occhio le vie commerciali. Il crocevia a nord di qui potrebbe vedere presto un po' di azione!~
-@43   = ~Digli solo di tenere d'occhio le vie commerciali. A qualcuno verr√† data una lezione al crocevia a nord di qui.~
-@44   = ~Perch√© quella pausa, Bashrik?~
-@45   = ~C'√® qualcosa che non va.~
+@43   = ~Digli solo di tenere d'occhio le vie commerciali. A qualcuno verr‡ data una lezione al crocevia a nord di qui.~
+@44   = ~PerchÈ quella pausa, Bashrik?~
+@45   = ~C'Ë qualcosa che non va.~
 @46   = ~Cosa?~
 @47   = ~Non lo so... rimaniamo pronti.~
 @48   = ~Una decisione stupida! Ti stai inimicando qualcuno di potente oltre la tua immaginazione!~
 @49   = ~Benvenuto, fratello. Posso esserti d'aiuto?~
 		~Benvenuta, sorella. Posso esserti d'aiuto?~
-@50   = ~Sei Draglon? Il tuo nome √® menzionato in questo diario.~
+@50   = ~Sei Draglon? Il tuo nome Ë menzionato in questo diario.~
 @51   = ~Ho ricevuto questo opuscolo. Che cosa significa esattamente?~
 @52   = ~Perdonami.~
-@53   = ~E sei venuto qui il pi√π velocemente possibile? Una saggia decisione! Benvenuto tra i Serpenti di Abbathor. Come possiamo aiutarti?~
-		~E sei venuta qui il pi√π velocemente possibile? Una saggia decisione! Benvenuta tra i Serpenti di Abbathor. Come possiamo aiutarti?~
+@53   = ~E sei venuto qui il pi˘ velocemente possibile? Una saggia decisione! Benvenuto tra i Serpenti di Abbathor. Come possiamo aiutarti?~
+		~E sei venuta qui il pi˘ velocemente possibile? Una saggia decisione! Benvenuta tra i Serpenti di Abbathor. Come possiamo aiutarti?~
 @54   = ~Chi sei?~
 @55   = ~Chi sono i Serpenti di Abbathor?~
 @56   = ~Potrei essere arruolato se puoi pagare l'oro necessario.~
 		~Potrei essere arruolata se puoi pagare l'oro necessario.~
 @57   = ~Come posso unirmi ai Serpenti?~
-@58   = ~Buon giorno, <RACE>. Sono nel mezzo di una questione, per favore torna pi√π tardi.~
-@59   = ~Dai un'occhiata qui, il tuo nome √® menzionato in questo diario.~
-@60   = ~Troverai il tempo. Qual √® l'intento di questo opuscolo?~
+@58   = ~Buon giorno, <RACE>. Sono nel mezzo di una questione, per favore torna pi˘ tardi.~
+@59   = ~Dai un'occhiata qui, il tuo nome Ë menzionato in questo diario.~
+@60   = ~Troverai il tempo. Qual Ë l'intento di questo opuscolo?~
 @61   = ~Come desideri.~
 @62   = ~L'opuscolo! Dove lo hai preso? Restituiscilo!~
-@63   = ~Non √® un tuo problema.~
-@64   = ~L'ho trovato per strada e me lo terr√≤!~
+@63   = ~Non Ë un tuo problema.~
+@64   = ~L'ho trovato per strada e me lo terrÚ!~
 @65   = ~*SAGGEZZA* Ti sembra saggio iniziare una colluttazione in un edificio pubblico?~
-@66   = ~*INTELLIGENZA* Tu vuoi tenere un basso profilo, Draglon. Se non collabori, *attirer√≤* l'attenzione del Pugno Fiammante sulla tua operazione. Ci siamo capiti?~
+@66   = ~*INTELLIGENZA* Tu vuoi tenere un basso profilo, Draglon. Se non collabori, *attirerÚ* l'attenzione del Pugno Fiammante sulla tua operazione. Ci siamo capiti?~
 @67   = ~*FORZA* Ascolta attentamente, Draglon. Parla, o te ne pentirai amaramente! Mi sono spiegato?~
 		~*FORZA* Ascolta attentamente, Draglon. Parla, o te ne pentirai amaramente! Mi sono spiegata?~
 @68   = ~Va bene, ecco.~
 @69   = ~Interessante, posso vedere?~
-@70   = ~Questo √® il diario di Bashrik, non √® vero? Dammelo! Non hai idea dell'errore madornale che stai compiendo!~
+@70   = ~Questo Ë il diario di Bashrik, non Ë vero? Dammelo! Non hai idea dell'errore madornale che stai compiendo!~
 @71   = ~L'abbiamo visto finire assassinato. Parla!~
 @72   = ~Non hai davvero idea in cosa ti stai cacciando, ragazzo.~
 		~Non hai davvero idea in cosa ti stai cacciando, donna.~
-@73   = ~Non hai davvero... aspetta, tu sei... <CHARNAME>, di Candlekeep, vero? Questa... questa... s√¨ che √® una vera sorpresa.~
-@74   = ~Non hai davvero... aspetta, tu sei... <GABBER>, della compagnia di <CHARNAME> di Candlekeep? Questa... questa... s√¨ che √® una vera sorpresa.~
-@75   = ~Possano i tuoi d√®i aiutarti a capire il terribile errore che hai commesso... ti sei fatto un potente nemico!~
-		~Possano i tuoi d√®i aiutarti a capire il terribile errore che hai commesso... ti sei fatta un potente nemico!~
+@73   = ~Non hai davvero... aspetta, tu sei... <CHARNAME>, di Candlekeep, vero? Questa... questa... sÏ che Ë una vera sorpresa.~
+@74   = ~Non hai davvero... aspetta, tu sei... <GABBER>, della compagnia di <CHARNAME> di Candlekeep? Questa... questa... sÏ che Ë una vera sorpresa.~
+@75   = ~Possano i tuoi dËi aiutarti a capire il terribile errore che hai commesso... ti sei fatto un potente nemico!~
+		~Possano i tuoi dËi aiutarti a capire il terribile errore che hai commesso... ti sei fatta un potente nemico!~
 @76   = ~Mmm. Quello che dici sembra ragionevole, <RACE>.~
-@77   = ~Oh oh! Non c'√® motivo di arrabbiarsi.~
-@78   = ~Ehi! Calmati! Non c'√® bisogno di violenza!~
-@79   = ~Grazie, <BROTHERSISTER>. Sei pi√π ragionevole di quanto pensassi.~
-@80   = ~Molto ragionevole. Permettimi una parola di avviso verso una persona perbene: controlla i tuoi passi, perch√© hai scoperto troppo. Ti sei fatto un potente nemico!~
-		~Molto ragionevole. Permettimi una parola di avviso verso una persona perbene: controlla i tuoi passi, perch√© hai scoperto troppo. Ti sei fatta un potente nemico!~
+@77   = ~Oh oh! Non c'Ë motivo di arrabbiarsi.~
+@78   = ~Ehi! Calmati! Non c'Ë bisogno di violenza!~
+@79   = ~Grazie, <BROTHERSISTER>. Sei pi˘ ragionevole di quanto pensassi.~
+@80   = ~Molto ragionevole. Permettimi una parola di avviso verso una persona perbene: controlla i tuoi passi, perchÈ hai scoperto troppo. Ti sei fatto un potente nemico!~
+		~Molto ragionevole. Permettimi una parola di avviso verso una persona perbene: controlla i tuoi passi, perchÈ hai scoperto troppo. Ti sei fatta un potente nemico!~
 @81   = ~Forse siamo partiti con il piede sbagliato, riproviamo.~
 @82   = ~Mi chiamo Draglon e sono l'intermediario tra i Sottonani dei Serpenti e i nani espulsi dai Pianbassi. Mostro loro la via per le braccia verso il Signore dei Tesori.~
-@83   = ~Abbathor non √® un dio malvagio?~
+@83   = ~Abbathor non Ë un dio malvagio?~
 @84   = ~I Sottonani?~
 @85   = ~I Pianbassi?~
-@86   = ~Benigno, malvagio, qual √® il punto? Clangeddin ci ha insegnato a non mostrare piet√† in battaglia e la punizione preferita di Berronar √® l'esilio dal clan. Lascia che te lo dica,: tutto ci√≤ che conta √® diventare vincenti. E in fretta, anche!~
-@87   = ~√à cos√¨ che chiamiamo i leader della nostra organizzazione. - Per gli abitanti della superficie pu√≤ sembrare strano, ma tra i nani si usa dire: per scavare l√† dove nessun nano ha mai scavato prima!~
+@86   = ~Benigno, malvagio, qual Ë il punto? Clangeddin ci ha insegnato a non mostrare piet‡ in battaglia e la punizione preferita di Berronar Ë l'esilio dal clan. Lascia che te lo dica,: tutto ciÚ che conta Ë diventare vincenti. E in fretta, anche!~
+@87   = ~» cosÏ che chiamiamo i leader della nostra organizzazione. - Per gli abitanti della superficie puÚ sembrare strano, ma tra i nani si usa dire: per scavare l‡ dove nessun nano ha mai scavato prima!~
 @88   = ~I Pianbassi sono quei nani che vivono nelle caverne dei loro antenati e dei loro antenati prima di loro, ritenendosi migliori nel farlo. Ah! - quasi come coboldi, tutti loro!~
-@89   = ~Ascolta, <BROTHERSISTER>. Sembri degno di fiducia, ma dobbiamo seguire le regole. Ti verr√† assegnato un compito che dovrai svolgere per dimostrare di essere degno di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocato davanti ai Serpenti stessi e imparare di pi√π.~
-		~Ascolta, <BROTHERSISTER>. Sembri degna di fiducia, ma dobbiamo seguire le regole. Ti verr√† assegnato un compito che dovrai svolgere per dimostrare di essere degna di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocata davanti ai Serpenti stessi e imparare di pi√π.~
-@90   = ~Va bene, lavorer√≤ per te.~
-@91   = ~Penso che sarebbe molto pi√π facile, e pi√π divertente, estorcerti semplicemente la verit√†.~
+@89   = ~Ascolta, <BROTHERSISTER>. Sembri degno di fiducia, ma dobbiamo seguire le regole. Ti verr‡ assegnato un compito che dovrai svolgere per dimostrare di essere degno di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocato davanti ai Serpenti stessi e imparare di pi˘.~
+		~Ascolta, <BROTHERSISTER>. Sembri degna di fiducia, ma dobbiamo seguire le regole. Ti verr‡ assegnato un compito che dovrai svolgere per dimostrare di essere degna di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocata davanti ai Serpenti stessi e imparare di pi˘.~
+@90   = ~Va bene, lavorerÚ per te.~
+@91   = ~Penso che sarebbe molto pi˘ facile, e pi˘ divertente, estorcerti semplicemente la verit‡.~
 @92   = ~Ne vale la pena?~
-@93   = ~Non alzer√≤ un dito per gente come te!~
-@94   = ~Mmpf. Ascolta, <RACE> - questa √® una questione nanica e deve rimanere tale... Ma la mia razza ha bisogno di espandersi e forse tu sei solo il martello che stavamo cercando. Ti dico una cosa: ti assegner√≤ un compito da completare per dimostrare di essere degno di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocato davanti ai Serpenti stessi e imparare di pi√π.~
-		~Mmpf. Ascolta, <RACE> - questa √® una questione nanica e deve rimanere tale... Ma la mia razza ha bisogno di espandersi e forse tu sei solo il martello che stavamo cercando. Ti dico una cosa: ti assegner√≤ un compito da completare per dimostrare di essere degna di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocata davanti ai Serpenti stessi e imparare di pi√π.~
-@95   = ~I Serpenti di Abbathor hanno abbastanza oro per soddisfare la tua avidit√†, <RACE>... e se prenderai sul serio la tua offerta ti renderai conto che siamo tutt'altro che parsimoniosi.~
-@96   = ~Sembri degno di fiducia, ma dobbiamo seguire le regole. Ti verr√† assegnato un compito che dovrai svolgere per dimostrare di essere degno di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocato davanti ai Serpenti stessi e imparare di pi√π.~
-		~Sembri degna di fiducia, ma dobbiamo seguire le regole. Ti verr√† assegnato un compito che dovrai svolgere per dimostrare di essere degna di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocata davanti ai Serpenti stessi e imparare di pi√π.~
-@97   = ~I Serpenti di Abbathor hanno abbastanza oro per soddisfare la tua avidit√†; tuttavia, raramente ci alleiamo con i non-nani. Un percorso degno di essere riconsiderato, tuttavia.~
+@93   = ~Non alzerÚ un dito per gente come te!~
+@94   = ~Mmpf. Ascolta, <RACE> - questa Ë una questione nanica e deve rimanere tale... Ma la mia razza ha bisogno di espandersi e forse tu sei solo il martello che stavamo cercando. Ti dico una cosa: ti assegnerÚ un compito da completare per dimostrare di essere degno di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocato davanti ai Serpenti stessi e imparare di pi˘.~
+		~Mmpf. Ascolta, <RACE> - questa Ë una questione nanica e deve rimanere tale... Ma la mia razza ha bisogno di espandersi e forse tu sei solo il martello che stavamo cercando. Ti dico una cosa: ti assegnerÚ un compito da completare per dimostrare di essere degna di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocata davanti ai Serpenti stessi e imparare di pi˘.~
+@95   = ~I Serpenti di Abbathor hanno abbastanza oro per soddisfare la tua avidit‡, <RACE>... e se prenderai sul serio la tua offerta ti renderai conto che siamo tutt'altro che parsimoniosi.~
+@96   = ~Sembri degno di fiducia, ma dobbiamo seguire le regole. Ti verr‡ assegnato un compito che dovrai svolgere per dimostrare di essere degno di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocato davanti ai Serpenti stessi e imparare di pi˘.~
+		~Sembri degna di fiducia, ma dobbiamo seguire le regole. Ti verr‡ assegnato un compito che dovrai svolgere per dimostrare di essere degna di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocata davanti ai Serpenti stessi e imparare di pi˘.~
+@97   = ~I Serpenti di Abbathor hanno abbastanza oro per soddisfare la tua avidit‡; tuttavia, raramente ci alleiamo con i non-nani. Un percorso degno di essere riconsiderato, tuttavia.~
 @98   = ~Se prenderai sul serio la tua offerta, verrai, ovviamente, adeguatamente ricompensato per il disturbo.~
 		~Se prenderai sul serio la tua offerta, verrai, ovviamente, adeguatamente ricompensata per il disturbo.~
-@99   = ~Puoi, ma la strada √® lunga, i sacrifici molti e le nostre regole rigide. Sembri degno di fiducia, ma dobbiamo seguire le regole. Ti verr√† assegnato un compito che dovrai svolgere per dimostrare di essere degno di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocato davanti ai Serpenti stessi e imparare di pi√π.~
-		~Puoi, ma la strada √® lunga, i sacrifici molti e le nostre regole rigide. Sembri degna di fiducia, ma dobbiamo seguire le regole. Ti verr√† assegnato un compito che dovrai svolgere per dimostrare di essere degna di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocata davanti ai Serpenti stessi e imparare di pi√π.~
-@100  = ~Unirsi ai Serpenti di Abbathor √® riservato alla mia razza, <RACE>... Ma forse potresti lavorare per noi a un livello pi√π indipendente. Sembri degno di fiducia, ma dobbiamo seguire le regole. Ti verr√† assegnato un compito che dovrai svolgere per dimostrare di essere degno di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocato davanti ai Serpenti stessi e imparare di pi√π.~
-		~Unirsi ai Serpenti di Abbathor √® riservato alla mia razza, <RACE>... Ma forse potresti lavorare per noi a un livello pi√π indipendente. Sembri degna di fiducia, ma dobbiamo seguire le regole. Ti verr√† assegnato un compito che dovrai svolgere per dimostrare di essere degna di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocata davanti ai Serpenti stessi e imparare di pi√π.~
-@101  = ~√à questa la tua ultima parola? Allora sappi questo: non puoi! Possano i tuoi d√®i aiutarti a capire il terribile errore che hai commesso... ti sei fatto un potente nemico!~
-		~√à questa la tua ultima parola? Allora sappi questo: non puoi! Possano i tuoi d√®i aiutarti a capire il terribile errore che hai commesso... ti sei fatta un potente nemico!~
-@102  = ~Oh s√¨, lo far√†. Credimi, lo far√†!~
+@99   = ~Puoi, ma la strada Ë lunga, i sacrifici molti e le nostre regole rigide. Sembri degno di fiducia, ma dobbiamo seguire le regole. Ti verr‡ assegnato un compito che dovrai svolgere per dimostrare di essere degno di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocato davanti ai Serpenti stessi e imparare di pi˘.~
+		~Puoi, ma la strada Ë lunga, i sacrifici molti e le nostre regole rigide. Sembri degna di fiducia, ma dobbiamo seguire le regole. Ti verr‡ assegnato un compito che dovrai svolgere per dimostrare di essere degna di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocata davanti ai Serpenti stessi e imparare di pi˘.~
+@100  = ~Unirsi ai Serpenti di Abbathor Ë riservato alla mia razza, <RACE>... Ma forse potresti lavorare per noi a un livello pi˘ indipendente. Sembri degno di fiducia, ma dobbiamo seguire le regole. Ti verr‡ assegnato un compito che dovrai svolgere per dimostrare di essere degno di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocato davanti ai Serpenti stessi e imparare di pi˘.~
+		~Unirsi ai Serpenti di Abbathor Ë riservato alla mia razza, <RACE>... Ma forse potresti lavorare per noi a un livello pi˘ indipendente. Sembri degna di fiducia, ma dobbiamo seguire le regole. Ti verr‡ assegnato un compito che dovrai svolgere per dimostrare di essere degna di conoscere i nostri segreti... Completa questo compito mentre presento il tuo nome ai Sottonani. Col tempo, potresti essere convocata davanti ai Serpenti stessi e imparare di pi˘.~
+@101  = ~» questa la tua ultima parola? Allora sappi questo: non puoi! Possano i tuoi dËi aiutarti a capire il terribile errore che hai commesso... ti sei fatto un potente nemico!~
+		~» questa la tua ultima parola? Allora sappi questo: non puoi! Possano i tuoi dËi aiutarti a capire il terribile errore che hai commesso... ti sei fatta un potente nemico!~
+@102  = ~Oh sÏ, lo far‡. Credimi, lo far‡!~
 @103  = ~Che ne dici se mi prendessi l'oro dal tuo corpo esanime?~
-@104  = ~Una decisione stupida. Nessuno rifiuta un'offerta dei Serpenti! Possano i tuoi d√®i aiutarti a capire il terribile errore che hai commesso... ti sei fatto un potente nemico!~
-		~Una decisione stupida. Nessuno rifiuta un'offerta dei Serpenti! Possano i tuoi d√®i aiutarti a capire il terribile errore che hai commesso... ti sei fatta un potente nemico!~
-@105  = ~Allora ascoltami. Forse saprai gi√† che i Pianbassi diffidano di noi. Gli stolti seguaci di Moradin sono fissati col pensiero che siamo una minaccia. Lodato sia Abbathor, ci siamo occupati del peggiore tra loro, Bashrik Hammerfest... Ma ce n'√® un altro.~
-@106  = ~Il tuo obiettivo √® Wostok Hammerhead qui a Baldur's Gate. √à stato visto l'ultima volta nel tempio di Helm. Uccidilo... e avremo un accordo.~
+@104  = ~Una decisione stupida. Nessuno rifiuta un'offerta dei Serpenti! Possano i tuoi dËi aiutarti a capire il terribile errore che hai commesso... ti sei fatto un potente nemico!~
+		~Una decisione stupida. Nessuno rifiuta un'offerta dei Serpenti! Possano i tuoi dËi aiutarti a capire il terribile errore che hai commesso... ti sei fatta un potente nemico!~
+@105  = ~Allora ascoltami. Forse saprai gi‡ che i Pianbassi diffidano di noi. Gli stolti seguaci di Moradin sono fissati col pensiero che siamo una minaccia. Lodato sia Abbathor, ci siamo occupati del peggiore tra loro, Bashrik Hammerfest... Ma ce n'Ë un altro.~
+@106  = ~Il tuo obiettivo Ë Wostok Testa di Martello qui a Baldur's Gate. » stato visto l'ultima volta nel tempio di Helm. Uccidilo... e avremo un accordo.~
 @107  = ~Sapremo quando ci sarai riuscito. Scusami adesso, ho bisogno di consultarmi con i Sottonani.~
 		~Sapremo quando ci sarai riuscita. Scusami adesso, ho bisogno di consultarmi con i Sottonani.~
 @108  = ~Le mie fonti mi dicono che hai fatto un buon lavoro, <BROTHERSISTER>.~
 @109  = ~Le mie fonti mi dicono che hai fatto un buon lavoro, <RACE>.~
 @110  = ~La causa dei Serpenti non finisce mai, e quindi anche il lavoro per coloro che sono in combutta con loro non finisce mai.~
 @111  = ~Prima avrei alcune domande.~
-@112  = ~Non voglio pi√π lavorare per te.~
+@112  = ~Non voglio pi˘ lavorare per te.~
 @113  = ~Giusto, cosa vorresti che investigassimo?~
-@114  = ~Il nostro leader a Baldur's Gate necessita di un oggetto, un antico manufatto nanico. √à tutto ci√≤ che devi sapere. √à stato esposto nella Casa delle Meraviglie per molto tempo, ma recentemente √® stato acquistato da una maga chiamata Jenna per i suoi studi. Ottienilo, non importa come, e portamelo. Troverai Jenna nella taverna del distretto nordoccidentale di Baldur's Gate. Torna con successo o non tornare affatto.~
-@115  = ~√à stato stupido, molto stupido. Pregate affinch√© la vostra punizione sia rapida e misericordiosa!~
-@116  = ~Certamente. Hai dimostrato di essere degno di fiducia e ti sei guadagnato il diritto di saperne di pi√π sulla nostra causa.~
-		~Certamente. Hai dimostrato di essere degna di fiducia e ti sei guadagnata il diritto di saperne di pi√π sulla nostra causa.~
+@114  = ~Il nostro leader a Baldur's Gate necessita di un oggetto, un antico manufatto nanico. » tutto ciÚ che devi sapere. » stato esposto nella Casa delle Meraviglie per molto tempo, ma recentemente Ë stato acquistato da una maga chiamata Jenna per i suoi studi. Ottienilo, non importa come, e portamelo. Troverai Jenna nella taverna del distretto nordoccidentale di Baldur's Gate. Torna con successo o non tornare affatto.~
+@115  = ~» stato stupido, molto stupido. Pregate affinchÈ la vostra punizione sia rapida e misericordiosa!~
+@116  = ~Certamente. Hai dimostrato di essere degno di fiducia e ti sei guadagnato il diritto di saperne di pi˘ sulla nostra causa.~
+		~Certamente. Hai dimostrato di essere degna di fiducia e ti sei guadagnata il diritto di saperne di pi˘ sulla nostra causa.~
 @117  = ~Quanti sono i Serpenti di Abbathor?~
 @118  = ~Da dove viene l'origine del culto?~
 @119  = ~Cosa offre Abbathor ai suoi seguaci?~
 @120  = ~Raccontami dei tuoi inizi.~
 @121  = ~Chi sono i "Sottonani"?~
-@122  = ~In verit√†, hai dimostrato  di essere un membro prezioso della famiglia di Abbathor. Il nostro Signore ti manda la sua benedizione... e questo dono. Ora √® giunto il momento di portarti davanti ai leader della nostra grande famiglia. Sei pronto?~
-		~In verit√†, hai dimostrato  di essere un membro prezioso della famiglia di Abbathor. Il nostro Signore ti manda la sua benedizione... e questo dono. Ora √® giunto il momento di portarti davanti ai leader della nostra grande famiglia. Sei pronta?~
-@123  = ~Certamente. Sar√≤ degno di questo onore.~
-		~Certamente. Sar√≤ degna di questo onore.~
+@122  = ~In verit‡, hai dimostrato  di essere un membro prezioso della famiglia di Abbathor. Il nostro Signore ti manda la sua benedizione... e questo dono. Ora Ë giunto il momento di portarti davanti ai leader della nostra grande famiglia. Sei pronto?~
+		~In verit‡, hai dimostrato  di essere un membro prezioso della famiglia di Abbathor. Il nostro Signore ti manda la sua benedizione... e questo dono. Ora Ë giunto il momento di portarti davanti ai leader della nostra grande famiglia. Sei pronta?~
+@123  = ~Certamente. SarÚ degno di questo onore.~
+		~Certamente. SarÚ degna di questo onore.~
 @124  = ~Mi piacerebbe, ma prima devo sistemare alcune cose.~
 @125  = ~Preferirei restare solitario, grazie mille.~
 		~Preferirei restare solitaria, grazie mille.~
-@126  = ~Lo sarai di sicuro. Oh s√¨, lo sarai.~
-@127  = ~Vieni nel distretto sudorientale quando sarai pronto, <BROTHERSISTER>. Questa chiave apre le porte dell'ultimo magazzino a sud. Ci troverai l√¨.~
-		~Vieni nel distretto sudorientale quando sarai pronta, <BROTHERSISTER>. Questa chiave apre le porte dell'ultimo magazzino a sud. Ci troverai l√¨.~
-@128  = ~Vieni nel distretto sudorientale quando sarai pronto, <RACE>. Questa chiave apre le porte dell'ultimo magazzino a sud. Ci troverai l√¨.~
-		~Vieni nel distretto sudorientale quando sarai pronta, <RACE>. Questa chiave apre le porte dell'ultimo magazzino a sud. Ci troverai l√¨.~
-@129  = ~Ci sar√≤ anch'io e ti presenter√≤ il maestro. Puoi portare anche dei compagni.~
+@126  = ~Lo sarai di sicuro. Oh sÏ, lo sarai.~
+@127  = ~Vieni nel distretto sudorientale quando sarai pronto, <BROTHERSISTER>. Questa chiave apre le porte dell'ultimo magazzino a sud. Ci troverai lÏ.~
+		~Vieni nel distretto sudorientale quando sarai pronta, <BROTHERSISTER>. Questa chiave apre le porte dell'ultimo magazzino a sud. Ci troverai lÏ.~
+@128  = ~Vieni nel distretto sudorientale quando sarai pronto, <RACE>. Questa chiave apre le porte dell'ultimo magazzino a sud. Ci troverai lÏ.~
+		~Vieni nel distretto sudorientale quando sarai pronta, <RACE>. Questa chiave apre le porte dell'ultimo magazzino a sud. Ci troverai lÏ.~
+@129  = ~Ci sarÚ anch'io e ti presenterÚ il maestro. Puoi portare anche dei compagni.~
 @130  = ~Prenditi il tuo tempo e unisciti alla riunione quando sarai pronto.~
 		~Prenditi il tuo tempo e unisciti alla riunione quando sarai pronta.~
-@131  = ~Non si rifiuta con noncuranza un dono come l'amicizia di Abbathor! Non sprecare la tua vita in modo cos√¨ irragionevole.~
-@132  = ~L'invidioso Wostok √® morto e possiamo tornare indisturbati alla nostra causa.~
-@133  = ~Rallegrati, perch√© i Sottonani hanno mostrato interesse per te. Sei ufficialmente un candidato ai Serpenti di Abbathor. Ecco un piccolo gingillo da parte dei tuoi nuovi maestri. Un diamante per illuminare la tua strada durante le cose a venire.~
-		~Rallegrati, perch√© i Sottonani hanno mostrato interesse per te. Sei ufficialmente una candidata ai Serpenti di Abbathor. Ecco un piccolo gingillo da parte dei tuoi nuovi maestri. Un diamante per illuminare la tua strada durante le cose a venire.~
-@134  = ~Rallegrati, perch√© i Sottonani hanno mostrato interesse per te. Non sei un nano e quindi non puoi diventare un accolito, ma sei un vero socio in affari. Ecco un piccolo gingillo da parte dei tuoi nuovi maestri. Un diamante per illuminare la tua strada durante le cose a venire.~
-		~Rallegrati, perch√© i Sottonani hanno mostrato interesse per te. Non sei una nana e quindi non puoi diventare una accolita, ma sei una vera socia in affari. Ecco un piccolo gingillo da parte dei tuoi nuovi maestri. Un diamante per illuminare la tua strada durante le cose a venire.~
+@131  = ~Non si rifiuta con noncuranza un dono come l'amicizia di Abbathor! Non sprecare la tua vita in modo cosÏ irragionevole.~
+@132  = ~L'invidioso Wostok Ë morto e possiamo tornare indisturbati alla nostra causa.~
+@133  = ~Rallegrati, perchÈ i Sottonani hanno mostrato interesse per te. Sei ufficialmente un candidato ai Serpenti di Abbathor. Ecco un piccolo gingillo da parte dei tuoi nuovi maestri. Un diamante per illuminare la tua strada durante le cose a venire.~
+		~Rallegrati, perchÈ i Sottonani hanno mostrato interesse per te. Sei ufficialmente una candidata ai Serpenti di Abbathor. Ecco un piccolo gingillo da parte dei tuoi nuovi maestri. Un diamante per illuminare la tua strada durante le cose a venire.~
+@134  = ~Rallegrati, perchÈ i Sottonani hanno mostrato interesse per te. Non sei un nano e quindi non puoi diventare un accolito, ma sei un vero socio in affari. Ecco un piccolo gingillo da parte dei tuoi nuovi maestri. Un diamante per illuminare la tua strada durante le cose a venire.~
+		~Rallegrati, perchÈ i Sottonani hanno mostrato interesse per te. Non sei una nana e quindi non puoi diventare una accolita, ma sei una vera socia in affari. Ecco un piccolo gingillo da parte dei tuoi nuovi maestri. Un diamante per illuminare la tua strada durante le cose a venire.~
 @135  = ~Il tuo secondo lavoro ti sta aspettando, sei pronto?~
 		~Il tuo secondo lavoro ti sta aspettando, sei pronta?~
 @136  = ~Secondo lavoro? Pensavo di aver dato prova a sufficienza!~
 @137  = ~Non voglio lavorare per te.~
 @138  = ~Subito.~
 @139  = ~Penso che tu mi abbia frainteso.~
-@140  = ~Fai parte dei Serpenti di Abbathor, <BROTHERSISTER>. Nostro padre si prende cura di noi ma richiede anche molto di pi√π.~
+@140  = ~Fai parte dei Serpenti di Abbathor, <BROTHERSISTER>. Nostro padre si prende cura di noi ma richiede anche molto di pi˘.~
 @141  = ~Hai dato la tua parola ai Serpenti di Abbathor. Nessuno spezza un contratto con noi!~
-@142  = ~Va' adesso e la tua vita sar√† perduta.~
+@142  = ~Va' adesso e la tua vita sar‡ perduta.~
 @143  = ~Lo vedremo.~
-@144  = ~Stiamo cercando Wostok Hammerhead. Lo conosci?~
-@145  = ~Abbiamo trovato un diario che deve essere mostrato a Wostok Hammerhead. Sai dove si trova?~
-@146  = ~Puoi dare un'occhiata pi√π da vicino a questo opuscolo?~
+@144  = ~Stiamo cercando Wostok Testa di Martello. Lo conosci?~
+@145  = ~Abbiamo trovato un diario che deve essere mostrato a Wostok Testa di Martello. Sai dove si trova?~
+@146  = ~Puoi dare un'occhiata pi˘ da vicino a questo opuscolo?~
 @147  = ~Wostok? Lo conosco bene. L'hai mancato per poco, lui e i suoi compagni hanno appena avviato un pattugliamento nelle fogne locali, indagano su qualcosa.~
 @148  = ~Wostok? L'hai mancato per poco, lui e i suoi compagni hanno appena avviato un pattugliamento nelle fogne locali, indagano su qualcosa.~
-@149  = ~Mmm? Abbathor? Devi contattare Wostok Hammerhead. √à un sacerdote nanico che attualmente vive qui. L'hai mancato per poco, lui e i suoi compagni hanno appena avviato un pattugliamento nelle fogne locali, indagano su qualcosa. Lo troverai sicuramente laggi√π.~
+@149  = ~Mmm? Abbathor? Devi contattare Wostok Testa di Martello. » un sacerdote nanico che attualmente vive qui. L'hai mancato per poco, lui e i suoi compagni hanno appena avviato un pattugliamento nelle fogne locali, indagano su qualcosa. Lo troverai sicuramente laggi˘.~
 @150  = ~Posso fare qualcos'altro per te?~
-@151  = ~No grazie, √® tutto.~
+@151  = ~No grazie, Ë tutto.~
 @152  = ~Mostraci cosa hai da offrire.~
-@153  = ~Oh, Wostok, qualcuno sta sgattaiolando laggi√π!~
-@154  = ~Meno male che ti ho trovato cos√¨ velocemente, <GABBER>! Saluti da Wostok!~
+@153  = ~Oh, Wostok, qualcuno sta sgattaiolando laggi˘!~
+@154  = ~Meno male che ti ho trovato cosÏ velocemente, <GABBER>! Saluti da Wostok!~
 @155  = ~Era una trappola! I tuoi contatti sono morti!~
-@156  = ~Lo sappiamo gi√†. Questo maledetto Lugosch ha rubato il Gundmagtor e sta per lasciare la citt√†! Li inseguiremo!~
-@157  = ~Il Gundmagtor? Che cos'√®?~
+@156  = ~Lo sappiamo gi‡. Questo maledetto Lugosch ha rubato il Gundmagtor e sta per lasciare la citt‡! Li inseguiremo!~
+@157  = ~Il Gundmagtor? Che cos'Ë?~
 @158  = ~Dove stanno andando?~
 @159  = ~Cosa devo fare adesso?~
-@160  = ~Nessuno sa *esattamente* cosa sia il Gundmagtor. √à un dispositivo. Un antico dispositivo che attira le anime dei morti.~
+@160  = ~Nessuno sa *esattamente* cosa sia il Gundmagtor. » un dispositivo. Un antico dispositivo che attira le anime dei morti.~
 @161  = ~Alcuni dicono che potrebbe chiamare a combattere i leggendari nani antichi.~
-@162  = ~Ho sentito abbastanza. Proseguir√≤.~
-@163  = ~Non lo sappiamo. Ecco perch√© dobbiamo inseguirli. Wostok sospettava che eventuali piani o istruzioni potessero essere trovati nel loro quartier generale e suggerire la loro destinazione. Stai in guardia!~
-@164  = ~Cos'√® il Gundmagtor?~
-@165  = ~Cerca il quartier generale dei Serpenti. Probabilmente √® un magazzino nel distretto sud-est della citt√†. Purifica il loro covo e scopri i loro piani!~
-@166  = ~Fantastico! Ricorda, il tuo obiettivo √® un magazzino nel distretto sud-orientale. Avrai bisogno di una chiave.~
+@162  = ~Ho sentito abbastanza. ProseguirÚ.~
+@163  = ~Non lo sappiamo. Ecco perchÈ dobbiamo inseguirli. Wostok sospettava che eventuali piani o istruzioni potessero essere trovati nel loro quartier generale e suggerire la loro destinazione. Stai in guardia!~
+@164  = ~Cos'Ë il Gundmagtor?~
+@165  = ~Cerca il quartier generale dei Serpenti. Probabilmente Ë un magazzino nel distretto sud-est della citt‡. Purifica il loro covo e scopri i loro piani!~
+@166  = ~Fantastico! Ricorda, il tuo obiettivo Ë un magazzino nel distretto sud-orientale. Avrai bisogno di una chiave.~
 @167  = ~Scopri cosa stanno pianificando i Serpenti e poi ritorna da noi. Ci rincontreremo.~
-@168  = ~Oh! Chi sta sgattaiolando quaggi√π?~
+@168  = ~Oh! Chi sta sgattaiolando quaggi˘?~
 @169  = ~Sei tornato.~
 		~Sei tornata.~
-@170  = ~Sono <GABBER>. Cosa ci fai quaggi√π?~
+@170  = ~Sono <GABBER>. Cosa ci fai quaggi˘?~
 @171  = ~Siamo venuti a salutare Draglon.~
 @172  = ~Sono <GABBER>. Abbiamo un diario a cui dovresti dare un'occhiata.~
-@173  = ~Sono <GABBER>. Puoi dare un'occhiata pi√π da vicino a questo opuscolo?~
-@174  = ~In realt√† sono solo di passaggio.~
-@175  = ~Si dice che ci sia un'infestazione quaggi√π... non ho idea di cosa. Comunque, perlustreremo questo posto.~
+@173  = ~Sono <GABBER>. Puoi dare un'occhiata pi˘ da vicino a questo opuscolo?~
+@174  = ~In realt‡ sono solo di passaggio.~
+@175  = ~Si dice che ci sia un'infestazione quaggi˘... non ho idea di cosa. Comunque, perlustreremo questo posto.~
 @176  = ~Abbiamo un diario a cui dovresti dare un'occhiata.~
-@177  = ~Un diario? Fammi vedere... mmm. Questo √® di Bashrik! Quindi le voci sono vere? √à morto?~
-@178  = ~√à caduto in un'imboscata. Non abbiamo potuto fare nulla.~
+@177  = ~Un diario? Fammi vedere... mmm. Questo Ë di Bashrik! Quindi le voci sono vere? » morto?~
+@178  = ~» caduto in un'imboscata. Non abbiamo potuto fare nulla.~
 @179  = ~Potrebbe essere collegato a questo opuscolo?~
 @180  = ~Beh, volevamo solo dartelo. Addio.~
 @181  = ~Un opuscolo? Fammi vedere...~
 @182  = ~Buon viaggio allora.~
 @183  = ~Non credo che tu debba sentirti in colpa. Ma sappi che ti sei imbattuto in qualcosa di grosso.~
 		~Non credo che tu debba sentirti in colpa. Ma sappi che ti sei imbattuta in qualcosa di grosso.~
-@184  = ~Ascolta, sar√≤ onesto con te. Abbiamo bisogno del tuo aiuto. La ricerca del culto sta diventando troppo complicata per noi e abbiamo altre cose che richiedono la nostra attenzione.~
-@185  = ~Bashrik menziona qualcuno di nome Draglon nei suoi appunti. Se √® davvero l'uomo dietro a tutto questo, dobbiamo liberarcene. E dovrai darci una mano in questo. Lo farei io stesso, ma temo che i nostri volti siano noti al culto. Ci aiuterai?~
-@186  = ~Beh... in realt√† stavamo cercando TE con i migliori saluti di Draglon.~
+@184  = ~Ascolta, sarÚ onesto con te. Abbiamo bisogno del tuo aiuto. La ricerca del culto sta diventando troppo complicata per noi e abbiamo altre cose che richiedono la nostra attenzione.~
+@185  = ~Bashrik menziona qualcuno di nome Draglon nei suoi appunti. Se Ë davvero l'uomo dietro a tutto questo, dobbiamo liberarcene. E dovrai darci una mano in questo. Lo farei io stesso, ma temo che i nostri volti siano noti al culto. Ci aiuterai?~
+@186  = ~Beh... in realt‡ stavamo cercando TE con i migliori saluti di Draglon.~
 @187  = ~Conviene?~
-@188  = ~Va bene, lo far√≤.~
+@188  = ~Va bene, lo farÚ.~
 @189  = ~Volevo solo darti il diario. Non mi interessa.~
-@190  = ~Non puoi aspettarti grandi ricchezze, <GABBER>. Chi ha l'avidit√† nel cuore potrebbe stare meglio con i Serpenti. Unisciti a noi, per√≤, e farai la cosa giusta.~
-@191  = ~Se √® tutto ci√≤ che puoi offrire, passo.~
+@190  = ~Non puoi aspettarti grandi ricchezze, <GABBER>. Chi ha l'avidit‡ nel cuore potrebbe stare meglio con i Serpenti. Unisciti a noi, perÚ, e farai la cosa giusta.~
+@191  = ~Se Ë tutto ciÚ che puoi offrire, passo.~
 @192  = ~Ah, <CHARNAME>.~
 @193  = ~Volevamo solo passare a vedere come stai.~
-@194  = ~Abbiamo affrontato Draglon. √à scappato prima che potessimo occuparci di lui.~
+@194  = ~Abbiamo affrontato Draglon. » scappato prima che potessimo occuparci di lui.~
 @195  = ~Come va la caccia ai Serpenti?~
-@196  = ~Abbiamo molto da fare, pertanto se non hai novit√†...~
-@197  = ~Beh, √® deludente. Ma d'altra parte, sarebbe potuta andare peggio. Draglon ha convertito un intero gruppo di nani in Serpenti, e ora sa che sar√† perseguito.~
-@198  = ~Qual √® il nostro prossimo passo?~
+@196  = ~Abbiamo molto da fare, pertanto se non hai novit‡...~
+@197  = ~Beh, Ë deludente. Ma d'altra parte, sarebbe potuta andare peggio. Draglon ha convertito un intero gruppo di nani in Serpenti, e ora sa che sar‡ perseguito.~
+@198  = ~Qual Ë il nostro prossimo passo?~
 @199  = ~Hai bisogno di ulteriore aiuto?~
-@200  = ~Beh, penso che adesso prender√≤ congedo.~
+@200  = ~Beh, penso che adesso prenderÚ congedo.~
 @201  = ~Per ora vi lascio, nani.~
-@202  = ~Un minuto, <GABBER>. Forse potremmo continuare la nostra collaborazione? I Serpenti probabilmente sanno gi√† chi sei, il che dovrebbe essere una ragione sufficiente per voler schiacciare il culto.~
+@202  = ~Un minuto, <GABBER>. Forse potremmo continuare la nostra collaborazione? I Serpenti probabilmente sanno gi‡ chi sei, il che dovrebbe essere una ragione sufficiente per voler schiacciare il culto.~
 @203  = ~Penso che tu abbia ragione. Come procediamo?~
 @204  = ~No, non credo. Non ho intenzione di interferire in questa faccenda.~
-@205  = ~√à una cosa lunga e noiosa, credimi. Una decapitazione fa crescere solo due nuove teste.~
+@205  = ~» una cosa lunga e noiosa, credimi. Una decapitazione fa crescere solo due nuove teste.~
 @206  = ~Come previsto, immagino, quando si vive nella paura costante e si dedica la vita alla distruzione di un culto impalpabile.~
-@207  = ~Dobbiamo in qualche modo scovare il fulcro del culto. E poi dobbiamo accedere alla sua sede. Stiamo lavorando su entrambe le attivit√† da un po' di tempo ormai.~
-@208  = ~Ma prima bisogna fare qualcos'altro. Una maga di nome Jenna custodisce un manufatto per noi e temiamo che i Serpenti siano sulle sue tracce. Lei e il suo compagno Jassir risiedono nella taverna del distretto nordoccidentale. Vai l√¨ e dille "Saluti da Mirjala". Cos√¨ sapranno che sei stato mandato da noi.~
-		~Ma prima bisogna fare qualcos'altro. Una maga di nome Jenna custodisce un manufatto per noi e temiamo che i Serpenti siano sulle sue tracce. Lei e il suo compagno Jassir risiedono nella taverna del distretto nordoccidentale. Vai l√¨ e dille "Saluti da Mirjala". Cos√¨ sapranno che sei stata mandata da noi.~
+@207  = ~Dobbiamo in qualche modo scovare il fulcro del culto. E poi dobbiamo accedere alla sua sede. Stiamo lavorando su entrambe le attivit‡ da un po' di tempo ormai.~
+@208  = ~Ma prima bisogna fare qualcos'altro. Una maga di nome Jenna custodisce un manufatto per noi e temiamo che i Serpenti siano sulle sue tracce. Lei e il suo compagno Jassir risiedono nella taverna del distretto nordoccidentale. Vai lÏ e dille "Saluti da Mirjala". CosÏ sapranno che sei stato mandato da noi.~
+		~Ma prima bisogna fare qualcos'altro. Una maga di nome Jenna custodisce un manufatto per noi e temiamo che i Serpenti siano sulle sue tracce. Lei e il suo compagno Jassir risiedono nella taverna del distretto nordoccidentale. Vai lÏ e dille "Saluti da Mirjala". CosÏ sapranno che sei stata mandata da noi.~
 @209  = ~E anche noi dobbiamo congedarci! Ci rivedremo qui quando avrai risolto la questione!~
-@210  = ~Pi√π che mai, <GABBER>.~
-@211  = ~Questa √® una vera disdetta, <GABBER>. Ma non dovremmo costringerti. Possano gli d√®i benedirti. Venite, amici miei!~
+@210  = ~Pi˘ che mai, <GABBER>.~
+@211  = ~Questa Ë una vera disdetta, <GABBER>. Ma non dovremmo costringerti. Possano gli dËi benedirti. Venite, amici miei!~
 @212  = ~Lascia che ti guardi, <RACE>.~
 @213  = ~Dovremmo ucciderlo... per ogni evenienza.~
 		~Dovremmo ucciderla... per ogni evenienza.~
 @214  = ~Therk, mio vecchio, ma semplice amico. Non possiamo semplicemente uccidere tutti quelli che incrociano il nostro cammino.~
-@215  = ~Jarger ha ragione. Non sembra la solita feccia che si trova qui in giro. Parla, cosa pu√≤ fare per te il vecchio Wostok?~
-@216  = ~Draglon, eh? Mi chiedevo quando i Serpenti avrebbero assunto degli estranei per ci√≤ che non avrebbero potuto completare da soli.~
+@215  = ~Jarger ha ragione. Non sembra la solita feccia che si trova qui in giro. Parla, cosa puÚ fare per te il vecchio Wostok?~
+@216  = ~Draglon, eh? Mi chiedevo quando i Serpenti avrebbero assunto degli estranei per ciÚ che non avrebbero potuto completare da soli.~
 @217  = ~Vedi? Ti avevo detto che avremmo dovuto ucciderlo!~
 		~Vedi? Ti avevo detto che avremmo dovuto ucciderla!~
 @218  = ~Per quanto non vorrei, sono con Therk su questo.~
 @219  = ~Giovane <RACE>, non so cosa ti hanno promesso i Serpenti. Ma sicuramente ti tradiranno due volte.~
 @220  = ~Non mi convincerai! Muori qui e ora!~
-@221  = ~Che peccato. Ma beh, se non puoi essere riportato alla ragione... ricongiungiti con i tuoi d√®i allora!~
-		~Che peccato. Ma beh, se non puoi essere riportata alla ragione... ricongiungiti con i tuoi d√®i allora!~
+@221  = ~Che peccato. Ma beh, se non puoi essere riportato alla ragione... ricongiungiti con i tuoi dËi allora!~
+		~Che peccato. Ma beh, se non puoi essere riportata alla ragione... ricongiungiti con i tuoi dËi allora!~
 @222  = ~Questo sta andando troppo lontano! Nessuno uccide un sacerdote di Moradin in MIA presenza!~
 @223  = ~Andiamo!~
 @224  = ~Per Clangeddin!~
 @225  = ~Per la giustizia!~
-@226  = ~Questo √® un opuscolo dei Serpenti!~
+@226  = ~Questo Ë un opuscolo dei Serpenti!~
 @227  = ~Davvero!~
-@228  = ~Segnate le mie parole, amici. √à una Spia!~
+@228  = ~Segnate le mie parole, amici. » una Spia!~
 @229  = ~Therk... stai zitto.~
-@230  = ~Questo √® un grosso problema, <RACE>.~
-@231  = ~L'opuscolo menziona qualcuno chiamato Draglon. Se √® davvero lui l'uomo dietro il sipario, bisogna sbarazzarsi di lui. E dovrai farlo tu per noi. Lo farei io stesso ma temo che i nostri volti siano noti al culto. Ci aiuterai?~
+@230  = ~Questo Ë un grosso problema, <RACE>.~
+@231  = ~L'opuscolo menziona qualcuno chiamato Draglon. Se Ë davvero lui l'uomo dietro il sipario, bisogna sbarazzarsi di lui. E dovrai farlo tu per noi. Lo farei io stesso ma temo che i nostri volti siano noti al culto. Ci aiuterai?~
 @232  = ~Non mi interessa.~
 @233  = ~Va bene. Probabilmente sarebbe stata una cattiva idea coinvolgere un estraneo in questo, comunque. Dimentica solo che ci siamo mai incontrati.~
 @234  = ~O ti schiacceremo la faccia!~
 @235  = ~Therk... sei imbarazzante.~
 @236  = ~Bene, allora, amici... lasciamo questo amabile posto.~
 @237  = ~Se dovessi avere di nuovo problemi con i Serpenti... Potrai trovarci nel tempio di Helm.~
-@238  = ~Il Morndinsamman deve averti mandato ad aiutarci. Cerca questo Draglon e liberatene, non importa come. Ci rivedremo nel tempio di Helm quando tutto sar√† finito.~
+@238  = ~Il Morndinsamman deve averti mandato ad aiutarci. Cerca questo Draglon e liberatene, non importa come. Ci rivedremo nel tempio di Helm quando tutto sar‡ finito.~
 @239  = ~Possa Clangeddin aiutarci.~
 @240  = ~Parla con Jenna.~
 @241  = ~Bentornato.~
 		~Bentornata.~
 @242  = ~Non volevamo disturbarti, mi dispiace.~
 @243  = ~Saluti, mia signora. Siamo solo di passaggio.~
-@244  = ~Il tuo compagno √® sempre cos√¨ scorbutico? Non ha ancora preso la sua doppia birra nanica quotidiana?~
+@244  = ~Il tuo compagno Ë sempre cosÏ scorbutico? Non ha ancora preso la sua doppia birra nanica quotidiana?~
 @245  = ~Vogliamo parlarti del manufatto nanico.~
 @246  = ~Prova il morso dei Serpenti! Per Abbathor!~
 @247  = ~Me ne vado allora.~
-@248  = ~Non c'√® bisogno di scusarsi.~
+@248  = ~Non c'Ë bisogno di scusarsi.~
 @249  = ~Non abbiamo cattive intenzioni e speriamo che nemmeno tu ne abbia.~
 @250  = ~Veniamo in pace. Io sono <GABBER> e tu chi sei?~
 @251  = ~Nessuna cattiva intenzione, mia signora. Sono solo di passaggio.~
@@ -290,21 +290,21 @@
 @253  = ~Ben incontrato.~
 @254  = ~Dove stai andando, se posso chiedere?~
 @255  = ~Ti auguro buon viaggio.~
-@256  = ~Forse il mio viaggio sarebbe un po' pi√π comodo se potessi prendere il contenuto delle tue tasche.~
-@257  = ~Oh, ti consiglio di calmarti. Solo perch√© non vogliamo combattere, non significa che non saremmo vittoriosi!~
+@256  = ~Forse il mio viaggio sarebbe un po' pi˘ comodo se potessi prendere il contenuto delle tue tasche.~
+@257  = ~Oh, ti consiglio di calmarti. Solo perchÈ non vogliamo combattere, non significa che non saremmo vittoriosi!~
 @258  = ~Mostramelo.~
 @259  = ~Molto bene, niente sangue cattivo. Sto andando.~
 @260  = ~Finiscila.~
 @261  = ~Molto ragionevole.~
 @262  = ~Non siamo qui per combattere.~
-@263  = ~Ma io s√¨.~
-@264  = ~Mi chiamo Jenna e questo √® il mio compagno Jassir. Potresti chiamarci... messaggeri.~
+@263  = ~Ma io sÏ.~
+@264  = ~Mi chiamo Jenna e questo Ë il mio compagno Jassir. Potresti chiamarci... messaggeri.~
 @265  = ~Messaggeri, eh? Ecco il mio messaggio per te: consegna i tuoi oggetti di valore.~
-@266  = ~Mi dispiace se non posso dirti tutto. Ma il nostro compito √® alquanto... delicato.~
+@266  = ~Mi dispiace se non posso dirti tutto. Ma il nostro compito Ë alquanto... delicato.~
 @267  = ~Capito. Buon viaggio.~
 @268  = ~Andiamo. Puoi dirmelo.~
 @269  = ~E a te.~
-@270  = ~Nessuna possibilit√†. Mi dispiace.~
+@270  = ~Nessuna possibilit‡. Mi dispiace.~
 @271  = ~Ti prego?~
 @272  = ~No, e ti chiedo di smetterla!~
 @273  = ~No, no, no!~
@@ -312,15 +312,15 @@
 @275  = ~NO!~
 @276  = ~Per favore, ti prego, per favore, ti prego, per favore, per favore!~
 @277  = ~Come hai...? Siete agenti dei Serpenti di Abbathor?~
-@278  = ~S√¨.~
+@278  = ~SÏ.~
 @279  = ~Certo che no.~
 @280  = ~Uno scagnozzo dei Serpenti, eh? Bene, preparati a essere scuoiato, rettile!~
 @281  = ~Davvero? Chi altro potrebbe averti mandato?~
 @282  = ~Beh, ci hai beccati. Lavoriamo per i Serpenti.~
 @283  = ~Non ho intenzione di dirtelo.~
-@284  = ~Lavoriamo per Wostok Hammerhead.~
+@284  = ~Lavoriamo per Wostok Testa di Martello.~
 @285  = ~In ogni caso, non ci servono confidenti. Jassir!~
-@286  = ~Wostok? Questo cambia molto. Quindi ascolta attentamente. Il manufatto √® nascosto nella seconda stanza a sinistra. Dietro la tenda verde giallastra. Puoi aprire il vassoio con la mia chiave.~
+@286  = ~Wostok? Questo cambia molto. Quindi ascolta attentamente. Il manufatto Ë nascosto nella seconda stanza a sinistra. Dietro la tenda verde giallastra. Puoi aprire il vassoio con la mia chiave.~
 @287  = ~... e saluti a Wostok da parte mia e al buon vecchio Bashrik con il suo amico elfico... come si chiamava?~
 @288  = ~Eliel.~
 @289  = ~Leirana.~
@@ -332,35 +332,35 @@
 @295  = ~Arunel.~
 @296  = ~Erila.~
 @297  = ~Bashrik non aveva una ragazza elfica!~
-@298  = ~√à cos√¨? Bel tentativo, ma sbagliato - non so chi tu sia ma ora morirai!~
-@299  = ~S√¨, √® vero. Addio!~
+@298  = ~» cosÏ? Bel tentativo, ma sbagliato - non so chi tu sia ma ora morirai!~
+@299  = ~SÏ, Ë vero. Addio!~
 @300  = ~Oh, che bel <RACE>! Non parlare, so della tua missione! La seconda stanza a sinistra, dietro la tenda... in bocca al lupo!~
-@301  = ~S√¨?~
-@302  = ~Cos√¨ √® sufficientemente vicino, straniero!~
-		~Cos√¨ √® sufficientemente vicino, straniera!~
+@301  = ~SÏ?~
+@302  = ~CosÏ Ë sufficientemente vicino, straniero!~
+		~CosÏ Ë sufficientemente vicino, straniera!~
 @303  = ~Al mio compagno piace un po' troppo estrarre la sua arma, <SIRMAAM>. Spero che tu sia qui con buone intenzioni?~
-@304  = ~D√¨ alla tua guardia del corpo di restare calma se sa cosa √® meglio per lui!~
-@305  = ~Oh s√¨? Il tuo cane fa qualcosa di diverso dall'abbaiare?~
+@304  = ~DÏ alla tua guardia del corpo di restare calma se sa cosa Ë meglio per lui!~
+@305  = ~Oh sÏ? Il tuo cane fa qualcosa di diverso dall'abbaiare?~
 @306  = ~Benvenuto. Il nostro leader ti sta aspettando.~
 		~Benvenuta. Il nostro leader ti sta aspettando.~
 @307  = ~Il nostro leader vuole conoscerti. Vai da lui.~
-@308  = ~√à un grande onore poter parlare con il nostro leader. Non dovresti lasciarlo aspettare.~
+@308  = ~» un grande onore poter parlare con il nostro leader. Non dovresti lasciarlo aspettare.~
 @309  = ~Oh, eccoti qui, <GABBER>. Che piacere conoscerti.~
-@310  = ~Sembri sorpreso, <RACE>. Credevi davvero che uno come te potesse intrufolarsi in citt√† senza essere notato?~
-		~Sembri sorpresa, <RACE>. Credevi davvero che una come te potesse intrufolarsi in citt√† senza essere notata?~
-@311  = ~Non dovresti sorprenderti. Credevi davvero che un <PRO_RACE> come <CHARNAME> potesse intrufolarsi in citt√† senza farsi notare?~
+@310  = ~Sembri sorpreso, <RACE>. Credevi davvero che uno come te potesse intrufolarsi in citt‡ senza essere notato?~
+		~Sembri sorpresa, <RACE>. Credevi davvero che una come te potesse intrufolarsi in citt‡ senza essere notata?~
+@311  = ~Non dovresti sorprenderti. Credevi davvero che un <PRO_RACE> come <CHARNAME> potesse intrufolarsi in citt‡ senza farsi notare?~
 @312  = ~A proposito, ti devo i miei ringraziamenti. Ti sei sbarazzato di Wostok per me... stupido sciocco. Probabilmente era l'unico nano che poteva proteggerti!~
 		~A proposito, ti devo i miei ringraziamenti. Ti sei sbarazzata di Wostok per me... stupida sciocca. Probabilmente era l'unico nano che poteva proteggerti!~
 @313  = ~I miei occhi e le mie orecchie sono ovunque, seguiamo la tua inutile campagna contro i banditi della Costa della Spada da quando sei strisciato fuori dalle Miniere di Nashkel!~
 		~I miei occhi e le mie orecchie sono ovunque, seguiamo la tua inutile campagna contro i banditi della Costa della Spada da quando sei strisciata fuori dalle Miniere di Nashkel!~
-@314  = ~Ma tutto questo finisce qui... Draglon! Uccidi questa marmaglia e poi seguimi. Risveglieremo il potere del Gundmagtor e otterremo ci√≤ che ci meritiamo!~
+@314  = ~Ma tutto questo finisce qui... Draglon! Uccidi questa marmaglia e poi seguimi. Risveglieremo il potere del Gundmagtor e otterremo ciÚ che ci meritiamo!~
 @315  = ~Sei tornato!~
 		~Sei tornata!~
-@316  = ~I Serpenti di Abbathor sono stati cacciati dalla miniera e Lugosch √® morto!~
+@316  = ~I Serpenti di Abbathor sono stati cacciati dalla miniera e Lugosch Ë morto!~
 @317  = ~Volevo solo vedere come va.~
-@318  = ~Che gli d√®i ti benedicano, <SIRMAAM>.~
-@319  = ~Sono arrivati pochi giorni fa, in tarda serata e poco dopo la fine del turno. La maggior parte dei minatori era gi√† tornata a casa e le guardie non stavano prestando attenzione.~
-@320  = ~Ad un tratto questo nano ha sollevato uno strano dispositivo e ha iniziato a urlare qualcosa. E all'improvviso sono apparse ombre di nani. √à stato un massacro!~
+@318  = ~Che gli dËi ti benedicano, <SIRMAAM>.~
+@319  = ~Sono arrivati pochi giorni fa, in tarda serata e poco dopo la fine del turno. La maggior parte dei minatori era gi‡ tornata a casa e le guardie non stavano prestando attenzione.~
+@320  = ~Ad un tratto questo nano ha sollevato uno strano dispositivo e ha iniziato a urlare qualcosa. E all'improvviso sono apparse ombre di nani. » stato un massacro!~
 @321  = ~Chi era questo nano?~
 @322  = ~Che tipo di ombre?~
 @323  = ~I tuoi uomini sono al sicuro adesso?~
@@ -369,64 +369,64 @@
 @326  = ~Va bene, andiamo avanti.~
 @327  = ~Non avrai in alcun modo il mio aiuto.~
 @328  = ~Comunque mi aspetto un giusto compenso per il mio aiuto!~
-@329  = ~Qualsiasi aiuto √® benvenuto, non importa come o perch√© viene fornito.~
+@329  = ~Qualsiasi aiuto Ë benvenuto, non importa come o perchÈ viene fornito.~
 @330  = ~Hai un cuore duro, <GABBER>. Ci saremmo difesi, ma siamo rimasti sorpresi.~
-@331  = ~Pensaci, <SIRMAAM>! La posta in gioco non potrebbe essere pi√π alta!~
-@332  = ~Ricordo che gli altri lo chiamavano Lugosch. Ha portato con s√© una buona dozzina di nani. E quelle orribili ombre!~
-@333  = ~Non ho visto esattamente cosa √® successo. Sembravano fantasmi, del nero pi√π profondo e di aspetto nanico. E hanno abbattuto chiunque si trovasse sulla loro strada in un batter d'occhio!~
-@334  = ~Chi √® il loro leader?~
-@335  = ~La maggior parte √® riuscita a scappare, ma alcuni sono ancora dispersi. Temo che siano tenuti in ostaggio nella miniera. Li libererai?~
-@336  = ~Ora che me lo dici... s√¨! Questi nani hanno condotto dei mostri qui, sembravano insetti giganti su due gambe. Sembrava che fossero ammaliati o qualcosa del genere.~
-@337  = ~Ehm. Questo √® un po' imbarazzante... ma ho perso i miei appunti durante la fuga. Un sacco di carte e documenti. Senza di loro il nostro lavoro sar√† inutilmente complicato. Se potessi trovarli...~
-@338  = ~Che gli d√®i ti proteggano.~
-@339  = ~Oh, per favore, <SIRMAAM>. Non siamo n√© avventurieri n√© combattenti come te! Per favore, riconsidera il tuo aiuto nella miniera!~
+@331  = ~Pensaci, <SIRMAAM>! La posta in gioco non potrebbe essere pi˘ alta!~
+@332  = ~Ricordo che gli altri lo chiamavano Lugosch. Ha portato con sÈ una buona dozzina di nani. E quelle orribili ombre!~
+@333  = ~Non ho visto esattamente cosa Ë successo. Sembravano fantasmi, del nero pi˘ profondo e di aspetto nanico. E hanno abbattuto chiunque si trovasse sulla loro strada in un batter d'occhio!~
+@334  = ~Chi Ë il loro leader?~
+@335  = ~La maggior parte Ë riuscita a scappare, ma alcuni sono ancora dispersi. Temo che siano tenuti in ostaggio nella miniera. Li libererai?~
+@336  = ~Ora che me lo dici... sÏ! Questi nani hanno condotto dei mostri qui, sembravano insetti giganti su due gambe. Sembrava che fossero ammaliati o qualcosa del genere.~
+@337  = ~Ehm. Questo Ë un po' imbarazzante... ma ho perso i miei appunti durante la fuga. Un sacco di carte e documenti. Senza di loro il nostro lavoro sar‡ inutilmente complicato. Se potessi trovarli...~
+@338  = ~Che gli dËi ti proteggano.~
+@339  = ~Oh, per favore, <SIRMAAM>. Non siamo nÈ avventurieri nÈ combattenti come te! Per favore, riconsidera il tuo aiuto nella miniera!~
 @340  = ~Stai certo di questo, <GABBER>. Riceverai una buona ricompensa.~
 @341  = ~Intrusi! Alle armi... aspetta!~
-@342  = ~Questo √® <CHARNAME> di Candlekeep e in nessun modo <PRO_HESHE> √® in combutta con quei nani.~
-		~Questa √® <CHARNAME> di Candlekeep e in nessun modo <PRO_HESHE> √® in combutta con quei nani.~
-@343  = ~Questo <RACE> appartiene a <CHARNAME> di Candlekeep e in nessun modo <HESHE> √® in combutta con questi nani.~
+@342  = ~Questo Ë <CHARNAME> di Candlekeep e in nessun modo <PRO_HESHE> Ë in combutta con quei nani.~
+		~Questa Ë <CHARNAME> di Candlekeep e in nessun modo <PRO_HESHE> Ë in combutta con quei nani.~
+@343  = ~Questo <RACE> appartiene a <CHARNAME> di Candlekeep e in nessun modo <HESHE> Ë in combutta con questi nani.~
 @344  = ~Ci hai colti di sorpresa, <SIRMAAM>. Quei maledetti nani tenebrosi ci hanno sopraffatto a sangue freddo. Ci aiuterai?~
-@345  = ~Certo che lo far√≤.~
-@346  = ~Dimmi esattamente cosa √® successo.~
-@347  = ~Li annienter√≤, ma non per te.~
+@345  = ~Certo che lo farÚ.~
+@346  = ~Dimmi esattamente cosa Ë successo.~
+@347  = ~Li annienterÚ, ma non per te.~
 @348  = ~Devo ripulire di nuovo per te?~
 @349  = ~Non voglio entrare di nuovo nelle miniere.~
-@350  = ~Per il respiro di Gond! Questa √® davvero una buona notizia! Sapevo che avremmo potuto contare su di te.~
-@351  = ~Ecco, penso che questa quantit√† di oro dovrebbe essere adeguata. Sei davvero il nostro eroe.~
-		~Ecco, penso che questa quantit√† di oro dovrebbe essere adeguata. Sei davvero la nostra eroina.~
+@350  = ~Per il respiro di Gond! Questa Ë davvero una buona notizia! Sapevo che avremmo potuto contare su di te.~
+@351  = ~Ecco, penso che questa quantit‡ di oro dovrebbe essere adeguata. Sei davvero il nostro eroe.~
+		~Ecco, penso che questa quantit‡ di oro dovrebbe essere adeguata. Sei davvero la nostra eroina.~
 @352  = ~E hai trovato anche i miei appunti! Non posso ringraziarti abbastanza per questo!~
 @353  = ~I miei minatori scomparsi sono venuti qui e mi hanno detto che li hai salvati da un sacerdote pazzo. Credimi, sono felicissimi e lodano il tuo nome.~
 @354  = ~E hai anche sconfitto i mostri. Sei davvero il nostro eroe.~
 		~E hai anche sconfitto i mostri. Sei davvero la nostra eroina.~
-@355  = ~Penso che possiamo occuparci del resto della pulizia senza di te, <CHARNAME>. Vai a riposarti alla locanda, te lo meriti. Quando tornerai, spero che sar√† tutto in ordine.~
+@355  = ~Penso che possiamo occuparci del resto della pulizia senza di te, <CHARNAME>. Vai a riposarti alla locanda, te lo meriti. Quando tornerai, spero che sar‡ tutto in ordine.~
 @356  = ~Salvaci! Uccidi questo nano e la sua combriccola!~
 @357  = ~Ci hai salvati! Grazie, <LADYLORD>! Avanti, amici! Ce la faremo!~
-@358  = ~Gneheheheheheh! Presto, amici miei! Presto questo livello della miniera sar√† come piace di pi√π a nostro Signore! E tu ne farai parte!~
+@358  = ~Gneheheheheheh! Presto, amici miei! Presto questo livello della miniera sar‡ come piace di pi˘ a nostro Signore! E tu ne farai parte!~
 @359  = ~No! Per favore, per favore, per favore no! Ho una famiglia! Ho un figlio!~
 @360  = ~Andiamo!~
-@361  = ~Presto farete parte di una nuova famiglia, la famiglia di Abbathor, amici miei. Rallegratevi, perch√© presto vi unirete ai vostri amici minatori!~
-@362  = ~Aiuto! Perch√© nessuno viene in aiuto?~
+@361  = ~Presto farete parte di una nuova famiglia, la famiglia di Abbathor, amici miei. Rallegratevi, perchÈ presto vi unirete ai vostri amici minatori!~
+@362  = ~Aiuto! PerchÈ nessuno viene in aiuto?~
 @363  = ~Lathander, salvaci!~
-@364  = ~Lathander? Gneheheheheheh! Il sole √® cos√¨ lontano da te! Abbraccia l'oscurit√†...~
-@365  = ~Oh, cos'√® stato? Intrusi? Posso sentirti, straniero!~
-@366  = ~I giganteschi Umber Hulk fissano nel vuoto. A quanto pare, sono ammaliati. Il loro sonno per√≤ sembra essere leggero. Probabilmente si sveglieranno se ti avvicini.~
+@364  = ~Lathander? Gneheheheheheh! Il sole Ë cosÏ lontano da te! Abbraccia l'oscurit‡...~
+@365  = ~Oh, cos'Ë stato? Intrusi? Posso sentirti, straniero!~
+@366  = ~I giganteschi Umber Hulk fissano nel vuoto. A quanto pare, sono ammaliati. Il loro sonno perÚ sembra essere leggero. Probabilmente si sveglieranno se ti avvicini.~
 @367  = ~<CHARNAME>, nientemeno. Devo dire che ti stai rivelando una vera piaga.~
-@368  = ~Avresti potuto essere un vero figlio di Abbathor, ma sei gi√† stato rovinato dalla vita di superficie.~
-		~Avresti potuto essere una vera figlia di Abbathor, ma sei gi√† stata rovinata dalla vita di superficie.~
+@368  = ~Avresti potuto essere un vero figlio di Abbathor, ma sei gi‡ stato rovinato dalla vita di superficie.~
+		~Avresti potuto essere una vera figlia di Abbathor, ma sei gi‡ stata rovinata dalla vita di superficie.~
 @369  = ~Fuggirai di nuovo come l'ultima volta? O avrai il coraggio di combattere?~
-@370  = ~Perch√© volevi uccidermi? Cosa c'√® dietro?~
+@370  = ~PerchÈ volevi uccidermi? Cosa c'Ë dietro?~
 @371  = ~Cosa sono quelle strane ombre? Pensavo che i nani non fossero interessati alla magia.~
 @372  = ~Basta blaterare. Difenditi!~
 @373  = ~<CHARNAME>, nientemeno. Devo dire che ti stai rivelando una vera piaga.~
 @374  = ~Ma cosa ci si potrebbe aspettare. Alla fine, non sei altro che un <PRO_RACE>.~
 @375  = ~Non preoccuparti.~
 @376  = ~Oggi combatteremo, come dovrebbe essere!~
-@377  = ~Niente pi√π parole, <CHARNAME>. Il tuo nome √® noto, questo √® tutto. Non sarai di certo l'unico a morire nel nome di Abbathor.~
-		~Niente pi√π parole, <CHARNAME>. Il tuo nome √® noto, questo √® tutto. Non sarai di certo l'unica a morire nel nome di Abbathor.~
+@377  = ~Niente pi˘ parole, <CHARNAME>. Il tuo nome Ë noto, questo Ë tutto. Non sarai di certo l'unico a morire nel nome di Abbathor.~
+		~Niente pi˘ parole, <CHARNAME>. Il tuo nome Ë noto, questo Ë tutto. Non sarai di certo l'unica a morire nel nome di Abbathor.~
 @378  = ~Magia? Puah. Ovviamente non capisci nulla della via dei nani.~
-@379  = ~Ma cosa ci si pu√≤ aspettare da un *abitante di superficie*. I nostri antenati sono con noi, <CHARNAME>. E ci inviano il loro potere!~
+@379  = ~Ma cosa ci si puÚ aspettare da un *abitante di superficie*. I nostri antenati sono con noi, <CHARNAME>. E ci inviano il loro potere!~
 @380  = ~Bene! Basta con questi discorsi!~
-@381  = ~Niente pi√π domande! Basta con le tue sciocche chiacchiere!~
+@381  = ~Niente pi˘ domande! Basta con le tue sciocche chiacchiere!~
 @382  = ~Ora morirai, <CHARNAME>! Morirai come comandano i Sottonani!~
 @383  = ~Abbathor!~
 @384  = ~Per i Sottonani!~
@@ -435,13 +435,13 @@
 @387  = ~Bene, bene, bene. Si dice che tu abbia incontrato persone molto interessanti, di recente.~
 @388  = ~Wostok deve essere disperato se pensa che un <RACE> potrebbe risolvere i suoi problemi. Ti sei fatto un potente nemico, <RACE>. Guardati le spalle in futuro!~
 		~Wostok deve essere disperato se pensa che un <RACE> potrebbe risolvere i suoi problemi. Ti sei fatta un potente nemico, <RACE>. Guardati le spalle in futuro!~
-@389  = ~Wostok ti ha catturato nella sua rete di bugie, vero? Bene, cos√¨ sia! Se non ti interessano i tuoi fratelli di superficie... Comunque, ti sei fatto un potente nemico, <BROTHERSISTER>. Guardati le spalle in futuro!~
-		~Wostok ti ha catturato nella sua rete di bugie, vero? Bene, cos√¨ sia! Se non ti interessano i tuoi fratelli di superficie... Comunque, ti sei fatta un potente nemico, <BROTHERSISTER>. Guardati le spalle in futuro!~
+@389  = ~Wostok ti ha catturato nella sua rete di bugie, vero? Bene, cosÏ sia! Se non ti interessano i tuoi fratelli di superficie... Comunque, ti sei fatto un potente nemico, <BROTHERSISTER>. Guardati le spalle in futuro!~
+		~Wostok ti ha catturato nella sua rete di bugie, vero? Bene, cosÏ sia! Se non ti interessano i tuoi fratelli di superficie... Comunque, ti sei fatta un potente nemico, <BROTHERSISTER>. Guardati le spalle in futuro!~
 @390  = ~Ora, fammi indovinare.~
 @391  = ~Sei <GABBER> del gruppo di <CHARNAME> di Candlekeep, che ha recentemente iniziato ad accompagnare i sacerdoti nani.~
 @392  = ~Sei <CHARNAME> di Candlekeep, che ha recentemente iniziato ad accompagnare i sacerdoti nani.~
-@393  = ~Rrrrrg... chi... chi c'√®?~
-@394  = ~Sono io, <GABBER>. Cosa √® successo?~
+@393  = ~Rrrrrg... chi... chi c'Ë?~
+@394  = ~Sono io, <GABBER>. Cosa Ë successo?~
 @395  = ~Wostok! Sei ferito?~
 @396  = ~Chi ti ha fatto questo?~
 @397  = ~Dove sono gli altri?~
@@ -451,19 +451,19 @@
 @401  = ~Riposa ora, sacerdote.~
 @402  = ~Tutti i morti... tutti... sono... morti. Therk, Galder... uccisi dalle ombre. Per favore... uccidi anche me.~
 @403  = ~Potrei ancora essere in grado di guarirti?!~
-@404  = ~Le mie ferite... avvelenate... oltre le tue capacit√†... per favore... il mio dio mi chiama...~
+@404  = ~Le mie ferite... avvelenate... oltre le tue capacit‡... per favore... il mio dio mi chiama...~
 @405  = ~Sono vecchio. Ho avuto... una bella vita. Per favore, dammi una morte onorevole. Uccidimi.~
 @406  = ~Non esiste cura *tossisce* per il vecchio Wostok.~
 @407  = ~*Il vecchio sacerdote respira pesantemente alcune volte, poi i suoi occhi tornano luminosi per un attimo*~
-@408  = ~L'et√† non √® una malattia. E ora... ora √® il mio momento. Per favore, <GABBER>. Finiscimi. Voglio morire di spada, non... non in questo modo.~
+@408  = ~L'et‡ non Ë una malattia. E ora... ora Ë il mio momento. Per favore, <GABBER>. Finiscimi. Voglio morire di spada, non... non in questo modo.~
  
 @409  = ~Temo che sia troppo tardi ora.~
 
 /* new for v5.0 */
-@410  = ~[Draglon]Understandable, but that is not yet your right. First you have to prove yourself trustworthy.~
-@411  = ~You want me to continue working for you without knowing exact details?~
-@412  = ~Yes, I regret it myself. Is there a chance we could start over? I'd rather help you against this evil cult.~
-@413  = ~[Wostok]Hmm. What do you know so far?~
-@414  = ~Enough to know that I will rather work for you.~
-@415  = ~I would. There is just one problem. I think I already made an enemy out of him, so he knows my face, too.~
-@416  = ~[Wostok]Hmm. That's too bad. Still, I think you could be of use to us. Meet us in the temple of Helm later. We will return there when we have gathered new information.~
+@410 = ~[Draglon]Comprensibile, ma non Ë ancora un tuo diritto. Prima devi dimostrare di essere affidabile.~
+@411 = ~Vuoi che continui a lavorare per te senza conoscere i dettagli esatti?~
+@412 = ~SÏ, me ne pento anch'io. C'Ë la possibilit‡ che possiamo ricominciare da capo? Preferirei aiutarti contro questa setta malvagia.~
+@413 = ~[Wostok]Hmm. Cosa sai finora?~
+@414 = ~Abbastanza da capire che preferirei lavorare per te.~
+@415 = ~Forse. C'Ë solo un problema. Credo di essermelo gi‡ fatto nemico, quindi anche lui conosce la mia faccia.~
+@416 = ~[Wostok]Hmm. Peccato. Comunque, penso che potresti esserci utile. Ci vediamo pi˘ tardi al tempio di Helm. Torneremo lÏ quando avremo raccolto nuove informazioni.~
