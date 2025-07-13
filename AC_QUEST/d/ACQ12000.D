@@ -228,7 +228,10 @@ SAY @79 = @80
 ++ @73 + 13
 END
 
-IF ~OR(3)Global("ACQ122","GLOBAL",1)Global("ACQ122","GLOBAL",2)Global("ACQ122","GLOBAL",3)~ THEN BEGIN 20
+IF ~OR(3)
+    Global("ACQ122","GLOBAL",1)
+    Global("ACQ122","GLOBAL",2)
+    Global("ACQ122","GLOBAL",3)~ THEN BEGIN 20
 SAY @81
 IF ~Global("ACQ122","GLOBAL",1)~ THEN REPLY @82 + 21
 IF ~Global("ACQ122","GLOBAL",2)~ THEN REPLY @83 + 22
@@ -491,6 +494,7 @@ IF ~~ THEN ACQ12001 22
 @164 DO ~SetGlobal("ACQ12","GLOBAL",4)AddexperienceParty(1200)ReputationInc(1)EscapeAreaDestroy(10)~
 ==ACQ12002 @165 
 DO ~//EscapeAreaMove("%Nashkel%",4490,2344,10)
+EraseJournalEntry(@10008)
 ActionOverride("ACQ12002",JumpToPoint([4490.2344]))
 ActionOverride("ACQ12002",MoveToPointNoInterrupt([4490.2344]))
 ActionOverride("ACQ12002",Face(10))~
@@ -501,6 +505,7 @@ IF ~~ THEN ACQ12001 23
 @166 DO ~SetGlobal("ACQ12","GLOBAL",4)AddexperienceParty(1200)GiveItemCreate("AMUL09",PLAYER1,0,0,0)EscapeAreaDestroy(10)~
 ==ACQ12002 @165 
 DO ~//EscapeAreaMove("%Nashkel%",4490,2344,10)
+EraseJournalEntry(@10008)
 ActionOverride("ACQ12002",JumpToPoint([4490.2344]))
 ActionOverride("ACQ12002",MoveToPointNoInterrupt([4490.2344]))
 ActionOverride("ACQ12002",Face(10))~
@@ -511,6 +516,7 @@ IF ~~ THEN ACQ12001 24
 @167 DO ~SetGlobal("ACQ12","GLOBAL",4)AddexperienceParty(1200)GiveItemCreate("AMUL09",PLAYER1,0,0,0)EscapeAreaDestroy(10)~
 ==ACQ12002 @168 
 DO ~//EscapeAreaMove("%Nashkel%",4490,2344,10)
+EraseJournalEntry(@10008)
 ActionOverride("ACQ12002",JumpToPoint([4490.2344]))
 ActionOverride("ACQ12002",MoveToPointNoInterrupt([4490.2344]))
 ActionOverride("ACQ12002",Face(10))~
