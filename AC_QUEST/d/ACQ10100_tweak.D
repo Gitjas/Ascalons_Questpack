@@ -43,7 +43,7 @@ IF ~~ THEN EXIT
 END
 
 IF ~~ THEN take_gundmagtor
-SAY @9 /* ~It is good you are bringing this to me. I know Wostok's leader and will assure it gets savely to him.~ */
+SAY @9 /* ~It is good you are bringing this to me. I know Wostok's leader and will assure it gets safely to him.~ */
 IF ~~ THEN + bring_stuff
 END
 
