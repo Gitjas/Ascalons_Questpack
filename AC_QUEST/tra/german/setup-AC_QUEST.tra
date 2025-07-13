@@ -43,13 +43,13 @@ Schon in jungen Jahren zog die Elfe Aphriel durch die Wälder Faerûns und wurde z
 
 EIGENSCHAFTEN:
 
-Schadensbonus: +2 (Geschoß)
 ETW0-Bonus: -3
-Gewicht: 2
+Schadensbonus: +2 (Geschoß)
 Initiativefaktor: 5
-Mindeststärke: 6
 Fertigkeit: Langbogen
 Typ: 2-händig
+Mindeststärke: 6
+Gewicht: 2
 
 Kann nicht verwendet werden von:
 - Dieben
@@ -79,8 +79,8 @@ EIGENSCHAFTEN:
 Der Träger ist vor allen Arten der Versteinerung geschützt, auch vor Blickangriffen.
 
 RK-Bonus: -1
-Gewicht: 7
 Mindeststärke: 12
+Gewicht: 7
 
 Kann nicht verwendet werden von:
 - Barden
@@ -112,8 +112,8 @@ Kann nur durch Fluch brechen wieder abgenommen werden.
 Rüstungsklasse: 4
 Charisma: -3
 Widerstand gg. Geschosswaffen: +10%
-Gewicht: 7
 Mindeststärke: 6
+Gewicht: 7
 
 Kann nicht verwendet werden von:
 - Magiern
@@ -173,14 +173,14 @@ Die letzten Einträge des Buches handeln von den Bemühungen, mit Mulahey in der N
 
 EIGENSCHAFTEN:
 
+ETW0-Bonus: -2
 Schaden: 1W4 +3 (Wucht)
 Schadensbonus: +1 (Elektrizität)
-ETW0-Bonus: -2
-Gewicht: 5
 Initiativefaktor: 2
-Mindeststärke: 9
 Fertigkeit: Kriegshammer
 Typ: 1-händig
+Mindeststärke: 9
+Gewicht: 5
 
 Kann nicht verwendet werden von:
 - Dieben
@@ -260,11 +260,11 @@ Typ: 1-händig
 Mindeststärke: 9
 Gewicht: 4
 
-Nicht verwedbar von:
- Bösen Gesinnungen
- Druiden
- Magiern 
- Dieben~
+Kann nicht verwendet werden von:
+- Wesen böser Gesinnung
+- Druiden
+- Magiern
+- Dieben~
 @1006 = ~Gorgar Blaurock~
 @1007 = ~Abgesandter der Zhentarim~
 @1008 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
@@ -285,11 +285,11 @@ Typ: 1-händig
 Mindeststärke: 9
 Gewicht: 4
 
-Nicht verwedbar von:
- Bösen Gesinnungen
- Druiden
- Magiern 
- Dieben~
+Kann nicht verwendet werden von:
+- Wesen böser Gesinnung
+- Druiden
+- Magiern
+- Dieben~
 @1009 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
 Meisterschmied Cromwell hat den Hammer mit der Funktion verbessert, dass er immer präzise in die Hand des Werfers zurückkehrt.
 Euer Imp Cespenar hat den Schaden erhöht, den der Hammer machen kann.
@@ -309,11 +309,11 @@ Typ: 1-händig
 Mindeststärke: 9
 Gewicht: 4
 
-Nicht verwedbar von:
- Bösen Gesinnungen
- Druiden
- Magiern 
- Dieben~
+Kann nicht verwendet werden von:
+- Wesen böser Gesinnung
+- Druiden
+- Magiern
+- Dieben~
 @1010 = ~Wostoks Hammer +4~ 
 @1011 = ~Wostoks Hammer +5~ 
 @1012 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
@@ -333,11 +333,11 @@ Typ: 1-händig
 Mindeststärke: 9
 Gewicht: 4
 
-Nicht verwedbar von:
- Bösen Gesinnungen
- Druiden
- Magiern 
- Dieben~
+Kann nicht verwendet werden von:
+- Wesen böser Gesinnung
+- Druiden
+- Magiern
+- Dieben~
 
 
 
@@ -600,11 +600,11 @@ Wir haben Aaron die Nachricht überbracht, dass seine Verlobte, also der Geist, t
 EIGENSCHAFTEN:
 
 Schaden: 1W8 (Klinge)
-Gewicht: 4
 Initiativefaktor: 4
-Mindeststärke: 6
 Fertigkeit: Langschwert
 Typ: 1-händig
+Mindeststärke: 6
+Gewicht: 4
 
 Kann nicht verwendet werden von:
 - Druiden
@@ -614,14 +614,14 @@ Kann nicht verwendet werden von:
 
 EIGENSCHAFTEN:
 
+ETW0-Bonus: -1
 Schaden: 1W8 +1 (Klinge)
 Schadensbonus: +1 (Feuer)
-ETW0-Bonus: -1
-Gewicht: 4
 Initiativefaktor: 4
-Mindeststärke: 6
 Fertigkeit: Langschwert
 Typ: 1-händig
+Mindeststärke: 6
+Gewicht: 4
 
 Kann nicht verwendet werden von:
 - Druiden
@@ -631,13 +631,13 @@ Kann nicht verwendet werden von:
 
 EIGENSCHAFTEN:
 
-Schadensbonus: +2 (Geschoss)
 ETW0-Bonus: -2
-Gewicht: 0
+Schadensbonus: +2 (Geschoss)
 Initiativefaktor: 4
-Mindeststärke: 3
 Fertigkeit: Schleuder
-Typ: 1-händig~ //#619
+Typ: 1-händig //#619
+Mindeststärke: 3
+Gewicht: 0~
 @80049 = ~Dunkelkettenhemd
 
 Die Kettenglieder dieser Rüstung sind schwarz verkohlt. Ob sie absichtlich so gefertigt wurde oder ob sie im Kampf extremer Hitze ausgesetzt war, kann man nicht sagen. In Legenden wird ja normalerweise von Rittern in glänzender Rüstung erzählt, die gegen riesige, feuerspeiende Untiere kämpfen. Die Rüstung eignet sich wohl mindestens ebenso gut für derartige Kämpfe, fand aber dank ihres eher nicht so heroischen Aussehens noch in keiner Legende Erwähnung.
@@ -664,13 +664,13 @@ Für sich allein ist der Hammer der Blitze schon ein mächtiger magischer Gegensta
 
 EIGENSCHAFTEN:
 
-Schaden: 2W4 +3 (Wucht)
 ETW0-Bonus: -3
-Gewicht: 4
+Schaden: 2W4 +3 (Wucht)
 Initiativefaktor: 1
-Mindeststärke: 18
 Fertigkeit: Kriegshammer
-Typ: 1-händig~//#39444
+Typ: 1-händig
+Mindeststärke: 18
+Gewicht: 4~//#39444
 @80054 = ~Gildenschlüssel~ //#54030
 @80055 = ~Das ist der Schlüssel zu den unteren Ebenen von Lady Galvenas Freudenhaus, der Gilde der Kurtisanen.
 
@@ -698,8 +698,8 @@ Der Träger ist immun gegen hinterhältige Angriffe.
 
 Rüstungsklasse: -2
 Magiewiderstand: +5%
-Gewicht: 45
-Mindeststärke: 15~ //#66422
+Mindeststärke: 15
+Gewicht: 45~ //#66422
 @80060 = ~Erdkoloss~
 
 @80061 = ~Schleuder +2~
