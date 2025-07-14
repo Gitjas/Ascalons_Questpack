@@ -2,7 +2,7 @@ BACKUP ~AC_QUEST/backup~
 //AUTHOR ~whiteagnus@baldursgatemods.de~ 
 SUPPORT ~https://baldurs-gate.de/index.php?threads/ascalons-questpack.39286/~
 
-VERSION ~6.2~
+VERSION ~6.3~
 
 AUTO_TRA "AC_QUEST/TRA/autotra/%s"//%"
 

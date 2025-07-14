@@ -321,6 +321,11 @@ Still missing: Italian
 -corrected syntax of item descriptions (German version).
 -typo correction.
 
+6.3 - 2025-07-14 (by Ychap)
+-Fix script loop of dwarf with pamphlet.
+-German EE item descriptions translated and revised.
+-Corrected German typos.
+
 ***************************************************************************************************************
 
 
