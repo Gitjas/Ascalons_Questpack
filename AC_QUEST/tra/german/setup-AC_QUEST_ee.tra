@@ -1,3 +1,160 @@
+@21   = ~Aarons Schutzring
+
+Dieser einfache Ring ist mit einem leichten Zauber versehen, um den Träger zu schützen. Die Gravur im Inneren besagt: "Für M. in Liebe von A."
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+RW-Bonus: -1
+
+Gewicht: 4~
+
+@27   = ~Ein kleines, weißes Kaninchen. Vielleicht das flauschigste das Ihr je gesehen habt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 3~
+
+@28   = ~Ein kleines, weißes Kaninchen. Es ist zwar nicht so flauschig wie Hopsi, aber welches Kaninchen ist das schon?
+
+EIGENSCHAFTEN:
+
+Gewicht: 3~
+
+@30   = ~Dies ist die Leiche von Perwell.
+
+EIGENSCHAFTEN:
+
+Gewicht: 110~
+
+//@32 not needed in EE!
+
+@38   = ~Nach dem Tod hat sich der Werwolf wieder in einen Menschen zurückverwandelt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 105~
+
+@40   = ~Gurilbeeren sind klassische Heilmittel auf Faerûn und werden für die verschiedensten Anwendungen benutzt. Gerade um Leiden der "besonderen" Art zu lindern sind sie sehr beliebt, weswegen viele Läden im Umkreis von leichten Damen diese Beeren im Angebot haben.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+
+@44   = ~Dieser Heiltrank enthält hauptsächlich Tollkirschenblüten.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+@45   = ~Dieser Heiltrank enthält hauptsächlich Gurilbeeren.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+@46   = ~Dieser Heiltrank enthält hauptsächlich Aiwells Blut.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+
+//@48 not needed in EE!
+
+@50   = ~In diesem Buch hat der große Karlini, eine der schillerndsten Gestalten der Gnomenheit, seine Experimente und Zaubersprüche aufgeschrieben. Die Schrift ist wirr und krakelig, wahrscheinlich könnte nur jemand, der genauso wahnsinnig ist wie Karlini, dieses Gekritzel entziffern.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2~
+
+@55   = ~Der Schlüssel öffnet die Tür von Geraldos Haus im Zentrum von Baldurs Tor.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+
+@57   = ~Die ist das Fell eines mutierten Kreischlings.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+
+//@58 not needed for EE!
+
+@60   = ~Elminster ist Geraldos zahmer Vogel, obwohl selbst dieser nicht so genau weiß welcher Gattung er angehört. Der Vogel hat einen klugen Blick und eine gehörige Abneigung gegen Kreischlinge. Sobald er einen wittert äußert er sich in einem lauten "Kiwitt".
+
+Ohne den Vogel dürfte es unmöglich sein in den Kellern und Kanälen die Kreischlinge aufzuspüren, achtet also sorgsam auf ihn.
+
+EIGENSCHAFTEN:
+
+Gewicht: 1~
+
+@67   = ~Ein kleiner Schlüssel, der so etwas wie ein Fach in der Wand öffnet.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+
+@69   = ~Dieser Schlüssel öffnet das Lagerhaus im Süden der Stadt. Die Schlangen Abbathors haben dort ihren Unterschlupf.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+
+@76   = ~Dieses zusammengerollte Bündel loser Blätter scheint das Vorgehen der Schlangen Abbathors weitgehend zusammen zu fassen. Anscheinend war es von Anfang an Ihr Plan, ein altes zwergisches Gerät namens Gundmagtor zu erobern, was in der Gemeinsprache so viel bedeutet wie "Rufer der schwarzen Seelen". Der Hauptschlag des Kultes scheint sich auf Nashkell zu konzentrieren und die Notiz "<CHARNAME> hat Mulahey getötet, Minen sind frei" verheißt nichts gutes.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+
+@80   = ~Lugosch Grauhemd hat seinen Weg vom kleinen Kultisten bis zum Abbathorpriester mit fein säuberlicher Handschrift festgehalten. Jede Zeile strotzt vor Selbstvertrauen und Arroganz. Er bescheibt, wie der Kult in Amn Fuß fasste und er selbst als Handlanger der Lurraxols in Handelstreff angeworben wurde. Der Kult entwickelte sich und unterwanderte schon bald die größeren Städte, nur um sich an Athkalta und den dort residierenden Schattendieben die Zähne auszubeißen. Lugosch, der mittlerweile zum Priester aufgestiegen war, wurde von den Kultführern abgerufen, sich in Richtung Norden zu orientieren und in Baldurs Tor weiter zu arbeiten.
+
+Die letzten Einträge des Buches handeln von den Bemühungen, mit Mulahey in der Nashkelmine in Kontakt zu treten, von der rüden Abfuhr die der Halbork den Zwergen erteilte und von der hämischen Schadenfreude, als <CHARNAME> die Mine befreite. Lugosch witterte seine Chance und führte einen schnellen Schlag, um dem Kult eine gut laufende Eisenmine einzuverleiben.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2~
+
+@82   = ~Emerson, der Vorarbeiter der Nashkellmine, hat in diesem wirren Haufen von Blättern und Zetteln seine Berechnungen und Erfahrungen aufgeschrieben. Für jemanden, der im Bergbau arbeitet, ist dieser Wust an Informationen sicherlich eine Goldgrube. Für Euch jedoch sind die Notizen nutzlos.
+
+EIGENSCHAFTEN:
+
+Gewicht: 3~
+
+@84   = ~This book looks very old and has been through a lot. Some pages are torn and others pierced, some singed, and a large part of the book is smeared with blood. Even if you cannot decipher the name of the priest, it seems the old wanderer has gone through a lot - traveling with a group of adventurers, certain conflicts over the "true" dwarf existence and finally the banishment from his clan. To the dwarf, to whom his family was above all, this loss made him first lose his mind and then drove him straight into the arms of the Serpents.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0~
+
+//@86 not needed in EE!
+
+@88   = ~Das Buch ist mit säuberlicher Handschrift geführt und berichtet von Bashrik Funkenhammers letzter Reise. Bashrik war einem Kult auf den Fersen, der sich selbst "Die Schlangen Abbathors" nennt. Abbathor, der einzige böse Gott unter den Morndinsamman, gilt bei ihnen als Befreier des Zwergenvolkes und als Schutzpatron der Oberweltzwerge.
+
+Viel mehr könnt Ihr nicht aus dem Buch erfahren, denn Bashrik hat die Aufzeichnungen augenscheinlich in erster Linie für Eingeweihte verfasst. Einzig der letzte Eintrag bietet einen Anhaltspunkt, wenn Ihr der Sache nachgehen wollt:
+
+"Habe mich heute von Wostok getrennt. Während Mirjala und ich unser Glück im Süden versuchen werden, nimmt Wostok die große Stadt in Augenschein. Wir werden uns im Tempel des Helm wiedertreffen, sobald ich nähere Informationen habe.
+
+Nachtrag: Nachdem ich den Attentäter, der im Freundlichen Arm auf uns gewartet hat, einmal gehörig durch die Mangel gedreht habe, kenne ich jetzt wenigstens einen Namen. Ein gewisser Draglon scheint in den Unterkellern die Geschäfte des Kultes zu regeln. Nun, das hat Zeit bis ich wieder da bin."
+
+(Wenn Ihr der Geschichte um den Kult nachgehen wollt, dann ist es von Vorteil das Buch zu behalten)
+
+EIGENSCHAFTEN:
+
+Gewicht: 2~
+
+@91   = ~Was genau dieses Artefakt macht ist Euch unbekannt. Die Schlangen Abbathors wollen es, das ist wohl genug Information.
+
+EIGENSCHAFTEN:
+
+Gewicht: 30~
+
+@93   = ~Die Geschichte dieses Artefaktes liegt im Dunkeln. Was Ihr Euch aus den paar Fetzen zusammenreimen könnt, die Ihr bisher erfahren habt, und wenn Ihr die paar uralten Zwergenrunen, die das Gerät überziehen, richtig deutet, dann dient das Artefakt auf irgendeine Art und Weise dazu, die Vorväter der Zwerge zu kontaktieren und ihre Energie in Schattenhafte Wesen umzuleiten.
+
+Nach allem, was Ihr über die alten Zwerge wisst, kommt so eine Tat dem größten Sakrileg gleich zu dem ein Zwerg fähig sein mag. Die Ruhe der Toten ist heilig und nur äußerst verdorbene Seelen würden es wagen sie zu brechen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 30~
+
 /* new for v5.0 */
 @1005 = ~Wostok Hammerkopf war sowohl ein Krieger als auch ein Priester Moradins und bekannt für seine Tapferkeit und seinen selbstlosen Kampf gegen die korrumpierten Oberflächenzwerge, die den bösen Gott Abbathor anbeten. Diese Waffe ging an die Schlangen von Abbathor verloren, als Wostok im Kampf gegen sie fiel, um die nashkeller Mine von ihrer Besetzung zu befreien. Der Hammer wurde von Wostoks Klan zurückgeholt und veredelt, und ist nun wieder bereit, der gerechten Sache gegen das Böse zu dienen.
 
@@ -75,49 +232,17 @@ Gewicht: 4
 ~
 
 //#6742 BGII
-@80042 = ~These swords are usually referred to as double-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from thirty-five inches to forty-seven inches. In the latter case, the blade is known to take up forty inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
-
-STATISTICS:
-
-Damage: 1d8 (slashing)
-Speed Factor: 4
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
-
-Weight: 4~
-
-//#4421 BGII
-@80043 = ~This blade burns with a magical fire, and a charring blast is released whenever a hit is scored. "Meta Infernum" is etched on the hilt, though it appears somewhat faded and may not be original to the sword.
-
-STATISTICS:
-
-THAC0: +1
-Damage: 1d8+1, +1 fire damage
-Damage type: Slashing
-Speed Factor: 4
-Proficiency Type: Long Sword
-Type: One-handed
-Requires:
- 6 Strength
-
-Weight: 4
-~
-
-
-//#6742 BGII
 @80042 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
 
 EIGENSCHAFTEN:
 
 Schaden: 1W8 (Klinge)
-Gewicht: 4
-Initiativefaktor: 4
-Mindeststärke: 6
+Initiativefaktor: 5
 Fertigkeit: Langschwert
 Typ: 1-händig
-~
+Mindeststärke: 6
+
+Gewicht: 4~
 //#4421 BGII
 @80043 = ~Die Klinge brennt mit einem magischen Feuer und bei jedem Schlag wird versengende Hitze freigesetzt. Die Worte „Meta Infernum“ sind in den Griff geritzt. Die Inschrift wirkt jedoch leicht verwischt und wurde vielleicht erst später von einem der Besitzer angebracht.
 
@@ -131,8 +256,7 @@ Fertigkeit: Langschwert
 Typ: 1-händig
 Mindeststärke: 6
 
-Gewicht: 4
-~
+Gewicht: 4~
 
 //#6742 BGII same as @80042
 //@80046 = only needed for BGT+Tutu
@@ -154,8 +278,7 @@ Fertigkeit: Kriegshammer
 Typ: 1-händig
 Mindeststärke: 18
 
-Gewicht: 4
-~
+Gewicht: 4~
 //#39548 BGII
 @80057 = ~Die Rüstung wurde einst von Shar gesegnet und hat eine lange und interessante Geschichte. Nur die besten aller Diebe waren je im Besitz dieser extrem stark verzauberten Rüstung. Die Essenz der Nacht wurde in die dunkle Rüstung verwoben. Sie fühlt sich wie eine normale Rüstung an, hüllt den Träger aber in einen schützenden Mantel aus sich windenden Schatten.
 
@@ -169,8 +292,7 @@ RK-Malus:
  +2 gg. Stichwaffen
 Mindeststärke: 3
 
-Gewicht: 5
-~
+Gewicht: 5~
 //#66422 BGII
 @80059 = ~Die Rüstung wurde für Enkidu, einen berühmten Krieger aus Kara-Tur, hergestellt. Niemand wagte es, ihn in einem fairen Kampf herauszufordern, aber zahlreiche Meuchelmörder, Ninjas und Wu-Jen versuchten Enkidu hinterrücks und feige zu ermorden.
 
@@ -187,8 +309,7 @@ RK-Bonus:
  -4 gg. Klingenwaffen
 Mindeststärke: 15
 
-Gewicht: 45
-~
+Gewicht: 45~
 //@32 without "Not useable by"
 @100032   = ~Aphriels Elfenbogen
 
@@ -196,23 +317,25 @@ Schon in jungen Jahren zog die Elfe Aphriel durch die Wälder Faerûns und wurde z
 
 EIGENSCHAFTEN:
 
-Schadensbonus: +2 (Geschoß)
 ETW0-Bonus: -3
-Gewicht: 2
+Schadensbonus: +2 (Geschoss)
 Initiativefaktor: 5
-Mindeststärke: 6
 Fertigkeit: Langbogen
-Typ: 2-händig~
+Typ: 2-händig
+Mindeststärke: 6
+
+Gewicht: 2~
 //@48 without "Not useable by"
 @100048   = ~Dieser Schild ist auf Hochglanz poliert und offensichtlich magisch. Kratzer verschwinden und Blut und Schmutz perlt einfach von seiner spiegelnden Oberfläche ab. Es steht zu vermuten, dass er sogar dem Blick eines Basilisken standhalten kann.
 
 EIGENSCHAFTEN:
 
-Der Träger ist vor allen Arten der Versteinerung geschützt, auch vor Blickangriffen.
+Der Träger ist immun gegen Versteinerung.
 
-RK-Bonus: -1
-Gewicht: 7
-Mindeststärke: 12~
+RK-Bonus: -2
+Mindeststärke: 12
+
+Gewicht: 7~
 //@58 without "Not useable by"
 @100058   = ~Rüstung aus Kreischlingsleder
 
@@ -223,24 +346,26 @@ Die Chronisten gehen davon aus, dass sich der große Geraldo ins Fäustchen lacht 
 EIGENSCHAFTEN:
 
 Der Charakter verfärbt sich blau.
-
 Kann nur durch Fluch brechen wieder abgenommen werden.
 
-Rüstungsklasse: 4
 Charisma: -3
-Widerstand gg. Geschosswaffen: +10%
-Gewicht: 7
-Mindeststärke: 6~
+Widerstand gg. Geschosswaffen: +10 %
+
+Rüstungsklasse: 4
+Mindeststärke: 6
+
+Gewicht: 7~
 //@86 for EE without "Not useable by"
 @100086   = ~Der Moradinpriester Bashrik Funkenhammer galt in den Kreisen liberal einsteller Zwerge als weise und wahrhaftig. Er setzte sich engagiert gegen die Abspaltung der Oberweltzwerge ein und genoss allgemein ein hohes Ansehen. Dieser Hammer, geladen mit den Blitzen Moradins, war seine größte Waffe im Kampf gegen das Böse.
 
 EIGENSCHAFTEN:
 
+ETW0-Bonus: -2
 Schaden: 1W4 +3 (Wucht)
 Schadensbonus: +1 (Elektrizität)
-ETW0-Bonus: -2
-Gewicht: 5
 Initiativefaktor: 2
-Mindeststärke: 9
 Fertigkeit: Kriegshammer
-Typ: 1-händig~
+Typ: 1-händig
+Mindeststärke: 9
+
+Gewicht: 5~
