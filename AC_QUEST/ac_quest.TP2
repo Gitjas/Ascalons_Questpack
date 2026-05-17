@@ -245,15 +245,11 @@ LANGUAGE ~Simplified Chinese~
 	 ~AC_QUEST/TRA/schinese/setup-AC_QUEST.tra~
 	 ~AC_QUEST/TRA/schinese/setup-install.tra~
 
-LANGUAGE ~Polish [EET] (by my_summertime, SoM Membress, part of CoB Clan)~ 
-	 ~polish-eet~ 
-	 ~AC_QUEST/TRA/polish-eet/setup-AC_QUEST.tra~
-	 ~AC_QUEST/TRA/polish-eet/setup-install.tra~
+LANGUAGE ~Polish (by my_summertime, SoM Membress, part of CoB Clan)~ 
+	 ~polish~ 
+	 ~AC_QUEST/TRA/polish/setup-AC_QUEST.tra~
+	 ~AC_QUEST/TRA/polish/setup-install.tra~
 
-LANGUAGE ~Polish [BGT] (by my_summertime, SoM Membress, part of CoB Clan)~ 
-	 ~polish-bgt~ 
-	 ~AC_QUEST/TRA/polish-bgt/setup-AC_QUEST.tra~
-	 ~AC_QUEST/TRA/polish-bgt/setup-install.tra~
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////
