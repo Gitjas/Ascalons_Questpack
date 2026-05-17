@@ -1,0 +1,1012 @@
+/* @0    = */
+//@1    = ~Ascalon's Questpack mod do BGT/EET~
+//@2    = ~Nie znaleziono zainstalowanego BG. Istalacja modyfikacji zostanie przerwana.~
+//@3    = ~Naucz Virginie, niewidzialnego cudownego kroliczka, kilku nowych sztuczek~
+//@4    = ~Zainstaluj Virginie, niewidzialnego cudownego kroliczka~
+
+@6    = ~Agnus~
+@7    = ~Agnus Bia³y~
+@8    = ~Teliel~
+@9    = ~Teliel £¹koœpiew~
+@10   = ~Udolf~
+@11   = ~Udolf Raukner~
+@12   = ~Pani Krynica~
+@13   = ~Antek~
+@14   = ~Antek Krynica~
+@15   = ~Duch~
+@16   = ~Barin~
+@17   = ~£owca Barin~
+@18   = ~Wódz gnolli~
+@19   = ~Ochroniarz gnolli~
+@20   = ~Pierœcieñ ochrony Antka~
+@21   = ~Pierœcieñ ochrony Antka
+
+Ten prosty pierœcieñ zosta³ nasycony s³abym zaklêciem chroni¹cym nosz¹cego. Wewn¹trz widnieje grawerunek: „Dla M., z mi³oœci¹, A.”
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Rzuty obronne: +1
+
+Waga: 0~
+
+@22   = ~Kessy~
+@23   = ~Ugh~
+@24   = ~Królik~
+@25   = ~Hodowca królików~
+@26   = ~Królik~
+@27   = ~Ma³y, bia³y królik. Byæ mo¿e najbardziej puchaty, jakiego kiedykolwiek widzia³eœ.
+
+PARAMETRY:
+
+Waga: 3~ ~Ma³y, bia³y królik. Byæ mo¿e najbardziej puchaty, jakiego kiedykolwiek widzia³aœ.
+
+PARAMETRY:
+
+Waga: 3~
+@28   = ~Ma³y, bia³y królik. Nie jest tak puchaty jak Skoczuœ, ale czy jakikolwiek królik móg³by mu dorównaæ?
+
+PARAMETRY:
+
+Waga: 3~
+@29   = ~Perwell~
+@30   = ~To jest cia³o Perwella.
+
+PARAMETRY:
+
+Waga: 110~
+
+@31   = ~Elficki d³ugi ³uk~
+@100032   = ~Elficki d³ugi ³uk Afriel
+
+Ju¿ we wczesnych latach elfka Afriel przemierza³a lasy Faerunu i sta³a siê jedn¹ z najwiêkszych ³owczyñ naszych czasów. Nie by³o tropu, którego nie potrafi³aby podj¹æ, ani przestêpcy, który móg³by czuæ siê bezpieczny przed jej ³ukiem. Dopiero gdy podczas wizyty w Wrotach Baldura pozna³a miejscowego kupca i zakocha³a siê w nim namiêtnie, jej leœne wêdrówki dobieg³y koñca. Ich zwi¹zek zosta³ pob³ogos³awiony narodzinami m³odego pó³elfa Perwella, a kiedy ch³opiec zosta³ porwany przez bandytów z Wybrze¿a Mieczy, Afriel wyruszy³a po raz ostatni do lasów. Podczas tej wyprawy ³uk trafi³ w twoje rêce.
+
+PARAMETRY:
+
+Obra¿enia: +2
+TraK0: +3
+Typ obra¿eñ: pocisk
+OpóŸnienie: 5
+Rodzaj bieg³oœci: d³ugi ³uk
+Typ broni: 2-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 2~
+
+@33   = ~Afriel~
+@34   = ~Aiwell~
+@35   = ~Wilko³ak~
+@36   = ~Tonder~
+@37   = ~Cia³o Tondera~
+@38   = ~Po œmierci wilko³ak ponownie zmieni³ siê w cz³owieka.
+
+PARAMETRY:
+
+Waga: 105~
+
+@39   = ~Gurilowe jagody~
+@40   = ~Gurilowe jagody s¹ tradycyjnym œrodkiem leczniczym w Faerunie i znajduj¹ wiele zastosowañ. Szczególnie popularne s¹ w ³agodzeniu dolegliwoœci „specjalnego” rodzaju, dlatego czêsto mo¿na je znaleŸæ w sklepach, niedaleko których przebywaj¹ kurtyzany.
+
+PARAMETRY:
+
+Waga: 1~
+@41   = ~Krew Aiwell~
+@42   = ~Aiwell przekaza³a ci znaczn¹ iloœæ swojej krwi, byœ móg³ ocaliæ jej mê¿a, Tondera.~ ~Aiwell przekaza³a ci znaczn¹ iloœæ swojej krwi, byœ mog³a ocaliæ jej mê¿a, Tondera.~
+@43   = ~Mikstura przeciw likantropii~
+@44   = ~Ta mikstura zawiera g³ównie kwiaty belladonny.
+
+PARAMETRY:
+
+Waga: 0~
+@45   = ~Ta mikstura zawiera g³ównie gurilowe jagody.
+
+PARAMETRY:
+
+Waga: 0~
+@46   = ~Ta mikstura zawiera g³ównie krew Aiwell.
+
+PARAMETRY:
+
+Waga: 0~
+@47   = ~Lustrzana Tarcza +1~
+@100048   = ~Tarcza ta zosta³a wypolerowana na wysoki po³ysk i jest wyraŸnie magiczna. Zadrapania znikaj¹, a krew i brud po prostu sp³ywaj¹ z jej lustrzanej powierzchni. Mo¿na przypuszczaæ, ¿e jest w stanie wytrzymaæ nawet spojrzenie bazyliszka.
+
+PARAMETRY:
+
+Specjalne
+– Nosz¹cy jest chroniony przed wszystkimi rodzajami petryfikacji i atakami opartymi na spojrzeniu.
+
+Klasa Pancerza: +2
+
+Wymagania:
+– Si³a: 12
+
+Waga: 7~
+@49   = ~Ksiêga zaklêæ Karliniego~
+@50   = ~W tej ksiêdze Niezrównany Karlini, jedna z najbardziej barwnych postaci gnomich legend, zapisa³ swoje doœwiadczenia i zaklêcia. Pismo jest chaotyczne i koœlawe – prawdopodobnie tylko ktoœ równie szalony jak Karlini zdo³a³by rozszyfrowaæ te bazgro³y.
+
+PARAMETRY:
+
+Waga: 2~
+@51   = ~Ignac~
+@52   = ~Ignatius Bombastus~
+@53   = ~Karlini~
+@54   = ~Klucz Geralda~
+@55   = ~Klucz otwiera drzwi domu Geralda w centrum Wrót Baldura.
+
+PARAMETRY:
+
+Waga: 0~
+@56   = ~Futro gibberlinga~
+@57   = ~To futro zmutowanego gibberlinga.
+
+PARAMETRY:
+
+Waga: 0~
+@100058   = ~Pancerz z skóry gibberlinga
+
+Jednym z produktów ubocznych prac Geralda nad gibberlingami by³a du¿a iloœæ skór. Poniewa¿ malarz potrzebowa³ jedynie futer do swoich farb, szuka³ innego zastosowania dla grubej skóry tych potworów... i znalaz³ je. Niestety, skóra gibberlingów mia³a pewne niespodziewane efekty uboczne, wiêc Geraldo niecierpliwie czeka³ na jak¹œ ³atwowiern¹ duszê, by wcisn¹æ jej swój eksperyment.
+
+Kronikarze przypuszczaj¹, ¿e wielki Geraldo œmieje siê w ku³ak na myœl, i¿ jakiœ g³upiec uzna ten pancerz za faktycznie u¿yteczny.
+
+PARAMETRY:
+
+Specjalne:
+– Charyzma: -3
+– Odpornoœæ na broñ miotan¹: +10%
+– Postaæ staje siê niebieska
+– Mo¿na zdj¹æ tylko po rzuceniu czaru Zdjêcie kl¹twy
+
+Klasa Pancerza: 4
+
+Wymagania:
+– Si³a 6
+
+Waga: 7~
+@59   = ~Ptak Elminster~
+@60   = ~Elminster to oswojony ptak Geralda, choæ nawet sam Geraldo nie zna jego dok³adnego gatunku. Ptak ma m¹dre spojrzenie i wyj¹tkow¹ awersjê do gibberlingów. Jak tylko wyczuje jednego, wydaje g³oœny okrzyk „Æwiiirrr”.
+
+Bez ptaka namierzenie gibberlingów w piwnicach i kana³ach by³oby niemal niemo¿liwe, wiêc dobrze siê nim opiekuj.
+
+PARAMETRY:
+
+Waga: 1~
+@61   = ~Geraldo~
+@62   = ~Geraldo Wspania³y~
+@63   = ~Mandy~
+@64   = ~Ashley~
+@65   = ~Cindy~
+@66   = ~Klucz~
+@67   = ~Ma³y klucz otwieraj¹cy panel w œcianie.
+
+PARAMETRY:
+
+Waga: 0~
+@68   = ~Klucz do magazynu~
+@69   = ~Ten klucz otwiera magazyn w Po³udniowej Dzielnicy miasta. Tam znajduje siê kryjówka ¯mij Abbathora.
+
+PARAMETRY:
+
+Waga: 0~
+@70   = ~List~
+@71   = ~Mulaheyu,
+
+Od d³u¿szego czasu obserwujemy twoje dzia³ania i jesteœmy pod du¿ym wra¿eniem. Wspó³praca miêdzy tob¹ a nasz¹ organizacj¹ mog³aby w d³u¿szej perspektywie okazaæ siê bardzo korzystna. Jeœli chcesz siê z nami skontaktowaæ, spotkaj siê z naszym ³¹cznikiem, Tarashem Czarnohe³mem, w Beregoœcie noc¹. Bêdzie na ciebie czeka³ przy kamiennym filarze w centrum miasta.
+
+Niech Bóg spije chwa³ê, a wszystkie klejnoty przypadn¹ ¯mijom!~
+@72   = ~Tarashu,
+
+Teraz to ju¿ oficjalne. Bashrik M³otomoc wyruszy³ na Wybrze¿e Mieczy! Ten przeklêty dobroczyñca zrujnuje nas wszystkich. Wed³ug naszych informacji, on i ta elfia suka podró¿uj¹ z Wrót Baldura na po³udnie... kiedy dotrze na rozstaje prowadz¹ce do Lwiego Traktu, zgotujemy mu prawdziw¹ niespodziankê!
+
+Niech Bóg spije chwa³ê, a wszystkie klejnoty przypadn¹ ¯mijom!~
+@73   = ~Ulotka~
+@74   = ~Krasnoludy z powierzchni!
+
+Wiemy, co czujecie! D³ugoroœli tylko robi¹ was w konia, Spiczastousi œmiej¹ siê wam w twarz, a G³êbinowcy odwrócili siê od was!
+
+Ale nie jesteœcie sami. Ojciec Abbathor dba o swoje dzieci. Nawet wtedy, gdy Moradin wytr¹ci wam pochodniê z d³oni. Chcecie nale¿eæ do rodziny Abbathora? PrzyjdŸcie wiêc do G³êbokich Piwnic i pytajcie o Draglona!
+
+Niech Bóg spije chwa³ê, a wszystkie klejnoty przypadn¹ ¯mijom!~
+@75   = ~Notatki~
+@76   = ~Ten plik luŸnych, zawiniêtych kartek zdaje siê w du¿ej mierze podsumowywaæ dzia³ania ¯mij Abbathora. NajwyraŸniej od pocz¹tku planowali przejêcie staro¿ytnego krasnoludzkiego urz¹dzenia zwanego Gundmagtor, co w mowie powszechnej oznacza coœ w rodzaju „Przywo³ywacza czarnych dusz”. G³ówne dzia³ania kultu wydaj¹ siê koncentrowaæ na Nashkel, a wzmianka „<CHARNAME> zabi³ Mulaheya, kopalnie s¹ wolne” nie wró¿y niczego dobrego.
+
+PARAMETRY:
+
+Waga: 0~ ~Ten plik luŸnych, zawiniêtych kartek zdaje siê w du¿ej mierze podsumowywaæ dzia³ania ¯mij Abbathora. NajwyraŸniej od pocz¹tku planowali przejêcie staro¿ytnego krasnoludzkiego urz¹dzenia zwanego Gundmagtor, co w mowie powszechnej oznacza coœ w rodzaju „Przywo³ywacza czarnych dusz”. G³ówne dzia³ania kultu wydaj¹ siê koncentrowaæ na Nashkel, a wzmianka „<CHARNAME> zabi³a Mulaheya, kopalnie s¹ wolne” nie wró¿y niczego dobrego.
+
+PARAMETRY:
+
+Waga: 0~
+@77   = ~<CHARNAME>, który pracuje dla Wostocka, ju¿ tu zmierza. WeŸ ze sob¹ Herolda i kogoœ z Wœciek³ych. Herold ma zabraæ Gundmagtora i dostarczyæ go nam, podczas gdy wy zaczekacie na naszego goœcia. Potem przyjdŸcie do nas, abyœmy mogli omówiæ dalsze kroki.
+
+L~ ~<CHARNAME>, która pracuje dla Wostocka, ju¿ tu zmierza. WeŸ ze sob¹ Herolda i kogoœ z Wœciek³ych. Herold ma zabraæ Gundmagtora i dostarczyæ go nam, podczas gdy wy zaczekacie na naszego goœcia. Potem przyjdŸcie do nas, abyœmy mogli omówiæ dalsze kroki.
+
+L~
+@78   = ~Lugoshu, wierny s³ugo!
+
+Doceniamy twoje starania, by przej¹æ kontrolê nad kopalni¹ ¿elaza w Nashkel. Mamy jednak jeszcze jedn¹ sprawê: miej oko na kogoœ, kto zwie siê <CHARNAME> i pochodzi z Candlekeep. Rozkaz pochodzi z najni¿szych g³êbin i wiesz, co to oznacza.
+
+Niech Bóg spije chwa³ê, a wszystkie klejnoty przypadn¹ ¯mijom!~
+@79   = ~Dziennik Lugosha~
+@80   = ~Lugosh Szarotrykot zapisa³ swoj¹ drogê od skromnego kultysty do kap³ana Abbathora starannym, równym pismem. Ka¿da linijka przepe³niona jest pewnoœci¹ siebie i arogancj¹. Opisuje, jak kult zapuœci³ korzenie w Amn, a on sam zosta³ zatrudniony jako pomagier rodziny Lurraxol z Targowa. Kult rozrós³ siê i wkrótce przeniós³ do wiêkszych miast, jednak w Athkatli zosta³ st³amszony przez Z³odziei Cienia. Lugosh, który w miêdzyczasie awansowa³ do stanu kap³añskiego, zosta³ wezwany przez przywódców kultu, by uda³ siê na pó³noc i kontynuowa³ swoj¹ pracê we Wrotach Baldura.
+
+Ostatnie wpisy opisuj¹ jego wysi³ki, które mia³y na celu nawi¹zanie kontaktu z Mulaheyem z kopalni Nashkel. Opisuj¹ ordynarn¹ odmowê, jakiej ten pó³ork udzieli³ krasnoludom, oraz z³oœliw¹ satysfakcjê Lugosha, gdy ktoœ o imieniu <CHARNAME> wyzwoli³ kopalniê. Lugosh dostrzeg³ w tym szansê i poprowadzi³ szybkie uderzenie, by w³¹czyæ dobrze prosperuj¹c¹ kopalniê ¿elaza w struktury kultu.
+
+PARAMETRY:
+
+Waga: 2~
+
+@81   = ~Notatki Emersona~
+@82   = ~Emerson, nadzorca Kopalni w Nashkel, zapisa³ swoje obliczenia i doœwiadczenia w tym niechlujnym stosie kartek. Dla kogoœ, kto pracuje w przemyœle wydobywczym, ten g¹szcz informacji jest z pewnoœci¹ kopalni¹ z³ota. Dla ciebie jednak notatki s¹ bezu¿yteczne.
+
+PARAMETRY:
+
+Waga: 3~
+@83   = ~Dziennik~
+@84   = ~Ta ksiêga wygl¹da na bardzo star¹ i wiele ju¿ przesz³a. Czêœæ stron jest podarta, inne podziurawione, niektóre nadpalone, a spora czêœæ ksi¹¿ki jest poplamiona krwi¹. Choæ nie potrafisz odczytaæ imienia kap³ana, wydaje siê, ¿e wiekowy wêdrowiec sporo przeszed³ – podró¿owa³ z grup¹ poszukiwaczy przygód, wda³ siê w spory o to, czym jest „prawdziwe” krasnoludzkie ¿ycie, a w koñcu zosta³ wygnany ze swojego klanu. Dla krasnoluda, dla którego rodzina by³a wartoœci¹ najwy¿sz¹, strata ta najpierw doprowadzi³a go do szaleñstwa, a potem pchnê³a prosto w ramiona ¯mij.
+
+PARAMETRY:
+
+Waga: 0~
+@85   = ~M³ot Bashrika +2~
+@100086   = ~Kap³an Moradina, Bashrik M³otomoc, uchodzi³ wœród postêpowych krasnoludów za m¹drego i prawego. Nieustannie sprzeciwia³ siê secesji krasnoludów z powierzchni i cieszy³ siê powszechnym szacunkiem. Ten m³ot, na³adowany b³yskawicami Moradina, by³ jego najwiêksz¹ broni¹ w walce ze z³em.
+
+PARAMETRY:
+
+Specjalne: 
++1 obra¿eñ od elektrycznoœci
+
+Obra¿enia: 1k4 +3
+TraK0: +2
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 2
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 9
+
+Waga: 5~
+@87   = ~Dziennik Bashrika~
+@88   = ~Ksiêga jest zapisana schludnym pismem i relacjonuje ostatni¹ wyprawê Bashrika M³otomocy. Bashrik tropi³ kult nazywaj¹cy siê „¯mijami Abbathora”. Dla nich Abbathor, jedyny z³y bóg poœród Morndinsamman, jest uwa¿any za wyzwoliciela i œwiêtego patrona krasnoludzkiego rodu z powierzchni.
+
+Niewiele wiêcej mo¿na siê z ksiêgi dowiedzieæ,poniewa¿ notatki Bashrika zosta³y najwyraŸniej napisane g³ównie dla wtajemniczonych. Tylko ostatni wpis mo¿e dostarczyæ wskazówki, jeœli zechcesz siê przyjrzeæ tej sprawie:
+
+Opuœci³em dziœ Wostocka. Mirjala i ja spróbujemy szczêœcia na po³udniu, Wostock przyjrzy siê sprawie w wielkim mieœcie. Spotkamy siê ponownie w œwi¹tyni Helma, gdy zdobêdê wiêcej informacji.
+
+P.S. Po przes³uchaniu zabójcy, który czeka³ na nas w gospodzie „Pod Pomocn¹ D³oni¹”, pozna³em przynajmniej jedno imiê. W G³êbokich Piwnicach rezyduje niejaki Draglon, sk¹d zajmuje siê sprawami kultu. Có¿, zajmê siê tym po powrocie.
+
+(Jeœli chcesz zbadaæ kult i dowiedzieæ siê, o co w tym wszystkim chodzi, dobrze bêdzie zachowaæ tê ksiêgê.)
+
+PARAMETRY:
+
+Waga: 2~
+@89   = ~Artefakt~
+@90   = ~Krasnoludzki artefakt~
+@91   = ~Nie wiesz dok³adnie, do czego s³u¿y ten artefakt. To, ¿e ¯mije Abbathora go pragn¹, jest prawdopodobnie wystarczaj¹c¹ informacj¹.
+
+PARAMETRY:
+
+Waga: 30~
+@92   = ~Gundmagtor~
+@93   = ~Historia tego artefaktu ginie w pomroce dziejów. Z tego, co mo¿esz wywnioskowaæ z nielicznych strzêpów wiedzy, które uda³o ci siê dot¹d zdobyæ, oraz jeœli uda³o ci siê dobrze odczytaæ kilka pradawnych krasnoludzkich run pokrywaj¹cych urz¹dzenie, artefakt w jakiœ sposób umo¿liwia kontakt z przodkami krasnoludów i przekierowanie ich energii w mroczne istoty.
+
+Z tego, co wiesz o dawnych krasnoludach, taki czyn stanowi najwiêksze zbezczeszczenie, jakiego krasnolud móg³by siê dopuœciæ. Pokój zmar³ych jest œwiêty, a jedynie niezwykle spaczone dusze oœmieli³yby siê go naruszyæ.
+
+PARAMETRY:
+
+Waga: 30~
+@94   = ~Tarash~
+@95   = ~Zabójca~
+@96   = ~Bashrik~
+@97   = ~Mirjala~
+@98   = ~Draglon~
+@99   = ~Krasnolud~
+@100  = ~Kultysta~
+@101  = ~Fanatyk Abbathora~
+@102  = ~Kap³an Abbathora~
+@103  = ~Lugosh~
+@104  = ~Galder~
+@105  = ~Therk~
+@106  = ~Jarger~
+@107  = ~Jarger Z³otobrody~
+@108  = ~Wostock~
+@109  = ~Wostock M³otog³owy~
+@110  = ~Jassir~
+@111  = ~Jenna~
+@112  = ~Cieñ~
+@113  = ~Szalony Kap³an Dumathoina~
+@114  = ~Larn~
+@115  = ~Bob~
+@116  = ~Ron~
+@117  = ~Hank~
+@118  = ~¯mije Abbathora~
+@119  = ~Lugosh i jego ludzie nie ¿yj¹, a Kopalnie Nashkel zosta³y uwolnione od z³a. Jednak to zwyciêstwo rodzi wiêcej pytañ, ni¿ daje odpowiedzi. Czy krasnoludy, które do³¹czy³y do kultu, s¹ w istocie tylko wyrzutkami szukaj¹cymi nowego domu? Jeœli tak, dlaczego cz³onkowie ¯mij tak stanowczo i zajadle domagaj¹ siê twojej œmierci? To pytania, na które nie ma odpowiedzi, bo trop, którym pod¹¿a³eœ, urywa siê w³aœnie tutaj. Pozostaje ci jedynie porozmawiaæ z Emersonem i zg³osiæ, ¿e kopalnie znów s¹ wolne – i mieæ nadziejê, ¿e kiedyœ wszystko siê u³o¿y.~ ~Lugosh i jego ludzie nie ¿yj¹, a Kopalnie Nashkel zosta³y uwolnione od z³a. Jednak to zwyciêstwo rodzi wiêcej pytañ, ni¿ daje odpowiedzi. Czy krasnoludy, które do³¹czy³y do kultu, s¹ w istocie tylko wyrzutkami szukaj¹cymi nowego domu? Jeœli tak, dlaczego cz³onkowie ¯mij tak stanowczo i zajadle domagaj¹ siê twojej œmierci? To pytania, na które nie ma odpowiedzi, bo trop, którym pod¹¿a³aœ, urywa siê w³aœnie tutaj. Pozostaje ci jedynie porozmawiaæ z Emersonem i zg³osiæ, ¿e kopalnie znów s¹ wolne – i mieæ nadziejê, ¿e kiedyœ wszystko siê u³o¿y.~
+@120  = ~Jasr~
+@121  = ~Jas~
+@122  = ~Jen~
+@123  = ~Emmi £¹kowa~
+@124  = ~Bunger~
+@1000 = ~Skórzana zbroja z gibberlinga~
+@1001 = ~Cia³o Wostocka~
+@1002 = ~To cia³o Wostocka, krasnoludzkiego wojownika i kap³ana, któremu pomog³eœ w walce przeciw ¯mijom Abbathora. Kap³an Helma we Wrotach Baldura z pewnoœci¹ je od ciebie przyjmie.
+
+PARAMETRY:
+
+Waga: 105~ ~To cia³o Wostocka, krasnoludzkiego wojownika i kap³ana, któremu pomog³aœ w walce przeciw ¯mijom Abbathora. Kap³an Helma we Wrotach Baldura z pewnoœci¹ je od ciebie przyjmie.
+
+PARAMETRY:
+
+Waga: 105~
+@1003 = ~Baldar Z³otobrody~
+@1004 = ~M³ot Wostocka +3~
+@1005 = ~Wojownik, a zarazem kap³an Moradina, Wostock M³otog³owy znany by³ ze swojej odwagi i bezinteresownej walki przeciw zepsutym krasnoludom z powierzchni, czcz¹cym z³ego boga Abbathora. Broñ ta zosta³a utracona na rzecz ¯mij Abbathora, gdy Wostock poleg³ w walce o wyzwolenie Kopalni Nashkel spod ich okupacji, lecz jego klan odzyska³ j¹ i oczyœci³, by mog³a ponownie s³u¿yæ s³usznej sprawie przeciwko z³u.
+
+PARAMETRY:
+
+Specjalne:
+– Nak³ada na nosz¹cego B³ogos³awieñstwo
+
+Obra¿enia: 2k4 +3, +2 obra¿enia przeciw istotom o z³ym charakterze
+TraK0: +3
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 1
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 9
+
+Waga: 4~
+@1006 = ~Gorgar Modroska³y~
+@1007 = ~Emisariusz Zhentarimów~
+@1008 = ~Wojownik, a zarazem kap³an Moradina, Wostock M³otog³owy znany by³ ze swojej odwagi i bezinteresownej walki przeciw zepsutym krasnoludom z powierzchni, czcz¹cym z³ego boga Abbathora. Broñ ta zosta³a utracona na rzecz ¯mij Abbathora, gdy Wostock poleg³ w walce o wyzwolenie Kopalni Nashkel spod ich okupacji, lecz jego klan odzyska³ j¹ i oczyœci³, by mog³a ponownie s³u¿yæ s³usznej sprawie przeciwko z³u.
+Mistrz p³atnerski Cromwell ulepszy³ broñ w taki sposób, ¿e jeœli zostanie rzucona, zawsze powraca do rêki w³aœciciela.
+
+PARAMETRY:
+
+Specjalne:
+– Nak³ada na nosz¹cego B³ogos³awieñstwo
+– Po rzucie wraca do w³aœciciela
+
+Obra¿enia: 2k4 +3, +2 obra¿enia przeciw istotom o z³ym charakterze
+TraK0: +3
+Typ obra¿eñ (walka wrêcz): obuchowe
+Typ obra¿eñ (rzucony): pocisk
+OpóŸnienie: 1
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 9 
+
+Waga: 4~
+@1009 = ~Wojownik, a zarazem kap³an Moradina, Wostock M³otog³owy znany by³ ze swojej odwagi i bezinteresownej walki przeciw zepsutym krasnoludom z powierzchni, czcz¹cym z³ego boga Abbathora. Broñ ta zosta³a utracona na rzecz ¯mij Abbathora, gdy Wostock poleg³ w walce o wyzwolenie Kopalni Nashkel spod ich okupacji, lecz jego klan odzyska³ j¹ i oczyœci³, by mog³a ponownie s³u¿yæ s³usznej sprawie przeciwko z³u.
+Mistrz p³atnerski Cromwell ulepszy³ broñ tak, by zawsze powraca³a do rêki w³aœciciela, jeœli zostanie rzucona. Cespenar ulepszy³ j¹ jeszcze bardziej, zwiêkszaj¹c zadawane obra¿enia.
+
+PARAMETRY:
+
+Specjalne:
+– Nak³ada na nosz¹cego B³ogos³awieñstwo
+– Po rzucie wraca do w³aœciciela
+
+Obra¿enia: 2k4 +4, +2 obra¿enia przeciw istotom o z³ym charakterze
+TraK0: +4
+Typ obra¿eñ (walka wrêcz): obuchowe
+Typ obra¿eñ (rzucony): pocisk
+OpóŸnienie: 1
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 9 
+
+Waga: 4~
+@1010 = ~M³ot Wostocka +4~
+@1011 = ~M³ot Wostocka +5~
+@1012 = ~Wojownik, a zarazem kap³an Moradina, Wostock M³otog³owy znany by³ ze swojej odwagi i bezinteresownej walki przeciw zepsutym krasnoludom z powierzchni, czcz¹cym z³ego boga Abbathora. Broñ ta zosta³a utracona na rzecz ¯mij Abbathora, gdy Wostock poleg³ w walce o wyzwolenie Kopalni Nashkel spod ich okupacji, lecz jego klan odzyska³ j¹ i oczyœci³, by mog³a ponownie s³u¿yæ s³usznej sprawie przeciwko z³u.
+Cespenar ulepszy³ broñ, zwiêkszaj¹c jej obra¿enia.
+
+PARAMETRY:
+
+Specjalne:
+– Nak³ada na nosz¹cego B³ogos³awieñstwo
+
+Obra¿enia: 2k4 +5, +2 obra¿enia przeciw istotom o z³ym charakterze
+TraK0: +5
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 1
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 9 
+
+Waga: 4~
+
+@5000 = ~Hej tam! Mogê prosiæ na s³ówko?!~
+@5001 = ~Pomocy! Potrzebujê pomocy!~
+@5002 = ~Na bogów, pomó¿cie mi!~
+@5003 = ~Dlaczego nikt mi nie pomo¿e!?~
+@5004 = ~£³³³aaaaaahahahahahahaaaaaaaa!~
+@5005 = ~Skooooczuuuuœ! £³³³aaaaahahaaaaaaaa!~
+@5006 = ~£³³aaaaaaaaaaaah!~
+@5007 = ~Wynocha st¹d!~
+@5008 = ~Wiem, ¿e jesteœ w domu!~
+@5009 = ~Ty wstrêtny draniu!~ // ³agodniejsze ni¿ "fucking bastard"
+@5010 = ~I to by by³o na tyle. Wybacz, mam rzeczy do zrobienia.~
+@5011 = ~Zasadzka!~
+@5012 = ~Banda ignorantów...~
+@5013 = ~... nieudolna ho³ota...~
+@5014 = ~A mówi¹ o sobie poszukiwacze przygód...~
+@5015 = ~Birrabollos ko valla allamatillo!~ // jêzyk fantazy – bez zmian
+@5016 = ~Co do...~
+@5017 = ~Mamo!~
+@5018 = ~Poszukiwaczu przygód! Hej!~
+@5019 = ~PodejdŸ tutaj!~
+@5020 = ~Muszê z tob¹ porozmawiaæ!~
+@5021 = ~ÆWIIIRRR!~
+@6000 = ~Nie zostawiaj mnie w takim stanie!~
+
+@6001 = ~Wejœcie do kopalni~ /* new for v2.01 - AC4400.bcs */
+@6002 = ~Chata~ /* new for v2.01 - AC4400.bcs */
+
+@10001 = ~Rozbójnicze Rozrabiaki Rauknera
+
+Pokrzy¿owaliœmy plany bojowo nastawionej grupie poszukiwaczy przygód w Beregoœcie.~
+@10002 = ~Rozbójnicze Rozrabiaki Rauknera
+
+Niestety, nie zdo³aliœmy pomóc dru¿ynie w Beregoœcie.~
+@10003 = ~Rozbójnicze Rozrabiaki Rauknera
+
+Uda³o mi siê rozwi¹zaæ problem grupy poszukiwaczy przygód.~
+@10004 = ~Wyprawa po Skoczusia
+
+I oto sta³o siê, ja i moi towarzysze wyruszyliœmy odnaleŸæ najbardziej puchatego króliczka Faerunu, którego imiê brzmi Skoczuœ. Musimy pod¹¿yæ na zachód, jak nakaza³a nam nasza zleceniodawczyni, a któ¿ wie, jakie niebezpieczeñstwa czekaj¹ nas w tej podró¿y.
+
+Czego by cz³owiek nie zrobi³ dla tysi¹ca milionów sztuk z³ota. Stworzono mnie do ¿ycia poszukiwacza przygód.~
+@10005 = ~Nowy przyjaciel Ugha
+
+Ogr Ugh odda³ Skoczusia, abyœmy mogli uszczêœliwiæ dziewczynkê o imieniu Kessy. Teraz muszê dotrzymaæ obietnicy i znaleŸæ króliczka na zastêpstwo – Kessy wspomnia³a, ¿e powinniœmy porozmawiaæ z jej ojcem na Jarmarku.~
+@10006 = ~Wyprawa po Skoczusia
+
+Uda³o nam siê zwróciæ Kessy jej ulubionego króliczka. To przypomnia³o mi, dlaczego tak lubiê ¿ycie poszukiwacza przygód.~
+@10007 = ~Nowy przyjaciel Ugha
+
+Ugh maszeruje w szeroki œwiat ze swoim królikiem Ma³y Ma³y Ugh. Szlachetne to przedsiêwziêcie – moim zdaniem w œwiecie jest zdecydowanie za ma³o wielkoludów z gryzoniami u boku.~
+@10008 = ~Pani Krynica z Nashkel têskni za synem
+
+Zgodziliœmy siê poszukaæ Antka Krynicy. Ch³opak wybra³ siê w góry ze swoj¹ narzeczon¹ i œlad po nim zagin¹³. Byæ mo¿e pomo¿e nam ³owca Barin ze œwi¹tyni w Nashkel.~
+@10009 = ~Duch w Chmurnych Szczytach?
+
+Farmerzy donosz¹, ¿e widzieli noc¹ dziwn¹ postaæ przy wodospadzie.~
+@10010 = ~W poszukiwaniu Perwella
+
+Nie uda³o mi siê odnaleŸæ Perwella w kopalni... Mam nadziejê, ¿e zdo³a³ wydostaæ siê wraz z pozosta³ymi niewolnikami, zanim wdar³a siê woda.~
+@10011 = ~¯mije Abbathora w Nashkel?
+
+W g³ównej siedzibie ¯mij dowiedzieliœmy siê niepokoj¹cych rzeczy: ich pierwotnym planem by³o, jak siê zdaje, pozyskanie staro¿ytnego krasnoludzkiego urz¹dzenia zwanego Gundmagtor, co w wspólnej mowie oznacza mniej wiêcej „Przywo³ywacz czarnych dusz”. Ataki kultu zdaj¹ siê koncentrowaæ na Nashkel.~
+@10012 = ~¯mije Abbathora w Nashkel – Lugosh
+
+Lugosh, przywódca ¯mij Abbathora z Wrót Baldura, przebywa w Kopalniach Nashkel. Tym razem nie zdo³a uciec.~
+@10013 = ~¯mije Abbathora w Nashkel – krasnoludy cienia
+
+Wygl¹da na to, ¿e poznaliœmy prawdziwe przeznaczenie Gundmagtora. Urz¹dzenie to przyzywa wojowników cienia, ca³kowicie podporz¹dkowanych temu, kto obs³uguje artefakt. Muszê odzyskaæ lub zniszczyæ ten artefakt.~
+@10014 = ~¯mije Abbathora w Nashkel – zaginieni górnicy
+
+Wygl¹da na to, ¿e w szybie wci¹¿ zosta³o kilku górników.~
+@10015 = ~¯mije Abbathora w Nashkel – potwory
+
+¯mije najwyraŸniej sprowadzi³y do kopalni jakieœ olbrzymie potwory. To z pewnoœci¹ zak³óca wydobycie.~
+@10016 = ~¯mije Abbathora w Nashkel – notatki Emersona
+
+Od czasu ataku ¯mij Abbathora Emerson nie mo¿e odnaleŸæ swoich notatek.~
+@10017 = ~¯mije Abbathora w Nashkel – potwory
+
+Uda³o nam siê zabiæ dwa Umbrowe kolosy, które ¯mije sprowadzi³y do kopalni.~
+
+@10018 = ~¯mije Abbathora w Nashkel – notatki Emersona
+
+Uda³o mi siê odnaleŸæ notatki Emersona. Z pewnoœci¹ ucieszy siê, gdy je odzyska.~
+
+@10019 = ~¯mije Abbathora w Nashkel – zaginieni górnicy
+
+Uda³o mi siê uratowaæ zaginionych górników z r¹k ob³¹kanego kap³ana. Emerson z pewnoœci¹ ucieszy siê z tych wieœci.~
+@10020 = ~¯mije Abbathora
+
+Powstrzymaliœmy natarcie ¯mij w okolicach Wrót Baldura – a przynajmniej tak¹ mam nadziejê. Lugosh Szarotrykot nie ¿yje, a nie posiadam ¿adnych informacji o innych przywódcach kultu. Nie potrafiê jednak poj¹æ, dlaczego przywo³ano moje imiê w tak otwarty sposób. Mo¿e pewnego dnia odkryjê tê tajemnicê – choæ nie wiem, czy spodoba mi siê odpowiedŸ.~
+@10021 = ~Martwy krasnolud i zapiski
+
+W kryjówce Mulaheya znaleŸliœmy martwego krasnoluda, który mia³ przy sobie skierowan¹ do niego wiadomoœæ – najwyraŸniej adresat nie by³ szczególnie zainteresowany tym, co pos³aniec mia³ do przekazania. W wiadomoœci by³a informacja o spotkaniu w Beregoœcie. Mo¿e powinniœmy zbadaæ tê sprawê.~
+@10022 = ~Tajemniczy krasnolud w Beregoœcie
+
+Tarash Czarnohe³m zachowywa³ siê skrajnie podejrzliwie i agresywnie, wiêc musieliœmy go zabiæ. Wœród jego rzeczy znaleŸliœmy list wskazuj¹cy, ¿e na pó³noc od miasta ma dojœæ do zamachu...~
+@10023 = ~Tajemniczy krasnolud w Beregoœcie
+
+Tarash Czarnohe³m wspomina³ o „¯mijach Abbathora” – kimkolwiek by nie byli. Mówi³ te¿, ¿e coœ ma siê wydarzyæ na pó³noc od Beregostu... Powinniœmy poszukaæ tego miejsca.~
+@10024 = ~Zaginiony syn
+
+Poinformowaliœmy pani¹ Krynicê o œmierci jej syna.~
+@10025 = ~Zaginiony syn
+
+ZnaleŸliœmy Antka w Twierdzy Gnolli. Czeka na nas po drugiej stronie mostu.~
+@10026 = ~Duch w Chmurnych Szczytach
+
+Antek przekaza³ nam rozwi¹zanie. Maryna obieca³a, ¿e nie zaœnie, dopóki nie otrzyma pierœcienia zarêczynowego. Muszê dostarczyæ jej ten pierœcieñ.~
+@10027 = ~Duch w Chmurnych Szczytach
+
+Wygl¹da na to, ¿e wszystko zosta³o za³atwione. Maryna otrzyma³a pierœcieñ i wreszcie mo¿e zaznaæ spokoju.~
+@10028 = ~W poszukiwaniu Perwella
+
+Elfka Afriel szuka swojego syna Perwella w Kniei Otulisko. Porwali go bandyci i najwyraŸniej zabrali w jakieœ tajne miejsce.~
+@10029 = ~W poszukiwaniu Perwella
+
+ZnaleŸliœmy Perwella w kopalni i wys³aliœmy go na powierzchniê. Moglibyœmy go teraz bezpiecznie przeprowadziæ przez las... ale z drugiej strony Afriel zapewne sowicie wynagrodzi³aby nas za odzyskanie malca...~
+@10030 = ~W poszukiwaniu Perwella
+
+ZnaleŸliœmy Perwella w kopalni i wys³aliœmy go na powierzchniê. Nie mamy czasu na u¿eranie siê z dzieciakami.~
+@10031 = ~W poszukiwaniu Perwella
+
+Afriel sama wyruszy³a na poszukiwanie syna. Dobrze chocia¿, ¿e uda³o mi siê go wydostaæ z kopalni.~
+@10032 = ~W poszukiwaniu Perwella
+
+Afriel i jej syn w koñcu znowu s¹ razem.~
+@10033 = ~Wilki i ludzie
+
+M¹¿ czarodziejki Aiwell najwyraŸniej zosta³ zara¿ony likantropi¹. Wygl¹da na to, ¿e s¹ dwa sposoby, by rozwi¹zaæ ten problem: mogê zdobyæ miksturê od Thalantyra albo siêgn¹æ po bardziej tradycyjne rozwi¹zanie i wykorzystaæ do tego miecz.
+
+Ich dom to chatka tu¿ obok siedziby Thalantyra.~
+@10034 = ~Wilki i ludzie
+
+Thalantyr wyliczy³ kilka mo¿liwoœci. Mo¿e przygotowaæ miksturê zmieszan¹ z krwi¹ Aiwell – co budzi powa¿ne w¹tpliwoœci. Mo¿e te¿ u¿yæ gurilowych jagód, choæ te nie zawsze dzia³aj¹. Najlepszym rozwi¹zaniem by³by jednak eliksir z belladonny. Ostrzeg³ nas równie¿, ¿e zdo³a uwarzyæ tylko jeden z tych specyfików.
+
+Mogê te¿ przynieœæ mu cia³o Tondera, by lepiej zrozumia³ chorobê wilko³acz¹.~
+@10035 = ~Wilki i ludzie
+
+Thalantyr odkupi³ cia³o Tondera za naprawdê niez³¹ cenê – w zamian podarowa³ mi P³on¹cy miecz. To by³ dobry interes.~
+@10036 = ~Wilki i ludzie
+
+Aiwell i Tonder byli przeszczêœliwi, ¿e mê¿czyzna zosta³ uwolniony od kl¹twy.~
+@10037 = ~Wilki i ludzie
+
+Przed domem Thalantyra jakaœ kobieta nakrzycza³a na nas, choæ nie jesteœmy pewni, o co jej chodzi³o. Mo¿e mia³o to zwi¹zek z wilko³akiem, którego zabiliœmy w pobliskiej chacie?~
+@10038 = ~Wilki i ludzie
+
+Zdecydowaliœmy siê na miksturê lecznicz¹ z gurilowych jagód. Teraz pozostaje tylko jakoœ podaæ j¹ wilko³akowi.~
+@10039 = ~Wilki i ludzie
+
+Zdecydowaliœmy siê na miksturê przygotowan¹ z krwi Aiwell. Teraz pozostaje tylko jakoœ podaæ j¹ wilko³akowi.~
+@10040 = ~Wilki i ludzie
+
+Zdecydowaliœmy siê na miksturê z belladony. Teraz pozostaje tylko jakoœ j¹ przekazaæ wilko³akowi.~
+@10041 = ~Wilki i ludzie
+
+Niech to, mikstura nie zadzia³a³a i musieliœmy zabiæ wilko³aka. Chyba powinniœmy przekazaæ Aiwell te smutne wieœci...~
+@10042 = ~Wilki i ludzie
+
+Aiwell rzeczywiœcie by³¹ niepocieszona gdy us³ysza³a o œmierci mê¿a. Odesz³a, nie zostawiaj¹c po sobie œladu...~
+@10043 = ~Wilki i ludzie
+
+Có¿ za bezowocny dzieñ. Aiwell straci³a mê¿a, Thalantyr nie zdoby³ cia³a wilko³aka do swoich badañ, a my nie dostaliœmy nagrody za swój trud. Nastêpnym razem muszê lepiej pilnowaæ swoich trofeów!~
+@20001 = ~Kult Niewidz¹cego Oka – Bunger £¹kowy
+
+Nizio³ka Emmi £¹kowa b³aga³a nas dos³ownie na kolanach, byœmy odnaleŸli jej syna, którego wci¹gn¹³ w swoje sid³a Kult.~
+@20002 = ~Kult Niewidz¹cego Oka – Bunger £¹kowy
+
+Odnalaz³em Bungera i przekona³em go, by poszed³ ze mn¹. Obieca³, ¿e pozostanie w ukryciu, dopóki nie rozprawiê siê z zagro¿eniem ze strony Kultu.~ ~Kult Niewidz¹cego Oka – Bunger £¹kowy
+
+Odnalaz³am Bungera i przekona³am go, by poszed³ ze mn¹. Obieca³, ¿e pozostanie w ukryciu, dopóki nie rozprawiê siê z zagro¿eniem ze strony Kultu.~
+@20003 = ~Kult Niewidz¹cego Oka – Bunger £¹kowy
+
+Znalaz³em Bungera i namówi³em go do ucieczki. Niestety, œci¹gnê³o to uwagê Kultu.~ ~Kult Niewidz¹cego Oka – Bunger £¹kowy
+
+Znalaz³am Bungera i namówi³am go do ucieczki. Niestety, œci¹gnê³o to uwagê Kultu.~
+@20004 = ~Kult Niewidz¹cego Oka – Bunger £¹kowy
+
+Znalaz³em Bungera. Niestety, nie okaza³ skruchy i zaalarmowa³ resztê Kultu, wiêc musia³em go zabiæ.~ ~Kult Niewidz¹cego Oka – Bunger £¹kowy
+
+Znalaz³am Bungera. Niestety, nie okaza³ skruchy i zaalarmowa³ resztê Kultu, wiêc musia³am go zabiæ.~
+@20005 = ~Kult Niewidz¹cego Oka – Bunger £¹kowy
+
+Bunger £¹kowy straci³ ¿ycie pod miastem, próbuj¹c uciec przed niebezpieczeñstwem.~
+@20006 = ~Kult Niewidz¹cego Oka – Bunger £¹kowy
+
+Bunger £¹kowy wróci³ do swojej matki. Starsza pani na pewno bêdzie chcia³a nam podziêkowaæ.~
+@20023 = ~Tajemnicza propozycja
+
+Pos³aniec wrêczy³ mi zaproszenie od swojego pana. Choæ ten nie ujawnia imienia, wyraŸnie siê mn¹ interesuje. Jeœli chcê dowiedzieæ siê czegoœ wiêcej, powinienem spotkaæ siê z pos³añcem w Miedzianym Diademie.~ ~Tajemnicza propozycja
+
+Pos³aniec wrêczy³ mi zaproszenie od swojego pana. Choæ ten nie ujawnia imienia, wyraŸnie siê mn¹ interesuje. Jeœli chcê dowiedzieæ siê czegoœ wiêcej, powinnam spotkaæ siê z pos³añcem w Miedzianym Diademie.~
+/* new in v 6.0 */
+@20024 = ~Duch w Chmurnych Szczytach
+
+Poinformowaliœmy Antka, ¿e jego narzeczona... to znaczy jej duch... nie ¿yje.~
+
+
+//BG:EE Compatibility
+
+//Strings from Original BG2 for Setup-AC_QUEST.tra
+@80001 = ~Niech ktoœ mi pomo¿e!~ [PEASF09] //#61667
+@80002 = ~~ [PEASF07] //#61665
+@80003 = ~~ [PEASF08] //#61666
+@80004 = ~Ka¿dego dnia dziêkujê bogom za dobre rzeczy w moim ¿yciu.~ [PEASF02] //##61660
+@80005 = ~Aaaa! W nogi!~ [PEASM09] //#61823
+@80006 = ~~ [PEASM07] //#61821
+@80007 = ~~ [PEASM08] //#61822
+@80008 = ~Pewnie, mo¿emy chwilê pogadaæ.~ [PEASM03] //#61817
+@80009 = ~~ [WWOLF07] //#11393
+@80010 = ~Witaj. Twoja moc wprawia w zachwyt.~ [EPRIM01] //#61614
+@80011 = ~~ [EPRIM06] //#61619
+@80012 = ~~ [EPRIM07] //#61620
+@80013 = ~Bogowie nie wybaczaj¹, g³upcze!~ [EPRIM04] //#61617
+@80014 = ~Sk³oñ siê przed bogami i b³agaj o litoœæ!~ [EPRIM03] //#61616
+@80015 = ~Czego szukasz pomiêdzy wiernymi?~ [EPRIM02] //#61615
+@80016 = ~Nie wolno mi rozmawiaæ z obcymi.~ [CHILF04] //#61556
+@80017 = ~~ [CHILF06] //#61558
+@80018 = ~Eee... czeœæ.~ [CHILF03] //#61555
+@80019 = ~No, no, wygl¹dacie na takich, co maj¹ w sakiewkach coœ wiêcej ni¿ powietrze.~ [MALMER03] //#38784
+@80020 = ~~ [MALMER06] //#38847
+@80021 = ~~ [MALMER05] //#38786
+@80022 = ~Rzuæ okiem na moje towary. Wierzê, ¿e ci siê spodobaj¹.~ [MALMER02] //#38783
+@80023 = ~Nie rób mi krzywdy!~ [CHILM07] //#61567
+@80024 = ~~ [CHILM05] //#61565
+@80025 = ~~ [CHILM06] //#61566
+@80026 = ~O raju! Poszukiwacz przygód!~ [CHILM03] //#61563
+@80027 = ~Nie jesteœ st¹d! Wiedzia³em!~ [CHILM02] //#61562
+@80028 = ~Jednego jestem pewna, nie podobasz mi siê.~ [PEASF306] //#61683
+@80029 = ~~ [PEASF307] //#61684
+@80030 = ~~ [PEASF308] //#61685
+@80031 = ~Mów.~ [ACFEM4H] //#16255
+@80032 = ~Mmmm, tak?~ [GNOMEM03] //#61703
+@80033 = ~~ [GNOMEM06] //#61706
+@80034 = ~~ [GNOMEM07] //#61707
+@80035 = ~Balor~ //#8449
+@80036 = ~Zazwyczaj nie rozmawiam z takimi jak ty, ale... witaj!~ [NOBFE03] //#61643
+@80037 = ~~ [NOBFE07] //#61647
+@80038 = ~~ [NOBFE08] //#61648
+//@80039 = ~Zbroja skórzana orków +3~ //#6365
+@80040 = ~Zmutowany gibberling~ //#2286
+@80041 = ~Szkielet ³ucznik~ //#73272
+@80042 = ~Miecze te nazywa siê zwykle mieczami obusiecznymi, wojennymi lub wojskowymi. W wielu wypadkach miecz d³ugi posiada jedn¹ krawêdŸ tn¹c¹. Nie istnieje jedna wersja miecza d³ugiego, jego konstrukcja i d³ugoœæ mog¹ siê bowiem ró¿niæ w zale¿noœci od kultury, a nawet w obrêbie tej samej spo³ecznoœci, jeœli weŸmie siê pod uwagê ró¿ne epoki. Jedn¹ z najbardziej charakterystycznych cech mieczy d³ugich jest ich d³ugoœæ, która waha siê od dziewiêædziesiêciu do stu dwudziestu centymetrów. W tym ostatnim przypadku samo ostrze mo¿e mierzyæ nawet do stu centymetrów. Wiêkszoœæ mieczy d³ugich jest obusiecznych i ma ostre zakoñczenie. Pomimo posiadania sztychu, miecz d³ugi przeznaczony jest do ciêcia, a nie do wyprowadzania pchniêæ.
+
+PARAMETRY:
+
+Obra¿enia: 1k8
+Typ obra¿eñ: sieczne
+OpóŸnienie: 4
+Rodzaj bieg³oœci: miecz d³ugi
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 4~
+@80043 = ~Ostrze to p³onie magicznym p³omieniem. Za ka¿dym razem, gdy dochodzi do trafienia, wypuszczona zostaje ognista smuga. Na rêkojeœci zosta³ wyryty napis „Meta Infernum”, który sprawia jednak wra¿enie nieco wyblak³ego i mog³o go pierwotnie nie byæ na mieczu.
+
+PARAMETRY:
+
+Obra¿enia: 1k8 +1, +1 obra¿enie od ognia
+TraK0: +1
+Typ obra¿eñ: sieczne
+OpóŸnienie: 4
+Rodzaj bieg³oœci: miecz d³ugi
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 6
+
+Waga: 4~ //#4421
+@80044 = ~Miecz d³ugi~ //#2893
+@80045 = ~P³omienny miecz +1~ //#4422
+//@80046 = only needed for BGT+Tutu
+//@80047 = only needed for BGT+Tutu
+@80048 = ~Magiczne proce to znak rozpoznawczy wojowników z rasy nizio³ków. Broñ ta zazwyczaj by³a przygotowywana przez matkê lub utalentowan¹ ciotkê dla m³odego nizio³ka, który mia³ wyruszyæ na swoj¹ drug¹ wielk¹ przygodê. Powodem tego, ¿e proca ta by³a prezentem przed drug¹, a nie przed pierwsz¹ przygod¹ by³o to, ¿e nizio³ki zazwyczaj nie chc¹ decydowaæ siê na zostanie poszukiwaczami przygód, kiedy ju¿ ich zasmakuj¹.
+
+PARAMETRY:
+
+Obra¿enia: +2
+TraK0: +2
+Typ obra¿eñ: pocisk
+OpóŸnienie: 4
+Rodzaj bieg³oœci: proca
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 3
+
+Waga: 0~//#619
+@80049 = ~Albo dziêki wykonaniu lub dziêki wystawieniu na bitewn¹ gor¹czkê, pierœcieniowe po³¹czenia tej zbroi s¹ czarne jak wêgiel. Choæ legendy mówi¹ zwykle o rycerzach w lœni¹cych zbrojach walcz¹cych z wielkimi potworami, to zaklêcie odpornoœci na ogieñ wskazuje na to, ¿e ta zbroja widzia³a wiele bitew z potworami ziej¹cymi ogniem.
+
+PARAMETRY:
+
+Specjalne:
+– Odpornoœæ na ogieñ: +20%
+
+Klasa Pancerza: 2 (0 przeciw broniom siecznym, 4 przeciw broniom obuchowym)
+
+Wymagania:
+– Si³a: 8
+
+Waga: 9~//#39557
+@80050 = ~Szata ucznia~//#37573	
+@80051 = ~Szata ta zosta³a wykonana przez twoich uczniów, którzy ciê¿ko pracowali w kuli sfer.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+
+Waga: 3~
+@80052 = ~M³ot gromów +3~//#7781
+@80053 = ~Krasnoludzki kowal, Srebrna Klinga, wyku³ ten m³ot oraz dwa inne przedmioty: pas si³y olbrzyma i rêkawice si³y ogra. Mia³ zamiar daæ je swojemu synowi, który by³ wtedy wysokiej rangi oficerem armii krasnoludzkiej, walcz¹cej z lokalnymi plemionami ogrów i olbrzymów. Niestety syn Srebrnej Klingi zgin¹³ tu¿ po ukoñczeniu tych trzech przedmiotów, zanim ojciec zd¹¿y³ mu je podarowaæ. Roz¿alony Srebrna Klinga przywdzia³ pas i rêkawice, chwyci³ M³ot gromów i ruszy³ do bitwy z olbrzymami. Zgin¹³ bohatersko.
+
+U¿ywany samotnie, M³ot gromów jest potê¿n¹ broni¹ magiczn¹, ale gdy po³¹czy siê go z rêkawicami si³y ogra i pasem si³y olbrzyma, ulega transformacji. Ta transformacja wymaga pomocy magii. M³ot gromów zadaje wtedy dodatkowe 8 obra¿eñ oraz zabija na miejscu ka¿dego ogra i olbrzyma, którego trafi.
+
+PARAMETRY:
+
+Obra¿enia: 2k4 +3
+TraK0: +3
+Typ obra¿eñ: obuchowe
+OpóŸnienie: 1
+Rodzaj bieg³oœci: m³ot bojowy
+Typ broni: 1-rêczna
+
+Wymagania:
+– Si³a: 18
+
+Waga: 4~//#39444
+@80054 = ~Klucz do gildii~ //#54030
+@80055 = ~To klucz do ni¿szych poziomów Gmachu Uciech Lady Galveny, czyli do Gildii Kurtyzan.
+
+PARAMETRY:
+
+Waga: 0~ //#1091
+@80056 = ~Podarunek nocy +5~ //#6363
+@80057 = ~Ta pob³ogos³awiona przez Shar zbroja ma d³ug¹ i ciekaw¹ historiê. Tylko najlepszy ze z³odziei móg³ nosiæ ten potê¿nie umagiczniony pancerz. Zosta³a w nim zamkniêta esencja nocy, co sprawia, ¿e nosi siê go jak zwyk³¹ zbrojê, ale zamyka on w³aœciciela w gêstwinie wiruj¹cych cieni.
+
+PARAMETRY:
+
+Specjalne:
+– Krycie siê w cieniu: +20%
+
+Klasa Pancerza: 3 (5 przeciw broniom k³utym i pociskom)
+
+Wymagania:
+– Si³a: 3
+
+Waga: 5~ //#39548
+@80058 = ~Pe³na zbroja p³ytowa Enkidu +3~ //#65033
+@80059 = ~Zbroja ta zosta³a wyprodukowana dla Enkidu, s³ynnego wojownika Kara-Tur. Choæ nikt nie oœmieli³ siê stawiæ mu czo³a w uczciwej bitwie, Enkidu by³ czêsto celem skrytych ataków zabójców, ninja i Wu-Jen.
+
+PARAMETRY:
+
+Specjalne:
+– Odpornoœæ na magiê: +5%
+– Niewra¿liwoœæ na cios w plecy
+
+Klasa Pancerza: -2 (-6 przeciw broniom siecznym, -5 przeciw broniom k³utym i pociskom)
+
+Wymagania:
+– Si³a: 15
+
+Waga: 45~ //#66422
+@80060 = ~Umbrowy kolos~
+@80061 = ~Proca +2~
+
+
+//Journal Titles
+@90001 = ~Rozbójnicze Rozrabiaki Rauknera~
+@90004 = ~Wyprawa po Skoczusia~
+@90005 = ~Nowy przyjaciel Ugha~
+@90006 = ~W poszukiwaniu Perwella~
+@90007 = ~Wilki i ludzie~
+@90008 = ~¯mije Abbathora~
+@90009 = ~Kult Niewidz¹cego Oka – Bunger £¹kowy~
+@90010 = ~Tajemnicza propozycja~
+@90011 = ~Piknik zakoñczony fiaskiem~
+
+//EE Descriptions, not needed for BGT/BGII
+//@100032
+//@100048
+//@100058
+//@100086
+
+//Karlini Journals
+
+@2000001 = ~Niezrównany Karlini – ksiêga zaklêæ Niezrównanego Karliniego
+
+W gospodzie „Pod Pomocn¹ D³oni¹” spotkaliœmy gnoma imieniem Ignatius Bombastus III. Zaoferowa³ nam 300 sztuk z³ota za zdobycie jednej z ksi¹g zaklêæ Niezrównanego Karliniego, która podobno znajduje siê w ruinach Ulcastera.~
+@2000002 = ~Niezrównany Karlini – ksiêga zaklêæ Niezrównanego Karliniego
+
+Mieliœmy szczêœcie i znaleŸliœmy ksiêgê zaklêæ Niezrównanego Karliniego w ruinach Ulcastera.~
+@2000003 = ~Niezrównany Karlini – ksiêga zaklêæ Niezrównanego Karliniego
+
+Przekazaliœmy Ignatiusowi ksiêgê zaklêæ Niezrównanego Karliniego. Po krótkich badaniach odnalaz³ ostatnie zaklêcie, którego Karlini u¿y³ tu¿ przed swoim znikniêciem. Poniewa¿ mog³o siê to okazaæ op³acalne, zaproponowaliœmy, ¿e mo¿emy towarzyszyæ mu podczas rzucania zaklêcia. Ignatius przysta³ na to i powiedzia³, ¿e bêdzie czeka³ na nas w kamiennym krêgu na Lwim Trakcie.~
+@2000004 = ~Niezrównany Karlini
+
+Powiedzieliœmy Ignatiusowi, ¿e nie zamierzamy ju¿ dla niego pracowaæ.~
+@2000005 = ~Niezrównany Karlini
+
+Oddaliœmy Ignatiusowi ksiêgê zaklêæ Niezrównanego Karliniego i otrzymaliœmy obiecan¹ nagrodê.~
+@2000006 = ~Niezrównany Karlini
+
+Nadzorowaliœmy rzucanie zaklêcia, ale ku naszemu zaskoczeniu pojawi³ siê balor, a Ignatius znikn¹³. Walka by³a trudna, ale uda³o nam siê pokonaæ demona. Niestety nie mamy pojêcia, jak sprowadziæ Ignatiusa z miejsca, do którego trafi³.~
+@2000007 = ~Niezrównany Karlini
+
+Nadzorowaliœmy rzucanie zaklêcia, ale ku naszemu zaskoczeniu pojawi³ siê balor, a Ignatius znikn¹³.
+Niespodziewanie demon zaproponowa³, ¿e wypuœci oba gnomy w zamian za moj¹ duszê. Odrzuci³em tê propozycjê, a balor rozp³yn¹³ siê w powietrzu.~
+@2000008 = ~Niezrównany Karlini
+
+Nadzorowaliœmy rzucanie zaklêcia, ale ku naszemu zaskoczeniu pojawi³ siê balor, a Ignatius po prostu znikn¹³. Ku naszemu zdziwieniu demon zaproponowa³, ¿e wypuœci oba gnomy, jeœli odpowiem poprawnie na kilka trudnych pytañ dotycz¹cych Wybrze¿a Mieczy. Jeœli nam siê nie uda, w ramach odwetu mia³ wzi¹æ moj¹ duszê.
+Dziêki szczêœciu i w³asnemu wysi³kowi uda³o mi siê odpowiedzieæ poprawnie na wszystkie trzy pytania. W zamian balor rozp³yn¹³ siê w powietrzu, lecz dotrzyma³ s³owa i zwróci³ oba gnomy ca³e i zdrowe. Oni z kolei – wdziêczni, choæ we w³asnym stylu, podziêkowali za ratunek.
+Patrz¹c z perspektywy, nagroda, któr¹ od nich otrzymaliœmy, ca³kiem nieŸle rekompensowa³a trud w³o¿ony w wykonanie zadania.~
+@2000009 = ~Niezrównany Karlini~
+
+//Geraldo's Journal entries
+
+@3000001 = ~Hodowla gibberlingów we Wrotach Baldura
+
+Podczas wêdrówki ulicami Wrót Baldura spotkaliœmy mê¿czyznê, który przedstawi³ siê jako „Geraldo Wspania³y”. Opowiedzia³ nam, ¿e zamierza³ wytwarzaæ niebieski barwnik z futra gibberlingów, lecz gdy zaczê³y rozmna¿aæ siê w niekontrolowany sposób, zmuszony by³ zamkn¹æ je w swoim domu. Poprosi³ nas, byœmy udali siê do jego posiad³oœci i rozprawili siê z tymi potworkami. Wed³ug niego powinno byæ ich tam ju¿ oko³o osiemnastu. Jego dom to du¿y, niebiesko-szary budynek z bia³ym p³otem, na wschód od centralnej czêœci Wrót Baldura.~
+@3000002 = ~Hodowla gibberlingów we Wrotach Baldura
+
+W domu Geraldo by³y tylko dwa gibberlingi. Mimo to powinniœmy wróciæ do niego i przekazaæ mu futra.~
+
+@3000003 = ~Hodowla gibberlingów we Wrotach Baldura
+
+Geraldo poprosi³ nas o odnalezienie pozosta³ych gibberlingów. Aby u³atwiæ nam zadanie, da³ nam ptaka imieniem Elminster, który bêdzie nas ostrzega³, gdy te stwory znajd¹ siê w pobli¿u. Dla zachêty obieca³ równie¿ 50 sztuk z³ota za ka¿de zdobyte futro oraz jakiœ u¿yteczny przedmiot, jeœli uda nam siê znaleŸæ je wszystkie.~
+@3000004 = ~Hodowla gibberlingów we Wrotach Baldura
+
+Uda³o nam siê znaleŸæ wszystkie pozosta³e gibberlingi. Gdy poinformowaliœmy o tym Geraldo, ten bez s³owa odszed³, mamrocz¹c coœ o szukaniu szczêœcia gdzie indziej.~
+@3000005 = ~Hodowla gibberlingów we Wrotach Baldura
+
+Poinformowaliœmy Geraldo, ¿e rezygnujemy z jego zlecenia. Ten tylko wymamrota³ coœ o szukaniu szczêœcia gdzie indziej i odszed³.~
+
+@3000006 = ~Hodowla gibberlingów we Wrotach Baldura~
+
+@3000008 = ~¯mije Abbathora
+
+Zgodziliœmy siê stawiæ czo³a Draglonowi, o którym wspomina³ Bashrik w swoim dzienniku. Z tego, co wiem, mo¿e przebywaæ w G³êbokich Piwnicach.~
+@3000009 = ~¯mije Abbathora
+
+Zmierzyliœmy siê z Draglonem, ale ten niestety uciek³. Powinniœmy wróciæ do œwi¹tyni Helma i porozmawiaæ z krasnoludami.~
+@3000010 = ~¯mije Abbathora
+
+Czarodziejka o imieniu Jenna przechowuje dla krasnoludów pewien artefakt. Ona i jej towarzysz Jassir zatrzymali siê w gospodzie w pó³nocno-zachodniej dzielnicy. Muszê tam pójœæ i powiedzieæ jej has³o: „Pozdrowienia od Mirjali”.~
+@3000011 = ~¯mije Abbathora
+
+Postanowiliœmy, ¿e nie bêdziemy dalej pomagaæ krasnoludom.~
+@3000013 = ~¯mije Abbathora
+
+Zgodziliœmy siê zbadaæ magazyn w po³udniowo-wschodniej dzielnicy Wrót Baldura. Wierzymy, ¿e to kryjówka ¯mij Abbathora. Bêdziemy potrzebowaæ klucza, by wejœæ do œrodka.~
+
+@3000014 = ~Wilki i ludzie
+
+Przed domem Thalantyra jakaœ kobieta nakrzycza³a na nas, choæ nie jesteœmy pewni, o co jej chodzi³o. Mo¿e mia³o to zwi¹zek z wilko³akiem, którego zabiliœmy w domu na po³udniowo-zachodnim krañcu Beregostu?~
+@3000015 = ~Wilki i ludzie
+
+M¹¿ czarodziejki Aiwell najwyraŸniej zosta³ zara¿ony likantropi¹. Wygl¹da na to, ¿e s¹ dwa sposoby, by rozwi¹zaæ ten problem: mogê zdobyæ miksturê od Thalantyra albo siêgn¹æ po bardziej tradycyjne rozwi¹zanie i wykorzystaæ do tego miecz.
+
+Ich dom to niewielka chatka na po³udniowo-zachodnim skraju Beregostu.~
+
+/* new for v5.0 */
+
+@3000016 = ~¯mije Abbathora
+
+Przekazaliœmy krasnoludzki dziennik Draglonowi z G³êbokich Piwnic i obawiam siê, ¿e przez to straciliœmy mo¿liwoœæ skontaktowania siê z drugim wspomnianym krasnoludem, Wostockiem – tym, dla którego dziennik by³ w³aœciwie przeznaczony. Byæ mo¿e w œwi¹tyni Helma we Wrotach Baldura uda mi siê jeszcze o niego zapytaæ, jeœli zdobêdê wiêcej informacji o kulcie zwanym „¯mijami Abbathora”.~
+@3000017 = ~¯mije Abbathora
+
+W G³êbokich Piwnicach spotkaliœmy krasnoluda, który powita³ mnie z otwartymi ramionami, ale nie chcia³ wyjaœniæ, o co chodzi. Zamiast tego odszed³, rzucaj¹c groŸbê o potê¿nym wrogu, którego rzekomo sobie narobiliœmy... Szkoda, ¿e ludzie s¹ tacy dra¿liwi. Mo¿e jeszcze zdo³am odkryæ, co mia³ na myœli, choæ mam przeczucie, ¿e bez krasnoluda w dru¿ynie niczego siê nie dowiem.~
+@3000018 = ~¯mije Abbathora
+
+Pokazaliœmy dziennik Bashrika Draglonowi, który jest kontaktem ¯mij Abbathora, ale nie spodoba³o mu siê, jak dopytywaliœmy o szczegó³y. Odszed³, rzucaj¹c groŸbê o potê¿nym wrogu, którego rzekomo sobie narobiliœmy... 
+Wygl¹da na to, ¿e najlepszym sposobem, by zdobyæ wiêcej informacji, bêdzie poszukanie Wostocka w œwi¹tyni Helma we Wrotach Baldura.~
+@3000019 = ~¯mije Abbathora
+
+Skonfrontowaliœmy siê z Draglonem, kontaktem ¯mij Abbathora, ale nie spodoba³o mu siê, ¿e dopytujemy o szczegó³y. Odszed³, rzucaj¹c groŸbê o potê¿nym wrogu, którego rzekomo sobie narobiliœmy... Wygl¹da na to, ¿e najlepszym sposobem na zdobycie dodatkowych informacji bêdzie chodzenie z ulotk¹ kultu i sprawdzanie, czy ktoœ jej nie rozpoznaje.~
+@3000020 = ~¯mije Abbathora
+
+W G³êbokich Piwnicach spotkaliœmy Draglona, kontakt ¯mij Abbathora, który powita³ mnie z otwartymi ramionami, ale gdy odmówiliœmy pracy dla kultu, ten odwróci³ siê na piêcie i rzuci³ groŸbê o potê¿nym wrogu, którego rzekomo sobie narobiliœmy... Mo¿e zrozumiem, co mia³ na myœli, gdy zdobêdê wiêcej informacji o kulcie zwanym „¯mijami Abbathora”.~
+@3000021 = ~¯mije Abbathora
+
+Pokazaliœmy dziennik Bashrika Draglonowi, który jest kontaktem ¯mij Abbathora, ale gdy odmówiliœmy pracy dla kultu, ten odwróci³ siê na piêcie i rzuci³ groŸbê o potê¿nym wrogu, którego rzekomo sobie narobiliœmy... Wygl¹da na to, ¿e najlepszym sposobem, by zdobyæ wiêcej informacji, bêdzie poszukanie Wostocka w œwi¹tyni Helma we Wrotach Baldura.~
+@3000022 = ~¯mije Abbathora
+
+W G³êbokich Piwnicach spotkaliœmy Draglona, kontakt ¯mij Abbathora, ale gdy odmówiliœmy pracy dla kultu, ten odwróci³ siê na piêcie i rzuci³ groŸbê o potê¿nym wrogu, którego rzekomo sobie narobiliœmy... Wygl¹da na to, ¿e najlepszym sposobem na zdobycie dodatkowych informacji bêdzie chodzenie z ulotk¹ kultu i sprawdzanie, czy ktoœ jej nie rozpoznaje.~
+@3000023 = ~¯mije Abbathora
+
+W G³êbokich Piwnicach spotkaliœmy Draglona, kontakt ¯mij Abbathora, ale gdy mu zagroziliœmy, ten odwróci³ siê na piêcie i rzuci³ groŸbê o potê¿nym wrogu, którego rzekomo sobie narobiliœmy... Mo¿e zrozumiem, co mia³ na myœli, jeœli zdobêdê wiêcej wiedzy o kulcie zwanym „¯mijami Abbathora”.~
+@3000024 = ~¯mije Abbathora
+
+W G³êbokich Piwnicach spotkaliœmy Draglona, kontakt ¯mij Abbathora, ale gdy mu zagroziliœmy, ten odwróci³ siê na piêcie i rzuci³ groŸbê o potê¿nym wrogu, którego rzekomo sobie narobiliœmy... Wygl¹da na to, ¿e najlepszym sposobem, by zdobyæ wiêcej informacji, bêdzie poszukanie Wostocka w œwi¹tyni Helma we Wrotach Baldura.~
+@3000025 = ~¯mije Abbathora
+
+W G³êbokich Piwnicach spotkaliœmy Draglona, kontakt ¯mij Abbathora, ale gdy mu zagroziliœmy, ten odwróci³ siê na piêcie i rzuci³ groŸbê o potê¿nym wrogu, którego rzekomo sobie narobiliœmy... Wygl¹da na to, ¿e najlepszym sposobem na zdobycie dodatkowych informacji bêdzie chodzenie z ulotk¹ kultu i sprawdzanie, czy ktoœ jej nie rozpoznaje.~
+@3000026 = ~¯mije Abbathora
+
+Ech... Znów narobiliœmy sobie wrogów u kolejnej z³owrogiej organizacji, która myœla³a, ¿e bêdê pracowa³ jako ich popychad³o. Wydaj¹ siê wystarczaj¹co groŸni, ale zobaczymy, czy poœl¹ za mn¹ wiêcej ni¿ jedn¹ grupê zabójców, gdy zorientuj¹ siê, ¿e sami potrafimy byæ niebezpieczni.~
+@3000027 = ~¯mije Abbathora
+
+Zgodziliœmy siê zabiæ Wostocka i jego towarzyszy na zlecenie Draglona, kontaktu ¯mij Abbathora. Wostock widziany by³ ostatnio w Œwi¹tyni Helma we Wrotach Baldura. Gdy wykonam zadanie, Draglon bêdzie czeka³ w G³êbokich Piwnicach.~
+@3000028 = ~¯mije Abbathora
+
+Wostock nie ¿yje.~
+
+@3000029 = ~¯mije Abbathora
+
+Czarodziejka o imieniu Jenna przechowuje dla krasnoludów pewien artefakt. Ona i jej towarzysz Jassir zatrzymali siê w gospodzie w pó³nocno-zachodniej dzielnicy. Muszê siê tam udaæ i odzyskaæ od nich ten staro¿ytny krasnoludzki artefakt.~
+@3000030 = ~¯mije Abbathora
+
+Mam przy sobie Gundmagtor, krasnoludzki artefakt, który Draglon kaza³ mi odzyskaæ. Powinniœmy wróciæ do G³êbokich Piwnic i mu go przekazaæ.~
+@3000031 = ~¯mije Abbathora
+
+Draglon wrêczy³ mi klucz do magazynu w po³udniowo-wschodniej czêœci Wrót Baldura, gdzie odbywa siê spotkanie ¯mij Abbathora. Skoro mnie zaprosili, wypada siê tam pojawiæ i porozmawiaæ o mojej dalszej roli w kulcie.~
+@3000032 = ~¯mije Abbathora
+
+Odpowiedzi na temat ¯mij Abbathora mo¿e udzieliæ mi Wostock, którego znajdê w Kana³ach.~
+@3000033 = ~¯mije Abbathora
+
+Na Nadbrze¿nym Trakcie byliœmy œwiadkiem zasadzki i znaleŸliœmy dziennik krasnoluda imieniem Bashrik. Wynika z niego, ¿e w regionie dzia³aj¹ dwie frakcje. Draglon nale¿y do ¯mij Abbathora – kultu oddaj¹cego czeœæ z³owrogiemu krasnoludzkiemu bogu, z kolei Wostock prowadzi œledztwo przeciwko temu kultowi. Bashrik mia³ spotkaæ siê z Wostockiem w œwi¹tyni Helma we Wrotach Baldura. Draglona, cz³onka kultu, ostatnio widziano w G³êbokich Piwnicach.~
+@3000034 = ~¯mije Abbathora
+
+Nie zgodziliœmy siê dalej wspieraæ Wostocka w jego œledztwie przeciwko ¯mijom Abbathora. Mimo to w ka¿dej chwili mogê zejœæ do G³êbokich Piwnic i spróbowaæ porozmawiaæ z Draglonem.~
+@3000035 = ~¯mije Abbathora
+
+Powinniœmy ponownie udaæ siê do œwi¹tyni Helma we Wrotach Baldura i spotkaæ siê tam z Wostockiem.~
+@3000036 = ~¯mije Abbathora
+
+Jenny zosta³a zabita przez s³ugi ¯mij, a artefakt wpad³ w ich rêce. Muszê wróciæ do Wostocka w œwi¹tyni Helma we Wrotach Baldura i przekazaæ mu tê wiadomoœæ.~
+@3000037 = ~¯mije Abbathora
+
+Spe³niliœmy proœbê Wostocka i zakoñczyliœmy jego ¿ycie. Muszê przyznaæ, ¿e poruszy³o nas to bardziej, ni¿ chcielibyœmy przyznaæ. Pozostaje wierzyæ, ¿e on i jego towarzysze trafili do zaœwiatów, których pragnêli.~
+@3000038 = ~¯mije Abbathora
+
+Wostock b³aga³, byœmy oszczêdzili mu powolnej œmierci i zakoñczyli jego cierpienie. Nie s¹dziliœmy, ¿e w³aœnie to oka¿e siê ostatni¹ przys³ug¹, któr¹ bêdziemy mogli mu oddaæ~
+@3000050 = ~Wostock
+
+Powinniœmy zanieœæ cia³o Wostocka do œwi¹tyni Helma we Wrotach Baldura. Jestem pewien, ¿e kap³an bêdzie wiedzia³, jak odes³aæ je do jego klanu.~
+@3000051 = ~Wostock
+
+Dostarczyliœmy cia³o Wostocka kap³anowi Helma, który zadba o to, by jego oraz jego towarzyszy odes³ano do klanu na godny pochówek.~
+@3000052 = ~Wostock~
+@3000054 = ~Co zrobiæ z Gundmagtorem?~
+@3000055 = ~Co zrobiæ z Gundmagtorem?
+
+W moje rêce trafi³ Gundmagtor, staro¿ytny, z³owrogi krasnoludzki artefakt, z którego nie mam ¿adnego po¿ytku. Pytanie tylko, co z nim teraz zrobiæ. Trzymanie go przy sobie nie ma wiêkszego sensu. Prêdzej czy póŸniej ktoœ zacznie go szukaæ. Mo¿e istniej¹ lepsi kandydaci ni¿ nikczemny kult krasnoludów, którzy mogliby siê nim zaj¹æ? Na przyk³ad przyjaciele Wostocka – kap³an ze œwi¹tyni Helma we Wrotach Baldura powinien coœ wiedzieæ. Mogê te¿ pokazaæ go magom, którzy maj¹ doœwiadczenie z potê¿nymi artefaktami... Jest jeszcze opcja zniszczenie przedmiotu, by nikt wiêcej nie móg³ nadu¿yæ jego mocy.~
+@3000056 = ~Co zrobiæ z Gundmagtorem?
+
+W moje rêce trafi³ Gundmagtor, staro¿ytny, z³owrogi krasnoludzki artefakt, z którego nie mam ¿adnego po¿ytku. Trzymanie go przy sobie nie ma sensu. Mogê pokazaæ go magom, którzy maj¹ doœwiadczenie z potê¿nymi artefaktami.~
+@3000057 = ~Co zrobiæ z Gundmagtorem?
+
+Oddaliœmy Gundmagtora, staro¿ytny z³owrogi artefakt krasnoludów, kap³anowi Helma. Przeka¿e go przyjacio³om Wostocka. Z pewnoœci¹ bêd¹ wiedzieli, jak go zabezpieczyæ, by ju¿ nigdy nikomu nie wyrz¹dzi³ krzywdy.~
+@3000058 = ~Co zrobiæ z Gundmagtorem?
+
+Sprzedaliœmy Gundmagtora, staro¿ytny z³owrogi artefakt krasnoludów, emisariuszowi Zhentarimów, który da³ za niego ca³kiem pokaŸn¹ sumkê.~
+@3000059 = ~Co zrobiæ z Gundmagtorem?
+
+Emisariusz Zhentarimów zaproponowa³, ¿e odkupi ode mnie Gundmagtora. Da³o siê wyczuæ, ¿e niezwykle mu na tym artefakcie zale¿y. Jeœli zdecydujê siê na sprzeda¿, to znajdê go w Sp³onionej Syrenie.~
+@3000060 = ~Co zrobiæ z Gundmagtorem?
+
+Oddaliœmy Gundmagtora Thalantyrowi z Wysokiego ¯ywop³otu. Mag zamierza go zniszczyæ. Kosztowa³o mnie to tysi¹c sztuk z³ota, wiêc mam nadziejê, ¿e zrobi to porz¹dnie!~
+@3000061 = ~Co zrobiæ z Gundmagtorem?
+
+Thalantyr z Wysokiego ¯ywop³otu zaoferowa³ zniszczenie krasnoludzkiego artefaktu Gundmagtor. ¯¹da jednak tysi¹ca sztuk z³ota jako zwrot kosztów!~
+@3000062 = ~Co zrobiæ z Gundmagtorem?
+
+Wygl¹da na to, ¿e Halbazzer Drin nie bêdzie zbyt pomocny. Nawet nie chcia³ spojrzeæ na Gundmagtora.~
+
+/* BG2 follow up for good path */
+//@3000080 =
+
+@3000081 = ~Tajemnicza propozycja
+
+Proszê, proszê... Krasnolud, który mnie zaczepi³, okaza³ siê jednym z dwóch przyjació³ Wostocka, krasnoludzkiego wojownika i kap³ana, któremu pomaga³em w walce ze z³ym kultem „¯mij Abbathora”. Kultem tym dowodzi³ Lugosh – ten sam, którego wygna³em z kopalñ Nashkel. Jak mog³em zapomnieæ o dzielnym Wostocku, który wola³ œmieræ z mojej rêki ni¿ powolne umieranie od ran... Przekazali mi jego m³ot, broñ naprawdê potê¿n¹, i poprosili, abym opowiada³ o odwadze Wostocka za ka¿dym razem, gdy ktoœ spyta o ten orê¿.~ ~Tajemnicza propozycja
+
+Proszê, proszê... Krasnolud, który mnie zaczepi³, okaza³ siê jednym z dwóch przyjació³ Wostocka, krasnoludzkiego wojownika i kap³ana, któremu pomaga³am w walce ze z³ym kultem „¯mij Abbathora”. Kultem tym dowodzi³ Lugosh – ten sam, którego wygna³am z kopalñ Nashkel. Jak mog³am zapomnieæ o dzielnym Wostocku, który wola³ œmieræ z mojej rêki ni¿ powolne umieranie od ran... Przekazali mi jego m³ot, broñ naprawdê potê¿n¹, i poprosili, abym opowiada³a o odwadze Wostocka za ka¿dym razem, gdy ktoœ spyta o ten orê¿.~
+
+@3000083 = ~Cromwell mo¿e zaczarowaæ m³ot Wostocka tak, bym móg³ nim tak¿e rzucaæ! Potrzebuje do tego zwoju Zaklêtej broni, zwoju Miniaturowych meteorów Melfa, diamentu oraz zapewne jakiejœ sumy z³ota, której na razie nie sprecyzowa³.~ ~Cromwell mo¿e zaczarowaæ m³ot Wostocka tak, bym mog³a nim tak¿e rzucaæ! Potrzebuje do tego zwoju Zaklêtej broni, zwoju Miniaturowych meteorów Melfa, diamentu oraz zapewne jakiejœ sumy z³ota, której na razie nie sprecyzowa³.~
+@3000084 = ~Cespenar mo¿e ulepszyæ m³ot Wostocka przy pomocy m³ota +2 i 10 000 sztuk z³ota.~
+@3000085 = ~Cespenar mo¿e ulepszyæ m³ot Wostocka, jeœli przyniosê mu m³ot +2, zwój Zaklêtej broni, diament oraz 10 000 sztuk z³ota.~
+@3000086 = ~¯mije Abbathora
+
+ Mam przeczucie, ¿e bez krasnoluda w dru¿ynie niczego siê nie dowiem.~
