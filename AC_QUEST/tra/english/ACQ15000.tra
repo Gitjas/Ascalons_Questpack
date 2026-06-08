@@ -22,7 +22,7 @@
 @21  = ~(sigh) I'm looking for my son, Perwell. Bandits have kidnapped him.~
 @22  = ~What a crime! We will help you.~
 @23  = ~Why do these people do such a thing?~
-@24  = ~Do you have a guess where he is?~
+@24  = ~Do you have any idea where he is?~ /* or even better "Do you have any idea where he has been taken?" */
 @25  = ~Do you think that he is still alive?~
 @26  = ~I'm afraid we cannot help you.~
 @27  = ~I thank you. I am looking for my son, Perwell. Bandits have kidnapped him.~
