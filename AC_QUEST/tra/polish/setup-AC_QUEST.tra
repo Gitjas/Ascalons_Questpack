@@ -21,7 +21,7 @@
 @20   = ~Pierœcieñ ochrony Antka~
 @21   = ~Pierœcieñ ochrony Antka
 
-Ten prosty pierœcieñ zosta³ nasycony s³abym zaklêciem chroni¹cym nosz¹cego. Wewn¹trz widnieje grawerunek: "Z mi³oœci do M., od A."
+Ten prosty pierœcieñ zosta³ nasycony s³abym zaklêciem chroni¹cym nosz¹cego. Wewn¹trz widnieje grawerunek: "Dla M., z mi³oœci¹, A."
 
 PARAMETRY:
 
@@ -150,6 +150,7 @@ L~ ~<CHARNAME>, która pracuje dla Wostocka, ju¿ tu zmierza. WeŸ ze sob¹ Herolda 
 
 L~
 @78   = ~Lugoshu, wierny s³ugo!
+
 Doceniamy twoje starania, by przej¹æ kontrolê nad kopalni¹ ¿elaza w Nashkel. Mamy jednak jeszcze jedn¹ sprawê: miej oko na kogoœ, kto zwie siê <CHARNAME> i pochodzi z Candlekeep. Rozkaz pochodzi z najni¿szych g³êbin i wiesz, co to oznacza.
 
 Niech Bóg spije chwa³ê, a wszystkie klejnoty przypadn¹ ¯mijom!~
@@ -616,7 +617,7 @@ Nie mo¿e u¿ywaæ:
  Druid
  Kap³an
  Mag~
-@80047 = ~Ostrze to pali siê magicznym p³omieniem. Za ka¿dym razem, gdy dochodzi do trafienia, wypuszczona zostaje ognista smuga. Na rêkojeœci zosta³ wyryty napis "Meta Infernum", chocia¿ sprawia wra¿enie nieco wyblak³ego i mog³o go nie byæ pierwotnie na mieczu.
+@80047 = ~Ostrze to p³onie magicznym p³omieniem. Za ka¿dym razem, gdy dochodzi do trafienia, wypuszczona zostaje ognista smuga. Na rêkojeœci zosta³ wyryty napis "Meta Infernum", który sprawia jednak wra¿enie nieco wyblak³ego i mog³o go pierwotnie nie byæ ba mieczu.
 
 PARAMETRY:
 
@@ -625,7 +626,7 @@ TraK0: +1
 Typ obra¿eñ: sieczne
 Waga: 4
 OpóŸnienie: 4
-Rodzaj bieg³oœci: d³ugi miecz
+Rodzaj bieg³oœci: c
 Typ broni: 1-rêczna
 Wymagana si³a: 6
 Nie mo¿e u¿ywaæ:
