@@ -1,0 +1,25 @@
+/* this file is not used in the mod */
+
+@0    = ~Hej, ty! Poœwiêæ mi chwilê, proszê! Chcia³bym z tob¹ pomówiæ!~
+@1    = ~Jasne, o co chodzi?~
+@2    = ~Kim jesteœ?~
+@3    = ~Stój! Nie podchodŸ bli¿ej, krasnoludzie!~
+@4    = ~Ej! Zachowaj dystans!~
+@5    = ~Wybacz mi, proszê, moje grubiañstwo, ale chcia³bym ci z³o¿yæ propozycjê.~
+@6    = ~Jestem tylko pos³añcem, panie. Pos³añcem z ofert¹ dla ciebie.~ ~Jestem tylko pos³añcem, pani. Pos³añcem z ofert¹ dla ciebie.~
+@7    = ~Zachowaj spokój, panie. Nie mam wrogich zamiarów. Jestem tylko pos³añcem, który przychodzi z ofert¹.~ ~Zachowaj spokój, pani. Nie mam wrogich zamiarów. Jestem tylko pos³añcem, który przychodzi z ofert¹.~
+@8    = ~Reprezentujê pewnego zamo¿nego mieszkañca tego miasta. Z oczywistych powodów pominê jego imiê. On sam jednak zna ciebie i chcia³by skorzystaæ z twoich us³ug.~
+@9    = ~Czy on te¿ poluje na pomiot Bhaala?~
+@10   = ~A jakich niby us³ug?~
+@11   = ~Nie ufam ci.~
+@12   = ~Zastanowiê siê nad tym.~
+@13   = ~Nigdy nie pozwalam siê wynajmowaæ bezimiennym postaciom.~
+@14   = ~W porz¹dku, pójdê za tob¹.~
+@15   = ~Poluje na pomiot Bhaala? O, rety, nie! Mój mocodawca jest œwiadomy twojego dziedzictwa... bardzo œwiadomy, ale jego to nie interesuje. Interesuj¹ go bardziej... przyziemne umiejêtnoœci.~
+@16   = ~Jakiego rodzaju us³ug ode mnie oczekuje?~
+@17   = ~<CHARNAME>, wybacz mi, ale otrzyma³em wyraŸne instrukcje, by nie zdradzaæ ci niczego wiêcej. Zapewniam jednak, ¿e twoje zaufanie zostanie wynagrodzone.~
+@18   = ~Czy ma to coœ wspólnego z faktem, ¿e jestem pomiotem Bhaala?~
+@19   = ~Oczywiœcie masz do tego prawo. Przemyœl to na spokojnie. Nie ma poœpiechu.~
+@20   = ~Oczywiœcie masz do tego prawo. Przemyœl to na spokojnie, gdy¿ donik¹d siê nie spieszymy. Odszukaj mnie w Miedzianym Diademie, gdy ju¿ podejmiesz decyzjê.~
+@21   = ~Przemyœl to na spokojnie, gdy¿ donik¹d siê nie spieszymy. Mój pan jest niezwykle bogaty i szczodry. Odszukaj mnie w Miedzianym Diademie, gdy ju¿ podejmiesz decyzjê.~
+@22   = ~Wspaniale. Zatem ruszajmy, zaprowadzê ciê do mojego pana.~
