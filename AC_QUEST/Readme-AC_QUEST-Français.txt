@@ -337,6 +337,7 @@ Still missing: Italian
 7.0 - 2026-07-25
 -Polish version added, by my_summertime, SoM Membress, part of CoB Clan
 -typo corrections, by visionok
+-grammar correction, by maurvir
 
 ***************************************************************************************************************
 
