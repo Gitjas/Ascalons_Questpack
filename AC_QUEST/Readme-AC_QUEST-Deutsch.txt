@@ -334,6 +334,10 @@ Still missing: Italian
 -correct all loot for BGT/EET: should not be too powerful.
 -Typo correction.
 
+7.0 - 2026-07-25
+-Polish version added, by my_summertime, SoM Membress, part of CoB Clan
+-typo corrections, by visionok
+
 ***************************************************************************************************************
 
 
